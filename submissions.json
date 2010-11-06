@@ -7822,6 +7822,21 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF181379": {
+    "contest_id": 44,
+    "language": "GNU C++",
+    "path": "codeforces/44/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Holidays",
+    "problem_url": "https://codeforces.com/contest/44/problem/C",
+    "submission_id": "CF181379",
+    "submission_url": "https://codeforces.com/contest/44/submission/181379",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Nov/06/2010 19:11"
+  },
   "CF181486": {
     "contest_id": 44,
     "language": "GNU C++",
