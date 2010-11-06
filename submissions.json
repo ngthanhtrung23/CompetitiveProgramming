@@ -7822,6 +7822,21 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF181486": {
+    "contest_id": 44,
+    "language": "GNU C++",
+    "path": "codeforces/44/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Cola",
+    "problem_url": "https://codeforces.com/contest/44/problem/B",
+    "submission_id": "CF181486",
+    "submission_url": "https://codeforces.com/contest/44/submission/181486",
+    "tags": [
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Nov/06/2010 19:15"
+  },
   "CF182001": {
     "contest_id": 44,
     "language": "Java 6",
