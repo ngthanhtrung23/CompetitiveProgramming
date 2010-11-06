@@ -51,7 +51,7 @@ pair<pair<int,int>, pair< pair<int,int>, pair<int,int> > > a[100111];
 int main() {
 //    freopen("input.txt", "r", stdin);
 //    freopen("output.txt", "w", stdout);
-    int n;
+    int n; 
     GN(n);
     FOR(i,0,n+1) {
         next[i] = i+1;
