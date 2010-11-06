@@ -57,25 +57,11 @@ int main() {
         next[i] = i+1;
         prev[i] = i-1;
     }
-    int nnx = 1000111000, nny = 1000111000, lnx = 0, lny = 0;
     FOR(i,1,n) {
         GN(a[i].S.F.F);
         GN(a[i].S.S.F);
         GN(a[i].S.F.S);
         GN(a[i].S.S.S);
-        
-        nnx = min(nnx, a[i].S.F.F);
-        nnx = min(nnx, a[i].S.S.F);
-        
-        nny = min(nny, a[i].S.F.S);
-        nny = min(nny, a[i].S.S.S);
-        
-        lnx = max(lnx, a[i].S.F.F);
-        lnx = max(lnx, a[i].S.S.F);
-        
-        lny = max(lny, a[i].S.F.S);
-        lny = max(lny, a[i].S.S.S);
-        
         GN(a[i].F.F);
         a[i].F.S = i;
     }
@@ -88,7 +74,6 @@ int main() {
         GN(u); GN(v);
         int res = 0;
         int i = next[0];
-        if (nnx <= u && u <= lnx && nny <= v && v <= lny)
         while (i != n+1) {
             if (a[i].S.F.F <= u && u <= a[i].S.S.F 
              && a[i].S.F.S <= v && v <= a[i].S.S.S) {
