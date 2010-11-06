@@ -7822,6 +7822,22 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF184197": {
+    "contest_id": 44,
+    "language": "GNU C++",
+    "path": "codeforces/44/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Toys",
+    "problem_url": "https://codeforces.com/contest/44/problem/I",
+    "submission_id": "CF184197",
+    "submission_url": "https://codeforces.com/contest/44/submission/184197",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "*2300"
+    ],
+    "timestamp": "Nov/06/2010 22:59"
+  },
   "CF184510": {
     "contest_id": 44,
     "language": "GNU C++",
