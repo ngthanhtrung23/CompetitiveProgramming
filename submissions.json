@@ -7822,6 +7822,22 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF184625": {
+    "contest_id": 44,
+    "language": "GNU C++",
+    "path": "codeforces/44/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Shooting Gallery",
+    "problem_url": "https://codeforces.com/contest/44/problem/G",
+    "submission_id": "CF184625",
+    "submission_url": "https://codeforces.com/contest/44/submission/184625",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*2500"
+    ],
+    "timestamp": "Nov/06/2010 23:58"
+  },
   "CF18526117": {
     "contest_id": 683,
     "language": "Kotlin",
