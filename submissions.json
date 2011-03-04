@@ -12736,6 +12736,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF315187": {
+    "contest_id": 62,
+    "language": "GNU C++",
+    "path": "codeforces/62/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Tyndex.Brome",
+    "problem_url": "https://codeforces.com/contest/62/problem/B",
+    "submission_id": "CF315187",
+    "submission_url": "https://codeforces.com/contest/62/submission/315187",
+    "tags": [
+      "binary search",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Mar/04/2011 21:21"
+  },
   "CF315251": {
     "contest_id": 62,
     "language": "GNU C++",
