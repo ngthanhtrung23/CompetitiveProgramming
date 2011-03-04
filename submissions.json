@@ -12736,6 +12736,23 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF315251": {
+    "contest_id": 62,
+    "language": "GNU C++",
+    "path": "codeforces/62/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Inquisition",
+    "problem_url": "https://codeforces.com/contest/62/problem/C",
+    "submission_id": "CF315251",
+    "submission_url": "https://codeforces.com/contest/62/submission/315251",
+    "tags": [
+      "geometry",
+      "implementation",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Mar/04/2011 22:36"
+  },
   "CF316924": {
     "contest_id": 65,
     "language": "GNU C++",
