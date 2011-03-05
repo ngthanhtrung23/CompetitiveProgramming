@@ -12736,6 +12736,23 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF316924": {
+    "contest_id": 65,
+    "language": "GNU C++",
+    "path": "codeforces/65/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Harry Potter and the History of Magic",
+    "problem_url": "https://codeforces.com/contest/65/problem/B",
+    "submission_id": "CF316924",
+    "submission_url": "https://codeforces.com/contest/65/submission/316924",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Mar/06/2011 00:21"
+  },
   "CF3255032": {
     "contest_id": 278,
     "language": "GNU C++",
