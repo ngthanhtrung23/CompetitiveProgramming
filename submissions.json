@@ -12996,6 +12996,23 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF359087": {
+    "contest_id": 70,
+    "language": "GNU C++",
+    "path": "codeforces/70/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Text Messaging",
+    "problem_url": "https://codeforces.com/contest/70/problem/B",
+    "submission_id": "CF359087",
+    "submission_url": "https://codeforces.com/contest/70/submission/359087",
+    "tags": [
+      "expression parsing",
+      "greedy",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Mar/27/2011 02:29"
+  },
   "CF36865428": {
     "contest_id": 952,
     "language": "GNU C++11",
