@@ -12996,6 +12996,21 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF355165": {
+    "contest_id": 70,
+    "language": "GNU C++",
+    "path": "codeforces/70/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Cookies",
+    "problem_url": "https://codeforces.com/contest/70/problem/A",
+    "submission_id": "CF355165",
+    "submission_url": "https://codeforces.com/contest/70/submission/355165",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/27/2011 00:07"
+  },
   "CF359061": {
     "contest_id": 70,
     "language": "GNU C++",
