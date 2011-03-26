@@ -12996,6 +12996,24 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF359061": {
+    "contest_id": 70,
+    "language": "GNU C++",
+    "path": "codeforces/70/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Lucky Tickets",
+    "problem_url": "https://codeforces.com/contest/70/problem/C",
+    "submission_id": "CF359061",
+    "submission_url": "https://codeforces.com/contest/70/submission/359061",
+    "tags": [
+      "binary search",
+      "data structures",
+      "sortings",
+      "two pointers",
+      "*2200"
+    ],
+    "timestamp": "Mar/27/2011 02:27"
+  },
   "CF359087": {
     "contest_id": 70,
     "language": "GNU C++",
