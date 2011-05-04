@@ -16990,6 +16990,22 @@
     ],
     "timestamp": "Aug/15/2013 18:58"
   },
+  "CF430019": {
+    "contest_id": 81,
+    "language": "GNU C++",
+    "path": "codeforces/81/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sequence Formatting",
+    "problem_url": "https://codeforces.com/contest/81/problem/B",
+    "submission_id": "CF430019",
+    "submission_url": "https://codeforces.com/contest/81/submission/430019",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "May/04/2011 16:21"
+  },
   "CF4307872": {
     "contest_id": 337,
     "language": "Python 3",
