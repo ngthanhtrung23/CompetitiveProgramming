@@ -13529,6 +13529,23 @@
     ],
     "timestamp": "Aug/04/2013 22:01"
   },
+  "CF426192": {
+    "contest_id": 81,
+    "language": "GNU C++",
+    "path": "codeforces/81/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Average Score",
+    "problem_url": "https://codeforces.com/contest/81/problem/C",
+    "submission_id": "CF426192",
+    "submission_url": "https://codeforces.com/contest/81/submission/426192",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "May/04/2011 13:49"
+  },
   "CF4276058": {
     "contest_id": 336,
     "language": "GNU C++",
