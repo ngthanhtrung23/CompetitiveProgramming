@@ -17953,6 +17953,23 @@
     ],
     "timestamp": "Sep/03/2013 21:28"
   },
+  "CF440168": {
+    "contest_id": 82,
+    "language": "GNU C++",
+    "path": "codeforces/82/C.cpp",
+    "problem_index": "C",
+    "problem_name": "General Mobilization",
+    "problem_url": "https://codeforces.com/contest/82/problem/C",
+    "submission_id": "CF440168",
+    "submission_url": "https://codeforces.com/contest/82/submission/440168",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "May/07/2011 00:51"
+  },
   "CF4401719": {
     "contest_id": 314,
     "language": "GNU C++",
