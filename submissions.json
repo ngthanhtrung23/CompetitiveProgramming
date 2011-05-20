@@ -18533,6 +18533,22 @@
     ],
     "timestamp": "Sep/28/2013 02:13"
   },
+  "CF460500": {
+    "contest_id": 85,
+    "language": "GNU C++",
+    "path": "codeforces/85/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Domino",
+    "problem_url": "https://codeforces.com/contest/85/problem/A",
+    "submission_id": "CF460500",
+    "submission_url": "https://codeforces.com/contest/85/submission/460500",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/20/2011 23:14"
+  },
   "CF461301": {
     "contest_id": 85,
     "language": "GNU C++",
