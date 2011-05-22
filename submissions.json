@@ -18637,6 +18637,21 @@
     ],
     "timestamp": "Oct/02/2013 04:28"
   },
+  "CF466383": {
+    "contest_id": 86,
+    "language": "GNU C++",
+    "path": "codeforces/86/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Reflection",
+    "problem_url": "https://codeforces.com/contest/86/problem/A",
+    "submission_id": "CF466383",
+    "submission_url": "https://codeforces.com/contest/86/submission/466383",
+    "tags": [
+      "math",
+      "*1600"
+    ],
+    "timestamp": "May/22/2011 23:27"
+  },
   "CF4665797": {
     "contest_id": 351,
     "language": "GNU C++",
