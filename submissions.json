@@ -18738,6 +18738,21 @@
     ],
     "timestamp": "Oct/14/2013 03:54"
   },
+  "CF490828": {
+    "contest_id": 89,
+    "language": "GNU C++",
+    "path": "codeforces/89/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Robbery",
+    "problem_url": "https://codeforces.com/contest/89/problem/A",
+    "submission_id": "CF490828",
+    "submission_url": "https://codeforces.com/contest/89/submission/490828",
+    "tags": [
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Jun/16/2011 23:36"
+  },
   "CF492441": {
     "contest_id": 89,
     "language": "Java 6",
