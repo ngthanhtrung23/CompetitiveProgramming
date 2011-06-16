@@ -18738,6 +18738,24 @@
     ],
     "timestamp": "Oct/14/2013 03:54"
   },
+  "CF494583": {
+    "contest_id": 89,
+    "language": "Java 6",
+    "path": "codeforces/89/B.java",
+    "problem_index": "B",
+    "problem_name": "Widget Library",
+    "problem_url": "https://codeforces.com/contest/89/problem/B",
+    "submission_id": "CF494583",
+    "submission_url": "https://codeforces.com/contest/89/submission/494583",
+    "tags": [
+      "dp",
+      "expression parsing",
+      "graphs",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Jun/17/2011 02:38"
+  },
   "CF495560": {
     "contest_id": 89,
     "language": "Java 6",
