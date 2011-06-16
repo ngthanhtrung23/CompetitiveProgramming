@@ -18738,6 +18738,21 @@
     ],
     "timestamp": "Oct/14/2013 03:54"
   },
+  "CF492441": {
+    "contest_id": 89,
+    "language": "Java 6",
+    "path": "codeforces/89/D.java",
+    "problem_index": "D",
+    "problem_name": "Space mines",
+    "problem_url": "https://codeforces.com/contest/89/problem/D",
+    "submission_id": "CF492441",
+    "submission_url": "https://codeforces.com/contest/89/submission/492441",
+    "tags": [
+      "geometry",
+      "*2500"
+    ],
+    "timestamp": "Jun/17/2011 00:25"
+  },
   "CF494583": {
     "contest_id": 89,
     "language": "Java 6",
