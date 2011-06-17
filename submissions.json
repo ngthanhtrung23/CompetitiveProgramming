@@ -18738,6 +18738,23 @@
     ],
     "timestamp": "Oct/14/2013 03:54"
   },
+  "CF495645": {
+    "contest_id": 89,
+    "language": "Java 6",
+    "path": "codeforces/89/C.java",
+    "problem_index": "C",
+    "problem_name": "Chip Play",
+    "problem_url": "https://codeforces.com/contest/89/problem/C",
+    "submission_id": "CF495645",
+    "submission_url": "https://codeforces.com/contest/89/submission/495645",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Jun/17/2011 16:23"
+  },
   "CF499396": {
     "contest_id": 91,
     "language": "GNU C++",
