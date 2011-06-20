@@ -25,11 +25,14 @@
 #define MP make_pair
 using namespace std;
 
-#define next __next
+const double PI = acos(-1.0);
+
 char a[10111], b[1000111];
 int next[10111][300];
 
 int main() {
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
     gets(a); gets(b);
     
     int n = strlen(a);
