@@ -18738,6 +18738,22 @@
     ],
     "timestamp": "Oct/14/2013 03:54"
   },
+  "CF501772": {
+    "contest_id": 91,
+    "language": "GNU C++",
+    "path": "codeforces/91/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Queue",
+    "problem_url": "https://codeforces.com/contest/91/problem/B",
+    "submission_id": "CF501772",
+    "submission_url": "https://codeforces.com/contest/91/submission/501772",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*1500"
+    ],
+    "timestamp": "Jun/20/2011 23:47"
+  },
   "CF503389": {
     "contest_id": 91,
     "language": "GNU C++",
