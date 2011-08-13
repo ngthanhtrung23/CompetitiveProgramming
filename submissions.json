@@ -19609,6 +19609,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF771066": {
+    "contest_id": 105,
+    "language": "GNU C++",
+    "path": "codeforces/105/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Dark Assembly",
+    "problem_url": "https://codeforces.com/contest/105/problem/B",
+    "submission_id": "CF771066",
+    "submission_url": "https://codeforces.com/contest/105/submission/771066",
+    "tags": [
+      "brute force",
+      "probabilities",
+      "*1800"
+    ],
+    "timestamp": "Aug/13/2011 23:30"
+  },
   "CF771176": {
     "contest_id": 105,
     "language": "GNU C++",
