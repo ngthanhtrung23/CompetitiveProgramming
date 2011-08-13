@@ -19609,6 +19609,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF771176": {
+    "contest_id": 105,
+    "language": "GNU C++",
+    "path": "codeforces/105/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Item World",
+    "problem_url": "https://codeforces.com/contest/105/problem/C",
+    "submission_id": "CF771176",
+    "submission_url": "https://codeforces.com/contest/105/submission/771176",
+    "tags": [
+      "brute force",
+      "implementation",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Aug/14/2011 00:48"
+  },
   "CF784531": {
     "contest_id": 107,
     "language": "GNU C++",
