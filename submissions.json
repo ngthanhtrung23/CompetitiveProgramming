@@ -19609,6 +19609,24 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF784585": {
+    "contest_id": 107,
+    "language": "GNU C++",
+    "path": "codeforces/107/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Basketball Team",
+    "problem_url": "https://codeforces.com/contest/107/problem/B",
+    "submission_id": "CF784585",
+    "submission_url": "https://codeforces.com/contest/107/submission/784585",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "probabilities",
+      "*1600"
+    ],
+    "timestamp": "Aug/23/2011 23:21"
+  },
   "CF8346211": {
     "contest_id": 371,
     "language": "GNU C++0x",
