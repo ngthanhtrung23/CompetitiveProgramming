@@ -19288,6 +19288,22 @@
     ],
     "timestamp": "Feb/08/2020 22:37"
   },
+  "CF715423": {
+    "contest_id": 117,
+    "language": "GNU C++",
+    "path": "codeforces/117/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Very Interesting Game",
+    "problem_url": "https://codeforces.com/contest/117/problem/B",
+    "submission_id": "CF715423",
+    "submission_url": "https://codeforces.com/contest/117/submission/715423",
+    "tags": [
+      "brute force",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Sep/23/2011 23:51"
+  },
   "CF72042155": {
     "contest_id": 150,
     "language": "GNU C++17",
