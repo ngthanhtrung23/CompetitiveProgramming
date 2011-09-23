@@ -19288,6 +19288,22 @@
     ],
     "timestamp": "Feb/08/2020 22:37"
   },
+  "CF714521": {
+    "contest_id": 117,
+    "language": "GNU C++",
+    "path": "codeforces/117/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Elevator",
+    "problem_url": "https://codeforces.com/contest/117/problem/A",
+    "submission_id": "CF714521",
+    "submission_url": "https://codeforces.com/contest/117/submission/714521",
+    "tags": [
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Sep/23/2011 23:32"
+  },
   "CF714971": {
     "contest_id": 117,
     "language": "GNU C++",
