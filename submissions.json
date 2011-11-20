@@ -22850,6 +22850,21 @@
     ],
     "timestamp": "Nov/23/2014 18:29"
   },
+  "CF882178": {
+    "contest_id": 130,
+    "language": "Befunge",
+    "path": "codeforces/130/D.befunge",
+    "problem_index": "D",
+    "problem_name": "Exponentiation",
+    "problem_url": "https://codeforces.com/contest/130/problem/D",
+    "submission_id": "CF882178",
+    "submission_url": "https://codeforces.com/contest/130/submission/882178",
+    "tags": [
+      "*special problem",
+      "*1500"
+    ],
+    "timestamp": "Nov/21/2011 00:49"
+  },
   "CF8828513": {
     "contest_id": 464,
     "language": "GNU C++0x",
