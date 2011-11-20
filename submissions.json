@@ -22598,6 +22598,22 @@
     ],
     "timestamp": "Nov/23/2014 02:28"
   },
+  "CF880827": {
+    "contest_id": 130,
+    "language": "Befunge",
+    "path": "codeforces/130/A.befunge",
+    "problem_index": "A",
+    "problem_name": "Hexagonal numbers",
+    "problem_url": "https://codeforces.com/contest/130/problem/A",
+    "submission_id": "CF880827",
+    "submission_url": "https://codeforces.com/contest/130/submission/880827",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Nov/20/2011 23:09"
+  },
   "CF8809192": {
     "contest_id": 441,
     "language": "GNU C++0x",
