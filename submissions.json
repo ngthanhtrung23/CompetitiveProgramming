@@ -22932,6 +22932,21 @@
     ],
     "timestamp": "Nov/24/2014 04:05"
   },
+  "CF883539": {
+    "contest_id": 130,
+    "language": "Befunge",
+    "path": "codeforces/130/G.befunge",
+    "problem_index": "G",
+    "problem_name": "CAPS LOCK ON",
+    "problem_url": "https://codeforces.com/contest/130/problem/G",
+    "submission_id": "CF883539",
+    "submission_url": "https://codeforces.com/contest/130/submission/883539",
+    "tags": [
+      "*special problem",
+      "*1700"
+    ],
+    "timestamp": "Nov/21/2011 11:20"
+  },
   "CF8835650": {
     "contest_id": 475,
     "language": "GNU C++0x",
