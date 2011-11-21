@@ -22932,6 +22932,23 @@
     ],
     "timestamp": "Nov/24/2014 04:05"
   },
+  "CF883477": {
+    "contest_id": 130,
+    "language": "Befunge",
+    "path": "codeforces/130/B.befunge",
+    "problem_index": "B",
+    "problem_name": "Gnikool Ssalg",
+    "problem_url": "https://codeforces.com/contest/130/problem/B",
+    "submission_id": "CF883477",
+    "submission_url": "https://codeforces.com/contest/130/submission/883477",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Nov/21/2011 10:23"
+  },
   "CF883504": {
     "contest_id": 130,
     "language": "Befunge",
