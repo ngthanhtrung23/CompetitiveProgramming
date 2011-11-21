@@ -22932,6 +22932,21 @@
     ],
     "timestamp": "Nov/24/2014 04:05"
   },
+  "CF883504": {
+    "contest_id": 130,
+    "language": "Befunge",
+    "path": "codeforces/130/E.befunge",
+    "problem_index": "E",
+    "problem_name": "Tribonacci numbers",
+    "problem_url": "https://codeforces.com/contest/130/problem/E",
+    "submission_id": "CF883504",
+    "submission_url": "https://codeforces.com/contest/130/submission/883504",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "Nov/21/2011 10:40"
+  },
   "CF883529": {
     "contest_id": 130,
     "language": "Befunge",
