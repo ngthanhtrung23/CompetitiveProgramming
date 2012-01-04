@@ -217,6 +217,22 @@
     ],
     "timestamp": "Feb/26/2015 00:13"
   },
+  "CF1004284": {
+    "contest_id": 140,
+    "language": "GNU C++",
+    "path": "codeforces/140/D.cpp",
+    "problem_index": "D",
+    "problem_name": "New Year Contest",
+    "problem_url": "https://codeforces.com/contest/140/problem/D",
+    "submission_id": "CF1004284",
+    "submission_url": "https://codeforces.com/contest/140/submission/1004284",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Jan/04/2012 23:59"
+  },
   "CF10084505": {
     "contest_id": 519,
     "language": "Ruby",
