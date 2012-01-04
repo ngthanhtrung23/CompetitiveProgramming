@@ -104,6 +104,23 @@
     ],
     "timestamp": "Feb/25/2015 03:31"
   },
+  "CF1001219": {
+    "contest_id": 140,
+    "language": "GNU C++",
+    "path": "codeforces/140/C.cpp",
+    "problem_index": "C",
+    "problem_name": "New Year Snowmen",
+    "problem_url": "https://codeforces.com/contest/140/problem/C",
+    "submission_id": "CF1001219",
+    "submission_url": "https://codeforces.com/contest/140/submission/1001219",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Jan/04/2012 23:30"
+  },
   "CF10021901": {
     "contest_id": 127,
     "language": "Python 2",
