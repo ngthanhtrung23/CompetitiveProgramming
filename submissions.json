@@ -2251,6 +2251,21 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF1076925": {
+    "contest_id": 144,
+    "language": "GNU C++",
+    "path": "codeforces/144/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Arrival of the General",
+    "problem_url": "https://codeforces.com/contest/144/problem/A",
+    "submission_id": "CF1076925",
+    "submission_url": "https://codeforces.com/contest/144/submission/1076925",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/18/2012 23:24"
+  },
   "CF1078368": {
     "contest_id": 144,
     "language": "GNU C++",
