@@ -2251,6 +2251,22 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF1082400": {
+    "contest_id": 144,
+    "language": "GNU C++",
+    "path": "codeforces/144/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Competition",
+    "problem_url": "https://codeforces.com/contest/144/problem/E",
+    "submission_id": "CF1082400",
+    "submission_url": "https://codeforces.com/contest/144/submission/1082400",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*2200"
+    ],
+    "timestamp": "Jan/19/2012 01:52"
+  },
   "CF10966433": {
     "contest_id": 260,
     "language": "GNU C++11",
