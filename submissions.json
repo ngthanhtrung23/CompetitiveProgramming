@@ -2251,6 +2251,21 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF1078756": {
+    "contest_id": 144,
+    "language": "GNU C++",
+    "path": "codeforces/144/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Meeting",
+    "problem_url": "https://codeforces.com/contest/144/problem/B",
+    "submission_id": "CF1078756",
+    "submission_url": "https://codeforces.com/contest/144/submission/1078756",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jan/18/2012 23:56"
+  },
   "CF1082400": {
     "contest_id": 144,
     "language": "GNU C++",
