@@ -4761,6 +4761,18 @@
     ],
     "timestamp": "May/02/2015 18:33"
   },
+  "CF1097542": {
+    "contest_id": 100001,
+    "language": "GNU C++",
+    "path": "codeforces/100001/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Theatre Square",
+    "problem_url": "https://codeforces.com/gym/100001/problem/A",
+    "submission_id": "CF1097542",
+    "submission_url": "https://codeforces.com/gym/100001/submission/1097542",
+    "tags": [],
+    "timestamp": "Jan/20/2012 23:22"
+  },
   "CF10975847": {
     "contest_id": 360,
     "language": "GNU C++11",
