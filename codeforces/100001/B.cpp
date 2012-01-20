@@ -1,5 +1,3 @@
-#include <sstream>
-#include <iomanip>
 #include <iostream>
 #include <cstdio>
 #include <cstring>
@@ -23,81 +21,74 @@
 #define S second
 #define PB push_back
 #define MP make_pair
-
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-char s[1011];
+const double PI = acos(-1.0);
 
-bool isDigit(char c) {
-    return c >= '0' && c <= '9';
-}
+char s[100111];
 
-bool checkRC() {
-    if (strchr(s, 'R') == NULL || strchr(s, 'C') == NULL) return false;
-    int r = strchr(s, 'R') - s;
-    int c = strchr(s, 'C') - s;
-
+bool form1() {
+    int r, c;
+    int l = strlen(s);
+    REP(i,l) if (s[i] == 'R') r = i; else if (s[i] == 'C') c = i;
+    
     if (r != 0) return false;
-    if (c == strlen(s) - 1) return false;
-    if (r == c-1) return false;
-
-    FOR(i,r+1,c-1) if (!isDigit(s[i])) return false;
-    FOR(i,c+1,strlen(s)-1) if (!isDigit(s[i])) return false;
+    if (c == r + 1) return false;
+    FOR(i,r+1,c-1) if (s[i] < '0' || s[i] > '9') return false;
+    FOR(i,c+1,l-1) if (s[i] < '0' || s[i] > '9') return false;
     return true;
 }
 
-void conv1() {
-    stringstream ss;
-    int r = strchr(s, 'R') - s;
-    int c = strchr(s, 'C') - s;
-    FOR(i,c+1,strlen(s)-1) ss << s[i];
-    int x; ss >> x;
-
-    int len = 0, now = 1, u = x;
-    while (u > 0) {
-        now *= 26;
-        u -= now;
-        ++len;
+void convert1(int b) {
+    if (b <= 0) return ;
+    if (b <= 26) printf("%c", b - 1 + 'A');
+    else {
+        int last = b % 26; if (!last) last = 26;
+        convert1((b-1) / 26);
+        printf("%c", last - 1 + 'A');
     }
-    u += now - 1;
-
-    FOR(i,1,len) {
-        now /= 26;
-        putchar(u / now + 'A');
-        u %= now;
-    }
-
-    FOR(i,r+1,c-1) putchar(s[i]);
-    puts("");
 }
 
-void conv2() {
-    int l = 1;
-    while (!isDigit(s[l-1])) ++l;
-    --l;
-    putchar('R');
-    FOR(i,l,strlen(s)-1) putchar(s[i]);
-    putchar('C');
+void solve1() {
+    int a, b;
+    sscanf(s, "R%dC%d", &a, &b);
+    convert1(b); printf("%d\n", a);
+}
 
-    int res = 1, now = 1;
-    FOR(i,1,l-1) now *= 26, res += now;
-    REP(i,l) {
-        res += (s[i] - 'A') * now;
-        now /= 26;
+int convert2(int l, int r) {
+    int cur = 1, res = 0;
+    FORD(i,r,l) {
+        res += (s[i] - 'A' + 1) * cur;
+        cur *= 26;
     }
-    printf("%d\n", res);
+    return res;
+}
+
+void solve2() {
+    int first;
+    int l = strlen(s);
+    REP(i,l) if (s[i] >= '0' && s[i] <= '9') {
+        first = i;
+        break;
+    }
+    
+    int x = convert2(0,first-1);
+    putchar('R');
+    FOR(i,first,l-1) {
+        printf("%c", s[i]);
+    }
+    putchar('C');
+    printf("%d\n", x);
 }
 
 int main() {
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
     int ntest; scanf("%d\n", &ntest);
     while (ntest--) {
-        memset(s, 0, sizeof s);
         gets(s);
-        if (checkRC()) conv1();
-        else conv2();
+        if (form1()) solve1();
+        else solve2();
     }
     return 0;
 }
