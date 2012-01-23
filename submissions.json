@@ -3194,6 +3194,23 @@
     ],
     "timestamp": "May/16/2015 17:01"
   },
+  "CF1112813": {
+    "contest_id": 145,
+    "language": "GNU C++",
+    "path": "codeforces/145/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Lucky Subsequence",
+    "problem_url": "https://codeforces.com/contest/145/problem/C",
+    "submission_id": "CF1112813",
+    "submission_url": "https://codeforces.com/contest/145/submission/1112813",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Jan/23/2012 23:25"
+  },
   "CF11146978": {
     "contest_id": 545,
     "language": "GNU C++11",
