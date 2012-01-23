@@ -3194,6 +3194,21 @@
     ],
     "timestamp": "May/16/2015 17:01"
   },
+  "CF1112769": {
+    "contest_id": 145,
+    "language": "GNU C++",
+    "path": "codeforces/145/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lucky Number 2",
+    "problem_url": "https://codeforces.com/contest/145/problem/B",
+    "submission_id": "CF1112769",
+    "submission_url": "https://codeforces.com/contest/145/submission/1112769",
+    "tags": [
+      "constructive algorithms",
+      "*1800"
+    ],
+    "timestamp": "Jan/23/2012 23:06"
+  },
   "CF1112802": {
     "contest_id": 145,
     "language": "GNU C++",
