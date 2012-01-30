@@ -6698,6 +6698,18 @@
     ],
     "timestamp": "May/26/2015 03:41"
   },
+  "CF1127024": {
+    "contest_id": 100015,
+    "language": "GNU C++",
+    "path": "codeforces/100015/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Fighting for Triangles",
+    "problem_url": "https://codeforces.com/gym/100015/problem/F",
+    "submission_id": "CF1127024",
+    "submission_url": "https://codeforces.com/gym/100015/submission/1127024",
+    "tags": [],
+    "timestamp": "Jan/30/2012 22:20"
+  },
   "CF1127061": {
     "contest_id": 100015,
     "language": "GNU C++",
