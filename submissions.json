@@ -6667,6 +6667,18 @@
     ],
     "timestamp": "May/26/2015 03:06"
   },
+  "CF1126937": {
+    "contest_id": 100015,
+    "language": "GNU C++",
+    "path": "codeforces/100015/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Ball Painting",
+    "problem_url": "https://codeforces.com/gym/100015/problem/B",
+    "submission_id": "CF1126937",
+    "submission_url": "https://codeforces.com/gym/100015/submission/1126937",
+    "tags": [],
+    "timestamp": "Jan/30/2012 21:25"
+  },
   "CF11269489": {
     "contest_id": 128,
     "language": "GNU C++11",
