@@ -6649,6 +6649,18 @@
     ],
     "timestamp": "May/26/2015 01:49"
   },
+  "CF1126898": {
+    "contest_id": 100015,
+    "language": "GNU C++",
+    "path": "codeforces/100015/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Another Rock-Paper-Scissors Problem",
+    "problem_url": "https://codeforces.com/gym/100015/problem/A",
+    "submission_id": "CF1126898",
+    "submission_url": "https://codeforces.com/gym/100015/submission/1126898",
+    "tags": [],
+    "timestamp": "Jan/30/2012 21:08"
+  },
   "CF11269366": {
     "contest_id": 129,
     "language": "GNU C++11",
