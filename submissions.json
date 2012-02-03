@@ -4285,6 +4285,22 @@
     ],
     "timestamp": "Jun/05/2015 19:57"
   },
+  "CF1145226": {
+    "contest_id": 148,
+    "language": "GNU C++",
+    "path": "codeforces/148/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Escape",
+    "problem_url": "https://codeforces.com/contest/148/problem/B",
+    "submission_id": "CF1145226",
+    "submission_url": "https://codeforces.com/contest/148/submission/1145226",
+    "tags": [
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Feb/03/2012 10:33"
+  },
   "CF1145316": {
     "contest_id": 148,
     "language": "GNU C++",
