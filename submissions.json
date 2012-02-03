@@ -4285,6 +4285,21 @@
     ],
     "timestamp": "Jun/05/2015 19:57"
   },
+  "CF1145396": {
+    "contest_id": 148,
+    "language": "GNU C++",
+    "path": "codeforces/148/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Porcelain",
+    "problem_url": "https://codeforces.com/contest/148/problem/E",
+    "submission_id": "CF1145396",
+    "submission_url": "https://codeforces.com/contest/148/submission/1145396",
+    "tags": [
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Feb/03/2012 11:56"
+  },
   "CF11490568": {
     "contest_id": 550,
     "language": "GNU C++11",
