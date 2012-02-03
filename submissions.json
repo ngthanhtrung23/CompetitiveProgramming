@@ -4285,6 +4285,22 @@
     ],
     "timestamp": "Jun/05/2015 19:57"
   },
+  "CF1145316": {
+    "contest_id": 148,
+    "language": "GNU C++",
+    "path": "codeforces/148/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Terse princess",
+    "problem_url": "https://codeforces.com/contest/148/problem/C",
+    "submission_id": "CF1145316",
+    "submission_url": "https://codeforces.com/contest/148/submission/1145316",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Feb/03/2012 11:12"
+  },
   "CF1145354": {
     "contest_id": 148,
     "language": "GNU C++",
