@@ -4499,6 +4499,21 @@
     ],
     "timestamp": "Jun/19/2015 01:18"
   },
+  "CF1166088": {
+    "contest_id": 149,
+    "language": "GNU C++",
+    "path": "codeforces/149/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Coloring Brackets",
+    "problem_url": "https://codeforces.com/contest/149/problem/D",
+    "submission_id": "CF1166088",
+    "submission_url": "https://codeforces.com/contest/149/submission/1166088",
+    "tags": [
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Feb/11/2012 00:11"
+  },
   "CF1168747": {
     "contest_id": 149,
     "language": "GNU C++",
