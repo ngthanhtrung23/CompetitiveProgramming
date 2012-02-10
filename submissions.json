@@ -4407,6 +4407,21 @@
     ],
     "timestamp": "Jun/13/2015 18:27"
   },
+  "CF1163289": {
+    "contest_id": 149,
+    "language": "GNU C++",
+    "path": "codeforces/149/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Martian Clock",
+    "problem_url": "https://codeforces.com/contest/149/problem/B",
+    "submission_id": "CF1163289",
+    "submission_url": "https://codeforces.com/contest/149/submission/1163289",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Feb/10/2012 23:20"
+  },
   "CF11635854": {
     "contest_id": 552,
     "language": "GNU C++11",
