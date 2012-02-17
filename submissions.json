@@ -4604,6 +4604,21 @@
     ],
     "timestamp": "Jun/25/2015 03:35"
   },
+  "CF1186222": {
+    "contest_id": 132,
+    "language": "GNU C++",
+    "path": "codeforces/132/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Piet",
+    "problem_url": "https://codeforces.com/contest/132/problem/B",
+    "submission_id": "CF1186222",
+    "submission_url": "https://codeforces.com/contest/132/submission/1186222",
+    "tags": [
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Feb/17/2012 11:14"
+  },
   "CF1186238": {
     "contest_id": 132,
     "language": "GNU C++",
