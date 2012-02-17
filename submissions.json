@@ -7386,6 +7386,21 @@
     ],
     "timestamp": "Jun/25/2015 03:35"
   },
+  "CF1186193": {
+    "contest_id": 132,
+    "language": "GNU C++",
+    "path": "codeforces/132/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Turing Tape",
+    "problem_url": "https://codeforces.com/contest/132/problem/A",
+    "submission_id": "CF1186193",
+    "submission_url": "https://codeforces.com/contest/132/submission/1186193",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Feb/17/2012 10:44"
+  },
   "CF1186222": {
     "contest_id": 132,
     "language": "GNU C++",
