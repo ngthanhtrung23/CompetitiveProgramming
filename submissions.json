@@ -7464,6 +7464,18 @@
     ],
     "timestamp": "Jul/02/2015 00:53"
   },
+  "CF1194534": {
+    "contest_id": 150,
+    "language": "GNU C++",
+    "path": "codeforces/150/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Smart Cheater",
+    "problem_url": "https://codeforces.com/contest/150/problem/C",
+    "submission_id": "CF1194534",
+    "submission_url": "https://codeforces.com/contest/150/submission/1194534",
+    "tags": [],
+    "timestamp": "Feb/18/2012 00:31"
+  },
   "CF12043686": {
     "contest_id": 558,
     "language": "GNU C++11",
