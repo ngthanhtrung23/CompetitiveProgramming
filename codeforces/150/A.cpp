@@ -1,50 +1,81 @@
-// nghi cham qua :'(
-// duel RR vs ngfam
-#include "bits/stdc++.h"
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
+
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 using namespace std;
 
-#define int long long
-#define FOR(i, a, b) for (int i = (a), _##i = (b); i <= _##i; ++i)
-#define FORD(i, a, b) for (int i = (a), _##i = (b); i >= _##i; --i)
-#define REP(i, a) for (int i = 0, _##i = (a); i < _##i; ++i)
-#define REPD(i,n) for(int i = (n)-1; i >= 0; --i)
+const double PI = acos(-1.0);
 
-#define DEBUG(X) { auto _X = (X); cerr << "L" << __LINE__ << ": " << #X << " = " << (_X) << endl; }
-#define PR(A, n) { cerr << "L" << __LINE__ << ": " << #A << " = "; FOR(_, 1, n) cerr << A[_] << ' '; cerr << endl; }
-#define PR0(A, n) { cerr << "L" << __LINE__ << ": " << #A << " = "; REP(_, n) cerr << A[_] << ' '; cerr << endl; }
+long long cnt, p[30], lt[10];
 
-#define __builtin_popcount __builtin_popcountll
-#define SZ(x) ((int)(x).size())
-#define ALL(a) (a).begin(), (a).end()
-
-int32_t main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout << (fixed) << setprecision(9) << boolalpha;
-    int n;
-    while (cin >> n) {
-        if (n == 1) {
-            cout << 1 << endl << 0 << endl;
-            continue;
-        }
-        int cnt = 0;
-        vector<int> p;
-        for (int i = 2; i*i <= n; i++) {
-            while (n % i == 0) {
-                ++cnt;
-                n /= i;
-                if (SZ(p) < 3) p.push_back(i);
-            }
-        }
-        if (n > 1) ++cnt;
-
-        if (cnt == 1) {
-            cout << 1 << endl << 0 << endl;
-        } else if (cnt == 2) {
-            cout << 2 << endl;
-        } else {
-            cout << 1 << endl << p[0] * p[1] << endl;
-        }
+int main() {
+//    freopen("test.in", "r", stdin);
+//    freopen("test.out", "w", stdout);
+    long long q; cin >> q;
+    if (q == 1) {
+        puts("1");
+        puts("0");
+        return 0;
     }
+    for(long long i = 2; i*i <= q; i++) if (q % i == 0) {
+        cnt++;
+        p[cnt] = i;
+        while (q % i == 0) {
+            q /= i;
+            lt[cnt]++;
+        }
+        if (cnt > 2) break;
+    }
+    if (q > 1) {
+        cnt++;
+        p[cnt] = q;
+        lt[cnt] = 1;
+    }
+//    FOR(i,1,cnt) cout << p[i] << ' ' << lt[i] << endl;
+    
+    if (cnt == 1) {
+        if (lt[1] == 1) {
+            puts("1");
+            puts("0");
+        }
+        else if (lt[1] == 2) {
+            puts("2");
+        }
+        else {
+            puts("1");
+            cout << p[1] * p[1] << endl;
+        }
+        return 0;
+    }
+    if (cnt == 2) {
+        if (lt[1] == 1 && lt[2] == 1) {
+            puts("2");
+        }
+        else {
+            puts("1");
+            cout << p[1] * p[2] << endl;
+        }
+        return 0;
+    }
+    puts("1");
+    cout << p[1] * p[2] << endl;
     return 0;
 }
