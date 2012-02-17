@@ -7464,6 +7464,18 @@
     ],
     "timestamp": "Jul/02/2015 00:53"
   },
+  "CF1189070": {
+    "contest_id": 150,
+    "language": "GNU C++",
+    "path": "codeforces/150/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Quantity of Strings",
+    "problem_url": "https://codeforces.com/contest/150/problem/B",
+    "submission_id": "CF1189070",
+    "submission_url": "https://codeforces.com/contest/150/submission/1189070",
+    "tags": [],
+    "timestamp": "Feb/17/2012 23:22"
+  },
   "CF1193751": {
     "contest_id": 150,
     "language": "GNU C++",
