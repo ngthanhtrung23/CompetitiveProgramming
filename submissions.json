@@ -7549,6 +7549,18 @@
     ],
     "timestamp": "Jul/15/2015 01:46"
   },
+  "CF1207337": {
+    "contest_id": 152,
+    "language": "GNU C++",
+    "path": "codeforces/152/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Steps",
+    "problem_url": "https://codeforces.com/contest/152/problem/B",
+    "submission_id": "CF1207337",
+    "submission_url": "https://codeforces.com/contest/152/submission/1207337",
+    "tags": [],
+    "timestamp": "Feb/20/2012 23:19"
+  },
   "CF1210267": {
     "contest_id": 152,
     "language": "GNU C++",
