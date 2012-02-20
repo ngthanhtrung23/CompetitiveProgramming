@@ -7549,6 +7549,18 @@
     ],
     "timestamp": "Jul/15/2015 01:46"
   },
+  "CF1206266": {
+    "contest_id": 152,
+    "language": "GNU C++",
+    "path": "codeforces/152/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Pocket Book",
+    "problem_url": "https://codeforces.com/contest/152/problem/C",
+    "submission_id": "CF1206266",
+    "submission_url": "https://codeforces.com/contest/152/submission/1206266",
+    "tags": [],
+    "timestamp": "Feb/20/2012 23:07"
+  },
   "CF1206714": {
     "contest_id": 152,
     "language": "GNU C++",
