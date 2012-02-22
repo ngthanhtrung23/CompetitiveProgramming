@@ -7605,6 +7605,21 @@
     ],
     "timestamp": "Jul/22/2015 22:33"
   },
+  "CF1217181": {
+    "contest_id": 153,
+    "language": "Cobol",
+    "path": "codeforces/153/B.cob",
+    "problem_index": "B",
+    "problem_name": "Binary notation",
+    "problem_url": "https://codeforces.com/contest/153/problem/B",
+    "submission_id": "CF1217181",
+    "submission_url": "https://codeforces.com/contest/153/submission/1217181",
+    "tags": [
+      "*special problem",
+      "*1800"
+    ],
+    "timestamp": "Feb/23/2012 00:04"
+  },
   "CF12172869": {
     "contest_id": 559,
     "language": "GNU C++11",
