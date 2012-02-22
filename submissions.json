@@ -7587,6 +7587,21 @@
     ],
     "timestamp": "Jul/22/2015 22:12"
   },
+  "CF1216926": {
+    "contest_id": 153,
+    "language": "Cobol",
+    "path": "codeforces/153/A.cob",
+    "problem_index": "A",
+    "problem_name": "A + B",
+    "problem_url": "https://codeforces.com/contest/153/problem/A",
+    "submission_id": "CF1216926",
+    "submission_url": "https://codeforces.com/contest/153/submission/1216926",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "Feb/22/2012 23:44"
+  },
   "CF12171440": {
     "contest_id": 559,
     "language": "GNU C++11",
