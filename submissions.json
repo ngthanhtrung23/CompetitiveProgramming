@@ -7622,6 +7622,21 @@
     ],
     "timestamp": "Jul/22/2015 22:42"
   },
+  "CF1217808": {
+    "contest_id": 153,
+    "language": "Cobol",
+    "path": "codeforces/153/E.cob",
+    "problem_index": "E",
+    "problem_name": "Euclidean Distance",
+    "problem_url": "https://codeforces.com/contest/153/problem/E",
+    "submission_id": "CF1217808",
+    "submission_url": "https://codeforces.com/contest/153/submission/1217808",
+    "tags": [
+      "*special problem",
+      "*2100"
+    ],
+    "timestamp": "Feb/23/2012 01:07"
+  },
   "CF12185365": {
     "contest_id": 560,
     "language": "GNU C++11",
