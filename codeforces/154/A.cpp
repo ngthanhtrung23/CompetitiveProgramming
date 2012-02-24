@@ -1,62 +1,60 @@
-#include <iostream>
-#include <algorithm>
-#include <cstdio>
-#include <vector>
-#include <cstring>
-#include <string>
-#include <cmath>
-#include <utility>
-#include <map>
-#include <set>
-#include <queue>
-#include <stack>
+#include <iomanip>
 #include <sstream>
-#define fr(a,b,c) for (int a=b;a<=c;a++)
-#define frr(a,b,c) for (int a=b;a>=c;a--)
-#define rep(a,b) for (int a=0;a<b;a++)
-#define repp(a,b) for (int a=b-1;a>=0;a--)
-#define pb push_back
-#define mp make_pair
-#define fi first
-#define se second
-#define sz(a) int(a.size())
-#define all(a) a.begin(),a.end()
-#define pii pair<int,int>
-#define oo 1000111222
-#define maxN 1
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
+
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 using namespace std;
 
-int n,k,d[256][256],ans;
-pair <char,int> a[100100];
-string s;
+const double PI = acos(-1.0);
 
-int main()
-{
-	cin >> s >> k;
-	while (k--)
-	{
-		string t;
-		cin >> t;
-		d[t[0]][t[1]]=d[t[1]][t[0]]=1;
-	}
-	char cur=s[0];
-	int cnt=1;	
-	s+='A';
-	fr(i,1,sz(s)-1)
-		if (s[i]!=cur) a[n++]=make_pair(cur,cnt), cur=s[i], cnt=1;
-		else cnt++;
-	for (int i=0;i+1<n;)
-		if (d[a[i].fi][a[i+1].fi]) 
-		{
-			int x=a[i].se,y=a[i+1].se,j;
-			for (j=i+2;j<n;j++)
-				if (!d[a[j-1].fi][a[j].fi]) break;
-				else 
-					if ((j-i)&1) y+=a[j].se;
-					else x+=a[j].se;
-			i=j;
-			ans+=min(x,y);
-		}
-		else i++;
-	cout << ans << endl;
+bool mark[333][333];
+int f[100111][333];
+char s[100111];
+
+int main() {
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+    gets(s);
+    int k; scanf("%d\n", &k);
+    while (k--) {
+        char a, b; scanf("%c%c\n", &a, &b);
+        mark[a][b] = true;
+        mark[b][a] = true;
+//        cout << a << ' ' << b << endl;
+    }
+    int l = strlen(s);
+    f[0][s[0]] = 1;
+    FOR(i,1,l-1) {
+        f[i][s[i]] = 1;
+        FOR(prev,'a','z') {
+            if (!mark[prev][s[i]]) {
+                f[i][s[i]] = max(f[i][s[i]], f[i-1][prev] + 1);
+            }
+            f[i][prev] = max(f[i][prev], f[i-1][prev]);
+        }
+    }
+    int res = 0;
+    FOR(c,'a','z') res = max(res, f[l-1][c]);
+    printf("%d\n", l-res);
+    return 0;
 }
