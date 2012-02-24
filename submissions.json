@@ -7745,6 +7745,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF1223828": {
+    "contest_id": 154,
+    "language": "GNU C++",
+    "path": "codeforces/154/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Colliders",
+    "problem_url": "https://codeforces.com/contest/154/problem/B",
+    "submission_id": "CF1223828",
+    "submission_url": "https://codeforces.com/contest/154/submission/1223828",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Feb/24/2012 23:25"
+  },
   "CF12253641": {
     "contest_id": 100725,
     "language": "GNU C++11",

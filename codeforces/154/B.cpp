@@ -1,86 +1,105 @@
-
-#include <bits/stdc++.h>
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 using namespace std;
 
-const int MN = 100111;
-int sieve[MN], has[MN], state[MN];
-int n, q;
+const double PI = acos(-1.0);
+const int MAXV = 100000;
+
+int sieve[100111], next[100111];
 
 void init() {
-    FOR(i,2,1000) if (!sieve[i]) {
-        for(int j = i*i; j < MN; j += i)
+    for(int i = 2; i <= 1000; i++) if (!sieve[i]) {
+        int j = i*i;
+        while (j <= MAXV) {
             sieve[j] = i;
+            next[j] = j;
+            while (next[j] % i == 0) next[j] /= i;
+            j += i;
+        }
     }
 }
 
-void flip(int u) {
-    int saveu = u;
-    while (u > 1) {
-        int p = (sieve[u]) ? sieve[u] : u;
-        has[p] ^= saveu;
-        while (u % p == 0) u /= p;
+int on[100111], mark[100111];
+
+int conflict(int v) {
+    int p;
+    while (sieve[v]) {
+        p = sieve[v];
+        if (mark[p]) return mark[p];
+        v = next[v];
+    }
+    if (v > 1) {
+        if (mark[v]) return mark[v];
+    }
+    return -1;
+}
+
+void update(int v, int t) {
+    int p;
+    while (sieve[v]) {
+        p = sieve[v];
+        mark[p] = t;
+        v = next[v];
+    }
+    if (v > 1) {
+        mark[v] = t;
     }
 }
 
 int main() {
-    ios :: sync_with_stdio(false);
-    cout << (fixed) << setprecision(9);
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
     init();
-    while (cin >> n >> q) {
-        memset(has, 0, sizeof has);
-        memset(state, 0, sizeof state);
-
-        while (q--) {
-            char typ; cin >> typ;
-            if (typ == '+') {
-                int u; cin >> u;
-                if (state[u] == 1) {
-                    cout << "Already on\n";
-                    continue;
-                }
-                int saveu = u;
-                int bad = 0;
-                while (u > 1) {
-                    int p = (sieve[u]) ? sieve[u] : u;
-
-                    if (has[p]) {
-                        bad = has[p];
-                        break;
-                    }
-                    while (u % p == 0) u /= p;
-                }
-                if (!bad) {
-                    cout << "Success\n";
-                    flip(saveu);
-                    state[saveu] = 1;
-                }
+    int n, m; scanf("%d%d\n", &n, &m);
+    char c;
+    int v, x;
+    while (m--) {
+        scanf("%c%d\n", &c, &v);
+        if (c == '+') {
+            if (on[v]) puts("Already on");
+            else {
+                x = conflict(v);
+                if (x >= 0) printf("Conflict with %d\n", x);
                 else {
-                    cout << "Conflict with " << bad << '\n';
+                    on[v] = true;
+                    update(v, v);
+                    puts("Success");
                 }
             }
+        }
+        else {
+            if (!on[v]) {
+                puts("Already off");
+            }
             else {
-                int u; cin >> u;
-                if (state[u] == 0) {
-                    cout << "Already off\n";
-                    continue;
-                }
-                flip(u);
-                state[u] = 0;
-                cout << "Success\n";
+                puts("Success");
+                update(v, 0);
+                on[v] = false;
             }
         }
     }
     return 0;
 }
-
