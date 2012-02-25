@@ -34,7 +34,7 @@ int main() {
 //    freopen("input.txt", "r", stdin);
 //    freopen("output.txt", "w", stdout);
     int n, m; scanf("%d%d", &n, &m);
-    p[0] = 1; FOR(i,1,n) p[i] = p[i-1] * 1000003;
+    p[0] = 1; FOR(i,1,n) p[i] = p[i-1] * 29;
     FOR(i,1,n) h2[i] = p[i];
     int u, v;
     while (m--) {
