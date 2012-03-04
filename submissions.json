@@ -9988,6 +9988,23 @@
     "tags": [],
     "timestamp": "Aug/25/2015 02:27"
   },
+  "CF1269677": {
+    "contest_id": 158,
+    "language": "GNU C++",
+    "path": "codeforces/158/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Cd and pwd commands",
+    "problem_url": "https://codeforces.com/contest/158/problem/C",
+    "submission_id": "CF1269677",
+    "submission_url": "https://codeforces.com/contest/158/submission/1269677",
+    "tags": [
+      "*special problem",
+      "data structures",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Mar/04/2012 13:04"
+  },
   "CF1269939": {
     "contest_id": 158,
     "language": "GNU C++",
