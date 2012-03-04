@@ -9988,6 +9988,22 @@
     "tags": [],
     "timestamp": "Aug/25/2015 02:27"
   },
+  "CF1269077": {
+    "contest_id": 158,
+    "language": "GNU C++",
+    "path": "codeforces/158/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Next Round",
+    "problem_url": "https://codeforces.com/contest/158/problem/A",
+    "submission_id": "CF1269077",
+    "submission_url": "https://codeforces.com/contest/158/submission/1269077",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/04/2012 12:14"
+  },
   "CF1269187": {
     "contest_id": 158,
     "language": "GNU C++",
