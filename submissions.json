@@ -10879,6 +10879,18 @@
     ],
     "timestamp": "Sep/06/2015 22:59"
   },
+  "CF1289512": {
+    "contest_id": 100025,
+    "language": "GNU C++",
+    "path": "codeforces/100025/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Semi-cool Points",
+    "problem_url": "https://codeforces.com/gym/100025/problem/I",
+    "submission_id": "CF1289512",
+    "submission_url": "https://codeforces.com/gym/100025/submission/1289512",
+    "tags": [],
+    "timestamp": "Mar/05/2012 15:49"
+  },
   "CF1289654": {
     "contest_id": 100025,
     "language": "GNU C++",
