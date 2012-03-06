@@ -11170,6 +11170,18 @@
     "tags": [],
     "timestamp": "Sep/16/2015 02:39"
   },
+  "CF1302759": {
+    "contest_id": 160,
+    "language": "GNU C++",
+    "path": "codeforces/160/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Buses and People",
+    "problem_url": "https://codeforces.com/contest/160/problem/E",
+    "submission_id": "CF1302759",
+    "submission_url": "https://codeforces.com/contest/160/submission/1302759",
+    "tags": [],
+    "timestamp": "Mar/07/2012 00:28"
+  },
   "CF13036497": {
     "contest_id": 578,
     "language": "GNU C++11",
