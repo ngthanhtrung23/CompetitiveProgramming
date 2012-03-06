@@ -11062,6 +11062,18 @@
     ],
     "timestamp": "Sep/11/2015 17:35"
   },
+  "CF1299971": {
+    "contest_id": 160,
+    "language": "GNU C++",
+    "path": "codeforces/160/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Find Pair",
+    "problem_url": "https://codeforces.com/contest/160/problem/C",
+    "submission_id": "CF1299971",
+    "submission_url": "https://codeforces.com/contest/160/submission/1299971",
+    "tags": [],
+    "timestamp": "Mar/06/2012 23:48"
+  },
   "CF13005849": {
     "contest_id": 100735,
     "language": "Python 2",
