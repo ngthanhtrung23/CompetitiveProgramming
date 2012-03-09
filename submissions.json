@@ -11972,6 +11972,18 @@
     ],
     "timestamp": "Sep/23/2015 00:38"
   },
+  "CF1314748": {
+    "contest_id": 100020,
+    "language": "GNU C++",
+    "path": "codeforces/100020/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Tree",
+    "problem_url": "https://codeforces.com/gym/100020/problem/H",
+    "submission_id": "CF1314748",
+    "submission_url": "https://codeforces.com/gym/100020/submission/1314748",
+    "tags": [],
+    "timestamp": "Mar/09/2012 15:42"
+  },
   "CF13148685": {
     "contest_id": 580,
     "language": "GNU C++11",
