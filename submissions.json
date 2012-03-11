@@ -13051,6 +13051,18 @@
     "tags": [],
     "timestamp": "Oct/05/2015 02:25"
   },
+  "CF1341236": {
+    "contest_id": 161,
+    "language": "GNU C++",
+    "path": "codeforces/161/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Dress'em in Vests!",
+    "problem_url": "https://codeforces.com/contest/161/problem/A",
+    "submission_id": "CF1341236",
+    "submission_url": "https://codeforces.com/contest/161/submission/1341236",
+    "tags": [],
+    "timestamp": "Mar/11/2012 23:15"
+  },
   "CF13415449": {
     "contest_id": 100723,
     "language": "GNU C++11",
