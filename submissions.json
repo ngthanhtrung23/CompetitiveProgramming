@@ -13255,6 +13255,18 @@
     "tags": [],
     "timestamp": "Oct/06/2015 01:39"
   },
+  "CF1342792": {
+    "contest_id": 161,
+    "language": "GNU C++",
+    "path": "codeforces/161/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Distance in Tree",
+    "problem_url": "https://codeforces.com/contest/161/problem/D",
+    "submission_id": "CF1342792",
+    "submission_url": "https://codeforces.com/contest/161/submission/1342792",
+    "tags": [],
+    "timestamp": "Mar/11/2012 23:36"
+  },
   "CF13430768": {
     "contest_id": 100721,
     "language": "GNU C++11",
