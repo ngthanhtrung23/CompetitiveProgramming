@@ -13267,6 +13267,18 @@
     "tags": [],
     "timestamp": "Oct/06/2015 19:25"
   },
+  "CF1345345": {
+    "contest_id": 161,
+    "language": "GNU C++",
+    "path": "codeforces/161/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Discounts",
+    "problem_url": "https://codeforces.com/contest/161/problem/B",
+    "submission_id": "CF1345345",
+    "submission_url": "https://codeforces.com/contest/161/submission/1345345",
+    "tags": [],
+    "timestamp": "Mar/12/2012 00:21"
+  },
   "CF13459567": {
     "contest_id": 584,
     "language": "Python 2",
