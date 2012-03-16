@@ -14147,6 +14147,24 @@
     ],
     "timestamp": "Oct/16/2015 01:22"
   },
+  "CF1364243": {
+    "contest_id": 165,
+    "language": "GNU C++",
+    "path": "codeforces/165/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Compatible Numbers",
+    "problem_url": "https://codeforces.com/contest/165/problem/E",
+    "submission_id": "CF1364243",
+    "submission_url": "https://codeforces.com/contest/165/submission/1364243",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "*2200"
+    ],
+    "timestamp": "Mar/17/2012 00:01"
+  },
   "CF13647623": {
     "contest_id": 587,
     "language": "GNU C++11",
