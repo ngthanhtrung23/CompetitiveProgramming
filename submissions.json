@@ -14193,6 +14193,23 @@
     ],
     "timestamp": "Oct/16/2015 03:44"
   },
+  "CF1365747": {
+    "contest_id": 165,
+    "language": "GNU C++",
+    "path": "codeforces/165/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Beard Graph",
+    "problem_url": "https://codeforces.com/contest/165/problem/D",
+    "submission_id": "CF1365747",
+    "submission_url": "https://codeforces.com/contest/165/submission/1365747",
+    "tags": [
+      "data structures",
+      "dsu",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Mar/17/2012 00:25"
+  },
   "CF13729219": {
     "contest_id": 100781,
     "language": "GNU C++11",
