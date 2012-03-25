@@ -16163,6 +16163,18 @@
     ],
     "timestamp": "Nov/05/2015 01:53"
   },
+  "CF1407199": {
+    "contest_id": 100030,
+    "language": "GNU C++",
+    "path": "codeforces/100030/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Triskaidekaphobia",
+    "problem_url": "https://codeforces.com/gym/100030/problem/K",
+    "submission_id": "CF1407199",
+    "submission_url": "https://codeforces.com/gym/100030/submission/1407199",
+    "tags": [],
+    "timestamp": "Mar/25/2012 12:36"
+  },
   "CF1407250": {
     "contest_id": 100030,
     "language": "GNU C++",
