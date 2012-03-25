@@ -16163,6 +16163,18 @@
     ],
     "timestamp": "Nov/05/2015 01:53"
   },
+  "CF1407570": {
+    "contest_id": 100030,
+    "language": "GNU C++",
+    "path": "codeforces/100030/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Prohibition",
+    "problem_url": "https://codeforces.com/gym/100030/problem/I",
+    "submission_id": "CF1407570",
+    "submission_url": "https://codeforces.com/gym/100030/submission/1407570",
+    "tags": [],
+    "timestamp": "Mar/25/2012 14:19"
+  },
   "CF1407607": {
     "contest_id": 100030,
     "language": "GNU C++",
