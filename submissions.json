@@ -16443,6 +16443,18 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF1418095": {
+    "contest_id": 163,
+    "language": "GNU C++",
+    "path": "codeforces/163/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lemmings",
+    "problem_url": "https://codeforces.com/contest/163/problem/B",
+    "submission_id": "CF1418095",
+    "submission_url": "https://codeforces.com/contest/163/submission/1418095",
+    "tags": [],
+    "timestamp": "Mar/26/2012 08:02"
+  },
   "CF1418098": {
     "contest_id": 163,
     "language": "GNU C++",
