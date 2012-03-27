@@ -1,39 +1,60 @@
-
-#include <bits/stdc++.h>
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-int main() {
-    ios :: sync_with_stdio(false);
-    int n, a, d;
-    while (cin >> n >> a >> d) {
-        double last = 0.0;
-        FOR(i,1,n) {
-            int t0, v;
-            cin >> t0 >> v;
-            double t1 = v / (double) a;
-            double d1 = a * t1 * t1 / 2.0;
-            
-            double t = 0.0;
-            if (d1 >= d) t = sqrt(2*d / (double) a);
-            else {
-                t = t1 + (d - d1) / (double) v;
-            }
-            t += t0;
+const double PI = acos(-1.0);
 
-            if (t < last) t = last;
-            last = t;
-            printf("%.9lf\n", t);
+int n, a, d;
+
+int main() {
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+    while (scanf("%d%d%d", &n, &a, &d) == 3) {
+        long double last = 0.0;
+        FOR(i,1,n) {
+            long double D = d;
+            int t, v;
+            scanf("%d%d", &t, &v);
+            long double tx = v / (long double) a;
+            long double best = a * tx*tx / 2.0, res;
+            if (best > D) {
+                res = t + sqrt(2*(long double) D / a);
+            }
+            else {
+                res = t + tx;
+                D -= best;
+                res += D / (long double) v;
+            }
+            
+            res = max(res, last);
+            printf("%.8lf\n", (double) res);
+            last = res;
         }
     }
     return 0;

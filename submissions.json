@@ -16555,6 +16555,21 @@
     ],
     "timestamp": "Nov/13/2015 23:39"
   },
+  "CF1423924": {
+    "contest_id": 167,
+    "language": "GNU C++",
+    "path": "codeforces/167/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Wizards and Trolleybuses",
+    "problem_url": "https://codeforces.com/contest/167/problem/A",
+    "submission_id": "CF1423924",
+    "submission_url": "https://codeforces.com/contest/167/submission/1423924",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Mar/27/2012 23:08"
+  },
   "CF14248165": {
     "contest_id": 598,
     "language": "GNU C++11",
