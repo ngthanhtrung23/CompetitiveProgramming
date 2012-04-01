@@ -17166,6 +17166,22 @@
     ],
     "timestamp": "Nov/25/2015 03:58"
   },
+  "CF1449773": {
+    "contest_id": 171,
+    "language": "GNU C++",
+    "path": "codeforces/171/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Mysterious numbers - 1",
+    "problem_url": "https://codeforces.com/contest/171/problem/A",
+    "submission_id": "CF1449773",
+    "submission_url": "https://codeforces.com/contest/171/submission/1449773",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "*1200"
+    ],
+    "timestamp": "Apr/01/2012 23:02"
+  },
   "CF14524537": {
     "contest_id": 601,
     "language": "GNU C++11",
