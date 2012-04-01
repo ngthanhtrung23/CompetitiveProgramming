@@ -1,35 +1,45 @@
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
-#include <bits/stdc++.h>
-#define int long long
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
-
-#define DEBUG(X) { cout << #X << " = " << (X) << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
 #define ll long long
-#define __builtin_popcount __builtin_popcountll
-#define SZ(x) ((int) (x).size())
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-void tle() {
-	for(int i = 3; i != 1234567891234LL; i *= 7);
-}
+const double PI = acos(-1.0);
 
-#undef int
 int main() {
-#define int long long
-    ios :: sync_with_stdio(0); cin.tie(0);
-    cout << (fixed) << setprecision(9);
-	int n; cin >> n;
-	switch (n) {
-		case 1: cout << 2 << endl; break; // AC 2
-		case 2: cout << 3 << endl; break; // AC 4
-		case 3: cout << 1 << endl; break; // AC 1
-		case 4: cout << 2 << endl; break; // AC 3
-		case 5: cout << 1 << endl; break; 
-	}
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+    int n; cin >> n;
+    switch (n) {
+        case 1: cout << 2; break; // Correct (2)
+        case 2: cout << 3; break; // Test 4
+        case 3: cout << 1; break; // Correct (1)
+        case 4: cout << 2; break; // Correct (3)
+        case 5: cout << 1; break; // Test 5
+    }
+    return 0;
 }

@@ -17182,6 +17182,22 @@
     ],
     "timestamp": "Nov/28/2015 01:09"
   },
+  "CF1454452": {
+    "contest_id": 171,
+    "language": "GNU C++",
+    "path": "codeforces/171/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Broken checker",
+    "problem_url": "https://codeforces.com/contest/171/problem/D",
+    "submission_id": "CF1454452",
+    "submission_url": "https://codeforces.com/contest/171/submission/1454452",
+    "tags": [
+      "*special problem",
+      "brute force",
+      "*1300"
+    ],
+    "timestamp": "Apr/01/2012 23:30"
+  },
   "CF1455508": {
     "contest_id": 171,
     "language": "GNU C++",
