@@ -17281,6 +17281,22 @@
     ],
     "timestamp": "Nov/30/2015 04:24"
   },
+  "CF1457245": {
+    "contest_id": 171,
+    "language": "GNU C++",
+    "path": "codeforces/171/C.cpp",
+    "problem_index": "C",
+    "problem_name": "A Piece of Cake",
+    "problem_url": "https://codeforces.com/contest/171/problem/C",
+    "submission_id": "CF1457245",
+    "submission_url": "https://codeforces.com/contest/171/submission/1457245",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Apr/01/2012 23:54"
+  },
   "CF14589271": {
     "contest_id": 603,
     "language": "GNU C++11",
