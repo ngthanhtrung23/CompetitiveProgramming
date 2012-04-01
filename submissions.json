@@ -17182,6 +17182,22 @@
     ],
     "timestamp": "Nov/28/2015 01:09"
   },
+  "CF1455508": {
+    "contest_id": 171,
+    "language": "GNU C++",
+    "path": "codeforces/171/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Star",
+    "problem_url": "https://codeforces.com/contest/171/problem/B",
+    "submission_id": "CF1455508",
+    "submission_url": "https://codeforces.com/contest/171/submission/1455508",
+    "tags": [
+      "*special problem",
+      "combinatorics",
+      "*1300"
+    ],
+    "timestamp": "Apr/01/2012 23:39"
+  },
   "CF1456184": {
     "contest_id": 171,
     "language": "GNU C++",
