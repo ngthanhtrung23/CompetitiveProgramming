@@ -17488,6 +17488,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF1467700": {
+    "contest_id": 172,
+    "language": "GNU C++",
+    "path": "codeforces/172/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Bus",
+    "problem_url": "https://codeforces.com/contest/172/problem/C",
+    "submission_id": "CF1467700",
+    "submission_url": "https://codeforces.com/contest/172/submission/1467700",
+    "tags": [],
+    "timestamp": "Apr/03/2012 16:44"
+  },
   "CF1467766": {
     "contest_id": 172,
     "language": "GNU C++",
