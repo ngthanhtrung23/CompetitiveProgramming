@@ -17488,6 +17488,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF1467421": {
+    "contest_id": 172,
+    "language": "GNU C++",
+    "path": "codeforces/172/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Pseudorandom Sequence Period",
+    "problem_url": "https://codeforces.com/contest/172/problem/B",
+    "submission_id": "CF1467421",
+    "submission_url": "https://codeforces.com/contest/172/submission/1467421",
+    "tags": [],
+    "timestamp": "Apr/03/2012 16:15"
+  },
   "CF1467700": {
     "contest_id": 172,
     "language": "GNU C++",
