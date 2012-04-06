@@ -17875,6 +17875,22 @@
     "tags": [],
     "timestamp": "Dec/14/2015 03:18"
   },
+  "CF1480268": {
+    "contest_id": 173,
+    "language": "GNU C++",
+    "path": "codeforces/173/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Rock-Paper-Scissors",
+    "problem_url": "https://codeforces.com/contest/173/problem/A",
+    "submission_id": "CF1480268",
+    "submission_url": "https://codeforces.com/contest/173/submission/1480268",
+    "tags": [
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Apr/06/2012 23:08"
+  },
   "CF14806002": {
     "contest_id": 605,
     "language": "GNU C++11",

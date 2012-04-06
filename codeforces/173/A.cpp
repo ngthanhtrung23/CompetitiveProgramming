@@ -1,55 +1,68 @@
-#include <iostream>
-#include <algorithm>
-#include <cstdio>
-#include <vector>
-#include <cstring>
-#include <string>
-#include <cmath>
-#include <utility>
-#include <map>
-#include <set>
-#include <queue>
-#include <stack>
+
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
 #include <sstream>
-#define fr(a,b,c) for (int a=b;a<=c;a++)
-#define frr(a,b,c) for (int a=b;a>=c;a--)
-#define rep(a,b) for (int a=0;a<b;a++)
-#define repp(a,b) for (int a=b-1;a>=0;a--)
-#define pb push_back
-#define mp make_pair
-#define fi first
-#define se second
-#define sz(a) int(a.size())
-#define all(a) a.begin(),a.end()
-#define reset(a,b) memset(a,b,sizeof(a))
-#define pii pair<int,int>
-#define oo 1000111222
-#define maxN 1
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
+
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-int x[1000100],y[1000100],d[256];
+const double PI = acos(-1.0);
+const int MN = 1000111;
 
-int main()
-{
-	string a,b;
-	int N,m,n,X=0,Y=0,A=0,B=0,lcm;
-	d['R']=0; d['S']=1; d['P']=2;
-	cin >> N >> a >> b;
-	m=sz(a); n=sz(b);
-	fr(i,1,1000000)	
-		if (i%m==0 && i%n==0) 
-		{
-			lcm=i; break;
-		}
-	rep(i,lcm)
-		if (a[i%m]!=b[i%n]) 
-		{
-			int t=d[a[i%m]],u=d[b[i%n]];
-			if ((t+1)%3==u) x[i]=1, A++;
-			else y[i]=1, B++;
-		}
-	X=N/lcm*A; Y=N/lcm*B;
-	rep(i,N%lcm) X+=x[i], Y+=y[i];
-	cout << Y << ' ' << X << endl;
+int a[MN], b[MN];
+char s1[1011], s2[1011];
+
+bool win(char a, char b) {
+    if (a == 'R' && b == 'S') return true;
+    if (a == 'S' && b == 'P') return true;
+    if (a == 'P' && b == 'R') return true;
+    return false;
 }
 
+int main() {
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+    int n; scanf("%d\n", &n);
+    gets(s1); gets(s2);
+    int n1 = strlen(s1), n2 = strlen(s2);
+    int i = 0, j = 0;
+    FOR(turn,1,n1*n2) {
+        if (win(s1[i], s2[j])) a[turn] = a[turn-1] + 1;
+        else a[turn] = a[turn-1];
+        if (win(s2[j], s1[i])) b[turn] = b[turn-1] + 1;
+        else b[turn] = b[turn-1];
+        i++; j++;
+        if (i >= n1) i = 0;
+        if (j >= n2) j = 0;
+    }
+    int sl = n / (n1*n2);
+    int A = a[n1*n2] * sl, B = b[n1*n2] * sl;
+    n -= sl * (n1*n2);
+    A += a[n]; B += b[n];
+    swap(A, B);
+    printf("%d %d\n", A, B);
+    return 0;
+}
