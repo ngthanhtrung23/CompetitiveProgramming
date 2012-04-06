@@ -17922,6 +17922,22 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF1481182": {
+    "contest_id": 173,
+    "language": "GNU C++",
+    "path": "codeforces/173/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Spiral Maximum",
+    "problem_url": "https://codeforces.com/contest/173/problem/C",
+    "submission_id": "CF1481182",
+    "submission_url": "https://codeforces.com/contest/173/submission/1481182",
+    "tags": [
+      "brute force",
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Apr/06/2012 23:23"
+  },
   "CF14816179": {
     "contest_id": 100820,
     "language": "GNU C++11",
