@@ -18258,6 +18258,22 @@
     "tags": [],
     "timestamp": "Dec/17/2015 22:50"
   },
+  "CF1484746": {
+    "contest_id": 173,
+    "language": "GNU C++",
+    "path": "codeforces/173/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Camping Groups",
+    "problem_url": "https://codeforces.com/contest/173/problem/E",
+    "submission_id": "CF1484746",
+    "submission_url": "https://codeforces.com/contest/173/submission/1484746",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*2600"
+    ],
+    "timestamp": "Apr/07/2012 01:57"
+  },
   "CF14847622": {
     "contest_id": 100827,
     "language": "GNU C++11",

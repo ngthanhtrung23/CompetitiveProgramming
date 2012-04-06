@@ -1,131 +1,180 @@
-#include <bits/stdc++.h>
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-const int MN = 100111;
-struct People {
-    int resp, age, id;
-} a[MN];
-bool operator < (const People& a, const People& b) {
+const double PI = acos(-1.0);
+const int MN = 200111;
+
+struct Person {
+    int age, resp;
+} a[MN], savea[MN];
+
+struct Query {
+    int type, resp, u, v, x, index;
+} q[MN];
+
+bool operator < (const Query &a, const Query &b) {
+    if (a.resp != b.resp) return a.resp > b.resp;
+    return a.type < b.type;
+}
+
+bool cmp1(const Person &a, const Person &b) {
     return a.resp < b.resp;
 }
-int newId[MN], n, q, k, cage[MN], nage, can[MN], res[MN];
-pair<int,int> queries[MN];
-vector< pair<int,int> > ask[MN];
 
-void RR() {
-    FOR(i,1,n) cage[i] = a[i].age;
-    sort(cage+1, cage+n+1);
-    nage = unique(cage+1, cage+n+1) - cage - 1;
+#define _(u) ((u) & (-(u)))
 
-    FOR(i,1,n) a[i].age = lower_bound(cage+1, cage+nage+1, a[i].age) - cage;
+int n, k, c[MN], sAge, first[MN], res[MN], nQuery, bit[MN], it[6*MN];
+
+void update(int u, int k) {
+    while (u <= 200000) {
+        bit[u]++;
+        u += _(u);
+    }
 }
 
-int it_cnt[MN * 8], it_max[MN * 8];
-#define CT(X) ((X) << 1)
-#define CP(X) (CT(X) + 1)
+int get(int u) {
+    int res = 0;
+    while (u > 0) {
+        res += bit[u];
+        u -= _(u);
+    }
+    return res;
+}
 
-void update_cnt(int i, int l, int r, int u) {
-    if (u < cage[l] || cage[r] < u) return ;
+#define CT(i) ((i) << 1)
+#define CP(i) (CT(i) + 1)
+
+void update2(int i, int l, int r, int u, int x) {
+    if (l > r) return ;
+    if (u < l || r < u) return ;
     if (l == r) {
-        it_cnt[i] += 1;
+        it[i] = max(it[i], x);
         return ;
     }
     int mid = (l + r) >> 1;
-    update_cnt(CT(i), l, mid, u);
-    update_cnt(CP(i), mid+1, r, u);
-    it_cnt[i] = it_cnt[CT(i)] + it_cnt[CP(i)];
+    update2(CT(i), l, mid, u, x);
+    update2(CP(i), mid+1, r, u, x);
+    it[i] = max(it[CT(i)], it[CP(i)]);
 }
 
-void update_max(int i, int l, int r, int u, int val) {
-    if (u < cage[l] || cage[r] < u) return ;
-    if (l == r) {
-        it_max[i] = max(it_max[i], val);
-        return ;
+int get2(int i, int l, int r, int u, int v) {
+    if (l > r) return -1;
+    if (v < l || r < u) return -1;
+    if (u <= l && r <= v) {
+        return it[i];
     }
     int mid = (l + r) >> 1;
-    update_max(CT(i), l, mid, u, val);
-    update_max(CP(i), mid+1, r, u, val);
-    it_max[i] = max(it_max[CT(i)], it_max[CP(i)]);
-}
-
-int get_cnt(int i, int l, int r, int u, int v) {
-    if (v < cage[l] || cage[r] < u) return 0;
-    if (u <= cage[l] && cage[r] <= v) return it_cnt[i];
-    int mid = (l + r) >> 1;
-    return get_cnt(CT(i), l, mid, u, v) + get_cnt(CP(i), mid+1, r, u, v);
-}
-
-int get_max(int i, int l, int r, int u, int v) {
-    if (v < cage[l] || cage[r] < u) return 0;
-    if (u <= cage[l] && cage[r] <= v) return it_max[i];
-    int mid = (l + r) >> 1;
-    return max(get_max(CT(i), l, mid, u, v), get_max(CP(i), mid+1, r, u, v));
-}
-
-void init() {
-//    PR(cage, nage);
-    memset(it_cnt, 0, sizeof it_cnt);
-    memset(it_max, 0, sizeof it_max);
-    int j = 0;
-    FOR(i,1,n) {
-        while (j < n && a[j+1].resp <= a[i].resp) {
-            ++j;
-            update_cnt(1, 1, nage, cage[a[j].age]);
-        }
-        can[i] = get_cnt(1, 1, nage, cage[a[i].age] - k, cage[a[i].age] + k);
-    }
+    return max(get2(CT(i), l, mid, u, v), get2(CP(i), mid+1, r, u, v));
 }
 
 int main() {
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
     while (scanf("%d%d", &n, &k) == 2) {
         FOR(i,1,n) scanf("%d", &a[i].resp);
-        FOR(i,1,n) scanf("%d", &a[i].age);
-        FOR(i,1,n) a[i].id = i;
-        sort(a+1, a+n+1);
-        RR();
-        FOR(i,1,n) newId[a[i].id] = i;
-//        FOR(i,1,n) cout << a[i].resp << ' ' << a[i].age << ' ' << a[i].id << endl;
-        init();
-
-        scanf("%d", &q);
-        FOR(i,1,n) ask[i].clear();
-        FOR(i,1,q) {
+        FOR(i,1,n) {
+            scanf("%d", &a[i].age);
+            c[i] = a[i].age;
+        }
+        c[n+1] = -2000111000;
+        c[n+2] = 2000111000;
+        sort(c+1, c+n+3);
+        sAge = unique(c+1, c+n+3) - c - 1;
+        FOR(i,1,n) {
+            a[i].age = lower_bound(c+1, c+sAge+1, a[i].age) - c;
+        }
+//        PR(c, sAge);
+//        FOR(i,1,n) cout << a[i].age << ' '; puts("");
+        
+        FOR(i,1,n) savea[i] = a[i];
+        sort(a+1, a+n+1, cmp1);
+//        cout << "resp = "; FOR(i,1,n) cout << a[i].resp << ' '; puts("");
+        
+        // Create update queries
+        nQuery = 0;
+        FOR(i,1,n) {
+            if (i == 1) first[i] = i;
+            else if (a[i].resp == a[i-1].resp) first[i] = first[i-1];
+            else first[i] = i;
+        }
+        memset(bit, 0, sizeof bit);
+        FOR(i,1,n) {
+            update(a[i].age, 1);
+            if (i == n || a[i+1].resp != a[i].resp) {
+                FOR(x,first[i],i) {
+                    ++nQuery;
+                    q[nQuery].type = 1;
+                    q[nQuery].resp = a[x].resp;
+                    int age2 = upper_bound(c+1, c+sAge+1, c[a[x].age]+k) - c - 1;
+                    int age1 = lower_bound(c+1, c+sAge+1, c[a[x].age]-k) - c - 1;
+                    q[nQuery].u = a[x].age;
+                    q[nQuery].x = get(age2) - get(age1);
+                    
+//                    cout << a[x].resp << ' ' << a[x].age << ' ' << age1 << ' ' << age2 << ' ' << q[nQuery].x << endl;
+                }
+            }
+        }
+        
+        // Create get queries
+        int nQ; scanf("%d", &nQ);
+        FOR(Q,1,nQ) {
             int u, v; scanf("%d%d", &u, &v);
-            u = newId[u]; v = newId[v];
-            if (u > v) swap(u, v);
-            ask[v].push_back(make_pair(u, i));
-        }
-        memset(it_max, 0, sizeof it_max);
-
-        int j = n+1;
-        FORD(i,n,1) {
-            while (j > 1 && a[j-1].resp >= a[i].resp) {
-                --j;
-                update_max(1, 1, nage, cage[a[j].age], can[j]);
+            int age1 = min(c[savea[u].age], c[savea[v].age]);
+            int age2 = max(c[savea[u].age], c[savea[v].age]);
+            
+            if (age1 + k < age2 - k) {
+                res[Q] = -1;
+                continue;
             }
-            for(auto x : ask[i]) {
-                // leader_age - k <= min(a[i].age, a[x.first].age)
-                // leader_age + k >= max(a[i].age, a[x.first].age)
-                int from = cage[max(a[i].age, a[x.first].age)] - k;
-                int to   = cage[min(a[i].age, a[x.first].age)] + k;
-                res[x.second] = get_max(1, 1, nage, from, to);
-                if (res[x.second] == 0) res[x.second] = -1;
+            ++nQuery;
+            q[nQuery].type = 2;
+            q[nQuery].index = Q;
+            q[nQuery].resp = max(savea[u].resp, savea[v].resp);
+            q[nQuery].u = lower_bound(c+1, c+sAge+1, age2-k) - c;
+            q[nQuery].v = upper_bound(c+1, c+sAge+1, age1+k) - c - 1;
+        }
+        
+        sort(q+1, q+nQuery+1);
+//        cout << "Query: \n"; FOR(i,1,nQuery) cout << q[i].type << ' ' << q[i].resp << ' ' << q[i].u << ' ' << q[i].v << ' ' << q[i].x + q[i].index << endl;
+        
+        memset(it, -1, sizeof it);
+        FOR(i,1,nQuery) {
+            if (q[i].type == 1) {
+                update2(1,1,sAge,q[i].u,q[i].x);
+            }
+            else {
+                res[q[i].index] = get2(1,1,sAge,q[i].u,q[i].v);
             }
         }
-
-        FOR(i,1,q) printf("%d\n", res[i]);
+        FOR(i,1,nQ) printf("%d\n", res[i]);
+        break;
     }
     return 0;
 }
-
