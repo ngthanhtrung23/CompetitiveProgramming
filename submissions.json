@@ -17982,6 +17982,22 @@
     "tags": [],
     "timestamp": "Dec/15/2015 23:26"
   },
+  "CF1481770": {
+    "contest_id": 173,
+    "language": "GNU C++",
+    "path": "codeforces/173/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Chamber of Secrets",
+    "problem_url": "https://codeforces.com/contest/173/problem/B",
+    "submission_id": "CF1481770",
+    "submission_url": "https://codeforces.com/contest/173/submission/1481770",
+    "tags": [
+      "dfs and similar",
+      "shortest paths",
+      "*1800"
+    ],
+    "timestamp": "Apr/06/2012 23:37"
+  },
   "CF14817787": {
     "contest_id": 100820,
     "language": "GNU C++11",
