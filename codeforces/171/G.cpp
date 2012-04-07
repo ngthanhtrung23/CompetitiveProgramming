@@ -1,30 +1,46 @@
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
-#include <bits/stdc++.h>
-#define int long long
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
-
-#define DEBUG(X) { cout << #X << " = " << (X) << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
 #define ll long long
-#define __builtin_popcount __builtin_popcountll
-#define SZ(x) ((int) (x).size())
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-int x[111];
+const double PI = acos(-1.0);
 
-#undef int
+ll f[22];
+
 int main() {
-#define int long long
-    ios :: sync_with_stdio(0); cin.tie(0);
-    cout << (fixed) << setprecision(9);
-	int n;
-	while (cin >> x[0] >> x[1] >> n) {
-		FOR(i,2,n) x[i] = x[i-1] + x[i-2];
-		cout << x[n] << endl;
-	}
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+    int a, b, c;
+    while (cin >> a >> b >> c) {
+        f[0] = a;
+        f[1] = b;
+        FOR(i,2,c) f[i] = f[i-1] + f[i-2];
+        cout << f[c] << endl;
+    }
+    return 0;
 }

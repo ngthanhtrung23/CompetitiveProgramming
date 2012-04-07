@@ -18330,6 +18330,21 @@
     "tags": [],
     "timestamp": "Dec/18/2015 01:03"
   },
+  "CF1486901": {
+    "contest_id": 171,
+    "language": "GNU C++",
+    "path": "codeforces/171/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Mysterious numbers - 2",
+    "problem_url": "https://codeforces.com/contest/171/problem/G",
+    "submission_id": "CF1486901",
+    "submission_url": "https://codeforces.com/contest/171/submission/1486901",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "Apr/07/2012 17:28"
+  },
   "CF1486920": {
     "contest_id": 168,
     "language": "GNU C++",
