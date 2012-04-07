@@ -1,138 +1,132 @@
-
-#include <bits/stdc++.h>
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-const int MN = 611;
-int n, m;
-long long p;
-int in[MN], out[MN];
-int cnt[MN][MN];
-long long c[MN][MN];
-vector<int> ke[MN], rev[MN];
+const double PI = acos(-1.0);
 
-long long power(long long x, int k) {
-    if (k == 0) return 1;
-    if (k == 1) return x % p;
-    long long mid = power(x * x % p, k >> 1);
-    if (k & 1) return mid * x % p;
+int n, m, BASE, a[311][311], f[611], in[611], out[611];
+vector<int> ke[611], source, sink;
+
+ll power(int x, int k) {
+    if (!k) return 1 % BASE;
+    if (k == 1) return x % BASE;
+    ll mid = power(x, k >> 1);
+    mid = mid * mid % BASE;
+    if (k & 1) return mid * x % BASE;
     else return mid;
 }
-
-long long inverse(long long x) {
-    return power(x, p - 2);
-}
-
-int f[MN];
 
 int dfs(int u) {
     if (f[u] >= 0) return f[u];
     f[u] = 0;
-    for(int v : rev[u]) {
-        f[u] = (f[u] + dfs(v)) % p;
+    REP(i,ke[u].size()) {
+        int v = ke[u][i];
+        f[u] += dfs(v);
+        if (f[u] >= BASE) f[u] -= BASE;
     }
     return f[u];
 }
 
-int main() {
-    ios :: sync_with_stdio(false);
-    while (scanf("%d%d%d", &n, &m, &p) == 3) {
-//        cout << "-------------------\n";
-        FOR(i,1,n) {
-            in[i] = out[i] = 0;
-            ke[i].clear();
-            rev[i].clear();
+int get() {
+    int n = source.size();
+    bool rev = false;
+    FOR(j,1,n) {
+        int save = j;
+        if (a[j][j] == 0) {
+            FOR(i,j+1,n) if (a[i][j]) save = i;
+        }
+        if (a[save][j] == 0) return 0;
+        if (save != j) {
+            rev = !rev;
+            FOR(k,j,n) swap(a[save][k], a[j][k]);
         }
         
-        // Use Floyd to calculate cnt[i][j] = number of path from i --> j
-        memset(cnt, 0, sizeof cnt);
-        FOR(i,1,m) {
-            int u, v; scanf("%d%d", &u, &v);
-            out[u]++;
-            in[v]++;
-            ke[u].push_back(v);
-            rev[v].push_back(u);
+        FOR(i,j+1,n) {
+            int x = a[i][j] * power(a[j][j], BASE-2) % BASE;
+            FOR(k,j,n) {
+                a[i][k] = a[i][k] - a[j][k] * (ll) x % BASE;
+                if (a[i][k] < 0) a[i][k] += BASE;
+            }
         }
-        FOR(i,1,n) if (in[i] == 0 && out[i]) {
+    }
+    int res = 1;
+    FOR(i,1,n) res = (res * (ll) a[i][i]) % BASE;
+    if (rev) res = res * (BASE-1LL) % BASE;
+    return res;
+}
+
+int main() {
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+    while (scanf("%d%d%d", &n, &m, &BASE) == 3) {
+        FOR(i,1,n) ke[i].clear();
+        int u, v;
+        memset(in, 0, sizeof in);
+        memset(out, 0, sizeof out);
+        while (m--) {
+            scanf("%d%d", &u, &v);
+            out[u]++; in[v]++;
+            ke[v].PB(u);
+        }
+        source.clear(); sink.clear();
+        FOR(i,1,n) {
+            if (in[i] == 0 && out[i]) source.PB(i);
+            if (out[i] == 0 && in[i]) sink.PB(i);
+        }
+        
+        REP(i,source.size()) {
+            int u = source[i];
             memset(f, -1, sizeof f);
-            FOR(j,1,n) if (in[j] == 0 && out[j])
-                if (j == i) f[j] = 1;
-                else f[j] = 0;
-
-            FOR(j,1,n) if (in[j] && out[j] == 0)
-                cnt[i][j] = dfs(j);
-        }
-
-//        FOR(i,1,n) FOR(j,1,n) cout << cnt[i][j] << " \n"[j == n];
-
-        // Init c matrix for all sources & sinks
-        int nSource = 0;
-        FOR(i,1,n) if (in[i] == 0 && out[i]) {
-            ++nSource;
-            int nSink = 0;
-            FOR(j,1,n) if (out[j] == 0 && in[j]) {
-                c[nSource][++nSink] = cnt[i][j];
+            REP(x,source.size()) if (x == i) f[source[x]] = 1; else f[source[x]] = 0;
+            
+            REP(j,sink.size()) {
+                a[i+1][j+1] = dfs(sink[j]);
             }
         }
-//        FOR(i,1,nSource) FOR(j,1,nSource) cout << c[i][j] << " \n"[j == nSource];
-
-        int bad = 0;
-        FOR(i,1,n) if (in[i] == 0 && out[i] == 0) {
+        
+        /*
+        cout << "source = "; REP(i,source.size()) cout << source[i] << ' '; puts("");
+        cout << "sink = "; REP(i,sink.size()) cout << sink[i] << ' '; puts("");
+        REP(i,source.size()) {
+            REP(j,sink.size()) cout << a[i+1][j+1] << ' ';
+            puts("");
+        }
+        */
+        
+        int res = get();
+        FOR(i,1,n) if (!in[i] && !out[i]) {
             int a = 0, b = 0;
-            FOR(source,1,i-1) if (in[source] == 0 && out[source]) ++a;
-            FOR(sink,1,i-1) if (in[sink] && out[sink] == 0) ++b;
-            if (a % 2 != b % 2) ++bad;
+            REP(x,source.size()) if (source[x] < i) a++;
+            REP(x,sink.size()) if (sink[x] < i) b++;
+            if (a % 2 != b % 2) res = BASE - res;
         }
-        bad %= 2;
-
-        // Floyd to calculate determinant
-        n = nSource;
-        // Swap 2 rows --> multiply by -1
-        // Multiply 1 row by k --> multiply by k
-        long long mult = 1;
-
-        FOR(j,1,n) {
-            // now we will normalize column j
-            // first, choose the row k that maximize c[k][j], so that it
-            // will be different from 0
-            int chosen = j;
-            FOR(k,j+1,n)
-                if (c[k][j] > c[chosen][j]) chosen = k;
-
-            if (chosen != j) {
-                // swap 2 rows
-                bad = 1 - bad;
-                FOR(k,1,n) swap(c[chosen][k], c[j][k]);
-            }
-
-            FOR(i,j+1,n) {
-                // multiply row i by c[j][j]
-                // multiply row j by c[i][j]
-
-                long long mult_i = c[j][j], mult_j = c[i][j];
-                mult = (mult * mult_i) % p;
-
-                FOR(k,1,n)
-                    c[i][k] = (c[i][k] * mult_i - c[j][k] * mult_j + p*p) % p;
-            }
-        }
-
-        long long res = 1;
-        FOR(i,1,n) res = res * c[i][i] % p;
-        if (bad) res = (p - res) % p;
-
-        res = res * inverse(mult) % p;
-        cout << res << endl;
+        printf("%d\n", res % BASE);
     }
     return 0;
 }

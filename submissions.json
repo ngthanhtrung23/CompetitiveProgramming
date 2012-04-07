@@ -18462,6 +18462,24 @@
     "tags": [],
     "timestamp": "Dec/19/2015 20:03"
   },
+  "CF1489249": {
+    "contest_id": 167,
+    "language": "GNU C++",
+    "path": "codeforces/167/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Wizards and Bets",
+    "problem_url": "https://codeforces.com/contest/167/problem/E",
+    "submission_id": "CF1489249",
+    "submission_url": "https://codeforces.com/contest/167/submission/1489249",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "math",
+      "matrices",
+      "*2900"
+    ],
+    "timestamp": "Apr/07/2012 18:21"
+  },
   "CF14898384": {
     "contest_id": 609,
     "language": "GNU C++11",
