@@ -18590,6 +18590,18 @@
     ],
     "timestamp": "Dec/24/2015 03:06"
   },
+  "CF1496060": {
+    "contest_id": 160,
+    "language": "GNU C++",
+    "path": "codeforces/160/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Edges in MST",
+    "problem_url": "https://codeforces.com/contest/160/problem/D",
+    "submission_id": "CF1496060",
+    "submission_url": "https://codeforces.com/contest/160/submission/1496060",
+    "tags": [],
+    "timestamp": "Apr/07/2012 21:19"
+  },
   "CF1496164": {
     "contest_id": 173,
     "language": "GNU C++",
