@@ -5734,6 +5734,24 @@
     ],
     "timestamp": "Dec/24/2015 03:06"
   },
+  "CF1496164": {
+    "contest_id": 173,
+    "language": "GNU C++",
+    "path": "codeforces/173/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Deputies",
+    "problem_url": "https://codeforces.com/contest/173/problem/D",
+    "submission_id": "CF1496164",
+    "submission_url": "https://codeforces.com/contest/173/submission/1496164",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*2500"
+    ],
+    "timestamp": "Apr/07/2012 22:19"
+  },
   "CF1500883": {
     "contest_id": 164,
     "language": "GNU C++",
