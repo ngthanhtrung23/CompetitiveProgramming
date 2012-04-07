@@ -18330,6 +18330,18 @@
     "tags": [],
     "timestamp": "Dec/18/2015 01:03"
   },
+  "CF1486950": {
+    "contest_id": 168,
+    "language": "GNU C++",
+    "path": "codeforces/168/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Wizards and Minimal Spell",
+    "problem_url": "https://codeforces.com/contest/168/problem/B",
+    "submission_id": "CF1486950",
+    "submission_url": "https://codeforces.com/contest/168/submission/1486950",
+    "tags": [],
+    "timestamp": "Apr/07/2012 17:45"
+  },
   "CF14871592": {
     "contest_id": 100217,
     "language": "GNU C++11",
