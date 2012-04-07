@@ -18330,6 +18330,22 @@
     "tags": [],
     "timestamp": "Dec/18/2015 01:03"
   },
+  "CF1486920": {
+    "contest_id": 168,
+    "language": "GNU C++",
+    "path": "codeforces/168/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Wizards and Demonstration",
+    "problem_url": "https://codeforces.com/contest/168/problem/A",
+    "submission_id": "CF1486920",
+    "submission_url": "https://codeforces.com/contest/168/submission/1486920",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Apr/07/2012 17:38"
+  },
   "CF1486950": {
     "contest_id": 168,
     "language": "GNU C++",
