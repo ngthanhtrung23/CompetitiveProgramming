@@ -29,9 +29,9 @@
 using namespace std;
 
 const double PI = acos(-1.0);
-const int MN = 100111;
+const int MN = 200111;
 
-int n, m, a[MN], qu[2*MN], first, last, f[MN], g[MN];
+int n, m, a[MN], qu[MN], first, last, f[MN], g[MN];
 vector< pair<int, int> > ke[MN];
 
 int main() {
