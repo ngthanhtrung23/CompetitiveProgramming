@@ -5786,6 +5786,22 @@
     ],
     "timestamp": "Dec/26/2015 23:38"
   },
+  "CF1504077": {
+    "contest_id": 164,
+    "language": "GNU C++",
+    "path": "codeforces/164/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Variable, or There and Back Again",
+    "problem_url": "https://codeforces.com/contest/164/problem/A",
+    "submission_id": "CF1504077",
+    "submission_url": "https://codeforces.com/contest/164/submission/1504077",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1700"
+    ],
+    "timestamp": "Apr/09/2012 01:52"
+  },
   "CF1504104": {
     "contest_id": 164,
     "language": "GNU C++",

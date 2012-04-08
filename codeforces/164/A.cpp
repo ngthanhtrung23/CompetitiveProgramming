@@ -1,4 +1,3 @@
-
 //#pragma comment(linker, "/STACK:66777216")
 #include <iomanip>
 #include <sstream>
@@ -32,7 +31,7 @@ using namespace std;
 const double PI = acos(-1.0);
 const int MN = 100111;
 
-int n, m, a[MN], qu[MN], first, last, f[MN], g[MN];
+int n, m, a[MN], qu[2*MN], first, last, f[MN], g[MN];
 vector< pair<int, int> > ke[MN];
 
 int main() {
@@ -65,7 +64,8 @@ int main() {
                     int cur = (turn == 1) ? f[v] : g[v];
                     if (!cur && a[v] != turn) {
                         if (turn == 1) f[v] = 1; else g[v] = 1;
-                        if (a[v] == 0 || turn == 1) qu[++last] = v;
+                        if (a[v] == 0) qu[++last] = v;
+                        if (turn == 1) qu[++last] = v;
                     }
                 }
             }
