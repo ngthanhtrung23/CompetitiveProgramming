@@ -7215,6 +7215,21 @@
     ],
     "timestamp": "Feb/05/2016 03:34"
   },
+  "CF1587579": {
+    "contest_id": 176,
+    "language": "GNU C++",
+    "path": "codeforces/176/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Word Cut",
+    "problem_url": "https://codeforces.com/contest/176/problem/B",
+    "submission_id": "CF1587579",
+    "submission_url": "https://codeforces.com/contest/176/submission/1587579",
+    "tags": [
+      "dp",
+      "*1700"
+    ],
+    "timestamp": "Apr/20/2012 23:33"
+  },
   "CF15891592": {
     "contest_id": 625,
     "language": "Python 2",
