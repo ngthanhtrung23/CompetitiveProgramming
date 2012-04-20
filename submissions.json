@@ -7215,6 +7215,22 @@
     ],
     "timestamp": "Feb/05/2016 03:34"
   },
+  "CF1586758": {
+    "contest_id": 176,
+    "language": "GNU C++",
+    "path": "codeforces/176/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Trading Business",
+    "problem_url": "https://codeforces.com/contest/176/problem/A",
+    "submission_id": "CF1586758",
+    "submission_url": "https://codeforces.com/contest/176/submission/1586758",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Apr/20/2012 23:17"
+  },
   "CF1587579": {
     "contest_id": 176,
     "language": "GNU C++",
