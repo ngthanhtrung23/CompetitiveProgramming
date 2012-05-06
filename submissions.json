@@ -8064,6 +8064,21 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1665443": {
+    "contest_id": 185,
+    "language": "GNU C++",
+    "path": "codeforces/185/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Plant",
+    "problem_url": "https://codeforces.com/contest/185/problem/A",
+    "submission_id": "CF1665443",
+    "submission_url": "https://codeforces.com/contest/185/submission/1665443",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "May/06/2012 12:01"
+  },
   "CF1665446": {
     "contest_id": 185,
     "language": "GNU C++",
