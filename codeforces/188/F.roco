@@ -1,0 +1,26 @@
+co calc {
+    eq [1] [0] 0
+    if [1] ac
+    
+    mod [1] [0] 2
+    div [0] [0] 2
+    add [2] 1 [2]
+    set [[2]] [1]
+    ca calc
+    ac
+}
+
+co print {
+    eq [3] [2] 4
+    if [3] ac
+    iout [[2]]
+    sub [2] [2] 1
+    ca print
+    ac
+}
+
+iin [0]
+set [2] 4
+ca calc
+ca print
+ac
