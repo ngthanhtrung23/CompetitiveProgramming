@@ -8064,6 +8064,23 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1716384": {
+    "contest_id": 188,
+    "language": "Roco",
+    "path": "codeforces/188/C.roco",
+    "problem_index": "C",
+    "problem_name": "LCM",
+    "problem_url": "https://codeforces.com/contest/188/problem/C",
+    "submission_id": "CF1716384",
+    "submission_url": "https://codeforces.com/contest/188/submission/1716384",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "May/25/2012 23:52"
+  },
   "CF1716607": {
     "contest_id": 188,
     "language": "Roco",
