@@ -8064,6 +8064,22 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1716607": {
+    "contest_id": 188,
+    "language": "Roco",
+    "path": "codeforces/188/D.roco",
+    "problem_index": "D",
+    "problem_name": "Asterisks",
+    "problem_url": "https://codeforces.com/contest/188/problem/D",
+    "submission_id": "CF1716607",
+    "submission_url": "https://codeforces.com/contest/188/submission/1716607",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "May/26/2012 00:00"
+  },
   "CF1716882": {
     "contest_id": 188,
     "language": "Roco",
