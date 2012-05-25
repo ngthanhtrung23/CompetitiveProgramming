@@ -1,0 +1,29 @@
+
+co read {
+    cin [0]
+    lt [2] [0] 33
+    if [2] ac
+    gt [2] [0] 126
+    if [2] ac
+    
+    eq [2] [0] 72
+    if [2] set [1] 1
+    
+    eq [2] [0] 81
+    if [2] set [1] 1
+    
+    eq [2] [0] 57
+    if [2] set [1] 1
+    
+    ca read
+    ac
+}
+
+ca read
+if [1] cout 89
+if [1] cout 69
+if [1] cout 83
+sub [1] 1 [1]
+if [1] cout 78
+if [1] cout 79
+ac
