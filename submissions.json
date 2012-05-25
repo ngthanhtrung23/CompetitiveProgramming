@@ -8064,6 +8064,23 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1717718": {
+    "contest_id": 188,
+    "language": "Roco",
+    "path": "codeforces/188/H.roco",
+    "problem_index": "H",
+    "problem_name": "Stack",
+    "problem_url": "https://codeforces.com/contest/188/problem/H",
+    "submission_id": "CF1717718",
+    "submission_url": "https://codeforces.com/contest/188/submission/1717718",
+    "tags": [
+      "*special problem",
+      "expression parsing",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "May/26/2012 00:49"
+  },
   "CF1725860": {
     "contest_id": 191,
     "language": "GNU C++",

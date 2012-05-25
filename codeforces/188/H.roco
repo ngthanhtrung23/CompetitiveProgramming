@@ -1,0 +1,32 @@
+co read {
+    cin [0]
+    eq [2] [0] 10
+    if [2] ac
+    
+    gt [2] [0] 47
+    if [2] sub [0] [0] 48
+    if [2] add [1] [1] 1
+    if [2] set [[1]] [0]
+    
+    eq [2] [0] 43
+    if [2] set [3] [[1]]
+    if [2] sub [1] [1] 1
+    if [2] set [4] [[1]]
+    if [2] add [5] [3] [4]
+    if [2] set [[1]] [5]
+    
+    eq [2] [0] 42
+    if [2] set [3] [[1]]
+    if [2] sub [1] [1] 1
+    if [2] set [4] [[1]]
+    if [2] mul [5] [3] [4]
+    if [2] set [[1]] [5]
+    
+    ca read
+    ac
+}
+
+set [1] 10
+ca read
+iout [[1]]
+ac
