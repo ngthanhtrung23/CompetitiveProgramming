@@ -1,0 +1,55 @@
+co read {
+    gt [111] [110] [0]
+    if [111] ac
+    
+    iin [[110]]
+    add [110] [110] 1
+    ca read
+    ac
+}
+
+co print {
+    gt [111] [110] [0]
+    if [111] ac
+    
+    iout [[110]]
+    cout 32
+    add [110] [110] 1
+    ca print
+    ac
+}
+
+co bubble {
+    eq [113] [112] [0]
+    if [113] ac
+    
+    add [114] [112] 1
+    gt [113] [[112]] [[114]]
+    
+    if [113] set [115] [[112]]
+    if [113] set [[112]] [[114]]
+    if [113] set [[114]] [115]
+    add [112] [112] 1
+    ca bubble
+    ac
+}
+
+co sort {
+    gt [111] [110] [0]
+    if [111] ac
+    
+    set [112] 1
+    ca bubble
+    add [110] [110] 1
+    ca sort
+    ac
+}
+
+iin [0]
+set [110] 1
+ca read
+set [110] 1
+ca sort
+set [110] 1
+ca print
+ac

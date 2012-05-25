@@ -8064,6 +8064,22 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1717251": {
+    "contest_id": 188,
+    "language": "Roco",
+    "path": "codeforces/188/G.roco",
+    "problem_index": "G",
+    "problem_name": "Array Sorting",
+    "problem_url": "https://codeforces.com/contest/188/problem/G",
+    "submission_id": "CF1717251",
+    "submission_url": "https://codeforces.com/contest/188/submission/1717251",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "May/26/2012 00:24"
+  },
   "CF1717401": {
     "contest_id": 188,
     "language": "Roco",
