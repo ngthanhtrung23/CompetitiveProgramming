@@ -8064,6 +8064,23 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1731088": {
+    "contest_id": 191,
+    "language": "GNU C++",
+    "path": "codeforces/191/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Thwarting Demonstrations",
+    "problem_url": "https://codeforces.com/contest/191/problem/E",
+    "submission_id": "CF1731088",
+    "submission_url": "https://codeforces.com/contest/191/submission/1731088",
+    "tags": [
+      "binary search",
+      "data structures",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "May/28/2012 01:22"
+  },
   "CF1754397": {
     "contest_id": 193,
     "language": "GNU C++",
