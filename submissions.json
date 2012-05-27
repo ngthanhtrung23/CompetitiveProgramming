@@ -8064,6 +8064,21 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1725860": {
+    "contest_id": 191,
+    "language": "GNU C++",
+    "path": "codeforces/191/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Dynasty Puzzles",
+    "problem_url": "https://codeforces.com/contest/191/problem/A",
+    "submission_id": "CF1725860",
+    "submission_url": "https://codeforces.com/contest/191/submission/1725860",
+    "tags": [
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "May/27/2012 23:41"
+  },
   "CF1728134": {
     "contest_id": 191,
     "language": "GNU C++",
