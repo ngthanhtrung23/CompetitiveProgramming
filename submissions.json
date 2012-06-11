@@ -8064,6 +8064,23 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1783051": {
+    "contest_id": 195,
+    "language": "GNU C++",
+    "path": "codeforces/195/B.cpp",
+    "problem_index": "B",
+    "problem_name": "After Training",
+    "problem_url": "https://codeforces.com/contest/195/problem/B",
+    "submission_id": "CF1783051",
+    "submission_url": "https://codeforces.com/contest/195/submission/1783051",
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jun/11/2012 16:02"
+  },
   "CF1783099": {
     "contest_id": 195,
     "language": "GNU C++",
