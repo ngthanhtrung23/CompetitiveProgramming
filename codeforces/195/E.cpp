@@ -1,58 +1,68 @@
+#include <iostream>
+#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <string>
+#include <vector>
+#include <queue>
+#include <stack>
+#include <map>
+#include <set>
+#include <iomanip>
+#include <bitset>
+#include <complex>
 
-#include <bits/stdc++.h>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define FOR(i,a,b) for(int i = a; i <= b; ++i)
+#define FORD(i,a,b) for(int i = a; i >= b; --i)
+#define REP(i,a) for(int i = 0; i < a; ++i)
+#define MP make_pair
+#define PB push_back
+#define F first
+#define S second
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(x,n) cout << #x << " = "; FOR(__,1,n) cout << x[__] << ' '; puts("");
+#define PR0(x,n) cout << #x << " = "; REP(__,n) cout << x[__] << ' '; puts("");
 using namespace std;
 
 const int MN = 100111;
-const int MOD = 1e9 + 7;
-int n;
-int father[MN], sum[MN];
+const long long BASE = 1000000007;
 
-pair<int,int> get(int u) {
-    if (father[u] < 0) return make_pair(u, 0);
+int n, lab[MN];
+long long depth[MN], sum;
 
-    auto cur = get(father[u]);
-    father[u] = cur.first;
-    sum[u] = (sum[u] + cur.second) % MOD;
-
-    return make_pair(father[u], sum[u]);
-}
-
-void link(int u, int v, int cost) {
-    father[u] = v;
-    sum[u] = cost;
+int getRoot(int u) {
+    if (lab[u] < 0) return u;
+    else {
+        int x = getRoot(lab[u]);
+        depth[u] += depth[lab[u]]; if (depth[u] >= BASE) depth[u] -= BASE;
+        return lab[u] = x;
+    }
 }
 
 int main() {
-    ios :: sync_with_stdio(false);
-    while (cin >> n) {
-        int res = 0;
-        memset(father, -1, sizeof father);
-
+    while (scanf("%d", &n) == 1) {
+        sum = 0;
+        memset(lab, -1, sizeof lab);
+        memset(depth, 0, sizeof depth);
         FOR(i,1,n) {
-            int k; cin >> k;
+            int k, v, x, r, need;
+            scanf("%d", &k);
+
             while (k--) {
-                int u, x; cin >> u >> x;
-                x = (x + MOD) % MOD;
-                pair<int,int> cur = get(u);
+                scanf("%d%d", &v, &x);
+                if (x < 0) x = BASE + x;
+                r = getRoot(v);
+                need = depth[v] + x; if (need >= BASE) need -= BASE;
+                sum = sum + need; if (sum >= BASE) sum -= BASE;
 
-                cur.second = (cur.second + x) % MOD;
-                link(cur.first, i, cur.second);
-
-                res = (res + cur.second) % MOD;
+                lab[r] = i;
+                depth[r] = need;
             }
+            // PR(lab,n);
+            // PR(depth, n);
         }
-        cout << res << endl;
+        cout << sum << endl;
     }
     return 0;
 }
