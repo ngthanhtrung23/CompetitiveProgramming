@@ -8064,6 +8064,22 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1783099": {
+    "contest_id": 195,
+    "language": "GNU C++",
+    "path": "codeforces/195/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Try and Catch",
+    "problem_url": "https://codeforces.com/contest/195/problem/C",
+    "submission_id": "CF1783099",
+    "submission_url": "https://codeforces.com/contest/195/submission/1783099",
+    "tags": [
+      "expression parsing",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Jun/11/2012 16:16"
+  },
   "CF1783237": {
     "contest_id": 195,
     "language": "GNU C++",
