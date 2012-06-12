@@ -8064,6 +8064,21 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1797669": {
+    "contest_id": 197,
+    "language": "GNU C++",
+    "path": "codeforces/197/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Limit",
+    "problem_url": "https://codeforces.com/contest/197/problem/B",
+    "submission_id": "CF1797669",
+    "submission_url": "https://codeforces.com/contest/197/submission/1797669",
+    "tags": [
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jun/13/2012 00:32"
+  },
   "CF181195": {
     "contest_id": 44,
     "language": "GNU C++",
