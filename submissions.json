@@ -8064,6 +8064,23 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1797609": {
+    "contest_id": 197,
+    "language": "GNU C++",
+    "path": "codeforces/197/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Plate Game",
+    "problem_url": "https://codeforces.com/contest/197/problem/A",
+    "submission_id": "CF1797609",
+    "submission_url": "https://codeforces.com/contest/197/submission/1797609",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Jun/13/2012 00:26"
+  },
   "CF1797669": {
     "contest_id": 197,
     "language": "GNU C++",
