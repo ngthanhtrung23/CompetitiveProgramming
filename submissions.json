@@ -8064,6 +8064,22 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF1787944": {
+    "contest_id": 196,
+    "language": "GNU C++",
+    "path": "codeforces/196/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Lexicographically Maximum Subsequence",
+    "problem_url": "https://codeforces.com/contest/196/problem/A",
+    "submission_id": "CF1787944",
+    "submission_url": "https://codeforces.com/contest/196/submission/1787944",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Jun/12/2012 21:06"
+  },
   "CF1793812": {
     "contest_id": 196,
     "language": "GNU C++",
