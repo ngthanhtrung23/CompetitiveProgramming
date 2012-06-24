@@ -8154,6 +8154,22 @@
     ],
     "timestamp": "Nov/06/2010 19:42"
   },
+  "CF1827086": {
+    "contest_id": 200,
+    "language": "GNU C++",
+    "path": "codeforces/200/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Football Championship",
+    "problem_url": "https://codeforces.com/contest/200/problem/C",
+    "submission_id": "CF1827086",
+    "submission_url": "https://codeforces.com/contest/200/submission/1827086",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Jun/24/2012 23:58"
+  },
   "CF1827490": {
     "contest_id": 200,
     "language": "GNU C++",
