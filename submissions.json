@@ -8154,6 +8154,24 @@
     ],
     "timestamp": "Nov/06/2010 19:42"
   },
+  "CF1827490": {
+    "contest_id": 200,
+    "language": "GNU C++",
+    "path": "codeforces/200/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Programming Language",
+    "problem_url": "https://codeforces.com/contest/200/problem/D",
+    "submission_id": "CF1827490",
+    "submission_url": "https://codeforces.com/contest/200/submission/1827490",
+    "tags": [
+      "binary search",
+      "brute force",
+      "expression parsing",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Jun/25/2012 00:17"
+  },
   "CF183324": {
     "contest_id": 44,
     "language": "GNU C++",
