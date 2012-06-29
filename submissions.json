@@ -8170,6 +8170,23 @@
     ],
     "timestamp": "Nov/06/2010 21:10"
   },
+  "CF1839414": {
+    "contest_id": 201,
+    "language": "GNU C++",
+    "path": "codeforces/201/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Clear Symmetry",
+    "problem_url": "https://codeforces.com/contest/201/problem/A",
+    "submission_id": "CF1839414",
+    "submission_url": "https://codeforces.com/contest/201/submission/1839414",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Jun/29/2012 23:46"
+  },
   "CF1841305": {
     "contest_id": 201,
     "language": "GNU C++",
