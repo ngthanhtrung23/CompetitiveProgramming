@@ -7975,6 +7975,23 @@
     ],
     "timestamp": "Jul/10/2016 18:35"
   },
+  "CF1901225": {
+    "contest_id": 203,
+    "language": "GNU C++",
+    "path": "codeforces/203/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Transportation",
+    "problem_url": "https://codeforces.com/contest/203/problem/E",
+    "submission_id": "CF1901225",
+    "submission_url": "https://codeforces.com/contest/203/submission/1901225",
+    "tags": [
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*2300"
+    ],
+    "timestamp": "Jul/16/2012 00:07"
+  },
   "CF1904308": {
     "contest_id": 212,
     "language": "GNU C++",
