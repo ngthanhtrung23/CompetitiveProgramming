@@ -7975,6 +7975,23 @@
     ],
     "timestamp": "Jul/10/2016 18:35"
   },
+  "CF1904561": {
+    "contest_id": 212,
+    "language": "GNU C++",
+    "path": "codeforces/212/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Cowboys",
+    "problem_url": "https://codeforces.com/contest/212/problem/C",
+    "submission_id": "CF1904561",
+    "submission_url": "https://codeforces.com/contest/212/submission/1904561",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Jul/17/2012 00:49"
+  },
   "CF1925124": {
     "contest_id": 208,
     "language": "GNU C++",
