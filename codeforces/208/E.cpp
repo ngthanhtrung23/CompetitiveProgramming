@@ -20,7 +20,7 @@
 #define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int MN = 200111;
+const int MN = 400111;
 
 int n, father[22][MN];
 vector<int> ke[MN];
@@ -49,7 +49,7 @@ int get(int x) {
 }
 
 int update(int x, int k) {
-    while (x <= 200000) {
+    while (x <= 400000) {
         cnt[x] += k;
         x += _(x);
     }
