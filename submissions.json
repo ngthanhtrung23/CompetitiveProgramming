@@ -8025,6 +8025,22 @@
     ],
     "timestamp": "Jul/23/2016 03:16"
   },
+  "CF1958813": {
+    "contest_id": 213,
+    "language": "GNU C++",
+    "path": "codeforces/213/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Stars",
+    "problem_url": "https://codeforces.com/contest/213/problem/D",
+    "submission_id": "CF1958813",
+    "submission_url": "https://codeforces.com/contest/213/submission/1958813",
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "*2300"
+    ],
+    "timestamp": "Jul/31/2012 00:59"
+  },
   "CF1963490": {
     "contest_id": 213,
     "language": "GNU C++",
