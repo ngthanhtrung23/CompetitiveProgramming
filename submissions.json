@@ -8025,6 +8025,21 @@
     ],
     "timestamp": "Jul/23/2016 03:16"
   },
+  "CF1957004": {
+    "contest_id": 213,
+    "language": "GNU C++",
+    "path": "codeforces/213/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Relay Race",
+    "problem_url": "https://codeforces.com/contest/213/problem/C",
+    "submission_id": "CF1957004",
+    "submission_url": "https://codeforces.com/contest/213/submission/1957004",
+    "tags": [
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Jul/31/2012 00:24"
+  },
   "CF1958813": {
     "contest_id": 213,
     "language": "GNU C++",
