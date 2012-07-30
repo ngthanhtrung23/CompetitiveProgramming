@@ -8025,6 +8025,22 @@
     ],
     "timestamp": "Jul/23/2016 03:16"
   },
+  "CF1955838": {
+    "contest_id": 213,
+    "language": "GNU C++",
+    "path": "codeforces/213/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Game",
+    "problem_url": "https://codeforces.com/contest/213/problem/A",
+    "submission_id": "CF1955838",
+    "submission_url": "https://codeforces.com/contest/213/submission/1955838",
+    "tags": [
+      "dfs and similar",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Jul/31/2012 00:06"
+  },
   "CF1957004": {
     "contest_id": 213,
     "language": "GNU C++",
