@@ -8025,6 +8025,22 @@
     ],
     "timestamp": "Jul/23/2016 03:16"
   },
+  "CF1963490": {
+    "contest_id": 213,
+    "language": "GNU C++",
+    "path": "codeforces/213/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Numbers",
+    "problem_url": "https://codeforces.com/contest/213/problem/B",
+    "submission_id": "CF1963490",
+    "submission_url": "https://codeforces.com/contest/213/submission/1963490",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Jul/31/2012 14:10"
+  },
   "CF1963858": {
     "contest_id": 190,
     "language": "GNU C++",
