@@ -1,32 +1,64 @@
-
-#include <bits/stdc++.h>
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-struct Circle {
-    double x, y, r;
-    istream& read() { return (cin >> x >> y >> r); }
-} a, b;
+const double PI = acos(-1.0);
+
+struct Point {
+	long double x, y;
+	Point() { x = y = 0; }
+	Point(long double x, long double y) : x(x), y(y) {}
+
+	Point operator - (Point a) { return Point(x-a.x, y-a.y); }
+
+	long double len() { return sqrt(x*x + y*y); }
+} A, B;
+
+long double r1, r2;
 
 int main() {
-    ios :: sync_with_stdio(false);
-    cout << (fixed) << setprecision(9);
-    while (a.read() && b.read()) {
-        double d = sqrt(sqr(a.x - b.x) + sqr(a.y - b.y));
-        if (d + a.r <= b.r) cout << (b.r - a.r - d) / 2.0 << endl;
-        else if (d + b.r <= a.r) cout << (a.r - b.r - d) / 2.0 << endl;
-        else if (d <= a.r + b.r) cout << 0 << endl;
-        else cout << (d - a.r - b.r) / 2.0 << endl;
-    }
+	cin >> A.x >> A.y >> r1;
+	cin >> B.x >> B.y >> r2;
+	long double r = (A - B).len();
+	if (r >= r1 + r2) {
+		r -= r1 + r2;
+		if (r < 0) r = 0;
+	}
+	else if (r + r2 < r1) {
+		r = r1 - r - r2;
+	}
+	else if (r + r1 < r2) {
+		r = r2 - r - r1;
+	}
+	else {
+		r = 0;
+	}
+	cout << (fixed) << setprecision(10) << r / 2 << endl;
     return 0;
 }

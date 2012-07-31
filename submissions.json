@@ -8025,6 +8025,21 @@
     ],
     "timestamp": "Jul/23/2016 03:16"
   },
+  "CF1963887": {
+    "contest_id": 190,
+    "language": "GNU C++",
+    "path": "codeforces/190/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Surrounded",
+    "problem_url": "https://codeforces.com/contest/190/problem/B",
+    "submission_id": "CF1963887",
+    "submission_url": "https://codeforces.com/contest/190/submission/1963887",
+    "tags": [
+      "geometry",
+      "*1800"
+    ],
+    "timestamp": "Jul/31/2012 15:42"
+  },
   "CF1963927": {
     "contest_id": 190,
     "language": "GNU C++",
