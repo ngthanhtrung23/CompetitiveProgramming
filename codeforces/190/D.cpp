@@ -1,59 +1,58 @@
-
-#include <bits/stdc++.h>
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-const int MN = 400111;
-int n, k, a[MN], good;
-unordered_map<int,int> cnt;
+const double PI = acos(-1.0);
 
-void add(int id) {
-    int u = a[id];
-    cnt[u] += 1;
-    if (cnt[u] == k) ++good;
-}
-
-void remove(int id) {
-    int u = a[id];
-    cnt[u] -= 1;
-    if (cnt[u] == k-1) --good;
-}
+int n, k, a[400111];
+map<int,int> m;
 
 int main() {
-    ios :: sync_with_stdio(false);
-    while (cin >> n >> k) {
-        FOR(i,1,n) cin >> a[i];
-        cnt.clear();
+	while (scanf("%d%d", &n, &k) == 2) {
+		FOR(i,1,n) scanf("%d", &a[i]);
 
-        int right = 0; good = 0;
-        long long res = 0;
-        FOR(left,1,n) {
-            if (left == 1) {
-                right = 1;
-                add(right);
-            } else {
-                remove(left-1);
-            }
-            while (good == 0 && right < n) {
-                ++right;
-                add(right);
-            }
-
-            if (good) {
-                res += n - right + 1;
-            }
-        }
-        cout << res << endl;
-    }
+		int j = 0;
+		long long res = 0;
+		int ok = 0;
+		FOR(i,1,n) {
+			if (i) {
+				m[a[i-1]]--;
+				if (m[a[i-1]] == k-1) --ok;
+			}
+			while (!ok && j < n) {
+				++j;
+				m[a[j]]++;
+				if (m[a[j]] >= k) ++ok;
+			}
+			if (ok) res += n - j + 1;
+		}
+		cout << res << endl;
+	}
     return 0;
 }
