@@ -51,9 +51,7 @@ int main() {
 	FOR(i,0,n) next[i] = i+1;
 	FOR(i,1,n+1) prev[i] = i-1;
 
-	FOR(t,1,n) {
-		int i = a[t].S;
-		if (mark[i]) continue;
+	FOR(i,1,n) if (!mark[i]) {
 		++res;
 		ls[res].PB(i);
 		mark[i] = res;
