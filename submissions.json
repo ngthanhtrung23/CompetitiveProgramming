@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1975543": {
+    "contest_id": 182,
+    "language": "GNU C++",
+    "path": "codeforces/182/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Optimal Sum",
+    "problem_url": "https://codeforces.com/contest/182/problem/C",
+    "submission_id": "CF1975543",
+    "submission_url": "https://codeforces.com/contest/182/submission/1975543",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*2000"
+    ],
+    "timestamp": "Aug/04/2012 17:50"
+  },
   "CF1975564": {
     "contest_id": 182,
     "language": "GNU C++",
