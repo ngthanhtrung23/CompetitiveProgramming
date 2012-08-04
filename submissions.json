@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1975564": {
+    "contest_id": 182,
+    "language": "GNU C++",
+    "path": "codeforces/182/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Wooden Fence",
+    "problem_url": "https://codeforces.com/contest/182/problem/E",
+    "submission_id": "CF1975564",
+    "submission_url": "https://codeforces.com/contest/182/submission/1975564",
+    "tags": [
+      "dp",
+      "*1800"
+    ],
+    "timestamp": "Aug/04/2012 18:02"
+  },
   "CF1975618": {
     "contest_id": 182,
     "language": "GNU C++",
