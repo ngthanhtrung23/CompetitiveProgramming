@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1977938": {
+    "contest_id": 209,
+    "language": "GNU C++",
+    "path": "codeforces/209/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Pixels",
+    "problem_url": "https://codeforces.com/contest/209/problem/B",
+    "submission_id": "CF1977938",
+    "submission_url": "https://codeforces.com/contest/209/submission/1977938",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Aug/05/2012 18:14"
+  },
   "CF1977966": {
     "contest_id": 209,
     "language": "GNU C++",
