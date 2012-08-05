@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1978405": {
+    "contest_id": 187,
+    "language": "GNU C++",
+    "path": "codeforces/187/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Weak Memory",
+    "problem_url": "https://codeforces.com/contest/187/problem/C",
+    "submission_id": "CF1978405",
+    "submission_url": "https://codeforces.com/contest/187/submission/1978405",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "*2000"
+    ],
+    "timestamp": "Aug/05/2012 23:10"
+  },
   "CF1978635": {
     "contest_id": 187,
     "language": "GNU C++",
