@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1978635": {
+    "contest_id": 187,
+    "language": "GNU C++",
+    "path": "codeforces/187/D.cpp",
+    "problem_index": "D",
+    "problem_name": "BRT Contract ",
+    "problem_url": "https://codeforces.com/contest/187/problem/D",
+    "submission_id": "CF1978635",
+    "submission_url": "https://codeforces.com/contest/187/submission/1978635",
+    "tags": [
+      "data structures",
+      "*2800"
+    ],
+    "timestamp": "Aug/06/2012 01:53"
+  },
   "CF1980415": {
     "contest_id": 196,
     "language": "GNU C++",
