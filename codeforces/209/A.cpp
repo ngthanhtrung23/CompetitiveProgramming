@@ -1,41 +1,50 @@
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
-#include "bits/stdc++.h"
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-#define int long long
-#define FOR(i, a, b) for (int i = (a), _##i = (b); i <= _##i; ++i)
-#define FORD(i, a, b) for (int i = (a), _##i = (b); i >= _##i; --i)
-#define REP(i, a) for (int i = 0, _##i = (a); i < _##i; ++i)
-#define REPD(i,n) for(int i = (n)-1; i >= 0; --i)
-
-#define DEBUG(X) { auto _X = (X); cerr << "L" << __LINE__ << ": " << #X << " = " << (_X) << endl; }
-#define PR(A, n) { cerr << "L" << __LINE__ << ": " << #A << " = "; FOR(_, 1, n) cerr << A[_] << ' '; cerr << endl; }
-#define PR0(A, n) { cerr << "L" << __LINE__ << ": " << #A << " = "; REP(_, n) cerr << A[_] << ' '; cerr << endl; }
-
-#define __builtin_popcount __builtin_popcountll
-#define SZ(x) ((int)(x).size())
-#define ALL(a) (a).begin(), (a).end()
-
 const int MN = 1000111;
-int a[MN], f[MN][3];
-const int MOD = 1e9 + 7;
+const int BASE = 1000000007;
 
-int32_t main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout << (fixed) << setprecision(9) << boolalpha;
-    int n;
-    cin >> n;
-    FOR(i,1,n) a[i] = i % 2;
-    f[0][2] = 1;
+int f[2][MN], g[2][MN];
 
-    FOR(i,1,n) {
-        f[i][2] = f[i-1][2];
-        f[i][0] = f[i-1][0];
-        f[i][1] = f[i-1][1];
+int main() {
+    int n = 1000000;
+    f[0][1] = g[0][1] = 0;
+    f[1][1] = g[1][1] = 1;
 
-        f[i][a[i]] = (f[i][a[i]] + f[i-1][1 - a[i]] + f[i-1][2]) % MOD;
+    FOR(i,2,n) REP(last,2) {
+        if ((i & 1) == last) f[last][i] = g[1-last][i-1] + 1;
+        g[last][i] = g[last][i-1] + f[last][i];
+        if (g[last][i] >= BASE) g[last][i] -= BASE;
     }
-    cout << (f[n][0] + f[n][1]) % MOD;
+    while (cin >> n)
+        cout << (g[0][n] + g[1][n]) % BASE << endl;
     return 0;
 }
