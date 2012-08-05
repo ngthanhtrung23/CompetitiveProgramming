@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1978091": {
+    "contest_id": 198,
+    "language": "GNU C++",
+    "path": "codeforces/198/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Delivering Carcinogen",
+    "problem_url": "https://codeforces.com/contest/198/problem/C",
+    "submission_id": "CF1978091",
+    "submission_url": "https://codeforces.com/contest/198/submission/1978091",
+    "tags": [
+      "binary search",
+      "geometry",
+      "*2400"
+    ],
+    "timestamp": "Aug/05/2012 20:08"
+  },
   "CF1978238": {
     "contest_id": 194,
     "language": "GNU C++",
