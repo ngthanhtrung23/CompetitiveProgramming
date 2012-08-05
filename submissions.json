@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1978011": {
+    "contest_id": 199,
+    "language": "GNU C++",
+    "path": "codeforces/199/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Special Olympics",
+    "problem_url": "https://codeforces.com/contest/199/problem/B",
+    "submission_id": "CF1978011",
+    "submission_url": "https://codeforces.com/contest/199/submission/1978011",
+    "tags": [
+      "geometry",
+      "*1900"
+    ],
+    "timestamp": "Aug/05/2012 18:58"
+  },
   "CF1978091": {
     "contest_id": 198,
     "language": "GNU C++",
