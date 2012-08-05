@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1978272": {
+    "contest_id": 194,
+    "language": "GNU C++",
+    "path": "codeforces/194/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Square",
+    "problem_url": "https://codeforces.com/contest/194/problem/B",
+    "submission_id": "CF1978272",
+    "submission_url": "https://codeforces.com/contest/194/submission/1978272",
+    "tags": [
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Aug/05/2012 21:57"
+  },
   "CF1978285": {
     "contest_id": 192,
     "language": "GNU C++",
