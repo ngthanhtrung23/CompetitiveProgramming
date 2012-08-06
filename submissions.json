@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1980415": {
+    "contest_id": 196,
+    "language": "GNU C++",
+    "path": "codeforces/196/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Opening Portals",
+    "problem_url": "https://codeforces.com/contest/196/problem/E",
+    "submission_id": "CF1980415",
+    "submission_url": "https://codeforces.com/contest/196/submission/1980415",
+    "tags": [
+      "dsu",
+      "graphs",
+      "shortest paths",
+      "*2600"
+    ],
+    "timestamp": "Aug/06/2012 19:59"
+  },
   "CF1980738": {
     "contest_id": 189,
     "language": "GNU C++",
