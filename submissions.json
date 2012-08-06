@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1980975": {
+    "contest_id": 215,
+    "language": "GNU C++",
+    "path": "codeforces/215/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bicycle Chain",
+    "problem_url": "https://codeforces.com/contest/215/problem/A",
+    "submission_id": "CF1980975",
+    "submission_url": "https://codeforces.com/contest/215/submission/1980975",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Aug/06/2012 23:34"
+  },
   "CF1982185": {
     "contest_id": 215,
     "language": "GNU C++",
