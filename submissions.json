@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1991069": {
+    "contest_id": 180,
+    "language": "GNU C++",
+    "path": "codeforces/180/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Defragmentation",
+    "problem_url": "https://codeforces.com/contest/180/problem/A",
+    "submission_id": "CF1991069",
+    "submission_url": "https://codeforces.com/contest/180/submission/1991069",
+    "tags": [
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Aug/08/2012 00:37"
+  },
   "CF1992541": {
     "contest_id": 156,
     "language": "GNU C++",
