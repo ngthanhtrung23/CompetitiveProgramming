@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1990840": {
+    "contest_id": 180,
+    "language": "GNU C++",
+    "path": "codeforces/180/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Divisibility Rules",
+    "problem_url": "https://codeforces.com/contest/180/problem/B",
+    "submission_id": "CF1990840",
+    "submission_url": "https://codeforces.com/contest/180/submission/1990840",
+    "tags": [
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Aug/07/2012 23:15"
+  },
   "CF1990883": {
     "contest_id": 180,
     "language": "GNU C++",
