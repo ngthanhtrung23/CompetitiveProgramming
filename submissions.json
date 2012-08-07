@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1990883": {
+    "contest_id": 180,
+    "language": "GNU C++",
+    "path": "codeforces/180/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Mathematical Analysis Rocks!",
+    "problem_url": "https://codeforces.com/contest/180/problem/F",
+    "submission_id": "CF1990883",
+    "submission_url": "https://codeforces.com/contest/180/submission/1990883",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Aug/07/2012 23:27"
+  },
   "CF1990894": {
     "contest_id": 180,
     "language": "GNU C++",
