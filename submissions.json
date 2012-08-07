@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1990976": {
+    "contest_id": 180,
+    "language": "GNU C++",
+    "path": "codeforces/180/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Cubes",
+    "problem_url": "https://codeforces.com/contest/180/problem/E",
+    "submission_id": "CF1990976",
+    "submission_url": "https://codeforces.com/contest/180/submission/1990976",
+    "tags": [
+      "binary search",
+      "dp",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Aug/08/2012 00:04"
+  },
   "CF1991069": {
     "contest_id": 180,
     "language": "GNU C++",
