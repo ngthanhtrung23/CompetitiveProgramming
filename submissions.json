@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1990933": {
+    "contest_id": 180,
+    "language": "GNU C++",
+    "path": "codeforces/180/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Name",
+    "problem_url": "https://codeforces.com/contest/180/problem/D",
+    "submission_id": "CF1990933",
+    "submission_url": "https://codeforces.com/contest/180/submission/1990933",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Aug/07/2012 23:51"
+  },
   "CF1990976": {
     "contest_id": 180,
     "language": "GNU C++",
