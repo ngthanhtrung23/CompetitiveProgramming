@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1992541": {
+    "contest_id": 156,
+    "language": "GNU C++",
+    "path": "codeforces/156/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Suspects",
+    "problem_url": "https://codeforces.com/contest/156/problem/B",
+    "submission_id": "CF1992541",
+    "submission_url": "https://codeforces.com/contest/156/submission/1992541",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Aug/08/2012 17:21"
+  },
   "CF1992679": {
     "contest_id": 156,
     "language": "GNU C++",
