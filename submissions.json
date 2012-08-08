@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1992718": {
+    "contest_id": 156,
+    "language": "GNU C++",
+    "path": "codeforces/156/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Cipher",
+    "problem_url": "https://codeforces.com/contest/156/problem/C",
+    "submission_id": "CF1992718",
+    "submission_url": "https://codeforces.com/contest/156/submission/1992718",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Aug/08/2012 18:29"
+  },
   "CF1992771": {
     "contest_id": 156,
     "language": "GNU C++",
