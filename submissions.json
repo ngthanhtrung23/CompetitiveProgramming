@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF1993233": {
+    "contest_id": 159,
+    "language": "GNU C++",
+    "path": "codeforces/159/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Friends or Not",
+    "problem_url": "https://codeforces.com/contest/159/problem/A",
+    "submission_id": "CF1993233",
+    "submission_url": "https://codeforces.com/contest/159/submission/1993233",
+    "tags": [
+      "*special problem",
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Aug/08/2012 21:46"
+  },
   "CF1993257": {
     "contest_id": 159,
     "language": "GNU C++",
