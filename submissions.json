@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2002441": {
+    "contest_id": 1,
+    "language": "GNU C++",
+    "path": "codeforces/1/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Ancient Berland Circus",
+    "problem_url": "https://codeforces.com/contest/1/problem/C",
+    "submission_id": "CF2002441",
+    "submission_url": "https://codeforces.com/contest/1/submission/2002441",
+    "tags": [
+      "geometry",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Aug/13/2012 00:15"
+  },
   "CF2003085": {
     "contest_id": 4,
     "language": "GNU C++",
