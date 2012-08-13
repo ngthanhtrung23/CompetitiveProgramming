@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003144": {
+    "contest_id": 6,
+    "language": "GNU C++",
+    "path": "codeforces/6/B.cpp",
+    "problem_index": "B",
+    "problem_name": "President's Office",
+    "problem_url": "https://codeforces.com/contest/6/problem/B",
+    "submission_id": "CF2003144",
+    "submission_url": "https://codeforces.com/contest/6/submission/2003144",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Aug/13/2012 11:24"
+  },
   "CF2003153": {
     "contest_id": 6,
     "language": "GNU C++",
