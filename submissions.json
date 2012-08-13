@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003446": {
+    "contest_id": 3,
+    "language": "GNU C++",
+    "path": "codeforces/3/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Least Cost Bracket Sequence",
+    "problem_url": "https://codeforces.com/contest/3/problem/D",
+    "submission_id": "CF2003446",
+    "submission_url": "https://codeforces.com/contest/3/submission/2003446",
+    "tags": [
+      "greedy",
+      "*2600"
+    ],
+    "timestamp": "Aug/13/2012 15:04"
+  },
   "CF2003469": {
     "contest_id": 9,
     "language": "GNU C++",
