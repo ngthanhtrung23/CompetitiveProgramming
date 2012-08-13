@@ -8041,6 +8041,25 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003180": {
+    "contest_id": 6,
+    "language": "GNU C++",
+    "path": "codeforces/6/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Exposition",
+    "problem_url": "https://codeforces.com/contest/6/problem/E",
+    "submission_id": "CF2003180",
+    "submission_url": "https://codeforces.com/contest/6/submission/2003180",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dsu",
+      "trees",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Aug/13/2012 11:44"
+  },
   "CF2003215": {
     "contest_id": 6,
     "language": "GNU C++",
