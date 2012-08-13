@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003215": {
+    "contest_id": 6,
+    "language": "GNU C++",
+    "path": "codeforces/6/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Lizards and Basements 2",
+    "problem_url": "https://codeforces.com/contest/6/problem/D",
+    "submission_id": "CF2003215",
+    "submission_url": "https://codeforces.com/contest/6/submission/2003215",
+    "tags": [
+      "brute force",
+      "dp",
+      "*2600"
+    ],
+    "timestamp": "Aug/13/2012 12:13"
+  },
   "CF2003317": {
     "contest_id": 3,
     "language": "GNU C++",
