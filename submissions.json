@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003801": {
+    "contest_id": 12,
+    "language": "GNU C++",
+    "path": "codeforces/12/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Ball",
+    "problem_url": "https://codeforces.com/contest/12/problem/D",
+    "submission_id": "CF2003801",
+    "submission_url": "https://codeforces.com/contest/12/submission/2003801",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*2400"
+    ],
+    "timestamp": "Aug/13/2012 17:31"
+  },
   "CF2003851": {
     "contest_id": 12,
     "language": "GNU C++",
