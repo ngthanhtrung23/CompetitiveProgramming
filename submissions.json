@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003989": {
+    "contest_id": 5,
+    "language": "GNU C++",
+    "path": "codeforces/5/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Chat Servers Outgoing Traffic",
+    "problem_url": "https://codeforces.com/contest/5/problem/A",
+    "submission_id": "CF2003989",
+    "submission_url": "https://codeforces.com/contest/5/submission/2003989",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Aug/13/2012 19:00"
+  },
   "CF2004012": {
     "contest_id": 5,
     "language": "GNU C++",
