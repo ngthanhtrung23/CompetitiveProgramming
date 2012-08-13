@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003851": {
+    "contest_id": 12,
+    "language": "GNU C++",
+    "path": "codeforces/12/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Start of the session",
+    "problem_url": "https://codeforces.com/contest/12/problem/E",
+    "submission_id": "CF2003851",
+    "submission_url": "https://codeforces.com/contest/12/submission/2003851",
+    "tags": [
+      "constructive algorithms",
+      "*2100"
+    ],
+    "timestamp": "Aug/13/2012 17:56"
+  },
   "CF2003989": {
     "contest_id": 5,
     "language": "GNU C++",
