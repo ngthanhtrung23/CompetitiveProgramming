@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003335": {
+    "contest_id": 3,
+    "language": "GNU C++",
+    "path": "codeforces/3/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lorry",
+    "problem_url": "https://codeforces.com/contest/3/problem/B",
+    "submission_id": "CF2003335",
+    "submission_url": "https://codeforces.com/contest/3/submission/2003335",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Aug/13/2012 13:59"
+  },
   "CF2003376": {
     "contest_id": 3,
     "language": "GNU C++",
