@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003520": {
+    "contest_id": 9,
+    "language": "GNU C++",
+    "path": "codeforces/9/D.cpp",
+    "problem_index": "D",
+    "problem_name": "How many trees?",
+    "problem_url": "https://codeforces.com/contest/9/problem/D",
+    "submission_id": "CF2003520",
+    "submission_url": "https://codeforces.com/contest/9/submission/2003520",
+    "tags": [
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Aug/13/2012 15:42"
+  },
   "CF2003650": {
     "contest_id": 9,
     "language": "GNU C++",
