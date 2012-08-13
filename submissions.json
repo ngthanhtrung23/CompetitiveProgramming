@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003479": {
+    "contest_id": 9,
+    "language": "GNU C++",
+    "path": "codeforces/9/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Running Student",
+    "problem_url": "https://codeforces.com/contest/9/problem/B",
+    "submission_id": "CF2003479",
+    "submission_url": "https://codeforces.com/contest/9/submission/2003479",
+    "tags": [
+      "brute force",
+      "geometry",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Aug/13/2012 15:24"
+  },
   "CF2003492": {
     "contest_id": 9,
     "language": "GNU C++",
