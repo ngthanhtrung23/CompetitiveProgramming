@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003650": {
+    "contest_id": 9,
+    "language": "GNU C++",
+    "path": "codeforces/9/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Interestring graph and Apples",
+    "problem_url": "https://codeforces.com/contest/9/problem/E",
+    "submission_id": "CF2003650",
+    "submission_url": "https://codeforces.com/contest/9/submission/2003650",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2300"
+    ],
+    "timestamp": "Aug/13/2012 16:33"
+  },
   "CF2003695": {
     "contest_id": 12,
     "language": "GNU C++",
