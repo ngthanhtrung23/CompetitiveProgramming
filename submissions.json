@@ -8041,6 +8041,23 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2003376": {
+    "contest_id": 3,
+    "language": "GNU C++",
+    "path": "codeforces/3/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Tic-tac-toe",
+    "problem_url": "https://codeforces.com/contest/3/problem/C",
+    "submission_id": "CF2003376",
+    "submission_url": "https://codeforces.com/contest/3/submission/2003376",
+    "tags": [
+      "brute force",
+      "games",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Aug/13/2012 14:25"
+  },
   "CF2003446": {
     "contest_id": 3,
     "language": "GNU C++",
