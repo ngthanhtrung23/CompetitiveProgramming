@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2007522": {
+    "contest_id": 216,
+    "language": "GNU C++",
+    "path": "codeforces/216/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Forming Teams",
+    "problem_url": "https://codeforces.com/contest/216/problem/B",
+    "submission_id": "CF2007522",
+    "submission_url": "https://codeforces.com/contest/216/submission/2007522",
+    "tags": [
+      "dfs and similar",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Aug/14/2012 23:45"
+  },
   "CF2008756": {
     "contest_id": 216,
     "language": "GNU C++",
