@@ -8041,6 +8041,21 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2010491": {
+    "contest_id": 216,
+    "language": "GNU C++",
+    "path": "codeforces/216/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Hiring Staff",
+    "problem_url": "https://codeforces.com/contest/216/problem/C",
+    "submission_id": "CF2010491",
+    "submission_url": "https://codeforces.com/contest/216/submission/2010491",
+    "tags": [
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Aug/15/2012 00:35"
+  },
   "CF20142938": {
     "contest_id": 709,
     "language": "GNU C++11",
