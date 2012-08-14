@@ -8041,6 +8041,22 @@
     ],
     "timestamp": "Aug/10/2016 02:05"
   },
+  "CF2008756": {
+    "contest_id": 216,
+    "language": "GNU C++",
+    "path": "codeforces/216/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Martian Luck",
+    "problem_url": "https://codeforces.com/contest/216/problem/E",
+    "submission_id": "CF2008756",
+    "submission_url": "https://codeforces.com/contest/216/submission/2008756",
+    "tags": [
+      "math",
+      "number theory",
+      "*2000"
+    ],
+    "timestamp": "Aug/15/2012 00:02"
+  },
   "CF2009323": {
     "contest_id": 216,
     "language": "GNU C++",
