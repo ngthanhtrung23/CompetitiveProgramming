@@ -1,55 +1,67 @@
-
-#include <bits/stdc++.h>
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int MN = 111;
-struct DSU {
-    int lab[MN];
-    void init(int n) {
-        REP(i,n+1) lab[i] = -1;
-    }
+const long double PI = acos((long double) -1.0);
 
-    int getRoot(int u) {
-        if (lab[u] < 0) return u;
-        return lab[u] = getRoot(lab[u]);
-    }
+bool mark[1011];
+pair<int,int> a[1011];
+int n;
+int qu[1011];
 
-    bool merge(int u, int v) {
-        u = getRoot(u); v = getRoot(v);
-        if (u == v) return false;
-        if (lab[u] > lab[v]) swap(u, v);
-        lab[u] += lab[v];
-        lab[v] = u;
-        return true;
-    }
-};
+void bfs(int u) {
+    int first = 1, last = 1;
+    qu[1] = u; mark[u] = true;
+    
+    while (first <= last) {
+        int u = qu[first++];
+        FOR(v,1,n) if (a[u].F == a[v].F || a[u].S == a[v].S) {
+            if (mark[v]) continue;
 
-int n, x[111], y[111];
+            mark[v] = true;
+            qu[++last] = v;
+        }
+    }
+}
 
 int main() {
-    ios :: sync_with_stdio(false);
-    while (cin >> n) {
-        FOR(i,1,n) cin >> x[i] >> y[i];
+    while (scanf("%d", &n) == 1) {
+        FOR(i,1,n) scanf("%d%d", &a[i].F, &a[i].S);
+        memset(mark, false, sizeof mark);
 
-        DSU dsu; dsu.init(n);
-        FOR(i,1,n) FOR(j,i+1,n)
-            if (x[i] == x[j] || y[i] == y[j])
-                dsu.merge(i, j);
-
-        int res = -1;
-        FOR(i,1,n) if (dsu.lab[i] < 0) ++res;
-        cout << res << endl;
+        int res = 0;
+        FOR(i,1,n) if (!mark[i]) {
+            ++res;
+            bfs(i);
+        }
+        printf("%d\n", res - 1);
     }
     return 0;
 }
