@@ -1,37 +1,49 @@
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
-#include <bits/stdc++.h>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; ++i)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-int n, k, a[211];
+const double PI = acos(-1.0);
+
+int a[222];
 
 int main() {
-    ios :: sync_with_stdio(false);
-    while (cin >> n >> k) {
-        FOR(i,1,n+n+1) cin >> a[i];
-
-        for(int i=2; i <= n+n; i += 2) {
-            int can = a[i] - max(a[i+1], a[i-1]) - 1;
-            if (can > 1) can = 1;
-            if (can > k) can = k;
-            k -= can;
-            a[i] -= can;
-        }
-        if (k > 0) cout << -1 << endl;
-        else {
-            FOR(i,1,n+n+1) cout << a[i] << ' '; cout << endl;
-        }
+  int n, k;
+  while (cin >> n >> k) {
+    FOR(i,1,2*n+1) cin >> a[i];
+    int cnt = 0;
+    for(int i = 2; i <= 2*n; i += 2) {
+      if (a[i] > a[i-1] + 1 && a[i] > a[i+1] + 1 && cnt < k) {
+        ++cnt;
+        --a[i];
+      }
     }
-    return 0;
+    FOR(i,1,2*n+1) printf("%d ", a[i]); puts("");
+  }
+  return 0;
 }
-
