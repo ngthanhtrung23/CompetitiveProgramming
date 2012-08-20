@@ -1,66 +1,84 @@
+//#pragma comment(linker, "/STACK:66777216")
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
-#include <bits/stdc++.h>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; ++i)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define DEBUG(x) cout << #x << " = " << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
 using namespace std;
 
-char cur;
+const double PI = acos(-1.0);
+const int oo = 1000111000;
 
-int get(int a, int b, bool print, int& wrong) {
-    if (a > b) swap(a, b);
-    // now a <= b
-    if (a == 0) {
-        if (b == 1) return 0;
-        return -1000111000;
+int turn = 0;
+int sum;
+
+int get(int a, int b, bool print = false) {
+  if (a == 0 && b == 1) return 0;
+  if (a == 1 && b == 0) return 0;
+  if (a == 1 && b == 1) {
+    if (print) putchar('T');
+    turn = 1 - turn;
+    ++sum;
+    return 0;
+  }
+  if (a == 0 || b == 0 || a == b) return oo;
+  if (a < b) swap(a, b);
+  int res = max(0, (a-1) / b - 1);
+  sum += (a-1) / b;
+  int tmp = (a-1) / b;
+  
+  a -= tmp * b;
+  res += get(a, b, print);
+  if (res > oo) res = oo;
+  
+  if (print) {
+    FOR(i,1,tmp) {
+      if (turn == 0) putchar('T');
+      else putchar('B');
     }
-    int res = b / a + get(a, b % a, print, wrong);
-    wrong += b / a - 1;
-    if (print) {
-        REP(turn,b/a) {
-            cout << cur;
-            if (a == 1 && turn == 0) cur = 'B' + 'T' - cur;
-        }
-        cur = 'T' + 'B' - cur;
-    }
-    return res;
+    turn = 1 - turn;
+  }
+  return res;
 }
 
 int main() {
-    ios :: sync_with_stdio(false);
-    int n, r;
-    while (cin >> n >> r) {
-        if (n == 1 && r == 1) {
-            cout << 0 << endl << 'T' << endl;
-            continue;
-        }
-        int res = 1000111000, save = -1;
-        FOR(i,1,r-1) {
-            int cur_wrong = 0;
-            if (get(i, r, false, cur_wrong) == n) {
-                if (cur_wrong < res) {
-                    res = cur_wrong;
-                    save = i;
-                }
-            }
-        }
-        if (save < 0) cout << "IMPOSSIBLE" << endl;
-        else {
-            cout << -1+res << endl;
-            cur = 'T';
-            int t;
-            get(save, r, true, t);
-            cout << endl;
-        }
+  int n, k;
+  while (cin >> n >> k) {
+    int res = oo, s = -1;
+    FOR(t,1,k) {
+      sum = 0;
+      int now = get(k, t);
+      if (sum != n) continue;
+      if (now < res) res = now, s = t;
     }
-    return 0;
+    if (res == oo) puts("IMPOSSIBLE");
+    else {
+      printf("%d\n", res);
+      get(k, s, true);
+      puts("");
+    };
+  }
+  return 0;
 }
-
