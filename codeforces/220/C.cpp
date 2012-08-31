@@ -1,51 +1,65 @@
+#include <sstream>
+#include <iomanip>
 #include <iostream>
 #include <cstdio>
 #include <cstring>
 #include <cstdlib>
+#include <cmath>
 #include <algorithm>
 #include <vector>
-#include <stack>
-#include <queue>
-#include <deque>
 #include <set>
 #include <map>
+#include <stack>
+#include <queue>
 #include <string>
-#include <cmath>
-using namespace std;
-#define FOR(i, a, b) for(int i=a; i<=b; i++)
-#define DOW(i, a, b) for(int i=a; i>=b; i--)
-#define FOREACH(it, c) for(typeof(c.begin()) it=c.begin(); it!=c.end(); it++)
-#define RESET(c, val) memset(c, val, sizeof(c))
-#define maxn 100005
+#include <deque>
+#include <complex>
 
-int n, pos[maxn], a[maxn], b[maxn], x;
-multiset<int> s;
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+using namespace std;
+
+const long double PI = acos((long double) -1.0);
+const int MN = 100111;
+
+int n, a[MN], b[MN], ina[MN], inb[MN];
+multiset<int> dist;
 
 int main() {
-    //freopen("test.inp", "r", stdin);
-    //freopen("", "w", stdout);
-    cin >> n;
-    FOR(i, 1, n) scanf("%d", &x), pos[x]=i;
-    FOR(i, 1, n) scanf("%d", &b[i]), a[i]=i-pos[b[i]], s.insert(a[i]);
-    //FOR(i, 1, n) cout << a[i] << endl;
-    int t=0;
-    FOR(i, 1, n) {
-        multiset<int>::iterator it=s.lower_bound(t);
-        int res=1000000000;
-        //cout << i << " " << s.size() << endl;
-        //FOREACH(it, s) cout << (*it) << " ";
-        //cout << endl;
-        if (it!=s.end()) res=min(res, (*it)-t);
-        if (it!=s.begin()) it--, res=min(res, t-(*it));
-        //if (it!=s.begin()) it--, res=min(res, t-(*it));
-        printf("%d\n", res);
-        if (i<n) {
-            t++;
-            s.erase(s.find(a[i]));
-            a[i]=n-pos[b[i]];
-            s.insert(a[i]+t);
+    while (scanf("%d", &n) == 1) {
+        FOR(i,1,n) { scanf("%d", &a[i]); ina[a[i]] = i; }
+        FOR(i,1,n) { scanf("%d", &b[i]); inb[b[i]] = i; }
+
+        dist.clear();
+        FOR(i,1,n) dist.insert(inb[i] - ina[i]);
+
+        FOR(rot,0,n-1) {
+            multiset<int> :: iterator it = dist.lower_bound(rot);
+            int res = 1000111000;
+            if (it != dist.end()) res = min(res, (*it) - rot);
+
+            if (it != dist.begin()) {
+                --it;
+                res = min(res, rot - (*it));
+            }
+            printf("%d\n", res);
+
+            int need = b[rot+1];
+            dist.erase(dist.find(inb[need] - ina[need]));
+
+            inb[need] = rot + n + 1;
+            dist.insert(inb[need] - ina[need]);
         }
-        //if (i==3) cout << a[n]-t << endl;
     }
     return 0;
 }
