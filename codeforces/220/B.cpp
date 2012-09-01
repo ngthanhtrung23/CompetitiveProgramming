@@ -1,96 +1,107 @@
+#include <sstream>
+#include <iomanip>
 #include <iostream>
-#include <string>
-#include <vector>
-#include <deque>
-#include <stack>
-#include <queue>
-#include <set>
-#include <map>
-#include <algorithm>
-#include <cmath>
-#include <cstdlib>
 #include <cstdio>
 #include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-#define X first
-#define Y second
-#define mp make_pair
-#define pb push_back
-#define sqr(a) ((a)*(a))
-#define FR(i,n) for (int i = 0; i < (n); i++)
-#define DN(i,a) for(int i = (a)-1; i >= 0; i--)
-#define FOR(i,a,b) for (int i = (a); i <= (b); i++)
-#define DOWN(i,a,b) for(int i = (a); i >= (b); i--)
-#define FORV(i,a) for(typeof(a.begin()) i = a.begin(); i != a.end(); i++)
-#define Set(a,c) memset(a, c, sizeof(a))
-#define oo 1000000000
-#define MAXN 100005
-
-typedef pair<int, int> PII;
-typedef vector<int> VI;
-
-struct querry {
-    int l,r,i;    
-} q[MAXN];
-
-int a[MAXN], m, n, T[MAXN];
-VI list[MAXN];
-int res[MAXN];
-
-void update(int i, int k) {
-    while (i <= n) {
-        T[i] += k;
-        i += i & (-i);   
-    }    
+//Buffer reading
+int INP,AM;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (feof(stdin)) memset(BUF, 0, sizeof BUF); else fread(BUF,1,BUFSIZE,stdin); \
+        inp=BUF; \
+    } \
+    INP=*inp++; \
 }
-
-int get(int i) {
-    int s = 0;
-    while (i) {
-        s += T[i];
-        i -= i & (-i);   
-    }    
-    return s;
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
 }
+//End of buffer reading
 
-void process() {
-    int cur = 0;
-    FOR(i, 1, m) {
-        FOR(j, cur + 1, q[i].r) {
-            if (a[j] > n) continue;
-            int k = a[j];
-            list[k].pb(j);
-            int z = list[k].size();
-            if (z >= k) {
-                update(list[k][z - k], 1);   
-            }
-            if (z >= k + 1) {
-                update(list[k][z - k - 1], -2);   
-            }
-            if (z >= k + 2) {
-                update(list[k][z - k - 2], 1);   
-            }
-        }
-        res[q[i].i] = get(q[i].r) - get(q[i].l - 1);
-        cur = q[i].r;
-    }    
-    FOR(i, 1, m) printf("%d\n", res[i]);
-}
+const long double PI = acos((long double) -1.0);
+const int MN = 100111;
 
-bool cmp(querry a, querry b) {
-    return a.r < b.r;    
-}
+int n, m, a[MN];
+vector<int> x[MN];
+map<int,int> cnt, ind;
+vector<int> need;
 
-int main () {
-    cin >> n >> m;
-    FOR(i, 1, n) scanf("%d", &a[i]);
-    FOR(i, 1, m) {
-        scanf("%d%d", &q[i].l, &q[i].r);
-        q[i].i = i;
+int main() {
+    GN(n); GN(m);
+    cnt.clear();
+    FOR(i,1,n) {
+        GN(a[i]);
+        ++cnt[a[i]];
     }
-    sort(q + 1, q + 1 + m, cmp);
-    process();
+    need.clear(); ind.clear();
+    for(map<int,int> :: iterator it = cnt.begin(); it != cnt.end(); ++it) {
+        if (it->S >= it->F) {
+            ind[it->F] = need.size();
+            need.PB(it->F);
+        }
+    }
+
+    FOR(i,1,n) if (ind.find(a[i]) != ind.end()) {
+        int u = ind[a[i]];
+        x[u].PB(i);
+    }
+
+    // REP(t,need.size()) {
+    //     cout << need[t] << ": ";
+    //     PR0(x[t], x[t].size());
+    // }
+
+    while (m--) {
+        int l, r; GN(l); GN(r);
+        int savel = l, saver = r;
+        int res = 0;
+        REP(t,need.size()) {
+            l = savel, r = saver;
+            int sz = x[t].size();
+            if (l > x[t][sz-1] || r < x[t][0]) continue;
+
+            if (l < x[t][0]) l = x[t][0];
+            if (r > x[t][sz-1]) r = x[t][sz-1];
+            int u = lower_bound(x[t].begin(), x[t].end(), l) - x[t].begin();
+            int v = lower_bound(x[t].begin(), x[t].end(), r) - x[t].begin();
+
+            if (x[t][v] > r) --v;
+            if (v - u + 1 == need[t]) ++res;
+        }
+        printf("%d\n", res);
+    }
     return 0;
 }
