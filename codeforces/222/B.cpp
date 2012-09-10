@@ -1,41 +1,83 @@
-
-#include <bits/stdc++.h>
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int MN = 1011;
+//Buffer reading
+int INP,AM;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (feof(stdin)) memset(BUF, 0, sizeof BUF); else fread(BUF,1,BUFSIZE,stdin); \
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-int a[MN][MN], m, n, k, orig_row[MN], orig_col[MN];
+const long double PI = acos((long double) -1.0);
+
+int col[1011], row[1011], a[1011][1011], m, n, q;
 
 int main() {
-    ios :: sync_with_stdio(false);
-    while (scanf("%d%d%d\n", &m, &n, &k) == 3) {
-        FOR(i,1,m) FOR(j,1,n) scanf("%d", &a[i][j]);
-        scanf("\n");
-        FOR(i,1,m) orig_row[i] = i;
-        FOR(j,1,n) orig_col[j] = j;
+    GN(m); GN(n); GN(q);
+    FOR(i,1,m) FOR(j,1,n) GN(a[i][j]);
 
-        while (k--) {
-            char typ; int u, v; scanf("%c%d%d\n", &typ, &u, &v);
-            if (typ == 'c') {
-                swap(orig_col[u], orig_col[v]);
-            } else if (typ == 'r') {
-                swap(orig_row[u], orig_row[v]);
-            } else {
-                printf("%d\n", a[orig_row[u]][orig_col[v]]);
-            }
+    FOR(i,1,m) row[i] = i;
+    FOR(j,1,n) col[j] = j;
+
+    int i, j;
+    while (q--) {
+        char c = '#';
+        while (c < 'a' || c > 'z') GETCHAR(c);
+        if (c == 'g') {
+            GN(i); GN(j);
+            printf("%d\n", a[row[i]][col[j]]);
+        }
+        else if (c == 'r') {
+            GN(i); GN(j);
+            swap(row[i], row[j]);
+        }
+        else {
+            GN(i); GN(j);
+            swap(col[i], col[j]);
         }
     }
     return 0;
 }
-
