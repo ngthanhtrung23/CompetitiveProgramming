@@ -8373,6 +8373,23 @@
     ],
     "timestamp": "Oct/23/2016 19:34"
   },
+  "CF2190740": {
+    "contest_id": 223,
+    "language": "GNU C++",
+    "path": "codeforces/223/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bracket Sequence",
+    "problem_url": "https://codeforces.com/contest/223/problem/A",
+    "submission_id": "CF2190740",
+    "submission_url": "https://codeforces.com/contest/223/submission/2190740",
+    "tags": [
+      "data structures",
+      "expression parsing",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Sep/16/2012 23:49"
+  },
   "CF21919598": {
     "contest_id": 733,
     "language": "Java 8",
