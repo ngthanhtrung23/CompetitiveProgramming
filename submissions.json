@@ -8473,6 +8473,23 @@
     ],
     "timestamp": "Nov/01/2016 02:52"
   },
+  "CF2198565": {
+    "contest_id": 223,
+    "language": "GNU C++",
+    "path": "codeforces/223/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Partial Sums",
+    "problem_url": "https://codeforces.com/contest/223/problem/C",
+    "submission_id": "CF2198565",
+    "submission_url": "https://codeforces.com/contest/223/submission/2198565",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Sep/17/2012 01:56"
+  },
   "CF2213190": {
     "contest_id": 225,
     "language": "GNU C++",
