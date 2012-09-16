@@ -8403,6 +8403,23 @@
     ],
     "timestamp": "Oct/31/2016 22:14"
   },
+  "CF2192386": {
+    "contest_id": 223,
+    "language": "GNU C++",
+    "path": "codeforces/223/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Two Strings",
+    "problem_url": "https://codeforces.com/contest/223/problem/B",
+    "submission_id": "CF2192386",
+    "submission_url": "https://codeforces.com/contest/223/submission/2192386",
+    "tags": [
+      "data structures",
+      "dp",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Sep/17/2012 00:06"
+  },
   "CF21930323": {
     "contest_id": 733,
     "language": "Java 8",
