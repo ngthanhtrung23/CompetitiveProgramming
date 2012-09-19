@@ -8473,6 +8473,22 @@
     ],
     "timestamp": "Nov/01/2016 02:52"
   },
+  "CF2214767": {
+    "contest_id": 225,
+    "language": "GNU C++",
+    "path": "codeforces/225/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Barcode",
+    "problem_url": "https://codeforces.com/contest/225/problem/C",
+    "submission_id": "CF2214767",
+    "submission_url": "https://codeforces.com/contest/225/submission/2214767",
+    "tags": [
+      "dp",
+      "matrices",
+      "*1700"
+    ],
+    "timestamp": "Sep/20/2012 00:14"
+  },
   "CF2219485": {
     "contest_id": 225,
     "language": "GNU C++",
