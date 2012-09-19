@@ -33151,6 +33151,18 @@
     ],
     "timestamp": "Sep/17/2012 01:56"
   },
+  "CF2211518": {
+    "contest_id": 100070,
+    "language": "GNU C++",
+    "path": "codeforces/100070/A.cpp",
+    "problem_index": "A",
+    "problem_name": "A",
+    "problem_url": "https://codeforces.com/gym/100070/problem/A",
+    "submission_id": "CF2211518",
+    "submission_url": "https://codeforces.com/gym/100070/submission/2211518",
+    "tags": [],
+    "timestamp": "Sep/19/2012 16:57"
+  },
   "CF2211538": {
     "contest_id": 100070,
     "language": "GNU C++",
