@@ -8473,6 +8473,24 @@
     ],
     "timestamp": "Nov/01/2016 02:52"
   },
+  "CF2220211": {
+    "contest_id": 225,
+    "language": "GNU C++",
+    "path": "codeforces/225/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Snake",
+    "problem_url": "https://codeforces.com/contest/225/problem/D",
+    "submission_id": "CF2220211",
+    "submission_url": "https://codeforces.com/contest/225/submission/2220211",
+    "tags": [
+      "bitmasks",
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "*2200"
+    ],
+    "timestamp": "Sep/20/2012 03:00"
+  },
   "CF2220254": {
     "contest_id": 225,
     "language": "GNU C++",

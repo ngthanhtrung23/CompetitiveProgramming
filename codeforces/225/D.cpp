@@ -91,7 +91,6 @@ inline int get(const State &a) {
         if (a.a[i][j] == '1') i1 = i, j1 = j;
         else if (a.a[i][j] == '@') i2 = i, j2 = j;
     }
-    return res + abs(i1 - i2) + abs(j1 - j2);
     first = last = 1;
     qu[1] = i1; qv[1] = j1;
 
