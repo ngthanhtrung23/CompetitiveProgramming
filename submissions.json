@@ -8473,6 +8473,23 @@
     ],
     "timestamp": "Nov/01/2016 02:52"
   },
+  "CF2213862": {
+    "contest_id": 225,
+    "language": "GNU C++",
+    "path": "codeforces/225/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Well-known Numbers",
+    "problem_url": "https://codeforces.com/contest/225/problem/B",
+    "submission_id": "CF2213862",
+    "submission_url": "https://codeforces.com/contest/225/submission/2213862",
+    "tags": [
+      "binary search",
+      "greedy",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Sep/20/2012 00:02"
+  },
   "CF2214767": {
     "contest_id": 225,
     "language": "GNU C++",
