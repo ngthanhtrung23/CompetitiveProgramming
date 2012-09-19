@@ -33151,6 +33151,18 @@
     ],
     "timestamp": "Sep/17/2012 01:56"
   },
+  "CF2211574": {
+    "contest_id": 100070,
+    "language": "GNU C++",
+    "path": "codeforces/100070/D.cpp",
+    "problem_index": "D",
+    "problem_name": "D",
+    "problem_url": "https://codeforces.com/gym/100070/problem/D",
+    "submission_id": "CF2211574",
+    "submission_url": "https://codeforces.com/gym/100070/submission/2211574",
+    "tags": [],
+    "timestamp": "Sep/19/2012 17:15"
+  },
   "CF2213190": {
     "contest_id": 225,
     "language": "GNU C++",
