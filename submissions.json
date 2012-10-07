@@ -33483,6 +33483,18 @@
     ],
     "timestamp": "Dec/18/2016 01:56"
   },
+  "CF2309407": {
+    "contest_id": 100009,
+    "language": "Java 6",
+    "path": "codeforces/100009/C.java",
+    "problem_index": "C",
+    "problem_name": "C",
+    "problem_url": "https://codeforces.com/gym/100009/problem/C",
+    "submission_id": "CF2309407",
+    "submission_url": "https://codeforces.com/gym/100009/submission/2309407",
+    "tags": [],
+    "timestamp": "Oct/07/2012 10:06"
+  },
   "CF2309503": {
     "contest_id": 100009,
     "language": "GNU C++",
