@@ -8941,6 +8941,22 @@
     ],
     "timestamp": "Jan/27/2017 21:20"
   },
+  "CF2427761": {
+    "contest_id": 237,
+    "language": "GNU C++",
+    "path": "codeforces/237/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Young Table",
+    "problem_url": "https://codeforces.com/contest/237/problem/B",
+    "submission_id": "CF2427761",
+    "submission_url": "https://codeforces.com/contest/237/submission/2427761",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Oct/25/2012 23:41"
+  },
   "CF2428418": {
     "contest_id": 237,
     "language": "GNU C++",
