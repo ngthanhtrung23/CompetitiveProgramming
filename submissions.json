@@ -8941,6 +8941,24 @@
     ],
     "timestamp": "Jan/27/2017 21:20"
   },
+  "CF2429556": {
+    "contest_id": 237,
+    "language": "GNU C++",
+    "path": "codeforces/237/D.cpp",
+    "problem_index": "D",
+    "problem_name": "T-decomposition",
+    "problem_url": "https://codeforces.com/contest/237/problem/D",
+    "submission_id": "CF2429556",
+    "submission_url": "https://codeforces.com/contest/237/submission/2429556",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Oct/26/2012 00:04"
+  },
   "CF2431203": {
     "contest_id": 237,
     "language": "GNU C++",
