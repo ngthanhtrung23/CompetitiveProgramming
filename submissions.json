@@ -9190,6 +9190,24 @@
     ],
     "timestamp": "Feb/24/2017 17:22"
   },
+  "CF2502751": {
+    "contest_id": 238,
+    "language": "GNU C++",
+    "path": "codeforces/238/C.cpp",
+    "problem_index": "C",
+    "problem_name": "World Eater Brothers",
+    "problem_url": "https://codeforces.com/contest/238/problem/C",
+    "submission_id": "CF2502751",
+    "submission_url": "https://codeforces.com/contest/238/submission/2502751",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Nov/05/2012 01:14"
+  },
   "CF25032024": {
     "contest_id": 778,
     "language": "GNU C++14",
