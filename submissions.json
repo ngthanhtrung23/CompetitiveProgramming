@@ -9190,6 +9190,22 @@
     ],
     "timestamp": "Feb/24/2017 17:22"
   },
+  "CF2499407": {
+    "contest_id": 238,
+    "language": "GNU C++",
+    "path": "codeforces/238/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Not Wool Sequences",
+    "problem_url": "https://codeforces.com/contest/238/problem/A",
+    "submission_id": "CF2499407",
+    "submission_url": "https://codeforces.com/contest/238/submission/2499407",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Nov/05/2012 00:14"
+  },
   "CF2501060": {
     "contest_id": 238,
     "language": "GNU C++",
