@@ -13148,6 +13148,23 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2753231": {
+    "contest_id": 246,
+    "language": "GNU C++",
+    "path": "codeforces/246/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Beauty Pageant",
+    "problem_url": "https://codeforces.com/contest/246/problem/C",
+    "submission_id": "CF2753231",
+    "submission_url": "https://codeforces.com/contest/246/submission/2753231",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Dec/12/2012 12:25"
+  },
   "CF2775972": {
     "contest_id": 256,
     "language": "GNU C++",
