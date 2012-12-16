@@ -117,19 +117,29 @@ void init() {
 }
 
 long long sq4(long long n) {
-    long long x = (long long) sqrt(sqrt((long double) n));
-    x += 10;
-    while (x*x*x*x >= n) --x;
-    ++x;
-    return x;
+    long long l = 1, r = 1000, res = 1000;
+    while (l <= r) {
+        long long mid = (l + r) >> 1;
+        if (mid * mid * mid * mid >= n) {
+            res = mid;
+            r = mid - 1;
+        }
+        else l = mid + 1;
+    }
+    return res;
 }
 
 long long sq2(long long n) {
-    long long x = (long long) sqrt((long double) n);
-    x -= 10;
-    while (x*x <= n) ++x;
-    --x;
-    return x;
+    long long l = 1, r = 1000000, res = 1;
+    while (l <= r) {
+        long long mid = (l + r) >> 1;
+        if (mid * mid <= n) {
+            res = mid;
+            l = mid + 1;
+        }
+        else r = mid - 1;
+    }
+    return res;
 }
 
 long long get2(long long n) {
