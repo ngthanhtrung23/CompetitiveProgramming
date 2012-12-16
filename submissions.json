@@ -13148,6 +13148,23 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2775972": {
+    "contest_id": 256,
+    "language": "GNU C++",
+    "path": "codeforces/256/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Almost Arithmetical Progression",
+    "problem_url": "https://codeforces.com/contest/256/problem/A",
+    "submission_id": "CF2775972",
+    "submission_url": "https://codeforces.com/contest/256/submission/2775972",
+    "tags": [
+      "binary search",
+      "dp",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Dec/16/2012 23:52"
+  },
   "CF2780080": {
     "contest_id": 256,
     "language": "GNU C++",
