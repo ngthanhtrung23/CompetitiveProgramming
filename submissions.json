@@ -13148,6 +13148,23 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2812606": {
+    "contest_id": 258,
+    "language": "GNU C++",
+    "path": "codeforces/258/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Little Elephant and Elections",
+    "problem_url": "https://codeforces.com/contest/258/problem/B",
+    "submission_id": "CF2812606",
+    "submission_url": "https://codeforces.com/contest/258/submission/2812606",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Dec/23/2012 00:24"
+  },
   "CF2813558": {
     "contest_id": 258,
     "language": "GNU C++",
