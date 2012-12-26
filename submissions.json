@@ -13148,6 +13148,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2827558": {
+    "contest_id": 253,
+    "language": "GNU C++",
+    "path": "codeforces/253/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Table with Letters - 2",
+    "problem_url": "https://codeforces.com/contest/253/problem/D",
+    "submission_id": "CF2827558",
+    "submission_url": "https://codeforces.com/contest/253/submission/2827558",
+    "tags": [
+      "brute force",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Dec/26/2012 11:11"
+  },
   "CF2827657": {
     "contest_id": 253,
     "language": "GNU C++",
