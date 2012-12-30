@@ -13148,6 +13148,25 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2856075": {
+    "contest_id": 260,
+    "language": "GNU C++",
+    "path": "codeforces/260/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Black and White Tree",
+    "problem_url": "https://codeforces.com/contest/260/problem/D",
+    "submission_id": "CF2856075",
+    "submission_url": "https://codeforces.com/contest/260/submission/2856075",
+    "tags": [
+      "constructive algorithms",
+      "dsu",
+      "graphs",
+      "greedy",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Dec/30/2012 16:14"
+  },
   "CF2860336": {
     "contest_id": 254,
     "language": "GNU C++",
