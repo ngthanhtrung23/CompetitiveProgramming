@@ -13148,6 +13148,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2860656": {
+    "contest_id": 254,
+    "language": "GNU C++",
+    "path": "codeforces/254/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dormitory",
+    "problem_url": "https://codeforces.com/contest/254/problem/E",
+    "submission_id": "CF2860656",
+    "submission_url": "https://codeforces.com/contest/254/submission/2860656",
+    "tags": [
+      "dp",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Dec/31/2012 18:05"
+  },
   "CF2872060": {
     "contest_id": 256,
     "language": "GNU C++",
