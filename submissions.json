@@ -13148,6 +13148,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2860350": {
+    "contest_id": 254,
+    "language": "GNU C++",
+    "path": "codeforces/254/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Jury Size",
+    "problem_url": "https://codeforces.com/contest/254/problem/B",
+    "submission_id": "CF2860350",
+    "submission_url": "https://codeforces.com/contest/254/submission/2860350",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Dec/31/2012 16:01"
+  },
   "CF2860398": {
     "contest_id": 254,
     "language": "GNU C++",
