@@ -13148,6 +13148,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2860398": {
+    "contest_id": 254,
+    "language": "GNU C++",
+    "path": "codeforces/254/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Anagram",
+    "problem_url": "https://codeforces.com/contest/254/problem/C",
+    "submission_id": "CF2860398",
+    "submission_url": "https://codeforces.com/contest/254/submission/2860398",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Dec/31/2012 16:21"
+  },
   "CF2860547": {
     "contest_id": 254,
     "language": "GNU C++",
