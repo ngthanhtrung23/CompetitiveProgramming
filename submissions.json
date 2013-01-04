@@ -13148,6 +13148,23 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2872865": {
+    "contest_id": 260,
+    "language": "GNU C++",
+    "path": "codeforces/260/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dividing Kingdom",
+    "problem_url": "https://codeforces.com/contest/260/problem/E",
+    "submission_id": "CF2872865",
+    "submission_url": "https://codeforces.com/contest/260/submission/2872865",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "*2500"
+    ],
+    "timestamp": "Jan/04/2013 18:37"
+  },
   "CF2873060": {
     "contest_id": 259,
     "language": "GNU C++",
