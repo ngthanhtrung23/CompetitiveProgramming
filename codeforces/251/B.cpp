@@ -1,83 +1,142 @@
-
-#include <bits/stdc++.h>
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
+#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
+#define SET(a,v) memset(a,v,sizeof(a))
+#define sqr(x) ((x)*(x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int MN = 111;
+//Buffer reading
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (REACHEOF) return 0;\
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-#define next __next
-int a[MN], b[MN], n, k, c[MN], inv[MN], next[MN];
+const long double PI = acos((long double) -1.0);
+const int MN = 1011;
 
-#define NO { cout << "NO" << endl; return ; }
-#define YES { cout << "YES" << endl; return ; }
+int n, k, a[MN], b[MN];
 
-void solve() {
-    bool isIdentity = true;
-    FOR(i,1,n) if (b[i] != i) isIdentity = false;
-    if (isIdentity) NO;
+int gcd(int a, int b) {
+    if (b == 0) return a;
+    return gcd(b, a % b);
+}
 
-    FOR(i,1,n) c[i] = i;
-    FOR(i,1,n) inv[a[i]] = c[i];
-//    PR(inv, n);
+int lcm(int a, int b) {
+    return a * b / gcd(a, b);
+}
 
-    bool aEqualInverse = true;
-    bool aEqualB = true;
+int p[MN], savep[MN];
 
+bool equal(int a[], int b[]) {
+    FOR(i,1,n) if (a[i] != b[i]) return false;
+    return true;
+}
+
+bool bad() {
+    FOR(i,1,n) if (b[i] != i) return false;
+    return true;
+}
+
+bool check(int a[], int b[]) {
+    int cycle = 1;
     FOR(i,1,n) {
-        if (a[i] != b[i]) aEqualB = false;
-        if (a[i] != inv[i]) aEqualInverse = false;
+        int u = a[i], len = 1;
+        while (u != i) {
+            u = a[u];
+            ++len;
+        }
+        cycle = lcm(cycle, len);
+        if (cycle > 2) break;
     }
 
-    if (aEqualInverse && aEqualB) {
-        if (k == 1) YES
-        else NO;
+    if (bad()) return false;
+
+    if (cycle == 1) return false;
+
+    if (cycle == 2) {
+        if (k > 1) return false;
+        FOR(i,1,n) if (a[i] != b[i]) return false;
+        return true;
     }
 
-    FOR(i,1,k) {
-        FOR(i,1,n) next[i] = c[a[i]];
-        FOR(i,1,n) c[i] = next[i];
+    FOR(i,1,n) p[i] = i;
 
-        bool cEqualB = true;
-        FOR(i,1,n) if (c[i] != b[i]) cEqualB = false;
-        if (cEqualB) {
-            if ((k - i) % 2 == 0) YES
+    FOR(turn,1,k) {
+        FOR(i,1,n) savep[i] = p[i];
+        FOR(i,1,n) p[i] = savep[a[i]];
+
+        if (equal(b, p)) {
+            if ((turn - k) % 2 == 0) return true;
         }
     }
 
-    FOR(i,1,n) c[i] = i;
-    FOR(i,1,k) {
-        FOR(i,1,n) next[i] = c[inv[i]];
-        FOR(i,1,n) c[i] = next[i];
+    FOR(i,1,n) p[i] = i;
+    FOR(turn,1,k) {
+        FOR(i,1,n) savep[i] = p[i];
+        FOR(i,1,n) p[a[i]] = savep[i];
 
-        bool cEqualB = true;
-        FOR(i,1,n) if (c[i] != b[i]) cEqualB = false;
-
-        if (cEqualB) {
-            if ((k - i) % 2 == 0) YES
+        if (equal(b, p)) {
+            if ((turn - k) % 2 == 0) return true;
         }
     }
-    NO;
+
+    return false;
 }
 
 int main() {
-    ios :: sync_with_stdio(false);
-    cout << (fixed) << setprecision(9);
-    while (cin >> n >> k) {
-        FOR(i,1,n) cin >> a[i];
-        FOR(i,1,n) cin >> b[i];
+    while (scanf("%d%d", &n, &k) == 2) {
+        FOR(i,1,n) scanf("%d", &a[i]);
+        FOR(i,1,n) scanf("%d", &b[i]);
 
-        solve();
+        if (check(a, b)) puts("YES");
+        else puts("NO");
     }
     return 0;
 }
-
