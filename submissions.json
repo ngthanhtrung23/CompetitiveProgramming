@@ -13148,6 +13148,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2872306": {
+    "contest_id": 220,
+    "language": "GNU C++",
+    "path": "codeforces/220/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Little Elephant and Inversions",
+    "problem_url": "https://codeforces.com/contest/220/problem/E",
+    "submission_id": "CF2872306",
+    "submission_url": "https://codeforces.com/contest/220/submission/2872306",
+    "tags": [
+      "data structures",
+      "two pointers",
+      "*2400"
+    ],
+    "timestamp": "Jan/04/2013 14:15"
+  },
   "CF2872615": {
     "contest_id": 220,
     "language": "GNU C++",
