@@ -13148,6 +13148,21 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2873287": {
+    "contest_id": 255,
+    "language": "GNU C++",
+    "path": "codeforces/255/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Code Parsing",
+    "problem_url": "https://codeforces.com/contest/255/problem/B",
+    "submission_id": "CF2873287",
+    "submission_url": "https://codeforces.com/contest/255/submission/2873287",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jan/04/2013 21:09"
+  },
   "CF2873320": {
     "contest_id": 251,
     "language": "GNU C++",
