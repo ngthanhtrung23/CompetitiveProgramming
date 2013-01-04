@@ -13148,6 +13148,21 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2872088": {
+    "contest_id": 256,
+    "language": "GNU C++",
+    "path": "codeforces/256/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Lucky Arrays",
+    "problem_url": "https://codeforces.com/contest/256/problem/E",
+    "submission_id": "CF2872088",
+    "submission_url": "https://codeforces.com/contest/256/submission/2872088",
+    "tags": [
+      "data structures",
+      "*2400"
+    ],
+    "timestamp": "Jan/04/2013 12:12"
+  },
   "CF2872092": {
     "contest_id": 256,
     "language": "GNU C++",

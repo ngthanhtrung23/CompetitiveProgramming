@@ -58,6 +58,7 @@ char BUF[BUFSIZE+1], *inp=BUF;
 }
 //End of buffer reading
 
+const long double PI = acos((long double) -1.0);
 const int MN = 100111;
 
 const int MOD = 777777777;
@@ -74,6 +75,14 @@ void cal(int i) {
         it[i][x][y] = 0;
         REP(m1,3) REP(m2,3) if (good[m1][m2])
             it[i][x][y] = (it[i][x][y] + it[CT(i)][x][m1] * (ll) it[CP(i)][m2][y]) % MOD;
+    }
+}
+
+void print(int i, int l, int r) {
+    cout << "Node: " << i << ' ' << l << ' ' << r << endl;
+    REP(x,3) {
+        REP(y,3) cout << it[i][x][y] << ' ';
+        cout << endl;
     }
 }
 
