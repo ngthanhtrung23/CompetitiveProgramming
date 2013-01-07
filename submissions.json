@@ -13148,6 +13148,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2879588": {
+    "contest_id": 252,
+    "language": "GNU C++",
+    "path": "codeforces/252/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Unsorting Array",
+    "problem_url": "https://codeforces.com/contest/252/problem/B",
+    "submission_id": "CF2879588",
+    "submission_url": "https://codeforces.com/contest/252/submission/2879588",
+    "tags": [
+      "brute force",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Jan/07/2013 10:41"
+  },
   "CF2879610": {
     "contest_id": 250,
     "language": "GNU C++",
