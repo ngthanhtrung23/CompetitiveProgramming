@@ -13148,6 +13148,21 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF2879610": {
+    "contest_id": 250,
+    "language": "GNU C++",
+    "path": "codeforces/250/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Paper Work",
+    "problem_url": "https://codeforces.com/contest/250/problem/A",
+    "submission_id": "CF2879610",
+    "submission_url": "https://codeforces.com/contest/250/submission/2879610",
+    "tags": [
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Jan/07/2013 11:01"
+  },
   "CF2879614": {
     "contest_id": 250,
     "language": "GNU C++",
