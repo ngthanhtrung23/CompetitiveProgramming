@@ -1,70 +1,112 @@
-#include <iostream>
-#include <algorithm>
-#include <cstdio>
-#include <vector>
-#include <cstring>
-#include <string>
-#include <cmath>
-#include <utility>
-#include <map>
-#include <set>
-#include <queue>
-#include <stack>
 #include <sstream>
-#define fr(a,b,c) for (int a=b;a<=c;a++)
-#define frr(a,b,c) for (int a=b;a>=c;a--)
-#define rep(a,b) for (int a=0;a<b;a++)
-#define repp(a,b) for (int a=b-1;a>=0;a--)
-#define pb push_back
-#define mp make_pair
-#define fi first
-#define se second
-#define sz(a) int(a.size())
-#define all(a) a.begin(),a.end()
-#define reset(a,b) memset(a,b,sizeof(a))
-#define pii pair<int,int>
-#define oo 1000111222
-#define maxN 1
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
+
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
+#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
+#define SET(a,v) memset(a,v,sizeof(a))
+#define sqr(x) ((x)*(x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-void recover(string s)
-{
-	vector <string> a;
-	string t="";
-	rep(i,sz(s))
-		if (s[i]!=':') t+=s[i];
-		else 
-		{
-			if (i || t!="") a.pb(t); 
-			t="";
-		}
-	if (t!="") a.pb(t);
-		
-	int rest=9-sz(a),cnt=0;
-	rep(i,sz(a))
-		if (a[i]=="")
-			rep(j,rest) 
-			{
-				cout << "0000";
-				if (++cnt<8) cout << ':';
-			}
-		else
-		{
-			rep(j,4-sz(a[i])) cout << 0;
-			cout << a[i];
-			if (++cnt<8) cout << ':';
-		}
-	puts("");
+//Buffer reading
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (REACHEOF) return 0;\
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
+
+const long double PI = acos((long double) -1.0);
+
+string s;
+
+string correct(string s) {
+    REP(i,s.length()) if (s[i] == ':') s[i] = ' ';
+    istringstream sin(s);
+    string res = "";
+    bool first = true;
+    string t;
+    while (sin >> t) {
+        while (t.length() < 4) t = '0' + t;
+        if (first) first = false; else res = res + ':';
+        res = res + t;
+    }
+    return res;
 }
 
-int main()
-{
-	int test;
-	string s;
-	cin >> test;
-	while (test--)
-	{
-		cin >> s;
-		recover(s);
-	}
+int main() {
+    ios :: sync_with_stdio(false);
+    int ntest; cin >> ntest;
+    while (ntest--) {
+        cin >> s;
+        if (s.find("::") == string::npos) {
+            cout << correct(s) << endl;
+        }
+        else {
+            int p = s.find("::");
+            string left = s.substr(0, p);
+            string right = s.substr(p+2);
+
+            string cleft = correct(left);
+            string cright = correct(right);
+
+            string res = cleft + cright;
+            if (res.length() < 39) {
+                if (cright != "") cright = ':' + cright;
+                if (cleft != "") cleft = cleft + ':';
+                cleft = cleft + "0000";
+
+                res = cleft + cright;
+
+                while (res.length() < 39) {
+                    cleft = cleft + ":0000";
+                    res = cleft + cright;
+                }
+            }
+            cout << res << endl;
+        }
+    }
+    return 0;
 }
