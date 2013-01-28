@@ -12906,6 +12906,21 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3027618": {
+    "contest_id": 268,
+    "language": "GNU C++",
+    "path": "codeforces/268/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Wall Bars",
+    "problem_url": "https://codeforces.com/contest/268/problem/D",
+    "submission_id": "CF3027618",
+    "submission_url": "https://codeforces.com/contest/268/submission/3027618",
+    "tags": [
+      "dp",
+      "*2300"
+    ],
+    "timestamp": "Jan/29/2013 00:44"
+  },
   "CF3028871": {
     "contest_id": 268,
     "language": "GNU C++",
