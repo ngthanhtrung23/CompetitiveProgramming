@@ -12906,6 +12906,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3021321": {
+    "contest_id": 268,
+    "language": "GNU C++",
+    "path": "codeforces/268/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Buttons",
+    "problem_url": "https://codeforces.com/contest/268/problem/B",
+    "submission_id": "CF3021321",
+    "submission_url": "https://codeforces.com/contest/268/submission/3021321",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jan/28/2013 23:37"
+  },
   "CF3022075": {
     "contest_id": 268,
     "language": "GNU C++",
