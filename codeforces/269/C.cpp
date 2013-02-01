@@ -1,166 +1,169 @@
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <string>
+#include <deque>
+#include <complex>
 
-#include "bits/stdc++.h"
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
+#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
+#define SET(a,v) memset(a,v,sizeof(a))
+#define sqr(x) ((x)*(x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+#define V vector<int>
+#define MAXN 200111
+#define MAXM 400111
 using namespace std;
 
-#define int long long
-#define FOR(i, a, b) for (int i = (a), _##i = (b); i <= _##i; ++i)
-#define FORD(i, a, b) for (int i = (a), _##i = (b); i >= _##i; --i)
-#define REP(i, a) for (int i = 0, _##i = (a); i < _##i; ++i)
-#define REPD(i,n) for(int i = (n)-1; i >= 0; --i)
+int n,m,eu[MAXM],ev[MAXM],ec[MAXM],ef[MAXM],head[MAXN],current[MAXN],next_[MAXM],savem;
+ll excess[MAXN];
+int h[MAXN];
+int queue[2][MAXM],first[2],last[2];
+int q[MAXM];
 
-#define DEBUG(X) { auto _X = (X); cerr << "L" << __LINE__ << ": " << #X << " = " << (_X) << endl; }
-#define PR(A, n) { cerr << "L" << __LINE__ << ": " << #A << " = "; FOR(_, 1, n) cerr << A[_] << ' '; cerr << endl; }
-#define PR0(A, n) { cerr << "L" << __LINE__ << ": " << #A << " = "; REP(_, n) cerr << A[_] << ' '; cerr << endl; }
-
-#define sqr(x) ((x) * (x))
-#define ll long long
-// On CF, GNU C++ seems to have some precision issues with long double?
-// #define double long double
-typedef pair<int, int> II;
-#define __builtin_popcount __builtin_popcountll
-#define SZ(x) ((int)(x).size())
-#define ALL(a) (a).begin(), (a).end()
-#define MS(a,x) memset(a, x, sizeof(a))
-#define next ackjalscjaowjico
-#define prev ajcsoua0wucckjsl
-#define y1 alkscj9u20cjeijc
-#define left lajcljascjljl
-#define right aucouasocjolkjl
-#define y0 u9cqu3jioajc
-
-#define TWO(X) (1LL<<(X))
-#define CONTAIN(S,X) (((S) >> (X)) & 1)
-
-long long rand16() {
-    return rand() & (TWO(16) - 1);
-}
-long long my_rand() {
-    return rand16() << 32 | rand16() << 16 | rand16();
+void addEdge(int u,int v,int c) {
+    eu[m]=u; ev[m]=v; ec[m]=c; ef[m]=0; next_[m]=head[u]; head[u]=m; m++;
+    eu[m]=v; ev[m]=u; ec[m]=c; ef[m]=0; next_[m]=head[v]; head[v]=m; m++;
 }
 
-double safe_sqrt(double x) { return sqrt(max((double)0.0, x)); }
-int GI(long long& x) { return scanf("%lld", &x); }
+void input() {
+    scanf("%d", &n);
+    FOR(i,1,n) head[i]=-1;
+    int x; scanf("%d", &x); savem = x;
+    while (x--) {
+        int u,v,c;
+        scanf("%d%d%d", &u, &v, &c);
+        addEdge(u,v,c);
+    }
+    
+    FOR(i,1,n) current[i]=head[i];
+}
 
-// Push relabel in O(V^2 E^0.5) with gap heuristic
-// It's quite fast
-template<typename flow_t = long long>
-struct PushRelabel {
-    struct Edge {
-        int to, rev;
-        flow_t f, c;
-    };
-    vector<vector<Edge> > g;
-    vector<flow_t> ec;
-    vector<Edge*> cur;
-    vector<vector<int> > hs;
-    vector<int> H;
-    PushRelabel(int n) : g(n), ec(n), cur(n), hs(2*n), H(n) {}
-    int addEdge(int s, int t, flow_t cap, flow_t rcap=0) {
-        if (s == t) return-1;
-        Edge a = {t, (int)g[t].size(), 0, cap};
-        Edge b = {s, (int)g[s].size(), 0, rcap};
-        g[s].push_back(a);
-        g[t].push_back(b);
-        return b.rev;
+void init() {
+    int p=head[1];
+    while (p>=0) {
+        ef[p]=ec[p]; ef[p^1]=-ec[p];
+        excess[ev[p]]+=ec[p];
+        excess[1]-=ec[p];
+        p=next_[p];
     }
-    void add_flow(Edge& e, flow_t f) {
-        Edge &back = g[e.to][e.rev];
-        if (!ec[e.to] && f)
-            hs[H[e.to]].push_back(e.to);
-        e.f += f; e.c -= f;
-        ec[e.to] += f;
-        back.f -= f; back.c += f;
-        ec[back.to] -= f;
+    FOR(v,2,n-1) h[v]=1;
+    h[1]=n; h[n]=0;
+}
+
+void push(int i) {
+    ll delta=min(excess[eu[i]],(ll)ec[i]-ef[i]);
+    ef[i]+=delta; ef[i^1]-=delta;
+    excess[eu[i]]-=delta;
+    excess[ev[i]]+=delta;
+}
+
+void lift(int u) {
+    int minH=2*MAXN;
+    int p=head[u];
+    while (p>=0) {
+        if (ec[p]>ef[p])
+            minH = min(minH, h[ev[p]]);
+        p=next_[p];
     }
-    flow_t maxFlow(int s, int t) {
-        int v = g.size();
-        H[s] = v;
-        ec[t] = 1;
-        vector<int> co(2*v);
-        co[0] = v-1;
-        for(int i=0;i<v;++i) cur[i] = g[i].data();
-        for(auto &e:g[s]) add_flow(e, e.c);
-        if(hs[0].size())
-        for (int hi = 0;hi>=0;) {
-            int u = hs[hi].back();
-            hs[hi].pop_back();
-            while (ec[u] > 0) // discharge u
-                if (cur[u] == g[u].data() + g[u].size()) {
-                    H[u] = 1e9;
-                    for(auto &e:g[u])
-                        if (e.c && H[u] > H[e.to]+1)
-                            H[u] = H[e.to]+1, cur[u] = &e;
-                    if (++co[H[u]], !--co[hi] && hi < v)
-                        for(int i=0;i<v;++i)
-                            if (hi < H[i] && H[i] < v){
-                                --co[H[i]];
-                                H[i] = v + 1;
-                            }
-                    hi = H[u];
-                } else if (cur[u]->c && H[u] == H[cur[u]->to]+1)
-                    add_flow(*cur[u], min(ec[u], cur[u]->c));
-                else ++cur[u];
-            while (hi>=0 && hs[hi].empty()) --hi;
+    h[u]=minH+1;
+}
+
+bool avail[MAXN];
+
+void globalLabeling() {
+    memset(avail,true,sizeof avail);
+    memset(h,0,sizeof h);
+    h[1]=n; h[n]=0;
+    int first=1, last=1; q[1]=n;
+    avail[n]=false;
+    while (first<=last) {
+        int x=q[first++];
+        int p=head[x];
+        while (p>=0) {
+            int pp=p^1;
+            if (avail[eu[pp]] && ef[pp]<ec[pp]) {
+                h[eu[pp]]=h[x]+1;
+                avail[eu[pp]]=false;
+                q[++last]=eu[pp];
+            }
+            p=next_[p];
         }
-        return -ec[s];
+        if (first>last && avail[1]) {
+            avail[1]=false;
+            q[++last]=1;
+        }
     }
-};
-
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp) { \
-        if (REACHEOF) return 0;\
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
+    FOR(x,1,n) current[x]=head[x];
 }
 
-struct E {
-    int from;
-    int eid;
-};
-
-E forwardEdges[200111];
-
-int32_t main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout << (fixed) << setprecision(9) << boolalpha;
-    int n, m;
-    GN(n); GN(m);
-    PushRelabel<int> flow(n);
-    REP(i,m) {
-        int u, v, f;
-        GN(u); GN(v); GN(f);
-
-        forwardEdges[i].from = u - 1;
-        forwardEdges[i].eid = flow.addEdge(u-1, v-1, f, f);
+void solve() {
+    int now=0;
+    first[0]=1; last[0]=0;
+    FOR(x,1,n)
+        if (x!=1 && x!=n && excess[x]>0)
+            queue[now][++last[now]]=x;
+    
+    globalLabeling();
+    int cnt=0;
+    int ok=0;
+    while (first[now]<=last[now]) {
+        first[1-now]=1; last[1-now]=0;
+        while (first[now]<=last[now]) {
+            int x=queue[now][first[now]++];
+            while (current[x]>=0) {
+                int p=current[x];
+                if (ec[p]>ef[p] && h[eu[p]]>h[ev[p]]) {
+                    bool need = (ev[p]!=1 && ev[p]!=n && !excess[ev[p]]);
+                    push(current[x]);
+                    if (need) queue[1-now][++last[1-now]]=ev[p];
+                    if (!excess[x]) break;
+                }
+                current[x]=next_[current[x]];
+            }
+            
+            if (excess[x]>0) {
+                lift(x);
+                current[x]=head[x];
+                queue[1-now][++last[1-now]]=x;
+                cnt++;
+                if (cnt==n) {
+                    globalLabeling();
+                    cnt=0;
+                }
+            }
+        }
+        now=1-now;
     }
-
-    int res = flow.maxFlow(0, n-1);
-    // DEBUG(res);
-
-    REP(i,m) {
-        int u = forwardEdges[i].from;
-        int eid = forwardEdges[i].eid;
-
-        if (flow.g[u][eid].f >= 0) puts("0");
-        else puts("1");
+    REP(i,savem) if (ef[i<<1] >= 0) {
+        puts("0");
     }
+    else {
+        puts("1");
+    }
+}
 
+int main() {
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+    input();
+    init();
+    solve();
     return 0;
 }
