@@ -12906,6 +12906,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3045714": {
+    "contest_id": 269,
+    "language": "GNU C++",
+    "path": "codeforces/269/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Magical Boxes",
+    "problem_url": "https://codeforces.com/contest/269/problem/A",
+    "submission_id": "CF3045714",
+    "submission_url": "https://codeforces.com/contest/269/submission/3045714",
+    "tags": [
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Feb/01/2013 23:35"
+  },
   "CF3048339": {
     "contest_id": 269,
     "language": "GNU C++",
