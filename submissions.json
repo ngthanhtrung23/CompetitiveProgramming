@@ -12906,6 +12906,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3095706": {
+    "contest_id": 271,
+    "language": "GNU C++",
+    "path": "codeforces/271/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Secret",
+    "problem_url": "https://codeforces.com/contest/271/problem/C",
+    "submission_id": "CF3095706",
+    "submission_url": "https://codeforces.com/contest/271/submission/3095706",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Feb/11/2013 23:44"
+  },
   "CF3097183": {
     "contest_id": 271,
     "language": "GNU C++",
