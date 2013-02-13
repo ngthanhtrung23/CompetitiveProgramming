@@ -12906,6 +12906,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3116187": {
+    "contest_id": 273,
+    "language": "GNU C++",
+    "path": "codeforces/273/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Dima and Horses",
+    "problem_url": "https://codeforces.com/contest/273/problem/C",
+    "submission_id": "CF3116187",
+    "submission_url": "https://codeforces.com/contest/273/submission/3116187",
+    "tags": [
+      "graphs",
+      "greedy",
+      "*2200"
+    ],
+    "timestamp": "Feb/14/2013 00:06"
+  },
   "CF3123843": {
     "contest_id": 273,
     "language": "GNU C++",
