@@ -12906,6 +12906,20 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3113762": {
+    "contest_id": 273,
+    "language": "GNU C++",
+    "path": "codeforces/273/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Dima and Staircase",
+    "problem_url": "https://codeforces.com/contest/273/problem/A",
+    "submission_id": "CF3113762",
+    "submission_url": "https://codeforces.com/contest/273/submission/3113762",
+    "tags": [
+      "*1500"
+    ],
+    "timestamp": "Feb/13/2013 23:45"
+  },
   "CF3116187": {
     "contest_id": 273,
     "language": "GNU C++",
