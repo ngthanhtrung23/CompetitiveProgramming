@@ -12906,6 +12906,22 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3133656": {
+    "contest_id": 272,
+    "language": "GNU C++",
+    "path": "codeforces/272/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Dima and Sequence",
+    "problem_url": "https://codeforces.com/contest/272/problem/B",
+    "submission_id": "CF3133656",
+    "submission_url": "https://codeforces.com/contest/272/submission/3133656",
+    "tags": [
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Feb/16/2013 00:46"
+  },
   "CF3145285": {
     "contest_id": 265,
     "language": "GNU C++",
