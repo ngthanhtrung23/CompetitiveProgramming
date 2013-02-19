@@ -12906,6 +12906,21 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3145317": {
+    "contest_id": 262,
+    "language": "GNU C++",
+    "path": "codeforces/262/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Roma and Changing Signs",
+    "problem_url": "https://codeforces.com/contest/262/problem/B",
+    "submission_id": "CF3145317",
+    "submission_url": "https://codeforces.com/contest/262/submission/3145317",
+    "tags": [
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Feb/19/2013 09:56"
+  },
   "CF315170": {
     "contest_id": 62,
     "language": "GNU C++",
