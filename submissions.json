@@ -12972,6 +12972,21 @@
     ],
     "timestamp": "Mar/06/2011 00:21"
   },
+  "CF3180752": {
+    "contest_id": 276,
+    "language": "GNU C++",
+    "path": "codeforces/276/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Lunch Rush",
+    "problem_url": "https://codeforces.com/contest/276/problem/A",
+    "submission_id": "CF3180752",
+    "submission_url": "https://codeforces.com/contest/276/submission/3180752",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/24/2013 23:33"
+  },
   "CF3181489": {
     "contest_id": 276,
     "language": "GNU C++",
