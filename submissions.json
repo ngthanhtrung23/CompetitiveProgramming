@@ -12972,6 +12972,22 @@
     ],
     "timestamp": "Mar/06/2011 00:21"
   },
+  "CF3192884": {
+    "contest_id": 275,
+    "language": "GNU C++",
+    "path": "codeforces/275/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Convex Shape",
+    "problem_url": "https://codeforces.com/contest/275/problem/B",
+    "submission_id": "CF3192884",
+    "submission_url": "https://codeforces.com/contest/275/submission/3192884",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Feb/25/2013 13:03"
+  },
   "CF3208648": {
     "contest_id": 277,
     "language": "GNU C++",
