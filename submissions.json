@@ -12972,6 +12972,22 @@
     ],
     "timestamp": "Mar/06/2011 00:21"
   },
+  "CF3219966": {
+    "contest_id": 277,
+    "language": "GNU C++",
+    "path": "codeforces/277/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Game",
+    "problem_url": "https://codeforces.com/contest/277/problem/C",
+    "submission_id": "CF3219966",
+    "submission_url": "https://codeforces.com/contest/277/submission/3219966",
+    "tags": [
+      "games",
+      "implementation",
+      "*2400"
+    ],
+    "timestamp": "Mar/01/2013 02:21"
+  },
   "CF3238815": {
     "contest_id": 279,
     "language": "GNU C++",
