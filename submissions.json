@@ -12972,6 +12972,23 @@
     ],
     "timestamp": "Mar/06/2011 00:21"
   },
+  "CF3240232": {
+    "contest_id": 279,
+    "language": "GNU C++",
+    "path": "codeforces/279/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Ladder",
+    "problem_url": "https://codeforces.com/contest/279/problem/C",
+    "submission_id": "CF3240232",
+    "submission_url": "https://codeforces.com/contest/279/submission/3240232",
+    "tags": [
+      "dp",
+      "implementation",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Mar/04/2013 23:51"
+  },
   "CF3242547": {
     "contest_id": 279,
     "language": "GNU C++",
