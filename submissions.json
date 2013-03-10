@@ -10125,6 +10125,24 @@
     ],
     "timestamp": "May/28/2017 19:45"
   },
+  "CF3280879": {
+    "contest_id": 280,
+    "language": "GNU C++",
+    "path": "codeforces/280/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Game on Tree",
+    "problem_url": "https://codeforces.com/contest/280/problem/C",
+    "submission_id": "CF3280879",
+    "submission_url": "https://codeforces.com/contest/280/submission/3280879",
+    "tags": [
+      "implementation",
+      "math",
+      "probabilities",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Mar/11/2013 00:40"
+  },
   "CF32823156": {
     "contest_id": 833,
     "language": "GNU C++11",
