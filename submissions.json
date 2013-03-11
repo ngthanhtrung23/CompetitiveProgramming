@@ -10141,6 +10141,21 @@
     ],
     "timestamp": "Dec/01/2017 15:03"
   },
+  "CF3287300": {
+    "contest_id": 280,
+    "language": "GNU C++",
+    "path": "codeforces/280/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Rectangle Puzzle",
+    "problem_url": "https://codeforces.com/contest/280/problem/A",
+    "submission_id": "CF3287300",
+    "submission_url": "https://codeforces.com/contest/280/submission/3287300",
+    "tags": [
+      "geometry",
+      "*2000"
+    ],
+    "timestamp": "Mar/11/2013 11:03"
+  },
   "CF3299586": {
     "contest_id": 282,
     "language": "GNU C++",
