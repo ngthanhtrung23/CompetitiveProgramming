@@ -10141,6 +10141,23 @@
     ],
     "timestamp": "Dec/01/2017 15:03"
   },
+  "CF3303078": {
+    "contest_id": 282,
+    "language": "GNU C++",
+    "path": "codeforces/282/C.cpp",
+    "problem_index": "C",
+    "problem_name": "XOR and OR",
+    "problem_url": "https://codeforces.com/contest/282/problem/C",
+    "submission_id": "CF3303078",
+    "submission_url": "https://codeforces.com/contest/282/submission/3303078",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Mar/14/2013 00:00"
+  },
   "CF3305234": {
     "contest_id": 282,
     "language": "GNU C++",
