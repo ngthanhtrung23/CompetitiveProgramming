@@ -10141,6 +10141,22 @@
     ],
     "timestamp": "Dec/01/2017 15:03"
   },
+  "CF3307199": {
+    "contest_id": 282,
+    "language": "GNU C++",
+    "path": "codeforces/282/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Yet Another Number Game",
+    "problem_url": "https://codeforces.com/contest/282/problem/D",
+    "submission_id": "CF3307199",
+    "submission_url": "https://codeforces.com/contest/282/submission/3307199",
+    "tags": [
+      "dp",
+      "games",
+      "*2100"
+    ],
+    "timestamp": "Mar/14/2013 00:44"
+  },
   "CF3319001": {
     "contest_id": 282,
     "language": "GNU C++",
