@@ -13232,6 +13232,25 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3370338": {
+    "contest_id": 285,
+    "language": "GNU C++",
+    "path": "codeforces/285/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Permutation Sum",
+    "problem_url": "https://codeforces.com/contest/285/problem/D",
+    "submission_id": "CF3370338",
+    "submission_url": "https://codeforces.com/contest/285/submission/3370338",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "implementation",
+      "meet-in-the-middle",
+      "*1900"
+    ],
+    "timestamp": "Mar/21/2013 23:59"
+  },
   "CF3384337": {
     "contest_id": 284,
     "language": "GNU C++",
