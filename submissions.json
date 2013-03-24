@@ -37397,6 +37397,18 @@
     ],
     "timestamp": "Mar/24/2013 00:14"
   },
+  "CF3399573": {
+    "contest_id": 100162,
+    "language": "GNU C++",
+    "path": "codeforces/100162/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Circle of Stones",
+    "problem_url": "https://codeforces.com/gym/100162/problem/B",
+    "submission_id": "CF3399573",
+    "submission_url": "https://codeforces.com/gym/100162/submission/3399573",
+    "tags": [],
+    "timestamp": "Mar/24/2013 18:39"
+  },
   "CF3432177": {
     "contest_id": 290,
     "language": "GNU C++",
