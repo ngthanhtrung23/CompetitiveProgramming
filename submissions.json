@@ -13232,6 +13232,22 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3458731": {
+    "contest_id": 288,
+    "language": "GNU C++",
+    "path": "codeforces/288/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Polo the Penguin and XOR operation",
+    "problem_url": "https://codeforces.com/contest/288/problem/C",
+    "submission_id": "CF3458731",
+    "submission_url": "https://codeforces.com/contest/288/submission/3458731",
+    "tags": [
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Apr/03/2013 00:19"
+  },
   "CF3464300": {
     "contest_id": 288,
     "language": "GNU C++",
