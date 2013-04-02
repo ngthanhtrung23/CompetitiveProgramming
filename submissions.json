@@ -13232,6 +13232,23 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3464300": {
+    "contest_id": 288,
+    "language": "GNU C++",
+    "path": "codeforces/288/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Polo the Penguin and Trees ",
+    "problem_url": "https://codeforces.com/contest/288/problem/D",
+    "submission_id": "CF3464300",
+    "submission_url": "https://codeforces.com/contest/288/submission/3464300",
+    "tags": [
+      "combinatorics",
+      "dfs and similar",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Apr/03/2013 01:47"
+  },
   "CF3482457": {
     "contest_id": 294,
     "language": "GNU C++",
