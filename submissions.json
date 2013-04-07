@@ -13232,6 +13232,22 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3484299": {
+    "contest_id": 294,
+    "language": "GNU C++",
+    "path": "codeforces/294/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Shaass and Bookshelf",
+    "problem_url": "https://codeforces.com/contest/294/problem/B",
+    "submission_id": "CF3484299",
+    "submission_url": "https://codeforces.com/contest/294/submission/3484299",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Apr/07/2013 23:53"
+  },
   "CF3487107": {
     "contest_id": 294,
     "language": "GNU C++",
