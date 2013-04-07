@@ -13232,6 +13232,22 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3482457": {
+    "contest_id": 294,
+    "language": "GNU C++",
+    "path": "codeforces/294/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Shaass and Oskols",
+    "problem_url": "https://codeforces.com/contest/294/problem/A",
+    "submission_id": "CF3482457",
+    "submission_url": "https://codeforces.com/contest/294/submission/3482457",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/07/2013 23:34"
+  },
   "CF3483762": {
     "contest_id": 294,
     "language": "GNU C++",
