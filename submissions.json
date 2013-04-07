@@ -37526,6 +37526,18 @@
     ],
     "timestamp": "Apr/03/2013 01:47"
   },
+  "CF3481506": {
+    "contest_id": 100153,
+    "language": "GNU C++",
+    "path": "codeforces/100153/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Dowry",
+    "problem_url": "https://codeforces.com/gym/100153/problem/C",
+    "submission_id": "CF3481506",
+    "submission_url": "https://codeforces.com/gym/100153/submission/3481506",
+    "tags": [],
+    "timestamp": "Apr/07/2013 19:07"
+  },
   "CF3482457": {
     "contest_id": 294,
     "language": "GNU C++",
