@@ -13232,6 +13232,22 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3483762": {
+    "contest_id": 294,
+    "language": "GNU C++",
+    "path": "codeforces/294/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Shaass and Lights",
+    "problem_url": "https://codeforces.com/contest/294/problem/C",
+    "submission_id": "CF3483762",
+    "submission_url": "https://codeforces.com/contest/294/submission/3483762",
+    "tags": [
+      "combinatorics",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Apr/07/2013 23:47"
+  },
   "CF3484299": {
     "contest_id": 294,
     "language": "GNU C++",
