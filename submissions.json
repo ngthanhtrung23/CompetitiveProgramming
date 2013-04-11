@@ -13232,6 +13232,21 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3511729": {
+    "contest_id": 295,
+    "language": "GNU C++",
+    "path": "codeforces/295/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Yaroslav and Points",
+    "problem_url": "https://codeforces.com/contest/295/problem/E",
+    "submission_id": "CF3511729",
+    "submission_url": "https://codeforces.com/contest/295/submission/3511729",
+    "tags": [
+      "data structures",
+      "*2500"
+    ],
+    "timestamp": "Apr/12/2013 01:10"
+  },
   "CF3513121": {
     "contest_id": 295,
     "language": "GNU C++",
