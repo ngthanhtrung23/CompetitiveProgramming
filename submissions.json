@@ -13232,6 +13232,24 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3513121": {
+    "contest_id": 295,
+    "language": "GNU C++",
+    "path": "codeforces/295/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Greg and Friends",
+    "problem_url": "https://codeforces.com/contest/295/problem/C",
+    "submission_id": "CF3513121",
+    "submission_url": "https://codeforces.com/contest/295/submission/3513121",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "graphs",
+      "shortest paths",
+      "*2100"
+    ],
+    "timestamp": "Apr/12/2013 01:40"
+  },
   "CF3515898": {
     "contest_id": 296,
     "language": "GNU C++",
