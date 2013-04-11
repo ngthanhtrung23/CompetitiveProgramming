@@ -93,7 +93,7 @@ int main() {
 
             if (t == 1) { // Dua nguoi sang song
                 FOR(i,0,u) FOR(j,0,v)
-                if (true) {
+                if (i || j) {
                     if (i * 50 + j * 100 <= k) {
                         if (f[u-i][v-j][0] < 0) {
                             f[u-i][v-j][0] = f[u][v][t] + 1;
