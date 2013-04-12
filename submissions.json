@@ -13232,6 +13232,22 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3515908": {
+    "contest_id": 296,
+    "language": "GNU C++",
+    "path": "codeforces/296/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Yaroslav and Two Strings",
+    "problem_url": "https://codeforces.com/contest/296/problem/B",
+    "submission_id": "CF3515908",
+    "submission_url": "https://codeforces.com/contest/296/submission/3515908",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Apr/12/2013 12:46"
+  },
   "CF3515991": {
     "contest_id": 289,
     "language": "GNU C++",
