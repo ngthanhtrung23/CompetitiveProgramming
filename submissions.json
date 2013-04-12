@@ -13232,6 +13232,23 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3520797": {
+    "contest_id": 285,
+    "language": "GNU C++",
+    "path": "codeforces/285/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Positions in Permutations",
+    "problem_url": "https://codeforces.com/contest/285/problem/E",
+    "submission_id": "CF3520797",
+    "submission_url": "https://codeforces.com/contest/285/submission/3520797",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*2600"
+    ],
+    "timestamp": "Apr/13/2013 05:38"
+  },
   "CF3529476": {
     "contest_id": 291,
     "language": "GNU C++",
