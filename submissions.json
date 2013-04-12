@@ -13232,6 +13232,23 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3517147": {
+    "contest_id": 288,
+    "language": "GNU C++",
+    "path": "codeforces/288/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Polo the Penguin and Lucky Numbers",
+    "problem_url": "https://codeforces.com/contest/288/problem/E",
+    "submission_id": "CF3517147",
+    "submission_url": "https://codeforces.com/contest/288/submission/3517147",
+    "tags": [
+      "dp",
+      "implementation",
+      "math",
+      "*2800"
+    ],
+    "timestamp": "Apr/12/2013 18:32"
+  },
   "CF3520797": {
     "contest_id": 285,
     "language": "GNU C++",
