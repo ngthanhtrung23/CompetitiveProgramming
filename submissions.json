@@ -37808,6 +37808,18 @@
     ],
     "timestamp": "Apr/13/2013 05:38"
   },
+  "CF3522747": {
+    "contest_id": 100151,
+    "language": "GNU C++",
+    "path": "codeforces/100151/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bonnie and Clyde",
+    "problem_url": "https://codeforces.com/gym/100151/problem/A",
+    "submission_id": "CF3522747",
+    "submission_url": "https://codeforces.com/gym/100151/submission/3522747",
+    "tags": [],
+    "timestamp": "Apr/13/2013 14:12"
+  },
   "CF3522901": {
     "contest_id": 100151,
     "language": "GNU C++",
