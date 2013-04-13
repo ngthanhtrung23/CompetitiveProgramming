@@ -37808,6 +37808,18 @@
     ],
     "timestamp": "Apr/13/2013 05:38"
   },
+  "CF3522999": {
+    "contest_id": 100151,
+    "language": "GNU C++",
+    "path": "codeforces/100151/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Building Foundation",
+    "problem_url": "https://codeforces.com/gym/100151/problem/B",
+    "submission_id": "CF3522999",
+    "submission_url": "https://codeforces.com/gym/100151/submission/3522999",
+    "tags": [],
+    "timestamp": "Apr/13/2013 14:56"
+  },
   "CF3523080": {
     "contest_id": 100151,
     "language": "GNU C++",
