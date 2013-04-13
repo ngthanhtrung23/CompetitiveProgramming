@@ -13232,6 +13232,23 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3529476": {
+    "contest_id": 291,
+    "language": "GNU C++",
+    "path": "codeforces/291/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Spyke Talks",
+    "problem_url": "https://codeforces.com/contest/291/problem/A",
+    "submission_id": "CF3529476",
+    "submission_url": "https://codeforces.com/contest/291/submission/3529476",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Apr/14/2013 03:34"
+  },
   "CF3529522": {
     "contest_id": 291,
     "language": "GNU C++",
