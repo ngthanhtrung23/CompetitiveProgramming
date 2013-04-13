@@ -13232,6 +13232,23 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3529522": {
+    "contest_id": 291,
+    "language": "GNU C++",
+    "path": "codeforces/291/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Command Line Arguments",
+    "problem_url": "https://codeforces.com/contest/291/problem/B",
+    "submission_id": "CF3529522",
+    "submission_url": "https://codeforces.com/contest/291/submission/3529522",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Apr/14/2013 03:42"
+  },
   "CF3529596": {
     "contest_id": 291,
     "language": "GNU C++",
