@@ -13232,6 +13232,22 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3529660": {
+    "contest_id": 291,
+    "language": "GNU C++",
+    "path": "codeforces/291/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Parallel Programming",
+    "problem_url": "https://codeforces.com/contest/291/problem/D",
+    "submission_id": "CF3529660",
+    "submission_url": "https://codeforces.com/contest/291/submission/3529660",
+    "tags": [
+      "*special problem",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Apr/14/2013 04:06"
+  },
   "CF3532203": {
     "contest_id": 291,
     "language": "GNU C++",
