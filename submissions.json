@@ -13232,6 +13232,24 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3532203": {
+    "contest_id": 291,
+    "language": "GNU C++",
+    "path": "codeforces/291/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Tree-String Problem",
+    "problem_url": "https://codeforces.com/contest/291/problem/E",
+    "submission_id": "CF3532203",
+    "submission_url": "https://codeforces.com/contest/291/submission/3532203",
+    "tags": [
+      "*special problem",
+      "dfs and similar",
+      "hashing",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Apr/14/2013 15:47"
+  },
   "CF3541745": {
     "contest_id": 292,
     "language": "GNU C++",
