@@ -13232,6 +13232,21 @@
     ],
     "timestamp": "Mar/21/2013 23:34"
   },
+  "CF3541745": {
+    "contest_id": 292,
+    "language": "GNU C++",
+    "path": "codeforces/292/A.cpp",
+    "problem_index": "A",
+    "problem_name": "SMSC",
+    "problem_url": "https://codeforces.com/contest/292/problem/A",
+    "submission_id": "CF3541745",
+    "submission_url": "https://codeforces.com/contest/292/submission/3541745",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Apr/15/2013 23:40"
+  },
   "CF3542379": {
     "contest_id": 292,
     "language": "GNU C++",
