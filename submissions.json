@@ -13247,6 +13247,22 @@
     ],
     "timestamp": "Mar/27/2011 00:07"
   },
+  "CF3578587": {
+    "contest_id": 298,
+    "language": "GNU C++",
+    "path": "codeforces/298/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Snow Footprints",
+    "problem_url": "https://codeforces.com/contest/298/problem/A",
+    "submission_id": "CF3578587",
+    "submission_url": "https://codeforces.com/contest/298/submission/3578587",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Apr/20/2013 13:07"
+  },
   "CF359061": {
     "contest_id": 70,
     "language": "GNU C++",
