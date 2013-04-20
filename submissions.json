@@ -38082,6 +38082,18 @@
     ],
     "timestamp": "Apr/20/2013 13:07"
   },
+  "CF3579193": {
+    "contest_id": 100147,
+    "language": "GNU C++",
+    "path": "codeforces/100147/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Weighting stones",
+    "problem_url": "https://codeforces.com/gym/100147/problem/D",
+    "submission_id": "CF3579193",
+    "submission_url": "https://codeforces.com/gym/100147/submission/3579193",
+    "tags": [],
+    "timestamp": "Apr/20/2013 15:35"
+  },
   "CF3579336": {
     "contest_id": 100147,
     "language": "GNU C++",
