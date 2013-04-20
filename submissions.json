@@ -38082,6 +38082,18 @@
     ],
     "timestamp": "Apr/20/2013 13:07"
   },
+  "CF3578864": {
+    "contest_id": 100147,
+    "language": "GNU C++",
+    "path": "codeforces/100147/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Star triangles",
+    "problem_url": "https://codeforces.com/gym/100147/problem/A",
+    "submission_id": "CF3578864",
+    "submission_url": "https://codeforces.com/gym/100147/submission/3578864",
+    "tags": [],
+    "timestamp": "Apr/20/2013 14:14"
+  },
   "CF3578970": {
     "contest_id": 100147,
     "language": "Java 6",
