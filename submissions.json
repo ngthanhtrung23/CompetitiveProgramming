@@ -38082,6 +38082,18 @@
     ],
     "timestamp": "Apr/20/2013 13:07"
   },
+  "CF3579102": {
+    "contest_id": 100147,
+    "language": "GNU C++",
+    "path": "codeforces/100147/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Hyper-minimum",
+    "problem_url": "https://codeforces.com/gym/100147/problem/B",
+    "submission_id": "CF3579102",
+    "submission_url": "https://codeforces.com/gym/100147/submission/3579102",
+    "tags": [],
+    "timestamp": "Apr/20/2013 15:16"
+  },
   "CF3579193": {
     "contest_id": 100147,
     "language": "GNU C++",
