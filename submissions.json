@@ -38082,6 +38082,18 @@
     ],
     "timestamp": "Apr/20/2013 13:07"
   },
+  "CF3579788": {
+    "contest_id": 100147,
+    "language": "GNU C++",
+    "path": "codeforces/100147/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Energetic turtle",
+    "problem_url": "https://codeforces.com/gym/100147/problem/C",
+    "submission_id": "CF3579788",
+    "submission_url": "https://codeforces.com/gym/100147/submission/3579788",
+    "tags": [],
+    "timestamp": "Apr/20/2013 17:40"
+  },
   "CF359061": {
     "contest_id": 70,
     "language": "GNU C++",
