@@ -1,79 +1,146 @@
+#include <sstream>
+#include <iomanip>
 #include <iostream>
-#include <algorithm>
 #include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
+
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
+#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
+#define SET(a,v) memset(a,v,sizeof(a))
+#define sqr(x) ((x)*(x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-int m, n, k, color[1010][1010], swapped;
-string row[1010], col[1010];
-
-void swapRowCol()
-{
-	string tmpRow[1010], tmpCol[1010];
-	for (int j = 0; j < n; j++)
-	{
-		tmpRow[j] = string(m + 2, ' ');
-		for (int i = 0; i < m - 1; i++) tmpRow[j][i] = col[i][j];
-	}
-	for (int j = 0; j < n - 1; j++)
-	{
-		tmpCol[j] = string(m + 2, ' ');
-		for (int i = 0; i < m; i++) tmpCol[j][i] = row[i][j];
-	}
-	for (int i = 0; i < n; i++) row[i] = tmpRow[i];
-	for (int i = 0; i < n - 1; i++) col[i] = tmpCol[i];
-	swap(m, n);
-	swapped = 1;
+//Buffer reading
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (REACHEOF) return 0;\
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
 }
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-int main()
-{
-	cin >> m >> n >> k;
-	for (int i = 0; i < m * 2 - 1; i++)
-		if (i % 2) cin >> col[i / 2];
-		else cin >> row[i / 2];
-		
-	if (m * (n - 1) < n * (m - 1)) swapRowCol();
-	
-	if (k == 1)
-	{
-		int cntE = 0;
-		for (int i = 0; i < m; i++)
-			for (int j = 0; j < n - 1; j++)
-				cntE += row[i][j] == 'E';
-		for (int i = 0; i < m - 1; i++)
-			for (int j = 0; j < n; j++)
-				cntE += col[i][j] == 'E';
-		if (cntE * 4 < (m * (n - 1) + n * (m - 1)) * 3) 
-		{
-			puts("NO");
-			return 0;
-		}
-	}
-	else
-	{
-		for (int j = 1; j < n; j++) color[0][j] = color[0][j - 1] ^ (row[0][j - 1] == 'N');
-	
-		for (int i = 1; i < m; i++)
-		{
-			int cntFalse = (color[i - 1][0] ^ color[i][0] ^ (col[i - 1][0] == 'N'));
-			for (int j = 1; j < n; j++) 
-			{
-				color[i][j] = color[i][j - 1] ^ (row[i][j - 1] == 'N');
-				cntFalse += (color[i][j] ^ color[i - 1][j] ^ (col[i - 1][j] == 'N'));
-			}
-		
-			if (cntFalse > n - cntFalse)
-				for (int j = 0; j < n; j++) color[i][j] ^= 1;
-		}
-	}
-	
-	puts("YES");
-	if (!swapped)
-		for (int i = 0; i < m; i++)
-			for (int j = 0; j < n; j++)
-				printf("%d%c", color[i][j] + 1, (j == n - 1 ? '\n' : ' '));
-	else
-		for (int j = 0; j < n; j++)
-			for (int i = 0; i < m; i++)
-				printf("%d%c", color[i][j] + 1, (i == m - 1 ? '\n' : ' '));
+const long double PI = acos((long double) -1.0);
+
+const int MN = 1011;
+
+int m, n, k, a[MN][MN];
+char ngang[MN][MN], doc[MN][MN];
+
+int main() {
+    while (scanf("%d%d%d\n", &m, &n, &k) == 3) {
+        int cnt = 0, all = 0;
+        FOR(i,1,m) {
+            FOR(j,1,n-1) {
+                scanf("%c", &ngang[i][j]);
+                all++;
+                if (ngang[i][j] == 'E') ++cnt;
+            }
+            scanf("\n");
+            if (i < m)
+                FOR(j,1,n) {
+                    scanf("%c", &doc[i][j]);
+                    ++all;
+                    if (doc[i][j] == 'E') ++cnt;
+                }
+            scanf("\n");
+        }
+        if (cnt / all >= 3 / 4) {
+        }
+        if (k == 1) {
+            if (4 * cnt >= 3 * all) {
+                puts("YES");
+                FOR(i,1,m) {
+                    FOR(j,1,n) printf("1 ");
+                    puts("");
+                }
+            }
+            else puts("NO");
+            continue;
+        }
+        if (m > n) {
+            FOR(j,1,n) {
+                a[1][j] = 1;
+                FOR(i,2,m)
+                    if (doc[i-1][j] == 'E') a[i][j] = a[i-1][j];
+                    else a[i][j] = 3 - a[i-1][j];
+
+                if (j > 1) {
+                    int good = 0, bad = 0;
+                    FOR(i,1,m) {
+                        if (ngang[i][j-1] == 'E' && a[i][j] == a[i][j-1]) ++good;
+                        if (ngang[i][j-1] == 'N' && a[i][j] != a[i][j-1]) ++good;
+                    }
+                    bad = m - good;
+                    if (bad > good) {
+                        FOR(i,1,m) a[i][j] = 3 - a[i][j];
+                    }
+                }
+            }
+        }
+        else {
+            FOR(i,1,m) {
+                a[i][1] = 1;
+                FOR(j,2,n)
+                    if (ngang[i][j-1] == 'E') a[i][j] = a[i][j-1];
+                    else a[i][j] = 3 - a[i][j-1];
+
+                if (i > 1) {
+                    int good = 0, bad = 0;
+                    FOR(j,1,n) {
+                        if (doc[i-1][j] == 'E' && a[i-1][j] == a[i][j]) ++good;
+                        if (doc[i-1][j] == 'N' && a[i-1][j] != a[i][j]) ++good;
+                    }
+                    bad = n - good;
+                    if (bad > good) {
+                        FOR(j,1,n) a[i][j] = 3 - a[i][j];
+                    }
+                }
+            }
+        }
+        puts("YES");
+        FOR(i,1,m) {
+            FOR(j,1,n) printf("%d ", a[i][j]);
+            puts("");
+        }
+    }
+    return 0;
 }
