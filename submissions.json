@@ -38082,6 +38082,18 @@
     ],
     "timestamp": "Apr/20/2013 13:07"
   },
+  "CF3579575": {
+    "contest_id": 100147,
+    "language": "GNU C++",
+    "path": "codeforces/100147/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Skyline",
+    "problem_url": "https://codeforces.com/gym/100147/problem/F",
+    "submission_id": "CF3579575",
+    "submission_url": "https://codeforces.com/gym/100147/submission/3579575",
+    "tags": [],
+    "timestamp": "Apr/20/2013 16:52"
+  },
   "CF3579788": {
     "contest_id": 100147,
     "language": "GNU C++",
