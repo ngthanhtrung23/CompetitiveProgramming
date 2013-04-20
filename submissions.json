@@ -38082,6 +38082,18 @@
     ],
     "timestamp": "Apr/20/2013 13:07"
   },
+  "CF3579336": {
+    "contest_id": 100147,
+    "language": "GNU C++",
+    "path": "codeforces/100147/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Collider",
+    "problem_url": "https://codeforces.com/gym/100147/problem/G",
+    "submission_id": "CF3579336",
+    "submission_url": "https://codeforces.com/gym/100147/submission/3579336",
+    "tags": [],
+    "timestamp": "Apr/20/2013 16:01"
+  },
   "CF3579499": {
     "contest_id": 100147,
     "language": "GNU C++",
