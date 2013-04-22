@@ -13282,6 +13282,22 @@
     ],
     "timestamp": "Mar/27/2011 02:29"
   },
+  "CF3602055": {
+    "contest_id": 293,
+    "language": "GNU C++",
+    "path": "codeforces/293/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Weird Game",
+    "problem_url": "https://codeforces.com/contest/293/problem/A",
+    "submission_id": "CF3602055",
+    "submission_url": "https://codeforces.com/contest/293/submission/3602055",
+    "tags": [
+      "games",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Apr/22/2013 23:43"
+  },
   "CF3605770": {
     "contest_id": 293,
     "language": "GNU C++",
