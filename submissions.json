@@ -13282,6 +13282,23 @@
     ],
     "timestamp": "Mar/27/2011 02:29"
   },
+  "CF3605770": {
+    "contest_id": 293,
+    "language": "GNU C++",
+    "path": "codeforces/293/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Cube Problem",
+    "problem_url": "https://codeforces.com/contest/293/problem/C",
+    "submission_id": "CF3605770",
+    "submission_url": "https://codeforces.com/contest/293/submission/3605770",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "Apr/23/2013 00:50"
+  },
   "CF3621585": {
     "contest_id": 300,
     "language": "GNU C++",
