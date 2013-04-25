@@ -13282,6 +13282,22 @@
     ],
     "timestamp": "Mar/27/2011 02:29"
   },
+  "CF3629808": {
+    "contest_id": 300,
+    "language": "GNU C++",
+    "path": "codeforces/300/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Painting Square",
+    "problem_url": "https://codeforces.com/contest/300/problem/D",
+    "submission_id": "CF3629808",
+    "submission_url": "https://codeforces.com/contest/300/submission/3629808",
+    "tags": [
+      "dp",
+      "fft",
+      "*2300"
+    ],
+    "timestamp": "Apr/26/2013 01:58"
+  },
   "CF3643960": {
     "contest_id": 299,
     "language": "GNU C++",
