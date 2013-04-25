@@ -13282,6 +13282,23 @@
     ],
     "timestamp": "Mar/27/2011 02:29"
   },
+  "CF3626143": {
+    "contest_id": 300,
+    "language": "GNU C++",
+    "path": "codeforces/300/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Empire Strikes Back",
+    "problem_url": "https://codeforces.com/contest/300/problem/E",
+    "submission_id": "CF3626143",
+    "submission_url": "https://codeforces.com/contest/300/submission/3626143",
+    "tags": [
+      "binary search",
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Apr/26/2013 00:32"
+  },
   "CF3629808": {
     "contest_id": 300,
     "language": "GNU C++",
