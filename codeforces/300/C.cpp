@@ -1,50 +1,99 @@
-#include <iostream>
-#include <algorithm>
-#include <cstdio>
-#include <vector>
-#include <cstring>
-#include <string>
-#include <cmath>
-#include <utility>
-#include <map>
-#include <set>
-#include <queue>
-#include <stack>
 #include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
+
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
+#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
+#define SET(a,v) memset(a,v,sizeof(a))
+#define sqr(x) ((x)*(x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
-const int BASE = int(1e9) + 7;
 
-long long fact[1000100], invFact[1000100];
+//Buffer reading
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (REACHEOF) return 0;\
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-long long power(long long x, long long y)
-{
-	if (!y) return 1;
-	long long res = power(x, y / 2);
-	res = res * res % BASE;
-	if (y % 2) res = res * x % BASE;
-	return res;
+const long double PI = acos((long double) -1.0);
+const long long MOD = 1000000007LL;
+
+long long power(int x, int k) {
+    if (k == 0) return 1;
+    if (k == 1) return x;
+    long long mid = power(x, k >> 1);
+    mid = (mid * mid) % MOD;
+    if (k & 1) return (mid * x) % MOD;
+    else return mid;
 }
 
-int isGood(int n, int a, int b)
-{
-	if (n < 10) return n == a || n == b;
-	return isGood(n / 10, a, b) && (n % 10 == a || n % 10 == b);
+long long f[1000111];
+int n, a, b;
+
+bool check(int n) {
+    while (n) {
+        int t = n % 10;
+        if (t != a && t != b) return false;
+        n /= 10;
+    }
+    return true;
 }
 
-int main()
-{
-	int a, b, n;
-	cin >> a >> b >> n;
-	for (int i = 0; i <= n; i++) fact[i] = i ? fact[i - 1] * i % BASE : 1;
-	for (int i = 0; i <= n; i++) invFact[i] = power(fact[i], BASE - 2);
-	
-	long long ans = 0;
-	for (int i = 0; i <= n; i++)
-		if (isGood(i * a + b * (n - i), a, b))
-		{
-			ans += fact[n] * invFact[i] % BASE * invFact[n - i];
-			ans %= BASE;
-		}
-	
-	cout << ans << endl;
+int main() {
+    f[0] = 1;
+    while (cin >> a >> b >> n) {
+        FOR(k,1,n)
+            f[k] = f[k-1] * (n - k + 1) % MOD * power(k, MOD - 2) % MOD;
+
+        int res = 0;
+        FOR(x,0,n) {
+            if (check(a * x + b * (n-x)))
+                res = (res + f[x]) % MOD;
+        }
+        cout << res << endl;
+    }
+    return 0;
 }
