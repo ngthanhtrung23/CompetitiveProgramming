@@ -13282,6 +13282,22 @@
     ],
     "timestamp": "Mar/27/2011 02:29"
   },
+  "CF3643990": {
+    "contest_id": 299,
+    "language": "GNU C++",
+    "path": "codeforces/299/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Ksusha the Squirrel",
+    "problem_url": "https://codeforces.com/contest/299/problem/B",
+    "submission_id": "CF3643990",
+    "submission_url": "https://codeforces.com/contest/299/submission/3643990",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Apr/27/2013 22:34"
+  },
   "CF3678301": {
     "contest_id": 301,
     "language": "GNU C++",
