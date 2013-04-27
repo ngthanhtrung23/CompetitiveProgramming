@@ -13282,6 +13282,23 @@
     ],
     "timestamp": "Mar/27/2011 02:29"
   },
+  "CF3643960": {
+    "contest_id": 299,
+    "language": "GNU C++",
+    "path": "codeforces/299/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Ksusha and Array",
+    "problem_url": "https://codeforces.com/contest/299/problem/A",
+    "submission_id": "CF3643960",
+    "submission_url": "https://codeforces.com/contest/299/submission/3643960",
+    "tags": [
+      "brute force",
+      "number theory",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Apr/27/2013 22:30"
+  },
   "CF3643990": {
     "contest_id": 299,
     "language": "GNU C++",
