@@ -38233,6 +38233,18 @@
     ],
     "timestamp": "Apr/26/2013 01:58"
   },
+  "CF3642367": {
+    "contest_id": 100187,
+    "language": "GNU C++",
+    "path": "codeforces/100187/M.cpp",
+    "problem_index": "M",
+    "problem_name": "Heaviside Function",
+    "problem_url": "https://codeforces.com/gym/100187/problem/M",
+    "submission_id": "CF3642367",
+    "submission_url": "https://codeforces.com/gym/100187/submission/3642367",
+    "tags": [],
+    "timestamp": "Apr/27/2013 19:28"
+  },
   "CF3642488": {
     "contest_id": 100187,
     "language": "GNU C++",
