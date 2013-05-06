@@ -13282,6 +13282,23 @@
     ],
     "timestamp": "Mar/27/2011 02:29"
   },
+  "CF3684827": {
+    "contest_id": 302,
+    "language": "GNU C++",
+    "path": "codeforces/302/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Eugeny and Play List",
+    "problem_url": "https://codeforces.com/contest/302/problem/B",
+    "submission_id": "CF3684827",
+    "submission_url": "https://codeforces.com/contest/302/submission/3684827",
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "May/06/2013 14:23"
+  },
   "CF36865428": {
     "contest_id": 952,
     "language": "GNU C++11",
