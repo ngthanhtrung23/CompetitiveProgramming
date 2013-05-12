@@ -13357,6 +13357,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3706364": {
+    "contest_id": 303,
+    "language": "GNU C++",
+    "path": "codeforces/303/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Lucky Permutation Triple",
+    "problem_url": "https://codeforces.com/contest/303/problem/A",
+    "submission_id": "CF3706364",
+    "submission_url": "https://codeforces.com/contest/303/submission/3706364",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "May/12/2013 21:08"
+  },
   "CF3712258": {
     "contest_id": 303,
     "language": "GNU C++",
