@@ -13357,6 +13357,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3736776": {
+    "contest_id": 305,
+    "language": "GNU C++",
+    "path": "codeforces/305/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Strange Addition",
+    "problem_url": "https://codeforces.com/contest/305/problem/A",
+    "submission_id": "CF3736776",
+    "submission_url": "https://codeforces.com/contest/305/submission/3736776",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "May/19/2013 21:06"
+  },
   "CF3738576": {
     "contest_id": 305,
     "language": "GNU C++",
