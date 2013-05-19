@@ -13357,6 +13357,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3743370": {
+    "contest_id": 305,
+    "language": "GNU C++",
+    "path": "codeforces/305/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Olya and Graph",
+    "problem_url": "https://codeforces.com/contest/305/problem/D",
+    "submission_id": "CF3743370",
+    "submission_url": "https://codeforces.com/contest/305/submission/3743370",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "May/19/2013 22:26"
+  },
   "CF3750212": {
     "contest_id": 304,
     "language": "GNU C++",
