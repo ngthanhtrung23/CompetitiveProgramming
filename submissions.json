@@ -13357,6 +13357,21 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3741298": {
+    "contest_id": 305,
+    "language": "GNU C++",
+    "path": "codeforces/305/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Playing with String",
+    "problem_url": "https://codeforces.com/contest/305/problem/E",
+    "submission_id": "CF3741298",
+    "submission_url": "https://codeforces.com/contest/305/submission/3741298",
+    "tags": [
+      "games",
+      "*2300"
+    ],
+    "timestamp": "May/19/2013 21:57"
+  },
   "CF3743370": {
     "contest_id": 305,
     "language": "GNU C++",
