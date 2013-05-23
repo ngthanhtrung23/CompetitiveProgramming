@@ -13357,6 +13357,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3761976": {
+    "contest_id": 306,
+    "language": "GNU C++",
+    "path": "codeforces/306/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Polygon",
+    "problem_url": "https://codeforces.com/contest/306/problem/D",
+    "submission_id": "CF3761976",
+    "submission_url": "https://codeforces.com/contest/306/submission/3761976",
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "*2300"
+    ],
+    "timestamp": "May/24/2013 01:49"
+  },
   "CF3771432": {
     "contest_id": 212,
     "language": "GNU C++",
