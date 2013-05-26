@@ -13357,6 +13357,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3780906": {
+    "contest_id": 312,
+    "language": "GNU C++",
+    "path": "codeforces/312/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Archer",
+    "problem_url": "https://codeforces.com/contest/312/problem/B",
+    "submission_id": "CF3780906",
+    "submission_url": "https://codeforces.com/contest/312/submission/3780906",
+    "tags": [
+      "math",
+      "probabilities",
+      "*1300"
+    ],
+    "timestamp": "May/27/2013 02:42"
+  },
   "CF3784153": {
     "contest_id": 311,
     "language": "GNU C++",
