@@ -13357,6 +13357,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3780876": {
+    "contest_id": 312,
+    "language": "Java 7",
+    "path": "codeforces/312/A.java",
+    "problem_index": "A",
+    "problem_name": "Whose sentence is it?",
+    "problem_url": "https://codeforces.com/contest/312/problem/A",
+    "submission_id": "CF3780876",
+    "submission_url": "https://codeforces.com/contest/312/submission/3780876",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "May/27/2013 02:38"
+  },
   "CF3780906": {
     "contest_id": 312,
     "language": "GNU C++",
