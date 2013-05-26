@@ -13357,6 +13357,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3771432": {
+    "contest_id": 212,
+    "language": "GNU C++",
+    "path": "codeforces/212/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Polycarpus is Looking for Good Substrings",
+    "problem_url": "https://codeforces.com/contest/212/problem/B",
+    "submission_id": "CF3771432",
+    "submission_url": "https://codeforces.com/contest/212/submission/3771432",
+    "tags": [
+      "bitmasks",
+      "hashing",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "May/26/2013 20:21"
+  },
   "CF3772051": {
     "contest_id": 311,
     "language": "GNU C++",
