@@ -13357,6 +13357,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3785245": {
+    "contest_id": 266,
+    "language": "GNU C++",
+    "path": "codeforces/266/E.cpp",
+    "problem_index": "E",
+    "problem_name": "More Queries to Array...",
+    "problem_url": "https://codeforces.com/contest/266/problem/E",
+    "submission_id": "CF3785245",
+    "submission_url": "https://codeforces.com/contest/266/submission/3785245",
+    "tags": [
+      "data structures",
+      "math",
+      "*2500"
+    ],
+    "timestamp": "May/28/2013 02:02"
+  },
   "CF3788059": {
     "contest_id": 303,
     "language": "GNU C++",
