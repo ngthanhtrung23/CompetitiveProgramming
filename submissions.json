@@ -13357,6 +13357,24 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3784153": {
+    "contest_id": 311,
+    "language": "GNU C++",
+    "path": "codeforces/311/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Fetch the Treasure",
+    "problem_url": "https://codeforces.com/contest/311/problem/C",
+    "submission_id": "CF3784153",
+    "submission_url": "https://codeforces.com/contest/311/submission/3784153",
+    "tags": [
+      "brute force",
+      "data structures",
+      "graphs",
+      "shortest paths",
+      "*2500"
+    ],
+    "timestamp": "May/27/2013 21:15"
+  },
   "CF3784462": {
     "contest_id": 266,
     "language": "GNU C++",
