@@ -13357,6 +13357,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3788835": {
+    "contest_id": 233,
+    "language": "GNU C++",
+    "path": "codeforces/233/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Non-square Equation",
+    "problem_url": "https://codeforces.com/contest/233/problem/B",
+    "submission_id": "CF3788835",
+    "submission_url": "https://codeforces.com/contest/233/submission/3788835",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "May/29/2013 01:49"
+  },
   "CF3788848": {
     "contest_id": 233,
     "language": "GNU C++",
