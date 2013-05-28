@@ -13357,6 +13357,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3788363": {
+    "contest_id": 263,
+    "language": "GNU C++",
+    "path": "codeforces/263/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Cycle in Graph",
+    "problem_url": "https://codeforces.com/contest/263/problem/D",
+    "submission_id": "CF3788363",
+    "submission_url": "https://codeforces.com/contest/263/submission/3788363",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1800"
+    ],
+    "timestamp": "May/28/2013 22:59"
+  },
   "CF3788766": {
     "contest_id": 224,
     "language": "GNU C++",
