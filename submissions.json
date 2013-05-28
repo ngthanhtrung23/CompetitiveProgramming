@@ -13357,6 +13357,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3788782": {
+    "contest_id": 224,
+    "language": "GNU C++",
+    "path": "codeforces/224/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Array",
+    "problem_url": "https://codeforces.com/contest/224/problem/B",
+    "submission_id": "CF3788782",
+    "submission_url": "https://codeforces.com/contest/224/submission/3788782",
+    "tags": [
+      "bitmasks",
+      "implementation",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "May/29/2013 01:28"
+  },
   "CF3788835": {
     "contest_id": 233,
     "language": "GNU C++",
