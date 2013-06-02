@@ -1,49 +1,92 @@
-#include <bits/stdc++.h>
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
+//Buffer reading
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (REACHEOF) return 0;\
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
+
+const long double PI = acos((long double) -1.0);
 const int MN = 5011;
 
-int n, h[MN], f[MN][MN], sum[MN];
+int f[MN][MN];
+int n, a[MN], sum[MN];
 
 int main() {
     while (scanf("%d", &n) == 1) {
         FOR(i,1,n) {
-            scanf("%d", &h[i]);
-            sum[i] = sum[i-1] + h[i];
+            scanf("%d", &a[i]);
+            sum[i] = sum[i-1] + a[i];
         }
 
-        FOR(i,1,n+2) FOR(j,1,n+2) f[i][j] = 1000111000;
-        // f[i][j] = min height of last tower if we use 1..i to create at least j towers
-        // --> f[i] is increasing function
-        FOR(i,1,n-1) {
-            f[i][1] = sum[i];
-            FORD(k,i,1) f[i][k] = min(f[i][k], f[i][k+1]);
-            // now we use f[i][k] to update all f[j][k+1]
-            int k = 1;
-            FOR(j,i+1,n) {
-                while (sum[j] - sum[i] >= f[i][k+1]) ++k;
-                if (sum[j] - sum[i] >= f[i][k]) {
-                    f[j][k+1] = min(f[j][k+1], sum[j] - sum[i]);
+        FOR(i,0,n-1) {
+            if (i == 0) {
+                FOR(j,1,n) f[i][j] = 1;
+            }
+            else {
+                int j = i, best = -1000111000;
+                FOR(k,i+1,n) {
+                    while (j > 0 && sum[k] - sum[i] >= sum[i] - sum[j-1]) {
+                        --j;
+                        best = max(best, f[j][i]);
+                    }
+                    f[i][k] = best + 1;
                 }
             }
+            // PR(f[i], n);
         }
-        int res = n-1;
-        FOR(k,1,n) if (f[n][k] < 1000111000) {
-            res = min(n - k, res);
-        }
-        cout << res << endl;
+
+        int res = 1;
+        FOR(i,0,n-1) res = max(res, f[i][n]);
+        cout << n - res << endl;
     }
     return 0;
 }
-

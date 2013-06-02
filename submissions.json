@@ -10216,6 +10216,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3813945": {
+    "contest_id": 229,
+    "language": "GNU C++",
+    "path": "codeforces/229/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Towers",
+    "problem_url": "https://codeforces.com/contest/229/problem/D",
+    "submission_id": "CF3813945",
+    "submission_url": "https://codeforces.com/contest/229/submission/3813945",
+    "tags": [
+      "dp",
+      "greedy",
+      "two pointers",
+      "*2100"
+    ],
+    "timestamp": "Jun/02/2013 17:51"
+  },
   "CF3813995": {
     "contest_id": 229,
     "language": "GNU C++",
