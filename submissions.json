@@ -13357,6 +13357,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3813688": {
+    "contest_id": 228,
+    "language": "GNU C++",
+    "path": "codeforces/228/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Fractal Detector",
+    "problem_url": "https://codeforces.com/contest/228/problem/C",
+    "submission_id": "CF3813688",
+    "submission_url": "https://codeforces.com/contest/228/submission/3813688",
+    "tags": [
+      "dp",
+      "hashing",
+      "*2000"
+    ],
+    "timestamp": "Jun/02/2013 16:39"
+  },
   "CF3813744": {
     "contest_id": 227,
     "language": "GNU C++",
