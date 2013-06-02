@@ -13357,6 +13357,21 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3813793": {
+    "contest_id": 221,
+    "language": "GNU C++",
+    "path": "codeforces/221/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Little Elephant and Numbers",
+    "problem_url": "https://codeforces.com/contest/221/problem/B",
+    "submission_id": "CF3813793",
+    "submission_url": "https://codeforces.com/contest/221/submission/3813793",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jun/02/2013 17:05"
+  },
   "CF3813809": {
     "contest_id": 221,
     "language": "GNU C++",
