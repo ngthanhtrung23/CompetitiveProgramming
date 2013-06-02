@@ -13357,6 +13357,21 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3813624": {
+    "contest_id": 228,
+    "language": "GNU C++",
+    "path": "codeforces/228/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Zigzag",
+    "problem_url": "https://codeforces.com/contest/228/problem/D",
+    "submission_id": "CF3813624",
+    "submission_url": "https://codeforces.com/contest/228/submission/3813624",
+    "tags": [
+      "data structures",
+      "*2100"
+    ],
+    "timestamp": "Jun/02/2013 16:21"
+  },
   "CF3813688": {
     "contest_id": 228,
     "language": "GNU C++",
