@@ -1,56 +1,86 @@
-
-#include <bits/stdc++.h>
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-int cnt[1011][1011];
-queue< pair<int,int> > q;
-
-void add(int x, int y, int n) {
-    int old = cnt[x+500][y+500];
-    cnt[x+500][y+500] += n;
-    if (old < 4 && cnt[x+500][y+500] >= 4) {
-        q.push(make_pair(x, y));
-    }
+//Buffer reading
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (REACHEOF) return 0;\
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
 }
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-const int di[] = {-1,1,0,0};
-const int dj[] = {0,0,-1,1};
+int a[211][211];
 
 int main() {
-    int n, nq;
-    while (scanf("%d%d", &n, &nq) == 2) {
-        memset(cnt, 0, sizeof cnt);
-        add(0, 0, n);
-        int turn = 0;
-        while (!q.empty()) {
-            ++turn;
-            auto cur = q.front(); q.pop();
-            int has = cnt[cur.first + 500][cur.second + 500];
-            cnt[cur.first + 500][cur.second + 500] %= 4;
-
-            REP(dir,4) {
-                int x = cur.first + di[dir];
-                int y = cur.second + dj[dir];
-                add(x, y, has / 4);
-            }
-        }
-
-        while (nq--) {
-            int x, y; scanf("%d%d", &x, &y);
-            if (x < -500 || y < -500 || x > 500 || y > 500) puts("0");
-            else printf("%d\n", cnt[x+500][y+500]);
-        }
-    }
+	int n, q;
+	while (scanf("%d%d", &n, &q) == 2) {
+		a[100][100] = n;
+		while (true) {
+			bool ok = false;
+			FOR(i,1,200) FOR(j,1,200)
+				if (a[i][j] >= 4) {
+					ok = true;
+					int cur = a[i][j] >> 2;
+					a[i-1][j] += cur;
+					a[i][j-1] += cur;
+					a[i][j+1] += cur;
+					a[i+1][j] += cur;
+					a[i][j] &= 3;
+				}
+			if (!ok) break;
+		}
+		
+		while (q--) {
+			int x, y; scanf("%d%d", &x, &y);
+			x += 100; y += 100;
+			if (x < 0 || x > 200 || y < 0 || y > 200) puts("0");
+			else printf("%d\n", a[x][y]);
+		}
+	}
     return 0;
 }
