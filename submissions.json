@@ -10216,6 +10216,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3893244": {
+    "contest_id": 317,
+    "language": "GNU C++",
+    "path": "codeforces/317/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Game with Powers",
+    "problem_url": "https://codeforces.com/contest/317/problem/D",
+    "submission_id": "CF3893244",
+    "submission_url": "https://codeforces.com/contest/317/submission/3893244",
+    "tags": [
+      "dp",
+      "games",
+      "*2300"
+    ],
+    "timestamp": "Jun/15/2013 01:03"
+  },
   "CF3896783": {
     "contest_id": 317,
     "language": "GNU C++",

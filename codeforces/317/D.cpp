@@ -1,81 +1,94 @@
-#include <bits/stdc++.h>
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
-#define TWO(X) (1<<(X))
-#define CONTAIN(S,X) (S & TWO(X))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int g[] = {
-0,1,2,1,4,3,2,1,5,6,2,1,8,7,5,9,8,7,3,4,7,4,2,1,10,9,3,6,11,12,14};
-map<int,int> f;
-
-int get(int mask, int n) {
-    if (f.count(mask)) return f[mask];
-    if (mask == 0) {
-        return f[mask] = 0;
-    }
-    else {
-        set<int> s;
-        REP(i,n) if (CONTAIN(mask,i)) {
-            int u = i+1;
-            int newMask = mask;
-            while (u <= n) {
-                if (CONTAIN(newMask, u-1)) newMask -= TWO(u-1);
-                u += i + 1;
-            }
-
-            s.insert(get(newMask, n));
-        }
-        int res = 0;
-        while (s.count(res)) ++res;
-        return f[mask] = res;
-    }
+//Buffer reading
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (REACHEOF) return 0;\
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
 }
-
-void init() {
-    FOR(n,1,30) {
-        f.clear();
-        cerr << n << ' ' << get(TWO(n)-1, n) << endl;
-        cout << f[TWO(n)-1] << ',';
-    }
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
 }
+//End of buffer reading
 
-int mark[1000111];
+int grundy[31] = {0,1,2,1,4,3,2,1,5,6,2,1,8,7,5,9,8,7,3,4,7,4,2,1,10,9,3,6,11,12,14};
+bool mark[100111];
 
-int main() {
-//    init();
+int main(){
+//    freopen("input.txt", "r", stdin);
     int n;
     while (cin >> n) {
-        memset(mark, 0, sizeof mark);
-        int other = 1;
-        long long gh = 1;
-        while ((gh+1) * (gh+1) <= n) ++gh;
-        other += n - gh;
-
-        int sum = other % 2;
-        FOR(i,2,gh) if (!mark[i]) {
-            long long u = i;
-            int cnt = 1;
-            while (u*i <= n) {
-                u *= i;
-                if (u <= gh) mark[u] = 1;
-                else sum ^= 1;
-                ++cnt;
+        int ln = 1;
+        while (ln * ln <= n) ++ln;
+        --ln;
+//        DEBUG(ln);
+        int rev = n - ln;
+        
+        memset(mark, false, sizeof mark);
+        int sum = 0;
+        FOR(i,1,ln) if (!mark[i]) {
+            if (i == 1) {
+                sum ^= grundy[1];
+                continue;
             }
-            sum ^= g[cnt];
+            int t = 1;
+            long long p = i;
+            while (p * i <= n) {
+                p *= i;
+                if (p > ln) --rev;
+                else mark[p] = true;
+                ++t;
+            }
+//            cout << i << ' ' << t << endl;
+            sum ^= grundy[t];
         }
-        if (sum == 0) cout << "Petya"; else cout << "Vasya";
-        cout << endl;
+        rev %= 2;
+        
+        if (sum ^ rev) puts("Vasya");
+        else puts("Petya");
     }
     return 0;
 }
-
