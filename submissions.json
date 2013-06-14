@@ -10216,6 +10216,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF3897220": {
+    "contest_id": 318,
+    "language": "GNU C++",
+    "path": "codeforces/318/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Strings of Power",
+    "problem_url": "https://codeforces.com/contest/318/problem/B",
+    "submission_id": "CF3897220",
+    "submission_url": "https://codeforces.com/contest/318/submission/3897220",
+    "tags": [
+      "implementation",
+      "strings",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Jun/15/2013 04:17"
+  },
   "CF4011255": {
     "contest_id": 327,
     "language": "GNU C++",
