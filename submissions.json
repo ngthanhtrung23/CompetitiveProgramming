@@ -10216,6 +10216,25 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4015112": {
+    "contest_id": 327,
+    "language": "GNU C++",
+    "path": "codeforces/327/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Axis Walking",
+    "problem_url": "https://codeforces.com/contest/327/problem/E",
+    "submission_id": "CF4015112",
+    "submission_url": "https://codeforces.com/contest/327/submission/4015112",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "meet-in-the-middle",
+      "*2300"
+    ],
+    "timestamp": "Jul/04/2013 21:08"
+  },
   "CF4015936": {
     "contest_id": 327,
     "language": "GNU C++",

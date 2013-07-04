@@ -85,6 +85,7 @@ int main() {
             if (__builtin_popcount(mask) > 1) {
                 u = mask & (-mask);
                 sum[mask] = sum[mask - u] + sum[u];
+                if (sum[mask] > oo) sum[mask] = oo;
             }
 
             if (sum[mask] == x[1] || sum[mask] == x[2]) {
