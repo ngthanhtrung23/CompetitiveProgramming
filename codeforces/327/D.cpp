@@ -1,64 +1,116 @@
-#include <bits/stdc++.h>
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
+#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
+#define SET(a,v) memset(a,v,sizeof(a))
+#define sqr(x) ((x)*(x))
+#define ll long long
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int MN = 511;
-int first, last, qu[MN*MN], qv[MN*MN];
-bool visited[MN][MN];
-char a[MN][MN];
-int m, n;
-vector< pair<char, pair<int,int> > > res;
+//Buffer reading
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp) { \
+        if (REACHEOF) return 0;\
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
+
+const long double PI = acos((long double) -1.0);
 
 const int di[] = {-1,1,0,0};
 const int dj[] = {0,0,-1,1};
 
+int m, n;
+char a[511][511];
+bool visited[511][511];
+int first, last, qu[511*511], qv[511*511];
+
 void bfs(int u, int v) {
-    first = last = 1;
-    qu[1] = u; qv[1] = v;
+    first = last = 1; qu[1] = u; qv[1] = v;
     visited[u][v] = true;
     while (first <= last) {
-        u = qu[first]; v = qv[first]; ++first;
+        int u = qu[first], v = qv[first]; ++first;
 
         REP(dir,4) {
             int uu = u + di[dir], vv = v + dj[dir];
-            if (a[uu][vv] == '.' && !visited[uu][vv]) {
-                ++last;
-                qu[last] = uu;
-                qv[last] = vv;
-                visited[uu][vv] = true;
-            }
-        }
-    }
+            if (uu < 1 || uu > m || vv < 1 || vv > n) continue;
+            if (a[uu][vv] == '#' || visited[uu][vv]) continue;
 
-    FOR(i,1,last) res.push_back(make_pair('B', make_pair(qu[i], qv[i])));
-    FORD(i,last,2) {
-        res.push_back(make_pair('D', make_pair(qu[i], qv[i])));
-        res.push_back(make_pair('R', make_pair(qu[i], qv[i])));
+            visited[uu][vv] = true;
+            qu[++last] = uu; qv[last] = vv;
+        }
     }
 }
 
+char rc[1000111];
+int ru[1000111], rv[1000111];
+int nr;
+
 int main() {
-    while (scanf("%d%d\n", &m, &n) == 2) {
-        memset(a, ' ', sizeof a);
+    while (scanf("%d%d", &m, &n) == 2) {
         FOR(i,1,m) scanf("%s\n", &a[i][1]);
+
         memset(visited, false, sizeof visited);
-        res.clear();
-        FOR(i,1,m) FOR(j,1,n) if (!visited[i][j] && a[i][j] == '.') {
+        nr = 0;
+        FOR(i,1,m) FOR(j,1,n) if (a[i][j] == '.' && !visited[i][j]) {
             bfs(i, j);
+
+            FOR(i,1,last) {
+                ++nr;
+                rc[nr] = 'B';
+                ru[nr] = qu[i];
+                rv[nr] = qv[i];
+            }
+            FORD(i,last,2) {
+                ++nr; rc[nr] = 'D', ru[nr] = qu[i]; rv[nr] = qv[i];
+                ++nr; rc[nr] = 'R', ru[nr] = qu[i]; rv[nr] = qv[i];
+            }
         }
-        printf("%d\n", res.size());
-        for(auto x : res) printf("%c %d %d\n", x.first, x.second.first, x.second.second);
+        printf("%d\n", nr);
+        FOR(i,1,nr) printf("%c %d %d\n", rc[i], ru[i], rv[i]);
     }
     return 0;
 }
-
