@@ -2,59 +2,75 @@ import java.io.*;
 import java.util.*;
 import java.math.*;
 
-public class A {
-    public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
-        PrintWriter pw = new PrintWriter(System.out);
-
-        while (sc.hasNext()) {
-            long n = sc.nextLong();
-            long[] result = new long[1011];
-            int nResult = 0;
-
-            BigInteger N = BigInteger.valueOf(n);
-
-            for(long t = 0; t <= 62; ++t) {
-                BigInteger u = BigInteger.valueOf(2).pow((int) t).subtract(BigInteger.ONE);
-
-                long from = 1, to = 1000111000111L;
-                long res = 0;
-
-                while (from <= to) {
-                    long mid = (from + to) / 2;
-                    
-                    if (get(mid, u).compareTo(N) <= 0) {
-                        res = mid;
-                        from = mid + 1;
-                    }
-                    else to = mid - 1;
-                }
-                if (res % 2 == 0 && res > 0) res -= 1;
-
-                if (get(res, u).compareTo(N) == 0) {
-                    result[nResult] = (u.longValue() + 1) * res;
-                    ++nResult;
-                }
+public class B
+{
+    static void duyet(int n) {
+        for(int i = 1; i <= 1000111; ++i) {
+            long sum = 0;
+            int x = i;
+            while (x % 2 == 0) {
+                sum += x / 2;
+                x /= 2;
             }
+            sum += x * (x-1) / 2;
 
-            if (nResult == 0) pw.println(-1);
-            else {
-                Arrays.sort(result, 0, nResult);
-                for(int i = 0; i < nResult; ++i)
-                    pw.println(result[i]);
-                pw.println();
-            }
+            if (sum == n) System.out.println(i);
         }
+        System.out.println("---");
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNext()) {
+            BigInteger n = new BigInteger(sc.next());
 
-        sc.close();
-        pw.close();
+            // duyet(n.intValue());
+
+            BigInteger[] res = new BigInteger[100];
+            int nres = 0;
+
+            for(int k = 0; k <= 61; ++k) {
+                BigInteger a = BigInteger.ONE;
+                BigInteger b = BigInteger.valueOf((1L << (k+1)) - 3);
+                BigInteger c = n.multiply(BigInteger.valueOf(2)).negate();
+
+                BigInteger fl = f(a, b, c, BigInteger.ZERO);
+                BigInteger fr = f(a, b, c, n.multiply(BigInteger.valueOf(2)));
+
+                if (fl.compareTo(BigInteger.ZERO) < 0 && fr.compareTo(BigInteger.ZERO) > 0) {
+                    BigInteger l = BigInteger.ZERO, r = n.multiply(BigInteger.valueOf(2));
+                    while (l.compareTo(r) <= 0) {
+                        BigInteger mid = l.add(r).divide(BigInteger.valueOf(2));
+                        BigInteger fmid = f(a, b, c, mid);
+                        if (fmid.compareTo(BigInteger.ZERO) == 0) {
+                            if (mid.mod(BigInteger.valueOf(2)).compareTo(BigInteger.ZERO) != 0)
+                                res[nres++] = mid.multiply(BigInteger.valueOf(2).pow(k));
+                            break;
+                        }
+                        else if (fmid.compareTo(BigInteger.ZERO) < 0) {
+                            l = mid.add(BigInteger.ONE);
+                        }
+                        else {
+                            r = mid.subtract(BigInteger.ONE);
+                        }
+                    }
+                }
+            }
+
+            if (nres == 0) System.out.println("-1");
+            else {
+                BigInteger[] r = new BigInteger[nres];
+                for(int i = 0; i < nres; ++i)
+                    r[i] = res[i];
+                Arrays.sort(r);
+                for(int i = 0; i < nres; ++i)
+                    if (i == 0 || r[i].compareTo(r[i-1]) > 0)
+                        System.out.println(r[i]);
+            }
+            System.out.println();
+        }
     }
 
-    static BigInteger get(long mid, BigInteger u) {
-        BigInteger K = BigInteger.valueOf(mid);
-        BigInteger cur = K.multiply(K.subtract(BigInteger.ONE)).divide(BigInteger.valueOf(2))
-            .add( K.multiply(u) );
-        return cur;
-
+    static BigInteger f(BigInteger a, BigInteger b, BigInteger c, BigInteger x) {
+        return a.multiply(x).multiply(x).add(b.multiply(x)).add(c);
     }
 }
