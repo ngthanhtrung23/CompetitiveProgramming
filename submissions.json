@@ -10216,6 +10216,21 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4068752": {
+    "contest_id": 325,
+    "language": "GNU C++",
+    "path": "codeforces/325/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Square and Rectangles",
+    "problem_url": "https://codeforces.com/contest/325/problem/A",
+    "submission_id": "CF4068752",
+    "submission_url": "https://codeforces.com/contest/325/submission/4068752",
+    "tags": [
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jul/14/2013 17:45"
+  },
   "CF4100298": {
     "contest_id": 115,
     "language": "GNU C++",
