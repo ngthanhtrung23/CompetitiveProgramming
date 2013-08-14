@@ -10216,6 +10216,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4277093": {
+    "contest_id": 332,
+    "language": "Java 6",
+    "path": "codeforces/332/D.java",
+    "problem_index": "D",
+    "problem_name": "Theft of Blueprints",
+    "problem_url": "https://codeforces.com/contest/332/problem/D",
+    "submission_id": "CF4277093",
+    "submission_url": "https://codeforces.com/contest/332/submission/4277093",
+    "tags": [
+      "graphs",
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Aug/14/2013 18:01"
+  },
   "CF4280557": {
     "contest_id": 333,
     "language": "GNU C++",

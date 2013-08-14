@@ -75,4 +75,3 @@ class InputReader
         return Integer.parseInt(next());
     }
 }
-
