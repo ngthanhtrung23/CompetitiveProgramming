@@ -10216,6 +10216,21 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4280557": {
+    "contest_id": 333,
+    "language": "GNU C++",
+    "path": "codeforces/333/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Secrets",
+    "problem_url": "https://codeforces.com/contest/333/problem/A",
+    "submission_id": "CF4280557",
+    "submission_url": "https://codeforces.com/contest/333/submission/4280557",
+    "tags": [
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Aug/15/2013 14:20"
+  },
   "CF4280636": {
     "contest_id": 333,
     "language": "GNU C++",
