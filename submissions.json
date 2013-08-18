@@ -10216,6 +10216,21 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4307872": {
+    "contest_id": 337,
+    "language": "Python 3",
+    "path": "codeforces/337/A.py",
+    "problem_index": "A",
+    "problem_name": "Puzzles",
+    "problem_url": "https://codeforces.com/contest/337/problem/A",
+    "submission_id": "CF4307872",
+    "submission_url": "https://codeforces.com/contest/337/submission/4307872",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Aug/18/2013 18:39"
+  },
   "CF4307939": {
     "contest_id": 322,
     "language": "Python 3",
