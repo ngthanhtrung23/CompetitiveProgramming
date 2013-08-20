@@ -10216,6 +10216,22 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4316494": {
+    "contest_id": 151,
+    "language": "Java 6",
+    "path": "codeforces/151/A.java",
+    "problem_index": "A",
+    "problem_name": "Soft Drinking",
+    "problem_url": "https://codeforces.com/contest/151/problem/A",
+    "submission_id": "CF4316494",
+    "submission_url": "https://codeforces.com/contest/151/submission/4316494",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/20/2013 23:47"
+  },
   "CF4320459": {
     "contest_id": 77,
     "language": "GNU C++",
