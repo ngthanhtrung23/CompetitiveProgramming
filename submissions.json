@@ -10216,6 +10216,25 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4320600": {
+    "contest_id": 77,
+    "language": "GNU C++",
+    "path": "codeforces/77/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Beavermuncher-0xFF",
+    "problem_url": "https://codeforces.com/contest/77/problem/C",
+    "submission_id": "CF4320600",
+    "submission_url": "https://codeforces.com/contest/77/submission/4320600",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "dsu",
+      "greedy",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Aug/21/2013 23:27"
+  },
   "CF4320778": {
     "contest_id": 77,
     "language": "GNU C++",
