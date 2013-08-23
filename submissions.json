@@ -10216,6 +10216,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4329555": {
+    "contest_id": 338,
+    "language": "GNU C++",
+    "path": "codeforces/338/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Quiz",
+    "problem_url": "https://codeforces.com/contest/338/problem/A",
+    "submission_id": "CF4329555",
+    "submission_url": "https://codeforces.com/contest/338/submission/4329555",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Aug/23/2013 23:10"
+  },
   "CF4331225": {
     "contest_id": 338,
     "language": "GNU C++",
