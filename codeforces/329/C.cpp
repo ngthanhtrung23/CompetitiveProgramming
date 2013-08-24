@@ -1,57 +1,77 @@
-
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-int a[100111];
+//Buffer reading
+int INP,AM,REACHEOF;
+const int BUFSIZE = (1<<12) + 17;
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
+
+const int MN = 100111;
+
+set<int> block[MN];
+int m, n, x[MN];
 
 int main() {
-    int n, m;
-    while (scanf("%d%d", &n, &m) == 2) {
-        set< pair<int,int> > bad;
+    // ios :: sync_with_stdio(false);
+    while (cin >> n >> m) {
+        FOR(i,1,n) block[i].clear();
         FOR(i,1,m) {
-            int u, v; scanf("%d%d", &u, &v);
-            bad.insert(make_pair(u, v));
-            bad.insert(make_pair(v, u));
+            int u, v; cin >> u >> v;
+            block[u].insert(v);
+            block[v].insert(u);
         }
 
-        REP(turn,1000) {
-            FOR(i,1,n) a[i] = i;
-            random_shuffle(a+1, a+n+1);
-
-            bool failed = false;
-            FOR(i,1,m) {
-                int u = a[i];
-                int v = (i == n) ? a[1] : a[i+1];
-
-                if (bad.count(make_pair(u, v))) {
-                    failed = true;
-                    break;
-                }
+        bool hasResult = false;
+        REP(turn,10000) {
+            FOR(i,1,n) {
+                x[i] = i;
+                swap(x[i], x[rand() % i + 1]);
             }
-            if (!failed) {
-                FOR(i,1,m) {
-                    int u = a[i];
-                    int v = (i == n) ? a[1] : a[i+1];
-                    printf("%d %d\n", u, v);
-                }
+
+            x[n+1] = x[1];
+
+            bool ok = true;
+            FOR(i,1,m)
+            if (block[x[i]].find(x[i+1]) != block[x[i]].end()) {
+                ok = false;
                 break;
             }
 
-            if (turn == 999) {
-                cout << -1 << endl;
+            if (ok) {
+                hasResult = true;
+                FOR(i,1,m) printf("%d %d\n", x[i], x[i+1]);
+                break;
             }
         }
+
+        if (!hasResult) puts("-1");
     }
     return 0;
 }
