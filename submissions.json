@@ -10216,6 +10216,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4374390": {
+    "contest_id": 341,
+    "language": "GNU C++",
+    "path": "codeforces/341/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bubble Sort Graph",
+    "problem_url": "https://codeforces.com/contest/341/problem/B",
+    "submission_id": "CF4374390",
+    "submission_url": "https://codeforces.com/contest/341/submission/4374390",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Aug/30/2013 23:56"
+  },
   "CF4375652": {
     "contest_id": 341,
     "language": "GNU C++",
