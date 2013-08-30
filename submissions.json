@@ -10270,6 +10270,22 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4383652": {
+    "contest_id": 340,
+    "language": "GNU C++",
+    "path": "codeforces/340/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Maximal Area Quadrilateral",
+    "problem_url": "https://codeforces.com/contest/340/problem/B",
+    "submission_id": "CF4383652",
+    "submission_url": "https://codeforces.com/contest/340/submission/4383652",
+    "tags": [
+      "brute force",
+      "geometry",
+      "*2100"
+    ],
+    "timestamp": "Aug/31/2013 03:04"
+  },
   "CF4383777": {
     "contest_id": 341,
     "language": "GNU C++",
