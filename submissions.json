@@ -10270,6 +10270,21 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4383777": {
+    "contest_id": 341,
+    "language": "GNU C++",
+    "path": "codeforces/341/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Tourist Problem",
+    "problem_url": "https://codeforces.com/contest/341/problem/A",
+    "submission_id": "CF4383777",
+    "submission_url": "https://codeforces.com/contest/341/submission/4383777",
+    "tags": [
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Aug/31/2013 03:21"
+  },
   "CF4385767": {
     "contest_id": 319,
     "language": "GNU C++",
