@@ -38,6 +38,11 @@ const int MN = 100111;
 int n;
 long long a[MN], l[MN], r[MN];
 
+long long gcd(long long a, long long b) {
+    if (b == 0) return a;
+    return gcd(b, a % b);
+}
+
 int main() {
     ios :: sync_with_stdio(false);
     while (cin >> n) {
@@ -54,7 +59,7 @@ int main() {
             sum += r[i] - a[i] * (n-i+1);
         }
 
-        long long g = __gcd(sum, (long long) n);
+        long long g = gcd(sum, n);
 
         cout << sum / g << ' ' << n / g << endl;
     }
