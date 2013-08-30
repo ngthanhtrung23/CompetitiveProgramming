@@ -10216,6 +10216,23 @@
     ],
     "timestamp": "Apr/02/2018 08:13"
   },
+  "CF4375652": {
+    "contest_id": 341,
+    "language": "GNU C++",
+    "path": "codeforces/341/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Iahub and Permutations",
+    "problem_url": "https://codeforces.com/contest/341/problem/C",
+    "submission_id": "CF4375652",
+    "submission_url": "https://codeforces.com/contest/341/submission/4375652",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Aug/31/2013 00:08"
+  },
   "CF4379371": {
     "contest_id": 341,
     "language": "GNU C++",
