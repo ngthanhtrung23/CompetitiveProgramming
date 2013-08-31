@@ -42,10 +42,10 @@ int main() {
         int t = 0;
         for(int rep = 1; rep + rep <= len[t]; ++rep) {
             t ^= 1; len[t] = 0;
-            int cnt = 0, i;
-            for(i = 0; i+rep < len[t^1]; ++i) {
+            int cnt = 0;
+            for(int i = 0; i < len[t^1]; ++i) {
                 a[t][len[t]++] = a[t^1][i];
-                if (a[t^1][i] == a[t^1][i+rep]) {
+                if (len[t] >= rep && a[t][len[t]-1] == a[t][len[t]-rep-1]) {
                     ++cnt;
                     if (cnt == rep) {
                         len[t] -= rep;
@@ -54,8 +54,6 @@ int main() {
                 }
                 else cnt = 0;
             }
-            for(; i < len[t^1]; ++i)
-                a[t][len[t]++] = a[t^1][i];
             a[t][len[t]] = 0;
         }
         puts(a[t]);
