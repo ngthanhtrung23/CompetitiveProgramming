@@ -45,8 +45,14 @@ int main() {
             int cnt = 0, i;
             for(i = 0; i+rep < len[t^1]; ++i) {
                 a[t][len[t]++] = a[t^1][i];
-                cnt = (a[t^1][i] == a[t^1][i+rep]) ? cnt+1 : 0;
-                if (cnt == rep) len[t] -= rep, cnt = 0;
+                if (a[t^1][i] == a[t^1][i+rep]) {
+                    ++cnt;
+                    if (cnt == rep) {
+                        len[t] -= rep;
+                        cnt = 0;
+                    }
+                }
+                else cnt = 0;
             }
             for(; i < len[t^1]; ++i)
                 a[t][len[t]++] = a[t^1][i];
