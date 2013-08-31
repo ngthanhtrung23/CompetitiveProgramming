@@ -10270,6 +10270,18 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4387199": {
+    "contest_id": 323,
+    "language": "GNU C++",
+    "path": "codeforces/323/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Two permutations",
+    "problem_url": "https://codeforces.com/contest/323/problem/C",
+    "submission_id": "CF4387199",
+    "submission_url": "https://codeforces.com/contest/323/submission/4387199",
+    "tags": [],
+    "timestamp": "Aug/31/2013 18:53"
+  },
   "CF4387206": {
     "contest_id": 323,
     "language": "GNU C++",

@@ -92,7 +92,7 @@ int main() {
             int l1 = f(a), r1 = f(b); if (l1 > r1) swap(l1, r1);
             int l2 = f(c), r2 = f(d); if (l2 > r2) swap(l2, r2);
             x = get(1, 1, n, l1, r1, l2, r2);
-            printf("%d\n", x);
+            cout << x << endl;
             ++x;
         }
     }
