@@ -10270,6 +10270,18 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4386436": {
+    "contest_id": 319,
+    "language": "GNU C++",
+    "path": "codeforces/319/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Have You Ever Heard About the Word?",
+    "problem_url": "https://codeforces.com/contest/319/problem/D",
+    "submission_id": "CF4386436",
+    "submission_url": "https://codeforces.com/contest/319/submission/4386436",
+    "tags": [],
+    "timestamp": "Aug/31/2013 16:42"
+  },
   "CF4386446": {
     "contest_id": 319,
     "language": "GNU C++",

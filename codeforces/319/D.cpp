@@ -49,6 +49,7 @@ int main() {
                     ++cnt;
                     if (cnt == rep) {
                         len[t] -= rep;
+                        a[t][len[t]] = 0;
                         cnt = 0;
                     }
                 }
