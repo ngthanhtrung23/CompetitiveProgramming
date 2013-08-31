@@ -54,8 +54,8 @@ int main() {
                     }
                 }
                 else cnt = 0;
+                a[t][len[t]] = 0;
             }
-            a[t][len[t]] = 0;
         }
         puts(a[t]);
     }
