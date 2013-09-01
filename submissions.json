@@ -10270,6 +10270,21 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4394279": {
+    "contest_id": 297,
+    "language": "GNU C++",
+    "path": "codeforces/297/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Mystic Carvings",
+    "problem_url": "https://codeforces.com/contest/297/problem/E",
+    "submission_id": "CF4394279",
+    "submission_url": "https://codeforces.com/contest/297/submission/4394279",
+    "tags": [
+      "data structures",
+      "*3000"
+    ],
+    "timestamp": "Sep/02/2013 01:30"
+  },
   "CF4394298": {
     "contest_id": 315,
     "language": "GNU C++",
