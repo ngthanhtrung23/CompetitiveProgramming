@@ -10270,6 +10270,21 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4394320": {
+    "contest_id": 315,
+    "language": "GNU C++",
+    "path": "codeforces/315/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sereja and Array",
+    "problem_url": "https://codeforces.com/contest/315/problem/B",
+    "submission_id": "CF4394320",
+    "submission_url": "https://codeforces.com/contest/315/submission/4394320",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Sep/02/2013 01:38"
+  },
   "CF4394454": {
     "contest_id": 283,
     "language": "GNU C++",
