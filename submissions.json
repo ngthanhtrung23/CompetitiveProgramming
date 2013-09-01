@@ -10270,6 +10270,24 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4392470": {
+    "contest_id": 280,
+    "language": "GNU C++",
+    "path": "codeforces/280/D.cpp",
+    "problem_index": "D",
+    "problem_name": "k-Maximum Subsequence Sum",
+    "problem_url": "https://codeforces.com/contest/280/problem/D",
+    "submission_id": "CF4392470",
+    "submission_url": "https://codeforces.com/contest/280/submission/4392470",
+    "tags": [
+      "data structures",
+      "flows",
+      "graphs",
+      "implementation",
+      "*2800"
+    ],
+    "timestamp": "Sep/01/2013 18:52"
+  },
   "CF4394279": {
     "contest_id": 297,
     "language": "GNU C++",
