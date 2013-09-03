@@ -10270,6 +10270,21 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4401230": {
+    "contest_id": 314,
+    "language": "GNU C++",
+    "path": "codeforces/314/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Sereja and Contest",
+    "problem_url": "https://codeforces.com/contest/314/problem/A",
+    "submission_id": "CF4401230",
+    "submission_url": "https://codeforces.com/contest/314/submission/4401230",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Sep/03/2013 20:44"
+  },
   "CF4401292": {
     "contest_id": 314,
     "language": "GNU C++",
