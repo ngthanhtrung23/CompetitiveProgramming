@@ -10270,6 +10270,22 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4404432": {
+    "contest_id": 341,
+    "language": "GNU C++",
+    "path": "codeforces/341/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Candies Game",
+    "problem_url": "https://codeforces.com/contest/341/problem/E",
+    "submission_id": "CF4404432",
+    "submission_url": "https://codeforces.com/contest/341/submission/4404432",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*3000"
+    ],
+    "timestamp": "Sep/04/2013 16:53"
+  },
   "CF4411552": {
     "contest_id": 35,
     "language": "GNU C++",
