@@ -10270,6 +10270,23 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4411833": {
+    "contest_id": 34,
+    "language": "GNU C++",
+    "path": "codeforces/34/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Collisions",
+    "problem_url": "https://codeforces.com/contest/34/problem/E",
+    "submission_id": "CF4411833",
+    "submission_url": "https://codeforces.com/contest/34/submission/4411833",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Sep/06/2013 00:10"
+  },
   "CF4417001": {
     "contest_id": 342,
     "language": "GNU C++",
