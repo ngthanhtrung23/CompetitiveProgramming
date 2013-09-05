@@ -10270,6 +10270,21 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4411552": {
+    "contest_id": 35,
+    "language": "GNU C++",
+    "path": "codeforces/35/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Shell Game",
+    "problem_url": "https://codeforces.com/contest/35/problem/A",
+    "submission_id": "CF4411552",
+    "submission_url": "https://codeforces.com/contest/35/submission/4411552",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Sep/05/2013 22:57"
+  },
   "CF4411589": {
     "contest_id": 35,
     "language": "GNU C++",
