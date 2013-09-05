@@ -10270,6 +10270,21 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4411589": {
+    "contest_id": 35,
+    "language": "GNU C++",
+    "path": "codeforces/35/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Warehouse",
+    "problem_url": "https://codeforces.com/contest/35/problem/B",
+    "submission_id": "CF4411589",
+    "submission_url": "https://codeforces.com/contest/35/submission/4411589",
+    "tags": [
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Sep/05/2013 23:06"
+  },
   "CF4411606": {
     "contest_id": 35,
     "language": "GNU C++",
