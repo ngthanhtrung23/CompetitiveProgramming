@@ -10270,6 +10270,22 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4411781": {
+    "contest_id": 34,
+    "language": "GNU C++",
+    "path": "codeforces/34/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Road Map",
+    "problem_url": "https://codeforces.com/contest/34/problem/D",
+    "submission_id": "CF4411781",
+    "submission_url": "https://codeforces.com/contest/34/submission/4411781",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1600"
+    ],
+    "timestamp": "Sep/05/2013 23:51"
+  },
   "CF4411833": {
     "contest_id": 34,
     "language": "GNU C++",
