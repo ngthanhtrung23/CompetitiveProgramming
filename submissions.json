@@ -10270,6 +10270,22 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4411755": {
+    "contest_id": 34,
+    "language": "GNU C++",
+    "path": "codeforces/34/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sale",
+    "problem_url": "https://codeforces.com/contest/34/problem/B",
+    "submission_id": "CF4411755",
+    "submission_url": "https://codeforces.com/contest/34/submission/4411755",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Sep/05/2013 23:44"
+  },
   "CF4411773": {
     "contest_id": 34,
     "language": "GNU C++",
