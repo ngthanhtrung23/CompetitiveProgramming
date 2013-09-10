@@ -10270,6 +10270,24 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4439968": {
+    "contest_id": 313,
+    "language": "GNU C++",
+    "path": "codeforces/313/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Ilya and Two Numbers",
+    "problem_url": "https://codeforces.com/contest/313/problem/E",
+    "submission_id": "CF4439968",
+    "submission_url": "https://codeforces.com/contest/313/submission/4439968",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "dsu",
+      "greedy",
+      "*2300"
+    ],
+    "timestamp": "Sep/11/2013 00:52"
+  },
   "CF4460740": {
     "contest_id": 343,
     "language": "GNU C++",
