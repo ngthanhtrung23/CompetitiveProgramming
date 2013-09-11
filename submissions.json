@@ -41451,6 +41451,18 @@
     ],
     "timestamp": "Sep/11/2013 00:52"
   },
+  "CF4442885": {
+    "contest_id": 100227,
+    "language": "GNU C++",
+    "path": "codeforces/100227/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Stacking Cubes",
+    "problem_url": "https://codeforces.com/gym/100227/problem/D",
+    "submission_id": "CF4442885",
+    "submission_url": "https://codeforces.com/gym/100227/submission/4442885",
+    "tags": [],
+    "timestamp": "Sep/11/2013 21:22"
+  },
   "CF4443095": {
     "contest_id": 100227,
     "language": "GNU C++",
