@@ -7,7 +7,6 @@
 #define DEBUG(x) cout << #x << " = "; cout << x << endl;
 #define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
 #define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
-#define move ___move
 using namespace std;
 
 //Buffer reading

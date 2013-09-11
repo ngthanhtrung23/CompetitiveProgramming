@@ -41451,6 +41451,18 @@
     ],
     "timestamp": "Sep/11/2013 00:52"
   },
+  "CF4443095": {
+    "contest_id": 100227,
+    "language": "GNU C++",
+    "path": "codeforces/100227/F.cpp",
+    "problem_index": "F",
+    "problem_name": "To Bet or Not To Bet",
+    "problem_url": "https://codeforces.com/gym/100227/problem/F",
+    "submission_id": "CF4443095",
+    "submission_url": "https://codeforces.com/gym/100227/submission/4443095",
+    "tags": [],
+    "timestamp": "Sep/11/2013 21:40"
+  },
   "CF4443337": {
     "contest_id": 100227,
     "language": "GNU C++",
