@@ -41451,6 +41451,18 @@
     ],
     "timestamp": "Sep/11/2013 00:52"
   },
+  "CF4444630": {
+    "contest_id": 100227,
+    "language": "GNU C++",
+    "path": "codeforces/100227/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Rational Approximation",
+    "problem_url": "https://codeforces.com/gym/100227/problem/C",
+    "submission_id": "CF4444630",
+    "submission_url": "https://codeforces.com/gym/100227/submission/4444630",
+    "tags": [],
+    "timestamp": "Sep/12/2013 00:18"
+  },
   "CF4460740": {
     "contest_id": 343,
     "language": "GNU C++",

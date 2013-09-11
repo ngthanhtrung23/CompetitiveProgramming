@@ -1,70 +1,89 @@
-
 #include <bits/stdc++.h>
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
 
-#define DEBUG(X) { cout << #X << " = " << X << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
 
-#define sqr(x) ((x) * (x))
-#define ll long long
-#define SZ(x) ((int) (x).size())
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-struct Frac {
-    ll x, y;
+//Buffer reading
+int INP,AM,REACHEOF;
+const int BUFSIZE = (1<<12) + 17;
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-    Frac() { x = 0; y = 1; }
-    Frac(ll _x, ll _y) {
-        ll g = __gcd(llabs(_x), llabs(_y));
+struct Num {
+    long long x, y;
+
+    Num(long long _x = 0, long long _y = 1) {
+        long long g = __gcd(llabs(_x), llabs(_y));
         x = _x / g;
         y = _y / g;
-
         if (y < 0) {
             x = -x;
             y = -y;
         }
     }
-
-    Frac operator + (const Frac& a) const {
-        return Frac(x*a.y + y*a.x, y*a.y);
-    }
-    Frac operator - (const Frac& a) const {
-        return Frac(x*a.y - y*a.x, y*a.y);
-    }
-    Frac operator * (const Frac& a) const {
-        return Frac(x*a.x, y*a.y);
-    }
-    Frac operator / (const Frac& a) const {
-        return Frac(x*a.y, y*a.x);
-    }
-
-    friend ostream& operator << (ostream& cout, const Frac& f) {
-        if (f.y == 1) cout << f.x;
-        else cout << f.x << '/' << f.y;
-        return cout;
-    }
 };
 
-Frac f[111], p[111], q[111];
-Frac a[111][111];
+Num operator + (Num a, Num b) {
+    return Num(a.x*b.y + a.y*b.x, a.y*b.y);
+}
+Num operator - (Num a, Num b) {
+    return Num(a.x*b.y - a.y*b.x, a.y*b.y);
+}
+Num operator * (Num a, Num b) {
+    return Num(a.x*b.x, a.y*b.y);
+}
+Num operator / (Num a, Num b) {
+    return Num(a.x*b.y, a.y*b.x);
+}
+ostream& operator << (ostream &out, Num a) {
+    if (a.x == 0) out << '0';
+    else if (a.y == 1) out << a.x;
+    else out << a.x << '/' << a.y;
+    return out;
+}
 
-void solve(int n) {
-    REP(j,n) { // khu cot j
-        int u = j;
-        while (a[u][j].x == 0) ++u;
+const int MN = 22;
 
-        REP(k,n+1) swap(a[u][k], a[j][k]);
+Num p[MN], q[MN], f[MN], a[MN][MN];
+int m, n;
+
+void solve() {
+    REP(j,n) { // Khu cot j
+        int save = j;
+        while (a[save][j].x == 0) ++save;
+
+        REP(k,n+1) swap(a[j][k], a[save][k]);
 
         FOR(i,j+1,n-1) if (a[i][j].x) {
-            Frac mult = a[i][j] / a[j][j];
+            Num mult = a[i][j] / a[j][j];
             REP(k,n+1)
                 a[i][k] = a[i][k] - a[j][k] * mult;
         }
     }
-
     FORD(i,n-1,0) {
         FOR(j,i+1,n-1)
             a[i][n] = a[i][n] - a[i][j] * q[j];
@@ -72,52 +91,51 @@ void solve(int n) {
     }
 }
 
-void print(Frac a[], int n) {
-    int cnt = 0;
-    REP(i,n) if (a[i].x) {
-        ++cnt;
-
-        cout << '(' << a[i] << ',' << i << ") ";
+void print(Num p[], int n) {
+    bool good = false;
+    REP(i,n) {
+        if (p[i].x) {
+            good = true;
+            cout << '(' << p[i] << ',' << i << ')' << ' ';
+        }
     }
-    if (cnt == 0) cout << "(0,0)";
+    if (!good) {
+        cout << "(0,0)";
+    }
     cout << endl;
 }
 
 int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
-    int m, n;
-    while (cin >> m >> n && m && n) {
+    while (cin >> m >> n && m) {
+        memset(f, 0, sizeof f);
+        memset(p, 0, sizeof p);
+        memset(q, 0, sizeof q);
+        memset(a, 0, sizeof a);
+
         REP(i,m+n) {
-            cin >> f[i].x;
-            f[i].y = 1;
+            cin >> f[i].x; f[i].y = 1;
         }
         // solve q
-        REP(i,n) REP(j,n+1) a[i][j] = Frac(0, 1);
-
-        FOR(target,m,m+n-1) {
-            int row = target - m;
-            REP(i,m+n) REP(j,n) {
-                if (i + j == target) {
-                    a[row][j] = a[row][j] + f[i];
-                }
+        REP(i,n) {
+            REP(j,n) {
+                if (m+j-i >= 0) a[i][n-j-1] = f[m+j-i];
+                else a[i][n-j-1] = Num(0, 1);
             }
-            if (target == m+n-1) a[row][n] = Frac(1, 1);
-            else a[row][n] = Frac(0, 1);
+            a[i][n] = (i == 0) ? Num(1,1) : Num(0, 1);
         }
-        solve(n);
+        solve();
 
         // solve p
-        REP(i,m) {
-            p[i] = Frac(0, 1);
-            REP(u,m+n) REP(v,n) {
-                if (u + v == i) {
-                    p[i] = p[i] + f[u] * q[v];
-                }
+        FORD(i,m-1,0) {
+            p[i] = q[0]*f[i];
+            for(int j=1; j<n; j++) {
+                if (i-j >= 0)
+                    p[i] = p[i] + q[j]*f[i-j];
             }
         }
-
         print(p, m);
         print(q, n);
-        cout << '\n';
-    }
+        cout << endl;
+    } 
+    return 0;
 }
