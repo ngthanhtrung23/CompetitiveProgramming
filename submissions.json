@@ -41451,6 +41451,18 @@
     ],
     "timestamp": "Sep/11/2013 00:52"
   },
+  "CF4443531": {
+    "contest_id": 100227,
+    "language": "GNU C++",
+    "path": "codeforces/100227/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Picnic Planning",
+    "problem_url": "https://codeforces.com/gym/100227/problem/A",
+    "submission_id": "CF4443531",
+    "submission_url": "https://codeforces.com/gym/100227/submission/4443531",
+    "tags": [],
+    "timestamp": "Sep/11/2013 22:22"
+  },
   "CF4443711": {
     "contest_id": 100227,
     "language": "GNU C++",
