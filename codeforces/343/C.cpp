@@ -1,56 +1,87 @@
-
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int MN = 100111;
+//Buffer reading
+int INP,AM,REACHEOF;
+const int BUFSIZE = (1<<12) + 17;
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-int na, nb;
+const int MN = 100111;
+int n, m;
 long long a[MN], b[MN];
 
 bool check(long long val) {
     int j = 0;
-    FOR(i,1,na) {
-        long long can = val;
-        long long pos = a[i];
+    for(int i = 1; i <= n; ++i) {
+        if (b[j+1] <= a[i]) {
+            long long d = a[i] - b[j+1];
+            if (val < d) return false;
 
-        if (b[j+1] < pos) {
-            if (llabs(pos - b[j+1]) > can) return false;
-            long long start = b[j+1];
+            long long gh = a[i] + max((val - d) >> 1, val - d - d);
 
-            while (j < nb && b[j+1] < pos) ++j;
-            while (j < nb && min(llabs(b[j+1] - pos), llabs(start - pos)) + llabs(start - b[j+1]) <= can) ++j;
+            int l = j+1, r = m, res = j+1;
 
-            if (j == nb) return true;
+            while (l <= r) {
+                int mid = (l + r) >> 1;
+                if (b[mid] <= gh)
+                    res = mid, l = mid + 1;
+                else r = mid - 1;
+            }
+            j = res;
         }
         else {
-            while (j < nb && pos + can >= b[j+1]) ++j;
-            if (j == nb) return true;
+            long long gh = a[i] + val;
+            int l = j, r = m, res = j;
+
+            while (l <= r) {
+                int mid = (l + r) >> 1;
+                if (b[mid] <= gh)
+                    res = mid, l = mid + 1;
+                else r = mid - 1;
+            }
+            j = res;
         }
+        if (j >= m) return true;
     }
-    return j == nb;
+    return j >= m;
 }
 
 int main() {
     ios :: sync_with_stdio(false);
-    while (cin >> na >> nb) {
-        FOR(i,1,na) cin >> a[i];
-        FOR(i,1,nb) cin >> b[i];
+    while (cin >> n >> m) {
+        FOR(i,1,n) cin >> a[i];
+        FOR(i,1,m) cin >> b[i];
 
-        long long l = 0, r = 100011100011LL;
-        long long res = r;
+        long long l = 0, r = 20001110001LL, res = r;
         while (l <= r) {
-            long long mid = (l + r) / 2;
+            long long mid = (l + r) >> 1;
             if (check(mid)) res = mid, r = mid - 1;
             else l = mid + 1;
         }
