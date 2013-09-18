@@ -41572,6 +41572,18 @@
     ],
     "timestamp": "Sep/15/2013 15:53"
   },
+  "CF4493804": {
+    "contest_id": 100228,
+    "language": "GNU C++",
+    "path": "codeforces/100228/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Common Permutation",
+    "problem_url": "https://codeforces.com/gym/100228/problem/J",
+    "submission_id": "CF4493804",
+    "submission_url": "https://codeforces.com/gym/100228/submission/4493804",
+    "tags": [],
+    "timestamp": "Sep/18/2013 20:16"
+  },
   "CF4493913": {
     "contest_id": 100228,
     "language": "GNU C++",
