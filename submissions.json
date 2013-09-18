@@ -41572,6 +41572,18 @@
     ],
     "timestamp": "Sep/15/2013 15:53"
   },
+  "CF4497851": {
+    "contest_id": 100228,
+    "language": "Java 7",
+    "path": "codeforces/100228/L.java",
+    "problem_index": "L",
+    "problem_name": "Young Diagrams",
+    "problem_url": "https://codeforces.com/gym/100228/problem/L",
+    "submission_id": "CF4497851",
+    "submission_url": "https://codeforces.com/gym/100228/submission/4497851",
+    "tags": [],
+    "timestamp": "Sep/19/2013 00:54"
+  },
   "CF4527870": {
     "contest_id": 346,
     "language": "GNU C++",
