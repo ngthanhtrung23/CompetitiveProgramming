@@ -1,119 +1,144 @@
-
 #include <bits/stdc++.h>
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
 
-#define DEBUG(X) { cout << #X << " = " << X << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
 
-#define sqr(x) ((x) * (x))
-#define ll long long
-#define SZ(x) ((int) (x).size())
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int MN = 1000111;
-char a[150][150];
-struct Node {
-    bool black, white;
-    string rep;
-} it[MN];
+//Buffer reading
+int INP,AM,REACHEOF;
+const int BUFSIZE = (1<<12) + 17;
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
+
+char a[155][155];
+set<string> has;
 int m, n;
 
-ll p[MN];
+struct Node {
+    string rep;
+    bool black, white;
+} tree[200111];
 
-int go1(int i, int u, int d, int l, int r) {
-    if (u == d) {
-        if (a[u][l] == '1') {
-            it[i].black = true;
-            it[i].white = false;
-            it[i].rep = "1";
-        }
-        else {
-            it[i].white = true;
-            it[i].black = false;
-            it[i].rep = "0";
-        }
-        return 1;
+void buildTree(int i, int r1, int r2, int c1, int c2) {
+    if (r1 == r2) {
+        tree[i].rep = "";
+        tree[i].rep += a[r1][c1];
+        if (a[r1][c1] == '0') tree[i].white = true, tree[i].black = false;
+        else tree[i].black = true, tree[i].white = false;
+        return ;
     }
-    int m1 = (u + d) >> 1;
-    int m2 = (l + r) >> 1;
 
-    int f1 = go1(i*4 - 2, u, m1, l, m2);
-    int f2 = go1(i*4 - 1, u, m1, m2+1, r);
-    int f3 = go1(i*4 - 0, m1+1, d, l, m2);
-    int f4 = go1(i*4 + 1, m1+1, d, m2+1, r);
+    int rmid = (r1 + r2) >> 1;
+    int cmid = (c1 + c2) >> 1;
 
-    it[i].black = it[i*4 - 2].black
-                && it[i*4 - 1].black
-                && it[i*4 - 0].black
-                && it[i*4 + 1].black;
-    it[i].white = it[i*4 - 2].white
-                && it[i*4 - 1].white
-                && it[i*4 - 0].white
-                && it[i*4 + 1].white;
+    buildTree((i<<2)-2, r1, rmid, c1, cmid);
+    buildTree((i<<2)-1, r1, rmid, cmid+1, c2);
+    buildTree((i<<2)-0, rmid+1, r2, c1, cmid);
+    buildTree((i<<2)+1, rmid+1, r2, cmid+1, c2);
 
-    if (it[i].black || it[i].white) {
-        if (it[i].black) it[i].rep = "1";
-        else it[i].rep = "0";
-        return 1;
-    }
-    else {
-        char bound = 'A' - 1;
-        for(char c : it[i*4 - 2].rep) bound = max(bound, c);
-        for(char c : it[i*4 - 1].rep) bound = max(bound, c);
-        for(char c : it[i*4 - 0].rep) bound = max(bound, c);
-        for(char c : it[i*4 + 1].rep) bound = max(bound, c);
-        ++bound;
+    string a = tree[(i<<2)-2].rep;
+    string b = tree[(i<<2)-1].rep;
+    string c = tree[(i<<2)-0].rep;
+    string d = tree[(i<<2)+1].rep;
 
-        it[i].rep = it[i*4 - 2].rep + bound
-                +   it[i*4 - 1].rep + bound
-                +   it[i*4 - 0].rep + bound
-                +   it[i*4 + 1].rep;
-        return 1 + f1 + f2 + f3 + f4;
-    }
+    char bound = 'A';
+    REP(t,a.length()) if (a[t] >= 'A' && a[t] <= 'Z') bound = a[t] + 1;
+    REP(t,b.length()) if (b[t] >= 'A' && b[t] <= 'Z') bound = b[t] + 1;
+    REP(t,c.length()) if (c[t] >= 'A' && c[t] <= 'Z') bound = c[t] + 1;
+    REP(t,d.length()) if (d[t] >= 'A' && d[t] <= 'Z') bound = d[t] + 1;
+
+    tree[i].rep = "";
+    tree[i].rep += tree[(i<<2)-2].rep; tree[i].rep += bound;
+    tree[i].rep += tree[(i<<2)-1].rep; tree[i].rep += bound;
+    tree[i].rep += tree[(i<<2)-0].rep; tree[i].rep += bound;
+    tree[i].rep += tree[(i<<2)+1].rep;
+
+    tree[i].white = tree[(i<<2)-2].white && tree[(i<<2)-1].white && tree[(i<<2)-0].white && tree[(i<<2)+1].white;
+    tree[i].black = tree[(i<<2)-2].black && tree[(i<<2)-1].black && tree[(i<<2)-0].black && tree[(i<<2)+1].black;
+
+    if (tree[i].white) tree[i].rep = "0";
+    if (tree[i].black) tree[i].rep = "1";
 }
 
-unordered_set<string> all;
-int go2(int i, int u, int d, int l, int r) {
-    if (it[i].black || it[i].white) {
-        return 1;
+int get1(int i, int r1, int r2, int c1, int c2) {
+    int res;
+    if (tree[i].black || tree[i].white) {
+        res = 1;
     }
-    if (all.count(it[i].rep)) {
-        return 0;
+    else {
+        int rmid = (r1 + r2) >> 1;
+        int cmid = (c1 + c2) >> 1;
+
+        res = get1((i<<2)-2, r1, rmid, c1, cmid)
+            + get1((i<<2)-1, r1, rmid, cmid+1, c2)
+            + get1((i<<2)-0, rmid+1, r2, c1, cmid)
+            + get1((i<<2)+1, rmid+1, r2, cmid+1, c2)
+            + 1;
     }
-    all.insert(it[i].rep);
+    return res;
+}
 
-    int m1 = (u + d) >> 1;
-    int m2 = (l + r) >> 1;
+int get2(int i, int r1, int r2, int c1, int c2) {
+    int res;
 
-    int f1 = go2(i*4 - 2, u, m1, l, m2);
-    int f2 = go2(i*4 - 1, u, m1, m2+1, r);
-    int f3 = go2(i*4 - 0, m1+1, d, l, m2);
-    int f4 = go2(i*4 + 1, m1+1, d, m2+1, r);
+    if (tree[i].black || tree[i].white) res = 1;
+    else if (has.find(tree[i].rep) != has.end()) res = 0;
+    else {
+        int rmid = (r1 + r2) >> 1;
+        int cmid = (c1 + c2) >> 1;
 
-    return 1 + f1 + f2 + f3 + f4;
+        res = get2((i<<2)-2, r1, rmid, c1, cmid)
+            + get2((i<<2)-1, r1, rmid, cmid+1, c2)
+            + get2((i<<2)-0, rmid+1, r2, c1, cmid)
+            + get2((i<<2)+1, rmid+1, r2, cmid+1, c2)
+            + 1;
+        has.insert(tree[i].rep);
+    }
+    return res;
 }
 
 int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
-    p[0] = 1; FOR(i,1,MN-1) p[i] = p[i-1] * 7LL;
-
-    while (scanf("%d%d", &m, &n) == 2 && m && n) {
+    while (scanf("%d%d\n", &m, &n) == 2 && (m || n)) {
         memset(a, '0', sizeof a);
         FOR(i,1,m) {
             scanf("%s\n", &a[i][1]);
             a[i][n+1] = '0';
         }
-        while (__builtin_popcount(m) > 1) ++m;
-        while (__builtin_popcount(n) > 1) ++n;
+        has.clear();
+
+        while (__builtin_popcount(m) != 1) ++m;
+        while (__builtin_popcount(n) != 1) ++n;
 
         m = n = max(m, n);
 
-        all.clear();
-        int res1 = go1(1, 1, m, 1, n);
-        int res2 = go2(1, 1, m, 1, n);
-        cout << res1 << ' ' << res2 << endl;
+        buildTree(1, 1, m, 1, n);
+        int ans1 = get1(1, 1, m, 1, n);
+        int ans2 = get2(1, 1, m, 1, n);
+
+        printf("%d %d\n", ans1, ans2);
     }
+    return 0;
 }
