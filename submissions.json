@@ -41572,6 +41572,18 @@
     ],
     "timestamp": "Sep/15/2013 15:53"
   },
+  "CF4493913": {
+    "contest_id": 100228,
+    "language": "GNU C++",
+    "path": "codeforces/100228/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Crypto Columns",
+    "problem_url": "https://codeforces.com/gym/100228/problem/A",
+    "submission_id": "CF4493913",
+    "submission_url": "https://codeforces.com/gym/100228/submission/4493913",
+    "tags": [],
+    "timestamp": "Sep/18/2013 20:24"
+  },
   "CF4494424": {
     "contest_id": 100228,
     "language": "GNU C++",
