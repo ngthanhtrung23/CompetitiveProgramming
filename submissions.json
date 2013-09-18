@@ -41572,6 +41572,18 @@
     ],
     "timestamp": "Sep/15/2013 15:53"
   },
+  "CF4496247": {
+    "contest_id": 100228,
+    "language": "GNU C++",
+    "path": "codeforces/100228/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Graph of Inversions",
+    "problem_url": "https://codeforces.com/gym/100228/problem/I",
+    "submission_id": "CF4496247",
+    "submission_url": "https://codeforces.com/gym/100228/submission/4496247",
+    "tags": [],
+    "timestamp": "Sep/18/2013 22:44"
+  },
   "CF4496635": {
     "contest_id": 100228,
     "language": "GNU C++",

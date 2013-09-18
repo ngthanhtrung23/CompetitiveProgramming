@@ -1,67 +1,91 @@
-
 #include <bits/stdc++.h>
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
 
-#define DEBUG(X) { cout << #X << " = " << X << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
 
-#define sqr(x) ((x) * (x))
-#define ll long long
-#define SZ(x) ((int) (x).size())
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-const int MN = 111;
-int a[MN];
-ll f[MN];
-bool used[MN];
-int deg[MN];
+//Buffer reading
+int INP,AM,REACHEOF;
+const int BUFSIZE = (1<<12) + 17;
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
+
+int n, m, a[111];
+bool c[111][111], used[111];
+long long f[111];
+
+bool check(int i) {
+    REP(j,i) if (!c[i][j] && !used[j]) return false;
+    FOR(j,i+1,n-1) if (c[i][j] && !used[j]) return false;
+    return true;
+}
 
 int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
-    int n, m;
+    // freopen("input.txt", "r", stdin);
+    ios :: sync_with_stdio(false);
     while (cin >> n >> m) {
-        memset(used, 0, sizeof used);
-        memset(deg, 0, sizeof deg);
+        memset(c, false, sizeof c);
+        memset(used, false, sizeof used);
 
         while (m--) {
             int u, v; cin >> u >> v;
-            ++deg[u];
+            c[u][v] = c[v][u] = true;
         }
 
-        REP(i,n) {
-            int cnt_lower = deg[i];
+        REP(num,n) { // Where to put num?
+            int id = 0;
+            while (used[id] || !check(id)) ++id;
 
-            a[i] = -1;
-            REP(turn,cnt_lower+1) {
-                ++a[i];
-                while (used[a[i]]) ++a[i];
-            }
-            used[a[i]] = 1;
+            a[id] = num;
+            used[id] = true;
         }
-//        PR0(a, n);
 
-        ll res = 0;
+        // PR0(a, n);
+
+        long long res = 0;
         REP(i,n) {
-            bool ok = 1;
-            REP(j,i) if (a[j] < a[i]) ok = 0;
-            f[i] = ok;
+            f[i] = 0;
+            bool ok = true;
+            REP(j,i) if (a[j] < a[i]) ok = false;
+            if (ok) f[i] = 1;
 
-            int x = -1;
+            int ln = -1;
             FORD(j,i-1,0) if (a[j] < a[i]) {
-                if (a[j] < x) continue;
-                x = max(x, a[j]);
+                if (a[j] < ln) continue;
+                ln = max(ln, a[j]);
 
                 f[i] += f[j];
             }
 
-            ok = 1;
-            FOR(j,i+1,n-1) if (a[j] > a[i]) ok = 0;
-            res += f[i] * ok;
+            ok = true;
+            FOR(j,i+1,n-1) if (a[j] > a[i]) ok = false;
+            if (ok) res += f[i];
         }
-//        PR0(f, n);
+        // PR0(f, n);
         cout << res << endl;
     }
+    return 0;
 }
