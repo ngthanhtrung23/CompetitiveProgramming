@@ -41572,6 +41572,18 @@
     ],
     "timestamp": "Sep/15/2013 15:53"
   },
+  "CF4496152": {
+    "contest_id": 100228,
+    "language": "GNU C++",
+    "path": "codeforces/100228/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Chessboard in FEN",
+    "problem_url": "https://codeforces.com/gym/100228/problem/K",
+    "submission_id": "CF4496152",
+    "submission_url": "https://codeforces.com/gym/100228/submission/4496152",
+    "tags": [],
+    "timestamp": "Sep/18/2013 22:37"
+  },
   "CF4496247": {
     "contest_id": 100228,
     "language": "GNU C++",
