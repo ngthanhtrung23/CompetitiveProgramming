@@ -10270,6 +10270,22 @@
     ],
     "timestamp": "Oct/05/2018 14:31"
   },
+  "CF4528381": {
+    "contest_id": 346,
+    "language": "GNU C++",
+    "path": "codeforces/346/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Number Transformation II",
+    "problem_url": "https://codeforces.com/contest/346/problem/C",
+    "submission_id": "CF4528381",
+    "submission_url": "https://codeforces.com/contest/346/submission/4528381",
+    "tags": [
+      "greedy",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Sep/21/2013 16:13"
+  },
   "CF45286432": {
     "contest_id": 869,
     "language": "PyPy 2",
