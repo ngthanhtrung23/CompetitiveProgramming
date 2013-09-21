@@ -1,115 +1,104 @@
-
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#define DEBUG(x) cout << #x << " = "; cout << x << endl;
+#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
+#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-string a, b, s;
-#define next __next
-int nexts[111][311];
-int f[111][111][111];
-int tr1[111][111][111], tr2[111][111][111], tr3[111][111][111];
-char trc[111][111][111];
+//Buffer reading
+int INP,AM,REACHEOF;
+const int BUFSIZE = (1<<12) + 17;
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-int nexta[111][311];
-int nextb[111][311];
+int nextVirus[111][333], next1[111][333], next2[111][333];
+int f[111][111][111], res, tr1[111][111][111], tr2[111][111][111], tr3[111][111][111];
+string s1, s2, virus;
 
-void trace(int l, int i, int j, int k) {
+void trace(int l, int i1, int i2, int i3) {
     if (l == 0) return ;
-
-    trace(l-1, tr1[i][j][k], tr2[i][j][k], tr3[i][j][k]);
-    cout << trc[i][j][k];
+    trace(l-1, tr1[i1][i2][i3], tr2[i1][i2][i3], tr3[i1][i2][i3]);
+    putchar(s1[i1-1]);
 }
 
 int main() {
-    ios :: sync_with_stdio(false);
-    cout << (fixed) << setprecision(9);
-    while (cin >> a >> b >> s) {
-        int la = a.length(), lb = b.length(), ls = s.length();
-        // nexts
-        REP(i,ls) {
-            FOR(c,'A','Z') {
-                string cur = s.substr(0, i);
-                cur += c;
+    while (cin >> s1 >> s2 >> virus) {
+        memset(f, -1, sizeof f);
 
+        FOR(i,0,virus.length()-1) {
+            FOR(c,'A','Z') {
+                string cur = virus.substr(0, i);
+                cur += c;
                 FORD(j,i+1,0) {
-                    string need = s.substr(0, j);
-                    if (cur.substr(cur.length() - need.length(), need.length()) == need) {
-                        nexts[i][c] = j;
+                    string need = virus.substr(0, j);
+                    if (cur.substr(cur.length()-need.length(), need.length()) == need) {
+                        nextVirus[i][c] = j;
                         break;
                     }
                 }
             }
+            // FOR(c,'A','Z') cout << nextVirus[i][c] << ' '; cout << endl;
+        }
+        FOR(i,0,s1.length()) FOR(c,'A','Z') {
+            int j = i;
+            while (j < s1.length() && s1[j] != c) ++j;
+            next1[i][c] = j;
+        }
+        FOR(i,0,s2.length()) FOR(c,'A','Z') {
+            int j = i;
+            while (j < s2.length() && s2[j] != c) ++j;
+            next2[i][c] = j;
         }
 
-        map<char,int> last;
-        // nexta
-        FORD(i,la-1,0) {
-            last[a[i]] = i;
-            FOR(c,'A','Z') {
-                if (last.count(c)) {
-                    nexta[i][c] = last[c];
-                }
-                else nexta[i][c] = la;
-            }
-        }
-
-        // nextb
-        last.clear();
-        FORD(i,lb-1,0) {
-            last[b[i]] = i;
-            FOR(c,'A','Z') {
-                if (last.count(c)) {
-                    nextb[i][c] = last[c];
-                }
-                else nextb[i][c] = lb;
-            }
-        }
-
-        int res = 0;
-        int save1 = 0, save2 = 0, save3 = 0;
-        memset(f, -1, sizeof f);
         f[0][0][0] = 0;
-
-        REP(i,la) REP(j,lb) REP(k,ls) if (f[i][j][k] >= 0)
+        res = 0;
+        int save1, save2, save3;
+        FOR(i1,0,s1.length()-1) FOR(i2,0,s2.length()-1) FOR(iv,0,virus.length()-1) {
             FOR(c,'A','Z') {
-                int i2 = nexta[i][c], j2 = nextb[j][c], k2 = nexts[k][c];
-                
-
-                if (i2 >= la || j2 >= lb || k2 >= ls) {
+                int j1 = next1[i1][c], j2 = next2[i2][c], jv = nextVirus[iv][c];
+                if (j1 >= s1.length() || j2 >= s2.length() || jv >= virus.length())
                     continue;
-                }
 
-                ++i2; ++j2;
-
-                if (f[i][j][k] + 1 > f[i2][j2][k2]) {
-                    f[i2][j2][k2] = f[i][j][k] + 1;
-                    tr1[i2][j2][k2] = i;
-                    tr2[i2][j2][k2] = j;
-                    tr3[i2][j2][k2] = k;
-                    trc[i2][j2][k2] = c;
-
-                    if (f[i2][j2][k2] > res) {
-                        res = f[i2][j2][k2];
-                        save1 = i2;
-                        save2 = j2;
-                        save3 = k2;
+                if (f[i1][i2][iv] + 1 > f[j1+1][j2+1][jv]) {
+                    f[j1+1][j2+1][jv] = f[i1][i2][iv] + 1;
+                    tr1[j1+1][j2+1][jv] = i1;
+                    tr2[j1+1][j2+1][jv] = i2;
+                    tr3[j1+1][j2+1][jv] = iv;
+                    if (f[j1+1][j2+1][jv] > res) {
+                        res = f[j1+1][j2+1][jv];
+                        save1 = j1+1;
+                        save2 = j2+1;
+                        save3 = jv;
                     }
                 }
             }
-        if (res == 0) cout << 0 << endl;
+        }
+        if (res == 0) puts("0");
         else {
             trace(res, save1, save2, save3);
-            cout << endl;
+            puts("");
         }
     }
     return 0;
