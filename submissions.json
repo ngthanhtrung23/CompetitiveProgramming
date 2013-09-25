@@ -41665,6 +41665,18 @@
     "tags": [],
     "timestamp": "Nov/06/2018 00:56"
   },
+  "CF4557071": {
+    "contest_id": 100231,
+    "language": "GNU C++",
+    "path": "codeforces/100231/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Solitaire",
+    "problem_url": "https://codeforces.com/gym/100231/problem/F",
+    "submission_id": "CF4557071",
+    "submission_url": "https://codeforces.com/gym/100231/submission/4557071",
+    "tags": [],
+    "timestamp": "Sep/25/2013 22:34"
+  },
   "CF4562061": {
     "contest_id": 100231,
     "language": "GNU C++",
