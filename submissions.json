@@ -41665,6 +41665,18 @@
     "tags": [],
     "timestamp": "Nov/06/2018 00:56"
   },
+  "CF4562061": {
+    "contest_id": 100231,
+    "language": "GNU C++",
+    "path": "codeforces/100231/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Timetable",
+    "problem_url": "https://codeforces.com/gym/100231/problem/G",
+    "submission_id": "CF4562061",
+    "submission_url": "https://codeforces.com/gym/100231/submission/4562061",
+    "tags": [],
+    "timestamp": "Sep/26/2013 00:30"
+  },
   "CF4583965": {
     "contest_id": 348,
     "language": "GNU C++",
