@@ -41665,6 +41665,18 @@
     "tags": [],
     "timestamp": "Nov/06/2018 00:56"
   },
+  "CF4555541": {
+    "contest_id": 100231,
+    "language": "GNU C++",
+    "path": "codeforces/100231/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Mine Sweeper",
+    "problem_url": "https://codeforces.com/gym/100231/problem/J",
+    "submission_id": "CF4555541",
+    "submission_url": "https://codeforces.com/gym/100231/submission/4555541",
+    "tags": [],
+    "timestamp": "Sep/25/2013 20:56"
+  },
   "CF4555735": {
     "contest_id": 100231,
     "language": "GNU C++",
