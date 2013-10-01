@@ -80,6 +80,7 @@ int main() {
         memset(ke, 0, sizeof ke);
 
         solve2();
+        continue;
 
         // Check
         FOR(i,1,n) FOR(j,1,n)
