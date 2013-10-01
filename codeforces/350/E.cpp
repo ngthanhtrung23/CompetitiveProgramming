@@ -1,128 +1,111 @@
-#include <set>
-#include <map>
-#include <list>
-#include <cmath>
-#include <queue>
-#include <stack>
-#include <cstdio>
-#include <string>
-#include <vector>
-#include <cstdlib>
-#include <cstring>
-#include <sstream>
-#include <iomanip>
-#include <iostream>
-#include <algorithm>
-#include <fstream>
-#include <ctime>
-#include <deque>
-#include <bitset>
-#include <cctype>
-#include <utility>
-#include <cassert>
+#include <bits/stdc++.h>
 
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+
+#define DEBUG(x) { cout << #x << " = "; cout << x << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
 using namespace std;
 
-typedef long long ll;
-typedef long double ld;
-typedef unsigned int ui;
-typedef unsigned long long ull;
+//Buffer reading
+int INP,AM,REACHEOF;
+const int BUFSIZE = (1<<12) + 17;
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
+}
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
+}
+//End of buffer reading
 
-#define Rep(i,n) for(int i = 0; i < (n); ++i)
-#define Repd(i,n) for(int i = (n)-1; i >= 0; --i)
-#define For(i,a,b) for(int i = (a); i <= (b); ++i)
-#define Ford(i,a,b) for(int i = (a); i >= (b); --i)
-#define Fit(i,v) For(__typeof((v).begin()) i = (v).begin(); i != (v).end(); ++i)
-#define Fitd(i,v) For(__typeof((v).rbegin()) i = (v).rbegin(); i != (v).rend(); ++i)
-#define mp make_pair
-#define pb push_back
-#define fi first
-#define se second
-#define sz(a) ((int)(a).size())
-#define all(a) (a).begin(), (a).end()
-#define ms(a,x) memset(a, x, sizeof(a))
+const int MN = 333;
+int n, m, k, good[MN], c[MN][MN], d[MN][MN], ke[MN][MN], x[MN], bad;
 
-template<class F, class T> T convert(F a, int p = -1) { stringstream ss; if (p >= 0) ss << fixed << setprecision(p); ss << a; T r; ss >> r; return r; }
-template<class T> T gcd(T a, T b) { T r; while (b != 0) { r = a % b; a = b; b = r; } return a; }
-template<class T> T lcm(T a, T b) { return a / gcd(a, b) * b; }
-template<class T> T sqr(T x) { return x * x; }
-template<class T> T cube(T x) { return x * x * x; }
-template<class T> int getbit(T s, int i) { return (s >> i) & 1; }
-template<class T> T onbit(T s, int i) { return s | (T(1) << i); }
-template<class T> T offbit(T s, int i) { return s & (~(T(1) << i)); }
-template<class T> int cntbit(T s) { return s == 0 ? 0 : cntbit(s >> 1) + (s & 1); }
-const int bfsz = 1 << 16; char bf[bfsz + 5]; int rsz = 0;int ptr = 0;
-char gc() { if (rsz <= 0) { ptr = 0; rsz = (int) fread(bf, 1, bfsz, stdin); if (rsz <= 0) return EOF; } --rsz; return bf[ptr++]; }
-void ga(char &c) { c = EOF; while (!isalpha(c)) c = gc(); }
-int gs(char s[]) { int l = 0; char c = gc(); while (isspace(c)) c = gc(); while (c != EOF && !isspace(c)) { s[l++] = c; c = gc(); } s[l] = '\0'; return l; }
-template<class T> bool gi(T &v) {
-    v = 0; char c = gc(); while (c != EOF && c != '-' && !isdigit(c)) c = gc(); if (c == EOF) return false; bool neg = c == '-'; if (neg) c = gc();
-    while (isdigit(c)) { v = v * 10 + c - '0'; c = gc(); } if (neg) v = -v; return true;
+#define add(u,v) { ke[u][v] = ke[v][u] = 1; ++has; cout << u << ' ' << v << endl; if (has == m) return ; }
+
+void solve2() {
+    int left = x[1];
+    int has = 0;
+
+    FOR(i,1,n)
+    if (i != bad)
+        add(i, bad);
+
+    FOR(i,1,n) FOR(j,i+1,n)
+    if (i != left && i != bad)
+        if (j != left && j != bad)
+            add(i, j);
+
+    FOR(i,1,n)
+    if (!good[i] && i != bad)
+        add(left, i);
+    // if (has != m) cout << ":-O\n";
 }
 
-typedef pair<int, int> II;
+int main() {
+    ios :: sync_with_stdio(false);
+    while (cin >> n >> m >> k) {
+        memset(good, false, sizeof good);
+        FOR(i,1,k) cin >> x[i], good[x[i]] = true;
+        if (k == n) {
+            cout << -1 << endl;
+            continue;
+        }
+        int gh;
+        gh = (n-2) * (n-3) / 2 + n - 2 + n - k;
 
-const ld PI = acos(-1.0);
-const ld eps = 1e-9;
+        if (m > gh || m < 2) {
+            cout << -1 << endl;
+            continue;
+        }
 
-const int inf = (int)1e9 + 5;
-const ll linf = (ll)1e17 + 5;
-int dr[4] = {-1, 0, +1, 0};
-int dc[4] = {0, -1, 0, +1};
-const ll mod = 1000000007;
+        bad = 1;
+        while (good[bad]) ++bad;
 
-#define maxn 305
+        memset(ke, 0, sizeof ke);
 
-bool a[maxn];
+        solve2();
 
-int n, m, k;
+        // Check
+        FOR(i,1,n) FOR(j,1,n)
+        if (i == j) c[i][j] = 0;
+        else if (ke[i][j]) c[i][j] = c[j][i] = 1;
+        else c[i][j] = 1000111000;
 
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-//    freopen("in.txt", "r", stdin);
-    cin >> n >> m >> k;
-    int u;
-    ms(a, 0);
-    Rep(run, k){
-        cin >> u;
-        a[u] = 1;
-    }
+        FOR(i,1,n) FOR(j,1,n) d[i][j] = c[i][j];
 
-    if(k == n || m > (n) * (n - 1) / 2 - k + 1){
-        cout << -1;
-        return 0;
-    }
+        FOR(t,1,k) {
+            int v = x[t];
+            FOR(i,1,n) FOR(j,1,n)
+                c[i][j] = min(c[i][j], c[i][v] + c[v][j]);
+        }
 
-    For(run, 1, n) if(!a[run]){
-        int t1, t2;
-        For(i, 1, n) if(i != run && a[i]){
-            For(j, 1, n) if(j != run && j != i && a[j]){
-                t1 = i;
-                t2 = j;
-                break;
+        FOR(t,1,n) {
+            FOR(i,1,n) FOR(j,1,n)
+                d[i][j] = min(d[i][j], d[i][t] + d[t][j]);
+        }
+
+        bool ok = false;
+        FOR(i,1,n) FOR(j,1,n)
+            if (c[i][j] != d[i][j]) {
+                ok = true;
             }
-            break;
-        }
-
-        cout << t1 << " " << run << endl;
-        cout << t2 << " " << run << endl;
-        m -= 2;
-        For(i, 1, n) For(j, i + 1, n){
-            if(m == 0) break;
-            if(i == t1 && j == t2) continue;
-            if(i == t2 && j == t1) continue;
-            if(i == t1 && j == run) continue;
-            if(i == run && j == t1) continue;
-            if(i == t2 && j == run) continue;
-            if(i == run && j == t2) continue;
-            if(i == t2 && a[j]) continue;
-            if(j == t2 && a[i]) continue;
-            cout << i << " " << j << endl;
-            m--;
-        }
-        break;
+        if (!ok) cout << ":(\n";
     }
-
     return 0;
 }
