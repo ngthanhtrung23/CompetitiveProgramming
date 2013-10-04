@@ -10302,6 +10302,21 @@
     ],
     "timestamp": "Nov/05/2018 10:28"
   },
+  "CF4668779": {
+    "contest_id": 351,
+    "language": "GNU C++",
+    "path": "codeforces/351/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Jeff and Permutation",
+    "problem_url": "https://codeforces.com/contest/351/problem/E",
+    "submission_id": "CF4668779",
+    "submission_url": "https://codeforces.com/contest/351/submission/4668779",
+    "tags": [
+      "greedy",
+      "*2200"
+    ],
+    "timestamp": "Oct/05/2013 00:55"
+  },
   "CF4672523": {
     "contest_id": 351,
     "language": "GNU C++",
