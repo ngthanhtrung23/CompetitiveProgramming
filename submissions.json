@@ -41937,6 +41937,18 @@
     ],
     "timestamp": "Oct/05/2013 01:49"
   },
+  "CF4742342": {
+    "contest_id": 100240,
+    "language": "GNU C++",
+    "path": "codeforces/100240/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Nested Dolls",
+    "problem_url": "https://codeforces.com/gym/100240/problem/G",
+    "submission_id": "CF4742342",
+    "submission_url": "https://codeforces.com/gym/100240/submission/4742342",
+    "tags": [],
+    "timestamp": "Oct/11/2013 15:03"
+  },
   "CF4742348": {
     "contest_id": 100240,
     "language": "GNU C++",
