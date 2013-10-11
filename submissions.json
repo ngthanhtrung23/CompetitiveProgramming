@@ -41937,6 +41937,18 @@
     ],
     "timestamp": "Oct/05/2013 01:49"
   },
+  "CF4743862": {
+    "contest_id": 100240,
+    "language": "GNU C++",
+    "path": "codeforces/100240/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Min Perimeter",
+    "problem_url": "https://codeforces.com/gym/100240/problem/K",
+    "submission_id": "CF4743862",
+    "submission_url": "https://codeforces.com/gym/100240/submission/4743862",
+    "tags": [],
+    "timestamp": "Oct/11/2013 18:37"
+  },
   "CF4767772": {
     "contest_id": 354,
     "language": "GNU C++",
