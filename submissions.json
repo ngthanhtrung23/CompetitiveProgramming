@@ -41937,6 +41937,18 @@
     ],
     "timestamp": "Oct/05/2013 01:49"
   },
+  "CF4742185": {
+    "contest_id": 100240,
+    "language": "GNU C++",
+    "path": "codeforces/100240/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Phone List",
+    "problem_url": "https://codeforces.com/gym/100240/problem/A",
+    "submission_id": "CF4742185",
+    "submission_url": "https://codeforces.com/gym/100240/submission/4742185",
+    "tags": [],
+    "timestamp": "Oct/11/2013 14:23"
+  },
   "CF4742216": {
     "contest_id": 100240,
     "language": "GNU C++",
