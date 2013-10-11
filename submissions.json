@@ -41937,6 +41937,18 @@
     ],
     "timestamp": "Oct/05/2013 01:49"
   },
+  "CF4742604": {
+    "contest_id": 100240,
+    "language": "GNU C++",
+    "path": "codeforces/100240/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Moogle",
+    "problem_url": "https://codeforces.com/gym/100240/problem/I",
+    "submission_id": "CF4742604",
+    "submission_url": "https://codeforces.com/gym/100240/submission/4742604",
+    "tags": [],
+    "timestamp": "Oct/11/2013 15:44"
+  },
   "CF4743758": {
     "contest_id": 100240,
     "language": "GNU C++",
