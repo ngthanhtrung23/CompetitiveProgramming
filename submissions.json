@@ -41937,6 +41937,18 @@
     ],
     "timestamp": "Oct/05/2013 01:49"
   },
+  "CF4742216": {
+    "contest_id": 100240,
+    "language": "GNU C++",
+    "path": "codeforces/100240/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Optimal Parking",
+    "problem_url": "https://codeforces.com/gym/100240/problem/C",
+    "submission_id": "CF4742216",
+    "submission_url": "https://codeforces.com/gym/100240/submission/4742216",
+    "tags": [],
+    "timestamp": "Oct/11/2013 14:27"
+  },
   "CF4742255": {
     "contest_id": 100240,
     "language": "GNU C++",
