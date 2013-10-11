@@ -41937,6 +41937,18 @@
     ],
     "timestamp": "Oct/05/2013 01:49"
   },
+  "CF4743758": {
+    "contest_id": 100240,
+    "language": "GNU C++",
+    "path": "codeforces/100240/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Copying DNA",
+    "problem_url": "https://codeforces.com/gym/100240/problem/D",
+    "submission_id": "CF4743758",
+    "submission_url": "https://codeforces.com/gym/100240/submission/4743758",
+    "tags": [],
+    "timestamp": "Oct/11/2013 18:18"
+  },
   "CF4743862": {
     "contest_id": 100240,
     "language": "GNU C++",
