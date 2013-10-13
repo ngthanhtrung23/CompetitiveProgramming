@@ -10302,6 +10302,23 @@
     ],
     "timestamp": "Nov/05/2018 10:28"
   },
+  "CF4779221": {
+    "contest_id": 354,
+    "language": "GNU C++",
+    "path": "codeforces/354/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Vasya and Beautiful Arrays",
+    "problem_url": "https://codeforces.com/contest/354/problem/C",
+    "submission_id": "CF4779221",
+    "submission_url": "https://codeforces.com/contest/354/submission/4779221",
+    "tags": [
+      "brute force",
+      "dp",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Oct/14/2013 03:54"
+  },
   "CF52161058": {
     "contest_id": 1145,
     "language": "GNU C++17",
