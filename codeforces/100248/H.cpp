@@ -1,68 +1,70 @@
-
-#include <bits/stdc++.h>
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
-
-#define DEBUG(X) { cout << #X << " = " << X << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
-#define ll long long
-#define SZ(x) ((int) (x).size())
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <iostream>
+#include <cstdio>
+#include <complex>
 using namespace std;
+#define For(i,a,b) for(int i=a;i<=b;i++)
+#define Ford(i,a,b) for(int i=a;i>=b;i--)
+#define fi first
+#define se second
+#define sr(x) (int)x.size()
+#define BUG(x) {cout << #x << " = " << x << endl;}
+#define PR(x,a,b) {cout << #x << " = "; For(_,a,b) cout << x[_] << ' '; cout << endl;}
+#define Bit(s,i) ((s&(1<<i))>0)
+#define Two(x) (1<<x)
+#define x1 x1_
+#define x2 x2_
+#define y1 y1_
+#define y2 y2_
+const int modul = 1000000007;
+const int nmax = 1000;
+const double e = 1e-8;
+const double pi = acos(-1);
+typedef long long ll;
+typedef pair<int,int> pii;
 
-struct Rect {
-    int x1, y1, x2, y2;
-
-    void read() {
-        cin >> x1 >> y1 >> x2 >> y2;
-        if (x1 > x2) swap(x1, x2);
-        if (y1 > y2) swap(y1, y2);
-    }
-} a[111];
-
-bool intersect(const Rect& a, const Rect& b) {
-    if (a.x2 <= b.x1 || b.x2 <= a.x1) return false;
-    if (a.y2 <= b.y1 || b.y2 <= a.y1) return false;
-    return true;
-}
-
-int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
-    int ntest; cin >> ntest;
-    while (ntest--) {
-        int X, Y; cin >> X >> Y;
-        int n; cin >> n;
-        FOR(i,1,n) a[i].read();
-
-        bool ok = true;
-        FOR(i,1,n) FOR(j,i+1,n) if (intersect(a[i], a[j])) {
-            ok = false;
+int n,x1[nmax],x2[nmax],y1[nmax],y2[nmax],stest,w,h;
+int main()
+{
+   // freopen("input.txt","r",stdin);
+    ios::sync_with_stdio(false);
+    for (cin >> stest;stest;stest--) {
+        cin >> w >> h;
+        cin >> n;
+        For(i,1,n) cin >> x1[i] >> y1[i] >> x2[i] >> y2[i]; 
+        bool check=false;
+        For(i,1,n) For(j,i+1,n) if ( max(x1[i],x1[j]) < min(x2[i],x2[j]) && max(y1[i],y1[j]) < min(y2[i],y2[j]) ) {
+            check=true;
             break;
         }
-        if (!ok) {
-            puts("NONDISJOINT");
+        if (check) {
+            cout << "NONDISJOINT" << endl;
             continue;
         }
-        FOR(i,1,n) {
-            if (a[i].x1 < 0 || a[i].x2 > X
-                    || a[i].y1 < 0 || a[i].y2 > Y) {
-                ok = false;
-                break;
-            }
-        }
-        if (!ok) {
-            puts("NONCONTAINED");
+        For(i,1,n) if  (x1[i]<0 || x1[i]>w || x2[i]<0 || x2[i]> w || y1[i] < 0 || y1[i] > h|| y2[i]< 0 || y2[i]>h) {
+            check=true;
+            break;
+        }  
+        if (check) {
+            cout << "NONCONTAINED" << endl;
             continue;
         }
-        ll area = X * Y;
-        FOR(i,1,n) area -= (a[i].x2 - a[i].x1) * (a[i].y2 - a[i].y1);
-        if (area) {
-            puts("NONCOVERING");
-            continue;
-        }
-        puts("OK");
+        int res=0;
+        For(i,1,n) res+=(x2[i]-x1[i])*(y2[i]-y1[i]);
+        if (res!=w*h) cout << "NONCOVERING" << endl;
+        else cout << "OK" << endl;
     }
+    return 0;
 }
+
+
+
+
+
+
+
+
+
+
