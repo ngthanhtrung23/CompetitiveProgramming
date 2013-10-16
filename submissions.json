@@ -42021,6 +42021,18 @@
     ],
     "timestamp": "Jun/07/2011 23:38"
   },
+  "CF4806874": {
+    "contest_id": 100248,
+    "language": "GNU C++",
+    "path": "codeforces/100248/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Floors",
+    "problem_url": "https://codeforces.com/gym/100248/problem/D",
+    "submission_id": "CF4806874",
+    "submission_url": "https://codeforces.com/gym/100248/submission/4806874",
+    "tags": [],
+    "timestamp": "Oct/16/2013 21:55"
+  },
   "CF480692": {
     "contest_id": 87,
     "language": "GNU C++",
