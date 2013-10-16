@@ -42021,6 +42021,18 @@
     ],
     "timestamp": "Jun/07/2011 23:38"
   },
+  "CF4805922": {
+    "contest_id": 100248,
+    "language": "GNU C++",
+    "path": "codeforces/100248/I.cpp",
+    "problem_index": "I",
+    "problem_name": "DNA",
+    "problem_url": "https://codeforces.com/gym/100248/problem/I",
+    "submission_id": "CF4805922",
+    "submission_url": "https://codeforces.com/gym/100248/submission/4805922",
+    "tags": [],
+    "timestamp": "Oct/16/2013 20:52"
+  },
   "CF4806166": {
     "contest_id": 100248,
     "language": "GNU C++",
