@@ -42042,6 +42042,18 @@
     ],
     "timestamp": "Jun/08/2011 00:44"
   },
+  "CF4854958": {
+    "contest_id": 100254,
+    "language": "GNU C++",
+    "path": "codeforces/100254/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Blackjack",
+    "problem_url": "https://codeforces.com/gym/100254/problem/F",
+    "submission_id": "CF4854958",
+    "submission_url": "https://codeforces.com/gym/100254/submission/4854958",
+    "tags": [],
+    "timestamp": "Oct/24/2013 00:59"
+  },
   "CF490828": {
     "contest_id": 89,
     "language": "GNU C++",

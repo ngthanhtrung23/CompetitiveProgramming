@@ -32,6 +32,7 @@ int getLow(int l, int r)
 
 int main()
 {
+    //freopen("f.in", "r", stdin);
     int test;
     cin >> test;
     while (test--)
