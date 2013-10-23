@@ -42042,6 +42042,18 @@
     ],
     "timestamp": "Jun/08/2011 00:44"
   },
+  "CF4852821": {
+    "contest_id": 100254,
+    "language": "GNU C++",
+    "path": "codeforces/100254/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Cinema",
+    "problem_url": "https://codeforces.com/gym/100254/problem/J",
+    "submission_id": "CF4852821",
+    "submission_url": "https://codeforces.com/gym/100254/submission/4852821",
+    "tags": [],
+    "timestamp": "Oct/23/2013 21:37"
+  },
   "CF4852929": {
     "contest_id": 100254,
     "language": "GNU C++",
