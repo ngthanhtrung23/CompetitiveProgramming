@@ -42042,6 +42042,18 @@
     ],
     "timestamp": "Jun/08/2011 00:44"
   },
+  "CF4853406": {
+    "contest_id": 100254,
+    "language": "GNU C++",
+    "path": "codeforces/100254/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Rolling Cube",
+    "problem_url": "https://codeforces.com/gym/100254/problem/L",
+    "submission_id": "CF4853406",
+    "submission_url": "https://codeforces.com/gym/100254/submission/4853406",
+    "tags": [],
+    "timestamp": "Oct/23/2013 22:26"
+  },
   "CF4853519": {
     "contest_id": 100254,
     "language": "GNU C++",
