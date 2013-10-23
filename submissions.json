@@ -42042,6 +42042,18 @@
     ],
     "timestamp": "Jun/08/2011 00:44"
   },
+  "CF4852929": {
+    "contest_id": 100254,
+    "language": "GNU C++",
+    "path": "codeforces/100254/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Matrix",
+    "problem_url": "https://codeforces.com/gym/100254/problem/I",
+    "submission_id": "CF4852929",
+    "submission_url": "https://codeforces.com/gym/100254/submission/4852929",
+    "tags": [],
+    "timestamp": "Oct/23/2013 21:44"
+  },
   "CF4853161": {
     "contest_id": 100254,
     "language": "GNU C++",
