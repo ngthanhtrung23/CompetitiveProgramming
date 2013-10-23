@@ -42042,6 +42042,18 @@
     ],
     "timestamp": "Jun/08/2011 00:44"
   },
+  "CF4853519": {
+    "contest_id": 100254,
+    "language": "GNU C++",
+    "path": "codeforces/100254/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Warfare",
+    "problem_url": "https://codeforces.com/gym/100254/problem/E",
+    "submission_id": "CF4853519",
+    "submission_url": "https://codeforces.com/gym/100254/submission/4853519",
+    "tags": [],
+    "timestamp": "Oct/23/2013 22:34"
+  },
   "CF4853990": {
     "contest_id": 100254,
     "language": "GNU C++",
