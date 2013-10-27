@@ -42057,6 +42057,18 @@
     ],
     "timestamp": "Jun/16/2011 23:36"
   },
+  "CF4909868": {
+    "contest_id": 100253,
+    "language": "GNU C++",
+    "path": "codeforces/100253/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Stock Trading Robot",
+    "problem_url": "https://codeforces.com/gym/100253/problem/L",
+    "submission_id": "CF4909868",
+    "submission_url": "https://codeforces.com/gym/100253/submission/4909868",
+    "tags": [],
+    "timestamp": "Oct/27/2013 15:33"
+  },
   "CF4909921": {
     "contest_id": 100253,
     "language": "GNU C++",
