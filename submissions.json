@@ -42057,6 +42057,18 @@
     ],
     "timestamp": "Jun/16/2011 23:36"
   },
+  "CF4912863": {
+    "contest_id": 100253,
+    "language": "GNU C++",
+    "path": "codeforces/100253/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Grumpy Cat",
+    "problem_url": "https://codeforces.com/gym/100253/problem/D",
+    "submission_id": "CF4912863",
+    "submission_url": "https://codeforces.com/gym/100253/submission/4912863",
+    "tags": [],
+    "timestamp": "Oct/27/2013 20:33"
+  },
   "CF492441": {
     "contest_id": 89,
     "language": "Java 6",
