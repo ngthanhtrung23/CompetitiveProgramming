@@ -42057,6 +42057,18 @@
     ],
     "timestamp": "Jun/16/2011 23:36"
   },
+  "CF4911485": {
+    "contest_id": 100253,
+    "language": "GNU C++",
+    "path": "codeforces/100253/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Equivalent Cards",
+    "problem_url": "https://codeforces.com/gym/100253/problem/C",
+    "submission_id": "CF4911485",
+    "submission_url": "https://codeforces.com/gym/100253/submission/4911485",
+    "tags": [],
+    "timestamp": "Oct/27/2013 18:14"
+  },
   "CF4912854": {
     "contest_id": 100253,
     "language": "GNU C++",
