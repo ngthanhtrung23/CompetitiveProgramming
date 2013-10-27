@@ -42057,6 +42057,18 @@
     ],
     "timestamp": "Jun/16/2011 23:36"
   },
+  "CF4910043": {
+    "contest_id": 100253,
+    "language": "GNU C++",
+    "path": "codeforces/100253/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Travelling Camera Problem",
+    "problem_url": "https://codeforces.com/gym/100253/problem/B",
+    "submission_id": "CF4910043",
+    "submission_url": "https://codeforces.com/gym/100253/submission/4910043",
+    "tags": [],
+    "timestamp": "Oct/27/2013 15:56"
+  },
   "CF4910758": {
     "contest_id": 100253,
     "language": "GNU C++",
