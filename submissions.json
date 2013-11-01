@@ -42090,6 +42090,18 @@
     ],
     "timestamp": "Jun/17/2011 02:38"
   },
+  "CF4948617": {
+    "contest_id": 100268,
+    "language": "GNU C++",
+    "path": "codeforces/100268/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Social Advertising",
+    "problem_url": "https://codeforces.com/gym/100268/problem/G",
+    "submission_id": "CF4948617",
+    "submission_url": "https://codeforces.com/gym/100268/submission/4948617",
+    "tags": [],
+    "timestamp": "Nov/01/2013 13:08"
+  },
   "CF4948676": {
     "contest_id": 100268,
     "language": "GNU C++",
