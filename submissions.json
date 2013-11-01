@@ -42090,6 +42090,18 @@
     ],
     "timestamp": "Jun/17/2011 02:38"
   },
+  "CF4949964": {
+    "contest_id": 100268,
+    "language": "GNU C++",
+    "path": "codeforces/100268/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Chemicals Monitoring",
+    "problem_url": "https://codeforces.com/gym/100268/problem/J",
+    "submission_id": "CF4949964",
+    "submission_url": "https://codeforces.com/gym/100268/submission/4949964",
+    "tags": [],
+    "timestamp": "Nov/01/2013 17:24"
+  },
   "CF495560": {
     "contest_id": 89,
     "language": "Java 6",
