@@ -42090,6 +42090,18 @@
     ],
     "timestamp": "Jun/17/2011 02:38"
   },
+  "CF4949709": {
+    "contest_id": 100268,
+    "language": "GNU C++",
+    "path": "codeforces/100268/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Institute of Advanced Category Manipulation",
+    "problem_url": "https://codeforces.com/gym/100268/problem/C",
+    "submission_id": "CF4949709",
+    "submission_url": "https://codeforces.com/gym/100268/submission/4949709",
+    "tags": [],
+    "timestamp": "Nov/01/2013 16:32"
+  },
   "CF4949964": {
     "contest_id": 100268,
     "language": "GNU C++",
