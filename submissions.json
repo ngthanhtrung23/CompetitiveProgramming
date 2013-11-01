@@ -42090,6 +42090,18 @@
     ],
     "timestamp": "Jun/17/2011 02:38"
   },
+  "CF4948923": {
+    "contest_id": 100268,
+    "language": "GNU C++",
+    "path": "codeforces/100268/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Tables",
+    "problem_url": "https://codeforces.com/gym/100268/problem/H",
+    "submission_id": "CF4948923",
+    "submission_url": "https://codeforces.com/gym/100268/submission/4948923",
+    "tags": [],
+    "timestamp": "Nov/01/2013 14:21"
+  },
   "CF4949400": {
     "contest_id": 100268,
     "language": "GNU C++",
