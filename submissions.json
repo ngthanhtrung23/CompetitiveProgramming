@@ -42090,6 +42090,18 @@
     ],
     "timestamp": "Jun/17/2011 02:38"
   },
+  "CF4949400": {
+    "contest_id": 100268,
+    "language": "GNU C++",
+    "path": "codeforces/100268/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Fast Food Prizes",
+    "problem_url": "https://codeforces.com/gym/100268/problem/A",
+    "submission_id": "CF4949400",
+    "submission_url": "https://codeforces.com/gym/100268/submission/4949400",
+    "tags": [],
+    "timestamp": "Nov/01/2013 15:41"
+  },
   "CF4949475": {
     "contest_id": 100268,
     "language": "GNU C++",
