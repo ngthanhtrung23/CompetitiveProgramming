@@ -42090,6 +42090,18 @@
     ],
     "timestamp": "Jun/17/2011 02:38"
   },
+  "CF4949475": {
+    "contest_id": 100268,
+    "language": "GNU C++",
+    "path": "codeforces/100268/F.cpp",
+    "problem_index": "F",
+    "problem_name": "IQ Test",
+    "problem_url": "https://codeforces.com/gym/100268/problem/F",
+    "submission_id": "CF4949475",
+    "submission_url": "https://codeforces.com/gym/100268/submission/4949475",
+    "tags": [],
+    "timestamp": "Nov/01/2013 15:51"
+  },
   "CF4949709": {
     "contest_id": 100268,
     "language": "GNU C++",
