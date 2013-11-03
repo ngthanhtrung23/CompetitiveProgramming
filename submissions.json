@@ -42124,6 +42124,18 @@
     ],
     "timestamp": "Jun/17/2011 16:23"
   },
+  "CF4980474": {
+    "contest_id": 100273,
+    "language": "GNU C++",
+    "path": "codeforces/100273/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Hanoi Towers",
+    "problem_url": "https://codeforces.com/gym/100273/problem/H",
+    "submission_id": "CF4980474",
+    "submission_url": "https://codeforces.com/gym/100273/submission/4980474",
+    "tags": [],
+    "timestamp": "Nov/03/2013 23:33"
+  },
   "CF4980642": {
     "contest_id": 100273,
     "language": "GNU C++",
