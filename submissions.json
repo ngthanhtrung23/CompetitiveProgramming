@@ -42124,6 +42124,18 @@
     ],
     "timestamp": "Jun/17/2011 16:23"
   },
+  "CF4979771": {
+    "contest_id": 100273,
+    "language": "GNU C++",
+    "path": "codeforces/100273/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Ants",
+    "problem_url": "https://codeforces.com/gym/100273/problem/A",
+    "submission_id": "CF4979771",
+    "submission_url": "https://codeforces.com/gym/100273/submission/4979771",
+    "tags": [],
+    "timestamp": "Nov/03/2013 22:03"
+  },
   "CF4979864": {
     "contest_id": 100273,
     "language": "GNU C++",
