@@ -42124,6 +42124,18 @@
     ],
     "timestamp": "Jun/17/2011 16:23"
   },
+  "CF4979864": {
+    "contest_id": 100273,
+    "language": "GNU C++",
+    "path": "codeforces/100273/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Building for UN",
+    "problem_url": "https://codeforces.com/gym/100273/problem/B",
+    "submission_id": "CF4979864",
+    "submission_url": "https://codeforces.com/gym/100273/submission/4979864",
+    "tags": [],
+    "timestamp": "Nov/03/2013 22:17"
+  },
   "CF4980101": {
     "contest_id": 100273,
     "language": "GNU C++",
