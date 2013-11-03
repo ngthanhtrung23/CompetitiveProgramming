@@ -42124,6 +42124,18 @@
     ],
     "timestamp": "Jun/17/2011 16:23"
   },
+  "CF4980642": {
+    "contest_id": 100273,
+    "language": "GNU C++",
+    "path": "codeforces/100273/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Language Recognition",
+    "problem_url": "https://codeforces.com/gym/100273/problem/L",
+    "submission_id": "CF4980642",
+    "submission_url": "https://codeforces.com/gym/100273/submission/4980642",
+    "tags": [],
+    "timestamp": "Nov/04/2013 00:01"
+  },
   "CF4981153": {
     "contest_id": 100273,
     "language": "Java 7",
