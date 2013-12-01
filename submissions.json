@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5320241": {
+    "contest_id": 100299,
+    "language": "GNU C++",
+    "path": "codeforces/100299/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Subway",
+    "problem_url": "https://codeforces.com/gym/100299/problem/D",
+    "submission_id": "CF5320241",
+    "submission_url": "https://codeforces.com/gym/100299/submission/5320241",
+    "tags": [],
+    "timestamp": "Dec/01/2013 17:01"
+  },
   "CF5320977": {
     "contest_id": 100299,
     "language": "GNU C++",
