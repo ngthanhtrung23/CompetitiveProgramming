@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5319577": {
+    "contest_id": 100299,
+    "language": "GNU C++",
+    "path": "codeforces/100299/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Magical GCD",
+    "problem_url": "https://codeforces.com/gym/100299/problem/C",
+    "submission_id": "CF5319577",
+    "submission_url": "https://codeforces.com/gym/100299/submission/5319577",
+    "tags": [],
+    "timestamp": "Dec/01/2013 15:08"
+  },
   "CF5319588": {
     "contest_id": 100299,
     "language": "GNU C++",
