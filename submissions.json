@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5319287": {
+    "contest_id": 100299,
+    "language": "GNU C++",
+    "path": "codeforces/100299/B.cpp",
+    "problem_index": "B",
+    "problem_name": "What does the fox say?",
+    "problem_url": "https://codeforces.com/gym/100299/problem/B",
+    "submission_id": "CF5319287",
+    "submission_url": "https://codeforces.com/gym/100299/submission/5319287",
+    "tags": [],
+    "timestamp": "Dec/01/2013 14:20"
+  },
   "CF5319440": {
     "contest_id": 100299,
     "language": "GNU C++",
