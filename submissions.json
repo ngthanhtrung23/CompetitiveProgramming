@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5319236": {
+    "contest_id": 100299,
+    "language": "GNU C++",
+    "path": "codeforces/100299/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Bus",
+    "problem_url": "https://codeforces.com/gym/100299/problem/L",
+    "submission_id": "CF5319236",
+    "submission_url": "https://codeforces.com/gym/100299/submission/5319236",
+    "tags": [],
+    "timestamp": "Dec/01/2013 14:12"
+  },
   "CF5319287": {
     "contest_id": 100299,
     "language": "GNU C++",
