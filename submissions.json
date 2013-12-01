@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5319588": {
+    "contest_id": 100299,
+    "language": "GNU C++",
+    "path": "codeforces/100299/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Crane",
+    "problem_url": "https://codeforces.com/gym/100299/problem/I",
+    "submission_id": "CF5319588",
+    "submission_url": "https://codeforces.com/gym/100299/submission/5319588",
+    "tags": [],
+    "timestamp": "Dec/01/2013 15:09"
+  },
   "CF5319919": {
     "contest_id": 100299,
     "language": "GNU C++",
