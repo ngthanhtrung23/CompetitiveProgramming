@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5319919": {
+    "contest_id": 100299,
+    "language": "GNU C++",
+    "path": "codeforces/100299/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Digraphs",
+    "problem_url": "https://codeforces.com/gym/100299/problem/K",
+    "submission_id": "CF5319919",
+    "submission_url": "https://codeforces.com/gym/100299/submission/5319919",
+    "tags": [],
+    "timestamp": "Dec/01/2013 16:11"
+  },
   "CF5320241": {
     "contest_id": 100299,
     "language": "GNU C++",
