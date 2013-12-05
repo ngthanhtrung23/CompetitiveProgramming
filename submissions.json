@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5353269": {
+    "contest_id": 100300,
+    "language": "GNU C++",
+    "path": "codeforces/100300/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Increasing subsequences",
+    "problem_url": "https://codeforces.com/gym/100300/problem/B",
+    "submission_id": "CF5353269",
+    "submission_url": "https://codeforces.com/gym/100300/submission/5353269",
+    "tags": [],
+    "timestamp": "Dec/05/2013 18:38"
+  },
   "CF5397396": {
     "contest_id": 371,
     "language": "GNU C++",
