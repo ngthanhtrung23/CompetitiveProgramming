@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5352592": {
+    "contest_id": 100300,
+    "language": "GNU C++",
+    "path": "codeforces/100300/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Cocktail",
+    "problem_url": "https://codeforces.com/gym/100300/problem/A",
+    "submission_id": "CF5352592",
+    "submission_url": "https://codeforces.com/gym/100300/submission/5352592",
+    "tags": [],
+    "timestamp": "Dec/05/2013 16:21"
+  },
   "CF5352683": {
     "contest_id": 100300,
     "language": "GNU C++",
