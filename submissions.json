@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5352350": {
+    "contest_id": 100300,
+    "language": "GNU C++",
+    "path": "codeforces/100300/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Map Generator",
+    "problem_url": "https://codeforces.com/gym/100300/problem/C",
+    "submission_id": "CF5352350",
+    "submission_url": "https://codeforces.com/gym/100300/submission/5352350",
+    "tags": [],
+    "timestamp": "Dec/05/2013 15:33"
+  },
   "CF5352352": {
     "contest_id": 100300,
     "language": "GNU C++",
