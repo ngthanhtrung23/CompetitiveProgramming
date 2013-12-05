@@ -42254,6 +42254,18 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5352683": {
+    "contest_id": 100300,
+    "language": "GNU C++",
+    "path": "codeforces/100300/H.cpp",
+    "problem_index": "H",
+    "problem_name": "\"Roman\" corridor",
+    "problem_url": "https://codeforces.com/gym/100300/problem/H",
+    "submission_id": "CF5352683",
+    "submission_url": "https://codeforces.com/gym/100300/submission/5352683",
+    "tags": [],
+    "timestamp": "Dec/05/2013 16:38"
+  },
   "CF5353269": {
     "contest_id": 100300,
     "language": "GNU C++",
