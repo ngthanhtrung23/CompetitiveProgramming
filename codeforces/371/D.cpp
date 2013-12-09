@@ -9,8 +9,6 @@
 #define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
 using namespace std;
 
-#define next next_
-#define prev prev_
 //Buffer reading
 int INP,AM,REACHEOF;
 const int BUFSIZE = (1<<12) + 17;
