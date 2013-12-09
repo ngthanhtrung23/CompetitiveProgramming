@@ -10383,6 +10383,23 @@
     "tags": [],
     "timestamp": "Apr/02/2019 01:41"
   },
+  "CF5397396": {
+    "contest_id": 371,
+    "language": "GNU C++",
+    "path": "codeforces/371/A.cpp",
+    "problem_index": "A",
+    "problem_name": "K-Periodic Array",
+    "problem_url": "https://codeforces.com/contest/371/problem/A",
+    "submission_id": "CF5397396",
+    "submission_url": "https://codeforces.com/contest/371/submission/5397396",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/09/2013 21:53"
+  },
   "CF5397424": {
     "contest_id": 371,
     "language": "GNU C++",
