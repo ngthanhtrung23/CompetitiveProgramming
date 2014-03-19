@@ -42482,6 +42482,22 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6071313": {
+    "contest_id": 404,
+    "language": "GNU C++",
+    "path": "codeforces/404/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Minesweeper 1D",
+    "problem_url": "https://codeforces.com/contest/404/problem/D",
+    "submission_id": "CF6071313",
+    "submission_url": "https://codeforces.com/contest/404/submission/6071313",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Mar/19/2014 23:54"
+  },
   "CF6072523": {
     "contest_id": 404,
     "language": "GNU C++",
