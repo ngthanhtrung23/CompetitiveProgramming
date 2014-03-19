@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3367 problems solved.
+Total: 3368 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -759,6 +759,7 @@ Total: 3367 problems solved.
 [100513](https://codeforces.com/gym/100513/) | [B](codeforces/100513/B.cpp)  [C](codeforces/100513/C.cpp)  [D](codeforces/100513/D.cpp)  [E](codeforces/100513/E.cpp)  [F](codeforces/100513/F.cpp)  [G](codeforces/100513/G.cpp)  [I](codeforces/100513/I.cpp)  [K](codeforces/100513/K.cpp)  [M](codeforces/100513/M.cpp)  | 
 [457](https://codeforces.com/contest/457/) | [B](codeforces/457/B.cpp)  | `*1900` `greedy`
 [100570](https://codeforces.com/gym/100570/) | [B](codeforces/100570/B.cpp)  [D](codeforces/100570/D.cpp)  | 
+[404](https://codeforces.com/contest/404/) | [B](codeforces/404/B.cpp)  [E](codeforces/404/E.cpp)  | `implementation` `greedy` `*2200` `binary search` `math` `*1500`
 [100875](https://codeforces.com/gym/100875/) | [C](codeforces/100875/C.cpp)  [D](codeforces/100875/D.cpp)  | 
 [257](https://codeforces.com/contest/257/) | [C](codeforces/257/C.cpp)  | `brute force` `*1800` `geometry` `math`
 [100341](https://codeforces.com/gym/100341/) | [C](codeforces/100341/C.cpp)  [D](codeforces/100341/D.cpp)  [E](codeforces/100341/E.cpp)  [F](codeforces/100341/F.cpp)  [G](codeforces/100341/G.cpp)  [H](codeforces/100341/H.cpp)  [I](codeforces/100341/I.cpp)  [J](codeforces/100341/J.cpp)  | 
@@ -785,7 +786,6 @@ Total: 3367 problems solved.
 [762](https://codeforces.com/contest/762/) | [E](codeforces/762/E.cpp)  | `data structures` `binary search` `*2200`
 [883](https://codeforces.com/contest/883/) | [E](codeforces/883/E.cpp)  | `*1500` `implementation` `strings`
 [1066](https://codeforces.com/contest/1066/) | [E](codeforces/1066/E.cpp)  | `data structures` `*1700` `implementation` `math`
-[404](https://codeforces.com/contest/404/) | [E](codeforces/404/E.cpp)  | `*2200` `implementation` `binary search` `greedy`
 [978](https://codeforces.com/contest/978/) | [F](codeforces/978/F.cpp)  | `data structures` `implementation` `binary search` `*1500`
 [100739](https://codeforces.com/gym/100739/) | [G](codeforces/100739/G.cpp)  | 
 [100300](https://codeforces.com/gym/100300/) | [G](codeforces/100300/G.cpp)  | 
