@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3366 problems solved.
+Total: 3367 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -729,6 +729,7 @@ Total: 3366 problems solved.
 [414](https://codeforces.com/contest/414/) | [A](codeforces/414/A.cpp)  [B](codeforces/414/B.cpp)  [C](codeforces/414/C.cpp)  [D](codeforces/414/D.cpp)  | `*1400` `trees` `number theory` `greedy` `constructive algorithms` `divide and conquer` `binary search` `*2300` `two pointers` `*2100` `*1500` `combinatorics` `data structures` `dp`
 [409](https://codeforces.com/contest/409/) | [A](codeforces/409/A.cpp)  [B](codeforces/409/B.txt)  [C](codeforces/409/C.cpp)  [D](codeforces/409/D.cpp)  [E](codeforces/409/E.cpp)  [F](codeforces/409/F.cpp)  [G](codeforces/409/G.cpp)  [H](codeforces/409/H.cpp)  [I](codeforces/409/I.cpp)  | `*1700` `brute force` `implementation` `*1800` `*2200` `constructive algorithms` `*special problem` `dsu` `*1900` `*2400` `*1500`
 [407](https://codeforces.com/contest/407/) | [A](codeforces/407/A.cpp)  [B](codeforces/407/B.cpp)  [C](codeforces/407/C.cpp)  [D](codeforces/407/D.cpp)  | `implementation` `brute force` `*2500` `hashing` `math` `combinatorics` `*1600` `dp` `geometry` `*2700`
+[406](https://codeforces.com/contest/406/) | [A](codeforces/406/A.cpp)  [B](codeforces/406/B.cpp)  [C](codeforces/406/C.cpp)  [D](codeforces/406/D.cpp)  [E](codeforces/406/E.cpp)  | `trees` `*1700` `implementation` `greedy` `*2200` `constructive algorithms` `*2800` `*2300` `math` `graphs` `two pointers` `dfs and similar` `*1600` `geometry`
 [690](https://codeforces.com/contest/690/) | [A1](codeforces/690/A1.cpp)  [A2](codeforces/690/A2.cpp)  [A3](codeforces/690/A3.cpp)  [B1](codeforces/690/B1.cpp)  [B2](codeforces/690/B2.cpp)  [B3](codeforces/690/B3.cpp)  [C1](codeforces/690/C1.cpp)  [C2](codeforces/690/C2.cpp)  [C3](codeforces/690/C3.cpp)  [D1](codeforces/690/D1.cpp)  [D2](codeforces/690/D2.cpp)  [D3](codeforces/690/D3.cpp)  [E1](codeforces/690/E1.cpp)  [E2](codeforces/690/E2.cpp)  [F1](codeforces/690/F1.cpp)  | `trees` `*1700` `*1800` `*2200` `*2300` `*2400` `*2600` `*1100` `*1300` `graphs` `*1500` `combinatorics` `dfs and similar` `*2100` `*1200` `geometry`
 [362](https://codeforces.com/contest/362/) | [B](codeforces/362/B.py)  [E](codeforces/362/E.cpp)  | `implementation` `flows` `shortest paths` `*2300` `graphs` `*1100` `sortings`
 [529](https://codeforces.com/contest/529/) | [B](codeforces/529/B.cpp)  [C](codeforces/529/C.cpp)  [D](codeforces/529/D.cpp)  [E](codeforces/529/E.cpp)  | `brute force` `greedy` `*1900` `*2400` `*2100` `data structures` `sortings`
@@ -758,7 +759,6 @@ Total: 3366 problems solved.
 [100513](https://codeforces.com/gym/100513/) | [B](codeforces/100513/B.cpp)  [C](codeforces/100513/C.cpp)  [D](codeforces/100513/D.cpp)  [E](codeforces/100513/E.cpp)  [F](codeforces/100513/F.cpp)  [G](codeforces/100513/G.cpp)  [I](codeforces/100513/I.cpp)  [K](codeforces/100513/K.cpp)  [M](codeforces/100513/M.cpp)  | 
 [457](https://codeforces.com/contest/457/) | [B](codeforces/457/B.cpp)  | `*1900` `greedy`
 [100570](https://codeforces.com/gym/100570/) | [B](codeforces/100570/B.cpp)  [D](codeforces/100570/D.cpp)  | 
-[406](https://codeforces.com/contest/406/) | [B](codeforces/406/B.cpp)  [C](codeforces/406/C.cpp)  [D](codeforces/406/D.cpp)  [E](codeforces/406/E.cpp)  | `trees` `*1700` `implementation` `greedy` `*2200` `constructive algorithms` `*2800` `*2300` `graphs` `math` `two pointers` `dfs and similar` `geometry`
 [100875](https://codeforces.com/gym/100875/) | [C](codeforces/100875/C.cpp)  [D](codeforces/100875/D.cpp)  | 
 [257](https://codeforces.com/contest/257/) | [C](codeforces/257/C.cpp)  | `brute force` `*1800` `geometry` `math`
 [100341](https://codeforces.com/gym/100341/) | [C](codeforces/100341/C.cpp)  [D](codeforces/100341/D.cpp)  [E](codeforces/100341/E.cpp)  [F](codeforces/100341/F.cpp)  [G](codeforces/100341/G.cpp)  [H](codeforces/100341/H.cpp)  [I](codeforces/100341/I.cpp)  [J](codeforces/100341/J.cpp)  | 
