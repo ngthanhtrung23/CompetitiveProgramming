@@ -42482,6 +42482,23 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6114333": {
+    "contest_id": 406,
+    "language": "GNU C++",
+    "path": "codeforces/406/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Graph Cutting",
+    "problem_url": "https://codeforces.com/contest/406/problem/C",
+    "submission_id": "CF6114333",
+    "submission_url": "https://codeforces.com/contest/406/submission/6114333",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "*2300"
+    ],
+    "timestamp": "Mar/23/2014 01:02"
+  },
   "CF6116495": {
     "contest_id": 406,
     "language": "GNU C++",
