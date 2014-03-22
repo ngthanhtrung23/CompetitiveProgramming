@@ -42482,6 +42482,23 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6116495": {
+    "contest_id": 406,
+    "language": "GNU C++",
+    "path": "codeforces/406/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Hill Climbing",
+    "problem_url": "https://codeforces.com/contest/406/problem/D",
+    "submission_id": "CF6116495",
+    "submission_url": "https://codeforces.com/contest/406/submission/6116495",
+    "tags": [
+      "dfs and similar",
+      "geometry",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Mar/23/2014 01:29"
+  },
   "CF6178911": {
     "contest_id": 407,
     "language": "GNU C++",
