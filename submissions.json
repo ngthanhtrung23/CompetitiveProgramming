@@ -42482,6 +42482,21 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6236457": {
+    "contest_id": 409,
+    "language": "GNU C++",
+    "path": "codeforces/409/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dome",
+    "problem_url": "https://codeforces.com/contest/409/problem/E",
+    "submission_id": "CF6236457",
+    "submission_url": "https://codeforces.com/contest/409/submission/6236457",
+    "tags": [
+      "*special problem",
+      "*1800"
+    ],
+    "timestamp": "Apr/02/2014 01:37"
+  },
   "CF6256883": {
     "contest_id": 409,
     "language": "GNU C++",
