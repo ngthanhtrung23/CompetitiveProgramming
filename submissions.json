@@ -42482,6 +42482,21 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6226002": {
+    "contest_id": 409,
+    "language": "GNU C++",
+    "path": "codeforces/409/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Big Data",
+    "problem_url": "https://codeforces.com/contest/409/problem/D",
+    "submission_id": "CF6226002",
+    "submission_url": "https://codeforces.com/contest/409/submission/6226002",
+    "tags": [
+      "*special problem",
+      "*1700"
+    ],
+    "timestamp": "Apr/02/2014 00:51"
+  },
   "CF6226924": {
     "contest_id": 409,
     "language": "GNU C++",
