@@ -1,0 +1,4 @@
+      PROGRAM HELLO
+        PRINT '(A)', 'FORTRAN 77'
+        STOP
+      END

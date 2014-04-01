@@ -42482,6 +42482,21 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6228545": {
+    "contest_id": 409,
+    "language": "Mysterious Language",
+    "path": "codeforces/409/B.txt",
+    "problem_index": "B",
+    "problem_name": "Mysterious Language",
+    "problem_url": "https://codeforces.com/contest/409/problem/B",
+    "submission_id": "CF6228545",
+    "submission_url": "https://codeforces.com/contest/409/submission/6228545",
+    "tags": [
+      "*special problem",
+      "*1700"
+    ],
+    "timestamp": "Apr/02/2014 01:01"
+  },
   "CF6236457": {
     "contest_id": 409,
     "language": "GNU C++",
