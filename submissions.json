@@ -42482,6 +42482,21 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6211438": {
+    "contest_id": 409,
+    "language": "GNU C++",
+    "path": "codeforces/409/A.cpp",
+    "problem_index": "A",
+    "problem_name": "The Great Game",
+    "problem_url": "https://codeforces.com/contest/409/problem/A",
+    "submission_id": "CF6211438",
+    "submission_url": "https://codeforces.com/contest/409/submission/6211438",
+    "tags": [
+      "*special problem",
+      "*1700"
+    ],
+    "timestamp": "Apr/01/2014 23:59"
+  },
   "CF6226002": {
     "contest_id": 409,
     "language": "GNU C++",
