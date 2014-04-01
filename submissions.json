@@ -42482,6 +42482,21 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6206183": {
+    "contest_id": 409,
+    "language": "GNU C++",
+    "path": "codeforces/409/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Magnum Opus",
+    "problem_url": "https://codeforces.com/contest/409/problem/C",
+    "submission_id": "CF6206183",
+    "submission_url": "https://codeforces.com/contest/409/submission/6206183",
+    "tags": [
+      "*special problem",
+      "*1700"
+    ],
+    "timestamp": "Apr/01/2014 23:35"
+  },
   "CF6211438": {
     "contest_id": 409,
     "language": "GNU C++",
