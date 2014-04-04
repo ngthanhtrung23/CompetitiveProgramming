@@ -42482,6 +42482,21 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6256903": {
+    "contest_id": 409,
+    "language": "GNU C++",
+    "path": "codeforces/409/G.cpp",
+    "problem_index": "G",
+    "problem_name": "On a plane",
+    "problem_url": "https://codeforces.com/contest/409/problem/G",
+    "submission_id": "CF6256903",
+    "submission_url": "https://codeforces.com/contest/409/submission/6256903",
+    "tags": [
+      "*special problem",
+      "*2200"
+    ],
+    "timestamp": "Apr/04/2014 17:25"
+  },
   "CF6272459": {
     "contest_id": 414,
     "language": "GNU C++",
