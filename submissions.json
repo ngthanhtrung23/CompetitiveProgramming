@@ -42482,6 +42482,21 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6256883": {
+    "contest_id": 409,
+    "language": "GNU C++",
+    "path": "codeforces/409/F.cpp",
+    "problem_index": "F",
+    "problem_name": "000001",
+    "problem_url": "https://codeforces.com/contest/409/problem/F",
+    "submission_id": "CF6256883",
+    "submission_url": "https://codeforces.com/contest/409/submission/6256883",
+    "tags": [
+      "*special problem",
+      "*1900"
+    ],
+    "timestamp": "Apr/04/2014 17:23"
+  },
   "CF6256903": {
     "contest_id": 409,
     "language": "GNU C++",
