@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3350 problems solved.
+Total: 3351 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -769,13 +769,13 @@ Total: 3350 problems solved.
 [100543](https://codeforces.com/gym/100543/) | [C](codeforces/100543/C.cpp)  [D](codeforces/100543/D.cpp)  [E](codeforces/100543/E.cpp)  [F](codeforces/100543/F.cpp)  [H](codeforces/100543/H.cpp)  [I](codeforces/100543/I.cpp)  [K](codeforces/100543/K.cpp)  | 
 [407](https://codeforces.com/contest/407/) | [C](codeforces/407/C.cpp)  [D](codeforces/407/D.cpp)  | `implementation` `brute force` `*2500` `hashing` `math` `combinatorics` `dp` `*2700`
 [24](https://codeforces.com/contest/24/) | [C](codeforces/24/C.cpp)  | `implementation` `*1800` `geometry` `math`
+[414](https://codeforces.com/contest/414/) | [C](codeforces/414/C.cpp)  [D](codeforces/414/D.cpp)  | `trees` `greedy` `divide and conquer` `binary search` `*2300` `two pointers` `combinatorics` `data structures` `*2100`
 [100211](https://codeforces.com/gym/100211/) | [D](codeforces/100211/D.cpp)  [E](codeforces/100211/E.cpp)  [F](codeforces/100211/F.cpp)  [G](codeforces/100211/G.cpp)  [H](codeforces/100211/H.cpp)  [I](codeforces/100211/I.cpp)  [J](codeforces/100211/J.cpp)  | 
 [660](https://codeforces.com/contest/660/) | [D](codeforces/660/D.cpp)  | `geometry` `*1900`
 [709](https://codeforces.com/contest/709/) | [D](codeforces/709/D.cpp)  | `*1900` `greedy` `math`
 [749](https://codeforces.com/contest/749/) | [D](codeforces/749/D.cpp)  [E](codeforces/749/E.cpp)  | `probabilities` `binary search` `*2400` `data structures` `*2000`
 [1085](https://codeforces.com/contest/1085/) | [D](codeforces/1085/D.cpp)  | `trees` `*1700` `constructive algorithms` `implementation`
 [858](https://codeforces.com/contest/858/) | [D](codeforces/858/D.cpp)  | `data structures` `*1600` `implementation` `sortings`
-[414](https://codeforces.com/contest/414/) | [D](codeforces/414/D.cpp)  | `trees` `greedy` `binary search` `*2300` `two pointers` `data structures`
 [100741](https://codeforces.com/gym/100741/) | [E](codeforces/100741/E.cpp)  [I](codeforces/100741/I.cpp)  | 
 [100383](https://codeforces.com/gym/100383/) | [E](codeforces/100383/E.cpp)  [G](codeforces/100383/G.cpp)  [H](codeforces/100383/H.cpp)  [I](codeforces/100383/I.cpp)  [J](codeforces/100383/J.cpp)  | 
 [100947](https://codeforces.com/gym/100947/) | [E](codeforces/100947/E.cpp)  [F](codeforces/100947/F.cpp)  [G](codeforces/100947/G.cpp)  [H](codeforces/100947/H.cpp)  [I](codeforces/100947/I.cpp)  [J](codeforces/100947/J.cpp)  [K](codeforces/100947/K.cpp)  | 
