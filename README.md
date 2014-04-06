@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3349 problems solved.
+Total: 3350 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -775,6 +775,7 @@ Total: 3349 problems solved.
 [749](https://codeforces.com/contest/749/) | [D](codeforces/749/D.cpp)  [E](codeforces/749/E.cpp)  | `probabilities` `binary search` `*2400` `data structures` `*2000`
 [1085](https://codeforces.com/contest/1085/) | [D](codeforces/1085/D.cpp)  | `trees` `*1700` `constructive algorithms` `implementation`
 [858](https://codeforces.com/contest/858/) | [D](codeforces/858/D.cpp)  | `data structures` `*1600` `implementation` `sortings`
+[414](https://codeforces.com/contest/414/) | [D](codeforces/414/D.cpp)  | `trees` `greedy` `binary search` `*2300` `two pointers` `data structures`
 [100741](https://codeforces.com/gym/100741/) | [E](codeforces/100741/E.cpp)  [I](codeforces/100741/I.cpp)  | 
 [100383](https://codeforces.com/gym/100383/) | [E](codeforces/100383/E.cpp)  [G](codeforces/100383/G.cpp)  [H](codeforces/100383/H.cpp)  [I](codeforces/100383/I.cpp)  [J](codeforces/100383/J.cpp)  | 
 [100947](https://codeforces.com/gym/100947/) | [E](codeforces/100947/E.cpp)  [F](codeforces/100947/F.cpp)  [G](codeforces/100947/G.cpp)  [H](codeforces/100947/H.cpp)  [I](codeforces/100947/I.cpp)  [J](codeforces/100947/J.cpp)  [K](codeforces/100947/K.cpp)  | 
