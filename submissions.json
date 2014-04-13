@@ -42482,6 +42482,23 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6336629": {
+    "contest_id": 416,
+    "language": "GNU C++",
+    "path": "codeforces/416/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Guess a number!",
+    "problem_url": "https://codeforces.com/contest/416/problem/A",
+    "submission_id": "CF6336629",
+    "submission_url": "https://codeforces.com/contest/416/submission/6336629",
+    "tags": [
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Apr/13/2014 16:10"
+  },
   "CF6337156": {
     "contest_id": 416,
     "language": "GNU C++",
