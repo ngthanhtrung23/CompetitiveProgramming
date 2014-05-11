@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3343 problems solved.
+Total: 3344 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -768,7 +768,7 @@ Total: 3343 problems solved.
 [100543](https://codeforces.com/gym/100543/) | [C](codeforces/100543/C.cpp)  [D](codeforces/100543/D.cpp)  [E](codeforces/100543/E.cpp)  [F](codeforces/100543/F.cpp)  [H](codeforces/100543/H.cpp)  [I](codeforces/100543/I.cpp)  [K](codeforces/100543/K.cpp)  | 
 [407](https://codeforces.com/contest/407/) | [C](codeforces/407/C.cpp)  [D](codeforces/407/D.cpp)  | `implementation` `brute force` `*2500` `hashing` `math` `combinatorics` `dp` `*2700`
 [24](https://codeforces.com/contest/24/) | [C](codeforces/24/C.cpp)  | `implementation` `*1800` `geometry` `math`
-[429](https://codeforces.com/contest/429/) | [C](codeforces/429/C.cpp)  [E](codeforces/429/E.cpp)  | `trees` `bitmasks` `greedy` `constructive algorithms` `*2300` `graphs` `*3000` `dp`
+[429](https://codeforces.com/contest/429/) | [C](codeforces/429/C.cpp)  [D](codeforces/429/D.cpp)  [E](codeforces/429/E.cpp)  | `trees` `bitmasks` `greedy` `*2200` `constructive algorithms` `divide and conquer` `*2300` `graphs` `data structures` `*3000` `dp` `geometry`
 [100211](https://codeforces.com/gym/100211/) | [D](codeforces/100211/D.cpp)  [E](codeforces/100211/E.cpp)  [F](codeforces/100211/F.cpp)  [G](codeforces/100211/G.cpp)  [H](codeforces/100211/H.cpp)  [I](codeforces/100211/I.cpp)  [J](codeforces/100211/J.cpp)  | 
 [660](https://codeforces.com/contest/660/) | [D](codeforces/660/D.cpp)  | `geometry` `*1900`
 [709](https://codeforces.com/contest/709/) | [D](codeforces/709/D.cpp)  | `*1900` `greedy` `math`
