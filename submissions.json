@@ -42482,6 +42482,22 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6696878": {
+    "contest_id": 434,
+    "language": "GNU C++",
+    "path": "codeforces/434/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Ryouko's Memory Note",
+    "problem_url": "https://codeforces.com/contest/434/problem/A",
+    "submission_id": "CF6696878",
+    "submission_url": "https://codeforces.com/contest/434/submission/6696878",
+    "tags": [
+      "math",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "May/24/2014 15:50"
+  },
   "CF6701297": {
     "contest_id": 434,
     "language": "GNU C++",
