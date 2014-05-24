@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3341 problems solved.
+Total: 3342 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -722,7 +722,7 @@ Total: 3341 problems solved.
 [430](https://codeforces.com/contest/430/) | [A](codeforces/430/A.cpp)  [B](codeforces/430/B.cpp)  | `*1400` `brute force` `constructive algorithms` `two pointers` `*1600` `sortings`
 [441](https://codeforces.com/contest/441/) | [A](codeforces/441/A.cpp)  [B](codeforces/441/B.cpp)  [C](codeforces/441/C.cpp)  [D](codeforces/441/D.cpp)  [E](codeforces/441/E.cpp)  | `*1400` `bitmasks` `probabilities` `implementation` `greedy` `constructive algorithms` `dp` `dsu` `*2400` `graphs` `math` `*1500` `dfs and similar` `*1000` `*2100` `string suffix structures`
 [439](https://codeforces.com/contest/439/) | [A](codeforces/439/A.cpp)  [B](codeforces/439/B.cpp)  [C](codeforces/439/C.cpp)  [D](codeforces/439/D.cpp)  [E](codeforces/439/E.cpp)  | `*1700` `implementation` `brute force` `number theory` `greedy` `constructive algorithms` `dp` `ternary search` `binary search` `two pointers` `math` `*2100` `combinatorics` `*900` `sortings` `*1200`
-[434](https://codeforces.com/contest/434/) | [A](codeforces/434/A.cpp)  [C](codeforces/434/C.cpp)  [D](codeforces/434/D.cpp)  | `sortings` `flows` `*1800` `*2500` `*2900` `math` `dp`
+[434](https://codeforces.com/contest/434/) | [A](codeforces/434/A.cpp)  [B](codeforces/434/B.cpp)  [C](codeforces/434/C.cpp)  [D](codeforces/434/D.cpp)  | `sortings` `implementation` `*1800` `*2500` `flows` `*2900` `divide and conquer` `dsu` `math` `two pointers` `*2000` `dp`
 [690](https://codeforces.com/contest/690/) | [A1](codeforces/690/A1.cpp)  [A2](codeforces/690/A2.cpp)  [A3](codeforces/690/A3.cpp)  [B1](codeforces/690/B1.cpp)  [B2](codeforces/690/B2.cpp)  [B3](codeforces/690/B3.cpp)  [C1](codeforces/690/C1.cpp)  [C2](codeforces/690/C2.cpp)  [C3](codeforces/690/C3.cpp)  [D1](codeforces/690/D1.cpp)  [D2](codeforces/690/D2.cpp)  [D3](codeforces/690/D3.cpp)  [E1](codeforces/690/E1.cpp)  [E2](codeforces/690/E2.cpp)  [F1](codeforces/690/F1.cpp)  | `trees` `*1700` `*1800` `*2200` `*2300` `*2400` `*2600` `*1100` `*1300` `graphs` `*1500` `combinatorics` `dfs and similar` `*2100` `*1200` `geometry`
 [362](https://codeforces.com/contest/362/) | [B](codeforces/362/B.py)  [E](codeforces/362/E.cpp)  | `implementation` `flows` `shortest paths` `*2300` `graphs` `*1100` `sortings`
 [529](https://codeforces.com/contest/529/) | [B](codeforces/529/B.cpp)  [C](codeforces/529/C.cpp)  [D](codeforces/529/D.cpp)  [E](codeforces/529/E.cpp)  | `brute force` `greedy` `*1900` `*2400` `*2100` `data structures` `sortings`

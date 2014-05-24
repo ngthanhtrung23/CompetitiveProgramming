@@ -42482,6 +42482,25 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6695536": {
+    "contest_id": 434,
+    "language": "GNU C++",
+    "path": "codeforces/434/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Nanami's Digital Board",
+    "problem_url": "https://codeforces.com/contest/434/problem/B",
+    "submission_id": "CF6695536",
+    "submission_url": "https://codeforces.com/contest/434/submission/6695536",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "dsu",
+      "implementation",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "May/24/2014 15:34"
+  },
   "CF6696878": {
     "contest_id": 434,
     "language": "GNU C++",
