@@ -42482,6 +42482,21 @@
     ],
     "timestamp": "Aug/16/2019 02:19"
   },
+  "CF6701297": {
+    "contest_id": 434,
+    "language": "GNU C++",
+    "path": "codeforces/434/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Tachibana Kanade's Tofu",
+    "problem_url": "https://codeforces.com/contest/434/problem/C",
+    "submission_id": "CF6701297",
+    "submission_url": "https://codeforces.com/contest/434/submission/6701297",
+    "tags": [
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "May/24/2014 17:42"
+  },
   "CF6735046": {
     "contest_id": 86,
     "language": "GNU C++",
