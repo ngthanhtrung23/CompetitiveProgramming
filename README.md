@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3330 problems solved.
+Total: 3331 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -772,6 +772,7 @@ Total: 3330 problems solved.
 [749](https://codeforces.com/contest/749/) | [D](codeforces/749/D.cpp)  [E](codeforces/749/E.cpp)  | `probabilities` `binary search` `*2400` `data structures` `*2000`
 [1085](https://codeforces.com/contest/1085/) | [D](codeforces/1085/D.cpp)  | `trees` `*1700` `constructive algorithms` `implementation`
 [858](https://codeforces.com/contest/858/) | [D](codeforces/858/D.cpp)  | `data structures` `*1600` `implementation` `sortings`
+[441](https://codeforces.com/contest/441/) | [D](codeforces/441/D.cpp)  [E](codeforces/441/E.cpp)  | `bitmasks` `probabilities` `implementation` `constructive algorithms` `dp` `dsu` `*2400` `math` `graphs` `*2100` `string suffix structures`
 [100741](https://codeforces.com/gym/100741/) | [E](codeforces/100741/E.cpp)  [I](codeforces/100741/I.cpp)  | 
 [100383](https://codeforces.com/gym/100383/) | [E](codeforces/100383/E.cpp)  [G](codeforces/100383/G.cpp)  [H](codeforces/100383/H.cpp)  [I](codeforces/100383/I.cpp)  [J](codeforces/100383/J.cpp)  | 
 [100947](https://codeforces.com/gym/100947/) | [E](codeforces/100947/E.cpp)  [F](codeforces/100947/F.cpp)  [G](codeforces/100947/G.cpp)  [H](codeforces/100947/H.cpp)  [I](codeforces/100947/I.cpp)  [J](codeforces/100947/J.cpp)  [K](codeforces/100947/K.cpp)  | 
@@ -779,7 +780,6 @@ Total: 3330 problems solved.
 [762](https://codeforces.com/contest/762/) | [E](codeforces/762/E.cpp)  | `data structures` `binary search` `*2200`
 [883](https://codeforces.com/contest/883/) | [E](codeforces/883/E.cpp)  | `*1500` `implementation` `strings`
 [1066](https://codeforces.com/contest/1066/) | [E](codeforces/1066/E.cpp)  | `data structures` `*1700` `implementation` `math`
-[441](https://codeforces.com/contest/441/) | [E](codeforces/441/E.cpp)  | `bitmasks` `probabilities` `*2400` `math` `dp`
 [406](https://codeforces.com/contest/406/) | [E](codeforces/406/E.cpp)  | `*2800` `implementation` `two pointers` `math`
 [404](https://codeforces.com/contest/404/) | [E](codeforces/404/E.cpp)  | `*2200` `implementation` `binary search` `greedy`
 [429](https://codeforces.com/contest/429/) | [E](codeforces/429/E.cpp)  | `*3000` `graphs`
