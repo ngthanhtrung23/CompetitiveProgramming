@@ -42515,6 +42515,21 @@
     ],
     "timestamp": "May/31/2014 17:16"
   },
+  "CF6857870": {
+    "contest_id": 434,
+    "language": "GNU C++",
+    "path": "codeforces/434/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Nanami's Power Plant",
+    "problem_url": "https://codeforces.com/contest/434/problem/D",
+    "submission_id": "CF6857870",
+    "submission_url": "https://codeforces.com/contest/434/submission/6857870",
+    "tags": [
+      "flows",
+      "*2900"
+    ],
+    "timestamp": "Jun/10/2014 16:00"
+  },
   "CF6857940": {
     "contest_id": 429,
     "language": "GNU C++",
