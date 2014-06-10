@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3328 problems solved.
+Total: 3329 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -782,6 +782,7 @@ Total: 3328 problems solved.
 [441](https://codeforces.com/contest/441/) | [E](codeforces/441/E.cpp)  | `bitmasks` `probabilities` `*2400` `math` `dp`
 [406](https://codeforces.com/contest/406/) | [E](codeforces/406/E.cpp)  | `*2800` `implementation` `two pointers` `math`
 [404](https://codeforces.com/contest/404/) | [E](codeforces/404/E.cpp)  | `*2200` `implementation` `binary search` `greedy`
+[429](https://codeforces.com/contest/429/) | [E](codeforces/429/E.cpp)  | `*3000` `graphs`
 [978](https://codeforces.com/contest/978/) | [F](codeforces/978/F.cpp)  | `data structures` `implementation` `binary search` `*1500`
 [100739](https://codeforces.com/gym/100739/) | [G](codeforces/100739/G.cpp)  | 
 [100300](https://codeforces.com/gym/100300/) | [G](codeforces/100300/G.cpp)  | 

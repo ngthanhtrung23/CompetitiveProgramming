@@ -42515,6 +42515,21 @@
     ],
     "timestamp": "May/31/2014 17:16"
   },
+  "CF6857940": {
+    "contest_id": 429,
+    "language": "GNU C++",
+    "path": "codeforces/429/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Points and Segments",
+    "problem_url": "https://codeforces.com/contest/429/problem/E",
+    "submission_id": "CF6857940",
+    "submission_url": "https://codeforces.com/contest/429/submission/6857940",
+    "tags": [
+      "graphs",
+      "*3000"
+    ],
+    "timestamp": "Jun/10/2014 16:17"
+  },
   "CF6857958": {
     "contest_id": 430,
     "language": "GNU C++",
