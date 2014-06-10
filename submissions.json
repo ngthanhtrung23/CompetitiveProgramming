@@ -42515,6 +42515,22 @@
     ],
     "timestamp": "May/31/2014 17:16"
   },
+  "CF6859406": {
+    "contest_id": 425,
+    "language": "GNU C++",
+    "path": "codeforces/425/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Sereja and Two Sequences",
+    "problem_url": "https://codeforces.com/contest/425/problem/C",
+    "submission_id": "CF6859406",
+    "submission_url": "https://codeforces.com/contest/425/submission/6859406",
+    "tags": [
+      "data structures",
+      "dp",
+      "*2300"
+    ],
+    "timestamp": "Jun/10/2014 22:00"
+  },
   "CF6859408": {
     "contest_id": 425,
     "language": "GNU C++",

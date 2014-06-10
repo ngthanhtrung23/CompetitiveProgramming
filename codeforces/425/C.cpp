@@ -39,6 +39,10 @@ int main() {
                 }
                 else {
                     int u = a[i];
+                    // if (b[u][b[u].size()-1] <= f[turn-1][i-1]) {
+                    //     f[turn][i] = oo;
+                    //     continue;
+                    // }
                     __typeof(b[u].begin()) it = upper_bound(b[u].begin(), b[u].end(), f[turn-1][i-1]);
                     if (it == b[u].end()) f[turn][i] = oo;
                     else f[turn][i] = *it;
@@ -49,7 +53,7 @@ int main() {
 
             FOR(i,2,n) {
                 f[turn][i] = min(f[turn][i], f[turn][i-1]);
-                // update(turn, i, f[turn][i]);
+                update(turn, i, f[turn][i]);
             }
         }
 
