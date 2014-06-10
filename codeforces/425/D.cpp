@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <tr1/unordered_set>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
@@ -8,12 +9,13 @@
 #define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
 #define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
 using namespace std;
+using namespace std::tr1;
 
 const int MN = 100111;
 
 int n;
 pair<int,int> a[MN];
-set<int> hasX[MN], hasY[MN];
+unordered_set<int> hasX[MN], hasY[MN];
 
 int main() {
     ios :: sync_with_stdio(false);
