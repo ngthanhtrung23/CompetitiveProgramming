@@ -49,6 +49,7 @@ int main() {
 
             FOR(i,2,n) {
                 f[turn][i] = min(f[turn][i], f[turn][i-1]);
+                // update(turn, i, f[turn][i]);
             }
         }
 
