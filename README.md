@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3319 problems solved.
+Total: 3320 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -716,6 +716,7 @@ Total: 3319 problems solved.
 [373](https://codeforces.com/contest/373/) | [A](codeforces/373/A.py)  [B](codeforces/373/B.cpp)  | `implementation` `*900` `binary search` `implementation` `math` `*1600`
 [26](https://codeforces.com/contest/26/) | [A](codeforces/26/A.py)  [B](codeforces/26/B.py)  [C](codeforces/26/C.cpp)  | `number theory` `*900` `greedy` `*1400` `combinatorics` `constructive algorithms` `greedy` `implementation` `*2000`
 [436](https://codeforces.com/contest/436/) | [A](codeforces/436/A.cpp)  [B](codeforces/436/B.cpp)  [C](codeforces/436/C.cpp)  [E](codeforces/436/E.cpp)  | `greedy` `*1500` `implementation` `math` `*1400` `dsu` `graphs` `greedy` `trees` `*1800` `data structures` `greedy` `*2600`
+[426](https://codeforces.com/contest/426/) | [A](codeforces/426/A.cpp)  [B](codeforces/426/B.cpp)  | `implementation` `*800` `implementation` `*1300`
 [690](https://codeforces.com/contest/690/) | [A1](codeforces/690/A1.cpp)  [A2](codeforces/690/A2.cpp)  [A3](codeforces/690/A3.cpp)  [B1](codeforces/690/B1.cpp)  [B2](codeforces/690/B2.cpp)  [B3](codeforces/690/B3.cpp)  [C1](codeforces/690/C1.cpp)  [C2](codeforces/690/C2.cpp)  [C3](codeforces/690/C3.cpp)  [D1](codeforces/690/D1.cpp)  [D2](codeforces/690/D2.cpp)  [D3](codeforces/690/D3.cpp)  [E1](codeforces/690/E1.cpp)  [E2](codeforces/690/E2.cpp)  [F1](codeforces/690/F1.cpp)  | `*1100` `*2300` `*2400` `*1700` `geometry` `*2600` `*2600` `*1300` `dfs and similar` `graphs` `trees` `*1500` `trees` `*2200` `*1200` `combinatorics` `*1800` `*2100` `*1800` `*2600` `*1300`
 [362](https://codeforces.com/contest/362/) | [B](codeforces/362/B.py)  [E](codeforces/362/E.cpp)  | `implementation` `sortings` `*1100` `flows` `graphs` `shortest paths` `*2300`
 [529](https://codeforces.com/contest/529/) | [B](codeforces/529/B.cpp)  [C](codeforces/529/C.cpp)  [D](codeforces/529/D.cpp)  [E](codeforces/529/E.cpp)  | `brute force` `greedy` `sortings` `*1900` `data structures` `sortings` `*2400` `data structures` `greedy` `*2100` `brute force` `*1900`
@@ -747,7 +748,6 @@ Total: 3319 problems solved.
 [411](https://codeforces.com/contest/411/) | [B](codeforces/411/B.cpp)  [C](codeforces/411/C.cpp)  | `implementation` `*1600` `implementation` `*1700`
 [457](https://codeforces.com/contest/457/) | [B](codeforces/457/B.cpp)  | `greedy` `*1900`
 [100570](https://codeforces.com/gym/100570/) | [B](codeforces/100570/B.cpp)  [D](codeforces/100570/D.cpp)  |  
-[426](https://codeforces.com/contest/426/) | [B](codeforces/426/B.cpp)  | `implementation` `*1300`
 [100875](https://codeforces.com/gym/100875/) | [C](codeforces/100875/C.cpp)  [D](codeforces/100875/D.cpp)  |  
 [257](https://codeforces.com/contest/257/) | [C](codeforces/257/C.cpp)  | `brute force` `geometry` `math` `*1800`
 [100341](https://codeforces.com/gym/100341/) | [C](codeforces/100341/C.cpp)  [D](codeforces/100341/D.cpp)  [E](codeforces/100341/E.cpp)  [F](codeforces/100341/F.cpp)  [G](codeforces/100341/G.cpp)  [H](codeforces/100341/H.cpp)  [I](codeforces/100341/I.cpp)  [J](codeforces/100341/J.cpp)  |        

@@ -42662,6 +42662,21 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6872229": {
+    "contest_id": 426,
+    "language": "GNU C++",
+    "path": "codeforces/426/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Sereja and Mugs",
+    "problem_url": "https://codeforces.com/contest/426/problem/A",
+    "submission_id": "CF6872229",
+    "submission_url": "https://codeforces.com/contest/426/submission/6872229",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/13/2014 17:33"
+  },
   "CF6872248": {
     "contest_id": 426,
     "language": "GNU C++",
