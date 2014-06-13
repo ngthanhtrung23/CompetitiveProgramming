@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3318 problems solved.
+Total: 3319 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -747,6 +747,7 @@ Total: 3318 problems solved.
 [411](https://codeforces.com/contest/411/) | [B](codeforces/411/B.cpp)  [C](codeforces/411/C.cpp)  | `implementation` `*1600` `implementation` `*1700`
 [457](https://codeforces.com/contest/457/) | [B](codeforces/457/B.cpp)  | `greedy` `*1900`
 [100570](https://codeforces.com/gym/100570/) | [B](codeforces/100570/B.cpp)  [D](codeforces/100570/D.cpp)  |  
+[426](https://codeforces.com/contest/426/) | [B](codeforces/426/B.cpp)  | `implementation` `*1300`
 [100875](https://codeforces.com/gym/100875/) | [C](codeforces/100875/C.cpp)  [D](codeforces/100875/D.cpp)  |  
 [257](https://codeforces.com/contest/257/) | [C](codeforces/257/C.cpp)  | `brute force` `geometry` `math` `*1800`
 [100341](https://codeforces.com/gym/100341/) | [C](codeforces/100341/C.cpp)  [D](codeforces/100341/D.cpp)  [E](codeforces/100341/E.cpp)  [F](codeforces/100341/F.cpp)  [G](codeforces/100341/G.cpp)  [H](codeforces/100341/H.cpp)  [I](codeforces/100341/I.cpp)  [J](codeforces/100341/J.cpp)  |        

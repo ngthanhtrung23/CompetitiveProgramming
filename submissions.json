@@ -42662,6 +42662,21 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6872248": {
+    "contest_id": 426,
+    "language": "GNU C++",
+    "path": "codeforces/426/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sereja and Mirroring",
+    "problem_url": "https://codeforces.com/contest/426/problem/B",
+    "submission_id": "CF6872248",
+    "submission_url": "https://codeforces.com/contest/426/submission/6872248",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jun/13/2014 17:37"
+  },
   "CF6910018": {
     "contest_id": 436,
     "language": "GNU C++",
