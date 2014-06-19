@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3313 problems solved.
+Total: 3314 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -504,7 +504,7 @@ Total: 3313 problems solved.
 [506](https://codeforces.com/contest/506/) | [D](codeforces/506/D.cpp)  [B](codeforces/506/B.cpp)  [A](codeforces/506/A.cpp)  | `brute force` `dfs and similar` `dsu` `graphs` `*2400` `dfs and similar` `graphs` `*2200` `dp` `*1900`
 [138](https://codeforces.com/contest/138/) | [D](codeforces/138/D.cpp)  [C](codeforces/138/C.cpp)  [B](codeforces/138/B.cpp)  [A](codeforces/138/A.cpp)  | `dp` `games` `*2500` `binary search` `data structures` `probabilities` `sortings` `*2200` `greedy` `*1900` `implementation` `*1600`
 [142](https://codeforces.com/contest/142/) | [D](codeforces/142/D.cpp)  [C](codeforces/142/C.cpp)  [B](codeforces/142/B.cpp)  [A](codeforces/142/A.cpp)  | `games` `*2600` `brute force` `dp` `*2300` `constructive algorithms` `greedy` `implementation` `*1800` `brute force` `math` `*1600`
-[442](https://codeforces.com/contest/442/) | [D](codeforces/442/D.cpp)  [C](codeforces/442/C.cpp)  | `data structures` `trees` `*2600` `data structures` `greedy` `*2500`
+[442](https://codeforces.com/contest/442/) | [D](codeforces/442/D.cpp)  [C](codeforces/442/C.cpp)  [B](codeforces/442/B.cpp)  | `data structures` `trees` `*2600` `data structures` `greedy` `*2500` `greedy` `math` `probabilities` `*1800`
 [81](https://codeforces.com/contest/81/) | [C](codeforces/81/C.cpp)  [B](codeforces/81/B.py)  [A](codeforces/81/A.cpp)  | `greedy` `math` `sortings` `*1700` `implementation` `strings` `*1700` `implementation` `*1400`
 [175](https://codeforces.com/contest/175/) | [C](codeforces/175/C.cpp)  [B](codeforces/175/B.cpp)  [A](codeforces/175/A.py)  | `greedy` `implementation` `sortings` `two pointers` `*1600` `implementation` `*1400` `brute force` `implementation` `*1400`
 [55](https://codeforces.com/contest/55/) | [C](codeforces/55/C.cpp)  [B](codeforces/55/B.cpp)  [A](codeforces/55/A.cpp)  | `games` `*1900` `brute force` `*1600` `implementation` `math` `*1200`
