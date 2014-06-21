@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3305 problems solved.
+Total: 3306 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -49,7 +49,7 @@ Total: 3305 problems solved.
 [795](https://codeforces.com/contest/795/) | [L](codeforces/795/L.java)  [K](codeforces/795/K.pas)  [J](codeforces/795/J.py)  [E](codeforces/795/E.c)  [D](codeforces/795/D.go)  [C](codeforces/795/C.js)  [B](codeforces/795/B.cpp)  [A](codeforces/795/A.rb)  | `*special problem` `binary search` `greedy` `*2000` `*special problem` `implementation` `strings` `*1600` `*special problem` `dp` `*2000` `*special problem` `brute force` `number theory` `*2300` `*special problem` `implementation` `sortings` `*1500` `*special problem` `constructive algorithms` `greedy` `*1200` `*special problem` `binary search` `sortings` `two pointers` `*2100` `*special problem` `brute force` `ternary search` `*2100`
 [100484](https://codeforces.com/gym/100484/) | [L](codeforces/100484/L.cpp)  [K](codeforces/100484/K.cpp)  [J](codeforces/100484/J.cpp)  [I](codeforces/100484/I.cpp)  [H](codeforces/100484/H.cpp)  [G](codeforces/100484/G.cpp)  [F](codeforces/100484/F.cpp)  [E](codeforces/100484/E.cpp)  [D](codeforces/100484/D.cpp)  [C](codeforces/100484/C.cpp)  [A](codeforces/100484/A.cpp)  |           
 [100494](https://codeforces.com/gym/100494/) | [L](codeforces/100494/L.cpp)  [K](codeforces/100494/K.cpp)  [J](codeforces/100494/J.cpp)  [I](codeforces/100494/I.cpp)  [H](codeforces/100494/H.cpp)  [G](codeforces/100494/G.cpp)  [E](codeforces/100494/E.cpp)  [C](codeforces/100494/C.cpp)  [B](codeforces/100494/B.cpp)  [A](codeforces/100494/A.cpp)  |          
-[100460](https://codeforces.com/gym/100460/) | [L](codeforces/100460/L.cpp)  [K](codeforces/100460/K.cpp)  [H](codeforces/100460/H.cpp)  [G](codeforces/100460/G.cpp)  [F](codeforces/100460/F.cpp)  [E](codeforces/100460/E.cpp)  [D](codeforces/100460/D.cpp)  [C](codeforces/100460/C.cpp)  |        
+[100460](https://codeforces.com/gym/100460/) | [L](codeforces/100460/L.cpp)  [K](codeforces/100460/K.cpp)  [H](codeforces/100460/H.cpp)  [G](codeforces/100460/G.cpp)  [F](codeforces/100460/F.cpp)  [E](codeforces/100460/E.cpp)  [D](codeforces/100460/D.cpp)  [C](codeforces/100460/C.cpp)  [B](codeforces/100460/B.cpp)  |         
 [100687](https://codeforces.com/gym/100687/) | [K](codeforces/100687/K.cpp)  [J](codeforces/100687/J.cpp)  [I](codeforces/100687/I.cpp)  [H](codeforces/100687/H.cpp)  [G](codeforces/100687/G.cpp)  [F](codeforces/100687/F.cpp)  [E](codeforces/100687/E.cpp)  [D](codeforces/100687/D.cpp)  [C](codeforces/100687/C.cpp)  [B](codeforces/100687/B.cpp)  [A](codeforces/100687/A.cpp)  |           
 [100725](https://codeforces.com/gym/100725/) | [K](codeforces/100725/K.cpp)  [I](codeforces/100725/I.cpp)  [H](codeforces/100725/H.cpp)  [G](codeforces/100725/G.cpp)  [F](codeforces/100725/F.cpp)  [E](codeforces/100725/E.cpp)  [D](codeforces/100725/D.cpp)  [C](codeforces/100725/C.cpp)  [B](codeforces/100725/B.cpp)  |         
 [100212](https://codeforces.com/gym/100212/) | [K](codeforces/100212/K.cpp)  [J](codeforces/100212/J.cpp)  [I](codeforces/100212/I.cpp)  [H](codeforces/100212/H.cpp)  [G](codeforces/100212/G.cpp)  [F](codeforces/100212/F.cpp)  [E](codeforces/100212/E.cpp)  [D](codeforces/100212/D.cpp)  [C](codeforces/100212/C.cpp)  [B](codeforces/100212/B.cpp)  [A](codeforces/100212/A.cpp)  |           

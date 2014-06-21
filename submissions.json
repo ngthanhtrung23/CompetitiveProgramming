@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6937376": {
+    "contest_id": 100460,
+    "language": "GNU C++",
+    "path": "codeforces/100460/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Time of Trial",
+    "problem_url": "https://codeforces.com/gym/100460/problem/B",
+    "submission_id": "CF6937376",
+    "submission_url": "https://codeforces.com/gym/100460/submission/6937376",
+    "tags": [],
+    "timestamp": "Jun/21/2014 20:40"
+  },
   "CF6937442": {
     "contest_id": 100460,
     "language": "GNU C++",
