@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6936445": {
+    "contest_id": 100448,
+    "language": "GNU C++",
+    "path": "codeforces/100448/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Adjusting Ducks",
+    "problem_url": "https://codeforces.com/gym/100448/problem/B",
+    "submission_id": "CF6936445",
+    "submission_url": "https://codeforces.com/gym/100448/submission/6936445",
+    "tags": [],
+    "timestamp": "Jun/21/2014 18:06"
+  },
   "CF6936584": {
     "contest_id": 100448,
     "language": "GNU C++",
