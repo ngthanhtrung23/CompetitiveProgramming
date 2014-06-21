@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6937915": {
+    "contest_id": 100460,
+    "language": "GNU C++",
+    "path": "codeforces/100460/F.cpp",
+    "problem_index": "F",
+    "problem_name": "At the Hell's Threshold",
+    "problem_url": "https://codeforces.com/gym/100460/problem/F",
+    "submission_id": "CF6937915",
+    "submission_url": "https://codeforces.com/gym/100460/submission/6937915",
+    "tags": [],
+    "timestamp": "Jun/21/2014 22:29"
+  },
   "CF6938022": {
     "contest_id": 100460,
     "language": "GNU C++",
