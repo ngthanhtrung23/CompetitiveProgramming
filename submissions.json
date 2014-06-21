@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6938022": {
+    "contest_id": 100460,
+    "language": "GNU C++",
+    "path": "codeforces/100460/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Born for the Battle",
+    "problem_url": "https://codeforces.com/gym/100460/problem/C",
+    "submission_id": "CF6938022",
+    "submission_url": "https://codeforces.com/gym/100460/submission/6938022",
+    "tags": [],
+    "timestamp": "Jun/21/2014 22:47"
+  },
   "CF6938230": {
     "contest_id": 100460,
     "language": "GNU C++",
