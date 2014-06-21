@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6937442": {
+    "contest_id": 100460,
+    "language": "GNU C++",
+    "path": "codeforces/100460/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Icy Rider",
+    "problem_url": "https://codeforces.com/gym/100460/problem/L",
+    "submission_id": "CF6937442",
+    "submission_url": "https://codeforces.com/gym/100460/submission/6937442",
+    "tags": [],
+    "timestamp": "Jun/21/2014 20:52"
+  },
   "CF6937503": {
     "contest_id": 100460,
     "language": "GNU C++",
