@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6936206": {
+    "contest_id": 100448,
+    "language": "GNU C++",
+    "path": "codeforces/100448/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Learning to Add",
+    "problem_url": "https://codeforces.com/gym/100448/problem/A",
+    "submission_id": "CF6936206",
+    "submission_url": "https://codeforces.com/gym/100448/submission/6936206",
+    "tags": [],
+    "timestamp": "Jun/21/2014 17:32"
+  },
   "CF6936445": {
     "contest_id": 100448,
     "language": "GNU C++",
