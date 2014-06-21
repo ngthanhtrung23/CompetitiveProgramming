@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6938593": {
+    "contest_id": 100460,
+    "language": "GNU C++",
+    "path": "codeforces/100460/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Make It Through Your Way",
+    "problem_url": "https://codeforces.com/gym/100460/problem/D",
+    "submission_id": "CF6938593",
+    "submission_url": "https://codeforces.com/gym/100460/submission/6938593",
+    "tags": [],
+    "timestamp": "Jun/22/2014 00:18"
+  },
   "CF6947995": {
     "contest_id": 443,
     "language": "GNU C++",
