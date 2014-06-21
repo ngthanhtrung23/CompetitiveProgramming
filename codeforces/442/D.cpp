@@ -36,10 +36,9 @@ int n;
 int dp[MN], father[MN], ln[MN], ln2[MN];
 
 int main() {
-	ios :: sync_with_stdio(false);
-	cin >> n;
+	scanf("%d", &n);
 	FOR(i,2,n+1) {
-		cin >> father[i];
+		scanf("%d", &father[i]);
 		dp[i] = 1;
 		int u = i;
 		while (u != 1) {
