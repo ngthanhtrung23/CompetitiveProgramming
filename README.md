@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3306 problems solved.
+Total: 3307 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -388,6 +388,7 @@ Total: 3306 problems solved.
 [231](https://codeforces.com/contest/231/) | [E](codeforces/231/E.cpp)  [D](codeforces/231/D.cpp)  [C](codeforces/231/C.cpp)  [B](codeforces/231/B.cpp)  [A](codeforces/231/A.cpp)  | `data structures` `dfs and similar` `dp` `graphs` `trees` `*2100` `brute force` `geometry` `*1600` `binary search` `sortings` `two pointers` `*1600` `constructive algorithms` `greedy` `*1500` `brute force` `greedy` `*800`
 [226](https://codeforces.com/contest/226/) | [E](codeforces/226/E.cpp)  [D](codeforces/226/D.cpp)  [C](codeforces/226/C.cpp)  [B](codeforces/226/B.cpp)  [A](codeforces/226/A.cpp)  | `data structures` `trees` `*2900` `constructive algorithms` `greedy` `*2100` `data structures` `implementation` `math` `matrices` `number theory` `*2400` `greedy` `*1900` `math` `*1400`
 [427](https://codeforces.com/contest/427/) | [E](codeforces/427/E.cpp)  [D](codeforces/427/D.cpp)  [C](codeforces/427/C.cpp)  [B](codeforces/427/B.cpp)  [A](codeforces/427/A.cpp)  | `greedy` `implementation` `math` `ternary search` `*2000` `dp` `string suffix structures` `strings` `*2200` `dfs and similar` `graphs` `two pointers` `*1700` `data structures` `implementation` `*1100` `implementation` `*800`
+[100448](https://codeforces.com/gym/100448/) | [E](codeforces/100448/E.cpp)  | 
 [140](https://codeforces.com/contest/140/) | [D](codeforces/140/D.cpp)  [C](codeforces/140/C.cpp)  [B](codeforces/140/B.cpp)  [A](codeforces/140/A.cpp)  | `greedy` `sortings` `*1800` `binary search` `data structures` `greedy` `*1800` `brute force` `greedy` `implementation` `*1800` `geometry` `math` `*1700`
 [521](https://codeforces.com/contest/521/) | [D](codeforces/521/D.cpp)  [C](codeforces/521/C.cpp)  [B](codeforces/521/B.cpp)  [A](codeforces/521/A.cpp)  | `greedy` `*2800` `combinatorics` `dp` `math` `number theory` `*2200` `data structures` `greedy` `implementation` `*2100` `greedy` `math` `*1500`
 [317](https://codeforces.com/contest/317/) | [D](codeforces/317/D.cpp)  [B](codeforces/317/B.cpp)  [A](codeforces/317/A.cpp)  | `dp` `games` `*2300` `brute force` `implementation` `*2000` `brute force` `*1600`
