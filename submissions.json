@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6937645": {
+    "contest_id": 100460,
+    "language": "GNU C++",
+    "path": "codeforces/100460/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Eternal Champion",
+    "problem_url": "https://codeforces.com/gym/100460/problem/G",
+    "submission_id": "CF6937645",
+    "submission_url": "https://codeforces.com/gym/100460/submission/6937645",
+    "tags": [],
+    "timestamp": "Jun/21/2014 21:34"
+  },
   "CF6937915": {
     "contest_id": 100460,
     "language": "GNU C++",
