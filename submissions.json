@@ -42662,6 +42662,18 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6937503": {
+    "contest_id": 100460,
+    "language": "GNU C++",
+    "path": "codeforces/100460/H.cpp",
+    "problem_index": "H",
+    "problem_name": "A Ballad about the Tear",
+    "problem_url": "https://codeforces.com/gym/100460/problem/H",
+    "submission_id": "CF6937503",
+    "submission_url": "https://codeforces.com/gym/100460/submission/6937503",
+    "tags": [],
+    "timestamp": "Jun/21/2014 21:04"
+  },
   "CF6937557": {
     "contest_id": 100460,
     "language": "GNU C++",
