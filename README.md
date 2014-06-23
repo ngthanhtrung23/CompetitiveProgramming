@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3290 problems solved.
+Total: 3291 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -779,4 +779,5 @@ Total: 3290 problems solved.
 [359](https://codeforces.com/contest/359/) | [A](codeforces/359/A.py)  | `constructive algorithms` `greedy` `implementation` `*1000`
 [43](https://codeforces.com/contest/43/) | [A](codeforces/43/A.rb)  | `strings` `*1000`
 [75](https://codeforces.com/contest/75/) | [A](codeforces/75/A.rb)  | `implementation` `*1000`
+[433](https://codeforces.com/contest/433/) | [A](codeforces/433/A.cpp)  | `brute force` `implementation` `*1100`
 
