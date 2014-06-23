@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3295 problems solved.
+Total: 3296 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -734,6 +734,7 @@ Total: 3295 problems solved.
 [157](https://codeforces.com/contest/157/) | [B](codeforces/157/B.py)  [A](codeforces/157/A.py)  | `geometry` `sortings` `*1000` `brute force` `*800`
 [433](https://codeforces.com/contest/433/) | [B](codeforces/433/B.cpp)  [A](codeforces/433/A.cpp)  | `dp` `implementation` `sortings` `*1200` `brute force` `implementation` `*1100`
 [437](https://codeforces.com/contest/437/) | [B](codeforces/437/B.cpp)  [A](codeforces/437/A.cpp)  | `bitmasks` `greedy` `implementation` `sortings` `*1500` `implementation` `*1300`
+[443](https://codeforces.com/contest/443/) | [B](codeforces/443/B.cpp)  | `brute force` `implementation` `strings` `*1500`
 [94](https://codeforces.com/contest/94/) | [A](codeforces/94/A.cpp)  | `implementation` `strings` `*900`
 [63](https://codeforces.com/contest/63/) | [A](codeforces/63/A.cpp)  | `implementation` `sortings` `strings` `*900`
 [104](https://codeforces.com/contest/104/) | [A](codeforces/104/A.py)  | `implementation` `*800`
