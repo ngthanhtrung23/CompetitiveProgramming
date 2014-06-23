@@ -42662,6 +42662,23 @@
     ],
     "timestamp": "Jan/13/2020 12:15"
   },
+  "CF6948053": {
+    "contest_id": 438,
+    "language": "GNU C++",
+    "path": "codeforces/438/B.cpp",
+    "problem_index": "B",
+    "problem_name": "The Child and Zoo",
+    "problem_url": "https://codeforces.com/contest/438/problem/B",
+    "submission_id": "CF6948053",
+    "submission_url": "https://codeforces.com/contest/438/submission/6948053",
+    "tags": [
+      "dp",
+      "dsu",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Jun/23/2014 22:43"
+  },
   "CF6948144": {
     "contest_id": 437,
     "language": "GNU C++",

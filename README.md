@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3294 problems solved.
+Total: 3295 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -583,7 +583,7 @@ Total: 3294 problems solved.
 [388](https://codeforces.com/contest/388/) | [C](codeforces/388/C.cpp)  [B](codeforces/388/B.cpp)  [A](codeforces/388/A.cpp)  | `games` `greedy` `sortings` `*2000` `bitmasks` `constructive algorithms` `graphs` `implementation` `math` `*1900` `greedy` `sortings` `*1400`
 [392](https://codeforces.com/contest/392/) | [C](codeforces/392/C.cpp)  [B](codeforces/392/B.cpp)  [A](codeforces/392/A.cpp)  | `combinatorics` `math` `matrices` `dp` `math`
 [415](https://codeforces.com/contest/415/) | [C](codeforces/415/C.cpp)  [B](codeforces/415/B.cpp)  [A](codeforces/415/A.cpp)  | `constructive algorithms` `greedy` `number theory` `*1500` `binary search` `greedy` `implementation` `math` `*1500` `implementation` `*900`
-[438](https://codeforces.com/contest/438/) | [C](codeforces/438/C.cpp)  | `dp` `geometry` `*2500`
+[438](https://codeforces.com/contest/438/) | [C](codeforces/438/C.cpp)  [B](codeforces/438/B.cpp)  | `dp` `geometry` `*2500` `dp` `dsu` `sortings` `*1900`
 [24](https://codeforces.com/contest/24/) | [C](codeforces/24/C.cpp)  | `geometry` `implementation` `math` `*1800`
 [458](https://codeforces.com/contest/458/) | [C](codeforces/458/C.cpp)  [B](codeforces/458/B.cpp)  [A](codeforces/458/A.cpp)  | `data structures` `ternary search` `*2100` `greedy` `*1900` `math` `*1700`
 [374](https://codeforces.com/contest/374/) | [C](codeforces/374/C.cpp)  [B](codeforces/374/B.cpp)  [A](codeforces/374/A.cpp)  | `dfs and similar` `dp` `graphs` `implementation` `*1900` `combinatorics` `greedy` `*1500` `greedy` `implementation` `*2000`
