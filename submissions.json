@@ -43106,6 +43106,23 @@
     "tags": [],
     "timestamp": "Feb/10/2020 15:14"
   },
+  "CF7089762": {
+    "contest_id": 446,
+    "language": "GNU C++",
+    "path": "codeforces/446/B.cpp",
+    "problem_index": "B",
+    "problem_name": "DZY Loves Modification",
+    "problem_url": "https://codeforces.com/contest/446/problem/B",
+    "submission_id": "CF7089762",
+    "submission_url": "https://codeforces.com/contest/446/submission/7089762",
+    "tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "*2000"
+    ],
+    "timestamp": "Jul/13/2014 22:56"
+  },
   "CF7093160": {
     "contest_id": 447,
     "language": "GNU C++",
