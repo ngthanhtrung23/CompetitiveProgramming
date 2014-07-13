@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3281 problems solved.
+Total: 3282 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -728,7 +728,7 @@ Total: 3281 problems solved.
 456 | [B](codeforces/456/B.java)  [A](codeforces/456/A.cpp)  | `math` `number theory` `*1200` `sortings` `*1100`
 463 | [D](codeforces/463/D.cpp)  [E](codeforces/463/E.cpp)  [C](codeforces/463/C.cpp)  [B](codeforces/463/B.cpp)  [A](codeforces/463/A.cpp)  | `dfs and similar` `dp` `graphs` `implementation` `*1900` `brute force` `dfs and similar` `math` `number theory` `trees` `*2100` `greedy` `hashing` `implementation` `*1900` `brute force` `implementation` `math` `*1100` `brute force` `implementation` `*1200`
 465 | [B](codeforces/465/B.cpp)  [A](codeforces/465/A.cpp)  | `implementation` `*1000` `implementation` `*900`
-447 | [B](codeforces/447/B.cpp)  | `greedy` `implementation` `*1000`
+447 | [B](codeforces/447/B.cpp)  [A](codeforces/447/A.cpp)  | `greedy` `implementation` `*1000` `implementation` `*800`
 434 | [C](codeforces/434/C.cpp)  | `dp` `*2500`
 354 | [C](codeforces/354/C.cpp)  [E](codeforces/354/E.cpp)  [A](codeforces/354/A.cpp)  | `brute force` `dp` `number theory` `*2100` `constructive algorithms` `dfs and similar` `dp` `*2200` `brute force` `greedy` `math` `*1500`
 351 | [A](codeforces/351/A.cpp)  [E](codeforces/351/E.cpp)  [B](codeforces/351/B.cpp)  | `dp` `greedy` `implementation` `math` `*1800` `greedy` `*2200` `combinatorics` `dp` `probabilities` `*1900`

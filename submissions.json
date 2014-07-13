@@ -43106,6 +43106,21 @@
     "tags": [],
     "timestamp": "Feb/10/2020 15:14"
   },
+  "CF7093160": {
+    "contest_id": 447,
+    "language": "GNU C++",
+    "path": "codeforces/447/A.cpp",
+    "problem_index": "A",
+    "problem_name": "DZY Loves Hash",
+    "problem_url": "https://codeforces.com/contest/447/problem/A",
+    "submission_id": "CF7093160",
+    "submission_url": "https://codeforces.com/contest/447/submission/7093160",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/14/2014 01:18"
+  },
   "CF7093257": {
     "contest_id": 447,
     "language": "GNU C++",
