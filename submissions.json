@@ -43106,6 +43106,23 @@
     "tags": [],
     "timestamp": "Feb/10/2020 15:14"
   },
+  "CF7087470": {
+    "contest_id": 446,
+    "language": "GNU C++",
+    "path": "codeforces/446/C.cpp",
+    "problem_index": "C",
+    "problem_name": "DZY Loves Fibonacci Numbers",
+    "problem_url": "https://codeforces.com/contest/446/problem/C",
+    "submission_id": "CF7087470",
+    "submission_url": "https://codeforces.com/contest/446/submission/7087470",
+    "tags": [
+      "data structures",
+      "math",
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "Jul/13/2014 22:35"
+  },
   "CF7089762": {
     "contest_id": 446,
     "language": "GNU C++",
