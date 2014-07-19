@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3279 problems solved.
+Total: 3280 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -648,7 +648,7 @@ Total: 3279 problems solved.
 388 | [B](codeforces/388/B.cpp)  [C](codeforces/388/C.cpp)  [A](codeforces/388/A.cpp)  | `bitmasks` `constructive algorithms` `graphs` `implementation` `math` `*1900` `games` `greedy` `sortings` `*2000` `greedy` `sortings` `*1400`
 387 | [E](codeforces/387/E.cpp)  [D](codeforces/387/D.cpp)  [C](codeforces/387/C.cpp)  [B](codeforces/387/B.cpp)  [A](codeforces/387/A.cpp)  | `binary search` `data structures` `*2200` `graph matchings` `*2200` `greedy` `implementation` `*1700` `brute force` `greedy` `two pointers` `*1200` `implementation` `*900`
 441 | [E](codeforces/441/E.cpp)  | `bitmasks` `dp` `math` `probabilities` `*2400`
-449 | [B](codeforces/449/B.cpp)  [C](codeforces/449/C.cpp)  [D](codeforces/449/D.cpp)  | `graphs` `greedy` `shortest paths` `*2000` `constructive algorithms` `number theory` `*2500` `bitmasks` `combinatorics` `dp` `*2400`
+449 | [B](codeforces/449/B.cpp)  [C](codeforces/449/C.cpp)  [D](codeforces/449/D.cpp)  [A](codeforces/449/A.cpp)  | `graphs` `greedy` `shortest paths` `*2000` `constructive algorithms` `number theory` `*2500` `bitmasks` `combinatorics` `dp` `*2400` `greedy` `math` `*1700`
 382 | [B](codeforces/382/B.cpp)  [D](codeforces/382/D.cpp)  [C](codeforces/382/C.cpp)  [A](codeforces/382/A.cpp)  | `binary search` `math` `*2000` `dfs and similar` `graphs` `implementation` `trees` `*2200` `implementation` `sortings` `*1700` `greedy` `implementation` `*1100`
 491 | [C](codeforces/491/C.cpp)  [B](codeforces/491/B.cpp)  [A](codeforces/491/A.cpp)  | `flows` `graph matchings` `*2300` `greedy` `math` `*2100` `constructive algorithms` `implementation` `*1000`
 488 | [C](codeforces/488/C.cpp)  [D](codeforces/488/D.cpp)  [E](codeforces/488/E.cpp)  [B](codeforces/488/B.cpp)  [A](codeforces/488/A.cpp)  | `brute force` `implementation` `*1800` `data structures` `dp` `two pointers` `*2000` `constructive algorithms` `math` `*2300` `brute force` `constructive algorithms` `math` `*1900` `brute force` `*1100`
