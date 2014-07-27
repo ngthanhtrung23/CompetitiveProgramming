@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3275 problems solved.
+Total: 3276 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -657,7 +657,7 @@ Total: 3275 problems solved.
 484 | [C](codeforces/484/C.cpp)  [E](codeforces/484/E.cpp)  [D](codeforces/484/D.cpp)  [B](codeforces/484/B.cpp)  [A](codeforces/484/A.cpp)  | `implementation` `math` `*2600` `binary search` `constructive algorithms` `data structures` `*2500` `data structures` `dp` `greedy` `*2400` `binary search` `math` `sortings` `two pointers` `*2100` `bitmasks` `constructive algorithms` `*1700`
 413 | [E](codeforces/413/E.cpp)  [C](codeforces/413/C.cpp)  [B](codeforces/413/B.cpp)  [A](codeforces/413/A.cpp)  | `data structures` `divide and conquer` `*2200` `greedy` `math` `*1400` `implementation` `*1300` `implementation` `*1200`
 412 | [E](codeforces/412/E.cpp)  [D](codeforces/412/D.cpp)  [C](codeforces/412/C.cpp)  [B](codeforces/412/B.cpp)  [A](codeforces/412/A.cpp)  | `implementation` `*1900` `dfs and similar` `*2000` `implementation` `strings` `*1200` `greedy` `sortings` `*900` `greedy` `implementation` `*900`
-452 | [F](codeforces/452/F.cpp)  [E](codeforces/452/E.cpp)  [D](codeforces/452/D.cpp)  [B](codeforces/452/B.cpp)  | `data structures` `divide and conquer` `hashing` `*2700` `data structures` `dsu` `string suffix structures` `strings` `*2400` `greedy` `implementation` `*1900` `brute force` `constructive algorithms` `geometry` `trees` `*1800`
+452 | [F](codeforces/452/F.cpp)  [E](codeforces/452/E.cpp)  [D](codeforces/452/D.cpp)  [B](codeforces/452/B.cpp)  [C](codeforces/452/C.cpp)  | `data structures` `divide and conquer` `hashing` `*2700` `data structures` `dsu` `string suffix structures` `strings` `*2400` `greedy` `implementation` `*1900` `brute force` `constructive algorithms` `geometry` `trees` `*1800` `combinatorics` `math` `probabilities` `*2100`
 100287 | [E](codeforces/100287/E.cpp)  [I](codeforces/100287/I.cpp)  [C](codeforces/100287/C.cpp)  [G](codeforces/100287/G.cpp)  [K](codeforces/100287/K.cpp)  [J](codeforces/100287/J.cpp)  [H](codeforces/100287/H.cpp)  |       
 476 | [E](codeforces/476/E.cpp)  [D](codeforces/476/D.cpp)  [C](codeforces/476/C.cpp)  [B](codeforces/476/B.cpp)  [A](codeforces/476/A.cpp)  | `dp` `strings` `*2200` `constructive algorithms` `greedy` `math` `*1900` `math` `*1600` `bitmasks` `brute force` `combinatorics` `dp` `math` `probabilities` `*1300` `implementation` `math` `*1000`
 483 | [E](codeforces/483/E.cpp)  [C](codeforces/483/C.cpp)  [D](codeforces/483/D.cpp)  [B](codeforces/483/B.cpp)  [A](codeforces/483/A.cpp)  | `bitmasks` `dp` `*2600` `constructive algorithms` `implementation` `*1200` `constructive algorithms` `data structures` `*1800` `binary search` `math` `*1800` `brute force` `implementation` `math` `number theory` `*1100`
