@@ -45133,6 +45133,18 @@
     ],
     "timestamp": "Jul/25/2014 13:52"
   },
+  "CF7256528": {
+    "contest_id": 100430,
+    "language": "GNU C++",
+    "path": "codeforces/100430/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Chip Installation",
+    "problem_url": "https://codeforces.com/gym/100430/problem/A",
+    "submission_id": "CF7256528",
+    "submission_url": "https://codeforces.com/gym/100430/submission/7256528",
+    "tags": [],
+    "timestamp": "Jul/27/2014 18:00"
+  },
   "CF7257010": {
     "contest_id": 100430,
     "language": "GNU C++",
