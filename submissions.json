@@ -43450,6 +43450,24 @@
     ],
     "timestamp": "Sep/24/2011 11:40"
   },
+  "CF7269543": {
+    "contest_id": 452,
+    "language": "GNU C++",
+    "path": "codeforces/452/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Three strings",
+    "problem_url": "https://codeforces.com/contest/452/problem/E",
+    "submission_id": "CF7269543",
+    "submission_url": "https://codeforces.com/contest/452/submission/7269543",
+    "tags": [
+      "data structures",
+      "dsu",
+      "string suffix structures",
+      "strings",
+      "*2400"
+    ],
+    "timestamp": "Jul/28/2014 03:15"
+  },
   "CF7449128": {
     "contest_id": 458,
     "language": "GNU C++",
