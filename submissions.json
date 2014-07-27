@@ -45133,6 +45133,18 @@
     ],
     "timestamp": "Jul/25/2014 13:52"
   },
+  "CF7257010": {
+    "contest_id": 100430,
+    "language": "GNU C++",
+    "path": "codeforces/100430/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Restoring Permutation",
+    "problem_url": "https://codeforces.com/gym/100430/problem/H",
+    "submission_id": "CF7257010",
+    "submission_url": "https://codeforces.com/gym/100430/submission/7257010",
+    "tags": [],
+    "timestamp": "Jul/27/2014 19:32"
+  },
   "CF7259435": {
     "contest_id": 452,
     "language": "GNU C++",
