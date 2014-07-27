@@ -43450,6 +43450,22 @@
     ],
     "timestamp": "Sep/24/2011 11:40"
   },
+  "CF7264676": {
+    "contest_id": 452,
+    "language": "GNU C++",
+    "path": "codeforces/452/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Washer, Dryer, Folder",
+    "problem_url": "https://codeforces.com/contest/452/problem/D",
+    "submission_id": "CF7264676",
+    "submission_url": "https://codeforces.com/contest/452/submission/7264676",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Jul/28/2014 01:54"
+  },
   "CF7269543": {
     "contest_id": 452,
     "language": "GNU C++",
