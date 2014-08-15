@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3270 problems solved.
+Total: 3271 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -725,7 +725,7 @@ Total: 3270 problems solved.
 467 | [D](codeforces/467/D.cpp)  [E](codeforces/467/E.cpp)  [B](codeforces/467/B.cpp)  [A](codeforces/467/A.cpp)  [C](codeforces/467/C.cpp)  | `dfs and similar` `dp` `graphs` `hashing` `strings` `*2400` `data structures` `dp` `greedy` `*2300` `bitmasks` `brute force` `constructive algorithms` `implementation` `*1100` `implementation` `*800` `dp` `implementation` `*1700`
 462 | [B](codeforces/462/B.cpp)  [A](codeforces/462/A.cpp)  | `greedy` `*1300` `brute force` `implementation` `*1000`
 100484 | [J](codeforces/100484/J.cpp)  [D](codeforces/100484/D.cpp)  [C](codeforces/100484/C.cpp)  [I](codeforces/100484/I.cpp)  [G](codeforces/100484/G.cpp)  [H](codeforces/100484/H.cpp)  [E](codeforces/100484/E.cpp)  [L](codeforces/100484/L.cpp)  [K](codeforces/100484/K.cpp)  [F](codeforces/100484/F.cpp)  [A](codeforces/100484/A.cpp)  |           
-456 | [B](codeforces/456/B.java)  | `math` `number theory` `*1200`
+456 | [B](codeforces/456/B.java)  [A](codeforces/456/A.cpp)  | `math` `number theory` `*1200` `sortings` `*1100`
 463 | [D](codeforces/463/D.cpp)  [E](codeforces/463/E.cpp)  [C](codeforces/463/C.cpp)  [B](codeforces/463/B.cpp)  [A](codeforces/463/A.cpp)  | `dfs and similar` `dp` `graphs` `implementation` `*1900` `brute force` `dfs and similar` `math` `number theory` `trees` `*2100` `greedy` `hashing` `implementation` `*1900` `brute force` `implementation` `math` `*1100` `brute force` `implementation` `*1200`
 465 | [B](codeforces/465/B.cpp)  [A](codeforces/465/A.cpp)  | `implementation` `*1000` `implementation` `*900`
 434 | [C](codeforces/434/C.cpp)  | `dp` `*2500`
