@@ -43450,6 +43450,21 @@
     ],
     "timestamp": "Sep/24/2011 11:40"
   },
+  "CF7449128": {
+    "contest_id": 458,
+    "language": "GNU C++",
+    "path": "codeforces/458/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Golden System",
+    "problem_url": "https://codeforces.com/contest/458/problem/A",
+    "submission_id": "CF7449128",
+    "submission_url": "https://codeforces.com/contest/458/submission/7449128",
+    "tags": [
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Aug/15/2014 10:40"
+  },
   "CF7449226": {
     "contest_id": 456,
     "language": "GNU C++",

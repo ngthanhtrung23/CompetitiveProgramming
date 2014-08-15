@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3271 problems solved.
+Total: 3272 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -594,7 +594,7 @@ Total: 3271 problems solved.
 378 | [B](codeforces/378/B.cpp)  [A](codeforces/378/A.cpp)  | `implementation` `sortings` `*1300` `brute force` `*800`
 436 | [E](codeforces/436/E.cpp)  | `data structures` `greedy` `*2600`
 461 | [D](codeforces/461/D.cpp)  [C](codeforces/461/C.cpp)  [B](codeforces/461/B.cpp)  [A](codeforces/461/A.cpp)  | `dsu` `math` `*2800` `data structures` `implementation` `*2200` `dfs and similar` `dp` `trees` `*2000` `greedy` `sortings` `*1200`
-458 | [C](codeforces/458/C.cpp)  [B](codeforces/458/B.cpp)  | `data structures` `ternary search` `*2100` `greedy` `*1900`
+458 | [C](codeforces/458/C.cpp)  [B](codeforces/458/B.cpp)  [A](codeforces/458/A.cpp)  | `data structures` `ternary search` `*2100` `greedy` `*1900` `math` `*1700`
 404 | [E](codeforces/404/E.cpp)  | `binary search` `greedy` `implementation` `*2200`
 406 | [E](codeforces/406/E.cpp)  | `implementation` `math` `two pointers` `*2800`
 500 | [F](codeforces/500/F.cpp)  [E](codeforces/500/E.cpp)  [D](codeforces/500/D.cpp)  [A](codeforces/500/A.cpp)  [B](codeforces/500/B.cpp)  [C](codeforces/500/C.cpp)  | `divide and conquer` `dp` `*2700` `data structures` `dp` `dsu` `*2300` `combinatorics` `dfs and similar` `graphs` `trees` `*1900` `dfs and similar` `graphs` `implementation` `*1000` `dfs and similar` `dsu` `graphs` `greedy` `math` `sortings` `*1600` `constructive algorithms` `greedy` `implementation` `math` `*1600`
