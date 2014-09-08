@@ -43569,6 +43569,22 @@
     ],
     "timestamp": "Aug/14/2011 00:48"
   },
+  "CF7722702": {
+    "contest_id": 464,
+    "language": "GNU C++",
+    "path": "codeforces/464/A.cpp",
+    "problem_index": "A",
+    "problem_name": "No to Palindromes!",
+    "problem_url": "https://codeforces.com/contest/464/problem/A",
+    "submission_id": "CF7722702",
+    "submission_url": "https://codeforces.com/contest/464/submission/7722702",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Sep/09/2014 00:01"
+  },
   "CF7722832": {
     "contest_id": 464,
     "language": "GNU C++",
