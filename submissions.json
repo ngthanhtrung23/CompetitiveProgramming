@@ -43569,6 +43569,21 @@
     ],
     "timestamp": "Aug/14/2011 00:48"
   },
+  "CF7725987": {
+    "contest_id": 465,
+    "language": "GNU C++",
+    "path": "codeforces/465/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Inbox (100500)",
+    "problem_url": "https://codeforces.com/contest/465/problem/B",
+    "submission_id": "CF7725987",
+    "submission_url": "https://codeforces.com/contest/465/submission/7725987",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Sep/09/2014 14:43"
+  },
   "CF7726035": {
     "contest_id": 463,
     "language": "GNU C++",
