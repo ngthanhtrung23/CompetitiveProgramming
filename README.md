@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3262 problems solved.
+Total: 3263 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -726,7 +726,7 @@ Total: 3262 problems solved.
 462 | [B](codeforces/462/B.cpp)  [A](codeforces/462/A.cpp)  | `greedy` `*1300` `brute force` `implementation` `*1000`
 100484 | [J](codeforces/100484/J.cpp)  [D](codeforces/100484/D.cpp)  [C](codeforces/100484/C.cpp)  [I](codeforces/100484/I.cpp)  [G](codeforces/100484/G.cpp)  [H](codeforces/100484/H.cpp)  [E](codeforces/100484/E.cpp)  [L](codeforces/100484/L.cpp)  [K](codeforces/100484/K.cpp)  [F](codeforces/100484/F.cpp)  [A](codeforces/100484/A.cpp)  |           
 456 | [B](codeforces/456/B.java)  | `math` `number theory` `*1200`
-463 | [D](codeforces/463/D.cpp)  [E](codeforces/463/E.cpp)  [C](codeforces/463/C.cpp)  [B](codeforces/463/B.cpp)  | `dfs and similar` `dp` `graphs` `implementation` `*1900` `brute force` `dfs and similar` `math` `number theory` `trees` `*2100` `greedy` `hashing` `implementation` `*1900` `brute force` `implementation` `math` `*1100`
+463 | [D](codeforces/463/D.cpp)  [E](codeforces/463/E.cpp)  [C](codeforces/463/C.cpp)  [B](codeforces/463/B.cpp)  [A](codeforces/463/A.cpp)  | `dfs and similar` `dp` `graphs` `implementation` `*1900` `brute force` `dfs and similar` `math` `number theory` `trees` `*2100` `greedy` `hashing` `implementation` `*1900` `brute force` `implementation` `math` `*1100` `brute force` `implementation` `*1200`
 434 | [C](codeforces/434/C.cpp)  | `dp` `*2500`
 354 | [C](codeforces/354/C.cpp)  [E](codeforces/354/E.cpp)  [A](codeforces/354/A.cpp)  | `brute force` `dp` `number theory` `*2100` `constructive algorithms` `dfs and similar` `dp` `*2200` `brute force` `greedy` `math` `*1500`
 351 | [A](codeforces/351/A.cpp)  [E](codeforces/351/E.cpp)  [B](codeforces/351/B.cpp)  | `dp` `greedy` `implementation` `math` `*1800` `greedy` `*2200` `combinatorics` `dp` `probabilities` `*1900`
