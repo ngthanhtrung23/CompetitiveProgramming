@@ -43569,6 +43569,22 @@
     ],
     "timestamp": "Aug/14/2011 00:48"
   },
+  "CF7746313": {
+    "contest_id": 456,
+    "language": "Java 7",
+    "path": "codeforces/456/B.java",
+    "problem_index": "B",
+    "problem_name": "Fedya and Maths",
+    "problem_url": "https://codeforces.com/contest/456/problem/B",
+    "submission_id": "CF7746313",
+    "submission_url": "https://codeforces.com/contest/456/submission/7746313",
+    "tags": [
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Sep/12/2014 02:04"
+  },
   "CF7746368": {
     "contest_id": 455,
     "language": "GNU C++",
