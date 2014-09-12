@@ -43569,6 +43569,18 @@
     ],
     "timestamp": "Aug/14/2011 00:48"
   },
+  "CF7752584": {
+    "contest_id": 100484,
+    "language": "GNU C++",
+    "path": "codeforces/100484/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Completion",
+    "problem_url": "https://codeforces.com/gym/100484/problem/K",
+    "submission_id": "CF7752584",
+    "submission_url": "https://codeforces.com/gym/100484/submission/7752584",
+    "tags": [],
+    "timestamp": "Sep/12/2014 22:33"
+  },
   "CF7752777": {
     "contest_id": 100484,
     "language": "GNU C++",
