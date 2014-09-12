@@ -43569,6 +43569,18 @@
     ],
     "timestamp": "Aug/14/2011 00:48"
   },
+  "CF7760378": {
+    "contest_id": 100484,
+    "language": "GNU C++",
+    "path": "codeforces/100484/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Highways",
+    "problem_url": "https://codeforces.com/gym/100484/problem/G",
+    "submission_id": "CF7760378",
+    "submission_url": "https://codeforces.com/gym/100484/submission/7760378",
+    "tags": [],
+    "timestamp": "Sep/13/2014 00:03"
+  },
   "CF7764037": {
     "contest_id": 100484,
     "language": "GNU C++",
