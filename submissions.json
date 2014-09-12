@@ -43569,6 +43569,18 @@
     ],
     "timestamp": "Aug/14/2011 00:48"
   },
+  "CF7757472": {
+    "contest_id": 100484,
+    "language": "GNU C++",
+    "path": "codeforces/100484/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Advertisement",
+    "problem_url": "https://codeforces.com/gym/100484/problem/H",
+    "submission_id": "CF7757472",
+    "submission_url": "https://codeforces.com/gym/100484/submission/7757472",
+    "tags": [],
+    "timestamp": "Sep/12/2014 23:48"
+  },
   "CF7760378": {
     "contest_id": 100484,
     "language": "GNU C++",
