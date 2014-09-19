@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3228 problems solved.
+Total: 3229 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -224,7 +224,7 @@ Total: 3228 problems solved.
 100227 | [I](codeforces/100227/I.cpp)  [E](codeforces/100227/E.cpp)  [C](codeforces/100227/C.cpp)  [G](codeforces/100227/G.cpp)  [A](codeforces/100227/A.cpp)  [H](codeforces/100227/H.cpp)  [F](codeforces/100227/F.cpp)  [D](codeforces/100227/D.cpp)  [B](codeforces/100227/B.cpp)  [L](codeforces/100227/L.cpp)  [J](codeforces/100227/J.cpp)  |           
 100506 | [H](codeforces/100506/H.cpp)  [F](codeforces/100506/F.cpp)  [E](codeforces/100506/E.cpp)  [B](codeforces/100506/B.cpp)  [J](codeforces/100506/J.cpp)  [C](codeforces/100506/C.cpp)  [D](codeforces/100506/D.cpp)  [G](codeforces/100506/G.cpp)  [I](codeforces/100506/I.cpp)  [A](codeforces/100506/A.cpp)  |          
 100523 | [G](codeforces/100523/G.cpp)  [A](codeforces/100523/A.cpp)  [I](codeforces/100523/I.cpp)  [F](codeforces/100523/F.cpp)  [J](codeforces/100523/J.cpp)  [E](codeforces/100523/E.cpp)  [H](codeforces/100523/H.cpp)  [K](codeforces/100523/K.cpp)  [C](codeforces/100523/C.cpp)  |         
-100486 | [G](codeforces/100486/G.cpp)  [I](codeforces/100486/I.cpp)  |  
+100486 | [G](codeforces/100486/G.cpp)  [I](codeforces/100486/I.cpp)  [D](codeforces/100486/D.cpp)  |   
 610 | [E](codeforces/610/E.cpp)  [D](codeforces/610/D.cpp)  [C](codeforces/610/C.cpp)  [B](codeforces/610/B.cpp)  [A](codeforces/610/A.cpp)  | `data structures` `strings` `*2500` `constructive algorithms` `data structures` `geometry` `two pointers` `*2300` `constructive algorithms` `*1800` `constructive algorithms` `implementation` `*1300` `combinatorics` `math` `*1000`
 100220 | [H](codeforces/100220/H.cpp)  [I](codeforces/100220/I.cpp)  [J](codeforces/100220/J.cpp)  [E](codeforces/100220/E.cpp)  [F](codeforces/100220/F.cpp)  [C](codeforces/100220/C.cpp)  [G](codeforces/100220/G.cpp)  [B](codeforces/100220/B.cpp)  |        
 611 | [F](codeforces/611/F.cpp)  [E](codeforces/611/E.cpp)  [D](codeforces/611/D.cpp)  [C](codeforces/611/C.cpp)  [B](codeforces/611/B.cpp)  [A](codeforces/611/A.cpp)  | `binary search` `implementation` `*2500` `data structures` `greedy` `sortings` `*2400` `dp` `hashing` `strings` `*2000` `dp` `implementation` `*1500` `bitmasks` `brute force` `implementation` `*1300` `implementation` `*900`
