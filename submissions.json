@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7853612": {
+    "contest_id": 100486,
+    "language": "GNU C++",
+    "path": "codeforces/100486/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Saving the Universe",
+    "problem_url": "https://codeforces.com/gym/100486/problem/J",
+    "submission_id": "CF7853612",
+    "submission_url": "https://codeforces.com/gym/100486/submission/7853612",
+    "tags": [],
+    "timestamp": "Sep/19/2014 21:34"
+  },
   "CF7853767": {
     "contest_id": 100486,
     "language": "GNU C++",
