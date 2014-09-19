@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7852617": {
+    "contest_id": 100486,
+    "language": "GNU C++",
+    "path": "codeforces/100486/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Text Encryption",
+    "problem_url": "https://codeforces.com/gym/100486/problem/C",
+    "submission_id": "CF7852617",
+    "submission_url": "https://codeforces.com/gym/100486/submission/7852617",
+    "tags": [],
+    "timestamp": "Sep/19/2014 20:33"
+  },
   "CF7853265": {
     "contest_id": 100486,
     "language": "GNU C++",
