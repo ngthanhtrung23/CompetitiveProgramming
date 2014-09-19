@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7852188": {
+    "contest_id": 100486,
+    "language": "GNU C++",
+    "path": "codeforces/100486/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Who is who's boss?",
+    "problem_url": "https://codeforces.com/gym/100486/problem/K",
+    "submission_id": "CF7852188",
+    "submission_url": "https://codeforces.com/gym/100486/submission/7852188",
+    "tags": [],
+    "timestamp": "Sep/19/2014 20:26"
+  },
   "CF7852617": {
     "contest_id": 100486,
     "language": "GNU C++",
