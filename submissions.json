@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7855927": {
+    "contest_id": 100486,
+    "language": "GNU C++",
+    "path": "codeforces/100486/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Domino tiling",
+    "problem_url": "https://codeforces.com/gym/100486/problem/I",
+    "submission_id": "CF7855927",
+    "submission_url": "https://codeforces.com/gym/100486/submission/7855927",
+    "tags": [],
+    "timestamp": "Sep/19/2014 23:57"
+  },
   "CF7868667": {
     "contest_id": 468,
     "language": "GNU C++",
