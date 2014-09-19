@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7853767": {
+    "contest_id": 100486,
+    "language": "GNU C++",
+    "path": "codeforces/100486/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Ambiguous Result",
+    "problem_url": "https://codeforces.com/gym/100486/problem/H",
+    "submission_id": "CF7853767",
+    "submission_url": "https://codeforces.com/gym/100486/submission/7853767",
+    "tags": [],
+    "timestamp": "Sep/19/2014 21:44"
+  },
   "CF7853875": {
     "contest_id": 100486,
     "language": "GNU C++",
