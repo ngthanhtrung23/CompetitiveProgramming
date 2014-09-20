@@ -43603,6 +43603,25 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7884396": {
+    "contest_id": 468,
+    "language": "GNU C++",
+    "path": "codeforces/468/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Two Sets",
+    "problem_url": "https://codeforces.com/contest/468/problem/B",
+    "submission_id": "CF7884396",
+    "submission_url": "https://codeforces.com/contest/468/submission/7884396",
+    "tags": [
+      "2-sat",
+      "dfs and similar",
+      "dsu",
+      "graph matchings",
+      "greedy",
+      "*2000"
+    ],
+    "timestamp": "Sep/21/2014 00:16"
+  },
   "CF7892782": {
     "contest_id": 468,
     "language": "GNU C++",

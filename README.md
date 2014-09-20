@@ -13,7 +13,7 @@ Only Accepted submissions are included.
 
 All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
 
-Total: 3225 problems solved.
+Total: 3226 problems solved.
 
 | Contest | Solutions | Tags |
 | ------- | --------- | ---- |
@@ -721,7 +721,7 @@ Total: 3225 problems solved.
 471 | [B](codeforces/471/B.cpp)  [A](codeforces/471/A.cpp)  [C](codeforces/471/C.cpp)  [D](codeforces/471/D.cpp)  | `implementation` `sortings` `*1300` `implementation` `*1100` `binary search` `brute force` `greedy` `math` `*1700` `string suffix structures` `strings` `*1800`
 100494 | [H](codeforces/100494/H.cpp)  [J](codeforces/100494/J.cpp)  [C](codeforces/100494/C.cpp)  [A](codeforces/100494/A.cpp)  [I](codeforces/100494/I.cpp)  [L](codeforces/100494/L.cpp)  [K](codeforces/100494/K.cpp)  [G](codeforces/100494/G.cpp)  [E](codeforces/100494/E.cpp)  [B](codeforces/100494/B.cpp)  |          
 469 | [B](codeforces/469/B.cpp)  [A](codeforces/469/A.cpp)  | `implementation` `*1300` `greedy` `implementation` `*800`
-468 | [C](codeforces/468/C.cpp)  | `binary search` `constructive algorithms` `math` `*2500`
+468 | [C](codeforces/468/C.cpp)  [B](codeforces/468/B.cpp)  | `binary search` `constructive algorithms` `math` `*2500` `2-sat` `dfs and similar` `dsu` `graph matchings` `greedy` `*2000`
 434 | [C](codeforces/434/C.cpp)  | `dp` `*2500`
 354 | [C](codeforces/354/C.cpp)  [E](codeforces/354/E.cpp)  [A](codeforces/354/A.cpp)  | `brute force` `dp` `number theory` `*2100` `constructive algorithms` `dfs and similar` `dp` `*2200` `brute force` `greedy` `math` `*1500`
 351 | [A](codeforces/351/A.cpp)  [E](codeforces/351/E.cpp)  [B](codeforces/351/B.cpp)  | `dp` `greedy` `implementation` `math` `*1800` `greedy` `*2200` `combinatorics` `dp` `probabilities` `*1900`
