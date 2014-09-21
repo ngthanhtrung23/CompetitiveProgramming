@@ -43603,6 +43603,23 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7892782": {
+    "contest_id": 468,
+    "language": "GNU C++",
+    "path": "codeforces/468/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Hack it!",
+    "problem_url": "https://codeforces.com/contest/468/problem/C",
+    "submission_id": "CF7892782",
+    "submission_url": "https://codeforces.com/contest/468/submission/7892782",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Sep/21/2014 16:30"
+  },
   "CF7892831": {
     "contest_id": 469,
     "language": "GNU C++",
