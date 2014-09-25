@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7946395": {
+    "contest_id": 100494,
+    "language": "GNU C++",
+    "path": "codeforces/100494/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Best Cow Line",
+    "problem_url": "https://codeforces.com/gym/100494/problem/K",
+    "submission_id": "CF7946395",
+    "submission_url": "https://codeforces.com/gym/100494/submission/7946395",
+    "tags": [],
+    "timestamp": "Sep/25/2014 21:06"
+  },
   "CF7946944": {
     "contest_id": 100494,
     "language": "GNU C++",
