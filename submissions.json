@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7946944": {
+    "contest_id": 100494,
+    "language": "GNU C++",
+    "path": "codeforces/100494/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Train Timetable",
+    "problem_url": "https://codeforces.com/gym/100494/problem/L",
+    "submission_id": "CF7946944",
+    "submission_url": "https://codeforces.com/gym/100494/submission/7946944",
+    "tags": [],
+    "timestamp": "Sep/25/2014 21:40"
+  },
   "CF7947184": {
     "contest_id": 100494,
     "language": "GNU C++",
