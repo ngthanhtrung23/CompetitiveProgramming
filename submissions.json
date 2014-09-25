@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7948880": {
+    "contest_id": 100494,
+    "language": "GNU C++",
+    "path": "codeforces/100494/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Just A Few More Triangles!",
+    "problem_url": "https://codeforces.com/gym/100494/problem/J",
+    "submission_id": "CF7948880",
+    "submission_url": "https://codeforces.com/gym/100494/submission/7948880",
+    "tags": [],
+    "timestamp": "Sep/25/2014 23:55"
+  },
   "CF7949146": {
     "contest_id": 100494,
     "language": "GNU C++",
