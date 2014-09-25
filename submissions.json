@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7949146": {
+    "contest_id": 100494,
+    "language": "GNU C++",
+    "path": "codeforces/100494/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Hard Evidence",
+    "problem_url": "https://codeforces.com/gym/100494/problem/H",
+    "submission_id": "CF7949146",
+    "submission_url": "https://codeforces.com/gym/100494/submission/7949146",
+    "tags": [],
+    "timestamp": "Sep/26/2014 00:19"
+  },
   "CF7960377": {
     "contest_id": 471,
     "language": "GNU C++",
