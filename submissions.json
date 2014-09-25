@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7945714": {
+    "contest_id": 100494,
+    "language": "GNU C++",
+    "path": "codeforces/100494/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Best Compression Ever",
+    "problem_url": "https://codeforces.com/gym/100494/problem/B",
+    "submission_id": "CF7945714",
+    "submission_url": "https://codeforces.com/gym/100494/submission/7945714",
+    "tags": [],
+    "timestamp": "Sep/25/2014 20:25"
+  },
   "CF7945772": {
     "contest_id": 100494,
     "language": "GNU C++",
