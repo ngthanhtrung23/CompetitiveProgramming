@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7947685": {
+    "contest_id": 100494,
+    "language": "GNU C++",
+    "path": "codeforces/100494/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Aspen Avenue",
+    "problem_url": "https://codeforces.com/gym/100494/problem/A",
+    "submission_id": "CF7947685",
+    "submission_url": "https://codeforces.com/gym/100494/submission/7947685",
+    "tags": [],
+    "timestamp": "Sep/25/2014 22:28"
+  },
   "CF7948271": {
     "contest_id": 100494,
     "language": "GNU C++",
