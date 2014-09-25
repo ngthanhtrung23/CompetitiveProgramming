@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7945772": {
+    "contest_id": 100494,
+    "language": "GNU C++",
+    "path": "codeforces/100494/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Event Planning",
+    "problem_url": "https://codeforces.com/gym/100494/problem/E",
+    "submission_id": "CF7945772",
+    "submission_url": "https://codeforces.com/gym/100494/submission/7945772",
+    "tags": [],
+    "timestamp": "Sep/25/2014 20:29"
+  },
   "CF7945994": {
     "contest_id": 100494,
     "language": "GNU C++",
