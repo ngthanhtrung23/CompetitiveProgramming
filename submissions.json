@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7947184": {
+    "contest_id": 100494,
+    "language": "GNU C++",
+    "path": "codeforces/100494/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Introspective Caching",
+    "problem_url": "https://codeforces.com/gym/100494/problem/I",
+    "submission_id": "CF7947184",
+    "submission_url": "https://codeforces.com/gym/100494/submission/7947184",
+    "tags": [],
+    "timestamp": "Sep/25/2014 21:54"
+  },
   "CF7947685": {
     "contest_id": 100494,
     "language": "GNU C++",
