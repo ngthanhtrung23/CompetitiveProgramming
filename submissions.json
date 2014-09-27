@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7982631": {
+    "contest_id": 100488,
+    "language": "GNU C++",
+    "path": "codeforces/100488/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Yet Another Goat in the Garden",
+    "problem_url": "https://codeforces.com/gym/100488/problem/A",
+    "submission_id": "CF7982631",
+    "submission_url": "https://codeforces.com/gym/100488/submission/7982631",
+    "tags": [],
+    "timestamp": "Sep/27/2014 18:00"
+  },
   "CF7983067": {
     "contest_id": 100488,
     "language": "GNU C++",
