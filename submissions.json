@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7984443": {
+    "contest_id": 100488,
+    "language": "GNU C++",
+    "path": "codeforces/100488/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Tony Hawk's Pro Skater",
+    "problem_url": "https://codeforces.com/gym/100488/problem/H",
+    "submission_id": "CF7984443",
+    "submission_url": "https://codeforces.com/gym/100488/submission/7984443",
+    "tags": [],
+    "timestamp": "Sep/27/2014 20:17"
+  },
   "CF8022983": {
     "contest_id": 472,
     "language": "GNU C++",
