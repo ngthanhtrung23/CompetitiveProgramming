@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF7982068": {
+    "contest_id": 100488,
+    "language": "GNU C++",
+    "path": "codeforces/100488/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Two Pirates",
+    "problem_url": "https://codeforces.com/gym/100488/problem/K",
+    "submission_id": "CF7982068",
+    "submission_url": "https://codeforces.com/gym/100488/submission/7982068",
+    "tags": [],
+    "timestamp": "Sep/27/2014 17:12"
+  },
   "CF7982129": {
     "contest_id": 100488,
     "language": "GNU C++",
