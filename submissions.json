@@ -43603,6 +43603,23 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8023892": {
+    "contest_id": 472,
+    "language": "GNU C++",
+    "path": "codeforces/472/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Design Tutorial: Increase the Constraints",
+    "problem_url": "https://codeforces.com/contest/472/problem/G",
+    "submission_id": "CF8023892",
+    "submission_url": "https://codeforces.com/contest/472/submission/8023892",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "fft",
+      "*2800"
+    ],
+    "timestamp": "Sep/29/2014 19:06"
+  },
   "CF8056695": {
     "contest_id": 100497,
     "language": "GNU C++",
