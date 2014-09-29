@@ -43603,6 +43603,21 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8023064": {
+    "contest_id": 472,
+    "language": "GNU C++",
+    "path": "codeforces/472/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Design Tutorial: Make It Nondeterministic",
+    "problem_url": "https://codeforces.com/contest/472/problem/C",
+    "submission_id": "CF8023064",
+    "submission_url": "https://codeforces.com/contest/472/submission/8023064",
+    "tags": [
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Sep/29/2014 17:40"
+  },
   "CF8023319": {
     "contest_id": 472,
     "language": "GNU C++",
