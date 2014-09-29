@@ -43603,6 +43603,22 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8022983": {
+    "contest_id": 472,
+    "language": "GNU C++",
+    "path": "codeforces/472/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Design Tutorial: Learn from Math",
+    "problem_url": "https://codeforces.com/contest/472/problem/A",
+    "submission_id": "CF8022983",
+    "submission_url": "https://codeforces.com/contest/472/submission/8022983",
+    "tags": [
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Sep/29/2014 17:33"
+  },
   "CF8023008": {
     "contest_id": 472,
     "language": "GNU C++",
