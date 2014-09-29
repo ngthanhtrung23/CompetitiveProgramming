@@ -43603,6 +43603,24 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8023319": {
+    "contest_id": 472,
+    "language": "GNU C++",
+    "path": "codeforces/472/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Design Tutorial: Inverse the Problem",
+    "problem_url": "https://codeforces.com/contest/472/problem/D",
+    "submission_id": "CF8023319",
+    "submission_url": "https://codeforces.com/contest/472/submission/8023319",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "shortest paths",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Sep/29/2014 18:04"
+  },
   "CF8023892": {
     "contest_id": 472,
     "language": "GNU C++",
