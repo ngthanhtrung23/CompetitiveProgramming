@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8057687": {
+    "contest_id": 100497,
+    "language": "GNU C++",
+    "path": "codeforces/100497/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Sum of One-sequence",
+    "problem_url": "https://codeforces.com/gym/100497/problem/G",
+    "submission_id": "CF8057687",
+    "submission_url": "https://codeforces.com/gym/100497/submission/8057687",
+    "tags": [],
+    "timestamp": "Oct/02/2014 21:04"
+  },
   "CF8058170": {
     "contest_id": 100497,
     "language": "GNU C++",
