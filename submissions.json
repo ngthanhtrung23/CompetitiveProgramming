@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8058203": {
+    "contest_id": 100497,
+    "language": "GNU C++",
+    "path": "codeforces/100497/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Dance Floor",
+    "problem_url": "https://codeforces.com/gym/100497/problem/A",
+    "submission_id": "CF8058203",
+    "submission_url": "https://codeforces.com/gym/100497/submission/8058203",
+    "tags": [],
+    "timestamp": "Oct/02/2014 21:28"
+  },
   "CF8058560": {
     "contest_id": 100497,
     "language": "GNU C++",
