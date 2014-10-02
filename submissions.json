@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8058170": {
+    "contest_id": 100497,
+    "language": "GNU C++",
+    "path": "codeforces/100497/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Barica",
+    "problem_url": "https://codeforces.com/gym/100497/problem/I",
+    "submission_id": "CF8058170",
+    "submission_url": "https://codeforces.com/gym/100497/submission/8058170",
+    "tags": [],
+    "timestamp": "Oct/02/2014 21:26"
+  },
   "CF8058203": {
     "contest_id": 100497,
     "language": "GNU C++",
