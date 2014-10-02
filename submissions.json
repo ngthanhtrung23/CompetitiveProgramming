@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8058560": {
+    "contest_id": 100497,
+    "language": "GNU C++",
+    "path": "codeforces/100497/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Palindrome",
+    "problem_url": "https://codeforces.com/gym/100497/problem/B",
+    "submission_id": "CF8058560",
+    "submission_url": "https://codeforces.com/gym/100497/submission/8058560",
+    "tags": [],
+    "timestamp": "Oct/02/2014 21:47"
+  },
   "CF8058929": {
     "contest_id": 100497,
     "language": "GNU C++",
