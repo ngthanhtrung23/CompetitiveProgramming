@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8057124": {
+    "contest_id": 100497,
+    "language": "GNU C++",
+    "path": "codeforces/100497/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Dependency Problems",
+    "problem_url": "https://codeforces.com/gym/100497/problem/K",
+    "submission_id": "CF8057124",
+    "submission_url": "https://codeforces.com/gym/100497/submission/8057124",
+    "tags": [],
+    "timestamp": "Oct/02/2014 20:40"
+  },
   "CF8057687": {
     "contest_id": 100497,
     "language": "GNU C++",
