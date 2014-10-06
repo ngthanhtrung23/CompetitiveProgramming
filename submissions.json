@@ -43603,6 +43603,22 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8122391": {
+    "contest_id": 474,
+    "language": "GNU C++",
+    "path": "codeforces/474/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Captain Marmot",
+    "problem_url": "https://codeforces.com/contest/474/problem/C",
+    "submission_id": "CF8122391",
+    "submission_url": "https://codeforces.com/contest/474/submission/8122391",
+    "tags": [
+      "brute force",
+      "geometry",
+      "*2000"
+    ],
+    "timestamp": "Oct/07/2014 03:51"
+  },
   "CF8136909": {
     "contest_id": 321,
     "language": "GNU C++",
