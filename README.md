@@ -712,7 +712,7 @@ All submissions from gyms and virtual contests are here. So also includes submis
 312 | [B](codeforces/312/B.cpp)  [A](codeforces/312/A.cpp)  | `math` `probabilities` `*1300` `implementation` `strings` `*1100`
 321 | [C](codeforces/321/C.cpp)  [E](codeforces/321/E.cpp)  [B](codeforces/321/B.cpp)  [A](codeforces/321/A.cpp)  | `constructive algorithms` `dfs and similar` `divide and conquer` `greedy` `trees` `*2100` `data structures` `divide and conquer` `dp` `*2600` `dp` `flows` `greedy` `*1900` `binary search` `implementation` `math` `*1700`
 322 | [D](codeforces/322/D.cpp)  [C](codeforces/322/C.cpp)  [B](codeforces/322/B.cpp)  [A](codeforces/322/A.cpp)  | `dp` `flows` `greedy` `two pointers` `*1900` `implementation` `math` `number theory` `*1700` `combinatorics` `math` `*1600` `greedy` `*1000`
-474 | [C](codeforces/474/C.cpp)  [B](codeforces/474/B.cpp)  | `brute force` `geometry` `*2000` `binary search` `implementation` `*1200`
+474 | [C](codeforces/474/C.cpp)  [B](codeforces/474/B.cpp)  [A](codeforces/474/A.cpp)  | `brute force` `geometry` `*2000` `binary search` `implementation` `*1200` `implementation` `*900`
 434 | [C](codeforces/434/C.cpp)  | `dp` `*2500`
 354 | [C](codeforces/354/C.cpp)  [E](codeforces/354/E.cpp)  [A](codeforces/354/A.cpp)  | `brute force` `dp` `number theory` `*2100` `constructive algorithms` `dfs and similar` `dp` `*2200` `brute force` `greedy` `math` `*1500`
 351 | [A](codeforces/351/A.cpp)  [E](codeforces/351/E.cpp)  [B](codeforces/351/B.cpp)  | `dp` `greedy` `implementation` `math` `*1800` `greedy` `*2200` `combinatorics` `dp` `probabilities` `*1900`
