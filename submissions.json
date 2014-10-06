@@ -43603,6 +43603,25 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8110917": {
+    "contest_id": 474,
+    "language": "GNU C++",
+    "path": "codeforces/474/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Pillars",
+    "problem_url": "https://codeforces.com/contest/474/problem/E",
+    "submission_id": "CF8110917",
+    "submission_url": "https://codeforces.com/contest/474/submission/8110917",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "sortings",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Oct/06/2014 23:50"
+  },
   "CF8113040": {
     "contest_id": 474,
     "language": "GNU C++",
