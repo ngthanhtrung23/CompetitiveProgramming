@@ -1,79 +1,94 @@
-#include <bits/stdc++.h>
+// http://codeforces.com/blog/entry/8219
+// Divide and conquer optimization:
+// Original Recurrence
+//   dp[i][j] = min(d[i-1][k] + C[k][j]) for k < j
+// Sufficient condition:
+//   A[i][j] <= A[i][j+1]
+//   where A[i][j] = smallest k that gives optimal answer
+// How to use:
+//   // compute i-th row of dp from L to R. optL <= A[i][L] <= A[i][R] <= optR
+//   compute(i, L, R, optL, optR)
+//       1. special case L == R
+//       2. let M = (L + R) / 2. Calculate dp[i][M] and opt[i][M] using O(optR - optL + 1)
+//       3. compute(i, L, M-1, optL, opt[i][M])
+//       4. compute(i, M+1, R, opt[i][M], optR)
+
+#include <set>
+#include <map>
+#include <list>
+#include <cmath>
+#include <queue>
+#include <stack>
+#include <cstdio>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include <cstring>
+#include <sstream>
+#include <iomanip>
+#include <complex>
+#include <iostream>
+#include <algorithm>
+
+#include <ctime>
+#include <deque>
+#include <bitset>
+#include <cctype>
+#include <utility>
+#include <cassert>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-//Buffer reading
-int INP,AM,REACHEOF;
-const int BUFSIZE = (1<<12) + 17;
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp && !REACHEOF) { \
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
-
 const int MN = 4011;
-const int oo = 1000111000;
-int cost[MN][MN], f[888][MN], n, k;
+const int inf = 1000111000;
+int n, k, cost[MN][MN], dp[811][MN];
 
 inline int getCost(int i, int j) {
     return cost[j][j] - cost[j][i-1] - cost[i-1][j] + cost[i-1][i-1];
 }
 
-void compute(int d, int l, int r, int u, int v) {
-    if (l > r) return ;
+void compute(int i, int L, int R, int optL, int optR) {
+    if (L > R) return ;
 
-    int mid = (l + r) >> 1;
-    f[d][mid] = oo;
-    int savek = u;
-    FOR(k,u,min(v, mid-1)) {
-        int now = f[d-1][k] + getCost(k+1, mid);
-        if (now < f[d][mid]) {
-            f[d][mid] = now;
+    int mid = (L + R) >> 1, savek = optL;
+    dp[i][mid] = inf;
+    FOR(k,optL,min(mid-1, optR)) {
+        int cur = dp[i-1][k] + getCost(k+1, mid);
+        if (cur < dp[i][mid]) {
+            dp[i][mid] = cur;
             savek = k;
         }
     }
-    compute(d, l, mid-1, u, savek);
-    compute(d, mid+1, r, savek, v);
+    compute(i, L, mid-1, optL, savek);
+    compute(i, mid+1, R, savek, optR);
 }
 
 int main() {
-    ios :: sync_with_stdio(false);
+    ios :: sync_with_stdio(false); cin.tie(NULL);
     while (cin >> n >> k) {
         FOR(i,1,n) FOR(j,1,n) {
             cin >> cost[i][j];
             cost[i][j] = cost[i-1][j] + cost[i][j-1] - cost[i-1][j-1] + cost[i][j];
         }
 
-        f[0][0] = 0;
-        FOR(i,1,n) f[0][i] = oo;
+        dp[0][0] = 0;
+        FOR(i,1,n) dp[0][i] = inf;
 
-        FOR(d,1,k) {
-            compute(d, 1, n, 0, n);
-            // PR(f[d], n);
+        FOR(i,1,k) {
+            compute(i, 1, n, 0, n);
         }
-        cout << f[k][n] / 2 << endl;
+        cout << dp[k][n] / 2 << endl;
     }
     return 0;
 }
+
