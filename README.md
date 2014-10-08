@@ -709,6 +709,7 @@ All submissions from gyms and virtual contests are here. So also includes submis
 164 | [C](codeforces/164/C.cpp)  [A](codeforces/164/A.cpp)  [B](codeforces/164/B.cpp)  | `flows` `graphs` `*2400` `dfs and similar` `graphs` `*1700` `two pointers` `*2000`
 277 | [E](codeforces/277/E.cpp)  [B](codeforces/277/B.cpp)  [A](codeforces/277/A.cpp)  [C](codeforces/277/C.cpp)  | `flows` `trees` `*2400` `constructive algorithms` `geometry` `*2300` `dfs and similar` `dsu` `*1400` `games` `implementation` `*2400`
 270 | [A](codeforces/270/A.cpp)  [B](codeforces/270/B.cpp)  | `geometry` `implementation` `math` `*1100` `data structures` `greedy` `implementation` `*1400`
+312 | [B](codeforces/312/B.cpp)  [A](codeforces/312/A.java)  | `math` `probabilities` `*1300` `implementation` `strings` `*1100`
 434 | [C](codeforces/434/C.cpp)  | `dp` `*2500`
 354 | [C](codeforces/354/C.cpp)  [E](codeforces/354/E.cpp)  [A](codeforces/354/A.cpp)  | `brute force` `dp` `number theory` `*2100` `constructive algorithms` `dfs and similar` `dp` `*2200` `brute force` `greedy` `math` `*1500`
 351 | [A](codeforces/351/A.cpp)  [E](codeforces/351/E.cpp)  [B](codeforces/351/B.cpp)  | `dp` `greedy` `implementation` `math` `*1800` `greedy` `*2200` `combinatorics` `dp` `probabilities` `*1900`
@@ -723,7 +724,6 @@ All submissions from gyms and virtual contests are here. So also includes submis
 261 | [D](codeforces/261/D.cpp)  [B](codeforces/261/B.cpp)  [C](codeforces/261/C.cpp)  [A](codeforces/261/A.cpp)  | `dp` `*2600` `dp` `math` `probabilities` `*1900` `constructive algorithms` `dp` `math` `*2000` `greedy` `sortings` `*1400`
 213 | [E](codeforces/213/E.cpp)  [B](codeforces/213/B.cpp)  [D](codeforces/213/D.cpp)  [C](codeforces/213/C.cpp)  [A](codeforces/213/A.cpp)  | `data structures` `hashing` `strings` `*2700` `combinatorics` `dp` `*1900` `constructive algorithms` `geometry` `*2300` `dp` `*2000` `dfs and similar` `greedy` `*1700`
 303 | [C](codeforces/303/C.cpp)  [B](codeforces/303/B.cpp)  [A](codeforces/303/A.cpp)  | `brute force` `graphs` `math` `number theory` `*2400` `implementation` `math` `*1700` `constructive algorithms` `implementation` `math` `*1300`
-312 | [B](codeforces/312/B.cpp)  [A](codeforces/312/A.java)  | `math` `probabilities` `*1300` `implementation` `strings` `*1100`
 212 | [B](codeforces/212/B.cpp)  [C](codeforces/212/C.cpp)  [E](codeforces/212/E.cpp)  | `bitmasks` `hashing` `implementation` `*2300` `combinatorics` `dp` `math` `*2100` `dfs and similar` `dp` `trees` `*1500`
 306 | [D](codeforces/306/D.cpp)  [B](codeforces/306/B.cpp)  [C](codeforces/306/C.cpp)  [A](codeforces/306/A.cpp)  | `constructive algorithms` `geometry` `*2300` `data structures` `greedy` `sortings` `*2100` `combinatorics` `number theory` `*2100` `implementation` `*800`
 309 | [C](codeforces/309/C.cpp)  [B](codeforces/309/B.cpp)  [A](codeforces/309/A.cpp)  | `binary search` `bitmasks` `greedy` `*1900` `dp` `two pointers` `*2100` `binary search` `math` `two pointers` `*2000`
