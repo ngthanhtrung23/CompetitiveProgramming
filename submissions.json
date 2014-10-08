@@ -43603,6 +43603,21 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8137272": {
+    "contest_id": 322,
+    "language": "GNU C++",
+    "path": "codeforces/322/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Ciel and Dancing",
+    "problem_url": "https://codeforces.com/contest/322/problem/A",
+    "submission_id": "CF8137272",
+    "submission_url": "https://codeforces.com/contest/322/submission/8137272",
+    "tags": [
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Oct/08/2014 15:51"
+  },
   "CF8137281": {
     "contest_id": 322,
     "language": "GNU C++",
