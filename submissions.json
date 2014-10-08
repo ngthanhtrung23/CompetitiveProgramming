@@ -43603,6 +43603,23 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8137338": {
+    "contest_id": 322,
+    "language": "GNU C++",
+    "path": "codeforces/322/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Ciel and Robot",
+    "problem_url": "https://codeforces.com/contest/322/problem/C",
+    "submission_id": "CF8137338",
+    "submission_url": "https://codeforces.com/contest/322/submission/8137338",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Oct/08/2014 16:00"
+  },
   "CF8137797": {
     "contest_id": 322,
     "language": "GNU C++",
