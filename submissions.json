@@ -43603,6 +43603,24 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8137797": {
+    "contest_id": 322,
+    "language": "GNU C++",
+    "path": "codeforces/322/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Ciel and Duel",
+    "problem_url": "https://codeforces.com/contest/322/problem/D",
+    "submission_id": "CF8137797",
+    "submission_url": "https://codeforces.com/contest/322/submission/8137797",
+    "tags": [
+      "dp",
+      "flows",
+      "greedy",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Oct/08/2014 16:59"
+  },
   "CF8137813": {
     "contest_id": 321,
     "language": "GNU C++",
