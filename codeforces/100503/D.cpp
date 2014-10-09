@@ -1,4 +1,27 @@
-#include <bits/stdc++.h>
+#include <set>
+#include <map>
+#include <list>
+#include <cmath>
+#include <queue>
+#include <stack>
+#include <cstdio>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include <cstring>
+#include <sstream>
+#include <iomanip>
+#include <complex>
+#include <iostream>
+#include <algorithm>
+
+#include <ctime>
+#include <deque>
+#include <bitset>
+#include <cctype>
+#include <utility>
+#include <cassert>
+
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
@@ -20,40 +43,51 @@ inline ll next(ll x) {
 const int MN = 20000000;
 
 int main() {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
     ios :: sync_with_stdio(false); cin.tie(NULL);
+    freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
     
-    cin >> A >> B >> C;
-    ll x = 1;
-    ll y = 1;
-    FOR(i,1,MN) {
-        x = next(x);
-        if (x == 1) {
-            cout << i << endl;
-            return 0;
-        }
-        y = next(next(y));
-        if (y == x) break;
-    }
-
-    x = 1;
-    FOR(i,1,MN) {
-        x = next(x);
-        y = next(y);
-        if (x == y) {
-            FOR(j,i+1,MN) {
-                y = next(y);
-
-                if (y == x) {
-                    cout << j << endl;
-                    return 0;
-                }
+    while (cin >> A >> B >> C) {
+        ll x = 1;
+        bool found = false;
+        FOR(i,1,MN) {
+            x = next(x);
+            if (x == 1) {
+                cout << i << endl;
+                found = true;
+                break;
             }
-            break;
         }
-    }
+        if (found) continue;
 
-    cout << -1 << endl;
+        x = 1;
+        ll y = 1;
+        FOR(i,1,MN) {
+            x = next(x);
+            y = next(next(y));
+            if (y == x) break;
+        }
+
+        x = 1;
+        FOR(i,1,MN) {
+            x = next(x);
+            y = next(y);
+            if (x == y) {
+                found = true;
+
+                FOR(j,i+1,MN) {
+                    y = next(y);
+
+                    if (y == x) {
+                        cout << j << endl;
+                        break;
+                    }
+                }
+                break;
+            }
+        }
+
+        if (found) continue;
+        cout << -1 << endl;
+    }
     return 0;
 }
