@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8155016": {
+    "contest_id": 100503,
+    "language": "GNU C++",
+    "path": "codeforces/100503/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Annuity Payment Scheme",
+    "problem_url": "https://codeforces.com/gym/100503/problem/H",
+    "submission_id": "CF8155016",
+    "submission_url": "https://codeforces.com/gym/100503/submission/8155016",
+    "tags": [],
+    "timestamp": "Oct/09/2014 20:33"
+  },
   "CF8156040": {
     "contest_id": 100503,
     "language": "GNU C++",
