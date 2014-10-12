@@ -43603,6 +43603,21 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8209835": {
+    "contest_id": 477,
+    "language": "GNU C++",
+    "path": "codeforces/477/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Dreamoon and Sets",
+    "problem_url": "https://codeforces.com/contest/477/problem/B",
+    "submission_id": "CF8209835",
+    "submission_url": "https://codeforces.com/contest/477/submission/8209835",
+    "tags": [
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Oct/13/2014 01:25"
+  },
   "CF8230006": {
     "contest_id": 270,
     "language": "GNU C++",
