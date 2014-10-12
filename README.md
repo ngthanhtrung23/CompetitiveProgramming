@@ -689,7 +689,7 @@ All submissions from gyms and virtual contests are here. So also includes submis
 453 | [A](codeforces/453/A.cpp)  | `probabilities` `*1600`
 454 | [D](codeforces/454/D.cpp)  | `bitmasks` `dp` `*2000`
 100514 | [R](codeforces/100514/R.cpp)  | 
-477 | [B](codeforces/477/B.cpp)  | `math` `*1900`
+477 | [A](codeforces/477/A.cpp)  | `math` `*1600`
 470 | [A](codeforces/470/A.f)  | `*special problem` `implementation` `*1400`
 100513 | [B](codeforces/100513/B.cpp)  | 
 480 | [A](codeforces/480/A.cpp)  | `greedy` `sortings` `*1400`
