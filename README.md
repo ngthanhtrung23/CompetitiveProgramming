@@ -258,7 +258,7 @@ All submissions from gyms and virtual contests are here. So also includes submis
 598 | [A](codeforces/598/A.cpp)  | `math` `*900`
 597 | [A](codeforces/597/A.cpp)  | `math` `*1600`
 69 | [E](codeforces/69/E.cpp)  | `data structures` `implementation` `*1800`
-14 | [B](codeforces/14/B.cpp)  | `implementation` `*1000`
+14 | [C](codeforces/14/C.cpp)  | `brute force` `constructive algorithms` `geometry` `implementation` `math` `*1700`
 100800 | [C](codeforces/100800/C.cpp)  | 
 355 | [A](codeforces/355/A.py)  | `constructive algorithms` `implementation` `*1100`
 106 | [A](codeforces/106/A.cpp)  | `implementation` `*1000`
