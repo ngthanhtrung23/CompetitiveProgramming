@@ -657,7 +657,7 @@ All submissions from gyms and virtual contests are here. So also includes submis
 412 | [A](codeforces/412/A.cpp)  | `greedy` `implementation` `*900`
 452 | [F](codeforces/452/F.cpp)  | `data structures` `divide and conquer` `hashing` `*2700`
 100287 | [H](codeforces/100287/H.cpp)  | 
-476 | [C](codeforces/476/C.cpp)  | `math` `*1600`
+476 | [B](codeforces/476/B.cpp)  | `bitmasks` `brute force` `combinatorics` `dp` `math` `probabilities` `*1300`
 483 | [A](codeforces/483/A.cpp)  | `brute force` `implementation` `math` `number theory` `*1100`
 485 | [B](codeforces/485/B.cpp)  | `brute force` `greedy` `*1300`
 411 | [B](codeforces/411/B.cpp)  | `implementation` `*1600`

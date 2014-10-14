@@ -43603,6 +43603,26 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8231451": {
+    "contest_id": 476,
+    "language": "GNU C++",
+    "path": "codeforces/476/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Dreamoon and WiFi",
+    "problem_url": "https://codeforces.com/contest/476/problem/B",
+    "submission_id": "CF8231451",
+    "submission_url": "https://codeforces.com/contest/476/submission/8231451",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "math",
+      "probabilities",
+      "*1300"
+    ],
+    "timestamp": "Oct/15/2014 03:27"
+  },
   "CF8233535": {
     "contest_id": 166,
     "language": "GNU C++",
