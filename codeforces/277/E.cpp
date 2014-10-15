@@ -33,100 +33,73 @@
 
 #define sqr(x) ((x) * (x))
 using namespace std;
+// Source: rng_58: http://codeforces.com/contest/277/submission/3212642
+// Faster min cost max flow
+// Index from 0
+// NOTE!!!!!! Flow through both direction can be < 0
+// --> need to be careful when trace
 
-const double INF = 1e15;
-const double EPS = 1e-6;
-template<class Flow=int, class Cost=int>
+const long long F_INF = 1000111000111000LL;
+const long long C_INF = 1000111000111000LL;
+
+template<class Flow = long long, class Cost = long long>
 struct MinCostFlow {
-    int n, t, S, T;
-    Flow totalFlow;
-    Cost totalCost;
-    vector<int> last, visited;
-    vector<Cost> dis;
-    struct Edge {
-        int to;
-        Flow cap;
-        Cost cost;
-        int next;
-        Edge(int to, Flow cap, Cost cost, int next) :
-                to(to), cap(cap), cost(cost), next(next) {}
-    };
-    vector<Edge> edges;
+    int V, E;
+    vector<Flow> cap;
+    vector<Cost> cost;
+    vector<int> to, prev;
 
-    MinCostFlow(int n) : n(n), t(0), totalFlow(0), totalCost(0), last(n, -1), visited(n, 0), dis(n, 0) {
-        edges.clear();
+    vector<Cost> dist, pot;
+    vector<int> last, path, used;
+    priority_queue< pair<Cost, int> > q;
+
+    MinCostFlow(int V, int E) : V(V), E(0), cap(E*2,0), cost(E*2,0), to(E*2,0), prev(E*2,0),
+            dist(V,0), pot(V,0), last(V, -1), path(V,0), used(V,0) {}
+
+    int addEdge(int x, int y, Flow f, Cost c) {
+        cap[E] = f; cost[E] = c; to[E] = y; prev[E] = last[x]; last[x] = E; E++;
+        cap[E] = 0; cost[E] = -c; to[E] = x; prev[E] = last[y]; last[y] = E; E++;
+        return E - 2;
     }
 
-    int addEdge(int from, int to, Flow cap, Cost cost) {
-        edges.push_back(Edge(to, cap, cost, last[from]));
-        last[from] = t; ++t;
-        edges.push_back(Edge(from, 0, -cost, last[to]));
-        last[to] = t; ++t;
-        return t - 2;
-    }
+    pair<Flow, Cost> search(int s, int t) {
+        Flow ansf = 0; Cost ansc = 0;
+        REP(i,V) used[i] = false;
+        REP(i,V) dist[i] = C_INF;
 
-    pair<Flow, Cost> minCostFlow(int _S, int _T) {
-        S = _S; T = _T;
-        SPFA();
+        dist[s] = 0; path[s] = -1; q.push(make_pair(0, s));
+        while (!q.empty()) {
+            int x = q.top().second; q.pop();
+            if (used[x]) continue; used[x] = true;
+            for(int e = last[x]; e >= 0; e = prev[e]) if (cap[e] > 0) {
+                Cost tmp = dist[x] + cost[e] + pot[x] - pot[to[e]];
+                if (tmp < dist[to[e]] && !used[to[e]]) {
+                    dist[to[e]] = tmp;
+                    path[to[e]] = e;
+                    q.push(make_pair(-dist[to[e]], to[e]));
+                }
+            }
+        }
+        REP(i,V) pot[i] += dist[i];
+        if (used[t]) {
+            ansf = F_INF;
+            for(int e=path[t]; e >= 0; e=path[to[e^1]]) ansf = min(ansf, cap[e]);
+            for(int e=path[t]; e >= 0; e=path[to[e^1]]) { ansc += cost[e] * ansf; cap[e] -= ansf; cap[e^1] += ansf; }
+        }
+        return make_pair(ansf, ansc);
+    }
+    pair<Flow, Cost> minCostFlow(int s, int t) {
+        Flow ansf = 0; Cost ansc = 0;
         while (1) {
-            while (1) {
-                REP(i,n) visited[i] = 0;
-                if (!findFlow(S, INF)) break;
-            }
-            if (!modifyLabel()) break;
+            pair<Flow, Cost> p = search(s, t);
+            if (!used[t]) break;
+            ansf += p.first; ansc += p.second;
         }
-        return make_pair(totalFlow, totalCost);
-    }
-
-private:
-    void SPFA() {
-        REP(i,n) dis[i] = INF;
-        priority_queue< pair<Cost,int> > Q;
-        Q.push(make_pair(dis[S]=0, S));
-        while (!Q.empty()) {
-            int x = Q.top().second;
-            Cost d = -Q.top().first;
-            Q.pop();
-            if (dis[x] > d + EPS) continue;
-            for(int it = last[x]; it >= 0; it = edges[it].next)
-                if (edges[it].cap > 0 && dis[edges[it].to] > d + edges[it].cost)
-                    Q.push(make_pair(-(dis[edges[it].to] = d + edges[it].cost), edges[it].to));
-        }
-        REP(i,n) dis[i] = dis[T] - dis[i];
-    }
-
-    Flow findFlow(int x, Flow flow) {
-        if (x == T) {
-            totalCost += dis[S] * flow;
-            totalFlow += flow;
-            return flow;
-        }
-        visited[x] = 1;
-        Flow now = flow;
-        for(int it = last[x]; it >= 0; it = edges[it].next)
-            if (edges[it].cap && !visited[edges[it].to] && fabs(dis[edges[it].to] + edges[it].cost - dis[x]) < EPS) {
-                Flow tmp = findFlow(edges[it].to, min(now, edges[it].cap));
-                edges[it].cap -= tmp;
-                edges[it ^ 1].cap += tmp;
-                now -= tmp;
-                if (!now) break;
-            }
-        return flow - now;
-    }
-
-    bool modifyLabel() {
-        Cost d = INF;
-        REP(i,n) if (visited[i])
-            for(int it = last[i]; it >= 0; it = edges[it].next)
-                if (edges[it].cap && !visited[edges[it].to])
-                    d = min(d, dis[edges[it].to] + edges[it].cost - dis[i]);
-
-        if (d > 1e10) return false;
-        REP(i,n) if (visited[i])
-            dis[i] += d;
-        return true;
+        return make_pair(ansf, ansc);
     }
 };
+
+
 
 int x[411], y[411];
 
@@ -145,7 +118,7 @@ int main() {
             continue;
         }
 
-        MinCostFlow<long long, double> mcf(2*n+2);
+        MinCostFlow<long long, double> mcf(2*n+2, (2*n+2)*(2*n+2) + 111);
 
         REP(i,n) if (y[i] != ymax) mcf.addEdge(2*n, i, 1, 0);
         REP(i,n) mcf.addEdge(n+i, 2*n+1, 2, 0);
@@ -160,4 +133,3 @@ int main() {
     }
     return 0;
 }
-

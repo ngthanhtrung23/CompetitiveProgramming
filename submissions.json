@@ -43603,6 +43603,22 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8235802": {
+    "contest_id": 277,
+    "language": "GNU C++",
+    "path": "codeforces/277/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Binary Tree on Plane",
+    "problem_url": "https://codeforces.com/contest/277/problem/E",
+    "submission_id": "CF8235802",
+    "submission_url": "https://codeforces.com/contest/277/submission/8235802",
+    "tags": [
+      "flows",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Oct/15/2014 18:22"
+  },
   "CF8236003": {
     "contest_id": 269,
     "language": "GNU C++",
