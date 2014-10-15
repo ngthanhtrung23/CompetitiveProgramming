@@ -43603,6 +43603,22 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8234402": {
+    "contest_id": 277,
+    "language": "GNU C++",
+    "path": "codeforces/277/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Set of Points",
+    "problem_url": "https://codeforces.com/contest/277/problem/B",
+    "submission_id": "CF8234402",
+    "submission_url": "https://codeforces.com/contest/277/submission/8234402",
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "*2300"
+    ],
+    "timestamp": "Oct/15/2014 14:56"
+  },
   "CF8235802": {
     "contest_id": 277,
     "language": "GNU C++",
