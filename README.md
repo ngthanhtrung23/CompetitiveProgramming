@@ -707,7 +707,7 @@ All submissions from gyms and virtual contests are here. So also includes submis
 132 | [B](codeforces/132/B.cpp)  | `implementation` `*2100`
 133 | [A](codeforces/133/A.cpp)  | `implementation` `*900`
 164 | [B](codeforces/164/B.cpp)  | `two pointers` `*2000`
-277 | [A](codeforces/277/A.cpp)  | `dfs and similar` `dsu` `*1400`
+277 | [C](codeforces/277/C.cpp)  | `games` `implementation` `*2400`
 434 | [C](codeforces/434/C.cpp)  | `dp` `*2500`
 354 | [A](codeforces/354/A.cpp)  | `brute force` `greedy` `math` `*1500`
 351 | [B](codeforces/351/B.cpp)  | `combinatorics` `dp` `probabilities` `*1900`

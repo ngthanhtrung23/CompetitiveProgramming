@@ -1,103 +1,75 @@
-#include <sstream>
-#include <iomanip>
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
 #include <set>
 #include <map>
-#include <stack>
+#include <list>
+#include <cmath>
 #include <queue>
+#include <stack>
+#include <cstdio>
 #include <string>
-#include <deque>
+#include <vector>
+#include <cstdlib>
+#include <cstring>
+#include <sstream>
+#include <iomanip>
 #include <complex>
+#include <iostream>
+#include <algorithm>
+
+#include <ctime>
+#include <deque>
+#include <bitset>
+#include <cctype>
+#include <utility>
+#include <cassert>
+using namespace std;
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
-#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
-#define SET(a,v) memset(a,v,sizeof(a))
-#define sqr(x) ((x)*(x))
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
-using namespace std;
+#define DEBUG(x) { cout << #x << " = " << x << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
 
-//Buffer reading
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp) { \
-        if (REACHEOF) return 0;\
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
+const int MN = 211;
 
-const long double PI = acos((long double) -1.0);
+struct DSU {
+    int lab[MN];
+    void init() {
+        memset(lab, -1, sizeof lab);
+    }
 
-int m, n;
-int speak[111][111];
-int sz[111];
-int lab[111];
+    int getRoot(int u) {
+        if (lab[u] < 0) return u;
+        return lab[u] = getRoot(lab[u]);
+    }
 
-int getRoot(int u) {
-    if (lab[u] < 0) return u;
-    return lab[u] = getRoot(lab[u]);
-}
-
-void merge(int u, int v) {
-    u = getRoot(u);
-    v = getRoot(v);
-    if (u == v) return ;
-
-    int x = lab[u] + lab[v];
-    if (lab[u] < lab[v]) {
-        lab[u] = x;
+    bool merge(int u, int v) {
+        u = getRoot(u); v = getRoot(v);
+        if (u == v) return false;
+        if (lab[u] > lab[v]) swap(u, v);
+        lab[u] += lab[v];
         lab[v] = u;
+        return true;
     }
-    else {
-        lab[v] = x;
-        lab[u] = v;
-    }
-}
+};
+int n, m;
 
 int main() {
-    while (scanf("%d%d", &n, &m) == 2) {
-        memset(speak, 0, sizeof speak);
-        memset(lab, -1, sizeof lab);
+    ios :: sync_with_stdio(false); cin.tie(NULL);
+    cout << (fixed) << setprecision(6);
+    while (cin >> n >> m) {
+        DSU dsu;
+        dsu.init();
 
         bool all0 = true;
         FOR(i,1,n) {
-            scanf("%d", &sz[i]);
-            if (sz[i]) all0 = false;
-            FOR(x,1,sz[i]) {
-                int j; scanf("%d", &j);
-                speak[i][j] = 1;
+            int k; cin >> k;
+            if (k) all0 = false;
+            while (k--) {
+                int u; cin >> u;
+                dsu.merge(u, 100 + i);
             }
         }
 
@@ -106,20 +78,14 @@ int main() {
             continue;
         }
 
-        FOR(j,1,m)
-            FOR(i1,1,n)
-            FOR(i2,1,n)
-                if (speak[i1][j] && speak[i2][j])
-                    merge(i1, i2);
+        set<int> all;
 
-        bool first = true;
-        int res = 0;
-        FOR(i,1,n)
-        if (lab[i] < 0) {
-            if (first) first = false;
-            else ++res;
+        FOR(i,1,n) {
+            int t = dsu.getRoot(100 + i);
+            all.insert(t);
         }
-        cout << res << endl;
+        cout << all.size() - 1 << endl;
     }
     return 0;
 }
+
