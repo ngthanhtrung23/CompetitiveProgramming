@@ -43603,6 +43603,22 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8233535": {
+    "contest_id": 166,
+    "language": "GNU C++",
+    "path": "codeforces/166/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Polygons",
+    "problem_url": "https://codeforces.com/contest/166/problem/B",
+    "submission_id": "CF8233535",
+    "submission_url": "https://codeforces.com/contest/166/submission/8233535",
+    "tags": [
+      "geometry",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Oct/15/2014 12:58"
+  },
   "CF8234185": {
     "contest_id": 277,
     "language": "GNU C++",

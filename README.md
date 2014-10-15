@@ -386,7 +386,7 @@ All submissions from gyms and virtual contests are here. So also includes submis
 172 | [A](codeforces/172/A.java)  | `*special problem` `brute force` `implementation` `*800`
 131 | [E](codeforces/131/E.cpp)  | `sortings` `*1700`
 271 | [C](codeforces/271/C.cpp)  | `constructive algorithms` `implementation` `*1500`
-166 | [A](codeforces/166/A.py)  | `binary search` `implementation` `sortings` `*1100`
+166 | [B](codeforces/166/B.cpp)  | `geometry` `sortings` `*2100`
 217 | [A](codeforces/217/A.cpp)  | `brute force` `dfs and similar` `dsu` `graphs` `*1200`
 218 | [B](codeforces/218/B.py)  | `implementation` `*1100`
 544 | [A](codeforces/544/A.cpp)  | `implementation` `strings` `*1100`
