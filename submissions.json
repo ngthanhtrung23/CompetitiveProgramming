@@ -43603,6 +43603,21 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8249810": {
+    "contest_id": 478,
+    "language": "GNU C++0x",
+    "path": "codeforces/478/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Initial Bet",
+    "problem_url": "https://codeforces.com/contest/478/problem/A",
+    "submission_id": "CF8249810",
+    "submission_url": "https://codeforces.com/contest/478/submission/8249810",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Oct/16/2014 23:42"
+  },
   "CF8253392": {
     "contest_id": 478,
     "language": "GNU C++0x",
