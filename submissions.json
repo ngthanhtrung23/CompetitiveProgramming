@@ -43603,6 +43603,22 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8244489": {
+    "contest_id": 164,
+    "language": "GNU C++0x",
+    "path": "codeforces/164/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Machine Programming",
+    "problem_url": "https://codeforces.com/contest/164/problem/C",
+    "submission_id": "CF8244489",
+    "submission_url": "https://codeforces.com/contest/164/submission/8244489",
+    "tags": [
+      "flows",
+      "graphs",
+      "*2400"
+    ],
+    "timestamp": "Oct/16/2014 17:02"
+  },
   "CF8247170": {
     "contest_id": 280,
     "language": "GNU C++0x",

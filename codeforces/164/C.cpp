@@ -33,106 +33,107 @@
 
 #define sqr(x) ((x) * (x))
 using namespace std;
+/*
+ * mincostflow implementation. Vertex indices from 0
+ * Usage:
+ *   for i = 1..N: int v = mcf.addV();
+ *   for i = 1..E: MinCostFlow<int,int>::Edge* e = mcf.addEdge(u, v, flow, cost);
+ *   mcf.minCostFlow --> return pair<flow, cost>
+ * DANGEROUS!!!!!!! If need to find flow through each edge, remember that there can
+ * be flow through both (u, v) and (v, u)
+ */
 
-const int INF = 1000111000;
-template<class Flow=int, class Cost=int>
+// Slow version (Ford Bellman)
+
+#define _MAX_COST 1000111000111000LL
+#define _MAX_FLOW 1000111000
+
+// Must be careful when used with double.
+template<class Flow = int, class Cost = int>
 struct MinCostFlow {
-    int n, t, S, T;
-    Flow totalFlow;
-    Cost totalCost;
-    vector<int> last, visited;
-    vector<Cost> dis;
     struct Edge {
-        int to;
-        Flow cap;
-        Cost cost;
-        int next;
-        Edge(int to, Flow cap, Cost cost, int next) :
-                to(to), cap(cap), cost(cost), next(next) {}
+        int t;
+        Flow f;
+        Cost c;
+        Edge*next, *rev;
+        Edge(int _t, Flow _f, Cost _c, Edge*_next) :
+                t(_t), f(_f), c(_c), next(_next) {
+        }
     };
-    vector<Edge> edges;
+    vector<Edge*> E;
 
-    MinCostFlow(int n) : n(n), t(0), totalFlow(0), totalCost(0), last(n, -1), visited(n, 0), dis(n, 0) {
-        edges.clear();
+    int addV() {
+        E.push_back((Edge*) 0);
+        return E.size() - 1;
     }
-
-    int addEdge(int from, int to, Flow cap, Cost cost) {
-        edges.push_back(Edge(to, cap, cost, last[from]));
-        last[from] = t; ++t;
-        edges.push_back(Edge(from, 0, -cost, last[to]));
-        last[to] = t; ++t;
-        return t - 2;
+    Edge* makeEdge(int s, int t, Flow f, Cost c) {
+        return E[s] = new Edge(t, f, c, E[s]);
     }
+    Edge* addEdge(int s, int t, Flow f, Cost c) {
+        Edge*e1 = makeEdge(s, t, f, c), *e2 = makeEdge(t, s, 0, -c);
+        e1->rev = e2, e2->rev = e1;
+        return e1;
+    }
+    pair<Flow, Cost> minCostFlow(int vs, int vt) {
+        int n = E.size();
+        Flow flow = 0;
+        Cost cost = 0;
+        const Cost MAX_COST = _MAX_COST;
+        const Flow MAX_FLOW = _MAX_FLOW;
+        for (;;) {
+            vector<Cost> dist(n, MAX_COST);
+            vector<Flow> am(n, 0);
+            vector<Edge*> prev(n);
+            vector<bool> inQ(n, false);
+            queue<int> que;
 
-    pair<Flow, Cost> minCostFlow(int _S, int _T) {
-        S = _S; T = _T;
-        SPFA();
-        while (1) {
-            while (1) {
-                REP(i,n) visited[i] = 0;
-                if (!findFlow(S, INF)) break;
+            dist[vs] = 0;
+            am[vs] = MAX_FLOW;
+            que.push(vs);
+            inQ[vs] = true;
+
+            while (!que.empty()) {
+                int u = que.front();
+                Cost c = dist[u];
+                que.pop();
+                inQ[u] = false;
+                for (Edge*e = E[u]; e; e = e->next)
+                    if (e->f > 0) {
+                        Cost nc = c + e->c;
+                        if (nc < dist[e->t]) {
+                            dist[e->t] = nc;
+                            prev[e->t] = e;
+                            am[e->t] = min(am[u], e->f);
+                            if (!inQ[e->t]) {
+                                que.push(e->t);
+                                inQ[e->t] = true;
+                            }
+                        }
+                    }
             }
-            if (!modifyLabel()) break;
-        }
-        return make_pair(totalFlow, totalCost);
-    }
 
-private:
-    void SPFA() {
-        REP(i,n) dis[i] = INF;
-        priority_queue< pair<Cost,int> > Q;
-        Q.push(make_pair(dis[S]=0, S));
-        while (!Q.empty()) {
-            int x = Q.top().second;
-            Cost d = -Q.top().first;
-            Q.pop();
-            if (dis[x] != d) continue;
-            for(int it = last[x]; it >= 0; it = edges[it].next)
-                if (edges[it].cap > 0 && dis[edges[it].to] > d + edges[it].cost)
-                    Q.push(make_pair(-(dis[edges[it].to] = d + edges[it].cost), edges[it].to));
-        }
-        REP(i,n) dis[i] = dis[T] - dis[i];
-    }
-
-    Flow findFlow(int x, Flow flow) {
-        if (x == T) {
-            totalCost += dis[S] * flow;
-            totalFlow += flow;
-            return flow;
-        }
-        visited[x] = 1;
-        Flow now = flow;
-        for(int it = last[x]; it >= 0; it = edges[it].next)
-            if (edges[it].cap && !visited[edges[it].to] && dis[edges[it].to] + edges[it].cost == dis[x]) {
-                Flow tmp = findFlow(edges[it].to, min(now, edges[it].cap));
-                edges[it].cap -= tmp;
-                edges[it ^ 1].cap += tmp;
-                now -= tmp;
-                if (!now) break;
+            if (dist[vt] == MAX_COST) // careful with double
+                break;
+            Flow by = am[vt];
+            int u = vt;
+            flow += by;
+            cost += by * dist[vt];
+            while (u != vs) {
+                Edge*e = prev[u];
+                e->f -= by;
+                e->rev->f += by;
+                u = e->rev->t;
             }
-        return flow - now;
-    }
-
-    bool modifyLabel() {
-        Cost d = INF;
-        REP(i,n) if (visited[i])
-            for(int it = last[i]; it >= 0; it = edges[it].next)
-                if (edges[it].cap && !visited[edges[it].to])
-                    d = min(d, dis[edges[it].to] + edges[it].cost - dis[i]);
-
-        if (d == INF) return false;
-        REP(i,n) if (visited[i])
-            dis[i] += d;
-        return true;
+        }
+        return make_pair(flow, cost);
     }
 };
-
 
 
 const int MN = 2011;
 struct Work {
     int s, t, c;
-    int edge;
+    MinCostFlow<int, long long>::Edge* edge;
 } a[MN];
 int n, k, c[MN];
 
@@ -145,7 +146,8 @@ int main() {
         sort(c+1, c+s+1);
         s = unique(c+1, c+s+1) - c - 1;
 
-        MinCostFlow<int,long long> flow(s+2);
+        MinCostFlow<int,long long> flow;
+        REP(i,s+2) flow.addV();
         REP(i,s+1) flow.addEdge(i, i+1, k, 0);
 
         FOR(i,1,n) {
@@ -157,7 +159,7 @@ int main() {
         auto res = flow.minCostFlow(0, s+1);
 
         FOR(i,1,n)
-            if (flow.edges[a[i].edge].cap == 0) cout << "1 ";
+            if (a[i].edge->f == 0) cout << "1 ";
             else cout << "0 ";
         cout << endl;
     }
