@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8281845": {
+    "contest_id": 100506,
+    "language": "GNU C++0x",
+    "path": "codeforces/100506/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Cutting Banknotes",
+    "problem_url": "https://codeforces.com/gym/100506/problem/C",
+    "submission_id": "CF8281845",
+    "submission_url": "https://codeforces.com/gym/100506/submission/8281845",
+    "tags": [],
+    "timestamp": "Oct/17/2014 21:16"
+  },
   "CF8282108": {
     "contest_id": 100506,
     "language": "GNU C++0x",
