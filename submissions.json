@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8282997": {
+    "contest_id": 100506,
+    "language": "GNU C++0x",
+    "path": "codeforces/100506/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Lingo",
+    "problem_url": "https://codeforces.com/gym/100506/problem/E",
+    "submission_id": "CF8282997",
+    "submission_url": "https://codeforces.com/gym/100506/submission/8282997",
+    "tags": [],
+    "timestamp": "Oct/17/2014 22:25"
+  },
   "CF8283548": {
     "contest_id": 100506,
     "language": "GNU C++0x",
