@@ -58,9 +58,9 @@ struct MinCostFlow {
 
     int addEdge(int from, int to, Flow cap, Cost cost) {
         edges.push_back(Edge(to, cap, cost, last[from]));
-        last[from] = t++;
+        last[from] = t; ++t;
         edges.push_back(Edge(from, 0, -cost, last[to]));
-        last[to] = t++;
+        last[to] = t; ++t;
         return t - 2;
     }
 
@@ -86,7 +86,6 @@ private:
             int x = Q.top().second;
             Cost d = -Q.top().first;
             Q.pop();
-            // For double: dis[x] > d + EPS
             if (dis[x] != d) continue;
             for(int it = last[x]; it >= 0; it = edges[it].next)
                 if (edges[it].cap > 0 && dis[edges[it].to] > d + edges[it].cost)
@@ -104,7 +103,6 @@ private:
         visited[x] = 1;
         Flow now = flow;
         for(int it = last[x]; it >= 0; it = edges[it].next)
-            // For double: fabs(dis[edges[it].to] + edges[it].cost - dis[x]) < EPS
             if (edges[it].cap && !visited[edges[it].to] && dis[edges[it].to] + edges[it].cost == dis[x]) {
                 Flow tmp = findFlow(edges[it].to, min(now, edges[it].cap));
                 edges[it].cap -= tmp;
@@ -122,7 +120,6 @@ private:
                 if (edges[it].cap && !visited[edges[it].to])
                     d = min(d, dis[edges[it].to] + edges[it].cost - dis[i]);
 
-        // For double: if (d > INF / 10)     INF = 1e20
         if (d == INF) return false;
         REP(i,n) if (visited[i])
             dis[i] += d;
