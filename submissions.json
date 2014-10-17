@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8282648": {
+    "contest_id": 100506,
+    "language": "GNU C++0x",
+    "path": "codeforces/100506/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bus Pass",
+    "problem_url": "https://codeforces.com/gym/100506/problem/B",
+    "submission_id": "CF8282648",
+    "submission_url": "https://codeforces.com/gym/100506/submission/8282648",
+    "tags": [],
+    "timestamp": "Oct/17/2014 22:05"
+  },
   "CF8282997": {
     "contest_id": 100506,
     "language": "GNU C++0x",
