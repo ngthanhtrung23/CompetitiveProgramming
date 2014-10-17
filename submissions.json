@@ -43603,6 +43603,21 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8279256": {
+    "contest_id": 132,
+    "language": "GNU C++0x",
+    "path": "codeforces/132/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Piet",
+    "problem_url": "https://codeforces.com/contest/132/problem/B",
+    "submission_id": "CF8279256",
+    "submission_url": "https://codeforces.com/contest/132/submission/8279256",
+    "tags": [
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Oct/17/2014 17:50"
+  },
   "CF8279261": {
     "contest_id": 132,
     "language": "GNU C++0x",
