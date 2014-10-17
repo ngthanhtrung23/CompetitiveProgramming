@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8280963": {
+    "contest_id": 100506,
+    "language": "GNU C++0x",
+    "path": "codeforces/100506/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Average distance",
+    "problem_url": "https://codeforces.com/gym/100506/problem/A",
+    "submission_id": "CF8280963",
+    "submission_url": "https://codeforces.com/gym/100506/submission/8280963",
+    "tags": [],
+    "timestamp": "Oct/17/2014 20:19"
+  },
   "CF8281312": {
     "contest_id": 100506,
     "language": "GNU C++0x",
