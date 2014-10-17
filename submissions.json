@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8281636": {
+    "contest_id": 100506,
+    "language": "GNU C++0x",
+    "path": "codeforces/100506/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Pachinko",
+    "problem_url": "https://codeforces.com/gym/100506/problem/G",
+    "submission_id": "CF8281636",
+    "submission_url": "https://codeforces.com/gym/100506/submission/8281636",
+    "tags": [],
+    "timestamp": "Oct/17/2014 21:04"
+  },
   "CF8281734": {
     "contest_id": 100506,
     "language": "GNU C++0x",
