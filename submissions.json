@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8282108": {
+    "contest_id": 100506,
+    "language": "GNU C++0x",
+    "path": "codeforces/100506/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Stock",
+    "problem_url": "https://codeforces.com/gym/100506/problem/J",
+    "submission_id": "CF8282108",
+    "submission_url": "https://codeforces.com/gym/100506/submission/8282108",
+    "tags": [],
+    "timestamp": "Oct/17/2014 21:33"
+  },
   "CF8282648": {
     "contest_id": 100506,
     "language": "GNU C++0x",
