@@ -1,114 +1,173 @@
-#include <bits/stdc++.h>
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
+#include <set>
+#include <map>
+#include <list>
+#include <cmath>
+#include <queue>
+#include <stack>
+#include <cstdio>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include <cstring>
+#include <sstream>
+#include <iomanip>
+#include <complex>
+#include <iostream>
+#include <algorithm>
 
-#define DEBUG(X) { cout << #X << " = " << X << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
+#include <ctime>
+#include <deque>
+#include <bitset>
+#include <cctype>
+#include <utility>
+#include <cassert>
 
-#define ll long long
-#define SZ(x) ((int) (x).size())
-#define next next___
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
+struct SuffixArray {
+    string a;
+    int N, m;
+    vector<int> SA, LCP, x, y, w, c;
 
-const int MN = 100111;
-string s;
-int n, next[MN];
-
-struct Node {
-    int len, link, cnt;
-    int next[33];
-};
-Node nodes[MN * 2];
-set< pair<int,int> > order;
-struct Automaton {
-    int sz, last;
-    Automaton() {
-        sz = last = 0;
-        nodes[0].len = 0;
-        nodes[0].link = -1;
-        ++sz;
-        // need to reset next if necessary
+    SuffixArray(string _a, int m) : a(" " + _a), N(a.length()), m(m),
+            SA(N), LCP(N), x(N), y(N), w(max(N, m)), c(N) {
+        a[0] = 0;
+        DA();
+        kasaiLCP();
+        #define REF(X) { rotate(X.begin(), X.begin()+1, X.end()); X.pop_back(); }
+        REF(SA); REF(LCP);
+        a = a.substr(1, a.size());
+        for(int i = 0; i < SA.size(); ++i) --SA[i];
+        #undef REF
     }
-    void extend(char c) {
-        c = c - 'A';
-        int cur = sz++, p;
-        nodes[cur].len = nodes[last].len + 1;
-        nodes[cur].cnt = 1;
-        order.insert(make_pair(nodes[cur].len, cur));
 
-        for(p = last; p != -1 && !nodes[p].next[c]; p = nodes[p].link)
-            nodes[p].next[c] = cur;
-        if (p == -1) nodes[cur].link = 0;
-        else {
-            int q = nodes[p].next[c];
-            if (nodes[p].len + 1 == nodes[q].len) nodes[cur].link = q;
-            else {
-                int clone = sz++;
-                nodes[clone].len = nodes[p].len + 1;
-                memcpy(nodes[clone].next, nodes[q].next, sizeof(nodes[q].next));
-                nodes[clone].link = nodes[q].link;
-                nodes[clone].cnt = 0;
-                order.insert(make_pair(nodes[clone].len, clone));
+    inline bool cmp (const int a, const int b, const int l) { return (y[a] == y[b] && y[a + l] == y[b + l]); }
 
-                for(; p != -1 && nodes[p].next[c] == q; p = nodes[p].link)
-                    nodes[p].next[c] = clone;
-                nodes[q].link = nodes[cur].link = clone;
-            }
+    void Sort() {
+        for(int i = 0; i < m; ++i) w[i] = 0;
+        for(int i = 0; i < N; ++i) ++w[x[y[i]]];
+        for(int i = 0; i < m - 1; ++i) w[i + 1] += w[i];
+        for(int i = N - 1; i >= 0; --i) SA[--w[x[y[i]]]] = y[i];
+    }
+
+    void DA() {
+        for(int i = 0; i < N; ++i) x[i] = a[i], y[i] = i;
+        Sort();
+        for(int i, j = 1, p = 1; p < N; j <<= 1, m = p) {
+            for(p = 0, i = N - j; i < N; i++) y[p++] = i;
+            for (int k = 0; k < N; ++k) if (SA[k] >= j) y[p++] = SA[k] - j;
+            Sort();
+            for(swap(x, y), p = 1, x[SA[0]] = 0, i = 1; i < N; ++i)
+                x[SA[i]] = cmp(SA[i - 1], SA[i], j) ? p - 1 : p++;
         }
-        last = cur;
+    }
+
+    void kasaiLCP() {
+        for (int i = 0; i < N; i++) c[SA[i]] = i;
+        for (int i = 0, j, k = 0; i < N; LCP[c[i++]] = k)
+            if (c[i] > 0) for (k ? k-- : 0, j = SA[c[i] - 1]; a[i + k] == a[j + k]; k++);
+            else k = 0;
     }
 };
 
-int good[MN];
+
+#define TWO(X) (1<<(X))
+#define next next_
+const int MN = 1000111;
+
+string s;
+int n, indexOf[MN], next[MN];
+int rmq[22][MN], lg[MN];
+
+int getMin(int l, int r) {
+    if (l > r) return 1000111000;
+    int t = lg[r - l + 1];
+    return min( rmq[t][l], rmq[t][1+r-TWO(t)] );
+}
+
+int getRight(int id, int x) {
+    int left = id, right = n-1, res = id;
+    while (left <= right) {
+        int mid = (left + right) >> 1;
+        if (getMin(id+1, mid) >= x) {
+            res = mid;
+            left = mid + 1;
+        }
+        else right = mid - 1;
+    }
+    return res;
+}
+
+int getLeft(int id, int x) {
+    int left = 0, right = id, res = id;
+    while (left <= right) {
+        int mid = (left + right) >> 1;
+        if (getMin(mid+1, id) >= x) {
+            res = mid;
+            right = mid - 1;
+        }
+        else left = mid + 1;
+    }
+    return res;
+}
+
+int count(int x) {
+    int r = getRight(indexOf[x], n-x);
+    int l = getLeft(indexOf[x], n-x);
+    return r - l + 1;
+}
 
 int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
-    cout << (fixed) << setprecision(9);
     while (cin >> s) {
-        memset(nodes, 0, sizeof nodes);
-        n = SZ(s);
-        s = " " + s + " ";
-        int j = 0;
-        FOR(i,2,n) {
-            while (j > 0 && s[i] != s[j+1]) j = next[j];
+        n = s.length();
+        bool ok = true;
+        REP(i,n) if (s[i] != s[0]) ok = false;
+        if (ok) {
+            cout << n << endl;
+            FOR(i,1,n) cout << i << ' ' << n - i + 1 << "\n";
+            continue;
+        }
+        SuffixArray SA(s, 256);
+
+        memset(lg, 0, sizeof lg);
+        lg[0] = 0;
+        for(int i = 1, x = 0; i < MN; i *= 2, ++x)
+            lg[i] = x;
+        FOR(i,2,MN-1)
+            if (!lg[i]) lg[i] = lg[i-1];
+
+        REP(i,n) rmq[0][i] = SA.LCP[i];
+        FOR(t,1,20)
+            FOR(i,0,n-TWO(t))
+                rmq[t][i] = min(rmq[t-1][i], rmq[t-1][i+TWO(t-1)]);
+
+        REP(i,n) indexOf[SA.SA[i]] = i;
+
+        next[0] = -1;
+        int j = -1;
+        FOR(i,1,n-1) {
+            while (j >= 0 && s[i] != s[j+1]) j = next[j];
             if (s[i] == s[j+1]) ++j;
             next[i] = j;
         }
-//        PR(next, n);
 
-        order.clear();
-        Automaton sa;
-        FOR(i,1,n) sa.extend(s[i]);
-        for(auto it = order.rbegin(); it != order.rend(); ++it) {
-            int p = nodes[it->second].link;
-            nodes[p].cnt += nodes[it->second].cnt;
-        }
-//        REP(i,sa.sz) {
-//            FOR(c,'A','Z') {
-//                if (nodes[i].next[c - 'A']) {
-//                    cout << (char) c << ' ' << nodes[i].next[c - 'A'] << "    ";
-//                }
-//            }
-//            cout << endl;
-//        }
-
-        memset(good, 0, sizeof good);
-        int x = n;
-        int cnt = 0;
-        while (x > 0) {
-            good[x] = true;
+        vector< pair<int,int> > res;
+        int x = n-1;
+        while (x >= 0) {
+            res.push_back(make_pair(1+x, count(n-1-x)));
             x = next[x];
-            cnt++;
         }
-        cout << cnt << '\n';
-        int p = 0;
-        FOR(i,1,n) {
-            p = nodes[p].next[s[i] - 'A'];
-            if (good[i]) {
-                cout << i << ' ' << nodes[p].cnt << '\n';
-            }
-        }
+        cout << res.size() << "\n";
+        FORD(i,res.size()-1,0)
+            cout << res[i].first << ' ' << res[i].second << "\n";
     }
 }
