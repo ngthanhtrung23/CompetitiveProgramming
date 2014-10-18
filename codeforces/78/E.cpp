@@ -34,81 +34,130 @@
 #define sqr(x) ((x) * (x))
 using namespace std;
 
-const int INF = 1000000000;
- 
 struct Edge {
-    int a, b, cap, flow;
+    int u, v, c, f;
+    int next;
 };
 
 struct MaxFlow {
     int n, s, t;
-    vector<int> d, ptr, q;
-    vector< Edge > e;
-    vector< vector<int> > g;
+    vector< Edge > edges;
+    vector<int> head, current, h, avail;
+    vector<long long> excess;
 
-    MaxFlow(int n) : n(n), d(n), ptr(n), g(n), q(n) {
-        e.clear();
-        REP(i,n) {
-            g[i].clear();
-            ptr[i] = 0;
-        }
+    MaxFlow(int n) : n(n), head(n, -1), current(n, -1), h(n), avail(n), excess(n) {
+        edges.clear();
     }
 
-    void addEdge(int a, int b, int cap) {
-        Edge e1 = { a, b, cap, 0 };
-        Edge e2 = { b, a, 0, 0 };
-        g[a].push_back( (int) e.size() );
-        e.push_back(e1);
-        g[b].push_back( (int) e.size() );
-        e.push_back(e2);
+    void addEdge(int u, int v, int c, bool bi = false) {
+        Edge xuoi = {u, v, c, 0, head[u]};
+        head[u] = edges.size(); edges.push_back(xuoi);
+        Edge nguoc = {v, u, bi ? c : 0, 0, head[v]};
+        head[v] = edges.size(); edges.push_back(nguoc);
     }
-    int getMaxFlow(int _s, int _t) {
+
+    long long getFlow(int _s, int _t) {
         s = _s; t = _t;
-        int flow = 0;
-        for (;;) {
-            if (!bfs()) break;
-            REP(i,n) ptr[i] = 0;
-            while (int pushed = dfs(s, INF))
-                flow += pushed;
+        init();
+
+        int now = 0;
+        queue<int> qu[2];
+        REP(x,n)
+            if (x != s && x != t && excess[x] > 0)
+                qu[now].push(x);
+        
+        globalLabeling();
+
+        int cnt = 0;
+        while (!qu[now].empty()) {
+            while (!qu[1-now].empty()) qu[1-now].pop();
+
+            while (!qu[now].empty()) {
+                int x = qu[now].front(); qu[now].pop();
+                while (current[x] >= 0) {
+                    int p = current[x];
+                    if (edges[p].c > edges[p].f && h[edges[p].u] > h[edges[p].v]) {
+                        bool need = (edges[p].v != s && edges[p].v != t && !excess[edges[p].v]);
+                        push(current[x]);
+                        if (need) qu[1-now].push(edges[p].v);
+                        if (!excess[x]) break;
+                    }
+                    current[x] = edges[current[x]].next;
+                }
+                
+                if (excess[x] > 0) {
+                    lift(x);
+                    current[x] = head[x];
+                    qu[1-now].push(x);
+                    cnt++;
+                    if (cnt == n) {
+                        globalLabeling();
+                        cnt=0;
+                    }
+                }
+            }
+            now = 1 - now;
         }
-        return flow;
+        return excess[t];
     }
 
 private:
-    bool bfs() {
-        int qh = 0, qt = 0;
-        q[qt++] = s;
-        REP(i,n) d[i] = -1;
-        d[s] = 0;
+    void init() {
+        REP(i,n) current[i] = head[i];
 
-        while (qh < qt && d[t] == -1) {
-            int v = q[qh++];
-            REP(i,g[v].size()) {
-                int id = g[v][i], to = e[id].b;
-                if (d[to] == -1 && e[id].flow < e[id].cap) {
-                    q[qt++] = to;
-                    d[to] = d[v] + 1;
-                }
-            }
+        int p = head[s];
+        while (p >= 0) {
+            edges[p].f = edges[p].c;
+            edges[p^1].f -= edges[p].c;
+            excess[edges[p].v] += edges[p].c;
+            excess[s] -= edges[p].c;
+            p = edges[p].next;
         }
-        return d[t] != -1;
+        FOR(v,0,n-1) h[v] = 1;
+        h[s] = n; h[t] = 0;
     }
 
-    int dfs (int v, int flow) {
-        if (!flow) return 0;
-        if (v == t) return flow;
-        for (; ptr[v] < (int)g[v].size(); ++ptr[v]) {
-            int id = g[v][ptr[v]],
-                to = e[id].b;
-            if (d[to] != d[v] + 1) continue;
-            int pushed = dfs(to, min(flow, e[id].cap - e[id].flow));
-            if (pushed) {
-                e[id].flow += pushed;
-                e[id^1].flow -= pushed;
-                return pushed;
+    void push(int i) {
+        long long delta = min(excess[edges[i].u], (long long) edges[i].c - edges[i].f);
+        edges[i].f += delta; edges[i^1].f -= delta;
+        excess[edges[i].u] -= delta;
+        excess[edges[i].v] += delta;
+    }
+
+    void lift(int u) {
+        int minH = 2 * n;
+        int p = head[u];
+        while (p>=0) {
+            if (edges[p].c > edges[p].f)
+                minH = min(minH, h[edges[p].v]);
+            p = edges[p].next;
+        }
+        h[u] = minH + 1;
+    }
+
+    void globalLabeling() {
+        REP(i,n) avail[i] = 1, h[i] = 0;
+        h[s] = n; h[t] = 0;
+        queue<int> q; q.push(t); avail[t] = false;
+
+        while (!q.empty()) {
+            int x = q.front(); q.pop();
+            int p = head[x];
+            while (p >= 0) {
+                int pp = p^1;
+                if (avail[edges[pp].u] && edges[pp].f < edges[pp].c) {
+                    h[edges[pp].u] = h[x] + 1;
+                    avail[edges[pp].u] = 0;
+                    q.push(edges[pp].u);
+                }
+                p = edges[p].next;
+            }
+            if (q.empty() && avail[s]) {
+                avail[s] = false;
+                q.push(s);
             }
         }
-        return 0;
+        REP(x,n) current[x] = head[x];
     }
 };
 
@@ -184,7 +233,7 @@ int main() {
                     flow.addEdge(id[i][j], n*n+id[u][v], min(locationMap[u][v] - '0', scientistMap[i][j] - '0'));
                 }
         }
-        cout << flow.getMaxFlow(0, 2*n*n+1) << endl;
+        cout << flow.getFlow(0, 2*n*n+1) << endl;
     }
     return 0;
 }
