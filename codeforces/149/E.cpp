@@ -1,93 +1,97 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
 #include <set>
 #include <map>
-#include <stack>
+#include <list>
+#include <cmath>
 #include <queue>
+#include <stack>
+#include <cstdio>
 #include <string>
-#include <deque>
+#include <vector>
+#include <cstdlib>
+#include <cstring>
+#include <sstream>
+#include <iomanip>
 #include <complex>
+#include <iostream>
+#include <algorithm>
+
+#include <ctime>
+#include <deque>
+#include <bitset>
+#include <cctype>
+#include <utility>
+#include <cassert>
+using namespace std;
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
-using namespace std;
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-const double PI = acos(-1.0);
+#define DEBUG(x) { cout << #x << " = " << x << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
 
-char a[100111], b[1011];
-int next[1011], prev[1011], match[2][100111], m, n;
+#define left left_
+#define right right_
+#define next next_
 
-void init() {
-    next[0] = -1; int j = -1;
-    FOR(i,1,n-1) {
-        while (j >= 0 && b[i] != b[j+1]) j = next[j];
-        if (b[i] == b[j+1]) j++;
-        next[i] = j;
-    }
-    prev[n-1] = n; j = n;
-    FORD(i,n-2,0) {
-        while (j < n && b[i] != b[j-1]) j = prev[j];
-        if (b[i] == b[j-1]) j--;
-        prev[i] = j;
-    }
-    
-//    REP(i,n) cout << next[i] << ' '; puts("");
-//    REP(i,n) cout << prev[i] << ' '; puts("");
-}
-
-void kmp() {
-    int j = -1;
-    FOR(i,0,m-1) {
-        while (j >= 0 && a[i] != b[j+1]) j = next[j];
-        if (a[i] == b[j+1]) j++;
-        match[0][i] = j;
-        if (j == n-1) j = next[j];
-    }
-    j = n;
-    FORD(i,m-1,0) {
-        while (j < n && a[i] != b[j-1]) j = prev[j];
-        if (a[i] == b[j-1]) j--;
-        match[1][i] = j;
-        if (j == 0) j = prev[j];
-    }
-    
-//    REP(i,m) cout << match[0][i] << ' '; puts("");
-//    REP(i,m) cout << match[1][i] << ' '; puts("");
-}
-
-int check() {
-    n = strlen(b), m = strlen(a);
-    init();
-    kmp();
-    FOR(i,1,m-1) match[0][i] = max(match[0][i-1], match[0][i]);
-    FORD(i,m-2,0) match[1][i] = min(match[1][i+1], match[1][i]);
-    
-    FOR(i,0,m-2) if (match[0][i]+1 >= match[1][i+1]) return 1;
-    return 0;
-}
+const int MN = 100111;
+string s;
+int left[MN], right[MN];
+string t;
+int next[2][1011];
 
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    gets(a);
-    int q; scanf("%d\n", &q);
-    int res = 0;
-    while (q--) {
-        gets(b);
-        if (strlen(b) == 1) continue;
-        res += check();
+    ios :: sync_with_stdio(false); cin.tie(NULL);
+    cout << (fixed) << setprecision(6);
+    while (cin >> s) {
+        int ls = s.length();
+        int q; cin >> q;
+        int res = 0;
+        while (q--) {
+            cin >> t; int lt = t.length();
+            if (lt == 1) continue;
+            REP(turn,2) {
+                next[turn][0] = -1;
+                int j = -1;
+                FOR(i,1,lt-1) {
+                    while (j >= 0 && t[i] != t[j+1]) j = next[turn][j];
+                    if (t[i] == t[j+1]) ++j;
+                    next[turn][i] = j;
+                }
+                reverse(t.begin(), t.end());
+            }
+
+            int j = -1;
+            FOR(i,0,s.length()) {
+                while (j >= 0 && s[i] != t[j+1]) j = next[0][j];
+                if (s[i] == t[j+1]) ++j;
+                left[i] = j + 1;
+                if (j == lt-1) j = next[0][j];
+            }
+            reverse(t.begin(), t.end());
+
+            j = -1;
+            FORD(i,s.length()-1,0) {
+                while (j >= 0 && s[i] != t[j+1]) j = next[1][j];
+                if (s[i] == t[j+1]) ++j;
+                right[i] = j + 1;
+                if (j == lt-1) j = next[1][j];
+            }
+
+            FOR(i,1,s.length()-1) left[i] = max(left[i], left[i-1]);
+            FORD(i,s.length()-2,0) right[i] = max(right[i], right[i+1]);
+
+
+            FOR(i,0,s.length()-1) {
+                if (left[i] + right[i+1] >= lt) {
+                    ++res;
+                    break;
+                }
+            }
+        }
+        cout << res << endl;
     }
-    cout << res;
     return 0;
 }
