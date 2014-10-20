@@ -1,142 +1,158 @@
+#include <set>
+#include <map>
+#include <list>
+#include <cmath>
+#include <queue>
+#include <stack>
+#include <cstdio>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include <cstring>
+#include <sstream>
+#include <iomanip>
+#include <complex>
+#include <iostream>
+#include <algorithm>
 
-#include <bits/stdc++.h>
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
+#include <ctime>
+#include <deque>
+#include <bitset>
+#include <cctype>
+#include <utility>
+#include <cassert>
 
-#define DEBUG(X) { cout << #X << " = " << X << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define ll long long
-#define SZ(x) ((int) (x).size())
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-const int MN = 200111;
-struct Node {
-    int len, link; // len = max length of suffix in this class
-    int next[33];
-};
-Node s[MN];
-set< pair<int,int> > order; // in most application we'll need to sort by len
-int isCloned[MN];
-struct Automaton {
-    int sz, last;
-    Automaton() {
-		order.clear();
-        sz = last = 0;
-        s[0].len = 0;
-        s[0].link = -1;
-        ++sz;
-        // need to reset next if necessary
+
+struct SuffixArray {
+    string a;
+    int N, m;
+    vector<int> SA, LCP, x, y, w, c;
+
+    SuffixArray(string _a, int m) : a(" " + _a), N(a.length()), m(m),
+            SA(N), LCP(N), x(N), y(N), w(max(m, N)), c(N) {
+        a[0] = 0;
+        DA();
+        kasaiLCP();
+        #define REF(X) { rotate(X.begin(), X.begin()+1, X.end()); X.pop_back(); }
+        REF(SA); REF(LCP);
+        a = a.substr(1, a.size());
+        for(int i = 0; i < SA.size(); ++i) --SA[i];
+        #undef REF
     }
-    void extend(char c) {
-        c = c - 'a';
-        int cur = sz++, p;
-        s[cur].len = s[last].len + 1;
-        order.insert(make_pair(s[cur].len, cur));
-        isCloned[cur] = 0;
 
-        for(p = last; p != -1 && !s[p].next[c]; p = s[p].link)
-            s[p].next[c] = cur;
-        if (p == -1) s[cur].link = 0;
-        else {
-            int q = s[p].next[c];
-            if (s[p].len + 1 == s[q].len) s[cur].link = q;
-            else {
-                int clone = sz++;
-                s[clone].len = s[p].len + 1;
-                memcpy(s[clone].next, s[q].next, sizeof(s[q].next));
-                s[clone].link = s[q].link;
-                order.insert(make_pair(s[clone].len, clone));
-                isCloned[clone] = 1;
+    inline bool cmp (const int a, const int b, const int l) { return (y[a] == y[b] && y[a + l] == y[b + l]); }
 
-                for(; p != -1 && s[p].next[c] == q; p = s[p].link)
-                    s[p].next[c] = clone;
-                s[q].link = s[cur].link = clone;
-            }
+    void Sort() {
+        for(int i = 0; i < m; ++i) w[i] = 0;
+        for(int i = 0; i < N; ++i) ++w[x[y[i]]];
+        for(int i = 0; i < m - 1; ++i) w[i + 1] += w[i];
+        for(int i = N - 1; i >= 0; --i) SA[--w[x[y[i]]]] = y[i];
+    }
+
+    void DA() {
+        for(int i = 0; i < N; ++i) x[i] = a[i], y[i] = i;
+        Sort();
+        for(int i, j = 1, p = 1; p < N; j <<= 1, m = p) {
+            for(p = 0, i = N - j; i < N; i++) y[p++] = i;
+            for (int k = 0; k < N; ++k) if (SA[k] >= j) y[p++] = SA[k] - j;
+            Sort();
+            for(swap(x, y), p = 1, x[SA[0]] = 0, i = 1; i < N; ++i)
+                x[SA[i]] = cmp(SA[i - 1], SA[i], j) ? p - 1 : p++;
         }
-        last = cur;
+    }
+
+    void kasaiLCP() {
+        for (int i = 0; i < N; i++) c[SA[i]] = i;
+        for (int i = 0, j, k = 0; i < N; LCP[c[i++]] = k)
+            if (c[i] > 0) for (k ? k-- : 0, j = SA[c[i] - 1]; a[i + k] == a[j + k]; k++);
+            else k = 0;
     }
 };
-ll f1[MN], f2[MN];
-int visited[MN];
-vector<int> g[MN];
 
-void dfs1(int u) {
-    if (visited[u]) return ;
-    visited[u] = 1;
+const int MN = 100111;
 
-    f1[u] = !isCloned[u];
-    for(int v : g[u]) {
-        if (!v) continue;
+string s;
+int k, n;
+long long sumLen[MN];
+SuffixArray SA("", 256);
 
-        dfs1(v);
-        f1[u] += f1[v];
-    }
+inline int suffixLen(int i) {
+    return n - i;
 }
 
-void dfs2(int u) {
-    if (visited[u]) return ;
-    visited[u] = 1;
-    f2[u] = f1[u];
-
-    REP(i,26) {
-        int v = s[u].next[i];
-        if (!v) continue;
-
-        dfs2(v);
-        f2[u] += f2[v];
+int findPos(int l, int r, char c, int len, bool first) {
+    int res = -1;
+    while (l <= r) {
+        int mid = (l + r) >> 1;
+        char cmid = (SA.SA[mid] + len - 1 < n) ? s[SA.SA[mid] + len - 1] : 'a' - 1;
+        if (cmid < c) {
+            l = mid + 1;
+        }
+        else if (cmid > c) {
+            r = mid - 1;
+        }
+        else {
+            res = mid;
+            if (first) r = mid - 1;
+            else l = mid + 1;
+        }
     }
+    return res;
 }
 
 int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
-    cout << (fixed) << setprecision(9);
-    string a;
-    int n, k;
-    while (cin >> a >> k) {
-        memset(s, 0, sizeof s);
-        n = SZ(a);
-        a = " " + a + " ";
-
-        Automaton sa;
-        FOR(i,1,n) sa.extend(a[i]);
-
-        REP(i,sa.sz) g[i].clear();
-        REP(i,sa.sz) {
-            int p = s[i].link;
-            if (p < 0) continue;
-            g[p].push_back(i);
+    while (cin >> s >> k) {
+        n = s.length();
+        SA = SuffixArray(s, 256);
+        if (k > (n * (n+1LL)) / 2) {
+            cout << "No such line." << endl;
+            continue;
         }
 
-        memset(f1, 0, sizeof f1);
-        memset(f2, 0, sizeof f2);
-        memset(visited, 0, sizeof visited);
-        FOR(i,1,sa.sz-1) dfs1(i);
+//        PR0(SA.SA, n);
+//        PR0(SA.LCP, n);
 
-        memset(visited, 0, sizeof visited);
-        dfs2(0);
+        sumLen[0] = suffixLen(SA.SA[0]);
+        FOR(i,1,n-1) sumLen[i] = sumLen[i-1] + suffixLen(SA.SA[i]);
 
-        if (k > f2[0]) cout << "No such line." << endl;
-        else {
-            int p = 0;
-            while (true) {
-                k -= f1[p];
-                if (k <= 0) break;
+        int l = 0, r = n-1, len = 1;
+        while (k > 0) {
+//            cout << "Search " << k << ": " << l << " --> " << r << "  " << len << endl;
+            int from, to;
+            FOR(c,'a','z') {
+                from = findPos(l, r, c, len, true);
+                to = findPos(l, r, c, len, false);
 
-                REP(i,26) {
-                    int to = s[p].next[i];
-                    if (!to) continue;
-                    if (k > f2[to]) k -= f2[to];
-                    else {
-                        cout << (char) ('a' + i);
-                        p = to;
-                        break;
-                    }
+                if (from < 0) continue;
+
+                long long cnt = sumLen[to] - ((from == 0) ? 0 : sumLen[from - 1]);
+                cnt -= (to - from + 1) * (len - 1);
+
+//                cout << "   " << (char) c << ' ' << from << ' ' << to << ' ' << cnt << endl;
+
+                if (cnt >= k) {
+                    l = from;
+                    r = to;
+                    break;
                 }
+                else k -= cnt;
             }
-            cout << endl;
+            ++len;
+            k -= to - from + 1;
         }
+
+        cout << s.substr(SA.SA[l], len-1) << endl;
     }
 }
