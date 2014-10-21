@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8346244": {
+    "contest_id": 350,
+    "language": "GNU C++0x",
+    "path": "codeforces/350/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Resort",
+    "problem_url": "https://codeforces.com/contest/350/problem/B",
+    "submission_id": "CF8346244",
+    "submission_url": "https://codeforces.com/contest/350/submission/8346244",
+    "tags": [
+      "graphs",
+      "*1500"
+    ],
+    "timestamp": "Oct/22/2014 04:38"
+  },
   "CF8346249": {
     "contest_id": 350,
     "language": "GNU C++0x",
