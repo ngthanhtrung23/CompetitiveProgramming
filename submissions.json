@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8346249": {
+    "contest_id": 350,
+    "language": "GNU C++0x",
+    "path": "codeforces/350/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Bombs",
+    "problem_url": "https://codeforces.com/contest/350/problem/C",
+    "submission_id": "CF8346249",
+    "submission_url": "https://codeforces.com/contest/350/submission/8346249",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Oct/22/2014 04:39"
+  },
   "CF8346254": {
     "contest_id": 344,
     "language": "GNU C++0x",
