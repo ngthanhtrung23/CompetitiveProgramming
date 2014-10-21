@@ -43711,6 +43711,22 @@
     "tags": [],
     "timestamp": "Oct/17/2014 23:00"
   },
+  "CF8346069": {
+    "contest_id": 6,
+    "language": "GNU C++0x",
+    "path": "codeforces/6/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Triangle",
+    "problem_url": "https://codeforces.com/contest/6/problem/A",
+    "submission_id": "CF8346069",
+    "submission_url": "https://codeforces.com/contest/6/submission/8346069",
+    "tags": [
+      "brute force",
+      "geometry",
+      "*900"
+    ],
+    "timestamp": "Oct/22/2014 04:08"
+  },
   "CF8346082": {
     "contest_id": 6,
     "language": "GNU C++0x",
