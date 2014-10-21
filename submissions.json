@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8346255": {
+    "contest_id": 344,
+    "language": "GNU C++0x",
+    "path": "codeforces/344/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Simple Molecules",
+    "problem_url": "https://codeforces.com/contest/344/problem/B",
+    "submission_id": "CF8346255",
+    "submission_url": "https://codeforces.com/contest/344/submission/8346255",
+    "tags": [
+      "brute force",
+      "graphs",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Oct/22/2014 04:40"
+  },
   "CF8346259": {
     "contest_id": 340,
     "language": "GNU C++0x",
