@@ -43711,6 +43711,23 @@
     "tags": [],
     "timestamp": "Oct/17/2014 23:00"
   },
+  "CF8345232": {
+    "contest_id": 158,
+    "language": "GNU C++0x",
+    "path": "codeforces/158/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Phone Talks",
+    "problem_url": "https://codeforces.com/contest/158/problem/E",
+    "submission_id": "CF8345232",
+    "submission_url": "https://codeforces.com/contest/158/submission/8345232",
+    "tags": [
+      "*special problem",
+      "dp",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Oct/22/2014 02:10"
+  },
   "CF8345240": {
     "contest_id": 4,
     "language": "GNU C++0x",
