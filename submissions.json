@@ -43711,6 +43711,22 @@
     "tags": [],
     "timestamp": "Oct/17/2014 23:00"
   },
+  "CF8345217": {
+    "contest_id": 158,
+    "language": "GNU C++0x",
+    "path": "codeforces/158/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Next Round",
+    "problem_url": "https://codeforces.com/contest/158/problem/A",
+    "submission_id": "CF8345217",
+    "submission_url": "https://codeforces.com/contest/158/submission/8345217",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Oct/22/2014 02:09"
+  },
   "CF8345221": {
     "contest_id": 158,
     "language": "GNU C++0x",
