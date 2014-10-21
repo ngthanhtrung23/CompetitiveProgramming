@@ -2835,8 +2835,8 @@ All submissions from gyms and virtual contests are here. So also includes submis
 298 | [E - Subway Innovation](https://codeforces.com/contest/371/problem/E) | [GNU C++0x](./codeforces/371/E.cpp) | `greedy` `math` `two pointers` `*2000` | Oct/22/2014 04:35 | 
 297 | [D - Vessels](https://codeforces.com/contest/371/problem/D) | [GNU C++0x](./codeforces/371/D.cpp) | `data structures` `dsu` `implementation` `trees` `*1800` | Oct/22/2014 04:34 | 
 296 | [C - Hamburgers](https://codeforces.com/contest/371/problem/C) | [GNU C++0x](./codeforces/371/C.cpp) | `binary search` `brute force` `*1600` | Oct/22/2014 04:32 | 
-295 | [C - Tachibana Kanade's Tofu](https://codeforces.com/contest/434/problem/C) | [GNU C++](./codeforces/434/C.cpp) | `dp` `*2500` | May/31/2014 17:16 | 
-294 | [B - Fox Dividing Cheese](https://codeforces.com/contest/371/problem/B) | [GNU C++](./codeforces/371/B.cpp) | `math` `number theory` `*1300` | Dec/09/2013 21:58 | 
+295 | [B - Fox Dividing Cheese](https://codeforces.com/contest/371/problem/B) | [GNU C++0x](./codeforces/371/B.cpp) | `math` `number theory` `*1300` | Oct/22/2014 04:31 | 
+294 | [C - Tachibana Kanade's Tofu](https://codeforces.com/contest/434/problem/C) | [GNU C++](./codeforces/434/C.cpp) | `dp` `*2500` | May/31/2014 17:16 | 
 293 | [A - K-Periodic Array](https://codeforces.com/contest/371/problem/A) | [GNU C++](./codeforces/371/A.cpp) | `greedy` `implementation` `math` `*1000` | Dec/09/2013 21:53 | 
 292 | [C - Vasya and Beautiful Arrays](https://codeforces.com/contest/354/problem/C) | [GNU C++](./codeforces/354/C.cpp) | `brute force` `dp` `number theory` `*2100` | Oct/14/2013 03:54 | 
 291 | [E - Lucky Number Representation](https://codeforces.com/contest/354/problem/E) | [GNU C++](./codeforces/354/E.cpp) | `constructive algorithms` `dfs and similar` `dp` `*2200` | Oct/14/2013 00:31 | 
