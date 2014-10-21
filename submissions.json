@@ -43603,6 +43603,18 @@
     ],
     "timestamp": "Aug/23/2011 23:21"
   },
+  "CF8346157": {
+    "contest_id": 100499,
+    "language": "GNU C++0x",
+    "path": "codeforces/100499/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Visual Illusion",
+    "problem_url": "https://codeforces.com/gym/100499/problem/G",
+    "submission_id": "CF8346157",
+    "submission_url": "https://codeforces.com/gym/100499/submission/8346157",
+    "tags": [],
+    "timestamp": "Oct/22/2014 04:21"
+  },
   "CF8346160": {
     "contest_id": 100499,
     "language": "GNU C++0x",
