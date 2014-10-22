@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8353417": {
+    "contest_id": 480,
+    "language": "GNU C++0x",
+    "path": "codeforces/480/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Parking Lot",
+    "problem_url": "https://codeforces.com/contest/480/problem/E",
+    "submission_id": "CF8353417",
+    "submission_url": "https://codeforces.com/contest/480/submission/8353417",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "*2800"
+    ],
+    "timestamp": "Oct/22/2014 23:40"
+  },
   "CF8357449": {
     "contest_id": 466,
     "language": "GNU C++0x",
