@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8349361": {
+    "contest_id": 480,
+    "language": "GNU C++0x",
+    "path": "codeforces/480/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Exams",
+    "problem_url": "https://codeforces.com/contest/480/problem/A",
+    "submission_id": "CF8349361",
+    "submission_url": "https://codeforces.com/contest/480/submission/8349361",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Oct/22/2014 15:41"
+  },
   "CF8349577": {
     "contest_id": 480,
     "language": "GNU C++0x",
