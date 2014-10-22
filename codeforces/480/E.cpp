@@ -67,11 +67,9 @@ int getRightCell(int i, int j) {
     return res;
 }
 
-// Check if there is a square of size "size", and contains cell (u, v)
 bool check(int size, int u, int v) {
     if (size > m || size > n) return false;
     
-    // Go up and down to find empty rows
     int top = u, bottom = u;
     while (top > 1 && a[top-1][v] == '.') --top;
     while (bottom < m && a[bottom+1][v] == '.') ++bottom;
@@ -85,8 +83,6 @@ bool check(int size, int u, int v) {
         // FOR(j,1,n) cout << a[i][j];
         // cout << endl;
     // }
-
-    // For each row, we find the leftmost and rightmost cell that is empty
     FOR(i,top,bottom) {
         toLeft[i] = getLeftCell(i, v);
         toRight[i] = getRightCell(i, v);
@@ -94,8 +90,6 @@ bool check(int size, int u, int v) {
         // cout << "Row " << i << ": " << toLeft[i] << ' ' << toRight[i] << endl;
     }
 
-    // Now, use 2 pointers to check if there is a square. Since we know the size of
-    // the square, should be simple
     multiset<int> left, right;
     FOR(i,top,top+size-1) {
         left.insert(toLeft[i]);
