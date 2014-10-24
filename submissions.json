@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8395130": {
+    "contest_id": 483,
+    "language": "GNU C++0x",
+    "path": "codeforces/483/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Friends and Presents",
+    "problem_url": "https://codeforces.com/contest/483/problem/B",
+    "submission_id": "CF8395130",
+    "submission_url": "https://codeforces.com/contest/483/submission/8395130",
+    "tags": [
+      "binary search",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Oct/25/2014 04:29"
+  },
   "CF8489093": {
     "contest_id": 470,
     "language": "FALSE",
