@@ -10924,6 +10924,24 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8395017": {
+    "contest_id": 483,
+    "language": "GNU C++0x",
+    "path": "codeforces/483/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Counterexample ",
+    "problem_url": "https://codeforces.com/contest/483/problem/A",
+    "submission_id": "CF8395017",
+    "submission_url": "https://codeforces.com/contest/483/submission/8395017",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Oct/25/2014 04:20"
+  },
   "CF8395130": {
     "contest_id": 483,
     "language": "GNU C++0x",
