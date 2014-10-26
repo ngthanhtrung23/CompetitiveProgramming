@@ -43999,6 +43999,18 @@
     ],
     "timestamp": "Oct/25/2014 04:29"
   },
+  "CF8418478": {
+    "contest_id": 100513,
+    "language": "GNU C++0x",
+    "path": "codeforces/100513/M.cpp",
+    "problem_index": "M",
+    "problem_name": "Variable Shadowing",
+    "problem_url": "https://codeforces.com/gym/100513/problem/M",
+    "submission_id": "CF8418478",
+    "submission_url": "https://codeforces.com/gym/100513/submission/8418478",
+    "tags": [],
+    "timestamp": "Oct/26/2014 17:35"
+  },
   "CF8489093": {
     "contest_id": 470,
     "language": "FALSE",
