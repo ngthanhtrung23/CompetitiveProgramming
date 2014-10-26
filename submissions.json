@@ -43999,6 +43999,18 @@
     ],
     "timestamp": "Oct/25/2014 04:29"
   },
+  "CF8418436": {
+    "contest_id": 100513,
+    "language": "GNU C++0x",
+    "path": "codeforces/100513/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Election of a Mayor",
+    "problem_url": "https://codeforces.com/gym/100513/problem/E",
+    "submission_id": "CF8418436",
+    "submission_url": "https://codeforces.com/gym/100513/submission/8418436",
+    "tags": [],
+    "timestamp": "Oct/26/2014 17:33"
+  },
   "CF8418443": {
     "contest_id": 100513,
     "language": "GNU C++0x",
