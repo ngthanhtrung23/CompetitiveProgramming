@@ -43999,6 +43999,18 @@
     ],
     "timestamp": "Oct/25/2014 04:29"
   },
+  "CF8418286": {
+    "contest_id": 100513,
+    "language": "GNU C++0x",
+    "path": "codeforces/100513/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Colored Blankets",
+    "problem_url": "https://codeforces.com/gym/100513/problem/B",
+    "submission_id": "CF8418286",
+    "submission_url": "https://codeforces.com/gym/100513/submission/8418286",
+    "tags": [],
+    "timestamp": "Oct/26/2014 17:10"
+  },
   "CF8418420": {
     "contest_id": 100513,
     "language": "GNU C++0x",
