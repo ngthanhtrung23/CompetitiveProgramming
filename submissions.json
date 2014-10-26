@@ -43999,6 +43999,18 @@
     ],
     "timestamp": "Oct/25/2014 04:29"
   },
+  "CF8418443": {
+    "contest_id": 100513,
+    "language": "GNU C++0x",
+    "path": "codeforces/100513/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Ilya Muromets",
+    "problem_url": "https://codeforces.com/gym/100513/problem/F",
+    "submission_id": "CF8418443",
+    "submission_url": "https://codeforces.com/gym/100513/submission/8418443",
+    "tags": [],
+    "timestamp": "Oct/26/2014 17:33"
+  },
   "CF8418449": {
     "contest_id": 100513,
     "language": "GNU C++0x",
