@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8489093": {
+    "contest_id": 470,
+    "language": "FALSE",
+    "path": "codeforces/470/A.f",
+    "problem_index": "A",
+    "problem_name": "Crystal Ball Sequence",
+    "problem_url": "https://codeforces.com/contest/470/problem/A",
+    "submission_id": "CF8489093",
+    "submission_url": "https://codeforces.com/contest/470/submission/8489093",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Oct/31/2014 00:49"
+  },
   "CF8493061": {
     "contest_id": 477,
     "language": "GNU C++0x",
