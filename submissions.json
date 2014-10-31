@@ -44115,6 +44115,18 @@
     ],
     "timestamp": "Oct/31/2014 17:51"
   },
+  "CF8497611": {
+    "contest_id": 100523,
+    "language": "GNU C++0x",
+    "path": "codeforces/100523/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Gophers",
+    "problem_url": "https://codeforces.com/gym/100523/problem/E",
+    "submission_id": "CF8497611",
+    "submission_url": "https://codeforces.com/gym/100523/submission/8497611",
+    "tags": [],
+    "timestamp": "Oct/31/2014 20:58"
+  },
   "CF8498120": {
     "contest_id": 100523,
     "language": "GNU C++0x",
