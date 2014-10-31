@@ -44115,6 +44115,18 @@
     ],
     "timestamp": "Oct/31/2014 17:51"
   },
+  "CF8498432": {
+    "contest_id": 100523,
+    "language": "GNU C++0x",
+    "path": "codeforces/100523/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Laundry",
+    "problem_url": "https://codeforces.com/gym/100523/problem/F",
+    "submission_id": "CF8498432",
+    "submission_url": "https://codeforces.com/gym/100523/submission/8498432",
+    "tags": [],
+    "timestamp": "Oct/31/2014 22:19"
+  },
   "CF8498697": {
     "contest_id": 100523,
     "language": "GNU C++0x",
