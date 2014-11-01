@@ -44115,6 +44115,18 @@
     ],
     "timestamp": "Oct/31/2014 17:51"
   },
+  "CF8511916": {
+    "contest_id": 100514,
+    "language": "GNU C++0x",
+    "path": "codeforces/100514/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bank",
+    "problem_url": "https://codeforces.com/gym/100514/problem/A",
+    "submission_id": "CF8511916",
+    "submission_url": "https://codeforces.com/gym/100514/submission/8511916",
+    "tags": [],
+    "timestamp": "Nov/01/2014 20:45"
+  },
   "CF8512044": {
     "contest_id": 100514,
     "language": "GNU C++0x",
