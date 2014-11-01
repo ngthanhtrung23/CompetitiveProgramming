@@ -44115,6 +44115,18 @@
     ],
     "timestamp": "Oct/31/2014 17:51"
   },
+  "CF8511770": {
+    "contest_id": 100514,
+    "language": "Python 2",
+    "path": "codeforces/100514/O.py",
+    "problem_index": "O",
+    "problem_name": "0x",
+    "problem_url": "https://codeforces.com/gym/100514/problem/O",
+    "submission_id": "CF8511770",
+    "submission_url": "https://codeforces.com/gym/100514/submission/8511770",
+    "tags": [],
+    "timestamp": "Nov/01/2014 20:37"
+  },
   "CF8511916": {
     "contest_id": 100514,
     "language": "GNU C++0x",
