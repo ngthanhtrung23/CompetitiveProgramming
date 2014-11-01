@@ -44115,6 +44115,18 @@
     ],
     "timestamp": "Oct/31/2014 17:51"
   },
+  "CF8512755": {
+    "contest_id": 100514,
+    "language": "GNU C++0x",
+    "path": "codeforces/100514/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Common",
+    "problem_url": "https://codeforces.com/gym/100514/problem/J",
+    "submission_id": "CF8512755",
+    "submission_url": "https://codeforces.com/gym/100514/submission/8512755",
+    "tags": [],
+    "timestamp": "Nov/01/2014 21:30"
+  },
   "CF8512946": {
     "contest_id": 100514,
     "language": "GNU C++0x",
