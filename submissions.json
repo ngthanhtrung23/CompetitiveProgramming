@@ -44115,6 +44115,18 @@
     ],
     "timestamp": "Oct/31/2014 17:51"
   },
+  "CF8512044": {
+    "contest_id": 100514,
+    "language": "GNU C++0x",
+    "path": "codeforces/100514/M.cpp",
+    "problem_index": "M",
+    "problem_name": "oPlus",
+    "problem_url": "https://codeforces.com/gym/100514/problem/M",
+    "submission_id": "CF8512044",
+    "submission_url": "https://codeforces.com/gym/100514/submission/8512044",
+    "tags": [],
+    "timestamp": "Nov/01/2014 20:51"
+  },
   "CF8512093": {
     "contest_id": 100514,
     "language": "GNU C++0x",
