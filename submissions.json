@@ -44115,6 +44115,18 @@
     ],
     "timestamp": "Oct/31/2014 17:51"
   },
+  "CF8513014": {
+    "contest_id": 100514,
+    "language": "GNU C++0x",
+    "path": "codeforces/100514/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Pgkpxumgs",
+    "problem_url": "https://codeforces.com/gym/100514/problem/C",
+    "submission_id": "CF8513014",
+    "submission_url": "https://codeforces.com/gym/100514/submission/8513014",
+    "tags": [],
+    "timestamp": "Nov/01/2014 21:46"
+  },
   "CF8513321": {
     "contest_id": 100514,
     "language": "GNU C++0x",
