@@ -44115,6 +44115,18 @@
     ],
     "timestamp": "Oct/31/2014 17:51"
   },
+  "CF8511688": {
+    "contest_id": 100514,
+    "language": "GNU C++0x",
+    "path": "codeforces/100514/Q.cpp",
+    "problem_index": "Q",
+    "problem_name": "Peace of bzjd",
+    "problem_url": "https://codeforces.com/gym/100514/problem/Q",
+    "submission_id": "CF8511688",
+    "submission_url": "https://codeforces.com/gym/100514/submission/8511688",
+    "tags": [],
+    "timestamp": "Nov/01/2014 20:32"
+  },
   "CF8511770": {
     "contest_id": 100514,
     "language": "Python 2",
