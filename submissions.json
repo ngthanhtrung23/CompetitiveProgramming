@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8521431": {
+    "contest_id": 453,
+    "language": "GNU C++0x",
+    "path": "codeforces/453/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Little Pony and Summer Sun Celebration",
+    "problem_url": "https://codeforces.com/contest/453/problem/C",
+    "submission_id": "CF8521431",
+    "submission_url": "https://codeforces.com/contest/453/submission/8521431",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "*2200"
+    ],
+    "timestamp": "Nov/02/2014 17:24"
+  },
   "CF8532858": {
     "contest_id": 478,
     "language": "GNU C++0x",
