@@ -10924,6 +10924,24 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8532858": {
+    "contest_id": 478,
+    "language": "GNU C++0x",
+    "path": "codeforces/478/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Wavy numbers",
+    "problem_url": "https://codeforces.com/contest/478/problem/E",
+    "submission_id": "CF8532858",
+    "submission_url": "https://codeforces.com/contest/478/submission/8532858",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "meet-in-the-middle",
+      "sortings",
+      "*2900"
+    ],
+    "timestamp": "Nov/03/2014 16:50"
+  },
   "CF8535929": {
     "contest_id": 466,
     "language": "GNU C++0x",
