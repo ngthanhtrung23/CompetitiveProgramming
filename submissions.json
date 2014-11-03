@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8537947": {
+    "contest_id": 459,
+    "language": "GNU C++0x",
+    "path": "codeforces/459/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Pashmak and Graph",
+    "problem_url": "https://codeforces.com/contest/459/problem/E",
+    "submission_id": "CF8537947",
+    "submission_url": "https://codeforces.com/contest/459/submission/8537947",
+    "tags": [
+      "dp",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Nov/04/2014 00:09"
+  },
   "CF8538024": {
     "contest_id": 459,
     "language": "GNU C++0x",
