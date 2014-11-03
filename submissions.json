@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8539579": {
+    "contest_id": 448,
+    "language": "GNU C++0x",
+    "path": "codeforces/448/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Rewards",
+    "problem_url": "https://codeforces.com/contest/448/problem/A",
+    "submission_id": "CF8539579",
+    "submission_url": "https://codeforces.com/contest/448/submission/8539579",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Nov/04/2014 02:54"
+  },
   "CF8624481": {
     "contest_id": 444,
     "language": "GNU C++0x",
