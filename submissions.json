@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8538190": {
+    "contest_id": 459,
+    "language": "GNU C++0x",
+    "path": "codeforces/459/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Pashmak and Garden",
+    "problem_url": "https://codeforces.com/contest/459/problem/A",
+    "submission_id": "CF8538190",
+    "submission_url": "https://codeforces.com/contest/459/submission/8538190",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Nov/04/2014 00:32"
+  },
   "CF8539466": {
     "contest_id": 448,
     "language": "GNU C++0x",
