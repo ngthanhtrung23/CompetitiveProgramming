@@ -44395,6 +44395,18 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8591975": {
+    "contest_id": 100526,
+    "language": "GNU C++0x",
+    "path": "codeforces/100526/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Key to Knowledge",
+    "problem_url": "https://codeforces.com/gym/100526/problem/K",
+    "submission_id": "CF8591975",
+    "submission_url": "https://codeforces.com/gym/100526/submission/8591975",
+    "tags": [],
+    "timestamp": "Nov/06/2014 22:41"
+  },
   "CF8592122": {
     "contest_id": 100526,
     "language": "GNU C++0x",
