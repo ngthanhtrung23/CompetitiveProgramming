@@ -44395,6 +44395,18 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8592122": {
+    "contest_id": 100526,
+    "language": "GNU C++0x",
+    "path": "codeforces/100526/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Jury Jeopardy",
+    "problem_url": "https://codeforces.com/gym/100526/problem/J",
+    "submission_id": "CF8592122",
+    "submission_url": "https://codeforces.com/gym/100526/submission/8592122",
+    "tags": [],
+    "timestamp": "Nov/06/2014 22:52"
+  },
   "CF8593372": {
     "contest_id": 100526,
     "language": "GNU C++0x",
