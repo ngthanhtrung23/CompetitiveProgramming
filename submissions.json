@@ -44395,6 +44395,18 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8591124": {
+    "contest_id": 100526,
+    "language": "GNU C++0x",
+    "path": "codeforces/100526/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Excellent Engineers",
+    "problem_url": "https://codeforces.com/gym/100526/problem/E",
+    "submission_id": "CF8591124",
+    "submission_url": "https://codeforces.com/gym/100526/submission/8591124",
+    "tags": [],
+    "timestamp": "Nov/06/2014 21:48"
+  },
   "CF8591975": {
     "contest_id": 100526,
     "language": "GNU C++0x",
