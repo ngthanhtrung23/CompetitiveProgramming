@@ -44395,6 +44395,18 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8594063": {
+    "contest_id": 100526,
+    "language": "GNU C++0x",
+    "path": "codeforces/100526/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dropping Directions",
+    "problem_url": "https://codeforces.com/gym/100526/problem/D",
+    "submission_id": "CF8594063",
+    "submission_url": "https://codeforces.com/gym/100526/submission/8594063",
+    "tags": [],
+    "timestamp": "Nov/07/2014 01:18"
+  },
   "CF8596452": {
     "contest_id": 484,
     "language": "GNU C++0x",
