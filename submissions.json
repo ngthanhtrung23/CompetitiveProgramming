@@ -44395,6 +44395,18 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8590628": {
+    "contest_id": 100526,
+    "language": "GNU C++0x",
+    "path": "codeforces/100526/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Growling Gears",
+    "problem_url": "https://codeforces.com/gym/100526/problem/G",
+    "submission_id": "CF8590628",
+    "submission_url": "https://codeforces.com/gym/100526/submission/8590628",
+    "tags": [],
+    "timestamp": "Nov/06/2014 21:23"
+  },
   "CF8590868": {
     "contest_id": 100526,
     "language": "GNU C++0x",
