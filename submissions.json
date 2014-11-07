@@ -44395,6 +44395,21 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8601464": {
+    "contest_id": 444,
+    "language": "GNU C++0x",
+    "path": "codeforces/444/B.cpp",
+    "problem_index": "B",
+    "problem_name": "DZY Loves FFT",
+    "problem_url": "https://codeforces.com/contest/444/problem/B",
+    "submission_id": "CF8601464",
+    "submission_url": "https://codeforces.com/contest/444/submission/8601464",
+    "tags": [
+      "probabilities",
+      "*2300"
+    ],
+    "timestamp": "Nov/07/2014 18:59"
+  },
   "CF8601555": {
     "contest_id": 444,
     "language": "GNU C++0x",
