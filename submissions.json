@@ -44395,6 +44395,18 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8598410": {
+    "contest_id": 100526,
+    "language": "GNU C++0x",
+    "path": "codeforces/100526/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Avoiding the Apocalypse",
+    "problem_url": "https://codeforces.com/gym/100526/problem/A",
+    "submission_id": "CF8598410",
+    "submission_url": "https://codeforces.com/gym/100526/submission/8598410",
+    "tags": [],
+    "timestamp": "Nov/07/2014 12:18"
+  },
   "CF8601005": {
     "contest_id": 445,
     "language": "GNU C++0x",
