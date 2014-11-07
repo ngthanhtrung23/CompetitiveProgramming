@@ -44395,6 +44395,22 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8601555": {
+    "contest_id": 444,
+    "language": "GNU C++0x",
+    "path": "codeforces/444/A.cpp",
+    "problem_index": "A",
+    "problem_name": "DZY Loves Physics",
+    "problem_url": "https://codeforces.com/contest/444/problem/A",
+    "submission_id": "CF8601555",
+    "submission_url": "https://codeforces.com/contest/444/submission/8601555",
+    "tags": [
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Nov/07/2014 19:08"
+  },
   "CF8612957": {
     "contest_id": 444,
     "language": "GNU C++0x",
