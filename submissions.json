@@ -44395,6 +44395,22 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8616755": {
+    "contest_id": 440,
+    "language": "GNU C++0x",
+    "path": "codeforces/440/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Balancer",
+    "problem_url": "https://codeforces.com/contest/440/problem/B",
+    "submission_id": "CF8616755",
+    "submission_url": "https://codeforces.com/contest/440/submission/8616755",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Nov/09/2014 02:14"
+  },
   "CF8617078": {
     "contest_id": 440,
     "language": "GNU C++0x",
