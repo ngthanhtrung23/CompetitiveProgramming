@@ -44395,6 +44395,22 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8617588": {
+    "contest_id": 440,
+    "language": "GNU C++0x",
+    "path": "codeforces/440/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Berland Federalization",
+    "problem_url": "https://codeforces.com/contest/440/problem/D",
+    "submission_id": "CF8617588",
+    "submission_url": "https://codeforces.com/contest/440/submission/8617588",
+    "tags": [
+      "dp",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Nov/09/2014 03:56"
+  },
   "CF8622101": {
     "contest_id": 379,
     "language": "GNU C++0x",
