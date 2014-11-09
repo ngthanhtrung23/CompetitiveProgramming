@@ -44395,6 +44395,23 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8622814": {
+    "contest_id": 379,
+    "language": "GNU C++0x",
+    "path": "codeforces/379/F.cpp",
+    "problem_index": "F",
+    "problem_name": "New Year Tree",
+    "problem_url": "https://codeforces.com/contest/379/problem/F",
+    "submission_id": "CF8622814",
+    "submission_url": "https://codeforces.com/contest/379/submission/8622814",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Nov/09/2014 20:14"
+  },
   "CF8624079": {
     "contest_id": 379,
     "language": "GNU C++0x",
