@@ -51,12 +51,12 @@ struct Node {
 
 #define CT(X) ((X) << 1)
 #define CP(X) (CT(X) + 1)
-#define mid ((l + r) >> 1)
 void build(int i, int l, int r) {
     if (l == r) {
         it[i] = Node(s[l]);
         return ;
     }
+    int mid = (l + r) >> 1;
     build(CT(i), l, mid);
     build(CP(i), mid+1, r);
 
@@ -66,6 +66,8 @@ void build(int i, int l, int r) {
 Node get(int i, int l, int r, int u, int v) {
     if (v < l || r < u) return Node();
     if (u <= l && r <= v) return it[i];
+
+    int mid = (l + r) >> 1;
     return get(CT(i), l, mid, u, v) + get(CP(i), mid+1, r, u, v);
 }
 
