@@ -44395,6 +44395,23 @@
     ],
     "timestamp": "Nov/04/2014 02:54"
   },
+  "CF8624079": {
+    "contest_id": 379,
+    "language": "GNU C++0x",
+    "path": "codeforces/379/D.cpp",
+    "problem_index": "D",
+    "problem_name": "New Year Letter",
+    "problem_url": "https://codeforces.com/contest/379/problem/D",
+    "submission_id": "CF8624079",
+    "submission_url": "https://codeforces.com/contest/379/submission/8624079",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Nov/09/2014 23:19"
+  },
   "CF8624481": {
     "contest_id": 444,
     "language": "GNU C++0x",
