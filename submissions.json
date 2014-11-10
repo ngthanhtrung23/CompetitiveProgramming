@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8632404": {
+    "contest_id": 21,
+    "language": "GNU C++0x",
+    "path": "codeforces/21/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Stripe 2",
+    "problem_url": "https://codeforces.com/contest/21/problem/C",
+    "submission_id": "CF8632404",
+    "submission_url": "https://codeforces.com/contest/21/submission/8632404",
+    "tags": [
+      "binary search",
+      "dp",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "Nov/10/2014 23:55"
+  },
   "CF8632845": {
     "contest_id": 451,
     "language": "GNU C++0x",
