@@ -10924,6 +10924,24 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8630117": {
+    "contest_id": 386,
+    "language": "GNU C++0x",
+    "path": "codeforces/386/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Game with Points",
+    "problem_url": "https://codeforces.com/contest/386/problem/D",
+    "submission_id": "CF8630117",
+    "submission_url": "https://codeforces.com/contest/386/submission/8630117",
+    "tags": [
+      "dp",
+      "graphs",
+      "implementation",
+      "shortest paths",
+      "*2100"
+    ],
+    "timestamp": "Nov/10/2014 18:35"
+  },
   "CF8630152": {
     "contest_id": 384,
     "language": "GNU C++0x",
