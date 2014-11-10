@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8628559": {
+    "contest_id": 386,
+    "language": "GNU C++0x",
+    "path": "codeforces/386/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Second-Price Auction",
+    "problem_url": "https://codeforces.com/contest/386/problem/A",
+    "submission_id": "CF8628559",
+    "submission_url": "https://codeforces.com/contest/386/submission/8628559",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Nov/10/2014 14:18"
+  },
   "CF8628573": {
     "contest_id": 386,
     "language": "GNU C++0x",
