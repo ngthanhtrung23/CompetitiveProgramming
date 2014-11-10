@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8630246": {
+    "contest_id": 383,
+    "language": "GNU C++0x",
+    "path": "codeforces/383/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Milking cows",
+    "problem_url": "https://codeforces.com/contest/383/problem/A",
+    "submission_id": "CF8630246",
+    "submission_url": "https://codeforces.com/contest/383/submission/8630246",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Nov/10/2014 18:55"
+  },
   "CF8630375": {
     "contest_id": 383,
     "language": "GNU C++0x",
