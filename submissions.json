@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8632225": {
+    "contest_id": 21,
+    "language": "GNU C++0x",
+    "path": "codeforces/21/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Intersection",
+    "problem_url": "https://codeforces.com/contest/21/problem/B",
+    "submission_id": "CF8632225",
+    "submission_url": "https://codeforces.com/contest/21/submission/8632225",
+    "tags": [
+      "implementation",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Nov/10/2014 23:31"
+  },
   "CF8632404": {
     "contest_id": 21,
     "language": "GNU C++0x",
