@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8662222": {
+    "contest_id": 486,
+    "language": "GNU C++0x",
+    "path": "codeforces/486/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Palindrome Transformation",
+    "problem_url": "https://codeforces.com/contest/486/problem/C",
+    "submission_id": "CF8662222",
+    "submission_url": "https://codeforces.com/contest/486/submission/8662222",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Nov/12/2014 01:39"
+  },
   "CF8667040": {
     "contest_id": 385,
     "language": "GNU C++0x",
