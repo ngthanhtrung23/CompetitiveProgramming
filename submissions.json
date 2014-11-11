@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8658056": {
+    "contest_id": 486,
+    "language": "GNU C++0x",
+    "path": "codeforces/486/B.cpp",
+    "problem_index": "B",
+    "problem_name": "OR in Matrix",
+    "problem_url": "https://codeforces.com/contest/486/problem/B",
+    "submission_id": "CF8658056",
+    "submission_url": "https://codeforces.com/contest/486/submission/8658056",
+    "tags": [
+      "greedy",
+      "hashing",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Nov/12/2014 00:12"
+  },
   "CF8660391": {
     "contest_id": 486,
     "language": "GNU C++0x",
