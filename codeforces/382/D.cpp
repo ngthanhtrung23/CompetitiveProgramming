@@ -39,9 +39,10 @@ const int MN = 2011;
 
 int m, n, cur;
 char a[MN][MN];
+int id[MN][MN];
 #define next next_
 int next[MN*MN], to[MN*MN], head[MN*MN];
-int visited[MN*MN], vao[MN*MN], f1[MN*MN];
+int visited[MN*MN], vao[MN*MN], f1[MN*MN], f2[MN*MN];
 
 bool dfs1(int u, int fu) {
     visited[u] = 1;
@@ -58,6 +59,7 @@ bool dfs1(int u, int fu) {
 
 void dfs2(int u) {
     f1[u] = visited[u];
+    f2[u] = 0;
     for(int p = head[u]; p >= 0; p = next[p]) {
         int v = to[p];
         // cout << u << ' ' << v << endl;
@@ -66,7 +68,16 @@ void dfs2(int u) {
             dfs2(v);
         }
 
-        if (f1[v] > f1[u]) f1[u] = f1[v];
+        REP(turn,2) {
+            int cur = turn == 0 ? f1[v] : f2[v];
+            if (cur > f1[u]) {
+                f2[u] = f1[u];
+                f1[u] = cur;
+            }
+            else if (cur > f2[u]) {
+                f2[u] = cur;
+            }
+        }
     }
 }
 
@@ -85,13 +96,12 @@ int main() {
         FOR(i,1,m) FOR(j,1,n) cin >> a[i][j];
         cur = 0;
         FOR(i,1,m) FOR(j,1,n) if (a[i][j] != '#') {
-            ++cur;
+            id[i][j] = ++cur;
         }
         if (cur < 2) {
             cout << 0 << endl;
             continue;
         }
-        cur = m * n;
         memset(vao, 0, sizeof vao);
         memset(head, -1, sizeof head);
         memset(next, -1, sizeof next);
@@ -102,7 +112,7 @@ int main() {
             REP(dir,4) if (dc[dir] == a[i][j]) {
                 int ii = i + di[dir], jj = j + dj[dir];
                 if (a[ii][jj] != '#') {
-                    int u = (i-1)*n+j, v = (ii-1)*n+jj;
+                    int u = id[i][j], v = id[ii][jj];
                     swap(u, v);
 
                     next[nEdges] = head[u];
@@ -140,3 +150,4 @@ int main() {
     }
     return 0;
 }
+
