@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8688065": {
+    "contest_id": 409,
+    "language": "GNU C++0x",
+    "path": "codeforces/409/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Feed the Golorp",
+    "problem_url": "https://codeforces.com/contest/409/problem/I",
+    "submission_id": "CF8688065",
+    "submission_url": "https://codeforces.com/contest/409/submission/8688065",
+    "tags": [
+      "*special problem",
+      "*2400"
+    ],
+    "timestamp": "Nov/14/2014 03:24"
+  },
   "CF8688166": {
     "contest_id": 418,
     "language": "GNU C++0x",
