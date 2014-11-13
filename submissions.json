@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8685503": {
+    "contest_id": 22,
+    "language": "GNU C++0x",
+    "path": "codeforces/22/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Scheme",
+    "problem_url": "https://codeforces.com/contest/22/problem/E",
+    "submission_id": "CF8685503",
+    "submission_url": "https://codeforces.com/contest/22/submission/8685503",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Nov/13/2014 23:09"
+  },
   "CF8687813": {
     "contest_id": 1,
     "language": "GNU C++0x",
