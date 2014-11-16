@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8713225": {
+    "contest_id": 449,
+    "language": "GNU C++0x",
+    "path": "codeforces/449/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Jzzhu and Apples",
+    "problem_url": "https://codeforces.com/contest/449/problem/C",
+    "submission_id": "CF8713225",
+    "submission_url": "https://codeforces.com/contest/449/submission/8713225",
+    "tags": [
+      "constructive algorithms",
+      "number theory",
+      "*2500"
+    ],
+    "timestamp": "Nov/17/2014 01:48"
+  },
   "CF8715795": {
     "contest_id": 19,
     "language": "GNU C++0x",
