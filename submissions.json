@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8731130": {
+    "contest_id": 489,
+    "language": "GNU C++0x",
+    "path": "codeforces/489/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Special Matrices",
+    "problem_url": "https://codeforces.com/contest/489/problem/F",
+    "submission_id": "CF8731130",
+    "submission_url": "https://codeforces.com/contest/489/submission/8731130",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "Nov/18/2014 00:56"
+  },
   "CF8736365": {
     "contest_id": 489,
     "language": "GNU C++0x",
