@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8719193": {
+    "contest_id": 418,
+    "language": "GNU C++0x",
+    "path": "codeforces/418/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Football",
+    "problem_url": "https://codeforces.com/contest/418/problem/A",
+    "submission_id": "CF8719193",
+    "submission_url": "https://codeforces.com/contest/418/submission/8719193",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Nov/17/2014 23:12"
+  },
   "CF8719359": {
     "contest_id": 489,
     "language": "GNU C++0x",
