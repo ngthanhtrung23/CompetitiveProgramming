@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8750281": {
+    "contest_id": 485,
+    "language": "GNU C++0x",
+    "path": "codeforces/485/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Bits",
+    "problem_url": "https://codeforces.com/contest/485/problem/C",
+    "submission_id": "CF8750281",
+    "submission_url": "https://codeforces.com/contest/485/submission/8750281",
+    "tags": [
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Nov/19/2014 04:22"
+  },
   "CF8750290": {
     "contest_id": 483,
     "language": "GNU C++0x",
