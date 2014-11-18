@@ -45798,6 +45798,18 @@
     ],
     "timestamp": "Nov/18/2014 15:13"
   },
+  "CF8749798": {
+    "contest_id": 100287,
+    "language": "GNU C++0x",
+    "path": "codeforces/100287/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Graveyard",
+    "problem_url": "https://codeforces.com/gym/100287/problem/G",
+    "submission_id": "CF8749798",
+    "submission_url": "https://codeforces.com/gym/100287/submission/8749798",
+    "tags": [],
+    "timestamp": "Nov/19/2014 03:03"
+  },
   "CF8750151": {
     "contest_id": 476,
     "language": "GNU C++0x",
