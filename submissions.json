@@ -45798,6 +45798,18 @@
     ],
     "timestamp": "Nov/18/2014 15:13"
   },
+  "CF8749728": {
+    "contest_id": 100287,
+    "language": "GNU C++0x",
+    "path": "codeforces/100287/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Kickdown",
+    "problem_url": "https://codeforces.com/gym/100287/problem/K",
+    "submission_id": "CF8749728",
+    "submission_url": "https://codeforces.com/gym/100287/submission/8749728",
+    "tags": [],
+    "timestamp": "Nov/19/2014 02:53"
+  },
   "CF8749798": {
     "contest_id": 100287,
     "language": "GNU C++0x",
