@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8750299": {
+    "contest_id": 476,
+    "language": "GNU C++0x",
+    "path": "codeforces/476/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dreamoon and Strings",
+    "problem_url": "https://codeforces.com/contest/476/problem/E",
+    "submission_id": "CF8750299",
+    "submission_url": "https://codeforces.com/contest/476/submission/8750299",
+    "tags": [
+      "dp",
+      "strings",
+      "*2200"
+    ],
+    "timestamp": "Nov/19/2014 04:26"
+  },
   "CF8750300": {
     "contest_id": 476,
     "language": "GNU C++0x",
