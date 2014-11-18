@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8742516": {
+    "contest_id": 411,
+    "language": "GNU C++0x",
+    "path": "codeforces/411/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Kicker",
+    "problem_url": "https://codeforces.com/contest/411/problem/C",
+    "submission_id": "CF8742516",
+    "submission_url": "https://codeforces.com/contest/411/submission/8742516",
+    "tags": [
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Nov/18/2014 14:25"
+  },
   "CF8742611": {
     "contest_id": 416,
     "language": "GNU C++0x",
