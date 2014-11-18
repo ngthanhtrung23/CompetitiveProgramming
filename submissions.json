@@ -45798,6 +45798,18 @@
     ],
     "timestamp": "Nov/18/2014 15:13"
   },
+  "CF8749369": {
+    "contest_id": 100287,
+    "language": "GNU C++0x",
+    "path": "codeforces/100287/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Hard Life",
+    "problem_url": "https://codeforces.com/gym/100287/problem/H",
+    "submission_id": "CF8749369",
+    "submission_url": "https://codeforces.com/gym/100287/submission/8749369",
+    "tags": [],
+    "timestamp": "Nov/19/2014 02:14"
+  },
   "CF8749670": {
     "contest_id": 100287,
     "language": "GNU C++0x",
