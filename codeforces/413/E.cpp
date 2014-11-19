@@ -75,17 +75,47 @@ void build(int i, int l, int r) {
             else it[i].d[x][y] = -1;
         return ;
     }
+    if (l + 1 == r) {
+        memset(it[i].d, -1, sizeof it[i].d);
+        REP(x,2) {
+            if (a[x][l] == '.' && a[x][r] == '.') update(it[i].d[x][x], 1);
+            if (a[x][l] == '.' && a[x][r] == '.' && a[1-x][r] == '.') update(it[i].d[x][1-x], 2);
+            if (a[x][l] == '.' && a[1-x][l] == '.' && a[1-x][r] == '.') update(it[i].d[x][1-x], 2);
+        }
+        build(CT(i), l, MID);
+        build(CP(i), MID+1, r);
+        return ;
+    }
     build(CT(i), l, MID);
     build(CP(i), MID+1, r);
 
     it[i] = it[CT(i)] + it[CP(i)];
+    // cout << l << " --> " << r << endl;
+    // it[i].print();
 }
 
 Node get(int i, int l, int r, int u, int v) {
-    if (u <= l && r <= v) return it[i];
-    if (v <= MID) return get(CT(i), l, MID, u, v);
-    if (MID+1 <= u) return get(CP(i), MID+1, r, u, v);
-    return get(CT(i), l, MID, u, v) + get(CP(i), MID+1, r, u, v);
+    if (u <= l && r <= v) {
+        // cout << l << ' ' << r << ' ' << u << ' ' << v << endl;
+        // it[i].print();
+        return it[i];
+    }
+    if (v <= MID) {
+        Node res = get(CT(i), l, MID, u, v);
+        // cout << l << ' ' << r << ' ' << u << ' ' << v << endl;
+        // res.print();
+        return res;
+    }
+    if (MID+1 <= u) {
+        Node res = get(CP(i), MID+1, r, u, v);
+        // cout << l << ' ' << r << ' ' << u << ' ' << v << endl;
+        // res.print();
+        return res;
+    }
+    Node res = get(CT(i), l, MID, u, v) + get(CP(i), MID+1, r, u, v);
+    // cout << l << ' ' << r << ' ' << u << ' ' << v << endl;
+    // res.print();
+    return res;
 }
 
 int main() {
