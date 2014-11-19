@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8757857": {
+    "contest_id": 413,
+    "language": "GNU C++0x",
+    "path": "codeforces/413/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Data Recovery",
+    "problem_url": "https://codeforces.com/contest/413/problem/A",
+    "submission_id": "CF8757857",
+    "submission_url": "https://codeforces.com/contest/413/submission/8757857",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Nov/20/2014 01:44"
+  },
   "CF8757888": {
     "contest_id": 413,
     "language": "GNU C++0x",
