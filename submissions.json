@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8757888": {
+    "contest_id": 413,
+    "language": "GNU C++0x",
+    "path": "codeforces/413/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Spyke Chatting",
+    "problem_url": "https://codeforces.com/contest/413/problem/B",
+    "submission_id": "CF8757888",
+    "submission_url": "https://codeforces.com/contest/413/submission/8757888",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Nov/20/2014 01:50"
+  },
   "CF8757966": {
     "contest_id": 413,
     "language": "GNU C++0x",
