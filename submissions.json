@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8757717": {
+    "contest_id": 412,
+    "language": "GNU C++0x",
+    "path": "codeforces/412/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Pattern",
+    "problem_url": "https://codeforces.com/contest/412/problem/C",
+    "submission_id": "CF8757717",
+    "submission_url": "https://codeforces.com/contest/412/submission/8757717",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Nov/20/2014 01:24"
+  },
   "CF8757752": {
     "contest_id": 412,
     "language": "GNU C++0x",
