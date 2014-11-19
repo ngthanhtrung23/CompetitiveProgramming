@@ -45910,6 +45910,18 @@
     ],
     "timestamp": "Nov/19/2014 04:26"
   },
+  "CF8753230": {
+    "contest_id": 100287,
+    "language": "GNU C++0x",
+    "path": "codeforces/100287/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Interconnect",
+    "problem_url": "https://codeforces.com/gym/100287/problem/I",
+    "submission_id": "CF8753230",
+    "submission_url": "https://codeforces.com/gym/100287/submission/8753230",
+    "tags": [],
+    "timestamp": "Nov/19/2014 15:57"
+  },
   "CF8753774": {
     "contest_id": 100287,
     "language": "GNU C++0x",
