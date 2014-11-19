@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8757825": {
+    "contest_id": 412,
+    "language": "GNU C++0x",
+    "path": "codeforces/412/E.cpp",
+    "problem_index": "E",
+    "problem_name": "E-mail Addresses",
+    "problem_url": "https://codeforces.com/contest/412/problem/E",
+    "submission_id": "CF8757825",
+    "submission_url": "https://codeforces.com/contest/412/submission/8757825",
+    "tags": [
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Nov/20/2014 01:39"
+  },
   "CF8757857": {
     "contest_id": 413,
     "language": "GNU C++0x",
