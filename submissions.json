@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8760632": {
+    "contest_id": 420,
+    "language": "GNU C++0x",
+    "path": "codeforces/420/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Start Up",
+    "problem_url": "https://codeforces.com/contest/420/problem/A",
+    "submission_id": "CF8760632",
+    "submission_url": "https://codeforces.com/contest/420/submission/8760632",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Nov/20/2014 13:11"
+  },
   "CF8761598": {
     "contest_id": 484,
     "language": "GNU C++0x",
