@@ -46343,6 +46343,18 @@
     ],
     "timestamp": "Nov/20/2014 21:03"
   },
+  "CF8766225": {
+    "contest_id": 100534,
+    "language": "GNU C++0x",
+    "path": "codeforces/100534/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Bimetallic coins",
+    "problem_url": "https://codeforces.com/gym/100534/problem/J",
+    "submission_id": "CF8766225",
+    "submission_url": "https://codeforces.com/gym/100534/submission/8766225",
+    "tags": [],
+    "timestamp": "Nov/20/2014 23:35"
+  },
   "CF8767105": {
     "contest_id": 100534,
     "language": "GNU C++0x",
