@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8762799": {
+    "contest_id": 3,
+    "language": "GNU C++0x",
+    "path": "codeforces/3/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Shortest path of the king",
+    "problem_url": "https://codeforces.com/contest/3/problem/A",
+    "submission_id": "CF8762799",
+    "submission_url": "https://codeforces.com/contest/3/submission/8762799",
+    "tags": [
+      "greedy",
+      "shortest paths",
+      "*1000"
+    ],
+    "timestamp": "Nov/20/2014 18:15"
+  },
   "CF8762812": {
     "contest_id": 3,
     "language": "GNU C++0x",
