@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8762812": {
+    "contest_id": 3,
+    "language": "GNU C++0x",
+    "path": "codeforces/3/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lorry",
+    "problem_url": "https://codeforces.com/contest/3/problem/B",
+    "submission_id": "CF8762812",
+    "submission_url": "https://codeforces.com/contest/3/submission/8762812",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Nov/20/2014 18:16"
+  },
   "CF8762866": {
     "contest_id": 3,
     "language": "GNU C++0x",
