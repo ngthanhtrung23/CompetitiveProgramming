@@ -46343,6 +46343,18 @@
     ],
     "timestamp": "Nov/20/2014 21:03"
   },
+  "CF8764353": {
+    "contest_id": 100534,
+    "language": "GNU C++0x",
+    "path": "codeforces/100534/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Abnormal Coins",
+    "problem_url": "https://codeforces.com/gym/100534/problem/A",
+    "submission_id": "CF8764353",
+    "submission_url": "https://codeforces.com/gym/100534/submission/8764353",
+    "tags": [],
+    "timestamp": "Nov/20/2014 21:12"
+  },
   "CF8764490": {
     "contest_id": 100534,
     "language": "GNU C++0x",
