@@ -34,8 +34,28 @@ using namespace std;
 #define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
 
 string s;
+struct Hash {
+    long long x, y;
+    Hash(long long x = 0, long long y = 0) : x(x), y(y) {}
+};
 
-long long f[1011][1011];
+const long long MOD = 1000000007;
+Hash operator + (const Hash &a, const Hash &b) {
+    return Hash(a.x + b.x, (a.x + b.x) % MOD);
+}
+Hash operator * (const Hash &a, const Hash &b) {
+    return Hash(a.x * b.x, (a.x * b.x) % MOD);
+}
+bool operator < (const Hash &a, const Hash &b) {
+    if (a.x != b.x) return a.x < b.x;
+    return a.y < b.y;
+}
+
+Hash f[1011][1011];
+
+Hash code(char c) {
+    return Hash(c, c);
+}
 
 int main() {
     ios :: sync_with_stdio(false); cin.tie(NULL);
@@ -44,10 +64,10 @@ int main() {
         int n = s.length();
         FORD(j,n-1,0) FORD(i,j-1,0) {
             int k = i + j + 1;
-            if (k >= n) f[i][j] = s[j] * 311 + s[i];
-            else f[i][j] = f[j][k] * 311 + s[i];
+            if (k >= n) f[i][j] = code(s[j]) * 311 + code(s[i]);
+            else f[i][j] = f[j][k] * 311 + code(s[i]);
         }
-        set<long long> s;
+        set<Hash> s;
         REP(i,n) FOR(j,i+1,n-1)
             s.insert(f[i][j]);
 

@@ -46343,6 +46343,18 @@
     ],
     "timestamp": "Nov/20/2014 21:03"
   },
+  "CF8764490": {
+    "contest_id": 100534,
+    "language": "GNU C++0x",
+    "path": "codeforces/100534/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Fake Coins",
+    "problem_url": "https://codeforces.com/gym/100534/problem/B",
+    "submission_id": "CF8764490",
+    "submission_url": "https://codeforces.com/gym/100534/submission/8764490",
+    "tags": [],
+    "timestamp": "Nov/20/2014 21:22"
+  },
   "CF8764536": {
     "contest_id": 100534,
     "language": "GNU C++0x",
