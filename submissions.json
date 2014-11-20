@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8768271": {
+    "contest_id": 421,
+    "language": "GNU C++0x",
+    "path": "codeforces/421/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Bug in Code",
+    "problem_url": "https://codeforces.com/contest/421/problem/D",
+    "submission_id": "CF8768271",
+    "submission_url": "https://codeforces.com/contest/421/submission/8768271",
+    "tags": [
+      "binary search",
+      "data structures",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Nov/21/2014 03:43"
+  },
   "CF8796619": {
     "contest_id": 488,
     "language": "GNU C++0x",
