@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8761598": {
+    "contest_id": 484,
+    "language": "GNU C++0x",
+    "path": "codeforces/484/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Strange Sorting",
+    "problem_url": "https://codeforces.com/contest/484/problem/C",
+    "submission_id": "CF8761598",
+    "submission_url": "https://codeforces.com/contest/484/submission/8761598",
+    "tags": [
+      "implementation",
+      "math",
+      "*2600"
+    ],
+    "timestamp": "Nov/20/2014 15:43"
+  },
   "CF8762777": {
     "contest_id": 2,
     "language": "GNU C++0x",
