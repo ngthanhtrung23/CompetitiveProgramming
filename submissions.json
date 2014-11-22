@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8802049": {
+    "contest_id": 488,
+    "language": "GNU C++0x",
+    "path": "codeforces/488/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Prefix Product Sequence",
+    "problem_url": "https://codeforces.com/contest/488/problem/E",
+    "submission_id": "CF8802049",
+    "submission_url": "https://codeforces.com/contest/488/submission/8802049",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*2300"
+    ],
+    "timestamp": "Nov/22/2014 21:06"
+  },
   "CF8802600": {
     "contest_id": 491,
     "language": "GNU C++0x",
