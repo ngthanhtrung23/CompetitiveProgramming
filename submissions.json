@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8802042": {
+    "contest_id": 488,
+    "language": "GNU C++0x",
+    "path": "codeforces/488/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Fight the Monster",
+    "problem_url": "https://codeforces.com/contest/488/problem/C",
+    "submission_id": "CF8802042",
+    "submission_url": "https://codeforces.com/contest/488/submission/8802042",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Nov/22/2014 21:06"
+  },
   "CF8802047": {
     "contest_id": 488,
     "language": "GNU C++0x",
