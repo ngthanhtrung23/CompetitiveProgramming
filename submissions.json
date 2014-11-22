@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8802829": {
+    "contest_id": 491,
+    "language": "GNU C++0x",
+    "path": "codeforces/491/B.cpp",
+    "problem_index": "B",
+    "problem_name": "New York Hotel",
+    "problem_url": "https://codeforces.com/contest/491/problem/B",
+    "submission_id": "CF8802829",
+    "submission_url": "https://codeforces.com/contest/491/submission/8802829",
+    "tags": [
+      "greedy",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Nov/22/2014 22:12"
+  },
   "CF8803766": {
     "contest_id": 491,
     "language": "GNU C++0x",
