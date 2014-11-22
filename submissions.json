@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8796619": {
+    "contest_id": 488,
+    "language": "GNU C++0x",
+    "path": "codeforces/488/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Giga Tower",
+    "problem_url": "https://codeforces.com/contest/488/problem/A",
+    "submission_id": "CF8796619",
+    "submission_url": "https://codeforces.com/contest/488/submission/8796619",
+    "tags": [
+      "brute force",
+      "*1100"
+    ],
+    "timestamp": "Nov/22/2014 15:10"
+  },
   "CF8799167": {
     "contest_id": 488,
     "language": "GNU C++0x",
