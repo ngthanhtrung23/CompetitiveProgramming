@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8809459": {
+    "contest_id": 387,
+    "language": "GNU C++0x",
+    "path": "codeforces/387/D.cpp",
+    "problem_index": "D",
+    "problem_name": "George and Interesting Graph",
+    "problem_url": "https://codeforces.com/contest/387/problem/D",
+    "submission_id": "CF8809459",
+    "submission_url": "https://codeforces.com/contest/387/submission/8809459",
+    "tags": [
+      "graph matchings",
+      "*2200"
+    ],
+    "timestamp": "Nov/23/2014 15:29"
+  },
   "CF8809663": {
     "contest_id": 387,
     "language": "GNU C++0x",
