@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8809663": {
+    "contest_id": 387,
+    "language": "GNU C++0x",
+    "path": "codeforces/387/E.cpp",
+    "problem_index": "E",
+    "problem_name": "George and Cards",
+    "problem_url": "https://codeforces.com/contest/387/problem/E",
+    "submission_id": "CF8809663",
+    "submission_url": "https://codeforces.com/contest/387/submission/8809663",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*2200"
+    ],
+    "timestamp": "Nov/23/2014 16:01"
+  },
   "CF8809680": {
     "contest_id": 388,
     "language": "GNU C++0x",
