@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8809689": {
+    "contest_id": 388,
+    "language": "GNU C++0x",
+    "path": "codeforces/388/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Fox and Card Game",
+    "problem_url": "https://codeforces.com/contest/388/problem/C",
+    "submission_id": "CF8809689",
+    "submission_url": "https://codeforces.com/contest/388/submission/8809689",
+    "tags": [
+      "games",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "Nov/23/2014 16:05"
+  },
   "CF8809926": {
     "contest_id": 391,
     "language": "GNU C++0x",
