@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8828676": {
+    "contest_id": 290,
+    "language": "GNU C++0x",
+    "path": "codeforces/290/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Mysterious strings",
+    "problem_url": "https://codeforces.com/contest/290/problem/A",
+    "submission_id": "CF8828676",
+    "submission_url": "https://codeforces.com/contest/290/submission/8828676",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Nov/24/2014 04:04"
+  },
   "CF8828680": {
     "contest_id": 290,
     "language": "GNU C++0x",
