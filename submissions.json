@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8828513": {
+    "contest_id": 464,
+    "language": "GNU C++0x",
+    "path": "codeforces/464/D.cpp",
+    "problem_index": "D",
+    "problem_name": "World of Darkraft - 2",
+    "problem_url": "https://codeforces.com/contest/464/problem/D",
+    "submission_id": "CF8828513",
+    "submission_url": "https://codeforces.com/contest/464/submission/8828513",
+    "tags": [
+      "dp",
+      "probabilities",
+      "*2700"
+    ],
+    "timestamp": "Nov/24/2014 03:42"
+  },
   "CF8828676": {
     "contest_id": 290,
     "language": "GNU C++0x",
