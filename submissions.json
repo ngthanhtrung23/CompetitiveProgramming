@@ -10924,6 +10924,24 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8828680": {
+    "contest_id": 290,
+    "language": "GNU C++0x",
+    "path": "codeforces/290/C.cpp",
+    "problem_index": "C",
+    "problem_name": "WTF?",
+    "problem_url": "https://codeforces.com/contest/290/problem/C",
+    "submission_id": "CF8828680",
+    "submission_url": "https://codeforces.com/contest/290/submission/8828680",
+    "tags": [
+      "*special problem",
+      "graph matchings",
+      "implementation",
+      "trees",
+      "*1700"
+    ],
+    "timestamp": "Nov/24/2014 04:05"
+  },
   "CF8828683": {
     "contest_id": 290,
     "language": "GNU C++0x",
