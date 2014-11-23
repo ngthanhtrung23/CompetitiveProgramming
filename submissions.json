@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8828683": {
+    "contest_id": 290,
+    "language": "GNU C++0x",
+    "path": "codeforces/290/B.cpp",
+    "problem_index": "B",
+    "problem_name": "QR code",
+    "problem_url": "https://codeforces.com/contest/290/problem/B",
+    "submission_id": "CF8828683",
+    "submission_url": "https://codeforces.com/contest/290/submission/8828683",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Nov/24/2014 04:05"
+  },
   "CF8828685": {
     "contest_id": 290,
     "language": "GNU C++0x",
