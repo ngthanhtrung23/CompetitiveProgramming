@@ -47151,6 +47151,21 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8848152": {
+    "contest_id": 455,
+    "language": "GNU C++0x",
+    "path": "codeforces/455/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Serega and Fun",
+    "problem_url": "https://codeforces.com/contest/455/problem/D",
+    "submission_id": "CF8848152",
+    "submission_url": "https://codeforces.com/contest/455/submission/8848152",
+    "tags": [
+      "data structures",
+      "*2700"
+    ],
+    "timestamp": "Nov/26/2014 00:06"
+  },
   "CF8850055": {
     "contest_id": 393,
     "language": "GNU C++0x",
