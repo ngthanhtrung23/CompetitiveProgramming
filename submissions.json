@@ -47151,6 +47151,20 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8850377": {
+    "contest_id": 392,
+    "language": "GNU C++0x",
+    "path": "codeforces/392/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Tower of Hanoi",
+    "problem_url": "https://codeforces.com/contest/392/problem/B",
+    "submission_id": "CF8850377",
+    "submission_url": "https://codeforces.com/contest/392/submission/8850377",
+    "tags": [
+      "dp"
+    ],
+    "timestamp": "Nov/26/2014 04:05"
+  },
   "CF8855700": {
     "contest_id": 394,
     "language": "GNU C++0x",
