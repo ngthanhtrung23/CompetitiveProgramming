@@ -47151,6 +47151,20 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8850270": {
+    "contest_id": 392,
+    "language": "GNU C++0x",
+    "path": "codeforces/392/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Blocked Points",
+    "problem_url": "https://codeforces.com/contest/392/problem/A",
+    "submission_id": "CF8850270",
+    "submission_url": "https://codeforces.com/contest/392/submission/8850270",
+    "tags": [
+      "math"
+    ],
+    "timestamp": "Nov/26/2014 03:53"
+  },
   "CF8850377": {
     "contest_id": 392,
     "language": "GNU C++0x",
