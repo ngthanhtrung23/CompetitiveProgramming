@@ -47151,6 +47151,18 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8850055": {
+    "contest_id": 393,
+    "language": "GNU C++0x",
+    "path": "codeforces/393/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Nineteen",
+    "problem_url": "https://codeforces.com/contest/393/problem/A",
+    "submission_id": "CF8850055",
+    "submission_url": "https://codeforces.com/contest/393/submission/8850055",
+    "tags": [],
+    "timestamp": "Nov/26/2014 03:27"
+  },
   "CF8850091": {
     "contest_id": 393,
     "language": "GNU C++0x",
