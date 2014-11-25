@@ -47151,6 +47151,24 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8848006": {
+    "contest_id": 460,
+    "language": "GNU C++0x",
+    "path": "codeforces/460/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Roland and Rose",
+    "problem_url": "https://codeforces.com/contest/460/problem/E",
+    "submission_id": "CF8848006",
+    "submission_url": "https://codeforces.com/contest/460/submission/8848006",
+    "tags": [
+      "brute force",
+      "geometry",
+      "math",
+      "sortings",
+      "*2700"
+    ],
+    "timestamp": "Nov/25/2014 23:54"
+  },
   "CF8848152": {
     "contest_id": 455,
     "language": "GNU C++0x",
