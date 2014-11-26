@@ -47151,6 +47151,22 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8856851": {
+    "contest_id": 394,
+    "language": "GNU C++0x",
+    "path": "codeforces/394/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Physical Education and Buns",
+    "problem_url": "https://codeforces.com/contest/394/problem/D",
+    "submission_id": "CF8856851",
+    "submission_url": "https://codeforces.com/contest/394/submission/8856851",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math"
+    ],
+    "timestamp": "Nov/26/2014 15:37"
+  },
   "CF8857734": {
     "contest_id": 392,
     "language": "GNU C++0x",
