@@ -47151,6 +47151,22 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8863698": {
+    "contest_id": 432,
+    "language": "GNU C++0x",
+    "path": "codeforces/432/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Square Tiling",
+    "problem_url": "https://codeforces.com/contest/432/problem/E",
+    "submission_id": "CF8863698",
+    "submission_url": "https://codeforces.com/contest/432/submission/8863698",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2300"
+    ],
+    "timestamp": "Nov/27/2014 03:26"
+  },
   "CF8865691": {
     "contest_id": 403,
     "language": "GNU C++0x",
