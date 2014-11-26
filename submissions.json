@@ -47151,6 +47151,22 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8859940": {
+    "contest_id": 396,
+    "language": "GNU C++0x",
+    "path": "codeforces/396/C.cpp",
+    "problem_index": "C",
+    "problem_name": "On Changing Tree",
+    "problem_url": "https://codeforces.com/contest/396/problem/C",
+    "submission_id": "CF8859940",
+    "submission_url": "https://codeforces.com/contest/396/submission/8859940",
+    "tags": [
+      "data structures",
+      "graphs",
+      "trees"
+    ],
+    "timestamp": "Nov/26/2014 21:15"
+  },
   "CF8860256": {
     "contest_id": 400,
     "language": "GNU C++0x",
