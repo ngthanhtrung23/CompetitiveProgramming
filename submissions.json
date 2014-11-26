@@ -47151,6 +47151,22 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8857734": {
+    "contest_id": 392,
+    "language": "GNU C++0x",
+    "path": "codeforces/392/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Yet Another Number Sequence",
+    "problem_url": "https://codeforces.com/contest/392/problem/C",
+    "submission_id": "CF8857734",
+    "submission_url": "https://codeforces.com/contest/392/submission/8857734",
+    "tags": [
+      "combinatorics",
+      "math",
+      "matrices"
+    ],
+    "timestamp": "Nov/26/2014 17:24"
+  },
   "CF8857870": {
     "contest_id": 397,
     "language": "GNU C++0x",
