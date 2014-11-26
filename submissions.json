@@ -47151,6 +47151,25 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8862631": {
+    "contest_id": 401,
+    "language": "GNU C++0x",
+    "path": "codeforces/401/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Roman and Numbers",
+    "problem_url": "https://codeforces.com/contest/401/problem/D",
+    "submission_id": "CF8862631",
+    "submission_url": "https://codeforces.com/contest/401/submission/8862631",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "number theory",
+      "*2000"
+    ],
+    "timestamp": "Nov/27/2014 01:39"
+  },
   "CF8862778": {
     "contest_id": 399,
     "language": "GNU C++0x",
