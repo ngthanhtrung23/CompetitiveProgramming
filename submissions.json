@@ -47151,6 +47151,21 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8856708": {
+    "contest_id": 394,
+    "language": "GNU C++0x",
+    "path": "codeforces/394/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Dominoes",
+    "problem_url": "https://codeforces.com/contest/394/problem/C",
+    "submission_id": "CF8856708",
+    "submission_url": "https://codeforces.com/contest/394/submission/8856708",
+    "tags": [
+      "constructive algorithms",
+      "greedy"
+    ],
+    "timestamp": "Nov/26/2014 15:14"
+  },
   "CF8856851": {
     "contest_id": 394,
     "language": "GNU C++0x",
