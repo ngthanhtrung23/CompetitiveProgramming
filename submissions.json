@@ -47151,6 +47151,23 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8863297": {
+    "contest_id": 432,
+    "language": "GNU C++0x",
+    "path": "codeforces/432/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Choosing Teams",
+    "problem_url": "https://codeforces.com/contest/432/problem/A",
+    "submission_id": "CF8863297",
+    "submission_url": "https://codeforces.com/contest/432/submission/8863297",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Nov/27/2014 02:44"
+  },
   "CF8863348": {
     "contest_id": 432,
     "language": "GNU C++0x",
