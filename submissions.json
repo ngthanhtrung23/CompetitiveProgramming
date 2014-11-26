@@ -47151,6 +47151,18 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8862872": {
+    "contest_id": 399,
+    "language": "GNU C++0x",
+    "path": "codeforces/399/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Red and Blue Balls",
+    "problem_url": "https://codeforces.com/contest/399/problem/B",
+    "submission_id": "CF8862872",
+    "submission_url": "https://codeforces.com/contest/399/submission/8862872",
+    "tags": [],
+    "timestamp": "Nov/27/2014 02:01"
+  },
   "CF8862923": {
     "contest_id": 402,
     "language": "GNU C++0x",
