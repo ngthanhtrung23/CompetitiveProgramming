@@ -47151,6 +47151,22 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8859335": {
+    "contest_id": 396,
+    "language": "GNU C++0x",
+    "path": "codeforces/396/A.cpp",
+    "problem_index": "A",
+    "problem_name": "On Number of Decompositions into Multipliers",
+    "problem_url": "https://codeforces.com/contest/396/problem/A",
+    "submission_id": "CF8859335",
+    "submission_url": "https://codeforces.com/contest/396/submission/8859335",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Nov/26/2014 20:13"
+  },
   "CF8859588": {
     "contest_id": 396,
     "language": "Java 8",
