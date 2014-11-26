@@ -47151,6 +47151,20 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8862778": {
+    "contest_id": 399,
+    "language": "GNU C++0x",
+    "path": "codeforces/399/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Pages",
+    "problem_url": "https://codeforces.com/contest/399/problem/A",
+    "submission_id": "CF8862778",
+    "submission_url": "https://codeforces.com/contest/399/submission/8862778",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Nov/27/2014 01:52"
+  },
   "CF8862872": {
     "contest_id": 399,
     "language": "GNU C++0x",
