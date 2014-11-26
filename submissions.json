@@ -47151,6 +47151,21 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8855700": {
+    "contest_id": 394,
+    "language": "GNU C++0x",
+    "path": "codeforces/394/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Counting Sticks",
+    "problem_url": "https://codeforces.com/contest/394/problem/A",
+    "submission_id": "CF8855700",
+    "submission_url": "https://codeforces.com/contest/394/submission/8855700",
+    "tags": [
+      "brute force",
+      "implementation"
+    ],
+    "timestamp": "Nov/26/2014 12:22"
+  },
   "CF8856662": {
     "contest_id": 394,
     "language": "GNU C++0x",
