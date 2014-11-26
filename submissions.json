@@ -47151,6 +47151,20 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8857870": {
+    "contest_id": 397,
+    "language": "GNU C++0x",
+    "path": "codeforces/397/A.cpp",
+    "problem_index": "A",
+    "problem_name": "On Segment's Own Points",
+    "problem_url": "https://codeforces.com/contest/397/problem/A",
+    "submission_id": "CF8857870",
+    "submission_url": "https://codeforces.com/contest/397/submission/8857870",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Nov/26/2014 17:40"
+  },
   "CF8857951": {
     "contest_id": 397,
     "language": "GNU C++0x",
