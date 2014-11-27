@@ -47214,6 +47214,18 @@
     ],
     "timestamp": "Nov/27/2014 20:52"
   },
+  "CF8869883": {
+    "contest_id": 100540,
+    "language": "GNU C++0x",
+    "path": "codeforces/100540/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Army buddies",
+    "problem_url": "https://codeforces.com/gym/100540/problem/A",
+    "submission_id": "CF8869883",
+    "submission_url": "https://codeforces.com/gym/100540/submission/8869883",
+    "tags": [],
+    "timestamp": "Nov/27/2014 21:21"
+  },
   "CF8870096": {
     "contest_id": 100540,
     "language": "GNU C++0x",
