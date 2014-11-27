@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8869520": {
+    "contest_id": 408,
+    "language": "GNU C++0x",
+    "path": "codeforces/408/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Garland",
+    "problem_url": "https://codeforces.com/contest/408/problem/B",
+    "submission_id": "CF8869520",
+    "submission_url": "https://codeforces.com/contest/408/submission/8869520",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Nov/27/2014 20:49"
+  },
   "CF8869561": {
     "contest_id": 408,
     "language": "GNU C++0x",
