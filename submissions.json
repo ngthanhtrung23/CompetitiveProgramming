@@ -47151,6 +47151,22 @@
     "tags": [],
     "timestamp": "Nov/25/2014 18:13"
   },
+  "CF8865691": {
+    "contest_id": 403,
+    "language": "GNU C++0x",
+    "path": "codeforces/403/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Searching for Graph",
+    "problem_url": "https://codeforces.com/contest/403/problem/A",
+    "submission_id": "CF8865691",
+    "submission_url": "https://codeforces.com/contest/403/submission/8865691",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "*1500"
+    ],
+    "timestamp": "Nov/27/2014 11:58"
+  },
   "CF8865777": {
     "contest_id": 403,
     "language": "GNU C++0x",
