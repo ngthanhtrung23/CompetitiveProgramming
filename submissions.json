@@ -47214,6 +47214,18 @@
     ],
     "timestamp": "Nov/27/2014 20:52"
   },
+  "CF8870401": {
+    "contest_id": 100540,
+    "language": "GNU C++0x",
+    "path": "codeforces/100540/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Kings Poker",
+    "problem_url": "https://codeforces.com/gym/100540/problem/K",
+    "submission_id": "CF8870401",
+    "submission_url": "https://codeforces.com/gym/100540/submission/8870401",
+    "tags": [],
+    "timestamp": "Nov/27/2014 22:03"
+  },
   "CF8870618": {
     "contest_id": 100540,
     "language": "GNU C++0x",
