@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8890767": {
+    "contest_id": 383,
+    "language": "GNU C++0x",
+    "path": "codeforces/383/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Vowels",
+    "problem_url": "https://codeforces.com/contest/383/problem/E",
+    "submission_id": "CF8890767",
+    "submission_url": "https://codeforces.com/contest/383/submission/8890767",
+    "tags": [
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "*2700"
+    ],
+    "timestamp": "Nov/29/2014 21:34"
+  },
   "CF8895492": {
     "contest_id": 457,
     "language": "GNU C++0x",
