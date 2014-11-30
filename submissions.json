@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8900383": {
+    "contest_id": 458,
+    "language": "GNU C++0x",
+    "path": "codeforces/458/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Distributed Join",
+    "problem_url": "https://codeforces.com/contest/458/problem/B",
+    "submission_id": "CF8900383",
+    "submission_url": "https://codeforces.com/contest/458/submission/8900383",
+    "tags": [
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Dec/01/2014 02:55"
+  },
   "CF8904454": {
     "contest_id": 487,
     "language": "GNU C++0x",
