@@ -47307,6 +47307,18 @@
     ],
     "timestamp": "Dec/01/2014 20:13"
   },
+  "CF8912426": {
+    "contest_id": 100543,
+    "language": "GNU C++0x",
+    "path": "codeforces/100543/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Can't stop playing",
+    "problem_url": "https://codeforces.com/gym/100543/problem/E",
+    "submission_id": "CF8912426",
+    "submission_url": "https://codeforces.com/gym/100543/submission/8912426",
+    "tags": [],
+    "timestamp": "Dec/02/2014 01:03"
+  },
   "CF8926948": {
     "contest_id": 492,
     "language": "GNU C++0x",
