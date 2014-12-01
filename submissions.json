@@ -47307,6 +47307,18 @@
     ],
     "timestamp": "Dec/01/2014 20:13"
   },
+  "CF8906032": {
+    "contest_id": 100543,
+    "language": "GNU C++0x",
+    "path": "codeforces/100543/K.cpp",
+    "problem_index": "K",
+    "problem_name": "The Imp",
+    "problem_url": "https://codeforces.com/gym/100543/problem/K",
+    "submission_id": "CF8906032",
+    "submission_url": "https://codeforces.com/gym/100543/submission/8906032",
+    "tags": [],
+    "timestamp": "Dec/01/2014 23:31"
+  },
   "CF8912426": {
     "contest_id": 100543,
     "language": "GNU C++0x",
