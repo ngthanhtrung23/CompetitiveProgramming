@@ -47307,6 +47307,18 @@
     ],
     "timestamp": "Dec/01/2014 20:13"
   },
+  "CF8905484": {
+    "contest_id": 100543,
+    "language": "GNU C++0x",
+    "path": "codeforces/100543/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Good morning!",
+    "problem_url": "https://codeforces.com/gym/100543/problem/H",
+    "submission_id": "CF8905484",
+    "submission_url": "https://codeforces.com/gym/100543/submission/8905484",
+    "tags": [],
+    "timestamp": "Dec/01/2014 22:00"
+  },
   "CF8905657": {
     "contest_id": 100543,
     "language": "GNU C++0x",
