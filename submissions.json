@@ -47307,6 +47307,18 @@
     ],
     "timestamp": "Dec/01/2014 20:13"
   },
+  "CF8905413": {
+    "contest_id": 100543,
+    "language": "GNU C++0x",
+    "path": "codeforces/100543/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Sums",
+    "problem_url": "https://codeforces.com/gym/100543/problem/C",
+    "submission_id": "CF8905413",
+    "submission_url": "https://codeforces.com/gym/100543/submission/8905413",
+    "tags": [],
+    "timestamp": "Dec/01/2014 21:51"
+  },
   "CF8905484": {
     "contest_id": 100543,
     "language": "GNU C++0x",
