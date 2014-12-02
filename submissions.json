@@ -47389,6 +47389,18 @@
     ],
     "timestamp": "Dec/02/2014 12:17"
   },
+  "CF8927392": {
+    "contest_id": 100543,
+    "language": "GNU C++0x",
+    "path": "codeforces/100543/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Vocabulary",
+    "problem_url": "https://codeforces.com/gym/100543/problem/F",
+    "submission_id": "CF8927392",
+    "submission_url": "https://codeforces.com/gym/100543/submission/8927392",
+    "tags": [],
+    "timestamp": "Dec/02/2014 12:31"
+  },
   "CF8927395": {
     "contest_id": 100543,
     "language": "GNU C++0x",
