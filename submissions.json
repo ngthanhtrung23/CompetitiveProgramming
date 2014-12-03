@@ -10924,6 +10924,23 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8949076": {
+    "contest_id": 464,
+    "language": "GNU C++0x",
+    "path": "codeforces/464/E.cpp",
+    "problem_index": "E",
+    "problem_name": "The Classic Problem",
+    "problem_url": "https://codeforces.com/contest/464/problem/E",
+    "submission_id": "CF8949076",
+    "submission_url": "https://codeforces.com/contest/464/submission/8949076",
+    "tags": [
+      "data structures",
+      "graphs",
+      "shortest paths",
+      "*3000"
+    ],
+    "timestamp": "Dec/03/2014 14:47"
+  },
   "CF8949673": {
     "contest_id": 466,
     "language": "GNU C++0x",
