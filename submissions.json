@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF8978520": {
+    "contest_id": 398,
+    "language": "GNU C++0x",
+    "path": "codeforces/398/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Cards",
+    "problem_url": "https://codeforces.com/contest/398/problem/A",
+    "submission_id": "CF8978520",
+    "submission_url": "https://codeforces.com/contest/398/submission/8978520",
+    "tags": [
+      "constructive algorithms",
+      "implementation"
+    ],
+    "timestamp": "Dec/04/2014 16:11"
+  },
   "CF9006983": {
     "contest_id": 415,
     "language": "GNU C++0x",
