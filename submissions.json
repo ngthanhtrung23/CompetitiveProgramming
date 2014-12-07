@@ -10924,6 +10924,24 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF9007126": {
+    "contest_id": 415,
+    "language": "GNU C++0x",
+    "path": "codeforces/415/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Mashmokh and Tokens",
+    "problem_url": "https://codeforces.com/contest/415/problem/B",
+    "submission_id": "CF9007126",
+    "submission_url": "https://codeforces.com/contest/415/submission/9007126",
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Dec/07/2014 15:40"
+  },
   "CF9061457": {
     "contest_id": 438,
     "language": "GNU C++0x",
