@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF9007031": {
+    "contest_id": 415,
+    "language": "GNU C++0x",
+    "path": "codeforces/415/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Mashmokh and Lights",
+    "problem_url": "https://codeforces.com/contest/415/problem/A",
+    "submission_id": "CF9007031",
+    "submission_url": "https://codeforces.com/contest/415/submission/9007031",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Dec/07/2014 15:28"
+  },
   "CF9007126": {
     "contest_id": 415,
     "language": "GNU C++0x",
