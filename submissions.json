@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF9061864": {
+    "contest_id": 403,
+    "language": "GNU C++0x",
+    "path": "codeforces/403/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Strictly Positive Matrix",
+    "problem_url": "https://codeforces.com/contest/403/problem/C",
+    "submission_id": "CF9061864",
+    "submission_url": "https://codeforces.com/contest/403/submission/9061864",
+    "tags": [
+      "graphs",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Dec/10/2014 01:36"
+  },
   "CF9072227": {
     "contest_id": 416,
     "language": "GNU C++0x",
