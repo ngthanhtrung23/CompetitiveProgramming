@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF9061457": {
+    "contest_id": 438,
+    "language": "GNU C++0x",
+    "path": "codeforces/438/C.cpp",
+    "problem_index": "C",
+    "problem_name": "The Child and Polygon",
+    "problem_url": "https://codeforces.com/contest/438/problem/C",
+    "submission_id": "CF9061457",
+    "submission_url": "https://codeforces.com/contest/438/submission/9061457",
+    "tags": [
+      "dp",
+      "geometry",
+      "*2500"
+    ],
+    "timestamp": "Dec/10/2014 00:52"
+  },
   "CF9061864": {
     "contest_id": 403,
     "language": "GNU C++0x",
