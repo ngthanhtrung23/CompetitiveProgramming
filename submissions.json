@@ -10924,6 +10924,22 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF9131373": {
+    "contest_id": 495,
+    "language": "GNU C++0x",
+    "path": "codeforces/495/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Modular Equations",
+    "problem_url": "https://codeforces.com/contest/495/problem/B",
+    "submission_id": "CF9131373",
+    "submission_url": "https://codeforces.com/contest/495/submission/9131373",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Dec/14/2014 22:26"
+  },
   "CF9164029": {
     "contest_id": 497,
     "language": "GNU C++0x",
