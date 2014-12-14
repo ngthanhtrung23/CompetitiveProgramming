@@ -10924,6 +10924,21 @@
     ],
     "timestamp": "Apr/02/2020 22:45"
   },
+  "CF9131203": {
+    "contest_id": 495,
+    "language": "GNU C++0x",
+    "path": "codeforces/495/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Digital Counter",
+    "problem_url": "https://codeforces.com/contest/495/problem/A",
+    "submission_id": "CF9131203",
+    "submission_url": "https://codeforces.com/contest/495/submission/9131203",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/14/2014 22:13"
+  },
   "CF9131373": {
     "contest_id": 495,
     "language": "GNU C++0x",
