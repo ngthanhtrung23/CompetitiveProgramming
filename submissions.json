@@ -47718,6 +47718,18 @@
     ],
     "timestamp": "Dec/14/2014 22:26"
   },
+  "CF9140471": {
+    "contest_id": 100482,
+    "language": "GNU C++0x",
+    "path": "codeforces/100482/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Searching",
+    "problem_url": "https://codeforces.com/gym/100482/problem/I",
+    "submission_id": "CF9140471",
+    "submission_url": "https://codeforces.com/gym/100482/submission/9140471",
+    "tags": [],
+    "timestamp": "Dec/15/2014 21:15"
+  },
   "CF9140597": {
     "contest_id": 100482,
     "language": "GNU C++0x",
