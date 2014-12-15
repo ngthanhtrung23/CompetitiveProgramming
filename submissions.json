@@ -47718,6 +47718,18 @@
     ],
     "timestamp": "Dec/14/2014 22:26"
   },
+  "CF9140204": {
+    "contest_id": 100482,
+    "language": "GNU C++0x",
+    "path": "codeforces/100482/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Letter Array",
+    "problem_url": "https://codeforces.com/gym/100482/problem/C",
+    "submission_id": "CF9140204",
+    "submission_url": "https://codeforces.com/gym/100482/submission/9140204",
+    "tags": [],
+    "timestamp": "Dec/15/2014 20:50"
+  },
   "CF9140247": {
     "contest_id": 100482,
     "language": "GNU C++0x",
