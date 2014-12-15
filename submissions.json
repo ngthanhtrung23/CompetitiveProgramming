@@ -47718,6 +47718,18 @@
     ],
     "timestamp": "Dec/14/2014 22:26"
   },
+  "CF9140050": {
+    "contest_id": 100482,
+    "language": "GNU C++0x",
+    "path": "codeforces/100482/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Colorful Tree",
+    "problem_url": "https://codeforces.com/gym/100482/problem/A",
+    "submission_id": "CF9140050",
+    "submission_url": "https://codeforces.com/gym/100482/submission/9140050",
+    "tags": [],
+    "timestamp": "Dec/15/2014 20:36"
+  },
   "CF9140114": {
     "contest_id": 100482,
     "language": "GNU C++0x",
