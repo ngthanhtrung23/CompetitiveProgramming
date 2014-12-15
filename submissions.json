@@ -47718,6 +47718,18 @@
     ],
     "timestamp": "Dec/14/2014 22:26"
   },
+  "CF9140828": {
+    "contest_id": 100482,
+    "language": "GNU C++0x",
+    "path": "codeforces/100482/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Lightning",
+    "problem_url": "https://codeforces.com/gym/100482/problem/D",
+    "submission_id": "CF9140828",
+    "submission_url": "https://codeforces.com/gym/100482/submission/9140828",
+    "tags": [],
+    "timestamp": "Dec/15/2014 21:50"
+  },
   "CF9143332": {
     "contest_id": 100482,
     "language": "GNU C++0x",
