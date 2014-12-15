@@ -47718,6 +47718,18 @@
     ],
     "timestamp": "Dec/14/2014 22:26"
   },
+  "CF9143332": {
+    "contest_id": 100482,
+    "language": "GNU C++0x",
+    "path": "codeforces/100482/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Magician Wars",
+    "problem_url": "https://codeforces.com/gym/100482/problem/F",
+    "submission_id": "CF9143332",
+    "submission_url": "https://codeforces.com/gym/100482/submission/9143332",
+    "tags": [],
+    "timestamp": "Dec/15/2014 22:58"
+  },
   "CF9151543": {
     "contest_id": 100495,
     "language": "GNU C++0x",
