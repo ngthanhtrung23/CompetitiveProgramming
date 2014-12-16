@@ -47718,6 +47718,18 @@
     ],
     "timestamp": "Dec/14/2014 22:26"
   },
+  "CF9151543": {
+    "contest_id": 100495,
+    "language": "GNU C++0x",
+    "path": "codeforces/100495/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Modulo maths",
+    "problem_url": "https://codeforces.com/gym/100495/problem/D",
+    "submission_id": "CF9151543",
+    "submission_url": "https://codeforces.com/gym/100495/submission/9151543",
+    "tags": [],
+    "timestamp": "Dec/16/2014 21:18"
+  },
   "CF9151580": {
     "contest_id": 100495,
     "language": "GNU C++0x",
