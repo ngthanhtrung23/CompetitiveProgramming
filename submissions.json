@@ -47718,6 +47718,18 @@
     ],
     "timestamp": "Dec/14/2014 22:26"
   },
+  "CF9151924": {
+    "contest_id": 100495,
+    "language": "GNU C++0x",
+    "path": "codeforces/100495/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Simple sequence",
+    "problem_url": "https://codeforces.com/gym/100495/problem/E",
+    "submission_id": "CF9151924",
+    "submission_url": "https://codeforces.com/gym/100495/submission/9151924",
+    "tags": [],
+    "timestamp": "Dec/16/2014 21:49"
+  },
   "CF9152273": {
     "contest_id": 100495,
     "language": "GNU C++0x",
