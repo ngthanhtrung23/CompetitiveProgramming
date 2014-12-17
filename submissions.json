@@ -10958,6 +10958,25 @@
     ],
     "timestamp": "Sep/03/2020 12:35"
   },
+  "CF9171155": {
+    "contest_id": 497,
+    "language": "GNU C++0x",
+    "path": "codeforces/497/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Distributing Parts ",
+    "problem_url": "https://codeforces.com/contest/497/problem/C",
+    "submission_id": "CF9171155",
+    "submission_url": "https://codeforces.com/contest/497/submission/9171155",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*2100"
+    ],
+    "timestamp": "Dec/18/2014 01:31"
+  },
   "CF9177840": {
     "contest_id": 496,
     "language": "GNU C++0x",
