@@ -10941,6 +10941,23 @@
     ],
     "timestamp": "Sep/03/2020 00:06"
   },
+  "CF9167431": {
+    "contest_id": 497,
+    "language": "GNU C++0x",
+    "path": "codeforces/497/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Tennis Game",
+    "problem_url": "https://codeforces.com/contest/497/problem/B",
+    "submission_id": "CF9167431",
+    "submission_url": "https://codeforces.com/contest/497/submission/9167431",
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Dec/18/2014 00:58"
+  },
   "CF91686713": {
     "contest_id": 1396,
     "language": "GNU C++17",
