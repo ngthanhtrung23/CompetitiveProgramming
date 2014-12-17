@@ -10958,6 +10958,21 @@
     ],
     "timestamp": "Sep/03/2020 12:35"
   },
+  "CF9177900": {
+    "contest_id": 496,
+    "language": "GNU C++0x",
+    "path": "codeforces/496/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Tennis Game",
+    "problem_url": "https://codeforces.com/contest/496/problem/D",
+    "submission_id": "CF9177900",
+    "submission_url": "https://codeforces.com/contest/496/submission/9177900",
+    "tags": [
+      "binary search",
+      "*1900"
+    ],
+    "timestamp": "Dec/18/2014 03:21"
+  },
   "CF9182354": {
     "contest_id": 407,
     "language": "GNU C++0x",
