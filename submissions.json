@@ -10958,6 +10958,22 @@
     ],
     "timestamp": "Sep/03/2020 12:35"
   },
+  "CF9182354": {
+    "contest_id": 407,
+    "language": "GNU C++0x",
+    "path": "codeforces/407/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Largest Submatrix 3",
+    "problem_url": "https://codeforces.com/contest/407/problem/D",
+    "submission_id": "CF9182354",
+    "submission_url": "https://codeforces.com/contest/407/submission/9182354",
+    "tags": [
+      "dp",
+      "hashing",
+      "*2700"
+    ],
+    "timestamp": "Dec/18/2014 12:44"
+  },
   "CF9183300": {
     "contest_id": 407,
     "language": "GNU C++0x",
