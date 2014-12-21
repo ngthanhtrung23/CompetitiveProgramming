@@ -10958,6 +10958,22 @@
     ],
     "timestamp": "Sep/03/2020 12:35"
   },
+  "CF9216548": {
+    "contest_id": 250,
+    "language": "GNU C++0x",
+    "path": "codeforces/250/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Restoring IPv6",
+    "problem_url": "https://codeforces.com/contest/250/problem/B",
+    "submission_id": "CF9216548",
+    "submission_url": "https://codeforces.com/contest/250/submission/9216548",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Dec/21/2014 23:11"
+  },
   "CF9216596": {
     "contest_id": 250,
     "language": "GNU C++0x",
