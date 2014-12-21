@@ -10958,6 +10958,23 @@
     ],
     "timestamp": "Sep/03/2020 12:35"
   },
+  "CF9218442": {
+    "contest_id": 250,
+    "language": "GNU C++0x",
+    "path": "codeforces/250/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Building Bridge",
+    "problem_url": "https://codeforces.com/contest/250/problem/D",
+    "submission_id": "CF9218442",
+    "submission_url": "https://codeforces.com/contest/250/submission/9218442",
+    "tags": [
+      "geometry",
+      "ternary search",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Dec/22/2014 03:33"
+  },
   "CF92411238": {
     "contest_id": 1407,
     "language": "PyPy 3",
