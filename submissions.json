@@ -10958,6 +10958,23 @@
     ],
     "timestamp": "Sep/03/2020 12:35"
   },
+  "CF9216349": {
+    "contest_id": 24,
+    "language": "GNU C++0x",
+    "path": "codeforces/24/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Sequence of points",
+    "problem_url": "https://codeforces.com/contest/24/problem/C",
+    "submission_id": "CF9216349",
+    "submission_url": "https://codeforces.com/contest/24/submission/9216349",
+    "tags": [
+      "geometry",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Dec/21/2014 22:39"
+  },
   "CF9216527": {
     "contest_id": 250,
     "language": "GNU C++0x",
