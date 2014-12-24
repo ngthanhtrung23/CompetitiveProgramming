@@ -10974,6 +10974,22 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9244959": {
+    "contest_id": 403,
+    "language": "GNU C++0x",
+    "path": "codeforces/403/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Beautiful Pairs of Numbers",
+    "problem_url": "https://codeforces.com/contest/403/problem/D",
+    "submission_id": "CF9244959",
+    "submission_url": "https://codeforces.com/contest/403/submission/9244959",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2300"
+    ],
+    "timestamp": "Dec/24/2014 23:48"
+  },
   "CF9246164": {
     "contest_id": 498,
     "language": "GNU C++0x",
