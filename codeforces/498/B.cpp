@@ -13,12 +13,12 @@
 using namespace std;
 
 int t[5011], p[5011];
-long double f[2][5011], last[5011];
-long double power[111][5011], win[111][5011];
+double f[2][5011], last[5011];
+double power[111][5011], win[111][5011];
 
 void init() {
     FOR(i,0,100) {
-        long double p = i / (long double) 100.0;
+        double p = i / (double) 100.0;
         FOR(k,0,5000)
             power[i][k] = pow(p, k);
 
@@ -43,7 +43,7 @@ int main() {
             }
         }
         f[0][0] = 1.0;
-        long double res = 0.0;
+        double res = 0.0;
         int rot = 0;
         FOR(i,1,n) {
             memset(f[1-rot], 0, sizeof f[1-rot]);
@@ -53,7 +53,7 @@ int main() {
                 }
             }
             else {
-                long double cur_sum = 0.0;
+                double cur_sum = 0.0;
                 FOR(T,1,sumT) {
                     if (T-1 >= t[i]) {
                         cur_sum -= last[i] * f[rot][T-1-t[i]];
