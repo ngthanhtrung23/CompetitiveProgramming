@@ -10974,6 +10974,22 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9259997": {
+    "contest_id": 499,
+    "language": "GNU C++0x",
+    "path": "codeforces/499/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Watching a movie",
+    "problem_url": "https://codeforces.com/contest/499/problem/A",
+    "submission_id": "CF9259997",
+    "submission_url": "https://codeforces.com/contest/499/submission/9259997",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Dec/25/2014 03:26"
+  },
   "CF9260199": {
     "contest_id": 499,
     "language": "GNU C++0x",
