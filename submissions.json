@@ -10974,6 +10974,18 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9295922": {
+    "contest_id": 497,
+    "language": "GNU C++0x",
+    "path": "codeforces/497/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Gears",
+    "problem_url": "https://codeforces.com/contest/497/problem/D",
+    "submission_id": "CF9295922",
+    "submission_url": "https://codeforces.com/contest/497/submission/9295922",
+    "tags": [],
+    "timestamp": "Dec/29/2014 15:04"
+  },
   "CF9296575": {
     "contest_id": 475,
     "language": "GNU C++0x",
