@@ -10974,6 +10974,22 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9346996": {
+    "contest_id": 500,
+    "language": "GNU C++0x",
+    "path": "codeforces/500/F.cpp",
+    "problem_index": "F",
+    "problem_name": "New Year Shopping",
+    "problem_url": "https://codeforces.com/contest/500/problem/F",
+    "submission_id": "CF9346996",
+    "submission_url": "https://codeforces.com/contest/500/submission/9346996",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "*2700"
+    ],
+    "timestamp": "Jan/02/2015 23:18"
+  },
   "CF9353594": {
     "contest_id": 406,
     "language": "GNU C++0x",
