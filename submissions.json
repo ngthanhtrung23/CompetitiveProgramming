@@ -10974,6 +10974,23 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9353594": {
+    "contest_id": 406,
+    "language": "GNU C++0x",
+    "path": "codeforces/406/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Hamming Triples",
+    "problem_url": "https://codeforces.com/contest/406/problem/E",
+    "submission_id": "CF9353594",
+    "submission_url": "https://codeforces.com/contest/406/submission/9353594",
+    "tags": [
+      "implementation",
+      "math",
+      "two pointers",
+      "*2800"
+    ],
+    "timestamp": "Jan/03/2015 22:38"
+  },
   "CF9353980": {
     "contest_id": 404,
     "language": "GNU C++0x",
