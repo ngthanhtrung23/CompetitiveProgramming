@@ -36,7 +36,7 @@ int f(int votes) {
                 cnt[cost[opponentId][x]]++;
         }
     }
-    if (needToBuy < 0) needToBuy = 0;
+    if (needToBuy < 0) return 1000111000;
     FOR(value,0,10000) {
         int now = min(cnt[value], needToBuy);
         needToBuy -= now;
