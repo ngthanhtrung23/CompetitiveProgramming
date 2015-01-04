@@ -10974,6 +10974,22 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9361693": {
+    "contest_id": 436,
+    "language": "GNU C++0x",
+    "path": "codeforces/436/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Cardboard Box",
+    "problem_url": "https://codeforces.com/contest/436/problem/E",
+    "submission_id": "CF9361693",
+    "submission_url": "https://codeforces.com/contest/436/submission/9361693",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*2600"
+    ],
+    "timestamp": "Jan/05/2015 01:31"
+  },
   "CF9363099": {
     "contest_id": 378,
     "language": "GNU C++0x",
