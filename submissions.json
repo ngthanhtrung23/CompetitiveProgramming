@@ -10974,6 +10974,22 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9358369": {
+    "contest_id": 458,
+    "language": "GNU C++0x",
+    "path": "codeforces/458/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/contest/458/problem/C",
+    "submission_id": "CF9358369",
+    "submission_url": "https://codeforces.com/contest/458/submission/9358369",
+    "tags": [
+      "data structures",
+      "ternary search",
+      "*2100"
+    ],
+    "timestamp": "Jan/04/2015 16:20"
+  },
   "CF9358987": {
     "contest_id": 461,
     "language": "GNU C++0x",
