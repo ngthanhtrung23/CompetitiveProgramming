@@ -10974,6 +10974,23 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9364523": {
+    "contest_id": 482,
+    "language": "GNU C++0x",
+    "path": "codeforces/482/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Random Function and Tree",
+    "problem_url": "https://codeforces.com/contest/482/problem/D",
+    "submission_id": "CF9364523",
+    "submission_url": "https://codeforces.com/contest/482/submission/9364523",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "trees",
+      "*2700"
+    ],
+    "timestamp": "Jan/05/2015 16:51"
+  },
   "CF9381042": {
     "contest_id": 380,
     "language": "GNU C++0x",
