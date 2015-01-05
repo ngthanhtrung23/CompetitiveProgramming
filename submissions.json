@@ -10974,6 +10974,23 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9363254": {
+    "contest_id": 377,
+    "language": "GNU C++0x",
+    "path": "codeforces/377/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Captains Mode",
+    "problem_url": "https://codeforces.com/contest/377/problem/C",
+    "submission_id": "CF9363254",
+    "submission_url": "https://codeforces.com/contest/377/submission/9363254",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "games",
+      "*2200"
+    ],
+    "timestamp": "Jan/05/2015 09:56"
+  },
   "CF9364256": {
     "contest_id": 377,
     "language": "GNU C++0x",
