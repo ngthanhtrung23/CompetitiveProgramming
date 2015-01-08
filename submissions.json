@@ -48595,6 +48595,18 @@
     ],
     "timestamp": "Dec/09/2011 23:11"
   },
+  "CF9387919": {
+    "contest_id": 100571,
+    "language": "GNU C++0x",
+    "path": "codeforces/100571/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Troynacci Query",
+    "problem_url": "https://codeforces.com/gym/100571/problem/B",
+    "submission_id": "CF9387919",
+    "submission_url": "https://codeforces.com/gym/100571/submission/9387919",
+    "tags": [],
+    "timestamp": "Jan/09/2015 01:16"
+  },
   "CF9388352": {
     "contest_id": 100570,
     "language": "GNU C++0x",
