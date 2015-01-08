@@ -48595,6 +48595,18 @@
     ],
     "timestamp": "Dec/09/2011 23:11"
   },
+  "CF9388352": {
+    "contest_id": 100570,
+    "language": "GNU C++0x",
+    "path": "codeforces/100570/B.cpp",
+    "problem_index": "B",
+    "problem_name": "ShortestPath Query",
+    "problem_url": "https://codeforces.com/gym/100570/problem/B",
+    "submission_id": "CF9388352",
+    "submission_url": "https://codeforces.com/gym/100570/submission/9388352",
+    "tags": [],
+    "timestamp": "Jan/09/2015 02:21"
+  },
   "CF9390074": {
     "contest_id": 100570,
     "language": "GNU C++0x",
