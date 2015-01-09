@@ -10974,6 +10974,21 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9393543": {
+    "contest_id": 376,
+    "language": "GNU C++0x",
+    "path": "codeforces/376/B.cpp",
+    "problem_index": "B",
+    "problem_name": "I.O.U.",
+    "problem_url": "https://codeforces.com/contest/376/problem/B",
+    "submission_id": "CF9393543",
+    "submission_url": "https://codeforces.com/contest/376/submission/9393543",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jan/10/2015 02:05"
+  },
   "CF9393625": {
     "contest_id": 375,
     "language": "GNU C++0x",
