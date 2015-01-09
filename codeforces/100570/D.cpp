@@ -71,9 +71,9 @@ bool check(int q) {
         g[i].clear();
         gt[i].clear();
     }
-    used.clear();
+    used.resize(n);
     order.clear();
-    comp.clear();
+    comp.resize(n);
 
     FOR(i,1,q) {
         if (queries[i].from == queries[i].to) {
@@ -126,4 +126,3 @@ int main() {
     }
     return 0;
 }
-
