@@ -10974,6 +10974,22 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9396202": {
+    "contest_id": 374,
+    "language": "GNU C++0x",
+    "path": "codeforces/374/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Inna and Nine",
+    "problem_url": "https://codeforces.com/contest/374/problem/B",
+    "submission_id": "CF9396202",
+    "submission_url": "https://codeforces.com/contest/374/submission/9396202",
+    "tags": [
+      "combinatorics",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Jan/10/2015 16:41"
+  },
   "CF9396348": {
     "contest_id": 374,
     "language": "GNU C++0x",
