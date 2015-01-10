@@ -10974,6 +10974,22 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9395824": {
+    "contest_id": 374,
+    "language": "GNU C++0x",
+    "path": "codeforces/374/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Inna and Pink Pony",
+    "problem_url": "https://codeforces.com/contest/374/problem/A",
+    "submission_id": "CF9395824",
+    "submission_url": "https://codeforces.com/contest/374/submission/9395824",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Jan/10/2015 15:18"
+  },
   "CF9396202": {
     "contest_id": 374,
     "language": "GNU C++0x",
