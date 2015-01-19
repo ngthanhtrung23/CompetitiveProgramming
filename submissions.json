@@ -48776,6 +48776,18 @@
     ],
     "timestamp": "Dec/09/2011 23:57"
   },
+  "CF9471304": {
+    "contest_id": 100579,
+    "language": "GNU C++0x",
+    "path": "codeforces/100579/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Corporate Gifting",
+    "problem_url": "https://codeforces.com/gym/100579/problem/D",
+    "submission_id": "CF9471304",
+    "submission_url": "https://codeforces.com/gym/100579/submission/9471304",
+    "tags": [],
+    "timestamp": "Jan/19/2015 13:17"
+  },
   "CF949263": {
     "contest_id": 135,
     "language": "GNU C++",
