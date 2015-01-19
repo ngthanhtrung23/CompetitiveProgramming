@@ -48776,6 +48776,18 @@
     ],
     "timestamp": "Dec/09/2011 23:57"
   },
+  "CF9471283": {
+    "contest_id": 100579,
+    "language": "GNU C++0x",
+    "path": "codeforces/100579/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Winning at Sports",
+    "problem_url": "https://codeforces.com/gym/100579/problem/C",
+    "submission_id": "CF9471283",
+    "submission_url": "https://codeforces.com/gym/100579/submission/9471283",
+    "tags": [],
+    "timestamp": "Jan/19/2015 13:15"
+  },
   "CF9471304": {
     "contest_id": 100579,
     "language": "GNU C++0x",
