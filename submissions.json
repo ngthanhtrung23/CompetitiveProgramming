@@ -10974,6 +10974,22 @@
     ],
     "timestamp": "Sep/10/2020 16:50"
   },
+  "CF9522189": {
+    "contest_id": 507,
+    "language": "Java 8",
+    "path": "codeforces/507/B.java",
+    "problem_index": "B",
+    "problem_name": "Amr and Pins",
+    "problem_url": "https://codeforces.com/contest/507/problem/B",
+    "submission_id": "CF9522189",
+    "submission_url": "https://codeforces.com/contest/507/submission/9522189",
+    "tags": [
+      "geometry",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jan/24/2015 00:46"
+  },
   "CF9523532": {
     "contest_id": 507,
     "language": "GNU C++0x",
