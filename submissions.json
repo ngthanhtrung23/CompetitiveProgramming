@@ -48877,6 +48877,18 @@
     ],
     "timestamp": "Jan/24/2015 00:58"
   },
+  "CF9543511": {
+    "contest_id": 100587,
+    "language": "GNU C++0x",
+    "path": "codeforces/100587/B.cpp",
+    "problem_index": "B",
+    "problem_name": "All Critical",
+    "problem_url": "https://codeforces.com/gym/100587/problem/B",
+    "submission_id": "CF9543511",
+    "submission_url": "https://codeforces.com/gym/100587/submission/9543511",
+    "tags": [],
+    "timestamp": "Jan/25/2015 08:23"
+  },
   "CF957408": {
     "contest_id": 137,
     "language": "GNU C++",
