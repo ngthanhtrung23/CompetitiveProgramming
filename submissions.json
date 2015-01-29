@@ -49019,6 +49019,18 @@
     ],
     "timestamp": "Dec/16/2011 14:54"
   },
+  "CF9616441": {
+    "contest_id": 100519,
+    "language": "GNU C++0x",
+    "path": "codeforces/100519/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bring Your Own Bombs",
+    "problem_url": "https://codeforces.com/gym/100519/problem/B",
+    "submission_id": "CF9616441",
+    "submission_url": "https://codeforces.com/gym/100519/submission/9616441",
+    "tags": [],
+    "timestamp": "Jan/29/2015 22:54"
+  },
   "CF9617123": {
     "contest_id": 100519,
     "language": "GNU C++0x",
