@@ -49019,6 +49019,18 @@
     ],
     "timestamp": "Dec/16/2011 14:54"
   },
+  "CF9615044": {
+    "contest_id": 100519,
+    "language": "GNU C++0x",
+    "path": "codeforces/100519/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Advanced 2048",
+    "problem_url": "https://codeforces.com/gym/100519/problem/A",
+    "submission_id": "CF9615044",
+    "submission_url": "https://codeforces.com/gym/100519/submission/9615044",
+    "tags": [],
+    "timestamp": "Jan/29/2015 20:57"
+  },
   "CF9615501": {
     "contest_id": 100519,
     "language": "GNU C++0x",
