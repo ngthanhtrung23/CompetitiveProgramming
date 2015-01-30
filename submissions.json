@@ -49019,6 +49019,18 @@
     ],
     "timestamp": "Dec/16/2011 14:54"
   },
+  "CF9621879": {
+    "contest_id": 100519,
+    "language": "GNU C++0x",
+    "path": "codeforces/100519/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Genealogy",
+    "problem_url": "https://codeforces.com/gym/100519/problem/G",
+    "submission_id": "CF9621879",
+    "submission_url": "https://codeforces.com/gym/100519/submission/9621879",
+    "tags": [],
+    "timestamp": "Jan/30/2015 11:36"
+  },
   "CF9621882": {
     "contest_id": 100519,
     "language": "GNU C++0x",
