@@ -49198,6 +49198,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9751908": {
+    "contest_id": 513,
+    "language": "GNU C++0x",
+    "path": "codeforces/513/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Second price auction",
+    "problem_url": "https://codeforces.com/contest/513/problem/C",
+    "submission_id": "CF9751908",
+    "submission_url": "https://codeforces.com/contest/513/submission/9751908",
+    "tags": [
+      "bitmasks",
+      "probabilities",
+      "*2000"
+    ],
+    "timestamp": "Feb/08/2015 01:38"
+  },
   "CF9786364": {
     "contest_id": 509,
     "language": "Python 2",
