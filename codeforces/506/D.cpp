@@ -91,15 +91,14 @@ int main() {
         while (q--) {
             int u, v; cin >> u >> v;
             int res = 0;
-            if (colors[u].size() > colors[v].size()) swap(u, v);
-
             if (cache[u].count(v)) res = cache[u][v];
             else {
+                if (colors[u].size() > colors[v].size()) swap(u, v);
                 for(int c : colors[u]) {
                     int x = getId(c, u), y = getId(c, v);
                     if (x >= 0 && y >= 0 && dsu.getRoot(x) == dsu.getRoot(y)) ++res;
                 }
-                cache[u][v] = res;
+                cache[u][v] = cache[v][u] = res;
             }
             printf("%d\n", res);
         }
