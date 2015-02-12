@@ -49198,6 +49198,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9804940": {
+    "contest_id": 506,
+    "language": "GNU C++0x",
+    "path": "codeforces/506/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Mr. Kitayuta, the Treasure Hunter",
+    "problem_url": "https://codeforces.com/contest/506/problem/A",
+    "submission_id": "CF9804940",
+    "submission_url": "https://codeforces.com/contest/506/submission/9804940",
+    "tags": [
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Feb/12/2015 14:42"
+  },
   "CF9805392": {
     "contest_id": 505,
     "language": "GNU C++0x",
