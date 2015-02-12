@@ -37,8 +37,8 @@ struct DSU {
 
 vector<int> colors[MN];
 int sum[MN];
-map<int,int> cache[MN];
-tuple< int,int,int> edges[MN];
+unordered_map<int,int> cache[MN];
+pair< pair<int,int>,int> edges[MN];
 int n, m, q;
 
 void init() {
@@ -66,7 +66,7 @@ int main() {
             int a, b, c; cin >> a >> b >> c;
             colors[a].push_back(c);
             colors[b].push_back(c);
-            edges[i] = make_tuple(a, b, c);
+            edges[i] = make_pair(make_pair(a, b), c);
         }
 
         FOR(a,1,n) {
@@ -78,9 +78,9 @@ int main() {
         dsu.init();
 //        cout << "DONE INIT" << endl;
         FOR(i,1,m) {
-            int a = get<0>(edges[i]),
-                b = get<1>(edges[i]),
-                c = get<2>(edges[i]);
+            int a = edges[i].first.first,
+                b = edges[i].first.second,
+                c = edges[i].second;
 
             int u = getId(c, a), v = getId(c, b);
             dsu.merge(u, v);
