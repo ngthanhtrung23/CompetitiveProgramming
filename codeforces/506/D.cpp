@@ -92,15 +92,14 @@ int main() {
             int u, v; cin >> u >> v;
             int res = 0;
             if (colors[u].size() > colors[v].size()) swap(u, v);
-            auto pp = make_pair(u, v);
 
-            if (cache.count(pp)) res = cache[pp];
+            if (cache.count(make_pair(u, v))) res = cache[make_pair(u, v)];
             else {
                 for(int c : colors[u]) {
                     int x = getId(c, u), y = getId(c, v);
                     if (x >= 0 && y >= 0 && dsu.getRoot(x) == dsu.getRoot(y)) ++res;
                 }
-                cache[pp] = res;
+                cache[make_pair(u, v)] = res;
             }
             printf("%d\n", res);
         }
