@@ -49198,6 +49198,24 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9804248": {
+    "contest_id": 504,
+    "language": "GNU C++0x",
+    "path": "codeforces/504/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Misha and Forest",
+    "problem_url": "https://codeforces.com/contest/504/problem/A",
+    "submission_id": "CF9804248",
+    "submission_url": "https://codeforces.com/contest/504/submission/9804248",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "graphs",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Feb/12/2015 11:23"
+  },
   "CF9804350": {
     "contest_id": 504,
     "language": "GNU C++0x",
