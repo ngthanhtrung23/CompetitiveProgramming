@@ -96,7 +96,7 @@ int main() {
 
             if (cache.count(pp)) res = cache[pp];
             else {
-                REP(id,colors[u].size()) { int c = colors[u][id];
+                for(int c : colors[u]) {
                     int x = getId(c, u), y = getId(c, v);
                     if (x >= 0 && y >= 0 && dsu.getRoot(x) == dsu.getRoot(y)) ++res;
                 }
