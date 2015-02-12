@@ -1,107 +1,101 @@
-#include <bits/stdc++.h>
 
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-
-#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
-#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
-#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-
-#define sqr(x) ((x) * (x))
+#include<bits/stdc++.h>
+#include<unistd.h>
 using namespace std;
 
-const int MN = 300111;
 
-struct DSU {
-    int lab[MN];
-    void init() {
-        memset(lab, -1, sizeof lab);
-    }
+typedef long long int lint;
+typedef pair<int,int> pi;
 
-    int getRoot(int u) {
-        if (lab[u] < 0) return u;
-        return lab[u] = getRoot(lab[u]);
-    }
+const int N=100005,M=100005,Q=100005;
+struct uf{
 
-    bool merge(int u, int v) {
-        u = getRoot(u); v = getRoot(v);
-        if (u == v) return false;
-        if (lab[u] > lab[v]) swap(u, v);
-        lab[u] += lab[v];
-        lab[v] = u;
-        return true;
-    }
-} dsu;
+	static const int MAXN=2*M;
+	int par[MAXN];
+	int size[MAXN];
+	void init(){
+		memset(par,-1,sizeof(par));
+		for(int i=0;i<MAXN;++i) size[i]=1;
+	}
+	int root(int a){
+		if(par[a]==-1) return a;
+		return par[a]=root(par[a]);
+	}
+	void unite(int a,int b){
+		a=root(a);b=root(b);
+		if(a==b) return;
+		if(size[a]<size[b]) swap(a,b);
 
-vector<int> colors[MN];
-int sum[MN];
-unordered_map<int,int> cache[MN];
-pair< pair<int,int>,int> edges[MN];
-int n, m, q;
+		par[b]=a;
+		size[a]+=size[b];
+	}
+	bool same(int a,int b){
+		return root(a)==root(b);
+	}
+};
 
-void init() {
-    memset(sum, 0, sizeof sum);
-    REP(i,MN) {
-        colors[i].clear();
-        cache[i].clear();
-    }
+uf u;
+
+int n,m,q;
+
+vector<int> adjcol[N];
+pair<pi,int> es[M];
+int degsum[N];
+
+int getpos(const vector<int>& ar,int indx,int c){
+	return degsum[indx]+lower_bound(ar.begin(),ar.end(),c)-ar.begin();
+}
+int main(){
+	cin>>n>>m;
+	for(int i=0;i<m;++i){
+		int a,b,c;scanf("%d%d%d",&a,&b,&c);--a;--b;
+		adjcol[a].push_back(c);
+		adjcol[b].push_back(c);
+		
+		es[i]=make_pair(make_pair(a,b),c);
+	}
+	
+	for(int i=0;i<n;++i){
+		sort(adjcol[i].begin(),adjcol[i].end());
+		adjcol[i].erase(unique(adjcol[i].begin(),adjcol[i].end()),adjcol[i].end());
+		degsum[i+1]=degsum[i]+adjcol[i].size();
+	}
+	u.init();
+	for(int i=0;i<m;++i){
+		int a=es[i].first.first,b=es[i].first.second,c=es[i].second;
+		int A=getpos(adjcol[a],a,c),B=getpos(adjcol[b],b,c);
+		u.unite(A,B);
+	}
+
+	int q;cin>>q;
+
+	map<pi,int> memo;
+	for(int qcnt=0;qcnt<q;++qcnt){
+		int a,b;scanf("%d%d",&a,&b);--a;--b;
+		int res=0;
+		if(adjcol[a].size()>adjcol[b].size()){
+			swap(a,b);
+		}
+
+		pi p=make_pair(a,b);
+		if(memo.count(p)){
+			res=memo[p];
+		}else{
+			for(int i=0;i<adjcol[a].size();++i){
+				int c=adjcol[a][i];
+				if(binary_search(adjcol[b].begin(),adjcol[b].end(),c)){
+					int trg=getpos(adjcol[b],b,c);
+					if(u.same(trg,degsum[a]+i)){
+						++res;
+					}
+				}
+			}
+			memo[p]=res;
+		}
+		printf("%d\n",res);
+	}
+	return 0;
 }
 
-int nId;
 
-int getId(int c, int u) {
-    auto t = lower_bound(colors[u].begin(), colors[u].end(), c);
-    if (*t != c) return -1;
-    return sum[u-1] + t - colors[u].begin() + 1;
-}
 
-int main() {
-    ios :: sync_with_stdio(false);
-    while (cin >> n >> m) {
-        init();
-        nId = 0;
-        FOR(i,1,m) {
-            int a, b, c; cin >> a >> b >> c;
-            colors[a].push_back(c);
-            colors[b].push_back(c);
-            edges[i] = make_pair(make_pair(a, b), c);
-        }
-
-        FOR(a,1,n) {
-            sort(colors[a].begin(), colors[a].end());
-            colors[a].resize(unique(colors[a].begin(), colors[a].end()) - colors[a].begin());
-            sum[a] = sum[a-1] + colors[a].size();
-        }
-
-        dsu.init();
-//        cout << "DONE INIT" << endl;
-        FOR(i,1,m) {
-            int a = edges[i].first.first,
-                b = edges[i].first.second,
-                c = edges[i].second;
-
-            int u = getId(c, a), v = getId(c, b);
-            dsu.merge(u, v);
-        }
-//        cout << "DONE ADD EDGES" << endl;
-
-        cin >> q;
-        while (q--) {
-            int u, v; cin >> u >> v;
-            int res = 0;
-            if (cache[u].count(v)) res = cache[u][v];
-            else {
-                if (colors[u].size() > colors[v].size()) swap(u, v);
-                for(int c : colors[u]) {
-                    int x = getId(c, u), y = getId(c, v);
-                    if (x >= 0 && y >= 0 && dsu.getRoot(x) == dsu.getRoot(y)) ++res;
-                }
-                cache[u][v] = cache[v][u] = res;
-            }
-            printf("%d\n", res);
-        }
-    }
-    return 0;
-}
