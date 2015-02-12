@@ -37,7 +37,7 @@ struct DSU {
 
 vector<int> colors[MN];
 int sum[MN];
-map<pair<int,int>,int> cache;
+map<int,int> cache[MN];
 tuple< int,int,int> edges[MN];
 int n, m, q;
 
@@ -45,8 +45,8 @@ void init() {
     memset(sum, 0, sizeof sum);
     REP(i,MN) {
         colors[i].clear();
+        cache[i].clear();
     }
-    cache.clear();
 }
 
 int nId;
@@ -93,13 +93,13 @@ int main() {
             int res = 0;
             if (colors[u].size() > colors[v].size()) swap(u, v);
 
-            if (cache.count(make_pair(u, v))) res = cache[make_pair(u, v)];
+            if (cache[u].count(v)) res = cache[u][v];
             else {
                 for(int c : colors[u]) {
                     int x = getId(c, u), y = getId(c, v);
                     if (x >= 0 && y >= 0 && dsu.getRoot(x) == dsu.getRoot(y)) ++res;
                 }
-                cache[make_pair(u, v)] = res;
+                cache[u][v] = res;
             }
             printf("%d\n", res);
         }
