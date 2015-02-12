@@ -49198,6 +49198,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9804350": {
+    "contest_id": 504,
+    "language": "GNU C++0x",
+    "path": "codeforces/504/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Misha and Permutations Summation",
+    "problem_url": "https://codeforces.com/contest/504/problem/B",
+    "submission_id": "CF9804350",
+    "submission_url": "https://codeforces.com/contest/504/submission/9804350",
+    "tags": [
+      "binary search",
+      "data structures",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Feb/12/2015 11:53"
+  },
   "CF9804940": {
     "contest_id": 506,
     "language": "GNU C++0x",
