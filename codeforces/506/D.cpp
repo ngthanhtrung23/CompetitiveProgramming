@@ -49,6 +49,8 @@ void init() {
     cache.clear();
 }
 
+int nId;
+
 int getId(int c, int u) {
     auto t = lower_bound(colors[u].begin(), colors[u].end(), c);
     if (*t != c) return -1;
@@ -58,7 +60,8 @@ int getId(int c, int u) {
 int main() {
     ios :: sync_with_stdio(false);
     while (cin >> n >> m) {
-//        init();
+        init();
+        nId = 0;
         FOR(i,1,m) {
             int a, b, c; cin >> a >> b >> c;
             colors[a].push_back(c);
@@ -68,7 +71,7 @@ int main() {
 
         FOR(a,1,n) {
             sort(colors[a].begin(), colors[a].end());
-            colors[a].erase(unique(colors[a].begin(), colors[a].end()), colors[a].end());
+            colors[a].resize(unique(colors[a].begin(), colors[a].end()) - colors[a].begin());
             sum[a] = sum[a-1] + colors[a].size();
         }
 
@@ -93,13 +96,9 @@ int main() {
 
             if (cache.count(pp)) res = cache[pp];
             else {
-                REP(id,colors[u].size()) {
-                    int c = colors[u][id];
-                    int y = getId(c, v);
-                    if (y >= 0) {
-                        int x = sum[u-1] + id + 1;
-                        if (dsu.getRoot(x) == dsu.getRoot(y)) ++res;
-                    }
+                REP(id,colors[u].size()) { int c = colors[u][id];
+                    int x = getId(c, u), y = getId(c, v);
+                    if (x >= 0 && y >= 0 && dsu.getRoot(x) == dsu.getRoot(y)) ++res;
                 }
                 cache[pp] = res;
             }
