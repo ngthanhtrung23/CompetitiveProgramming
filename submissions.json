@@ -49198,6 +49198,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9857862": {
+    "contest_id": 514,
+    "language": "GNU C++0x",
+    "path": "codeforces/514/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Darth Vader and Tree",
+    "problem_url": "https://codeforces.com/contest/514/problem/E",
+    "submission_id": "CF9857862",
+    "submission_url": "https://codeforces.com/contest/514/submission/9857862",
+    "tags": [
+      "dp",
+      "matrices",
+      "*2200"
+    ],
+    "timestamp": "Feb/15/2015 18:33"
+  },
   "CF9858106": {
     "contest_id": 514,
     "language": "GNU C++0x",
