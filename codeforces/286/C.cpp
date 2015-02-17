@@ -52,8 +52,8 @@ int main() {
             else st.push(-a[i]);
         }
         if (st.empty()) {
-            cout << "YES" << endl;
-            FOR(i,1,n) cout << a[i] << ' ';
+            puts("YES");
+            FOR(i,1,n) printf("%d ", a[i]);
             puts("");
         }
         else puts("NO");
