@@ -49198,6 +49198,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9878904": {
+    "contest_id": 282,
+    "language": "GNU C++0x",
+    "path": "codeforces/282/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Sausage Maximization",
+    "problem_url": "https://codeforces.com/contest/282/problem/E",
+    "submission_id": "CF9878904",
+    "submission_url": "https://codeforces.com/contest/282/submission/9878904",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Feb/17/2015 14:10"
+  },
   "CF9878914": {
     "contest_id": 282,
     "language": "GNU C++0x",
