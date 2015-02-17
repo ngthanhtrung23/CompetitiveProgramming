@@ -1,133 +1,69 @@
-#include <sstream>
-#include <iomanip>
-#include <iostream>
 #include <cstdio>
 #include <cstring>
-#include <cstdlib>
-#include <cmath>
 #include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
-#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
-#define SET(a,v) memset(a,v,sizeof(a))
-#define sqr(x) ((x)*(x))
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
-
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#define FOR(i,s,e) for (int i=(s); i<(e); i++)
+#define FOE(i,s,e) for (int i=(s); i<=(e); i++)
+#define FOD(i,s,e) for (int i=(s)-1; i>=(e); i--)
+#define CLR(a,x) memset(a, x, sizeof(a))
+#define EXP(i,l) for (int i=(l); i; i=qn[i])
+#define LLD long long
+#define N 5300
 using namespace std;
 
-//Buffer reading
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp) { \
-        if (REACHEOF) return 0;\
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
+int n, m, s, x, na, nb, mx, st, ed;
+int v[N], q[N], G[N][N], C[N][N];
+LLD ways[N];
+LLD MOD = 1000000007;
+
+int Enc(int a, int b, int c){
+	int r = c * 2601 + a * 51 + b;
+	mx = max(mx, r);
+	return r;
 }
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
 
-const long double PI = acos((long double) -1.0);
+int main(){
+	scanf("%d%d", &n, &m);
+	FOR(i,0,n){
+		scanf("%d", &x);
+		if (x == 50) ++na;
+		else ++nb;
+	}
 
-const long long MOD = 1000000007LL;
+	FOE(i,0,n){
+		C[i][0] = C[i][i] = 1;
+		FOE(j,1,i) C[i][j] = (C[i-1][j-1] + C[i-1][j]) % MOD;
+	}
+	
+	FOE(i,0,na) FOE(j,0,nb){
+		FOE(ii,0,i) FOE(jj,0,j){
+			s = ii * 50 + jj * 100;
+			if (s == 0 || s > m) continue;
+			G[Enc(i, j, 0)][Enc(i-ii, j-jj, 1)] = (C[i][ii] * 1LL * C[j][jj]) % MOD;
+		}
+		
+		FOE(ii,0,na-i) FOE(jj,0,nb-j){
+			s = ii * 50 + jj * 100;
+			if (s == 0 || s > m) continue;
+			G[Enc(i, j, 1)][Enc(i+ii, j+jj, 0)] = (C[na-i][ii] * 1LL * C[nb-j][jj]) % MOD;
+		}
+	}
 
-long long c[55][55];
-int f[55][55][2];
-long long g[55][55][2];
-
-int qu[55*55*2], qv[55*55*2], qt[55*55*2];
-int n, k;
-
-int main() {
-    c[0][0] = 1;
-    FOR(i,1,50) {
-        c[i][0] = 1;
-        FOR(j,1,i) c[i][j] = (c[i-1][j] + c[i-1][j-1]) % MOD;
-    }
-    while (cin >> n >> k) {
-        int cnt0 = 0, cnt1 = 0;
-        FOR(i,1,n) {
-            int a; cin >> a;
-            if (a == 50) ++cnt0; else ++cnt1;
-        }
-        memset(f, -1, sizeof f); memset(g, 0, sizeof g);
-
-        f[cnt0][cnt1][1] = 0;
-        g[cnt0][cnt1][1] = 1;
-        int first = 1, last = 1;
-        qu[1] = cnt0, qv[1] = cnt1, qt[1] = 1;
-
-        while (first <= last) {
-            int u = qu[first], v = qv[first], t = qt[first]; ++first;
-
-            if (t == 1) { // Dua nguoi sang song
-                FOR(i,0,u) FOR(j,0,v)
-                if (i || j) {
-                    if (i * 50 + j * 100 <= k) {
-                        if (f[u-i][v-j][0] < 0) {
-                            f[u-i][v-j][0] = f[u][v][t] + 1;
-                            g[u-i][v-j][0] = g[u][v][t] * c[u][i] % MOD * c[v][j] % MOD;
-                            ++last;
-                            qu[last] = u-i; qv[last] = v-j; qt[last] = 0;
-                        }
-                        else if (f[u-i][v-j][0] == f[u][v][t] + 1) {
-                            g[u-i][v-j][0] = (g[u][v][t] * c[u][i] % MOD * c[v][j] % MOD + g[u-i][v-j][0]) % MOD;
-                        }
-                    }
-                    else break;
-                }
-            }
-            else { // Dua nguoi tro ve
-                FOR(i,0,cnt0-u) FOR(j,0,cnt1-v)
-                if (i || j) {
-                    if (i * 50 + j * 100 <= k) {
-                        if (f[u+i][v+j][1] < 0) {
-                            f[u+i][v+j][1] = f[u][v][t] + 1;
-                            g[u+i][v+j][1] = g[u][v][t] * c[cnt0-u][i] % MOD * c[cnt1-v][j] % MOD;
-                            ++last;
-                            qu[last] = u+i; qv[last] = v+j; qt[last] = 1;
-                        }
-                        else if (f[u+i][v+j][1] == f[u][v][t] + 1) {
-                            g[u+i][v+j][1] = (g[u][v][t] * c[cnt0-u][i] % MOD * c[cnt1-v][j] % MOD + g[u+i][v+j][1]) % MOD;
-                        }
-                    }
-                    else break;
-                }
-            }
-        }
-
-        cout << f[0][0][0] << endl << g[0][0][0] << endl;
-    }
-    return 0;
+	st = Enc(na, nb, 0);
+	ed = Enc(0, 0, 1);
+	CLR(v, -1);
+	v[st] = 0, q[0] = st, ways[st] = 1;
+	for (int i=0, j=0; j>=i; i++){
+		FOE(k,0,mx) if (G[q[i]][k] > 0){
+			if (v[k] == -1){
+				v[k] = v[q[i]] + 1;
+				q[++j] = k;
+			}
+			if (v[k] == v[q[i]] + 1){
+				ways[k] = (ways[k] + ways[q[i]] * (LLD)G[q[i]][k]) % MOD;
+			}
+		}
+	}
+	
+	printf("%d\n%I64d\n", v[ed], ways[ed]);
+	return 0;
 }
