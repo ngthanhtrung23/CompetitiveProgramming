@@ -44,8 +44,6 @@ int main() {
             puts("");
         }
         else puts("NO");
-        break;
     }
     return 0;
 }
-
