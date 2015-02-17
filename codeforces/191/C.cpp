@@ -1,124 +1,95 @@
-//#pragma comment(linker, "/STACK:66777216")
-#include <iomanip>
-#include <sstream>
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
 #include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
 #include <bitset>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; ++i)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
-#define DEBUG(x) cout << #x << " = " << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(i,1,n) cout << a[i] << ' '; puts("");
-#define PR0(a,n) cout << #a << " = "; REP(i,n) cout << a[i] << ' '; puts("");
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
+#include <deque>
+#include <functional>
+#include <iomanip>
+#include <iostream>
+#include <list>
+#include <map>
+#include <numeric>
+#include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <utility>
+#include <vector>
+#include <cstring>
+#define maxn 100005
+#define prev __prev
 using namespace std;
 
-const double PI = acos(-1.0);
-
+vector<int> adj[maxn];
+map< pair<int,int>,int > mp;
 int n;
-vector< pair<int,int> > ke[100111];
-int fat[20][100111], ind[100111], cnt[20][100111], h[100111];
+int parIdx[maxn],sum[maxn],ret[maxn];
+int prev[maxn][20];
+int enter[maxn],quit[maxn],cnt = 0;
 
-void dfs(int u, int fu) {
-    REP(i,ke[u].size()) {
-        int v = ke[u][i].F;
-        if (v == fu) continue;
-        
-        ind[v] = ke[u][i].S;
-        fat[0][v] = u;
-        h[v] = h[u] + 1;
-        dfs(v, u);
-    }
+void DFS(int u,int pre) {
+  enter[u] = cnt++;
+  for (int i = 0; i < adj[u].size(); i++) {
+    int v = adj[u][i];
+    if (v == pre) continue;
+    parIdx[v] = mp[make_pair(v,u)];
+    prev[v][0] = u;
+    DFS(v,u);
+  }
+  quit[u] = cnt++;
 }
 
-void init() {
-    FOR(t,1,18) {
-        FOR(u,1,n) if (fat[t-1][u] != -1) {
-            int v = fat[t-1][u];
-            fat[t][u] = fat[t-1][v];
-        }
-    }
+bool parent(int u,int v) {
+  return (enter[u] <= enter[v] && quit[v] <= quit[u]);
 }
 
-void update(int u, int v) {
-    if (h[u] < h[v]) swap(u, v);
-    if (h[u] != h[v]) {
-        FORD(i,18,0) {
-            int x = fat[i][u];
-            if (x > 0 && h[x] >= h[v]) {
-                cnt[i][u]++;
-                u = x;
-            }
-        }
-    }
-    
-    if (u != v) {
-        FORD(i,18,0)
-        if (fat[i][u] != fat[i][v]) {
-            cnt[i][u]++;
-            cnt[i][v]++;
-            u = fat[i][u];
-            v = fat[i][v];
-        }
-        cnt[0][u]++;
-        cnt[0][v]++;
-    }
+int LCA(int u,int v) {
+  if (parent(u,v)) return u;
+  for (int i = 19; i >= 0; i--) {
+    int z = prev[u][i];
+    if (z >= 0 && !parent(z,v)) u = z;
+  }
+  return prev[u][0];
 }
 
-int res[100111];
-
-void solve() {
-    FORD(i,18,1)
-    FOR(u,1,n) if (cnt[i][u]) {
-        int v = fat[i-1][u];
-        cnt[i-1][u] += cnt[i][u];
-        if (v > 0) cnt[i-1][v] += cnt[i][u];
-    }
-    
-    FOR(i,2,n) res[ind[i]] = cnt[0][i];
-    FOR(i,1,n-1) printf("%d ", res[i]); puts("");
+void go(int u,int pre) {
+  for (int i = 0; i < adj[u].size(); i++) {
+    int v = adj[u][i];
+    if (v == pre) continue;
+    go(v,u);
+    sum[u] += sum[v];
+  } 
+  if (u > 1) ret[parIdx[u]] = sum[u];
 }
 
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    while (scanf("%d", &n) == 1) {
-        FOR(i,1,n) ke[i].clear();
-        memset(cnt, 0, sizeof cnt);
-        memset(fat, -1, sizeof fat);
-        
-        FOR(turn,1,n-1) {
-            int u, v;
-            scanf("%d%d", &u, &v);
-            ke[u].PB(MP(v,turn));
-            ke[v].PB(MP(u,turn));
-        }
-        dfs(1, -1);
-        init();
-        
-        int q; scanf("%d", &q);
-        while (q--) {
-            int u, v; scanf("%d%d", &u, &v);
-            update(u,v);
-        }
-        solve();
+  scanf("%d", &n);
+  for (int i = 1; i < n; i++) {
+    int u,v;
+    scanf("%d %d", &u, &v);
+    adj[u].push_back(v);
+    adj[v].push_back(u);
+    mp[make_pair(u,v)] = mp[make_pair(v,u)] = i;
+  }
+  memset(prev,-1,sizeof(prev));  
+  DFS(1,-1);
+  for (int j = 1; j < 20; j++)
+    for (int i = 1; i <= n; i++) {
+      int u = prev[i][j - 1];
+      if (u >= 0 && prev[u][j - 1] >= 0) prev[i][j] = prev[u][j - 1];
     }
-    return 0;
+  int m;
+  scanf("%d", &m);
+  while (m--) {
+    int u,v;
+    scanf("%d %d", &u, &v);
+    int z = LCA(u,v);
+    sum[u]++;
+    sum[v]++;
+    sum[z] -= 2;
+  }
+  go(1,-1);
+  for (int i = 1; i < n; i++) printf("%d ", ret[i]);
 }

@@ -49198,6 +49198,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9879569": {
+    "contest_id": 191,
+    "language": "GNU C++0x",
+    "path": "codeforces/191/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Fools and Roads",
+    "problem_url": "https://codeforces.com/contest/191/problem/C",
+    "submission_id": "CF9879569",
+    "submission_url": "https://codeforces.com/contest/191/submission/9879569",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Feb/17/2015 15:58"
+  },
   "CF9879586": {
     "contest_id": 191,
     "language": "GNU C++0x",
