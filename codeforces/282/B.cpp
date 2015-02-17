@@ -1,98 +1,166 @@
-#define _GLIBCXX_DEBUG
+#include <set>
+#include <map>
+#include <list>
+#include <cmath>
+#include <queue>
+#include <stack>
+#include <cstdio>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include <cstring>
 #include <sstream>
 #include <iomanip>
 #include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
 #include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
+#include <ctime>
 #include <deque>
-#include <complex>
+#include <bitset>
+#include <cctype>
+#include <utility>
 
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
-#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
-#define SET(a,v) memset(a,v,sizeof(a))
-#define sqr(x) ((x)*(x))
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
-
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-//Buffer reading
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp) { \
-        if (REACHEOF) return 0;\
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
+typedef long long ll;
+typedef long double ld;
+typedef unsigned int ui;
+typedef unsigned long long ull;
+
+#define Rep(i,n) for(int i = 0; i < (n); ++i)
+#define Repd(i,n) for(int i = (n)-1; i >= 0; --i)
+#define For(i,a,b) for(int i = (a); i <= (b); ++i)
+#define Ford(i,a,b) for(int i = (a); i >= (b); --i)
+#define Fit(i,v) for(__typeof((v).begin()) i = (v).begin(); i != (v).end(); ++i)
+#define Fitd(i,v) for(__typeof((v).rbegin()) i = (v).rbegin(); i != (v).rend(); ++i)
+#define mp make_pair
+#define pb push_back
+#define fi first
+#define se second
+#define sz(a) ((int)(a).size())
+#define all(a) (a).begin(), (a).end()
+#define ms(a,x) memset(a, x, sizeof(a))
+
+template<class F, class T> T convert(F a, int p = -1) {
+    stringstream ss;
+    if (p >= 0)
+        ss << fixed << setprecision(p);
+    ss << a;
+    T r;
+    ss >> r;
+    return r;
 }
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
-
-const long double PI = acos((long double) -1.0);
-
-pair<int,int> a[1000111];
-int n;
-
-void print(int a, int g) {
-    while (a--) putchar('A');
-    while (g--) putchar('G');
-    puts("");
-}
-
-int main() {
-    while (scanf("%d", &n) == 1) {
-        FOR(i,1,n) scanf("%d%d", &a[i].F, &a[i].S);
-
-        int x = 0, y = 0;
-        FOR(i,1,n) y += a[i].S;
-        if (abs(y) <= 500) {
-            print(0, n);
-            continue;
-        }
-        bool found = false;
-
-        FOR(i,1,n) {
-            x += a[i].F;
-            y -= a[i].S;
-            if (abs(x - y) <= 500) {
-                print(i, n-i);
-                found = true;
-                break;
-            }
-        }
-
-        if (!found) puts("-1");
+template<class T> T gcd(T a, T b) {
+    T r;
+    while (b != 0) {
+        r = a % b;
+        a = b;
+        b = r;
     }
+    return a;
+}
+template<class T> T lcm(T a, T b) {
+    return a / gcd(a, b) * b;
+}
+template<class T> T sqr(T x) {
+    return x * x;
+}
+template<class T> T cube(T x) {
+    return x * x * x;
+}
+template<class T> int getbit(T s, int i) {
+    return (s >> i) & 1;
+}
+template<class T> T onbit(T s, int i) {
+    return s | (T(1) << i);
+}
+template<class T> T offbit(T s, int i) {
+    return s & (~(T(1) << i));
+}
+template<class T> int cntbit(T s) {
+    return s == 0 ? 0 : cntbit(s >> 1) + (s & 1);
+}
+
+const int bfsz = 1 << 16;
+char bf[bfsz + 5];
+int rsz = 0;
+int ptr = 0;
+char gc() {
+    if (rsz <= 0) {
+        ptr = 0;
+        rsz = (int) fread(bf, 1, bfsz, stdin);
+        if (rsz <= 0)
+            return EOF;
+    }
+    --rsz;
+    return bf[ptr++];
+}
+void ga(char &c) {
+    c = EOF;
+    while (!isalpha(c))
+        c = gc();
+}
+int gs(char s[]) {
+    int l = 0;
+    char c = gc();
+    while (isspace(c))
+        c = gc();
+    while (c != EOF && !isspace(c)) {
+        s[l++] = c;
+        c = gc();
+    }
+    s[l] = '\0';
+    return l;
+}
+template<class T> bool gi(T &v) {
+    v = 0;
+    char c = gc();
+    while (c != EOF && c != '-' && !isdigit(c))
+        c = gc();
+    if (c == EOF)
+        return false;
+    bool neg = c == '-';
+    if (neg)
+        c = gc();
+    while (isdigit(c)) {
+        v = v * 10 + c - '0';
+        c = gc();
+    }
+    if (neg)
+        v = -v;
+    return true;
+}
+
+typedef pair<int, int> II;
+const ld PI = acos(-1.0);
+const ld eps = 1e-9;
+const int dr[] = { -1, 0, +1, 0, 1, 1, -1, -1 };
+const int dc[] = { 0, +1, 0, -1, 1, -1, 1, -1 };
+const int inf = (int) 1e9 + 5;
+const ll linf = (ll) 1e16 + 5;
+const int mod = (ll) (1e9 + 7 + eps);
+#define ok puts("ok")
+//#define maxn 305
+
+#define maxn 2000005
+
+int n = 0;
+int a, g, d = 0;
+
+int main(){
+
+//  freopen("in.txt", "r", stdin);
+    scanf("%d", &n);
+    Rep(i, n) {
+        scanf("%d %d", &a, &g);
+        if(abs(d + a) <= 500){
+            d += a;
+            printf("A");
+        }
+        else{
+            d -= g;
+            printf("G");
+        }
+    }
+
     return 0;
 }
