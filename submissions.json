@@ -49198,6 +49198,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9879984": {
+    "contest_id": 61,
+    "language": "Java 7",
+    "path": "codeforces/61/C.java",
+    "problem_index": "C",
+    "problem_name": "Capture Valerian",
+    "problem_url": "https://codeforces.com/contest/61/problem/C",
+    "submission_id": "CF9879984",
+    "submission_url": "https://codeforces.com/contest/61/submission/9879984",
+    "tags": [
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Feb/17/2015 17:02"
+  },
   "CF9880008": {
     "contest_id": 61,
     "language": "GNU C++0x",
