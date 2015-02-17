@@ -81,6 +81,7 @@ long long get(int i, int l, int r, int u, int v) {
     down(i, l, r, mid);
 
     long long res = get(CT(i), l, mid, u, v) + get(CP(i), mid+1, r, u, v);
+    up(i);
     return res;
 }
 
