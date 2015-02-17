@@ -16,12 +16,8 @@ const int MN = 1000111;
 int n, a[MN];
 bool bad[MN];
 
-const int BUFF_SIZE = 1<<17;
-char mybuffer[BUFF_SIZE + 10];
-
 int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
-    cin.rdbuf()->pubsetbuf(mybuffer, BUFF_SIZE);
+    ios :: sync_with_stdio(false); cin.tie(0);
     while (cin >> n) {
         FOR(i,1,n) cin >> a[i];
         memset(bad, false, sizeof bad);
@@ -47,7 +43,6 @@ int main() {
             puts("");
         }
         else puts("NO");
-        break;
     }
     return 0;
 }
