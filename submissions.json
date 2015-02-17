@@ -49198,6 +49198,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9878790": {
+    "contest_id": 264,
+    "language": "GNU C++0x",
+    "path": "codeforces/264/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Choosing Balls",
+    "problem_url": "https://codeforces.com/contest/264/problem/C",
+    "submission_id": "CF9878790",
+    "submission_url": "https://codeforces.com/contest/264/submission/9878790",
+    "tags": [
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Feb/17/2015 13:48"
+  },
   "CF9878808": {
     "contest_id": 264,
     "language": "GNU C++0x",
