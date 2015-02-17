@@ -1,6 +1,19 @@
-
-#include <bits/stdc++.h>
-
+#include <sstream>
+#include <iomanip>
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <stack>
+#include <queue>
+#include <string>
+#include <deque>
+#include <complex>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
@@ -18,12 +31,12 @@ int n, a[MN];
 bool bad[MN];
 
 int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
-    while (cin >> n) {
-        FOR(i,1,n) cin >> a[i];
+    ios :: sync_with_stdio(false); cin.tie(0);
+    while (scanf("%d", &n) == 1) {
+        FOR(i,1,n) scanf("%d", &a[i]);
         memset(bad, false, sizeof bad);
-        int q; cin >> q;
-        while (q--) { int u; cin >> u; bad[u] = true; }
+        int q; scanf("%d", &q);
+        while (q--) { int u; scanf("%d", &u); bad[u] = true; }
 
         stack<int> st;
         FORD(i,n,1) {
@@ -39,11 +52,12 @@ int main() {
             else st.push(-a[i]);
         }
         if (st.empty()) {
-            puts("YES");
-            FOR(i,1,n) printf("%d ", a[i]);
+            cout << "YES" << endl;
+            FOR(i,1,n) cout << a[i] << ' ';
             puts("");
         }
         else puts("NO");
     }
     return 0;
 }
+
