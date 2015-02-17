@@ -1,144 +1,101 @@
-#include <sstream>
-#include <iomanip>
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
-#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
-#define SET(a,v) memset(a,v,sizeof(a))
-#define sqr(x) ((x)*(x))
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-//Buffer reading
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp) { \
-        if (REACHEOF) return 0;\
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
+const long long MOD = 1e9 + 7;
 
-const long double PI = acos((long double) -1.0);
-const long long MOD = 1000000007LL;
-
-string ub;
-long long f[100][2][100], g[100], choose[100][100][100], c[111][111];
-int m, l;
-
-long long get(long long ub, int u) {
-    long long res = 1;
-    REP(i,u)
-        res = (res * (ub-i)) % MOD;
-    return res;
-}
+int m, a[22], na;
+int f[22][22][2];
+long long cnt[22], gt[22];
 
 void init() {
-    stringstream ss; ss << m;
-    ss >> ub; l = ub.length();
-    ub = ' ' + ub;
+    na = 0;
+    ++m;
+    while (m) {
+        a[++na] = m % 10;
+        m /= 10;
+    }
+    reverse(a+1, a+na+1);
 
+//    PR(a, na);
     memset(f, 0, sizeof f);
     f[0][0][0] = 1;
-    FOR(i,0,l-1) REP(t,2) FOR(u,0,i) if (f[i][t][u]) {
+    FOR(i,0,na-1) FOR(cnt,0,i) FOR(lower,0,1) if (f[i][cnt][lower]) {
         FOR(cur,0,9)
-        if (t == 1 || (cur <= ub[i+1] - '0')) {
-            int tt = t;
-            if (cur < ub[i+1] - '0') tt = 1;
+            if (lower || cur <= a[i+1]) {
+                int cnt2 = cnt; if (cur == 4 || cur == 7) ++cnt2;
+                int lower2 = lower; if (cur < a[i+1]) lower2 = 1;
+                f[i+1][cnt2][lower2] += f[i][cnt][lower];
 
-            int uu = u;
-            if (cur == 4 || cur == 7) ++uu;
-
-            f[i+1][tt][uu] += f[i][t][u];
-        }
+                if (i == 0) {
+                }
+            }
     }
 
-    FOR(i,0,l) {
-        g[i] = f[l][1][i] % MOD;
-    }
-    g[0]--;
-    // PR0(g, l+1);
+    FOR(has,0,20)
+        cnt[has] = f[na][has][1];
+    cnt[0]--;
+}
 
-    memset(c, 0, sizeof c);
-    c[0][0] = 1;
-    FOR(i,1,100) {
-        c[i][0] = 1;
-        FOR(j,1,i) c[i][j] = c[i-1][j-1] + c[i-1][j];
-    }
+long long g[20][20][20];
 
-    memset(choose, 0, sizeof choose);
-    choose[0][0][l+1] = 1;
+void update(long long& x, long long val) {
+    x = (x + val) % MOD;
+}
 
-    FOR(i,0,5) FOR(sum,0,99) FOR(last,0,l+1)
-    if (choose[i][sum][last]) {
-        int bound = last+1;
-        if (last == l+1) bound = 0;
+long long power(long long x, int k) {
+    if (k == 0) return 1;
+    if (k == 1) return x % MOD;
+    long long mid = power(x * x % MOD, k >> 1);
+    if (k & 1) return mid * x % MOD;
+    else return mid;
+}
 
-        FOR(cur,bound,l) FOR(x,1,6) if (i+x <= 6) {
-            choose[i+x][sum+cur*x][cur] += choose[i][sum][last] * get(g[cur], x) % MOD * c[i+x][x] % MOD;
-            choose[i+x][sum+cur*x][cur] %= MOD;
-        }
-    }
+long long c(long long n, int k) {
+    if (k < 0 || k > n) return 0;
+
+    long long res = 1;
+    FOR(x,n-k+1,n)
+        res = (res * x) % MOD;
+    return res * power(gt[k], MOD - 2) % MOD;
 }
 
 int main() {
-    while (scanf("%d", &m) == 1) {
-        ++m;
+    ios :: sync_with_stdio(false);
+    cout << (fixed) << setprecision(9);
+    while (cin >> m) {
         init();
+        gt[0] = 1; FOR(i,1,20) gt[i] = gt[i-1] * i % MOD;
 
         long long res = 0;
-        FOR(i,1,l) {
-            long long has = 0;
-            FOR(j,0,i-1)
-            FOR(last,0,l)
-                has += choose[6][j][last];
+//        PR0(cnt, 10);
+        FOR(my,1,11) {
+            memset(g, 0, sizeof g);
+            g[0][0][0] = 1;
+            FOR(add,0,my-1) FOR(i,0,6) FOR(sum,0,my-1) {
+                FOR(mult,0,6) if (sum + add * mult < my) {
+                    update(g[add+1][i + mult][sum + add * mult],
+                            g[add][i][sum] * c(cnt[add], mult) % MOD * gt[mult] % MOD * c(i + mult, mult));
+                }
+            }
 
-            if (has < 6) continue;
-
-            res = (res + g[i] * has) % MOD;
+            FOR(sum,0,my-1) {
+                res = (res + g[my][6][sum] * cnt[my]) % MOD;
+            }
+//            cout << my << ' ' << res << endl;
         }
         cout << res << endl;
     }
-
-    // cout << (get(12, 1) * get(31, 5) * 6 % MOD + get(31, 6) % MOD + 12LL * get(31, 6)) % MOD << endl;
     return 0;
 }
