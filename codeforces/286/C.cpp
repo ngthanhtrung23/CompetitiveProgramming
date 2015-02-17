@@ -18,13 +18,12 @@ int n, a[MN];
 bool bad[MN];
 
 int main() {
-    ios :: sync_with_stdio(false);
-    cout << (fixed) << setprecision(9);
-    while (scanf("%d", &n) == 1) {
-        FOR(i,1,n) scanf("%d", &a[i]);
+    ios :: sync_with_stdio(0); cin.tie(0);
+    while (cin >> n) {
+        FOR(i,1,n) cin >> a[i];
         memset(bad, false, sizeof bad);
-        int q; scanf("%d", &q);
-        while (q--) { int u; scanf("%d", &u); bad[u] = true; }
+        int q; cin >> q;
+        while (q--) { int u; cin >> u; bad[u] = true; }
 
         stack<int> st;
         FORD(i,n,1) {
@@ -40,11 +39,12 @@ int main() {
             else st.push(-a[i]);
         }
         if (st.empty()) {
-            cout << "YES" << endl;
-            FOR(i,1,n) cout << a[i] << ' ';
-            cout << endl;
+            puts("YES");
+            FOR(i,1,n) printf("%d ", a[i]);
+            puts("");
         }
-        else cout << "NO" << endl;
+        else puts("NO");
+        break;
     }
     return 0;
 }
