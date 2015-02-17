@@ -49198,6 +49198,25 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9879914": {
+    "contest_id": 61,
+    "language": "GNU C++0x",
+    "path": "codeforces/61/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Eternal Victory",
+    "problem_url": "https://codeforces.com/contest/61/problem/D",
+    "submission_id": "CF9879914",
+    "submission_url": "https://codeforces.com/contest/61/submission/9879914",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Feb/17/2015 16:52"
+  },
   "CF9879984": {
     "contest_id": 61,
     "language": "Java 7",
