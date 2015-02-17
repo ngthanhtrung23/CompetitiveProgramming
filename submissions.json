@@ -49198,6 +49198,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9880148": {
+    "contest_id": 156,
+    "language": "GNU C++0x",
+    "path": "codeforces/156/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Clues",
+    "problem_url": "https://codeforces.com/contest/156/problem/D",
+    "submission_id": "CF9880148",
+    "submission_url": "https://codeforces.com/contest/156/submission/9880148",
+    "tags": [
+      "combinatorics",
+      "graphs",
+      "*2500"
+    ],
+    "timestamp": "Feb/17/2015 17:26"
+  },
   "CF9880178": {
     "contest_id": 269,
     "language": "GNU C++0x",
