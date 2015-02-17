@@ -1,19 +1,6 @@
-#include <sstream>
-#include <iomanip>
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
+
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
@@ -32,11 +19,11 @@ bool bad[MN];
 
 int main() {
     ios :: sync_with_stdio(false); cin.tie(0);
-    while (scanf("%d", &n) == 1) {
-        FOR(i,1,n) scanf("%d", &a[i]);
+    while (cin >> n) {
+        FOR(i,1,n) cin >> a[i];
         memset(bad, false, sizeof bad);
-        int q; scanf("%d", &q);
-        while (q--) { int u; scanf("%d", &u); bad[u] = true; }
+        int q; cin >> q;
+        while (q--) { int u; cin >> u; bad[u] = true; }
 
         stack<int> st;
         FORD(i,n,1) {
