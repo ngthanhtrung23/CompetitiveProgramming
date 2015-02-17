@@ -49198,6 +49198,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9880453": {
+    "contest_id": 295,
+    "language": "GNU C++0x",
+    "path": "codeforces/295/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Greg and Caves",
+    "problem_url": "https://codeforces.com/contest/295/problem/D",
+    "submission_id": "CF9880453",
+    "submission_url": "https://codeforces.com/contest/295/submission/9880453",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "Feb/17/2015 18:06"
+  },
   "CF9880458": {
     "contest_id": 295,
     "language": "GNU C++0x",

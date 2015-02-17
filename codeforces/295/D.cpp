@@ -1,96 +1,64 @@
-#include <sstream>
-#include <iomanip>
 #include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
+#include <sstream>
+#include <fstream>
+#include <string>
 #include <vector>
+#include <deque>
+#include <queue>
+#include <stack>
 #include <set>
 #include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+#include <algorithm>
+#include <functional>
+#include <utility>
+#include <bitset>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+#include <cstdio>
 
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
-#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
-#define SET(a,v) memset(a,v,sizeof(a))
-#define sqr(x) ((x)*(x))
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
-
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
 using namespace std;
 
-//Buffer reading
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp) { \
-        if (REACHEOF) return 0;\
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
+#define REP(i,n) for((i)=0;(i)<(int)(n);(i)++)
+#define snuke(c,itr) for(__typeof((c).begin()) itr=(c).begin();itr!=(c).end();itr++)
 
-const long double PI = acos((long double) -1.0);
+typedef long long ll;
+#define MOD 1000000007ll
 
-const long long MOD = 1000000007LL;
-const int MN = 2011;
+int C[6010][6010];
+ll up[2010],down[2010];
 
-long long f[MN][MN], sum[MN][MN], inc[MN][MN], g[MN][MN];
-
-int main() {
-    int m, n;
-    while (cin >> m >> n) {
-        memset(f, 0, sizeof f);
-        memset(sum, 0, sizeof sum);
-        memset(inc, 0, sizeof inc);
-
-        f[0][0] = 1;
-        FOR(i,1,m) {
-            f[i][0] = 1; g[i][0] = 1;
-
-            FOR(l,2,n) {
-                f[i][l] = (sum[i-1][l] * (l+1) % MOD - inc[i-1][l] + f[i-1][0] + MOD) % MOD;
-                sum[i][l] = (sum[i][l-1] + f[i][l]) % MOD;
-                inc[i][l] = (inc[i][l-1] + l * f[i][l]) % MOD;
-
-                g[i][l] = (f[i][l] - f[i-1][l] + MOD) % MOD;
-            }
+int main(void){
+    int X,Y,d,i,j;
+    
+    int M = 1000000007;
+    
+    REP(i,6010) REP(j,i+1){
+        if(j == 0 || j == i){
+            C[i][j] = 1;
+        } else {
+            C[i][j] = C[i-1][j-1] + C[i-1][j];
+            if(C[i][j] >= M) C[i][j] -= M;
         }
-
-        long long res = 0;
-        FOR(u,1,m) FOR(l,2,n) {
-            res = (res + g[u][l] * f[m-u+1][l] % MOD * (n + 1 - l)) % MOD;
-            // cout << u << ' ' << l << ' ' << res << endl;
-        }
-        cout << res << endl;
     }
+    
+    cin >> X >> Y;
+    ll ans = 0;
+    
+    for(d=1;d<=Y-1;d++){
+        up[1] = down[1] = 1;
+        for(i=2;i<=X;i++){
+            ll c = C[d+2*i-3][2*i-2];
+            down[i] = (down[i-1] + c) % MOD;
+            up[i] = (down[i] - down[i-1] + MOD) % MOD;
+        }
+        
+        ll tmp = 0;
+        REP(i,X) tmp = (tmp + up[i+1] * down[X-i]) % MOD;
+        ans = (ans + tmp * (Y - d)) % MOD;
+    }
+    
+    cout << ans << endl;
+    
     return 0;
 }
