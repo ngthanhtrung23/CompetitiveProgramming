@@ -49198,6 +49198,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9880703": {
+    "contest_id": 16,
+    "language": "GNU C++0x",
+    "path": "codeforces/16/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Logging",
+    "problem_url": "https://codeforces.com/contest/16/problem/D",
+    "submission_id": "CF9880703",
+    "submission_url": "https://codeforces.com/contest/16/submission/9880703",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Feb/17/2015 18:35"
+  },
   "CF9880779": {
     "contest_id": 16,
     "language": "GNU C++0x",
