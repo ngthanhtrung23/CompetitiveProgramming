@@ -49198,6 +49198,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9880779": {
+    "contest_id": 16,
+    "language": "GNU C++0x",
+    "path": "codeforces/16/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Fish",
+    "problem_url": "https://codeforces.com/contest/16/problem/E",
+    "submission_id": "CF9880779",
+    "submission_url": "https://codeforces.com/contest/16/submission/9880779",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "probabilities",
+      "*1900"
+    ],
+    "timestamp": "Feb/17/2015 18:46"
+  },
   "CF9880941": {
     "contest_id": 286,
     "language": "GNU C++0x",
