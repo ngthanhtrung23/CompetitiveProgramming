@@ -49198,6 +49198,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9881513": {
+    "contest_id": 258,
+    "language": "GNU C++0x",
+    "path": "codeforces/258/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Little Elephant and Tree",
+    "problem_url": "https://codeforces.com/contest/258/problem/E",
+    "submission_id": "CF9881513",
+    "submission_url": "https://codeforces.com/contest/258/submission/9881513",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Feb/17/2015 20:25"
+  },
   "CF9881519": {
     "contest_id": 258,
     "language": "GNU C++0x",
