@@ -18,12 +18,11 @@ int n, a[MN];
 bool bad[MN];
 
 int main() {
-    ios :: sync_with_stdio(false); cin.tie(0);
-    while (cin >> n) {
-        FOR(i,1,n) cin >> a[i];
+    while (scanf("%d", &n) == 1) {
+        FOR(i,1,n) scanf("%d", &a[i]);
         memset(bad, false, sizeof bad);
-        int q; cin >> q;
-        while (q--) { int u; cin >> u; bad[u] = true; }
+        int q; scanf("%d", &q);
+        while (q--) { int u; scanf("%d", &u); bad[u] = true; }
 
         stack<int> st;
         FORD(i,n,1) {
