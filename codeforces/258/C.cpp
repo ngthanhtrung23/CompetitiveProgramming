@@ -1,121 +1,137 @@
-#include <sstream>
-#include <iomanip>
 #include <iostream>
 #include <cstdio>
-#include <cstring>
-#include <cstdlib>
 #include <cmath>
-#include <algorithm>
-#include <vector>
 #include <set>
+#include <vector>
 #include <map>
-#include <stack>
-#include <queue>
+#include <cstring>
+#include <sstream>
+#include <algorithm>
 #include <string>
-#include <deque>
-#include <complex>
+#include <queue>
+#include <fstream>
 
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
-#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
-#define SET(a,v) memset(a,v,sizeof(a))
-#define sqr(x) ((x)*(x))
-#define ll long long
-#define F first
-#define S second
+#define FOR(i,a,b) for(int i = (a); i <= (b); i++)
+#define FR(i,a) for(int i = 0; i < (a); i++)
+#define DR(i,a) for(int i = (a)-1; i >=0; i--)
+#define DOWN(i,a,b) for(int i = (a); i >= (b); i--)
+#define FORD(i,a,b) for(int i = (a), _b = (b); i >= _b; i--)
+#define REPD(i,n) for(int i = (n) - 1; i >= 0; i--)
 #define PB push_back
 #define MP make_pair
 
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#define F first
+#define S second
+#define RESET(c,x) memset(c,x,sizeof(c))
+#define SIZE(c) (c).size()
+#define ALL(c) (c).begin(), (c).end()
+
+#define REP(i,a) for(int i = 0; i < (a); i++)
+
+#define sqr(x) ((x)*(x))
+#define oo 1000000009
 using namespace std;
-
-//Buffer reading
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp) { \
-        if (REACHEOF) return 0;\
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
+/*************************TEMPLATE**********************************/
+long long convertToNum(string s)
+{
+    long long val = 0; FR(i,s.size()) val = val * 10 + s[i] - '0';
+    return val;
 }
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
+char bu[50];
+string convertToString(int a) {
+    sprintf(bu,"%d",a);
+    return string(bu);
 }
-//End of buffer reading
-
-const long double PI = acos((long double) -1.0);
-const long long MOD = 1000000007;
-
-long long power(long long x, int k) {
-    if (k == 0) return 1;
-    if (k == 1) return x % MOD;
-    long long mid = power(x, k >> 1);
-    mid = mid * mid % MOD;
-
-    if (k & 1) return (mid * x) % MOD;
-    else return mid;
+long long GCD(long long x,long long y)  {
+    if (!x) return y; if (!y) return x;
+    if (x == y) return x; if (x < y) return GCD(x,y%x); else return GCD(x%y,y);
 }
-
-int n, a[100111];
-int uoc[100111], nUoc;
-
-int get(int x) {
-    if (x > a[n]) return 0;
-    int i = lower_bound(a+1, a+n+1, x) - a;
-    return n - i + 1;
+long long POW(long long x,long long y,long long Base){
+    if (!y) return 1; long long u = POW(x,y/2,Base);
+    u = (u * u) % Base;
+    if (y & 1) return (u * x) % Base; else return u;
 }
-
-int main() {
-    while (scanf("%d", &n) == 1) {
-        FOR(i,1,n) scanf("%d", &a[i]);
-
-        int ln = a[1];
-        FOR(i,2,n) ln = max(ln, a[i]);
-        sort(a+1, a+n+1);
-
-        long long res = 0;
-        FOR(lcm, 1, ln) {
-            nUoc = 0;
-            for(int i = 1; i * i <= lcm; ++i)
-                if (lcm % i == 0) {
-                    uoc[++nUoc] = i;
-                    if (lcm != i*i) uoc[++nUoc] = lcm / i;
-                }
-
-            sort(uoc+1, uoc+nUoc + 1);
-            // PR(uoc, nUoc);
-
-            int last = 0;
-            long long now = 1;
-            FORD(i,nUoc,1) {
-                int t = get(uoc[i]);
-                if (i == nUoc) {
-                    now = now * (power(i, t) - power(i-1, t) + MOD) % MOD;
-                }
-                else {
-                    now = now * (power(i, t-last)) % MOD;
-                }
-                last = t;
-            }
-            res = (res + now) % MOD;
-            // cout << lcm << ' ' << res << endl;
-        }
-        cout << res << endl;
+void extended_euclid(long long A, long long B, long long &x,long long &y) {
+    if (A == 1 && B == 0) {
+        x = 1;
+        y = 0;
+        return;
     }
+    if (A < B) extended_euclid(B,A,y,x);
+    else {
+        long long xx,yy;
+        extended_euclid(A%B,B,xx,yy);
+        x = xx;
+        y = yy - (A/B)*xx;
+        
+    }
+}
+//newstate = (newstate-1) & oldstate
+/**************************CODE HERE*****************************/
+
+void OPEN() {
+    freopen("test.in","r",stdin);
+    freopen("test.out","w",stdout);
+}
+#define maxn 100100
+long long Base = 1000000007;
+int n;
+long long Tree[maxn], a[maxn];
+
+void update(int node) {
+    for(;node <= 100000; node += node & (-node))
+        Tree[node]++;
+}
+long long visit(int node) {
+    long long s = 0;
+    for(; node > 0; node -= node & (-node))
+        s += Tree[node];
+    return s;
+}
+long long get_greater(int val) {
+    return visit(100000) - visit(val-1);
+}
+vector<int> ds1, ds2;
+long long solve(long long X) {
+    
+    long long val = get_greater(X);
+    if (!val) return 0;
+    ds1.clear();
+    ds2.clear();
+    for(long long i = 1; i * i <= X; i++) 
+    if (X % i == 0) {
+        ds1.push_back(i);
+        if (i != X / i) ds2.push_back(X/i);
+    }
+    DR(i,ds1.size()) ds2.push_back(ds1[i]);
+//    FR(i,ds2.size()) cout << ds2[i] << " ";
+//    cout << endl;
+//    FR(i,ds2.size()) cout << get_greater(ds2[i]) << " ";
+//    cout << endl; 
+    long long souoc = ds2.size();
+    long long prev = val;
+    long long res = (POW(souoc, val, Base) - POW(souoc-1, val, Base)) % Base;
+    if (res < 0) res += Base;
+    for(int i = 1; i < ds2.size(); i++) {
+        val = get_greater(ds2[i]);
+        long long save_val = val;
+        val -= prev;
+        prev = save_val;
+        res = (res * POW(souoc-i, val, Base)) % Base;
+    }
+//    cout << res << endl;
+    return res;
+}
+int main() {     
+//    OPEN();
+    scanf("%d",&n);
+    FOR(i,1,n) scanf("%d",&a[i]);
+    FOR(i,1,n) update(a[i]);
+    long long res = 0;
+    FOR(i,1,100000) {
+        res = (res + solve(i)) % Base;
+    }
+    cout
+     << res << endl;
     return 0;
 }

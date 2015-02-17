@@ -49198,6 +49198,24 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9881456": {
+    "contest_id": 258,
+    "language": "GNU C++0x",
+    "path": "codeforces/258/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Little Elephant and LCM",
+    "problem_url": "https://codeforces.com/contest/258/problem/C",
+    "submission_id": "CF9881456",
+    "submission_url": "https://codeforces.com/contest/258/submission/9881456",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Feb/17/2015 20:18"
+  },
   "CF9881513": {
     "contest_id": 258,
     "language": "GNU C++0x",
