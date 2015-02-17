@@ -49198,6 +49198,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9881848": {
+    "contest_id": 258,
+    "language": "GNU C++0x",
+    "path": "codeforces/258/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Little Elephant and Broken Sorting",
+    "problem_url": "https://codeforces.com/contest/258/problem/D",
+    "submission_id": "CF9881848",
+    "submission_url": "https://codeforces.com/contest/258/submission/9881848",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*2600"
+    ],
+    "timestamp": "Feb/17/2015 21:02"
+  },
   "CF9881897": {
     "contest_id": 145,
     "language": "GNU C++0x",
