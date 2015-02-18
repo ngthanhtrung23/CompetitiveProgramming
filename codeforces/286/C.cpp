@@ -16,14 +16,12 @@ const int MN = 1000111;
 int n, a[MN];
 bool bad[MN];
 
-const int BUFF_SIZE = 1<<17;
-char inp_buffer[BUFF_SIZE + 10];
-char out_buffer[BUFF_SIZE + 10];
+const int BUFF_SIZE = 1<<20;
+char mybuffer[BUFF_SIZE + 10];
 
 int main() {
     ios :: sync_with_stdio(0); cin.tie(0);
-    cin.rdbuf()->pubsetbuf(inp_buffer, BUFF_SIZE);
-    cout.rdbuf()->pubsetbuf(out_buffer, BUFF_SIZE);
+    cin.rdbuf()->pubsetbuf(mybuffer, BUFF_SIZE);
     while (cin >> n) {
         FOR(i,1,n) cin >> a[i];
         memset(bad, false, sizeof bad);
