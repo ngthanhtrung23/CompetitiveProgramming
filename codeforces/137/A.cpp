@@ -1,77 +1,42 @@
 #include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
 #include <algorithm>
+#include <cstdio>
 #include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
+#include <cstring>
 #include <string>
-#include <deque>
-#include <complex>
+#include <cmath>
+#include <utility>
+#include <map>
+#include <set>
+#include <queue>
+#include <stack>
 #include <sstream>
-#include <iomanip>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define fr(a,b,c) for (int a=b;a<=c;a++)
+#define frr(a,b,c) for (int a=b;a>=c;a--)
+#define rep(a,b) for (int a=0;a<b;a++)
+#define repp(a,b) for (int a=b-1;a>=0;a--)
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+#define sz(a) int(a.size())
+#define all(a) a.begin(),a.end()
+#define pii pair<int,int>
+#define oo 1000111222
+#define maxN 1
 using namespace std;
 
-int INP,AM;
-#define BUFSIZE (1<<10)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp) { \
-        if (feof(stdin)) memset(BUF,0,sizeof BUF); else fread(BUF,1,BUFSIZE,stdin); \
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
 
-const double PI = acos(-1.0);
-
-char s[1000111];
-
-int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    gets(s);
-    int n = strlen(s);
-    int res = 0;
-    char typ = s[0];
-    int cur = 0;
-    REP(i,n) {
-        if (s[i] == typ) {
-            cur++;
-            if (cur > 5) {
-                res++;
-                cur -= 5;
-            }
-        }
-        else {
-            res++;
-            cur = 1;
-            typ = s[i];
-        }
-    }
-    if (cur) res++;
-    cout << res;
-    return 0;
+int main()
+{
+	string s;
+	int ans=0,cnt=1;
+	cin >> s;
+	fr(i,1,sz(s)-1) 
+	{
+		if (i && s[i]==s[i-1]) cnt++;
+		else ans+=(cnt+4)/5, cnt=1;
+	}
+	ans+=(cnt+4)/5;
+	cout << ans << endl;
 }
