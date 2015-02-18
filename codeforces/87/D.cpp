@@ -1,155 +1,160 @@
-#pragma comment(linker, "/STACK:16777216")
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
 #include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
 #include <deque>
-#include <complex>
-#include <sstream>
-#include <iomanip>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#include <iostream>
+#include <map>
+#include <queue>
+#include <set>
+#include <string>
+#include <vector>
+#define maxn 100005
 using namespace std;
 
-const double PI = acos(-1.0);
+struct edge {
+    int u,v,cost,index;
+};
 
-ll res[100111];
-int kq[100111], n, lab[100111];
-struct rec {
-    int u, v, c, id;
-} e[100111];
-
-int getRoot(int u) {
-    if (lab[u] < 0) return u;
-    return lab[u] = getRoot(lab[u]);
+bool cmp(edge A,edge B) {
+    return A.cost < B.cost;
 }
-void merge(int u, int v) {
-    u = getRoot(u); v = getRoot(v);
-    if (u == v) return ;
-    int x = lab[u] + lab[v];
-    if (lab[u] < lab[v]) {
-        lab[u] = x;
-        lab[v] = u;
+
+edge makeEdge(int _u,int _v,int _cost,int _index) {
+    edge E;
+    E.u = _u;
+    E.v = _v;
+    E.cost = _cost;
+    E.index = _index;
+    return E;
+}
+
+
+edge graph[maxn];
+int n;
+int weight[maxn],par[maxn];
+
+int root(int u) {
+    if (u != par[u]) par[u] = root(par[u]);
+    if (u != par[u]) weight[u] = weight[par[u]];
+    return par[u];
+}
+
+void link(int u,int v) {
+    u = root(u);
+    v = root(v);
+    if (u == v) return;
+    par[v] = u;
+    weight[u] += weight[v];
+    weight[v] = weight[u];
+}
+
+struct bigTree {
+    vector< pair<int,int> > adj[maxn];
+    int numVer;
+    int pos[maxn],bucket[maxn];
+    long long coef[maxn],totalWeight[maxn];
+    long long value[maxn],rootWeight;
+    bool visit[maxn];
+
+    void init() {
+        memset(pos,-1,sizeof(pos));
+        memset(value,0,sizeof(value));
+        memset(visit,false,sizeof(visit));
+        numVer = 0;
+        for (int i = 1; i <= n; i++) adj[i].clear();
     }
-    else {
-        lab[v] = x;
-        lab[u] = v;
+
+    void clearOldGraph() {
+        for (int i = 1; i <= numVer; i++) {
+            pos[bucket[i]] = -1;
+            adj[i].clear();
+            visit[i] = false;
+        }
+        numVer = 0;
     }
-}
 
-void inp() {
-    scanf("%d", &n);
-    FOR(i,1,n-1) {
-        scanf("%d %d %d", &e[i].u, &e[i].v, &e[i].c);
-        e[i].id = i;
+    int get(int u) {
+        if (pos[u] < 0) {
+            numVer++;
+            bucket[numVer] = u;
+            pos[u] = numVer;
+        }
+        return pos[u];
     }
-}
 
-bool operator < (rec a, rec b) {
-    return a.c < b.c;
-}
+    void addEdge(int u,int v,int index) {
+        int gu = get(root(u)),gv = get(root(v));
+        coef[gu] = weight[root(u)];
+        coef[gv] = weight[root(v)];
+        adj[gu].push_back(make_pair(gv,index));
+        adj[gv].push_back(make_pair(gu,index));
+    }
 
-vector<int > ke[100111];
-ll sl[100111];
-int root[100111], h[100111];
+    void firstDFS(int u,int pre) {
+        visit[u] = true;        
+        totalWeight[u] = coef[u];
+        for (int i = 0; i < adj[u].size(); i++) {
+            int v = adj[u][i].first;
+            if (v == pre) continue;         
+            firstDFS(v,u);
+            totalWeight[u] += totalWeight[v];
+        }
+        if (pre == -1) rootWeight = totalWeight[u];
+    }
 
-void dfs(int u, int fu, int r) {
-    root[u] = r;
-    sl[u] = -lab[getRoot(u)];
-    REP(i,ke[u].size()) {
-        int v = ke[u][i];
-        if (v == fu) continue;
-        if (sl[v] < 0) {
-            h[v] = h[u] + 1;
-            dfs(v, u, r);
-            sl[u] += sl[v];
+    void secondDFS(int u,int pre) {
+        for (int i = 0; i < adj[u].size(); i++) {
+            int v = adj[u][i].first;
+            if (v == pre) continue;
+            secondDFS(v,u);
+            value[adj[u][i].second] = totalWeight[v] * (rootWeight - totalWeight[v]);
         }
     }
-}
+
+    void solveNewGraph() {
+        for (int i = 1; i <= numVer; i++) if (!visit[i]) {
+            firstDFS(i,-1);
+            secondDFS(i,-1);
+        }
+    }
+} ts;
 
 void solve() {
-    FOR(i,1,n) ke[i].clear();
-    memset(lab, -1, sizeof lab);
-    sort(e+1, e+n);
-    e[n].c = 1000111000;
-    memset(sl, -1, sizeof sl);
-    int last = 0;
-    FOR(i,1,n-1) if (e[i].c < e[i+1].c) {
-//        cout << "At edge: " << e[i].u << ' ' << e[i].v << ' ' << e[i].c << endl;
-        FOR(u,last+1,i) {
-            getRoot(e[u].u);
-            getRoot(e[u].v);
+    ts.init();
+    for (int i = 1; i <= n; i++) weight[i] = 1,par[i] = i;
+    int LF = 1;
+    while (LF < n) {
+        int RF = LF + 1;
+        while (RF < n && graph[LF].cost == graph[RF].cost) RF++;
+        ts.clearOldGraph();
+        for (int i = LF; i < RF; i++) {
+            ts.addEdge(graph[i].u,graph[i].v,graph[i].index);
         }
-        
-        FOR(u,last+1,i) {
-            int x = getRoot(e[u].u);
-            int y = getRoot(e[u].v);
-            ke[x].PB(y);
-            ke[y].PB(x);
-//            cout << x << ' ' << y << endl;
-//            cout << ke[2].size() << ' ' << ke[6].size() << ' ' << ke[13].size() << endl;
-        }
-        
-        FOR(u,last+1,i)
-            if (sl[getRoot(e[u].u)] < 0) {
-                h[getRoot(e[u].u)] = 1;
-                dfs(getRoot(e[u].u), -1, getRoot(e[u].u));
-            }
-            
-        FOR(u,last+1,i) {
-            int x = getRoot(e[u].u), y = getRoot(e[u].v);
-            if (h[x] > h[y]) swap(x, y);
-//            cout << e[u].u << ' ' << e[u].v << ' ' << sl[y] << ' ' << root[x] << ' ' << sl[root[x]] << endl;
-
-            res[e[u].id] = sl[y] * (sl[root[x]] - sl[y]) * 2;
-//            cout << e[u].id << ' ' << res[e[u].id] << endl;
-        }
-        
-        FOR(u,last+1,i) {
-            ke[getRoot(e[u].u)].clear();
-            ke[getRoot(e[u].v)].clear();
-            sl[getRoot(e[u].u)] = -1;
-            sl[getRoot(e[u].v)] = -1;
-            merge(e[u].u, e[u].v);
-        }
-        last = i;
+        ts.solveNewGraph();
+        for (int i = LF; i < RF; i++) link(graph[i].u,graph[i].v);
+        LF = RF;
     }
-    
-//    FOR(i,1,n-1) cout << res[i] << ' ';
-//    cout << endl;
-}
 
-void ans() {
-    ll ln = 0;
-    FOR(i,1,n-1) ln = max(ln, res[i]);
-    cout << ln << ' ';
+    long long ret = -1;
     int cnt = 0;
-    FOR(i,1,n-1) if (res[i] == ln) kq[cnt++] = i;
-    cout << cnt << endl;
-    sort(kq, kq+cnt);
-    REP(i,cnt) printf("%d ", kq[i]);
+    for (int i = 1; i < n; i++) if (ret < ts.value[i]) {
+        ret = ts.value[i];
+        cnt = 1;
+    }
+    else if (ret == ts.value[i]) cnt++;
+    cout << ret * 2 << ' ' << cnt << endl;
+    for (int i = 1; i < n; i++) if (ret == ts.value[i]) printf("%d ", i);
 }
 
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    inp();
+    scanf("%d", &n);
+    for (int i = 1; i < n; i++) {
+        int u,v,cost;
+        scanf("%d %d %d", &u, &v, &cost);
+        graph[i] = makeEdge(u,v,cost,i);        
+    }
+    sort(graph + 1,graph + n,cmp);
     solve();
-    ans();
-    return 0;
 }
