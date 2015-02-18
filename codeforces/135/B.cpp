@@ -1,90 +1,131 @@
 #include <iostream>
 #include <cstdio>
-#include <cstring>
-#include <cstdlib>
 #include <cmath>
-#include <algorithm>
-#include <vector>
 #include <set>
+#include <vector>
 #include <map>
-#include <stack>
-#include <queue>
+#include <cstring>
+#include <algorithm>
 #include <string>
-#include <deque>
-#include <complex>
+#include <queue>
+#include <fstream>
 
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
+#define FOR(i,a,b) for(int i = (a); i <= (b); i++)
+#define FR(i,a) for(int i = 0; i < (a); i++)
+#define DR(i,a) for(int i = (a)-1; i >=0; i--)
+#define DOWN(i,a,b) for(int i = (a); i >= (b); i--)
+#define FORD(i,a,b) for(int i = (a), _b = (b); i >= _b; i--)
+#define REPD(i,n) for(int i = (n) - 1; i >= 0; i--)
 #define PB push_back
 #define MP make_pair
+#define F first
+#define S second
+#define RESET(c,x) memset(c,x,sizeof(c))
+#define SIZE(c) (c).size()
+#define ALL(c) (c).begin(), (c).end()
+
+#define REP(i,a) for(int i = 0; i < (a); i++)
+
+#define sqr(x) ((x)*(x))
+#define oo 1000000009
+
 using namespace std;
+/*************************TEMPLATE**********************************/
+long long convertToNum(string s)
+{
+    long long val = 0; FR(i,s.size()) val = val * 10 + s[i] - '0';
+    return val;
+}
+string convertToString(long long a) {
+    string res = ""; if (!a) return "0";
+    while (a) { res = (char)(a % 10 + 48) + res;  a /= 10; }
+    return res;
+}
+long long GCD(long long x,long long y)  {
+    if (!x) return y; if (!y) return x;
+    if (x == y) return x; if (x < y) return GCD(x,y%x); else return GCD(x%y,y);
+}
+long long POW(long long x,long long y,long long Base){
+    if (!y) return 1; long long u = POW(x,y/2,Base);
+    u = (u * u) % Base;
+    if (y & 1) return (u * x) % Base; else return u;
+}
 
-const double PI = acos(-1.0);
-
+//newstate = (newstate-1) & oldstate
+/**************************CODE HERE*****************************/
 struct Point {
-    int x, y;
-    Point() {x = y = 0;}
-    Point(int x, int y) : x(x), y(y) {}
-    
-    Point operator - (Point a) { return Point(x - a.x, y - a.y); }
-    int len() { return x*x + y*y; }
-    int operator * (Point a) { return x * a.x + y * a.y; }
-} p[10];
-
-bool mark[10];
-int x[10];
-
-bool square2(int a, int b, int c, int d) {
-    return ((p[a] - p[b]).len() == (p[b] - p[c]).len())
-            && ((p[b] - p[c]).len() == (p[c] - p[d]).len())
-            && ((p[c] - p[d]).len() == (p[d] - p[a]).len());
-}
-
-bool square(int a, int b, int c, int d) {
-    return (square2(a, b, c, d)
-        || square2(a, b, d, c)
-        || square2(a, c, b, d));
-}
-
-bool rect2(int a, int b, int c, int d) {
-    return ((p[b] - p[a]) * (p[d] - p[a]) == 0)
-            && ((p[c] - p[b]) * (p[a] - p[b]) == 0)
-            && ((p[d] - p[c]) * (p[b] - p[c]) == 0);
-}
-
-bool rect(int a, int b, int c, int d) {
-    return (rect2(a, b, c, d)
-        || rect2(a, b, d, c)
-        || rect2(a, c, b, d));
-}
-
+    int x,y;
+    Point(){x=y=0;}
+    Point(int x, int y):x(x),y(y){}
+    Point operator + (Point q){ return Point(x+q.x,y+q.y);}
+    Point operator - (Point q){ return Point(x-q.x,y-q.y);}
+    int operator *(Point q) { return x*q.x+y*q.y;}
+    int getLen() { return x*x+y*y;}
+};
+Point p[10];
+vector<int> list;
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    FOR(i,1,8) scanf("%d %d", &p[i].x, &p[i].y);
+//    freopen("test.in","r",stdin);
+//    freopen("test.out","w",stdout);
+    FR(i,8) cin >> p[i].x >> p[i].y;
     
-    FOR(a,1,8)
-    FOR(b,a+1,8)
-    FOR(c,b+1,8)
-    FOR(d,c+1,8) {
-        memset(mark, 0, sizeof mark);
-        mark[a] = mark[b] = mark[c] = mark[d] = 1;
-        int cnt  = 0;
-        FOR(i,1,8) if (!mark[i]) {
-            x[++cnt] = i;
-        }
+    FR(state,(1<<8)) {
+        int cnt = 0;
+        FR(i,8)
+        if (state & (1<<i)) cnt++;
         
-        if (square(a, b, c, d) && rect(a, b, c, d) && rect(x[1], x[2], x[3], x[4])) {
-            puts("YES");
-            printf("%d %d %d %d\n", a, b, c, d);
-            printf("%d %d %d %d\n", x[1], x[2], x[3], x[4]);
-            return 0;
-        }
+        if (cnt != 4) continue;
+        list.clear();
+        
+        FR(i,8)
+        if (state & (1<<i)) list.push_back(i);
+        
+        bool correct = false;
+        
+        do {
+            Point A = p[list[0]];
+            Point B = p[list[1]];
+            Point C = p[list[2]];
+            Point D = p[list[3]];
+            if ((B-A)*(D-A) == 0 && (A-B)*(C-B) == 0 && (B-C)*(D-C) == 0 && (C-D)*(A-D) == 0) {
+                if ((B-A).getLen() == (C-B).getLen() && (C-B).getLen() == (D-C).getLen() && (D-C).getLen() == (D-A).getLen()) {
+                    correct = true; 
+                    break;
+                }
+            }
+        } while (next_permutation(list.begin(),list.end()));
+        if (!correct) continue;
+        
+        list.clear();
+        FR(i,8)
+        if (!(state & (1<<i))) list.push_back(i);
+        
+        correct = false;
+        
+        do {
+            Point A = p[list[0]];
+            Point B = p[list[1]];
+            Point C = p[list[2]];
+            Point D = p[list[3]];
+            if ((B-A)*(D-A) == 0 && (A-B)*(C-B) == 0 && (B-C)*(D-C) == 0 && (C-D)*(A-D) == 0) {
+                if ((B-A).getLen() == (D-C).getLen() && (C-B).getLen() == (A-D).getLen()) {
+                    correct = true; 
+                    break;
+                }
+            }
+        } while (next_permutation(list.begin(),list.end()));
+        if (!correct) continue;
+        cout << "YES" << endl;
+        FR(i,8)
+        if (state & (1<<i)) cout << (i+1) << " ";
+        cout << endl;
+        FR(i,8)
+        if (!(state & (1 << i))) cout << (i+1) << " ";
+        cout << endl;
+        return 0;
     }
-    puts("NO");
+    cout << "NO" << endl;
+    
+//    system("pause");
     return 0;
 }

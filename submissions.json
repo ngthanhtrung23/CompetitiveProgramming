@@ -49198,6 +49198,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9912497": {
+    "contest_id": 135,
+    "language": "GNU C++0x",
+    "path": "codeforces/135/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Rectangle and Square",
+    "problem_url": "https://codeforces.com/contest/135/problem/B",
+    "submission_id": "CF9912497",
+    "submission_url": "https://codeforces.com/contest/135/submission/9912497",
+    "tags": [
+      "brute force",
+      "geometry",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Feb/18/2015 17:39"
+  },
   "CF9912561": {
     "contest_id": 135,
     "language": "GNU C++0x",
