@@ -16,7 +16,7 @@ const int MN = 1000111;
 int n, a[MN];
 bool bad[MN];
 
-const int BUFF_SIZE = 1<<10;
+const int BUFF_SIZE = 1<<17;
 char mybuffer[BUFF_SIZE + 10];
 
 int main() {
