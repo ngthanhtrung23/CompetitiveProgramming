@@ -49198,6 +49198,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9910360": {
+    "contest_id": 87,
+    "language": "GNU C++0x",
+    "path": "codeforces/87/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Trains",
+    "problem_url": "https://codeforces.com/contest/87/problem/A",
+    "submission_id": "CF9910360",
+    "submission_url": "https://codeforces.com/contest/87/submission/9910360",
+    "tags": [
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Feb/18/2015 13:42"
+  },
   "CF9910430": {
     "contest_id": 87,
     "language": "GNU C++0x",

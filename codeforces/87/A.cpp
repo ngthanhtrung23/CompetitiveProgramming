@@ -1,63 +1,64 @@
-#pragma comment(linker, "/STACK:16777216")
 #include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
+#include <sstream>
+#include <string>
 #include <vector>
+#include <deque>
+#include <queue>
 #include <set>
 #include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
-#include <sstream>
-#include <iomanip>
+#include <algorithm>
+#include <functional>
+#include <utility>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+#include <cstdio>
 
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
 using namespace std;
 
-const double PI = acos(-1.0);
+#define REP(i,n) for((i)=0;(i)<(int)(n);(i)++)
+#define foreach(c,itr) for(__typeof((c).begin()) itr=(c).begin();itr!=(c).end();itr++)
 
-ll gcd(ll a, ll b) {
-    if (b == 0) return a;
-    return gcd(b, a % b);
+typedef long long ll;
+
+ll gcd(ll x, ll y){
+    return x ? gcd(y%x,x) : y;
 }
 
-pair<ll,int> all[2000111];
-ll cntA, cntB;
-int cnt;
+ll lcm(ll x, ll y){
+    return x / gcd(x,y) * y;
+}
 
-int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    ll a, b; cin >> a >> b;
-    ll x = a * b / gcd(a, b);
+pair <ll, int> t[2000010]; // time, people
+
+int main(void){
+    ll a,b;
+    cin >> a >> b;
     
-    FOR(i,1,x/a-1) all[cnt++] = MP(a * i, 0);
-    FOR(i,1,x/b-1) all[cnt++] = MP(b * i, 1);
-    sort(all, all+cnt);
+    ll d = lcm(a,b);
     
-    ll last = 0;
-    REP(i,cnt) {
-        if (all[i].S == 0) cntA += all[i].F - last;
-        else cntB += all[i].F - last;
-        
-        last = all[i].F;
+    int sz=0,i;
+    for(i=0;a*i<=d;i++){
+        if((a*i == 0 || a*i == d) && a < b) continue;
+        t[sz] = make_pair(a*i,0); sz++;
     }
-    if (a > b) cntA += x - last; else cntB += x - last;
-    if (cntA > cntB) puts("Dasha");
-    else if (cntA < cntB) puts("Masha");
-    else puts("Equal");
+    for(i=0;b*i<=d;i++){
+        if((b*i == 0 || b*i == d) && b < a) continue;
+        t[sz] = make_pair(b*i,1); sz++;
+    }
+    sort(t,t+sz);
+    
+    ll dasha = 0, masha = 0;
+    REP(i,sz-1){
+        ll tmp = t[i+1].first - t[i].first;
+        if(t[i].second == 0) dasha += tmp; else masha += tmp;
+    }
+    
+//  cout << dasha << ' ' << masha << endl;
+    
+    if(dasha > masha) cout << "Dasha" << endl;
+    if(dasha < masha) cout << "Masha" << endl;
+    if(dasha == masha) cout << "Equal" << endl;
     
     return 0;
 }
