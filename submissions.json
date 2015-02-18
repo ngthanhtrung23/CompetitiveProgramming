@@ -49198,6 +49198,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9911010": {
+    "contest_id": 87,
+    "language": "GNU C++0x",
+    "path": "codeforces/87/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Vasya and Types",
+    "problem_url": "https://codeforces.com/contest/87/problem/B",
+    "submission_id": "CF9911010",
+    "submission_url": "https://codeforces.com/contest/87/submission/9911010",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Feb/18/2015 14:53"
+  },
   "CF9912470": {
     "contest_id": 135,
     "language": "GNU C++0x",
