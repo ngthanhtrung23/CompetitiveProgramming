@@ -11153,6 +11153,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9915045": {
+    "contest_id": 346,
+    "language": "GNU C++0x",
+    "path": "codeforces/346/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Alice and Bob",
+    "problem_url": "https://codeforces.com/contest/346/problem/A",
+    "submission_id": "CF9915045",
+    "submission_url": "https://codeforces.com/contest/346/submission/9915045",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Feb/18/2015 21:48"
+  },
   "CF9915339": {
     "contest_id": 346,
     "language": "GNU C++0x",
