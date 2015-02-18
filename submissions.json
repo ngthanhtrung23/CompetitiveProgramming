@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9915600": {
+    "contest_id": 154,
+    "language": "GNU C++0x",
+    "path": "codeforces/154/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Colliders",
+    "problem_url": "https://codeforces.com/contest/154/problem/B",
+    "submission_id": "CF9915600",
+    "submission_url": "https://codeforces.com/contest/154/submission/9915600",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Feb/18/2015 22:37"
+  },
   "CF9915813": {
     "contest_id": 154,
     "language": "GNU C++0x",
