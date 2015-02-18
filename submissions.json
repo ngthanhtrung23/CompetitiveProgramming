@@ -49198,6 +49198,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9913232": {
+    "contest_id": 135,
+    "language": "GNU C++0x",
+    "path": "codeforces/135/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Cycle",
+    "problem_url": "https://codeforces.com/contest/135/problem/D",
+    "submission_id": "CF9913232",
+    "submission_url": "https://codeforces.com/contest/135/submission/9913232",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "implementation",
+      "*2500"
+    ],
+    "timestamp": "Feb/18/2015 18:57"
+  },
   "CF9913478": {
     "contest_id": 280,
     "language": "GNU C++0x",

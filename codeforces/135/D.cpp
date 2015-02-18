@@ -1,137 +1,135 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-const double PI = acos(-1.0);
-const int MAXN = 1000111;
-
-int m, n, res = 0, first, last;
 char a[1011][1011];
-int mark[1011][1011];
-int qu[MAXN], qv[MAXN];
-int listu[MAXN], listv[MAXN], listn;
+int m, n, now, visited[1011][1011], done[1011][1011];
+const int di[] = {-1,1,0,0};
+const int dj[] = {0,0,-1,1};
 
-int mark1[1011][1011];
-
-const int di[] = {-1,-1,-1,0,0,1,1,1};
-const int dj[] = {-1,0,1,-1,1,-1,0,1};
-const int dt[] = {0,1,0,1,1,0,1,0};
-
-void bfs(int startu, int startv, int cur) {
-    listn = 0;
-    first = last = 1;
-    qu[1] = startu; qv[1] = startv;
-    
-    mark[startu][startv] = cur;
-    
-    int outside = 0;
-    
-    while (first <= last) {
-        int u = qu[first], v = qv[first++];
-        REP(dir,8) {
-            int uu = u + di[dir], vv = v + dj[dir];
-            if (uu > m || uu < 1 || vv > n || vv < 1) continue;
-            
-            if ((uu == 1 || uu == m || vv == 1 || vv == n) && a[uu][vv] == '0') outside = 1;
-            
-            if (a[uu][vv] == '0') {
-                if (mark[uu][vv] == 0) {
-                    qu[++last] = uu; qv[last] = vv;
-                }
-            }
-            else {
-                if (mark[uu][vv] != cur) {
-                    listn++;
-                    listu[listn] = uu;
-                    listv[listn] = vv;
-                }
-            }
-            mark[uu][vv] = cur;
-        }
-    }
-    
-    if (outside) return ;
-    
-//    FOR(i,1,listn) cout << listu[i] << ' ' << listv[i] << ' ' << mark[listu[i]][listv[i]] << endl;
-    
-    FOR(i,1,listn) {
-        int u = listu[i], v = listv[i];
-        int cnt = 0;
-        REP(dir, 8) if (dt[dir] == 1) {
-            int uu = u + di[dir], vv = v + dj[dir];
-            if (a[uu][vv] == '1' && mark[uu][vv] == cur) cnt++;
-        }
-        if (cnt != 2) return ;
-        if (mark1[u][v] != mark1[listu[1]][listv[1]]) return ;
-    }
-    res = max(res, listn);
+bool outside(int u, int v) {
+    return u < 1 || v < 1 || u > m || v > n;
 }
 
-void bfs1(int i, int j, int _) {
+pair<int,int> qu[1011*1011];
+int first, last;
+
+int bfs(int u, int v) {
+    visited[u][v] = ++now;
     first = last = 1;
-    qu[1] = i; qv[1] = j;
-    mark1[i][j] = _;
+    qu[1] = make_pair(u, v);
     
+    bool canGoOutside = false;
     while (first <= last) {
-        int u = qu[first], v = qv[first]; first++;
-        REP(dir,8) if (dt[dir] == 1) {
-            int uu = u + di[dir], vv = v + dj[dir];
-            if (uu > m || uu < 1 || vv > n || vv < 1) continue;
-            if (a[uu][vv] != '1') continue;
-            
-            if (!mark1[uu][vv]) {
-                mark1[uu][vv] = _;
-                last++;
-                qu[last] = uu; qv[last] = vv;
+        int u = qu[first].first, v = qu[first].second; ++first;
+
+        FOR(di,-1,1) FOR(dj,-1,1) if (di || dj) {
+            int uu = u + di, vv = v + dj;
+            if (outside(uu, vv)) {
+                canGoOutside = true;
+                continue;
+            }
+
+            if (a[uu][vv] == '0' && visited[uu][vv] != now) {
+                visited[uu][vv] = now;
+                ++last;
+                qu[last] = make_pair(uu, vv);
             }
         }
     }
+    if (canGoOutside) return 0;
+
+//    cout << "Bfs at: " << u << ' ' << v << endl;
+    vector< pair<int,int> > ones;
+    FOR(t,1,last) {
+        int u = qu[t].first, v = qu[t].second;
+
+        FOR(di,-1,1) FOR(dj,-1,1) if (di || dj) {
+            int uu = u + di, vv = v + dj;
+            if (a[uu][vv] == '1') {
+                if (visited[uu][vv] != now) {
+                    ones.push_back(make_pair(uu, vv));
+                    visited[uu][vv] = now;
+                }
+            }
+        }
+    }
+
+//    for(auto p : ones) cout << p.first << ' ' << p.second << "     "; cout << endl;
+    if (ones.empty()) return 0;
+
+    for(auto p : ones) {
+        int cnt = 0;
+        REP(dir,4) {
+            int u = p.first + di[dir], v = p.second + dj[dir];
+            if (a[u][v] == '1' && visited[u][v] == now) ++cnt;
+        }
+        if (cnt != 2) return 0;
+    }
+//    cout << "HAS 2 NEIGHBOURS" << endl;
+
+    queue< pair<int,int> > q;
+    u = ones[0].first, v = ones[0].second;
+    done[u][v] = now;
+    q.push(make_pair(u, v));
+
+    while (!q.empty()) {
+        u = q.front().first, v = q.front().second; q.pop();
+        REP(dir,4) {
+            int uu = u + di[dir], vv = v + dj[dir];
+            if (a[uu][vv] == '1' && visited[uu][vv] == now && done[uu][vv] != now) {
+                done[uu][vv] = now;
+                q.push(make_pair(uu, vv));
+            }
+        }
+    }
+    for(auto p : ones)
+        if (done[p.first][p.second] != now) return 0;
+//    cout << "CONNECTED" << endl;
+
+    return ones.size();
 }
 
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    // Input
-    scanf("%d %d\n", &m, &n);
-    FOR(i,1,m) scanf("%s\n", &a[i][1]);
-    
-    int _ = 0;
-    FOR(i,1,m) FOR(j,1,n)
-        if (a[i][j] == '1' && mark1[i][j] == 0) {
-            bfs1(i, j, ++_);
+    ios :: sync_with_stdio(false);
+    cout << (fixed) << setprecision(9);
+    while (cin >> m >> n) {
+        memset(a, ' ', sizeof a);
+        FOR(i,1,m) {
+            string tmp; cin >> tmp;
+            FOR(j,1,n) a[i][j] = tmp[j-1];
         }
-    
-    // Boring
-    FOR(i,1,m) FOR(j,1,n)
-        if (a[i][j] == '1' && a[i+1][j] == '1' && a[i][j+1] == '1' && a[i+1][j+1] == '1')
-            res = 4;
-    
-    // bfs
-    int cur = 0;
-    FOR(i,1,m) FOR(j,1,n) if (a[i][j] == '0' && mark[i][j] == 0) {
-        bfs(i, j, ++cur);
+
+//        FOR(i,1,m) {
+//            FOR(j,1,n) cout << a[i][j];
+//            cout << endl;
+//        }
+
+        int res = 0;
+        FOR(i,1,m-1) FOR(j,1,n-1)
+            if (a[i][j] + a[i][j+1] + a[i+1][j] + a[i+1][j+1] == '1' * 4) {
+                res = 4;
+            }
+
+        now = 0;
+        memset(visited, 0, sizeof visited);
+        memset(done, 0, sizeof done);
+        FOR(i,1,m) FOR(j,1,n) if (a[i][j] == '0' && !visited[i][j]) {
+            res = max(res, bfs(i, j));
+        }
+        cout << res << endl;
     }
-    printf("%d\n", res);
     return 0;
 }
+
