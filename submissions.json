@@ -49198,6 +49198,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9914827": {
+    "contest_id": 286,
+    "language": "GNU C++0x",
+    "path": "codeforces/286/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Main Sequence",
+    "problem_url": "https://codeforces.com/contest/286/problem/C",
+    "submission_id": "CF9914827",
+    "submission_url": "https://codeforces.com/contest/286/submission/9914827",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Feb/18/2015 21:33"
+  },
   "CF9914968": {
     "contest_id": 346,
     "language": "GNU C++0x",
