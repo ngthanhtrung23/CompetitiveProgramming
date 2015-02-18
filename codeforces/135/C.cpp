@@ -1,108 +1,70 @@
 #include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
 #include <algorithm>
+#include <cstdio>
 #include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
+#include <cstring>
 #include <string>
-#include <deque>
-#include <complex>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#include <cmath>
+#include <utility>
+#include <map>
+#include <set>
+#include <queue>
+#include <stack>
+#include <sstream>
+#define fr(a,b,c) for (int a=b;a<=c;a++)
+#define frr(a,b,c) for (int a=b;a>=c;a--)
+#define rep(a,b) for (int a=0;a<b;a++)
+#define repp(a,b) for (int a=b-1;a>=0;a--)
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+#define sz(a) int(a.size())
+#define all(a) a.begin(),a.end()
+#define pii pair<int,int>
+#define oo 1000111222
+#define maxN 1
 using namespace std;
 
-const double PI = acos(-1.0);
+int n,x,y,z,X,Y,px=-1,py=-1,pz=-1,pzz=-1;
+string s,t;
+set <string> ans;
+set <string>::iterator it;
 
-char s[100111];
+int ok(int a,int b)
+{
+	return a>=0 && a<=b;
+}
 
-bool can[10];
-
-int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    gets(s);
-    int cur0 = 0, cur1 = 0;
-    int n = strlen(s), t0, t1;
-    
-    if (n % 2 == 0) {
-        t0 = t1 = (n - 2) / 2;
-    }
-    else {
-        t1 = (n - 2 + 1) / 2;
-        t0 = n - 2 - t1;
-    }
-    
-    REP(i,n) {
-        if (s[i] == '0') cur0++;
-        else if (s[i] == '1') cur1++;
-    }
-    
-    // Try all 0
-    int l0 = cur0 - t0, l1 = cur1 - t1;
-    REP(i,n) if (s[i] == '?') l0++;
-    
-    if (l0 > l1) can[0] = true;
-    
-    // Try all 1
-    l0 = cur0 - t0; l1 = cur1 - t1;
-    REP(i,n) if (s[i] == '?') l1++;
-    if (l1 > l0) can[3] = true;
-    
-    // Last == 0 ?
-    l0 = cur0 - t0; l1 = cur1 - t1;
-    if (s[n-1] == '0' || s[n-1] == '?') {
-        bool mark = false;
-        if (s[n-1] == '?') {
-            l0++;
-            s[n-1] = '0';
-            mark = true;
-        }
-        REP(i,n) if (s[i] == '?') {
-            if (l0 < l1) l0++;
-            else l1++;
-        }
-        if (mark) {
-            s[n-1] = '?';
-        }
-        if (l0 == l1) can[2] = true;
-    }
-    
-    // Last == 1 ?
-    l0 = cur0 - t0; l1 = cur1 - t1;
-    if (s[n-1] == '1' || s[n-1] == '?') {
-        bool mark = false;
-        if (s[n-1] == '?') {
-            l1++;
-            s[n-1] = '1';
-            mark = true;
-        }
-        
-        REP(i,n) if (s[i] == '?') {
-            if (l0 < l1) l0++;
-            else l1++;
-        }
-        
-        if (mark) {
-            s[n-1] = '?';
-        }
-        if (l0 == l1) can[1] = true;
-    }
-    
-    if (can[0]) puts("00");
-    if (can[1]) puts("01");
-    if (can[2]) puts("10");
-    if (can[3]) puts("11");
-    return 0;
+int main()
+{
+	cin >> s;
+	n=sz(s);
+	t=s.substr(n-2,2);
+	X=(n-2)/2; Y=n-2-X;
+	rep(i,n) 
+		if (s[i]=='0') x++, px=i;
+		else 
+			if (s[i]=='1') y++, py=i;
+			else z++, pzz=pz, pz=i;
+	if (x+z>=X+2) ans.insert("00");
+	if (y+z>=Y+2) ans.insert("11");
+	if (pz<0 && ok(X+1-x,z) && ok(Y+1-y,z)) ans.insert(px<py?"01":"10");
+	else 
+		for (char c='0';c<='1';c++)
+		{
+			int xx=x+(c=='0'),yy=y+(c=='1'),pxx=px,pyy=py;
+			if (c=='0') pxx=max(pxx,pz);
+			else pyy=max(pyy,pz);
+			if (pzz<0 && ok(X+1-xx,z-1) && ok(Y+1-yy,z-1)) ans.insert(pxx<pyy?"01":"10");
+			else
+				for (char cc='0';cc<='1';cc++)
+				{
+					int xxx=xx+(cc=='0'),yyy=yy+(cc=='1'),pxxx=pxx,pyyy=pyy;
+					if (cc=='0') pxxx=max(pxxx,pzz);
+					else pyyy=max(pyyy,pzz);
+					if (ok(X+1-xxx,z-2) && ok(Y+1-yyy,z-2)) ans.insert(pxx<pyy?"01":"10");
+				}
+		}
+	for (it=ans.begin();it!=ans.end();it++) cout << *it << endl;
 }
