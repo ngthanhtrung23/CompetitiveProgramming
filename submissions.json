@@ -11153,6 +11153,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9924040": {
+    "contest_id": 366,
+    "language": "GNU C++",
+    "path": "codeforces/366/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dima and Magic Guitar",
+    "problem_url": "https://codeforces.com/contest/366/problem/E",
+    "submission_id": "CF9924040",
+    "submission_url": "https://codeforces.com/contest/366/submission/9924040",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Feb/19/2015 17:44"
+  },
   "CF9924050": {
     "contest_id": 366,
     "language": "GNU C++",

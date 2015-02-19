@@ -42,9 +42,11 @@ int solve() {
 }
 
 int main() {
-    while (scanf("%d%d%d%d", &m, &n, &k, &s) == 4) {
-        FOR(i,1,m) FOR(j,1,n) scanf("%d", &a[i][j]);
-        FOR(i,1,s) scanf("%d", &x[i]);
+    ios :: sync_with_stdio(false);
+    cout << (fixed) << setprecision(9);
+    while (cin >> m >> n >> k >> s) {
+        FOR(i,1,m) FOR(j,1,n) cin >> a[i][j];
+        FOR(i,1,s) cin >> x[i];
         memset(has, 0, sizeof has);
 
         FOR(i,1,s-1) {
