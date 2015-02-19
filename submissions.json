@@ -11153,6 +11153,26 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9924313": {
+    "contest_id": 366,
+    "language": "GNU C++0x",
+    "path": "codeforces/366/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dima and Trap Graph",
+    "problem_url": "https://codeforces.com/contest/366/problem/D",
+    "submission_id": "CF9924313",
+    "submission_url": "https://codeforces.com/contest/366/submission/9924313",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "shortest paths",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Feb/19/2015 18:17"
+  },
   "CF9924398": {
     "contest_id": 91,
     "language": "GNU C++0x",
