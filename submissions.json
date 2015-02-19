@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9929966": {
+    "contest_id": 300,
+    "language": "GNU C++0x",
+    "path": "codeforces/300/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Painting Square",
+    "problem_url": "https://codeforces.com/contest/300/problem/D",
+    "submission_id": "CF9929966",
+    "submission_url": "https://codeforces.com/contest/300/submission/9929966",
+    "tags": [
+      "dp",
+      "fft",
+      "*2300"
+    ],
+    "timestamp": "Feb/20/2015 02:27"
+  },
   "CF9930180": {
     "contest_id": 138,
     "language": "GNU C++0x",
