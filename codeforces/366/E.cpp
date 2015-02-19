@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
@@ -15,38 +16,27 @@ using namespace std;
 const int MN = 2011;
 const int oo = 1000111000;
 
-#define _(X) ((X) & (-(X)))
 int a[MN][MN], bit[10][MN][MN];
 int x[100111];
 int has[11][11];
 int m, n, k, s;
 
-void update(int t, int u, int v, int val) {
-    for(int i = u; i < MN; i += _(i))
-        for(int j = v; j < MN; j += _(j))
-            bit[t][i][j] = min(bit[t][i][j], val);
-}
-
-int get(int t, int u, int v) {
-    int res = oo;
-    for(int i = u; i > 0; i -= _(i))
-        for(int j = v; j > 0; j -= _(j))
-            res = min(res, bit[t][i][j]);
-    return res;
-}
-
 int solve() {
-    FOR(t,1,k) FOR(u,1,m) FOR(v,1,n) bit[t][u][v] = oo;
+    FOR(t,1,k) FOR(u,0,m) FOR(v,0,n) bit[t][u][v] = oo;
 
     int res = 0;
     FOR(i,1,m) FOR(j,1,n) {
         int c = a[i][j];
+        FOR(t,1,k) {
+            bit[t][i][j] = min(bit[t][i-1][j], bit[t][i][j-1]);
+            if (t == c) {
+                bit[t][i][j] = min(bit[t][i][j], i + j);
+            }
+        }
         FOR(d,1,k) if (has[c][d]) {
-            int other = get(d, i, j);
+            int other = bit[d][i][j];
             res = max(res, i + j - other);
         }
-
-        update(c, i, j, i+j);
     }
     return res;
 }
