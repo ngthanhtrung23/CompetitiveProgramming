@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9924398": {
+    "contest_id": 91,
+    "language": "GNU C++0x",
+    "path": "codeforces/91/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Newspaper Headline",
+    "problem_url": "https://codeforces.com/contest/91/problem/A",
+    "submission_id": "CF9924398",
+    "submission_url": "https://codeforces.com/contest/91/submission/9924398",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Feb/19/2015 18:25"
+  },
   "CF9924427": {
     "contest_id": 91,
     "language": "GNU C++0x",
