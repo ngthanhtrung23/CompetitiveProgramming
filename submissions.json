@@ -50122,6 +50122,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9942559": {
+    "contest_id": 142,
+    "language": "GNU C++0x",
+    "path": "codeforces/142/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Help Shrek and Donkey 2",
+    "problem_url": "https://codeforces.com/contest/142/problem/D",
+    "submission_id": "CF9942559",
+    "submission_url": "https://codeforces.com/contest/142/submission/9942559",
+    "tags": [
+      "games",
+      "*2600"
+    ],
+    "timestamp": "Feb/21/2015 04:59"
+  },
   "CF9942593": {
     "contest_id": 216,
     "language": "GNU C++0x",
