@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9938333": {
+    "contest_id": 142,
+    "language": "GNU C++0x",
+    "path": "codeforces/142/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Help Caretaker",
+    "problem_url": "https://codeforces.com/contest/142/problem/C",
+    "submission_id": "CF9938333",
+    "submission_url": "https://codeforces.com/contest/142/submission/9938333",
+    "tags": [
+      "brute force",
+      "dp",
+      "*2300"
+    ],
+    "timestamp": "Feb/20/2015 22:34"
+  },
   "CF9941099": {
     "contest_id": 143,
     "language": "GNU C++0x",
