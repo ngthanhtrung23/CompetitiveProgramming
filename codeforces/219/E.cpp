@@ -1,200 +1,108 @@
-#include <sstream>
-#include <iomanip>
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-const long double PI = acos((long double) -1.0);
-const int MN = 200111;
+const int MN = 1000111;
 
-struct Node {
-    int dist, p;
+int dist(int a, int b) {
+    return abs(b - a);
+}
+int n, q;
+
+struct Gap {
     int l, r;
+    int f, pos;
+
+    Gap(int l, int r) : l(l), r(r) {
+        if (l == 1 && r == n) {
+            f = 1000111000;
+            pos = 1;
+        }
+        else if (l == 1) {
+            f = dist(1, r+1);
+            pos = 1;
+        }
+        else if (r == n) {
+            f = dist(l-1, n);
+            pos = n;
+        }
+        else {
+            pos = (l + r) >> 1;
+            f = min(dist(l-1, pos), dist(pos, r+1));
+        }
+    }
 };
 
-bool operator < (const Node &a, const Node &b) {
-    if (a.dist == b.dist) return a.p > b.p;
-    return a.dist < b.dist;
+bool operator < (const Gap& a, const Gap& b) {
+    if (a.f != b.f) return a.f > b.f;
+    if (a.pos != b.pos) return a.pos < b.pos;
+    return a.l < b.l;
 }
 
-int lpos[MN], rpos[MN], hsize;
-struct Heap {
-    Node a[MN];
-
-    void downHeap(int i) {
-        int j = i << 1;
-        while (j <= hsize) {
-            if (j < hsize && a[j] < a[j+1]) ++j;
-            if (a[i] < a[j]) {
-                swap(lpos[a[i].l], lpos[a[j].l]);
-                swap(rpos[a[i].r], rpos[a[j].r]);
-                swap(a[i], a[j]);
-            }
-            i = j; j = i << 1;
-        }
-    }
-
-    void upHeap(int i) {
-        int j = i >> 1;
-        while (i > 1 && a[j] < a[i]) {
-            swap(lpos[a[i].l], lpos[a[j].l]);
-            swap(rpos[a[i].r], rpos[a[j].r]);
-            swap(a[i], a[j]);
-            i = j; j = i >> 1;
-        }
-    }
-
-    void insert(Node &t) {
-        if (t.l > t.r) return ;
-        ++hsize; a[hsize] = t;
-        lpos[t.l] = hsize;
-        rpos[t.r] = hsize;
-        upHeap(hsize);
-    }
-
-    Node remove() {
-        Node res = a[1];
-        lpos[res.l] = 0; rpos[res.r] = 0;
-        if (hsize == 1) {
-            hsize = 0;
-            return res;
-        }
-
-        swap(a[1], a[hsize]);
-        lpos[a[1].l] = 1;
-        rpos[a[1].r] = 1;
-        --hsize;
-        downHeap(1);
-        return res;
-    }
-
-    void print() {
-        cout << "Heap:\n";
-        FOR(i,1,hsize) {
-            cout << a[i].l << ' ' << a[i].r << ' ' << a[i].p << ' ' << a[i].dist << endl;
-        }
-    }
-} h;
-
-int n, m;
-int allocated[1000111];
-
-void refine(Node &x) {
-    if (x.l == 1 && x.r == n) {
-        x.p = 1;
-        x.dist = n + 1;
-    }
-    else if (x.l == 1) {
-        x.p = 1;
-        x.dist = x.r;
-    }
-    else if (x.r == n) {
-        x.p = n;
-        x.dist = n - x.l + 1;
-    }
-    else {
-        x.p = (x.l + x.r) >> 1;
-        x.dist = min(x.p - x.l + 1, x.r + 1 - x.p);
-    }
-}
+int position_of[MN];
+set<int> cars;
+set<Gap> gaps;
 
 int main() {
-    while (scanf("%d%d", &n, &m) == 2) {
-        Node cur;
-        cur.l = 1; cur.r = n;
-        refine(cur);
-        h.insert(cur);
+    while (scanf("%d%d", &n, &q) == 2) {
+        cars.insert(0); cars.insert(n+1);
+        Gap all(1, n);
+        gaps.insert(all);
 
-        int type, id;
-        Node x, y;
-        while (m--) {
-            scanf("%d%d", &type, &id);
-            if (type == 1) {
-                cur = h.remove();
-                allocated[id] = cur.p;
+        while (q--) {
+            int typ, id; scanf("%d%d", &typ, &id);
+            if (typ == 1) {
+                auto cur = *gaps.begin();
+                gaps.erase(gaps.begin());
 
-                // split cur
-                x.l = cur.l; x.r = cur.p - 1;
-                if (x.l <= x.r) {
-                    refine(x);
-                    h.insert(x);
-                }
-                x.l = cur.p + 1; x.r = cur.r;
-                if (x.l <= x.r) {
-                    refine(x);
-                    h.insert(x);
-                }
+                position_of[id] = cur.pos;
+                printf("%d\n", cur.pos);
+//                cout << "Add car --> " << cur.pos << endl;
+                cars.insert(cur.pos);
 
-                printf("%d\n", allocated[id]);
+                auto it = cars.find(cur.pos);
+                auto left = it; --left;
+                auto right = it; ++right;
 
-                // cout << "Insert " << id << " at " << allocated[id] << endl;
+                int x = (*left) + 1;
+                int y = (*right) - 1;
+
+                if (x < cur.pos) gaps.insert(Gap(x, cur.pos - 1));
+                if (cur.pos < y) gaps.insert(Gap(cur.pos + 1, y));
             }
             else {
-                int p = allocated[id];
-                // cout << "Remove " << id << " at " << allocated[id] << endl;
-                if (rpos[p-1] && lpos[p+1]) {
-                    h.a[rpos[p-1]].dist = 1000111000;
-                    h.upHeap(rpos[p-1]);
-                    x = h.remove();
-                    h.a[lpos[p+1]].dist = 1000111000;
-                    h.upHeap(lpos[p+1]);
-                    y = h.remove();
+                int pos = position_of[id];
+//                cout << "Remove car: " << pos << endl;
 
-                    cur.l = x.l; cur.r = y.r;
-                    refine(cur);
-                    h.insert(cur);
-                }
-                else if (rpos[p-1]) {
-                    h.a[rpos[p-1]].dist = 1000111000;
-                    h.upHeap(rpos[p-1]);
-                    x = h.remove();
+                auto it = cars.find(pos);
+                auto left = it; --left;
+                auto right = it; ++right;
 
-                    cur.l = x.l; cur.r = p;
-                    refine(cur);
-                    h.insert(cur);
-                }
-                else if (lpos[p+1]) {
-                    h.a[lpos[p+1]].dist = 1000111000;
-                    h.upHeap(lpos[p+1]);
-                    x = h.remove();
-                    cur.l = p; cur.r = x.r;
-                    refine(cur);
-                    h.insert(cur);
-                }
-                else {
-                    cur.l = cur.r = p;
-                    refine(cur);
-                    h.insert(cur);
-                }
+                int x = (*left) + 1;
+                int y = (*right) - 1;
+
+                gaps.erase(Gap(x, pos - 1));
+                gaps.erase(Gap(pos + 1, y));
+
+                cars.erase(pos);
+                gaps.insert(Gap(x, y));
             }
 
-            // h.print();
+//            cout << "Gaps: ";
+//            for(auto gap : gaps) cout << gap.l << ' ' << gap.r << "     "; cout << endl;
         }
     }
     return 0;
 }
+

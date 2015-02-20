@@ -49996,6 +49996,21 @@
     ],
     "timestamp": "Feb/20/2015 04:10"
   },
+  "CF9933965": {
+    "contest_id": 219,
+    "language": "GNU C++0x",
+    "path": "codeforces/219/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Parking Lot",
+    "problem_url": "https://codeforces.com/contest/219/problem/E",
+    "submission_id": "CF9933965",
+    "submission_url": "https://codeforces.com/contest/219/submission/9933965",
+    "tags": [
+      "data structures",
+      "*2200"
+    ],
+    "timestamp": "Feb/20/2015 13:36"
+  },
   "CF9934111": {
     "contest_id": 342,
     "language": "GNU C++0x",
