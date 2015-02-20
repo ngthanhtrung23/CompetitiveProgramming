@@ -1,55 +1,49 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 #define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
 using namespace std;
 
-const double PI = acos(-1.0);
-
-long long n, ln, nn;
-
-void update(ll a, ll b, ll c) {
-    ln = max(ln, (a+1)*(b+2)*(c+2) - a*b*c);
-    nn = min(nn, (a+1)*(b+2)*(c+2) - a*b*c);
-}
-
-void solve(ll s, ll t) {
-    for(int i = 1; i*i <= t; i++)
-    if (t % i == 0) {
-        update(s, i, t / i);
-        update(s, t / i, i);
-    }
-}
-
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    cin >> n;
-    ln = -1; nn = 1000111000111000111LL;
-    for(int i = 1; i*i <= n; i++)
-    if (n % i == 0) {
-        solve(i, n / i);
-        solve(n / i, i);
+    int n;
+    while (cin >> n) {
+        vector<int> divisors;
+        for(int i = 1; i*i <= n; ++i)
+            if (n % i == 0) {
+                divisors.push_back(i);
+                if (i * i != n) divisors.push_back(n / i);
+            }
+        sort(divisors.begin(), divisors.end());
+
+//        PR0(divisors, divisors.size());
+
+        ll nn = -1, ln = -1;
+        FOR(i,0,divisors.size()-1)
+            FOR(j,0,divisors.size()-1) {
+                int a = divisors[i];
+                int b = divisors[j];
+                if ((n / a) % b == 0) {
+                    int c = n / a / b;
+
+                    ll old = (a + 1LL) * (b + 2LL) * (c + 2LL);
+                    ll now = old - n;
+
+                    if (nn < 0) nn = now; else nn = min(nn, now);
+                    if (ln < 0) ln = now; else ln = max(ln, now);
+                }
+            }
+
+        cout << nn << ' ' << ln << endl;
     }
-    cout << nn << ' ' << ln << endl;
     return 0;
 }

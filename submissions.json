@@ -50122,6 +50122,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9941233": {
+    "contest_id": 142,
+    "language": "GNU C++0x",
+    "path": "codeforces/142/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Help Farmer",
+    "problem_url": "https://codeforces.com/contest/142/problem/A",
+    "submission_id": "CF9941233",
+    "submission_url": "https://codeforces.com/contest/142/submission/9941233",
+    "tags": [
+      "brute force",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Feb/21/2015 02:51"
+  },
   "CF9941346": {
     "contest_id": 142,
     "language": "GNU C++0x",
