@@ -49996,6 +49996,22 @@
     ],
     "timestamp": "Feb/20/2015 04:10"
   },
+  "CF9934111": {
+    "contest_id": 342,
+    "language": "GNU C++0x",
+    "path": "codeforces/342/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Xenia and Divisors",
+    "problem_url": "https://codeforces.com/contest/342/problem/A",
+    "submission_id": "CF9934111",
+    "submission_url": "https://codeforces.com/contest/342/submission/9934111",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Feb/20/2015 14:02"
+  },
   "CF9934145": {
     "contest_id": 342,
     "language": "GNU C++0x",
