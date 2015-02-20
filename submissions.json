@@ -49996,6 +49996,21 @@
     ],
     "timestamp": "Feb/20/2015 04:10"
   },
+  "CF9936775": {
+    "contest_id": 226,
+    "language": "GNU C++0x",
+    "path": "codeforces/226/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Naughty Stone Piles",
+    "problem_url": "https://codeforces.com/contest/226/problem/B",
+    "submission_id": "CF9936775",
+    "submission_url": "https://codeforces.com/contest/226/submission/9936775",
+    "tags": [
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Feb/20/2015 19:57"
+  },
   "CF9937785": {
     "contest_id": 226,
     "language": "GNU C++0x",
