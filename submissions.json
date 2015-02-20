@@ -49996,6 +49996,21 @@
     ],
     "timestamp": "Feb/20/2015 04:10"
   },
+  "CF9934285": {
+    "contest_id": 342,
+    "language": "GNU C++0x",
+    "path": "codeforces/342/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Cupboard and Balloons",
+    "problem_url": "https://codeforces.com/contest/342/problem/C",
+    "submission_id": "CF9934285",
+    "submission_url": "https://codeforces.com/contest/342/submission/9934285",
+    "tags": [
+      "geometry",
+      "*1900"
+    ],
+    "timestamp": "Feb/20/2015 14:35"
+  },
   "CF9934518": {
     "contest_id": 342,
     "language": "GNU C++0x",
