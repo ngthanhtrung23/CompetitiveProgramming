@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9941099": {
+    "contest_id": 143,
+    "language": "GNU C++0x",
+    "path": "codeforces/143/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Help Vasilisa the Wise 2",
+    "problem_url": "https://codeforces.com/contest/143/problem/A",
+    "submission_id": "CF9941099",
+    "submission_url": "https://codeforces.com/contest/143/submission/9941099",
+    "tags": [
+      "brute force",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/21/2015 02:38"
+  },
   "CF9941168": {
     "contest_id": 143,
     "language": "GNU C++0x",
