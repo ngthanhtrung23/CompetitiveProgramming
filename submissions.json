@@ -50086,6 +50086,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9942726": {
+    "contest_id": 12,
+    "language": "GNU C++0x",
+    "path": "codeforces/12/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Super Agent",
+    "problem_url": "https://codeforces.com/contest/12/problem/A",
+    "submission_id": "CF9942726",
+    "submission_url": "https://codeforces.com/contest/12/submission/9942726",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/21/2015 05:17"
+  },
   "CF9942804": {
     "contest_id": 203,
     "language": "GNU C++0x",
