@@ -49996,6 +49996,22 @@
     ],
     "timestamp": "Feb/20/2015 04:10"
   },
+  "CF9935911": {
+    "contest_id": 226,
+    "language": "GNU C++0x",
+    "path": "codeforces/226/D.cpp",
+    "problem_index": "D",
+    "problem_name": "The table",
+    "problem_url": "https://codeforces.com/contest/226/problem/D",
+    "submission_id": "CF9935911",
+    "submission_url": "https://codeforces.com/contest/226/submission/9935911",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Feb/20/2015 18:01"
+  },
   "CF9936479": {
     "contest_id": 226,
     "language": "GNU C++0x",
