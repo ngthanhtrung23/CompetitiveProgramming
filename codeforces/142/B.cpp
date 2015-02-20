@@ -1,45 +1,30 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-const double PI = acos(-1.0);
-
-int res, m, n;
-
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    scanf("%d%d", &m, &n);
-    if (m > n) swap(m,n);
-    if (m == 1) printf("%d\n", m*n);
-    else if (m == 2 && n == 2) puts("4");
-    else if (m == 2 && n % 2 == 1) printf("%d\n", n+1);
-    else if (m == 2 && n % 4 == 0) printf("%d\n", n);
-    else if (m == 2 && n % 4 == 2) printf("%d\n", n+2);
-    else {
-        int x = m*n / 2;
-        printf("%d\n", max(x, m*n-x));
+    int m, n;
+    while (cin >> m >> n) {
+        if (m > n) swap(m, n);
+        if (m == 1) cout << n << endl;
+        else if (m == 2) {
+            if (n % 4 == 1) cout << n + 1 << endl;
+            else if (n % 4 == 2) cout << n + 2 << endl;
+            else if (n % 4 == 3) cout << n + 1 << endl;
+            else cout << n << endl;
+        }
+        else cout << (m*n) / 2 + (m*n) % 2 << endl;
     }
     return 0;
 }
