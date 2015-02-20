@@ -50086,6 +50086,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9942809": {
+    "contest_id": 203,
+    "language": "GNU C++0x",
+    "path": "codeforces/203/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Hit Ball",
+    "problem_url": "https://codeforces.com/contest/203/problem/D",
+    "submission_id": "CF9942809",
+    "submission_url": "https://codeforces.com/contest/203/submission/9942809",
+    "tags": [
+      "geometry",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Feb/21/2015 05:28"
+  },
   "CF9942813": {
     "contest_id": 203,
     "language": "GNU C++0x",
