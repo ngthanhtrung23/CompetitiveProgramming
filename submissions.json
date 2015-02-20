@@ -50122,6 +50122,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9942607": {
+    "contest_id": 216,
+    "language": "GNU C++0x",
+    "path": "codeforces/216/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Spider's Web",
+    "problem_url": "https://codeforces.com/contest/216/problem/D",
+    "submission_id": "CF9942607",
+    "submission_url": "https://codeforces.com/contest/216/submission/9942607",
+    "tags": [
+      "binary search",
+      "sortings",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Feb/21/2015 05:04"
+  },
   "CF9942613": {
     "contest_id": 216,
     "language": "GNU C++0x",
