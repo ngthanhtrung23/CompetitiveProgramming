@@ -50155,6 +50155,22 @@
     ],
     "timestamp": "Feb/21/2015 05:05"
   },
+  "CF9942614": {
+    "contest_id": 216,
+    "language": "GNU C++0x",
+    "path": "codeforces/216/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Tiling with Hexagons",
+    "problem_url": "https://codeforces.com/contest/216/problem/A",
+    "submission_id": "CF9942614",
+    "submission_url": "https://codeforces.com/contest/216/submission/9942614",
+    "tags": [
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Feb/21/2015 05:05"
+  },
   "CF9942638": {
     "contest_id": 34,
     "language": "GNU C++0x",
