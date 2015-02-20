@@ -1,38 +1,18 @@
-#include <sstream>
-#include <iomanip>
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define FORN(i,a,b) for(int i=(a),_b=(b);i<_b;i++)
-#define DOWN(i,a,b) for(int i=a,_b=(b);i>=_b;i--)
-#define SET(a,v) memset(a,v,sizeof(a))
-#define sqr(x) ((x)*(x))
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
+#define ll long long
 using namespace std;
-
-const long double PI = acos((long double) -1.0);
 
 struct Matrix {
     long long x[2][2];
@@ -58,24 +38,35 @@ Matrix power(long long k) {
     else return mid;
 }
 
-long long get(long long t) {
-    static long long ll, rr;
-    rr = r - r % t;
-    ll = l - l % t; if (ll < l) ll += t;
-    if (ll > rr) return 0;
-    else return (rr/t - ll/t) + 1;
+ll get(ll l, ll r, ll x) {
+    return (r - r % x) / x - (l-1 - (l-1) % x) / x;
 }
 
 int main() {
-    cin >> m >> l >> r >> k;
     I.x[0][0] = I.x[1][1] = 1;
     A.x[0][1] = A.x[1][0] = A.x[1][1] = 1;
-    long long res = 0;
-    for(long long t = 1; t*t <= r; ++t) {
-        if (get(t) >= k) res = max(res, t);
-        if (get(r/t) >= k) res = max(res, r/t);
+    while (cin >> m >> l >> r >> k) {
+        ll res = 0;
+        FOR(i,1,1000111) if (get(l, r, i) >= k) res = i;
+        ll len = r - l + 1;
+        ll bound = len / (k-1);
+        FOR(i,bound-1000111,bound)
+            if (i > 0)
+            if (get(l, r, i) >= k) res = max(res, (ll) i);
+
+        ll d = (r - l) / (k - 1);
+        while (d > 1) {
+            if (get(l, r, d) >= k) {
+                res = max(res, d);
+                break;
+            }
+            ll n = 1 + r / d;
+            d -= ( ((n*d) - r) + (n-1) ) / n;
+        }
+
+
+        p = power(res);
+        cout << p.x[0][1] % m << endl;
     }
-    p = power(res);
-    cout << p.x[0][1] % m << endl;
     return 0;
 }
