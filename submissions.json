@@ -11153,6 +11153,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9937989": {
+    "contest_id": 329,
+    "language": "GNU C++0x",
+    "path": "codeforces/329/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Graph Reconstruction",
+    "problem_url": "https://codeforces.com/contest/329/problem/C",
+    "submission_id": "CF9937989",
+    "submission_url": "https://codeforces.com/contest/329/submission/9937989",
+    "tags": [
+      "constructive algorithms",
+      "*2400"
+    ],
+    "timestamp": "Feb/20/2015 22:04"
+  },
   "CF9938078": {
     "contest_id": 329,
     "language": "GNU C++0x",
