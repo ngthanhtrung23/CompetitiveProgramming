@@ -1,50 +1,27 @@
+
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-//Buffer reading
-int INP,AM,REACHEOF;
-const int BUFSIZE = (1<<12) + 17;
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp && !REACHEOF) { \
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
-
 const int MN = 100111;
-const int MR = 300;
+vector<int> g[MN];
+int n, q;
+
 
 const int MAXLIST = MN * 2;
 const int LOG_MAXLIST = 18;
 const int SQRT_MAXLIST = 447;
 const int MAXBLOCKS = MAXLIST / ((LOG_MAXLIST+1)/2) + 1;
-
-int d[MN];
-int nRed, reds[MR + 11];
-int n;
-vector<int> g[MN];
 int h[MN]; // vertex height
 vector<int> a; // dfs list
 int a_pos[MN]; // positions in dfs list
@@ -154,71 +131,64 @@ int lca (int v1, int v2) {
     }
     return a[ans];
 }
-
-int visited[MN], qu[MN];
-
-void repaint() {
-    int first = 1, last = 0;
-    memset(visited, -1, sizeof visited);
-    FOR(i,1,nRed) {
-        qu[++last] = reds[i];
-        visited[reds[i]] = 0;
-    }
-
-    while (first <= last) {
-        int u = qu[first++];
-        REP(i,g[u].size()) {
-            int v = g[u][i];
-            if (visited[v] >= 0) continue;
-            visited[v] = visited[u] + 1;
-            qu[++last] = v;
-        }
-    }
-
-    FOR(i,1,n) d[i] = min(d[i], visited[i]);
-}
+const int T = 300;
+int qu[MN], first, last;
+int visited[MN], f[MN];
 
 int main() {
-    ios :: sync_with_stdio(false);
-    int q;
-    while (cin >> n >> q) {
+    while (scanf("%d%d", &n, &q) == 2) {
+        vector<int> reds;
         FOR(i,1,n) g[i].clear();
 
         FOR(i,2,n) {
-            int u, v; cin >> u >> v;
+            int u, v; scanf("%d%d", &u, &v);
             g[u].push_back(v);
             g[v].push_back(u);
         }
-
         memset(h, -1, sizeof h);
         h[1] = 1;
         dfs(1, 1);
-
         build_lca();
 
-        FOR(i,1,n) d[i] = 1000111000;
-        nRed = 1; reds[1] = 1;
-        if (nRed == MR) repaint();
+        reds.push_back(1);
+        FOR(i,1,n) f[i] = visited[i] = MN;
 
         while (q--) {
-            int t, u; cin >> t >> u;
-            if (t == 1) {
-                reds[++nRed] = u;
-                if (nRed == MR) {
-                    repaint();
-                    nRed = 0;
+            int typ, u; scanf("%d%d", &typ, &u);
+            if (typ == 1) {
+                reds.push_back(u);
+                if (reds.size() == T) {
+                    FOR(i,1,n) visited[i] = MN;
+
+                    first = 1; last = 0;
+                    for(int x : reds) {
+                        qu[++last] = x;
+                        visited[x] = 0;
+                    }
+
+                    while (first <= last) {
+                        int u = qu[first++];
+                        for(int v : g[u]) {
+                            if (MN == visited[v]) {
+                                qu[++last] = v;
+                                visited[v] = visited[u] + 1;
+                            }
+                        }
+                    }
+                    reds.clear();
+
+                    FOR(i,1,n) f[i] = min(f[i], visited[i]);
                 }
             }
             else {
-                int res = d[u];
-                FOR(i,1,nRed) {
-                    int g = lca(u, reds[i]);
-                    res = min(res, h[u] + h[reds[i]] - (h[g] << 1));
+                int res = f[u];
+                for(int x : reds) {
+                    int l = lca(x, u);
+                    res = min(res, h[x] + h[u] - h[l] - h[l]);
                 }
                 printf("%d\n", res);
             }
         }
-        puts("");
     }
     return 0;
 }
