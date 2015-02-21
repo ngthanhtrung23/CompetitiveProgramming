@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9951010": {
+    "contest_id": 228,
+    "language": "Python 3",
+    "path": "codeforces/228/A.py",
+    "problem_index": "A",
+    "problem_name": "Is your horseshoe on the other hoof?",
+    "problem_url": "https://codeforces.com/contest/228/problem/A",
+    "submission_id": "CF9951010",
+    "submission_url": "https://codeforces.com/contest/228/submission/9951010",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 01:45"
+  },
   "CF9951034": {
     "contest_id": 58,
     "language": "Python 2",
