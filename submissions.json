@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9953567": {
+    "contest_id": 69,
+    "language": "Python 2",
+    "path": "codeforces/69/A.py",
+    "problem_index": "A",
+    "problem_name": "Young Physicist",
+    "problem_url": "https://codeforces.com/contest/69/problem/A",
+    "submission_id": "CF9953567",
+    "submission_url": "https://codeforces.com/contest/69/submission/9953567",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/22/2015 07:15"
+  },
   "CF9953583": {
     "contest_id": 337,
     "language": "Python 2",
