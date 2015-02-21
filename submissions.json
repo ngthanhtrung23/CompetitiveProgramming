@@ -50086,6 +50086,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9950817": {
+    "contest_id": 119,
+    "language": "Python 2",
+    "path": "codeforces/119/A.py",
+    "problem_index": "A",
+    "problem_name": "Epic Game",
+    "problem_url": "https://codeforces.com/contest/119/problem/A",
+    "submission_id": "CF9950817",
+    "submission_url": "https://codeforces.com/contest/119/submission/9950817",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 01:24"
+  },
   "CF9950871": {
     "contest_id": 236,
     "language": "Python 2",
