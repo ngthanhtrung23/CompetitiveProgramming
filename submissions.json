@@ -50086,6 +50086,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9946548": {
+    "contest_id": 364,
+    "language": "GNU C++0x",
+    "path": "codeforces/364/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Free Market",
+    "problem_url": "https://codeforces.com/contest/364/problem/B",
+    "submission_id": "CF9946548",
+    "submission_url": "https://codeforces.com/contest/364/submission/9946548",
+    "tags": [
+      "dp",
+      "greedy",
+      "*2200"
+    ],
+    "timestamp": "Feb/21/2015 17:42"
+  },
   "CF9946618": {
     "contest_id": 365,
     "language": "GNU C++0x",
