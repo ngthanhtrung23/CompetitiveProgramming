@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9951454": {
+    "contest_id": 155,
+    "language": "Python 2",
+    "path": "codeforces/155/A.py",
+    "problem_index": "A",
+    "problem_name": "I_love_\\%username\\%",
+    "problem_url": "https://codeforces.com/contest/155/problem/A",
+    "submission_id": "CF9951454",
+    "submission_url": "https://codeforces.com/contest/155/submission/9951454",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 02:29"
+  },
   "CF9951488": {
     "contest_id": 237,
     "language": "Python 2",
