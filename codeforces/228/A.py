@@ -1,1 +1,1 @@
-print 4-len(set(raw_input().split()))
+print 4-len(set(raw_input().split(' ')))
