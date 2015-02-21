@@ -1,8 +1,2 @@
-import sys
-
-s = input()
-a = s[0:1]
-b = s[1:len(s)]
-
-s = a.upper() + b
-print(s)
+s = raw_input()
+print s[0].upper() + s[1:]
