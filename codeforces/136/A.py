@@ -1,4 +1,7 @@
-n = input()
+n = int(raw_input())
 a = map(int, raw_input().split())
-for i in range(n):
-    print a.index(i+1)+1,
+b = [0 for i in xrange(n)]
+for i in xrange(n):
+    b[a[i] - 1] = i + 1
+for i in b:
+    print i,
