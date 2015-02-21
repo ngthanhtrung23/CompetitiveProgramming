@@ -50086,6 +50086,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9946618": {
+    "contest_id": 365,
+    "language": "GNU C++0x",
+    "path": "codeforces/365/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Good Number",
+    "problem_url": "https://codeforces.com/contest/365/problem/A",
+    "submission_id": "CF9946618",
+    "submission_url": "https://codeforces.com/contest/365/submission/9946618",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Feb/21/2015 17:52"
+  },
   "CF9946648": {
     "contest_id": 365,
     "language": "GNU C++0x",
