@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9951071": {
+    "contest_id": 122,
+    "language": "Python 2",
+    "path": "codeforces/122/A.py",
+    "problem_index": "A",
+    "problem_name": "Lucky Division",
+    "problem_url": "https://codeforces.com/contest/122/problem/A",
+    "submission_id": "CF9951071",
+    "submission_url": "https://codeforces.com/contest/122/submission/9951071",
+    "tags": [
+      "brute force",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Feb/22/2015 01:53"
+  },
   "CF9951153": {
     "contest_id": 136,
     "language": "Python 2",
