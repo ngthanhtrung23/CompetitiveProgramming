@@ -50086,6 +50086,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9950591": {
+    "contest_id": 112,
+    "language": "Python 2",
+    "path": "codeforces/112/A.py",
+    "problem_index": "A",
+    "problem_name": "Petya and Strings",
+    "problem_url": "https://codeforces.com/contest/112/problem/A",
+    "submission_id": "CF9950591",
+    "submission_url": "https://codeforces.com/contest/112/submission/9950591",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 01:01"
+  },
   "CF9950652": {
     "contest_id": 82,
     "language": "Python 2",
