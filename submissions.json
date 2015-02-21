@@ -36166,6 +36166,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9953545": {
+    "contest_id": 141,
+    "language": "Python 2",
+    "path": "codeforces/141/A.py",
+    "problem_index": "A",
+    "problem_name": "Amusing Joke",
+    "problem_url": "https://codeforces.com/contest/141/problem/A",
+    "submission_id": "CF9953545",
+    "submission_url": "https://codeforces.com/contest/141/submission/9953545",
+    "tags": [
+      "implementation",
+      "sortings",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 07:12"
+  },
   "CF9953567": {
     "contest_id": 69,
     "language": "Python 2",
