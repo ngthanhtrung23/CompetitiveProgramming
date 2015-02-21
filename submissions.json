@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9951488": {
+    "contest_id": 237,
+    "language": "Python 2",
+    "path": "codeforces/237/A.py",
+    "problem_index": "A",
+    "problem_name": "Free Cash",
+    "problem_url": "https://codeforces.com/contest/237/problem/A",
+    "submission_id": "CF9951488",
+    "submission_url": "https://codeforces.com/contest/237/submission/9951488",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/22/2015 02:33"
+  },
   "CF9951516": {
     "contest_id": 318,
     "language": "Python 2",
