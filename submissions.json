@@ -50086,6 +50086,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9950652": {
+    "contest_id": 82,
+    "language": "Python 2",
+    "path": "codeforces/82/A.py",
+    "problem_index": "A",
+    "problem_name": "Double Cola",
+    "problem_url": "https://codeforces.com/contest/82/problem/A",
+    "submission_id": "CF9950652",
+    "submission_url": "https://codeforces.com/contest/82/submission/9950652",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Feb/22/2015 01:08"
+  },
   "CF9950661": {
     "contest_id": 281,
     "language": "Python 2",
