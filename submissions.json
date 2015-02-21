@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9951710": {
+    "contest_id": 200,
+    "language": "Python 2",
+    "path": "codeforces/200/B.py",
+    "problem_index": "B",
+    "problem_name": "Drinks",
+    "problem_url": "https://codeforces.com/contest/200/problem/B",
+    "submission_id": "CF9951710",
+    "submission_url": "https://codeforces.com/contest/200/submission/9951710",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 02:54"
+  },
   "CF9951722": {
     "contest_id": 327,
     "language": "Python 2",
