@@ -50086,6 +50086,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9950871": {
+    "contest_id": 236,
+    "language": "Python 2",
+    "path": "codeforces/236/A.py",
+    "problem_index": "A",
+    "problem_name": "Boy or Girl",
+    "problem_url": "https://codeforces.com/contest/236/problem/A",
+    "submission_id": "CF9950871",
+    "submission_url": "https://codeforces.com/contest/236/submission/9950871",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 01:30"
+  },
   "CF9950906": {
     "contest_id": 110,
     "language": "Python 2",
