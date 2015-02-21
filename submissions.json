@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9951628": {
+    "contest_id": 124,
+    "language": "Python 2",
+    "path": "codeforces/124/A.py",
+    "problem_index": "A",
+    "problem_name": "The number of positions",
+    "problem_url": "https://codeforces.com/contest/124/problem/A",
+    "submission_id": "CF9951628",
+    "submission_url": "https://codeforces.com/contest/124/submission/9951628",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/22/2015 02:46"
+  },
   "CF9951694": {
     "contest_id": 369,
     "language": "Python 2",
