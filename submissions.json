@@ -50086,6 +50086,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9950233": {
+    "contest_id": 363,
+    "language": "GNU C++0x",
+    "path": "codeforces/363/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Soroban",
+    "problem_url": "https://codeforces.com/contest/363/problem/A",
+    "submission_id": "CF9950233",
+    "submission_url": "https://codeforces.com/contest/363/submission/9950233",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 00:23"
+  },
   "CF9950275": {
     "contest_id": 71,
     "language": "Python 2",
