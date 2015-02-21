@@ -50086,6 +50086,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9946102": {
+    "contest_id": 89,
+    "language": "GNU C++0x",
+    "path": "codeforces/89/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Chip Play",
+    "problem_url": "https://codeforces.com/contest/89/problem/C",
+    "submission_id": "CF9946102",
+    "submission_url": "https://codeforces.com/contest/89/submission/9946102",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Feb/21/2015 16:45"
+  },
   "CF9946267": {
     "contest_id": 364,
     "language": "GNU C++0x",
