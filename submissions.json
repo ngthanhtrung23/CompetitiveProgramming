@@ -36166,6 +36166,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9951722": {
+    "contest_id": 327,
+    "language": "Python 2",
+    "path": "codeforces/327/A.py",
+    "problem_index": "A",
+    "problem_name": "Flipping Game",
+    "problem_url": "https://codeforces.com/contest/327/problem/A",
+    "submission_id": "CF9951722",
+    "submission_url": "https://codeforces.com/contest/327/submission/9951722",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Feb/22/2015 02:56"
+  },
   "CF9953530": {
     "contest_id": 208,
     "language": "Python 2",
