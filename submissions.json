@@ -50086,6 +50086,24 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9945669": {
+    "contest_id": 89,
+    "language": "GNU C++0x",
+    "path": "codeforces/89/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Widget Library",
+    "problem_url": "https://codeforces.com/contest/89/problem/B",
+    "submission_id": "CF9945669",
+    "submission_url": "https://codeforces.com/contest/89/submission/9945669",
+    "tags": [
+      "dp",
+      "expression parsing",
+      "graphs",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Feb/21/2015 15:42"
+  },
   "CF9945972": {
     "contest_id": 89,
     "language": "GNU C++0x",
