@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9963204": {
+    "contest_id": 287,
+    "language": "Ruby",
+    "path": "codeforces/287/A.rb",
+    "problem_index": "A",
+    "problem_name": "IQ Test",
+    "problem_url": "https://codeforces.com/contest/287/problem/A",
+    "submission_id": "CF9963204",
+    "submission_url": "https://codeforces.com/contest/287/submission/9963204",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 04:36"
+  },
   "CF9964907": {
     "contest_id": 327,
     "language": "Ruby",
