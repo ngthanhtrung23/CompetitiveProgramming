@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962020": {
+    "contest_id": 320,
+    "language": "Ruby",
+    "path": "codeforces/320/A.rb",
+    "problem_index": "A",
+    "problem_name": "Magic Numbers",
+    "problem_url": "https://codeforces.com/contest/320/problem/A",
+    "submission_id": "CF9962020",
+    "submission_url": "https://codeforces.com/contest/320/submission/9962020",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Feb/23/2015 02:02"
+  },
   "CF9962135": {
     "contest_id": 255,
     "language": "Ruby",
