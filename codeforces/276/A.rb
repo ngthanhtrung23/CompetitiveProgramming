@@ -1,5 +1,8 @@
-n,k=gets.split.map(&:to_i)
-p (1..n).each.map{
-  f,t=gets.split.map(&:to_i)
-  (t>k)?f-(t-k):f
-}.max
+i=[*$<]
+n,k=i[0].split.map(&:to_i)
+res=-10**9
+(1..n).each{|j|
+  f,t=i[j].split.map(&:to_i)
+  res=[(t>k)?f-(t-k):f,res].max
+}
+p res
