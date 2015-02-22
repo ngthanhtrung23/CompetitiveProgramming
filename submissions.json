@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962569": {
+    "contest_id": 272,
+    "language": "Ruby",
+    "path": "codeforces/272/A.rb",
+    "problem_index": "A",
+    "problem_name": "Dima and Friends",
+    "problem_url": "https://codeforces.com/contest/272/problem/A",
+    "submission_id": "CF9962569",
+    "submission_url": "https://codeforces.com/contest/272/submission/9962569",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 03:06"
+  },
   "CF9962578": {
     "contest_id": 272,
     "language": "Ruby",
