@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9961969": {
+    "contest_id": 151,
+    "language": "Ruby",
+    "path": "codeforces/151/A.rb",
+    "problem_index": "A",
+    "problem_name": "Soft Drinking",
+    "problem_url": "https://codeforces.com/contest/151/problem/A",
+    "submission_id": "CF9961969",
+    "submission_url": "https://codeforces.com/contest/151/submission/9961969",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2015 01:57"
+  },
   "CF9962014": {
     "contest_id": 320,
     "language": "Ruby",
