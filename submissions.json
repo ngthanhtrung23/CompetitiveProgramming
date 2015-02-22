@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962509": {
+    "contest_id": 313,
+    "language": "Ruby",
+    "path": "codeforces/313/B.rb",
+    "problem_index": "B",
+    "problem_name": "Ilya and Queries",
+    "problem_url": "https://codeforces.com/contest/313/problem/B",
+    "submission_id": "CF9962509",
+    "submission_url": "https://codeforces.com/contest/313/submission/9962509",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 02:58"
+  },
   "CF9962569": {
     "contest_id": 272,
     "language": "Ruby",
