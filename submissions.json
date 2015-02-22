@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962330": {
+    "contest_id": 146,
+    "language": "Ruby",
+    "path": "codeforces/146/A.rb",
+    "problem_index": "A",
+    "problem_name": "Lucky Ticket",
+    "problem_url": "https://codeforces.com/contest/146/problem/A",
+    "submission_id": "CF9962330",
+    "submission_url": "https://codeforces.com/contest/146/submission/9962330",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2015 02:36"
+  },
   "CF9962369": {
     "contest_id": 84,
     "language": "Ruby",
