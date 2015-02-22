@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9963039": {
+    "contest_id": 275,
+    "language": "Ruby",
+    "path": "codeforces/275/A.rb",
+    "problem_index": "A",
+    "problem_name": "Lights Out",
+    "problem_url": "https://codeforces.com/contest/275/problem/A",
+    "submission_id": "CF9963039",
+    "submission_url": "https://codeforces.com/contest/275/submission/9963039",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/23/2015 04:10"
+  },
   "CF9963204": {
     "contest_id": 287,
     "language": "Ruby",
