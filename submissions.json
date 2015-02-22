@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962859": {
+    "contest_id": 262,
+    "language": "Ruby",
+    "path": "codeforces/262/A.rb",
+    "problem_index": "A",
+    "problem_name": "Roma and Lucky Numbers",
+    "problem_url": "https://codeforces.com/contest/262/problem/A",
+    "submission_id": "CF9962859",
+    "submission_url": "https://codeforces.com/contest/262/submission/9962859",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2015 03:44"
+  },
   "CF9962911": {
     "contest_id": 160,
     "language": "Ruby",
