@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9961797": {
+    "contest_id": 276,
+    "language": "Ruby",
+    "path": "codeforces/276/A.rb",
+    "problem_index": "A",
+    "problem_name": "Lunch Rush",
+    "problem_url": "https://codeforces.com/contest/276/problem/A",
+    "submission_id": "CF9961797",
+    "submission_url": "https://codeforces.com/contest/276/submission/9961797",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/23/2015 01:38"
+  },
   "CF9961930": {
     "contest_id": 151,
     "language": "Ruby",
