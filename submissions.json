@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962911": {
+    "contest_id": 160,
+    "language": "Ruby",
+    "path": "codeforces/160/B.rb",
+    "problem_index": "B",
+    "problem_name": "Unlucky Ticket",
+    "problem_url": "https://codeforces.com/contest/160/problem/B",
+    "submission_id": "CF9962911",
+    "submission_url": "https://codeforces.com/contest/160/submission/9962911",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 03:50"
+  },
   "CF9962933": {
     "contest_id": 160,
     "language": "Ruby",
