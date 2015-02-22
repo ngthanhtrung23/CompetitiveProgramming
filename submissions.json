@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9958929": {
+    "contest_id": 339,
+    "language": "Python 2",
+    "path": "codeforces/339/B.py",
+    "problem_index": "B",
+    "problem_name": "Xenia and Ringroad",
+    "problem_url": "https://codeforces.com/contest/339/problem/B",
+    "submission_id": "CF9958929",
+    "submission_url": "https://codeforces.com/contest/339/submission/9958929",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/22/2015 19:45"
+  },
   "CF9958949": {
     "contest_id": 59,
     "language": "Python 2",
