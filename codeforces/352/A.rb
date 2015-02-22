@@ -1,3 +1,12 @@
-c=[0]*6
-$<.to_a[1].split.map(&:to_i).each { |x| c[x] += 1 }
-puts (c[0] > 0) ? '5'*(c[5]-c[5]%9) + '0'*(c[5]>8?c[0]:1) : '-1'
+cnt=[0]*6
+a = $<.to_a[1].split.map(&:to_i)
+a.each do |x|
+  cnt[x] += 1
+end
+if cnt[5] >= 9 and cnt[0] > 0
+  puts '5' * (cnt[5] - cnt[5] % 9) + '0' * cnt[0]
+elsif cnt[0] > 0
+  puts '0'
+else
+  puts '-1'
+end

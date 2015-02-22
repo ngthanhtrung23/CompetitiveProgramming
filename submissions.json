@@ -36166,6 +36166,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9961504": {
+    "contest_id": 352,
+    "language": "Ruby",
+    "path": "codeforces/352/A.rb",
+    "problem_index": "A",
+    "problem_name": "Jeff and Digits",
+    "problem_url": "https://codeforces.com/contest/352/problem/A",
+    "submission_id": "CF9961504",
+    "submission_url": "https://codeforces.com/contest/352/submission/9961504",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 01:01"
+  },
   "CF9961522": {
     "contest_id": 352,
     "language": "Ruby",
