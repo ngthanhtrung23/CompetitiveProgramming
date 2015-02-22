@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9959056": {
+    "contest_id": 25,
+    "language": "Python 2",
+    "path": "codeforces/25/A.py",
+    "problem_index": "A",
+    "problem_name": "IQ test",
+    "problem_url": "https://codeforces.com/contest/25/problem/A",
+    "submission_id": "CF9959056",
+    "submission_url": "https://codeforces.com/contest/25/submission/9959056",
+    "tags": [
+      "brute force",
+      "*1300"
+    ],
+    "timestamp": "Feb/22/2015 20:02"
+  },
   "CF9959067": {
     "contest_id": 25,
     "language": "Python 2",
