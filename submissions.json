@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962135": {
+    "contest_id": 255,
+    "language": "Ruby",
+    "path": "codeforces/255/A.rb",
+    "problem_index": "A",
+    "problem_name": "Greg's Workout",
+    "problem_url": "https://codeforces.com/contest/255/problem/A",
+    "submission_id": "CF9962135",
+    "submission_url": "https://codeforces.com/contest/255/submission/9962135",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2015 02:14"
+  },
   "CF9962171": {
     "contest_id": 38,
     "language": "Ruby",
