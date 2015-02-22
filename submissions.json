@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9959004": {
+    "contest_id": 214,
+    "language": "Python 2",
+    "path": "codeforces/214/A.py",
+    "problem_index": "A",
+    "problem_name": "System of Equations",
+    "problem_url": "https://codeforces.com/contest/214/problem/A",
+    "submission_id": "CF9959004",
+    "submission_url": "https://codeforces.com/contest/214/submission/9959004",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Feb/22/2015 19:55"
+  },
   "CF9959024": {
     "contest_id": 349,
     "language": "Python 2",
