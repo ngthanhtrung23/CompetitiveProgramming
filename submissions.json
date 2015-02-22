@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962404": {
+    "contest_id": 233,
+    "language": "Ruby",
+    "path": "codeforces/233/A.rb",
+    "problem_index": "A",
+    "problem_name": "Perfect Permutation",
+    "problem_url": "https://codeforces.com/contest/233/problem/A",
+    "submission_id": "CF9962404",
+    "submission_url": "https://codeforces.com/contest/233/submission/9962404",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2015 02:45"
+  },
   "CF9962432": {
     "contest_id": 285,
     "language": "Ruby",
