@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962369": {
+    "contest_id": 84,
+    "language": "Ruby",
+    "path": "codeforces/84/A.rb",
+    "problem_index": "A",
+    "problem_name": "Toy Army",
+    "problem_url": "https://codeforces.com/contest/84/problem/A",
+    "submission_id": "CF9962369",
+    "submission_url": "https://codeforces.com/contest/84/submission/9962369",
+    "tags": [
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Feb/23/2015 02:41"
+  },
   "CF9962404": {
     "contest_id": 233,
     "language": "Ruby",
