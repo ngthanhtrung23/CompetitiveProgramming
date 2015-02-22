@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9958888": {
+    "contest_id": 118,
+    "language": "Python 2",
+    "path": "codeforces/118/B.py",
+    "problem_index": "B",
+    "problem_name": "Present from Lena",
+    "problem_url": "https://codeforces.com/contest/118/problem/B",
+    "submission_id": "CF9958888",
+    "submission_url": "https://codeforces.com/contest/118/submission/9958888",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/22/2015 19:40"
+  },
   "CF9958929": {
     "contest_id": 339,
     "language": "Python 2",
