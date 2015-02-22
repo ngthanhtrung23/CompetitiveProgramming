@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962432": {
+    "contest_id": 285,
+    "language": "Ruby",
+    "path": "codeforces/285/A.rb",
+    "problem_index": "A",
+    "problem_name": "Slightly Decreasing Permutations",
+    "problem_url": "https://codeforces.com/contest/285/problem/A",
+    "submission_id": "CF9962432",
+    "submission_url": "https://codeforces.com/contest/285/submission/9962432",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 02:49"
+  },
   "CF9962509": {
     "contest_id": 313,
     "language": "Ruby",
