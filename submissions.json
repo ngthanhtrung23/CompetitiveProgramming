@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9958987": {
+    "contest_id": 334,
+    "language": "Python 2",
+    "path": "codeforces/334/A.py",
+    "problem_index": "A",
+    "problem_name": "Candy Bags",
+    "problem_url": "https://codeforces.com/contest/334/problem/A",
+    "submission_id": "CF9958987",
+    "submission_url": "https://codeforces.com/contest/334/submission/9958987",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/22/2015 19:53"
+  },
   "CF9959004": {
     "contest_id": 214,
     "language": "Python 2",
