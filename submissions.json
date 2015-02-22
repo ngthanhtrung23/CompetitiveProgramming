@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962634": {
+    "contest_id": 294,
+    "language": "Ruby",
+    "path": "codeforces/294/A.rb",
+    "problem_index": "A",
+    "problem_name": "Shaass and Oskols",
+    "problem_url": "https://codeforces.com/contest/294/problem/A",
+    "submission_id": "CF9962634",
+    "submission_url": "https://codeforces.com/contest/294/submission/9962634",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2015 03:13"
+  },
   "CF9962658": {
     "contest_id": 294,
     "language": "Ruby",
