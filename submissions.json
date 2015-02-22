@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9962821": {
+    "contest_id": 165,
+    "language": "Ruby",
+    "path": "codeforces/165/A.rb",
+    "problem_index": "A",
+    "problem_name": "Supercentral Point",
+    "problem_url": "https://codeforces.com/contest/165/problem/A",
+    "submission_id": "CF9962821",
+    "submission_url": "https://codeforces.com/contest/165/submission/9962821",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 03:39"
+  },
   "CF9962833": {
     "contest_id": 262,
     "language": "Ruby",
