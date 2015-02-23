@@ -11153,6 +11153,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9968994": {
+    "contest_id": 357,
+    "language": "Python 2",
+    "path": "codeforces/357/A.py",
+    "problem_index": "A",
+    "problem_name": "Group of Students",
+    "problem_url": "https://codeforces.com/contest/357/problem/A",
+    "submission_id": "CF9968994",
+    "submission_url": "https://codeforces.com/contest/357/submission/9968994",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 20:28"
+  },
   "CF9969050": {
     "contest_id": 363,
     "language": "Python 2",
