@@ -36090,6 +36090,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9965315": {
+    "contest_id": 152,
+    "language": "Ruby",
+    "path": "codeforces/152/A.rb",
+    "problem_index": "A",
+    "problem_name": "Marks",
+    "problem_url": "https://codeforces.com/contest/152/problem/A",
+    "submission_id": "CF9965315",
+    "submission_url": "https://codeforces.com/contest/152/submission/9965315",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/23/2015 12:21"
+  },
   "CF9967875": {
     "contest_id": 368,
     "language": "Python 2",
