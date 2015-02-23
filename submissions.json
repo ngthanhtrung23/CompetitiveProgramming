@@ -36090,6 +36090,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9968507": {
+    "contest_id": 285,
+    "language": "Python 2",
+    "path": "codeforces/285/C.py",
+    "problem_index": "C",
+    "problem_name": "Building Permutation",
+    "problem_url": "https://codeforces.com/contest/285/problem/C",
+    "submission_id": "CF9968507",
+    "submission_url": "https://codeforces.com/contest/285/submission/9968507",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Feb/23/2015 19:30"
+  },
   "CF9968535": {
     "contest_id": 80,
     "language": "Java 8",
