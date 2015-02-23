@@ -36166,6 +36166,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9964916": {
+    "contest_id": 327,
+    "language": "Python 2",
+    "path": "codeforces/327/B.py",
+    "problem_index": "B",
+    "problem_name": "Hungry Sequence",
+    "problem_url": "https://codeforces.com/contest/327/problem/B",
+    "submission_id": "CF9964916",
+    "submission_url": "https://codeforces.com/contest/327/submission/9964916",
+    "tags": [
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Feb/23/2015 10:44"
+  },
   "CF9964929": {
     "contest_id": 263,
     "language": "Ruby",
