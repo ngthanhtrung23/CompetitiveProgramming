@@ -36090,6 +36090,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9968454": {
+    "contest_id": 368,
+    "language": "Python 2",
+    "path": "codeforces/368/A.py",
+    "problem_index": "A",
+    "problem_name": "Sereja and Coat Rack",
+    "problem_url": "https://codeforces.com/contest/368/problem/A",
+    "submission_id": "CF9968454",
+    "submission_url": "https://codeforces.com/contest/368/submission/9968454",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 19:22"
+  },
   "CF9968479": {
     "contest_id": 221,
     "language": "Ruby",
