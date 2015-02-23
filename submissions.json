@@ -36166,6 +36166,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9964993": {
+    "contest_id": 168,
+    "language": "Ruby",
+    "path": "codeforces/168/A.rb",
+    "problem_index": "A",
+    "problem_name": "Wizards and Demonstration",
+    "problem_url": "https://codeforces.com/contest/168/problem/A",
+    "submission_id": "CF9964993",
+    "submission_url": "https://codeforces.com/contest/168/submission/9964993",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Feb/23/2015 11:10"
+  },
   "CF9965033": {
     "contest_id": 189,
     "language": "GNU C++0x",
