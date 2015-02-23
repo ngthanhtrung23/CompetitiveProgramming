@@ -36166,6 +36166,23 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9965052": {
+    "contest_id": 246,
+    "language": "Ruby",
+    "path": "codeforces/246/A.rb",
+    "problem_index": "A",
+    "problem_name": "Buggy Sorting",
+    "problem_url": "https://codeforces.com/contest/246/problem/A",
+    "submission_id": "CF9965052",
+    "submission_url": "https://codeforces.com/contest/246/submission/9965052",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Feb/23/2015 11:28"
+  },
   "CF9965077": {
     "contest_id": 129,
     "language": "Ruby",
