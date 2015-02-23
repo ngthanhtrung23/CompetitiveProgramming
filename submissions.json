@@ -11153,6 +11153,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9969380": {
+    "contest_id": 166,
+    "language": "Python 2",
+    "path": "codeforces/166/A.py",
+    "problem_index": "A",
+    "problem_name": "Rank List",
+    "problem_url": "https://codeforces.com/contest/166/problem/A",
+    "submission_id": "CF9969380",
+    "submission_url": "https://codeforces.com/contest/166/submission/9969380",
+    "tags": [
+      "binary search",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 21:05"
+  },
   "CF9969450": {
     "contest_id": 296,
     "language": "Python 2",
