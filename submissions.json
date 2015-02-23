@@ -11153,6 +11153,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9970650": {
+    "contest_id": 359,
+    "language": "Python 2",
+    "path": "codeforces/359/A.py",
+    "problem_index": "A",
+    "problem_name": "Table",
+    "problem_url": "https://codeforces.com/contest/359/problem/A",
+    "submission_id": "CF9970650",
+    "submission_url": "https://codeforces.com/contest/359/submission/9970650",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 23:21"
+  },
   "CF9971872": {
     "contest_id": 265,
     "language": "Python 2",
