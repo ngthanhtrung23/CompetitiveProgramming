@@ -11153,6 +11153,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9972377": {
+    "contest_id": 75,
+    "language": "Ruby",
+    "path": "codeforces/75/A.rb",
+    "problem_index": "A",
+    "problem_name": "Life Without Zeros",
+    "problem_url": "https://codeforces.com/contest/75/problem/A",
+    "submission_id": "CF9972377",
+    "submission_url": "https://codeforces.com/contest/75/submission/9972377",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/24/2015 02:13"
+  },
   "CF9972435": {
     "contest_id": 373,
     "language": "Python 2",
