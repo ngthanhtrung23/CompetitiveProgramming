@@ -1,1 +1,1 @@
-puts [*$<].map{|s| s=~/WW|BB/}.any? ? :NO : :YES
+puts [*$<].map{|s| s=~/(WB){4}|(BW){4}/}.all? ? :YES : :NO
