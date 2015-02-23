@@ -11153,6 +11153,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9971915": {
+    "contest_id": 288,
+    "language": "Python 2",
+    "path": "codeforces/288/A.py",
+    "problem_index": "A",
+    "problem_name": "Polo the Penguin and Strings",
+    "problem_url": "https://codeforces.com/contest/288/problem/A",
+    "submission_id": "CF9971915",
+    "submission_url": "https://codeforces.com/contest/288/submission/9971915",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Feb/24/2015 01:32"
+  },
   "CF9972115": {
     "contest_id": 43,
     "language": "Ruby",
