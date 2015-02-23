@@ -36090,6 +36090,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9968315": {
+    "contest_id": 265,
+    "language": "Python 2",
+    "path": "codeforces/265/A.py",
+    "problem_index": "A",
+    "problem_name": "Colorful Stones (Simplified Edition)",
+    "problem_url": "https://codeforces.com/contest/265/problem/A",
+    "submission_id": "CF9968315",
+    "submission_url": "https://codeforces.com/contest/265/submission/9968315",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2015 19:03"
+  },
   "CF9968382": {
     "contest_id": 291,
     "language": "Python 2",
