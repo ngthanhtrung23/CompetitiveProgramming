@@ -36090,6 +36090,21 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9968535": {
+    "contest_id": 80,
+    "language": "Java 8",
+    "path": "codeforces/80/A.java",
+    "problem_index": "A",
+    "problem_name": "Panoramix's Prediction",
+    "problem_url": "https://codeforces.com/contest/80/problem/A",
+    "submission_id": "CF9968535",
+    "submission_url": "https://codeforces.com/contest/80/submission/9968535",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2015 19:34"
+  },
   "CF9968547": {
     "contest_id": 114,
     "language": "Python 2",
