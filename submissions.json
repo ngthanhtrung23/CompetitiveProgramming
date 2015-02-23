@@ -11153,6 +11153,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9968547": {
+    "contest_id": 114,
+    "language": "Python 2",
+    "path": "codeforces/114/A.py",
+    "problem_index": "A",
+    "problem_name": "Cifera",
+    "problem_url": "https://codeforces.com/contest/114/problem/A",
+    "submission_id": "CF9968547",
+    "submission_url": "https://codeforces.com/contest/114/submission/9968547",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 19:36"
+  },
   "CF9968603": {
     "contest_id": 347,
     "language": "Python 2",
