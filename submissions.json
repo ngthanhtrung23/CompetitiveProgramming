@@ -11153,6 +11153,23 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9968603": {
+    "contest_id": 347,
+    "language": "Python 2",
+    "path": "codeforces/347/B.py",
+    "problem_index": "B",
+    "problem_name": "Fixed Points",
+    "problem_url": "https://codeforces.com/contest/347/problem/B",
+    "submission_id": "CF9968603",
+    "submission_url": "https://codeforces.com/contest/347/submission/9968603",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 19:43"
+  },
   "CF9968671": {
     "contest_id": 259,
     "language": "Ruby",
