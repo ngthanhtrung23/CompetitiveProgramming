@@ -36090,6 +36090,22 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9968479": {
+    "contest_id": 221,
+    "language": "Ruby",
+    "path": "codeforces/221/A.rb",
+    "problem_index": "A",
+    "problem_name": "Little Elephant and Function",
+    "problem_url": "https://codeforces.com/contest/221/problem/A",
+    "submission_id": "CF9968479",
+    "submission_url": "https://codeforces.com/contest/221/submission/9968479",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 19:25"
+  },
   "CF9968487": {
     "contest_id": 221,
     "language": "Ruby",
