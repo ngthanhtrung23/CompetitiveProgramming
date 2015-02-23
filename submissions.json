@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9970598": {
+    "contest_id": 225,
+    "language": "Python 2",
+    "path": "codeforces/225/A.py",
+    "problem_index": "A",
+    "problem_name": "Dice Tower",
+    "problem_url": "https://codeforces.com/contest/225/problem/A",
+    "submission_id": "CF9970598",
+    "submission_url": "https://codeforces.com/contest/225/submission/9970598",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 23:16"
+  },
   "CF9970650": {
     "contest_id": 359,
     "language": "Python 2",
