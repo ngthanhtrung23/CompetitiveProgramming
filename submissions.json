@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9969450": {
+    "contest_id": 296,
+    "language": "Python 2",
+    "path": "codeforces/296/A.py",
+    "problem_index": "A",
+    "problem_name": "Yaroslav and Permutations",
+    "problem_url": "https://codeforces.com/contest/296/problem/A",
+    "submission_id": "CF9969450",
+    "submission_url": "https://codeforces.com/contest/296/submission/9969450",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 21:14"
+  },
   "CF9969480": {
     "contest_id": 355,
     "language": "Python 2",
