@@ -11153,6 +11153,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9972435": {
+    "contest_id": 373,
+    "language": "Python 2",
+    "path": "codeforces/373/A.py",
+    "problem_index": "A",
+    "problem_name": "Collecting Beats is Fun",
+    "problem_url": "https://codeforces.com/contest/373/problem/A",
+    "submission_id": "CF9972435",
+    "submission_url": "https://codeforces.com/contest/373/submission/9972435",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/24/2015 02:17"
+  },
   "CF9973076": {
     "contest_id": 244,
     "language": "Python 2",
