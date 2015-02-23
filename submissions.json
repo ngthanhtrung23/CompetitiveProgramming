@@ -11153,6 +11153,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9973076": {
+    "contest_id": 244,
+    "language": "Python 2",
+    "path": "codeforces/244/A.py",
+    "problem_index": "A",
+    "problem_name": "Dividing Orange",
+    "problem_url": "https://codeforces.com/contest/244/problem/A",
+    "submission_id": "CF9973076",
+    "submission_url": "https://codeforces.com/contest/244/submission/9973076",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/24/2015 03:22"
+  },
   "CF9973152": {
     "contest_id": 26,
     "language": "Python 2",
