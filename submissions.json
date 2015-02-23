@@ -36166,6 +36166,18 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9965123": {
+    "contest_id": 336,
+    "language": "Ruby",
+    "path": "codeforces/336/A.rb",
+    "problem_index": "A",
+    "problem_name": "Vasily the Bear and Triangle",
+    "problem_url": "https://codeforces.com/contest/336/problem/A",
+    "submission_id": "CF9965123",
+    "submission_url": "https://codeforces.com/contest/336/submission/9965123",
+    "tags": [],
+    "timestamp": "Feb/23/2015 11:45"
+  },
   "CF9965146": {
     "contest_id": 230,
     "language": "GNU C++0x",
