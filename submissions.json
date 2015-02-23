@@ -11153,6 +11153,21 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9969862": {
+    "contest_id": 218,
+    "language": "Python 2",
+    "path": "codeforces/218/B.py",
+    "problem_index": "B",
+    "problem_name": "Airport",
+    "problem_url": "https://codeforces.com/contest/218/problem/B",
+    "submission_id": "CF9969862",
+    "submission_url": "https://codeforces.com/contest/218/submission/9969862",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 22:03"
+  },
   "CF9970102": {
     "contest_id": 242,
     "language": "Python 2",
