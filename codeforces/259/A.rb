@@ -1,0 +1,1 @@
+puts [*$<].map{|s| s=~/WW|BB/}.any? ? :NO : :YES

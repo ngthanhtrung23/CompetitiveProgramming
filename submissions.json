@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9968682": {
+    "contest_id": 259,
+    "language": "Ruby",
+    "path": "codeforces/259/A.rb",
+    "problem_index": "A",
+    "problem_name": "Little Elephant and Chess",
+    "problem_url": "https://codeforces.com/contest/259/problem/A",
+    "submission_id": "CF9968682",
+    "submission_url": "https://codeforces.com/contest/259/submission/9968682",
+    "tags": [
+      "brute force",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Feb/23/2015 19:51"
+  },
   "CF9968994": {
     "contest_id": 357,
     "language": "Python 2",
