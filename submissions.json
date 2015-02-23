@@ -36166,6 +36166,18 @@
     ],
     "timestamp": "Feb/21/2015 02:45"
   },
+  "CF9964929": {
+    "contest_id": 263,
+    "language": "Ruby",
+    "path": "codeforces/263/B.rb",
+    "problem_index": "B",
+    "problem_name": "Squares",
+    "problem_url": "https://codeforces.com/contest/263/problem/B",
+    "submission_id": "CF9964929",
+    "submission_url": "https://codeforces.com/contest/263/submission/9964929",
+    "tags": [],
+    "timestamp": "Feb/23/2015 10:49"
+  },
   "CF9964976": {
     "contest_id": 263,
     "language": "Ruby",
