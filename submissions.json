@@ -11153,6 +11153,22 @@
     ],
     "timestamp": "Oct/30/2020 21:55"
   },
+  "CF9970102": {
+    "contest_id": 242,
+    "language": "Python 2",
+    "path": "codeforces/242/A.py",
+    "problem_index": "A",
+    "problem_name": "Heads or Tails",
+    "problem_url": "https://codeforces.com/contest/242/problem/A",
+    "submission_id": "CF9970102",
+    "submission_url": "https://codeforces.com/contest/242/submission/9970102",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2015 22:27"
+  },
   "CF9970515": {
     "contest_id": 157,
     "language": "Python 2",
