@@ -1,4 +1,23 @@
 {
+  "CF10000538": {
+    "contest_id": 518,
+    "language": "GNU C++0x",
+    "path": "codeforces/518/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Pasha and Pipe",
+    "problem_url": "https://codeforces.com/contest/518/problem/F",
+    "submission_id": "CF10000538",
+    "submission_url": "https://codeforces.com/contest/518/submission/10000538",
+    "tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Feb/25/2015 02:15"
+  },
   "CF10001322": {
     "contest_id": 518,
     "language": "GNU C++0x",
