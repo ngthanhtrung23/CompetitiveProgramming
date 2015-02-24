@@ -1,4 +1,21 @@
 {
+  "CF10002230": {
+    "contest_id": 518,
+    "language": "GNU C++0x",
+    "path": "codeforces/518/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Anya and Smartphone",
+    "problem_url": "https://codeforces.com/contest/518/problem/C",
+    "submission_id": "CF10002230",
+    "submission_url": "https://codeforces.com/contest/518/submission/10002230",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Feb/25/2015 02:30"
+  },
   "CF10003402": {
     "contest_id": 518,
     "language": "Python 2",
