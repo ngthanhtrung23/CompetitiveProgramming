@@ -1,4 +1,22 @@
 {
+  "CF10007053": {
+    "contest_id": 518,
+    "language": "GNU C++0x",
+    "path": "codeforces/518/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Arthur and Questions",
+    "problem_url": "https://codeforces.com/contest/518/problem/E",
+    "submission_id": "CF10007053",
+    "submission_url": "https://codeforces.com/contest/518/submission/10007053",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "ternary search",
+      "*2200"
+    ],
+    "timestamp": "Feb/25/2015 03:31"
+  },
   "CF10021901": {
     "contest_id": 127,
     "language": "Python 2",
