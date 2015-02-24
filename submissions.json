@@ -1,4 +1,20 @@
 {
+  "CF10003969": {
+    "contest_id": 518,
+    "language": "GNU C++0x",
+    "path": "codeforces/518/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Vitaly and Strings",
+    "problem_url": "https://codeforces.com/contest/518/problem/A",
+    "submission_id": "CF10003969",
+    "submission_url": "https://codeforces.com/contest/518/submission/10003969",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Feb/25/2015 02:45"
+  },
   "CF10007053": {
     "contest_id": 518,
     "language": "GNU C++0x",
