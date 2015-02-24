@@ -1,4 +1,22 @@
 {
+  "CF10001322": {
+    "contest_id": 518,
+    "language": "GNU C++0x",
+    "path": "codeforces/518/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Ilya and Escalator",
+    "problem_url": "https://codeforces.com/contest/518/problem/D",
+    "submission_id": "CF10001322",
+    "submission_url": "https://codeforces.com/contest/518/submission/10001322",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "probabilities",
+      "*1700"
+    ],
+    "timestamp": "Feb/25/2015 02:22"
+  },
   "CF10002230": {
     "contest_id": 518,
     "language": "GNU C++0x",
