@@ -1,4 +1,20 @@
 {
+  "CF10021994": {
+    "contest_id": 246,
+    "language": "Python 2",
+    "path": "codeforces/246/B.py",
+    "problem_index": "B",
+    "problem_name": "Increase and Decrease",
+    "problem_url": "https://codeforces.com/contest/246/problem/B",
+    "submission_id": "CF10021994",
+    "submission_url": "https://codeforces.com/contest/246/submission/10021994",
+    "tags": [
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Feb/25/2015 23:51"
+  },
   "CF10022050": {
     "contest_id": 284,
     "language": "Python 2",
