@@ -1,4 +1,21 @@
 {
+  "CF10022320": {
+    "contest_id": 63,
+    "language": "GNU C++0x",
+    "path": "codeforces/63/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Sinking Ship",
+    "problem_url": "https://codeforces.com/contest/63/problem/A",
+    "submission_id": "CF10022320",
+    "submission_url": "https://codeforces.com/contest/63/submission/10022320",
+    "tags": [
+      "implementation",
+      "sortings",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Feb/26/2015 00:13"
+  },
   "CF10084505": {
     "contest_id": 519,
     "language": "Ruby",
