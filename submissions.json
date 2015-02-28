@@ -1,4 +1,19 @@
 {
+  "CF10084505": {
+    "contest_id": 519,
+    "language": "Ruby",
+    "path": "codeforces/519/A.rb",
+    "problem_index": "A",
+    "problem_name": "A and B and Chess",
+    "problem_url": "https://codeforces.com/contest/519/problem/A",
+    "submission_id": "CF10084505",
+    "submission_url": "https://codeforces.com/contest/519/submission/10084505",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Mar/01/2015 00:01"
+  },
   "CF10084908": {
     "contest_id": 519,
     "language": "Python 2",
