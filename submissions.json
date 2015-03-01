@@ -1,4 +1,19 @@
 {
+  "CF10099051": {
+    "contest_id": 157,
+    "language": "Python 2",
+    "path": "codeforces/157/A.py",
+    "problem_index": "A",
+    "problem_name": "Game Outcome",
+    "problem_url": "https://codeforces.com/contest/157/problem/A",
+    "submission_id": "CF10099051",
+    "submission_url": "https://codeforces.com/contest/157/submission/10099051",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Mar/02/2015 01:09"
+  },
   "CF10123769": {
     "contest_id": 520,
     "language": "GNU C++0x",
