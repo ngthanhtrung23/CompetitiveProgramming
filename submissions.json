@@ -1,4 +1,19 @@
 {
+  "CF10132094": {
+    "contest_id": 285,
+    "language": "PyPy 2",
+    "path": "codeforces/285/B.py",
+    "problem_index": "B",
+    "problem_name": "Find Marble",
+    "problem_url": "https://codeforces.com/contest/285/problem/B",
+    "submission_id": "CF10132094",
+    "submission_url": "https://codeforces.com/contest/285/submission/10132094",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/03/2015 20:00"
+  },
   "CF10132234": {
     "contest_id": 242,
     "language": "PyPy 2",
