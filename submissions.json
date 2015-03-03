@@ -1,4 +1,20 @@
 {
+  "CF10132234": {
+    "contest_id": 242,
+    "language": "PyPy 2",
+    "path": "codeforces/242/B.py",
+    "problem_index": "B",
+    "problem_name": "Big Segment",
+    "problem_url": "https://codeforces.com/contest/242/problem/B",
+    "submission_id": "CF10132234",
+    "submission_url": "https://codeforces.com/contest/242/submission/10132234",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Mar/03/2015 20:13"
+  },
   "CF10140439": {
     "contest_id": 521,
     "language": "GNU C++0x",
