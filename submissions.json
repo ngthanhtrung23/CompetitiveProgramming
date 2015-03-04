@@ -1,4 +1,21 @@
 {
+  "CF10142057": {
+    "contest_id": 521,
+    "language": "GNU C++0x",
+    "path": "codeforces/521/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Cubes",
+    "problem_url": "https://codeforces.com/contest/521/problem/B",
+    "submission_id": "CF10142057",
+    "submission_url": "https://codeforces.com/contest/521/submission/10142057",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Mar/04/2015 16:07"
+  },
   "CF10155907": {
     "contest_id": 222,
     "language": "Python 2",
