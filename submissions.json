@@ -1,4 +1,22 @@
 {
+  "CF10140439": {
+    "contest_id": 521,
+    "language": "GNU C++0x",
+    "path": "codeforces/521/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Pluses everywhere",
+    "problem_url": "https://codeforces.com/contest/521/problem/C",
+    "submission_id": "CF10140439",
+    "submission_url": "https://codeforces.com/contest/521/submission/10140439",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "timestamp": "Mar/04/2015 12:39"
+  },
   "CF10142057": {
     "contest_id": 521,
     "language": "GNU C++0x",
