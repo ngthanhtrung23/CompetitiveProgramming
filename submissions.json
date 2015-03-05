@@ -1,4 +1,20 @@
 {
+  "CF10155907": {
+    "contest_id": 222,
+    "language": "Python 2",
+    "path": "codeforces/222/A.py",
+    "problem_index": "A",
+    "problem_name": "Shooshuns and Sequence ",
+    "problem_url": "https://codeforces.com/contest/222/problem/A",
+    "submission_id": "CF10155907",
+    "submission_url": "https://codeforces.com/contest/222/submission/10155907",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/05/2015 11:57"
+  },
   "CF10155934": {
     "contest_id": 259,
     "language": "Python 2",
