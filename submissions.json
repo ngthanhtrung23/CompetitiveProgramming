@@ -1,4 +1,20 @@
 {
+  "CF10159855": {
+    "contest_id": 362,
+    "language": "PyPy 2",
+    "path": "codeforces/362/B.py",
+    "problem_index": "B",
+    "problem_name": "Petya and Staircases",
+    "problem_url": "https://codeforces.com/contest/362/problem/B",
+    "submission_id": "CF10159855",
+    "submission_url": "https://codeforces.com/contest/362/submission/10159855",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Mar/05/2015 19:32"
+  },
   "CF10159929": {
     "contest_id": 302,
     "language": "Python 2",
