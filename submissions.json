@@ -1,4 +1,19 @@
 {
+  "CF10160323": {
+    "contest_id": 521,
+    "language": "GNU C++0x",
+    "path": "codeforces/521/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Shop",
+    "problem_url": "https://codeforces.com/contest/521/problem/D",
+    "submission_id": "CF10160323",
+    "submission_url": "https://codeforces.com/contest/521/submission/10160323",
+    "tags": [
+      "greedy",
+      "*2800"
+    ],
+    "timestamp": "Mar/05/2015 20:06"
+  },
   "CF10160779": {
     "contest_id": 274,
     "language": "GNU C++0x",
