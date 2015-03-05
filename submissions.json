@@ -1,4 +1,20 @@
 {
+  "CF10159370": {
+    "contest_id": 131,
+    "language": "PyPy 2",
+    "path": "codeforces/131/B.py",
+    "problem_index": "B",
+    "problem_name": "Opposites Attract",
+    "problem_url": "https://codeforces.com/contest/131/problem/B",
+    "submission_id": "CF10159370",
+    "submission_url": "https://codeforces.com/contest/131/submission/10159370",
+    "tags": [
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Mar/05/2015 18:50"
+  },
   "CF10159458": {
     "contest_id": 347,
     "language": "PyPy 2",
