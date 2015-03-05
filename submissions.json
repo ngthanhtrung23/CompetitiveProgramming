@@ -1,4 +1,19 @@
 {
+  "CF10159237": {
+    "contest_id": 248,
+    "language": "PyPy 2",
+    "path": "codeforces/248/A.py",
+    "problem_index": "A",
+    "problem_name": "Cupboards",
+    "problem_url": "https://codeforces.com/contest/248/problem/A",
+    "submission_id": "CF10159237",
+    "submission_url": "https://codeforces.com/contest/248/submission/10159237",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/05/2015 18:42"
+  },
   "CF10159370": {
     "contest_id": 131,
     "language": "PyPy 2",
