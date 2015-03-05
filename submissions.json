@@ -1,4 +1,19 @@
 {
+  "CF10165589": {
+    "contest_id": 81,
+    "language": "GNU C++0x",
+    "path": "codeforces/81/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Plug-in",
+    "problem_url": "https://codeforces.com/contest/81/problem/A",
+    "submission_id": "CF10165589",
+    "submission_url": "https://codeforces.com/contest/81/submission/10165589",
+    "tags": [
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Mar/05/2015 22:58"
+  },
   "CF10165851": {
     "contest_id": 81,
     "language": "PyPy 2",
