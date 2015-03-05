@@ -1,4 +1,20 @@
 {
+  "CF10165851": {
+    "contest_id": 81,
+    "language": "PyPy 2",
+    "path": "codeforces/81/B.py",
+    "problem_index": "B",
+    "problem_name": "Sequence Formatting",
+    "problem_url": "https://codeforces.com/contest/81/problem/B",
+    "submission_id": "CF10165851",
+    "submission_url": "https://codeforces.com/contest/81/submission/10165851",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Mar/05/2015 23:14"
+  },
   "CF10166035": {
     "contest_id": 81,
     "language": "GNU C++0x",
