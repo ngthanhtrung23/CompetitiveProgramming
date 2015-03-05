@@ -1,4 +1,20 @@
 {
+  "CF10159711": {
+    "contest_id": 276,
+    "language": "PyPy 2",
+    "path": "codeforces/276/B.py",
+    "problem_index": "B",
+    "problem_name": "Little Girl and Game",
+    "problem_url": "https://codeforces.com/contest/276/problem/B",
+    "submission_id": "CF10159711",
+    "submission_url": "https://codeforces.com/contest/276/submission/10159711",
+    "tags": [
+      "games",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Mar/05/2015 19:20"
+  },
   "CF10159780": {
     "contest_id": 104,
     "language": "PyPy 2",
