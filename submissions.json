@@ -1,4 +1,19 @@
 {
+  "CF10167173": {
+    "contest_id": 114,
+    "language": "Ruby",
+    "path": "codeforces/114/C.rb",
+    "problem_index": "C",
+    "problem_name": "Grammar Lessons",
+    "problem_url": "https://codeforces.com/contest/114/problem/C",
+    "submission_id": "CF10167173",
+    "submission_url": "https://codeforces.com/contest/114/submission/10167173",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Mar/06/2015 01:07"
+  },
   "CF10167384": {
     "contest_id": 114,
     "language": "GNU C++0x",
