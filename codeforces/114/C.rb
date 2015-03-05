@@ -1,4 +1,4 @@
-def g(s)
+def get_info(s)
   case s
   when /lios$/
     return 1, 0
@@ -17,7 +17,7 @@ def g(s)
   end
 end
 
-def v(words)
+def verify(words)
   if words.size == 0
     return false
   end
@@ -25,20 +25,34 @@ def v(words)
     return words[0][0] >= 0
   end
   last_type = -1
-  c = 0
-  words.each { |w|
-    return false if w[0] < 0
-    return false if w[1] != words[0][1]
-    c += 1 if w[0] == 2
-    return false if w[0] < last_type
-    last_type = w[0]
+  count_noun = 0
+  words.each { |word|
+    # Must be valid word
+    if word[0] < 0
+      return false
+    end
+    # Must have same gender
+    if word[1] != words[0][1]
+      return false
+    end
+    # Must be increasing in type
+    if word[0] == 2
+      count_noun += 1
+    end
+    if word[0] < last_type
+      return false
+    end
+    last_type = word[0]
   }
-  return c == 1
+  return count_noun == 1
 end
 
-words = gets.split
-if v(words.map { |s| g(s) })
-  puts 'YES'
-else
-  puts 'NO'
-end
+[*$<].each { |line|
+  words = line.split
+  if verify(words.map { |s| get_info(s) })
+    puts 'YES'
+  else
+    puts 'NO'
+  end
+}
+
