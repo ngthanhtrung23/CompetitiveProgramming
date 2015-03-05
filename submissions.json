@@ -1,4 +1,21 @@
 {
+  "CF10159458": {
+    "contest_id": 347,
+    "language": "PyPy 2",
+    "path": "codeforces/347/A.py",
+    "problem_index": "A",
+    "problem_name": "Difference Row",
+    "problem_url": "https://codeforces.com/contest/347/problem/A",
+    "submission_id": "CF10159458",
+    "submission_url": "https://codeforces.com/contest/347/submission/10159458",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Mar/05/2015 18:58"
+  },
   "CF10159559": {
     "contest_id": 115,
     "language": "PyPy 2",
