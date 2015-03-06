@@ -1,4 +1,22 @@
 {
+  "CF10177988": {
+    "contest_id": 173,
+    "language": "GNU C++0x",
+    "path": "codeforces/173/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Deputies",
+    "problem_url": "https://codeforces.com/contest/173/problem/D",
+    "submission_id": "CF10177988",
+    "submission_url": "https://codeforces.com/contest/173/submission/10177988",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*2500"
+    ],
+    "timestamp": "Mar/06/2015 22:36"
+  },
   "CF10186631": {
     "contest_id": 109,
     "language": "PyPy 2",
