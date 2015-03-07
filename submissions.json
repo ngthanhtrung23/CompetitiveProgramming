@@ -1,4 +1,20 @@
 {
+  "CF10186631": {
+    "contest_id": 109,
+    "language": "PyPy 2",
+    "path": "codeforces/109/A.py",
+    "problem_index": "A",
+    "problem_name": "Lucky Sum of Digits",
+    "problem_url": "https://codeforces.com/contest/109/problem/A",
+    "submission_id": "CF10186631",
+    "submission_url": "https://codeforces.com/contest/109/submission/10186631",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Mar/07/2015 14:42"
+  },
   "CF10189306": {
     "contest_id": 116,
     "language": "GNU C++0x",
