@@ -1,4 +1,21 @@
 {
+  "CF10202108": {
+    "contest_id": 109,
+    "language": "GNU C++0x",
+    "path": "codeforces/109/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Lucky Tree",
+    "problem_url": "https://codeforces.com/contest/109/problem/C",
+    "submission_id": "CF10202108",
+    "submission_url": "https://codeforces.com/contest/109/submission/10202108",
+    "tags": [
+      "dp",
+      "dsu",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Mar/08/2015 16:01"
+  },
   "CF10202657": {
     "contest_id": 109,
     "language": "GNU C++0x",
