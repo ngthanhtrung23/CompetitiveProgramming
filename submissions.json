@@ -1,4 +1,20 @@
 {
+  "CF10201785": {
+    "contest_id": 109,
+    "language": "GNU C++0x",
+    "path": "codeforces/109/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lucky Probability",
+    "problem_url": "https://codeforces.com/contest/109/problem/B",
+    "submission_id": "CF10201785",
+    "submission_url": "https://codeforces.com/contest/109/submission/10201785",
+    "tags": [
+      "brute force",
+      "probabilities",
+      "*1900"
+    ],
+    "timestamp": "Mar/08/2015 15:36"
+  },
   "CF10202108": {
     "contest_id": 109,
     "language": "GNU C++0x",
