@@ -1,4 +1,21 @@
 {
+  "CF10219949": {
+    "contest_id": 229,
+    "language": "GNU C++0x",
+    "path": "codeforces/229/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Triangles",
+    "problem_url": "https://codeforces.com/contest/229/problem/C",
+    "submission_id": "CF10219949",
+    "submission_url": "https://codeforces.com/contest/229/submission/10219949",
+    "tags": [
+      "combinatorics",
+      "graphs",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Mar/10/2015 01:24"
+  },
   "CF10220217": {
     "contest_id": 229,
     "language": "GNU C++0x",
