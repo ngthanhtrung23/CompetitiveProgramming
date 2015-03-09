@@ -1,4 +1,20 @@
 {
+  "CF10219718": {
+    "contest_id": 229,
+    "language": "GNU C++0x",
+    "path": "codeforces/229/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Shifts",
+    "problem_url": "https://codeforces.com/contest/229/problem/A",
+    "submission_id": "CF10219718",
+    "submission_url": "https://codeforces.com/contest/229/submission/10219718",
+    "tags": [
+      "brute force",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Mar/10/2015 00:53"
+  },
   "CF10219887": {
     "contest_id": 229,
     "language": "GNU C++0x",
