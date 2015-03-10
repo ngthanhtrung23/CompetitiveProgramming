@@ -1,4 +1,21 @@
 {
+  "CF10224211": {
+    "contest_id": 332,
+    "language": "GNU C++0x",
+    "path": "codeforces/332/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Students' Revenge",
+    "problem_url": "https://codeforces.com/contest/332/problem/C",
+    "submission_id": "CF10224211",
+    "submission_url": "https://codeforces.com/contest/332/submission/10224211",
+    "tags": [
+      "data structures",
+      "greedy",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Mar/10/2015 15:25"
+  },
   "CF10224295": {
     "contest_id": 332,
     "language": "Java 8",
