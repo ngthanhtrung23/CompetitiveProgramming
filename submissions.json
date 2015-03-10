@@ -1,4 +1,19 @@
 {
+  "CF10223374": {
+    "contest_id": 332,
+    "language": "GNU C++0x",
+    "path": "codeforces/332/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Down the Hatch!",
+    "problem_url": "https://codeforces.com/contest/332/problem/A",
+    "submission_id": "CF10223374",
+    "submission_url": "https://codeforces.com/contest/332/submission/10223374",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Mar/10/2015 12:28"
+  },
   "CF10223377": {
     "contest_id": 332,
     "language": "GNU C++0x",
