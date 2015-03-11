@@ -1,4 +1,22 @@
 {
+  "CF10235296": {
+    "contest_id": 175,
+    "language": "GNU C++0x",
+    "path": "codeforces/175/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Geometry Horse",
+    "problem_url": "https://codeforces.com/contest/175/problem/C",
+    "submission_id": "CF10235296",
+    "submission_url": "https://codeforces.com/contest/175/submission/10235296",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Mar/11/2015 18:06"
+  },
   "CF10240049": {
     "contest_id": 245,
     "language": "GNU C++0x",
