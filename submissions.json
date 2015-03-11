@@ -1,4 +1,20 @@
 {
+  "CF10234310": {
+    "contest_id": 175,
+    "language": "PyPy 2",
+    "path": "codeforces/175/A.py",
+    "problem_index": "A",
+    "problem_name": "Robot Bicorn Attack",
+    "problem_url": "https://codeforces.com/contest/175/problem/A",
+    "submission_id": "CF10234310",
+    "submission_url": "https://codeforces.com/contest/175/submission/10234310",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Mar/11/2015 16:00"
+  },
   "CF10235008": {
     "contest_id": 175,
     "language": "GNU C++0x",
