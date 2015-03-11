@@ -1,4 +1,19 @@
 {
+  "CF10240049": {
+    "contest_id": 245,
+    "language": "GNU C++0x",
+    "path": "codeforces/245/A.cpp",
+    "problem_index": "A",
+    "problem_name": "System Administrator",
+    "problem_url": "https://codeforces.com/contest/245/problem/A",
+    "submission_id": "CF10240049",
+    "submission_url": "https://codeforces.com/contest/245/submission/10240049",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/12/2015 01:41"
+  },
   "CF10240132": {
     "contest_id": 245,
     "language": "Java 8",
