@@ -1,4 +1,20 @@
 {
+  "CF10240467": {
+    "contest_id": 245,
+    "language": "GNU C++0x",
+    "path": "codeforces/245/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Restoring Table",
+    "problem_url": "https://codeforces.com/contest/245/problem/D",
+    "submission_id": "CF10240467",
+    "submission_url": "https://codeforces.com/contest/245/submission/10240467",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Mar/12/2015 02:31"
+  },
   "CF10240540": {
     "contest_id": 245,
     "language": "GNU C++0x",
