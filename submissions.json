@@ -1,4 +1,22 @@
 {
+  "CF10240762": {
+    "contest_id": 245,
+    "language": "GNU C++0x",
+    "path": "codeforces/245/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Log Stream Analysis",
+    "problem_url": "https://codeforces.com/contest/245/problem/F",
+    "submission_id": "CF10240762",
+    "submission_url": "https://codeforces.com/contest/245/submission/10240762",
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Mar/12/2015 03:12"
+  },
   "CF10240950": {
     "contest_id": 122,
     "language": "GNU C++0x",
