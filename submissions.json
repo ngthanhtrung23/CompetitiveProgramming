@@ -1,4 +1,19 @@
 {
+  "CF10240440": {
+    "contest_id": 245,
+    "language": "GNU C++0x",
+    "path": "codeforces/245/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Game with Coins",
+    "problem_url": "https://codeforces.com/contest/245/problem/C",
+    "submission_id": "CF10240440",
+    "submission_url": "https://codeforces.com/contest/245/submission/10240440",
+    "tags": [
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Mar/12/2015 02:26"
+  },
   "CF10240467": {
     "contest_id": 245,
     "language": "GNU C++0x",
