@@ -1577,6 +1577,18 @@
     ],
     "timestamp": "Mar/12/2015 03:33"
   },
+  "CF10271103": {
+    "contest_id": 100541,
+    "language": "GNU C++0x",
+    "path": "codeforces/100541/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Math Magic",
+    "problem_url": "https://codeforces.com/gym/100541/problem/J",
+    "submission_id": "CF10271103",
+    "submission_url": "https://codeforces.com/gym/100541/submission/10271103",
+    "tags": [],
+    "timestamp": "Mar/14/2015 19:09"
+  },
   "CF10301759": {
     "contest_id": 523,
     "language": "GNU C++0x",
