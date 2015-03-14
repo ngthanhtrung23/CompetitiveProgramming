@@ -14,8 +14,6 @@ using namespace std;
 
 int n, a[111], nn[111];
 
-
-
 int main() {
     int ntest; cin >> ntest;
     assert(1 <= ntest && ntest <= 10);
