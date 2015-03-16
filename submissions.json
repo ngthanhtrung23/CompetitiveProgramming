@@ -1,4 +1,20 @@
 {
+  "CF10304220": {
+    "contest_id": 55,
+    "language": "GNU C++0x",
+    "path": "codeforces/55/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Flea travel",
+    "problem_url": "https://codeforces.com/contest/55/problem/A",
+    "submission_id": "CF10304220",
+    "submission_url": "https://codeforces.com/contest/55/submission/10304220",
+    "tags": [
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Mar/17/2015 02:42"
+  },
   "CF10304266": {
     "contest_id": 55,
     "language": "GNU C++0x",
