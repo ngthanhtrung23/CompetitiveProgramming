@@ -1,4 +1,19 @@
 {
+  "CF10304266": {
+    "contest_id": 55,
+    "language": "GNU C++0x",
+    "path": "codeforces/55/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Smallest number",
+    "problem_url": "https://codeforces.com/contest/55/problem/B",
+    "submission_id": "CF10304266",
+    "submission_url": "https://codeforces.com/contest/55/submission/10304266",
+    "tags": [
+      "brute force",
+      "*1600"
+    ],
+    "timestamp": "Mar/17/2015 02:47"
+  },
   "CF10304412": {
     "contest_id": 55,
     "language": "GNU C++0x",
