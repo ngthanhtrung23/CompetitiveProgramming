@@ -1,4 +1,20 @@
 {
+  "CF10301759": {
+    "contest_id": 523,
+    "language": "GNU C++0x",
+    "path": "codeforces/523/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Rotate, Flip and Zoom",
+    "problem_url": "https://codeforces.com/contest/523/problem/A",
+    "submission_id": "CF10301759",
+    "submission_url": "https://codeforces.com/contest/523/submission/10301759",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/16/2015 23:57"
+  },
   "CF10301953": {
     "contest_id": 523,
     "language": "GNU C++0x",
