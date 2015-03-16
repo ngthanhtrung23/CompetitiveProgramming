@@ -1,4 +1,19 @@
 {
+  "CF10304848": {
+    "contest_id": 234,
+    "language": "GNU C++0x",
+    "path": "codeforces/234/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Cinema",
+    "problem_url": "https://codeforces.com/contest/234/problem/D",
+    "submission_id": "CF10304848",
+    "submission_url": "https://codeforces.com/contest/234/submission/10304848",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Mar/17/2015 03:59"
+  },
   "CF10304945": {
     "contest_id": 234,
     "language": "GNU C++0x",
