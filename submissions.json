@@ -1,4 +1,19 @@
 {
+  "CF10304412": {
+    "contest_id": 55,
+    "language": "GNU C++0x",
+    "path": "codeforces/55/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Pie or die",
+    "problem_url": "https://codeforces.com/contest/55/problem/C",
+    "submission_id": "CF10304412",
+    "submission_url": "https://codeforces.com/contest/55/submission/10304412",
+    "tags": [
+      "games",
+      "*1900"
+    ],
+    "timestamp": "Mar/17/2015 03:03"
+  },
   "CF10304642": {
     "contest_id": 234,
     "language": "GNU C++0x",
