@@ -1,4 +1,23 @@
 {
+  "CF10328032": {
+    "contest_id": 527,
+    "language": "GNU C++0x",
+    "path": "codeforces/527/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Clique Problem",
+    "problem_url": "https://codeforces.com/contest/527/problem/D",
+    "submission_id": "CF10328032",
+    "submission_url": "https://codeforces.com/contest/527/submission/10328032",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Mar/18/2015 03:21"
+  },
   "CF10328445": {
     "contest_id": 527,
     "language": "GNU C++0x",
