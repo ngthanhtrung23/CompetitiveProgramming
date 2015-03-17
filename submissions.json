@@ -1,4 +1,21 @@
 {
+  "CF10328025": {
+    "contest_id": 527,
+    "language": "GNU C++0x",
+    "path": "codeforces/527/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Glass Carving",
+    "problem_url": "https://codeforces.com/contest/527/problem/C",
+    "submission_id": "CF10328025",
+    "submission_url": "https://codeforces.com/contest/527/submission/10328025",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Mar/18/2015 03:21"
+  },
   "CF10328032": {
     "contest_id": 527,
     "language": "GNU C++0x",
