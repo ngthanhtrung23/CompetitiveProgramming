@@ -1,4 +1,20 @@
 {
+  "CF10313879": {
+    "contest_id": 528,
+    "language": "GNU C++0x",
+    "path": "codeforces/528/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Glass Carving",
+    "problem_url": "https://codeforces.com/contest/528/problem/A",
+    "submission_id": "CF10313879",
+    "submission_url": "https://codeforces.com/contest/528/submission/10313879",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Mar/18/2015 00:56"
+  },
   "CF10316186": {
     "contest_id": 528,
     "language": "GNU C++0x",
