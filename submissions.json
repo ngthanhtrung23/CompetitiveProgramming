@@ -1,4 +1,21 @@
 {
+  "CF10324131": {
+    "contest_id": 528,
+    "language": "GNU C++0x",
+    "path": "codeforces/528/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Fuzzy Search",
+    "problem_url": "https://codeforces.com/contest/528/problem/D",
+    "submission_id": "CF10324131",
+    "submission_url": "https://codeforces.com/contest/528/submission/10324131",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "fft",
+      "*2500"
+    ],
+    "timestamp": "Mar/18/2015 02:19"
+  },
   "CF10328025": {
     "contest_id": 527,
     "language": "GNU C++0x",
