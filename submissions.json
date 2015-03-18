@@ -1,4 +1,19 @@
 {
+  "CF10333706": {
+    "contest_id": 39,
+    "language": "GNU C++0x",
+    "path": "codeforces/39/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Cubical Planet",
+    "problem_url": "https://codeforces.com/contest/39/problem/D",
+    "submission_id": "CF10333706",
+    "submission_url": "https://codeforces.com/contest/39/submission/10333706",
+    "tags": [
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Mar/18/2015 15:20"
+  },
   "CF10333995": {
     "contest_id": 39,
     "language": "GNU C++0x",
