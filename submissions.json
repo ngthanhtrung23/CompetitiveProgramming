@@ -1,4 +1,19 @@
 {
+  "CF10332240": {
+    "contest_id": 32,
+    "language": "Python 2",
+    "path": "codeforces/32/A.py",
+    "problem_index": "A",
+    "problem_name": "Reconnaissance",
+    "problem_url": "https://codeforces.com/contest/32/problem/A",
+    "submission_id": "CF10332240",
+    "submission_url": "https://codeforces.com/contest/32/submission/10332240",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Mar/18/2015 12:12"
+  },
   "CF10332259": {
     "contest_id": 32,
     "language": "Python 2",
