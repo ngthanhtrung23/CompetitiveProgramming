@@ -1,4 +1,20 @@
 {
+  "CF10335273": {
+    "contest_id": 39,
+    "language": "GNU C++0x",
+    "path": "codeforces/39/E.cpp",
+    "problem_index": "E",
+    "problem_name": "What Has Dirichlet Got to Do with That?",
+    "problem_url": "https://codeforces.com/contest/39/problem/E",
+    "submission_id": "CF10335273",
+    "submission_url": "https://codeforces.com/contest/39/submission/10335273",
+    "tags": [
+      "dp",
+      "games",
+      "*2000"
+    ],
+    "timestamp": "Mar/18/2015 18:07"
+  },
   "CF10335481": {
     "contest_id": 39,
     "language": "GNU C++0x",
