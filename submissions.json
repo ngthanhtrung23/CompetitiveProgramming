@@ -1,4 +1,19 @@
 {
+  "CF10332525": {
+    "contest_id": 32,
+    "language": "GNU C++0x",
+    "path": "codeforces/32/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Constellation",
+    "problem_url": "https://codeforces.com/contest/32/problem/D",
+    "submission_id": "CF10332525",
+    "submission_url": "https://codeforces.com/contest/32/submission/10332525",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Mar/18/2015 12:59"
+  },
   "CF10333448": {
     "contest_id": 32,
     "language": "GNU C++0x",
