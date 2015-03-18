@@ -1,4 +1,20 @@
 {
+  "CF10332259": {
+    "contest_id": 32,
+    "language": "Python 2",
+    "path": "codeforces/32/B.py",
+    "problem_index": "B",
+    "problem_name": "Borze",
+    "problem_url": "https://codeforces.com/contest/32/problem/B",
+    "submission_id": "CF10332259",
+    "submission_url": "https://codeforces.com/contest/32/submission/10332259",
+    "tags": [
+      "expression parsing",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/18/2015 12:15"
+  },
   "CF10332403": {
     "contest_id": 32,
     "language": "Python 2",
