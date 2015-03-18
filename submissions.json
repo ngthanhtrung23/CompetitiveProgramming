@@ -1,4 +1,20 @@
 {
+  "CF10335481": {
+    "contest_id": 39,
+    "language": "GNU C++0x",
+    "path": "codeforces/39/A.cpp",
+    "problem_index": "A",
+    "problem_name": "C*++ Calculations",
+    "problem_url": "https://codeforces.com/contest/39/problem/A",
+    "submission_id": "CF10335481",
+    "submission_url": "https://codeforces.com/contest/39/submission/10335481",
+    "tags": [
+      "expression parsing",
+      "greedy",
+      "*2000"
+    ],
+    "timestamp": "Mar/18/2015 18:31"
+  },
   "CF10338847": {
     "contest_id": 39,
     "language": "GNU C++0x",
