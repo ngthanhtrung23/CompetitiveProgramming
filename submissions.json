@@ -1,4 +1,19 @@
 {
+  "CF10345594": {
+    "contest_id": 40,
+    "language": "GNU C++0x",
+    "path": "codeforces/40/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Repaintings",
+    "problem_url": "https://codeforces.com/contest/40/problem/B",
+    "submission_id": "CF10345594",
+    "submission_url": "https://codeforces.com/contest/40/submission/10345594",
+    "tags": [
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Mar/19/2015 14:35"
+  },
   "CF10392476": {
     "contest_id": 529,
     "language": "GNU C++11",
