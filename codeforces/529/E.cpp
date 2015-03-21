@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
@@ -12,35 +13,38 @@
 #define sqr(x) ((x) * (x))
 using namespace std;
 
-int a[5011];
+const int MN = 5011;
+int a[MN], n, k;
+bool has[10111000];
 
 int main() {
     ios :: sync_with_stdio(false);
-    int n, k;
     while (cin >> n >> k) {
-        unordered_set<int> exist;
+        memset(has, 0, sizeof has);
         FOR(i,1,n) {
             cin >> a[i];
-            exist.insert(a[i]);
+            has[a[i]] = true;
         }
         int q; cin >> q;
         while (q--) {
-            int x; cin >> x;
-            int res = k + 1;
-            FOR(i,1,n) FOR(u,1,k) {
-                if (a[i] * u == x) res = min(res, u);
-                else if (a[i] * u > x) break;
-                else {
-                    FOR(v,1,k-u) {
-                        int cur = x - a[i] * u;
-                        if (cur % v == 0 && exist.count(cur/v))
-                            res = min(res, u + v);
-                    }
+            int need; cin >> need;
+
+            int can = 1000111000;
+            FOR(i,1,n) FOR(x,1,k) {
+                int left = need - a[i] * x;
+                if (left < 0) break;
+
+                if (left == 0) {
+                    can = min(can, x);
+                }
+
+                FOR(y,1,k-x) {
+                    if (left % y == 0 && left / y < 10111000 && has[left / y])
+                        can = min(can, x + y);
                 }
             }
-            if (res > k) cout << -1;
-            else cout << res;
-            cout << endl;
+            if (can > k) cout << -1 << endl;
+            else cout << can << endl;
         }
     }
     return 0;
