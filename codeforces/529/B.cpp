@@ -13,50 +13,54 @@
 #define sqr(x) ((x) * (x))
 using namespace std;
 
-int n;
-int a[1011], b[1011];
+const int MN = 1011;
+int n, w[MN], h[MN];
 
 int main() {
+    ios :: sync_with_stdio(false);
     while (cin >> n) {
-        // suma * maxb
-        FOR(i,1,n) cin >> a[i] >> b[i];
+        FOR(i,1,n) cin >> w[i] >> h[i];
 
-        int res = 2000111000;
-        FOR(maxb,1,1000) {
-            bool can = true;
-            FOR(i,1,n) if (a[i] > maxb && b[i] > maxb) {
-                can = false;
-                break;
-            }
-            if (!can) continue;
+        int res = 1000111000;
+        REP(turn,2) {
+            int bound = n / 2 - turn;
+            FOR(i,1,n) { // max h --> i
+                if (turn == 1) swap(w[i], h[i]);
+                bool ok = true;
+                FOR(j,1,n) if (j != i && h[j] > h[i] && w[j] > h[i]) ok = false;
 
+                if (ok) {
+                    int must_lie = 0;
+                    int sumw = w[i];
+                    vector<int> x;
+                    FOR(j,1,n) if (j != i) {
+                        if (h[j] > h[i]) { // must lie
+                            must_lie++;
+                            sumw += h[j];
+                        }
+                        else if (w[j] > h[i]) { // must stand
+                            sumw += w[j];
+                        }
+                        else {
+                            sumw += w[j];
+                            if (w[j] >= h[j]) x.push_back(w[j] - h[j]);
+                        }
+                    }
+                    sort(x.begin(), x.end());
+                    reverse(x.begin(), x.end());
 
-            int suma = 0, lie = 0;
-            vector<int> change;
-            FOR(i,1,n) {
-                if (a[i] > maxb) {
-                    // can only stand
-                    suma += a[i];
+                    if (must_lie <= bound) {
+                        res = min(res, sumw * h[i]);
+                    }
+
+                    REP(id,x.size()) {
+                        if (must_lie + id + 1 > bound) break;
+                        sumw -= x[id];
+                        res = min(res, sumw * h[i]);
+                    }
                 }
-                else if (b[i] > maxb) {
-                    // can only lie
-                    suma += b[i];
-                    lie++;
-                }
-                else {
-                    suma += a[i];
-                    change.push_back(b[i] - a[i]);
-                }
-            }
 
-            if (lie <= n/2) res = min(res, maxb * suma);
-            sort(change.begin(), change.end());
-
-            REP(i,change.size()) {
-                ++lie;
-                if (lie > n/2) break;
-                suma += change[i];
-                res = min(res, suma * maxb);
+                if (turn == 1) swap(w[i], h[i]);
             }
         }
         cout << res << endl;
