@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
@@ -12,22 +13,15 @@
 #define sqr(x) ((x) * (x))
 using namespace std;
 
-const int MN = 300111;
+const int MN = 200111;
 
-struct Rook {
-    int row, col;
-} rooks[MN];
-
-struct Rect {
-    int r1, c1, r2, c2, res;
-} rects[MN];
-
-int nRow, nCol, nRook, nRect;
-
-int it[MN * 4];
+int n, m, k, q;
+pair<int,int> rook[MN];
+int it[MN*8];
 
 #define CT(X) ((X) << 1)
 #define CP(X) (CT(X) + 1)
+
 void update(int i, int l, int r, int u, int val) {
     if (u < l || r < u) return ;
     if (l == r) {
@@ -43,58 +37,96 @@ void update(int i, int l, int r, int u, int val) {
 int get(int i, int l, int r, int u, int v) {
     if (v < l || r < u) return MN;
     if (u <= l && r <= v) return it[i];
+
     int mid = (l + r) >> 1;
     return min(get(CT(i), l, mid, u, v), get(CP(i), mid+1, r, u, v));
 }
 
-vector< pair< pair<int,int>, int > > events;
+tuple<int,int,int,int> rect[MN];
+int res[MN];
+vector<int> updateAt[MN], queryAt[MN];
 
-void solve() {
+void solve1() {
+    // Check each row has a rook
+    FOR(i,1,n) {
+        updateAt[i].clear();
+        queryAt[i].clear();
+    }
+    FOR(i,1,k) {
+        updateAt[rook[i].second].push_back(rook[i].first);
+    }
+    FOR(i,1,q) {
+        queryAt[get<3>(rect[i])].push_back(i);
+    }
+
     memset(it, 0, sizeof it);
-    events.clear();
-    FOR(i,1,nRook) {
-        events.push_back(make_pair(make_pair(rooks[i].col, 0), rooks[i].row));
-    }
-    FOR(i,1,nRect) {
-        events.push_back(make_pair(make_pair(rects[i].c2, 1), i));
-    }
-    sort(events.begin(), events.end());
-    for(auto e : events) {
-        if (e.first.second == 0) {
-            update(1, 1, nRow, e.second, e.first.first);
-        }
-        else {
-            int id = e.second;
-            int x = get(1, 1, nRow, rects[id].r1, rects[id].r2);
+    FOR(i,1,n) {
+        // Apply updates
+        for(auto u : updateAt[i])
+            update(1, 1, m, u, i);
 
-            if (x >= rects[id].c1) {
-                rects[id].res = 1;
+        // Process queries
+        for(auto id : queryAt[i]) {
+            int l = get<0>(rect[id]);
+            int r = get<2>(rect[id]);
+
+            int nn = get(1, 1, n, l, r);
+            if (nn >= get<1>(rect[id])) {
+//                cout << id << " good row" << endl;
+                res[id] = 1;
             }
         }
     }
 }
 
-void rotate() {
-    FOR(i,1,nRook) swap(rooks[i].row, rooks[i].col);
-    FOR(i,1,nRect) {
-        swap(rects[i].r1, rects[i].c1);
-        swap(rects[i].r2, rects[i].c2);
+void solve2() {
+    // Check each col has a rook
+    FOR(i,1,m) {
+        updateAt[i].clear();
+        queryAt[i].clear();
+    }
+    FOR(i,1,k) {
+        updateAt[rook[i].first].push_back(rook[i].second);
+    }
+    FOR(i,1,q) {
+        queryAt[get<2>(rect[i])].push_back(i);
+    }
+
+    memset(it, 0, sizeof it);
+    FOR(i,1,n) {
+        // Apply updates
+        for(auto u : updateAt[i])
+            update(1, 1, n, u, i);
+        // Process queries
+        for(auto id : queryAt[i]) {
+            int l = get<1>(rect[id]);
+            int r = get<3>(rect[id]);
+
+            int nn = get(1, 1, n, l, r);
+            if (nn >= get<0>(rect[id])) {
+//                cout << id << " good col" << endl;
+                res[id] = 1;
+            }
+        }
     }
 }
 
 int main() {
-    ios :: sync_with_stdio(false);
-    while (cin >> nRow >> nCol >> nRook >> nRect) {
-        nRow = nCol = max(nRow, nCol);
-        FOR(i,1,nRook) cin >> rooks[i].row >> rooks[i].col;
-        FOR(i,1,nRect) {
-            rects[i].res = 0;
-            cin >> rects[i].r1 >> rects[i].c1 >> rects[i].r2 >> rects[i].c2;
+    while (scanf("%d%d%d%d", &m, &n, &k, &q) == 4) {
+        m = n = max(m, n);
+        FOR(i,1,k) scanf("%d%d", &rook[i].first, &rook[i].second);
+
+        memset(res, 0, sizeof res);
+        FOR(i,1,q) {
+            int x1, y1, x2, y2;
+            scanf("%d%d%d%d", &x1, &y1, &x2, &y2);
+            rect[i] = make_tuple(x1, y1, x2, y2);
         }
-        solve();
-        rotate();
-        solve();
-        FOR(i,1,nRect) cout << (rects[i].res ? "YES" : "NO") << "\n";
+
+        solve1();
+        solve2();
+
+        FOR(i,1,q) if (res[i]) puts("YES"); else puts("NO");
     }
     return 0;
 }
