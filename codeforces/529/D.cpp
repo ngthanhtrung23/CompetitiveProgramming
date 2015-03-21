@@ -14,11 +14,10 @@
 using namespace std;
 
 const int MN = 100111;
-
-#define _(X) ((X) & (-(X)))
 int n, M, T;
 int a[MN], bit[MN], res[MN];
 
+#define _(X) ((X) & (-(X)))
 int get(int u) {
     int res = 0;
     while (u > 0) {
@@ -36,23 +35,25 @@ void update(int u, int val) {
 }
 
 int main() {
-    ios :: sync_with_stdio(false);
-    while (cin >> n >> M >> T) {
+    while (scanf("%d%d%d", &n, &M, &T) == 3) {
         FOR(i,1,n) {
-            int h, m, s; char c;
-            cin >> h >> c >> m >> c >> s;
+            int h, m, s; scanf("%d:%d:%d", &h, &m, &s);
             a[i] = h * 3600 + m * 60 + s + 1;
         }
-        sort(a+1, a+n+1);
         memset(bit, 0, sizeof bit);
-        bool can = false;
+        bool ok = false;
         FOR(i,1,n) {
-            int x = get(a[i]) - get(a[i] - T);
-            if (x < M) {
+            int x = a[i] - T + 1;
+            if (x < 0) x = 0;
+
+            int has = get(a[i]);
+            if (x) has -= get(x-1);
+
+            if (has + 1 >= M) ok = true;
+
+            if (has < M) {
                 res[i] = res[i-1] + 1;
                 update(a[i], 1);
-
-                if (x == M-1) can = true;
             }
             else {
                 res[i] = res[i-1];
@@ -60,10 +61,11 @@ int main() {
                 update(a[i], 1);
             }
         }
-        if (!can) cout << "No solution" << endl;
+
+        if (!ok) cout << "No solution" << endl;
         else {
-            cout << res[n] << "\n";
-            FOR(i,1,n) cout << res[i] << "\n";
+            printf("%d\n", res[n]);
+            FOR(i,1,n) printf("%d\n", res[i]);
         }
     }
     return 0;
