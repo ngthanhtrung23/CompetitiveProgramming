@@ -1,4 +1,20 @@
 {
+  "CF10392524": {
+    "contest_id": 529,
+    "language": "GNU C++11",
+    "path": "codeforces/529/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Social Network",
+    "problem_url": "https://codeforces.com/contest/529/problem/D",
+    "submission_id": "CF10392524",
+    "submission_url": "https://codeforces.com/contest/529/submission/10392524",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Mar/22/2015 13:27"
+  },
   "CF10392559": {
     "contest_id": 529,
     "language": "GNU C++11",
