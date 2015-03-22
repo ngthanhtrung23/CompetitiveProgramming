@@ -1,4 +1,19 @@
 {
+  "CF10392559": {
+    "contest_id": 529,
+    "language": "GNU C++11",
+    "path": "codeforces/529/E.cpp",
+    "problem_index": "E",
+    "problem_name": "The Art of Dealing with ATM",
+    "problem_url": "https://codeforces.com/contest/529/problem/E",
+    "submission_id": "CF10392559",
+    "submission_url": "https://codeforces.com/contest/529/submission/10392559",
+    "tags": [
+      "brute force",
+      "*1900"
+    ],
+    "timestamp": "Mar/22/2015 13:31"
+  },
   "CF10392784": {
     "contest_id": 529,
     "language": "GNU C++11",
