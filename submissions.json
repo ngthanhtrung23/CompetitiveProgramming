@@ -1,4 +1,20 @@
 {
+  "CF10392784": {
+    "contest_id": 529,
+    "language": "GNU C++11",
+    "path": "codeforces/529/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Rooks and Rectangles",
+    "problem_url": "https://codeforces.com/contest/529/problem/C",
+    "submission_id": "CF10392784",
+    "submission_url": "https://codeforces.com/contest/529/submission/10392784",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*2400"
+    ],
+    "timestamp": "Mar/22/2015 13:52"
+  },
   "CF10428893": {
     "contest_id": 8,
     "language": "GNU C++11",
