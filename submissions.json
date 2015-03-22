@@ -1,4 +1,21 @@
 {
+  "CF10392476": {
+    "contest_id": 529,
+    "language": "GNU C++11",
+    "path": "codeforces/529/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Group Photo 2 (online mirror version)",
+    "problem_url": "https://codeforces.com/contest/529/problem/B",
+    "submission_id": "CF10392476",
+    "submission_url": "https://codeforces.com/contest/529/submission/10392476",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Mar/22/2015 13:21"
+  },
   "CF10392524": {
     "contest_id": 529,
     "language": "GNU C++11",
