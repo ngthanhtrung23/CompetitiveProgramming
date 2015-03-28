@@ -1,0 +1,19 @@
+solve(A, B, C, Delta) =>
+  if (Delta < 0.0000001) then
+    println(-B / 2 / A)
+  else
+    X1 = (-B - sqrt(Delta)) / 2 / A,
+    X2 = (-B + sqrt(Delta)) / 2 / A,
+    if X1 < X2 then
+      printf("%.6f %.6f%n", X1, X2)
+    else
+      printf("%.6f %.6f%n", X2, X1)
+    end
+  end.
+
+main =>
+  A = read_int(),
+  B = read_int(),
+  C = read_int(),
+  Delta = B*B - 4*A*C,
+  solve(A, B, C, Delta).

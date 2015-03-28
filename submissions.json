@@ -1,4 +1,19 @@
 {
+  "CF10503698": {
+    "contest_id": 531,
+    "language": "Picat",
+    "path": "codeforces/531/A.pi",
+    "problem_index": "A",
+    "problem_name": "Quadratic equation",
+    "problem_url": "https://codeforces.com/contest/531/problem/A",
+    "submission_id": "CF10503698",
+    "submission_url": "https://codeforces.com/contest/531/submission/10503698",
+    "tags": [
+      "*special problem",
+      "*1500"
+    ],
+    "timestamp": "Mar/29/2015 01:27"
+  },
   "CF10504220": {
     "contest_id": 531,
     "language": "Picat",
