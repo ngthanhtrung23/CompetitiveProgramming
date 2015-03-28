@@ -1,4 +1,19 @@
 {
+  "CF10503610": {
+    "contest_id": 531,
+    "language": "Picat",
+    "path": "codeforces/531/B.pi",
+    "problem_index": "B",
+    "problem_name": "String inside out",
+    "problem_url": "https://codeforces.com/contest/531/problem/B",
+    "submission_id": "CF10503610",
+    "submission_url": "https://codeforces.com/contest/531/submission/10503610",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "Mar/29/2015 01:24"
+  },
   "CF10503698": {
     "contest_id": 531,
     "language": "Picat",

@@ -1,0 +1,10 @@
+main =>
+  S = read_line(),
+  foreach (I in 1 .. S.length div 2)
+    E = S[S.length div 2 - I + 1],
+    write(E)
+  end,
+  foreach (I in 1 .. S.length div 2)
+    E = S[S.length - I + 1],
+    write(E)
+  end.
