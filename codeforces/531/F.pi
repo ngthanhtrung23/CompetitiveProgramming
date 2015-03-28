@@ -1,0 +1,51 @@
+encode(X, Y) = (X + 20) * 44 + (Y + 21).
+get_row(X) = X div 44 - 20.
+get_col(X) = X mod 44 - 21.
+
+main =>
+  N = read_int(),
+  Inf = encode(22, 0),
+  Mark = [0 : I in 1 .. Inf],
+  foreach (I in 1 .. N)
+    X = read_int(),
+    Y = read_int(),
+    Mark[encode(X, Y)] := 1
+  end,
+  Res := 0,
+  foreach (Jump in 1 .. 10)
+    Visited = [0 : I in 1 .. Inf],
+    Queue = [0 : I in 1 .. Inf],
+    First = 1,
+    Last = 1,
+    Start = encode(0, 0),
+    Queue[1] := Start,
+    Visited[Start] := 1,
+
+    while (First <= Last)
+      X = Queue[First],
+      First := First + 1,
+      Row = get_row(X),
+      Col = get_col(X),
+
+      Res := max(Res, abs(Row) + abs(Col)),
+
+      foreach (Turn in 1 .. 4)
+        if Turn = 1 then
+          Y = encode(Row, Col - Jump)
+        elseif Turn = 2 then
+          Y = encode(Row, Col + Jump)
+        elseif Turn = 3 then
+          Y = encode(Row - Jump, Col)
+        else
+          Y = encode(Row + Jump, Col)
+        end,
+
+        if Y > 0 && Y < Inf && Visited[Y] = 0 && Mark[Y] = 1 then
+            Visited[Y] := 1,
+            Last := Last + 1,
+            Queue[Last] := Y
+        end
+      end
+    end
+  end,
+  println(Res).

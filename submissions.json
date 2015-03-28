@@ -2350,6 +2350,21 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF10505773": {
+    "contest_id": 531,
+    "language": "Picat",
+    "path": "codeforces/531/F.pi",
+    "problem_index": "F",
+    "problem_name": "Jumping frogs",
+    "problem_url": "https://codeforces.com/contest/531/problem/F",
+    "submission_id": "CF10505773",
+    "submission_url": "https://codeforces.com/contest/531/submission/10505773",
+    "tags": [
+      "*special problem",
+      "*2100"
+    ],
+    "timestamp": "Mar/29/2015 02:13"
+  },
   "CF10506521": {
     "contest_id": 531,
     "language": "Picat",
