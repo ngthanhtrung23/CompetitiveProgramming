@@ -2350,6 +2350,21 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF10504670": {
+    "contest_id": 531,
+    "language": "Picat",
+    "path": "codeforces/531/D.pi",
+    "problem_index": "D",
+    "problem_name": "Set subtraction",
+    "problem_url": "https://codeforces.com/contest/531/problem/D",
+    "submission_id": "CF10504670",
+    "submission_url": "https://codeforces.com/contest/531/submission/10504670",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "Mar/29/2015 01:43"
+  },
   "CF10505029": {
     "contest_id": 531,
     "language": "Picat",
