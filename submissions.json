@@ -2350,6 +2350,21 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF10507008": {
+    "contest_id": 531,
+    "language": "Picat",
+    "path": "codeforces/531/H.pi",
+    "problem_index": "H",
+    "problem_name": "Points in triangle",
+    "problem_url": "https://codeforces.com/contest/531/problem/H",
+    "submission_id": "CF10507008",
+    "submission_url": "https://codeforces.com/contest/531/submission/10507008",
+    "tags": [
+      "*special problem",
+      "*2100"
+    ],
+    "timestamp": "Mar/29/2015 02:45"
+  },
   "CF10560309": {
     "contest_id": 528,
     "language": "GNU C++11",
