@@ -1,0 +1,7 @@
+main =>
+  N = read_int(),
+  D = read_int(),
+  foreach (I in 1 .. N-2)
+    printf("%d ", 1)
+  end,
+  printf("%d %d%n", 2, D+N).

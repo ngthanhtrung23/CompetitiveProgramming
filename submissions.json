@@ -2350,6 +2350,21 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF10505029": {
+    "contest_id": 531,
+    "language": "Picat",
+    "path": "codeforces/531/E.pi",
+    "problem_index": "E",
+    "problem_name": "Sum and product",
+    "problem_url": "https://codeforces.com/contest/531/problem/E",
+    "submission_id": "CF10505029",
+    "submission_url": "https://codeforces.com/contest/531/submission/10505029",
+    "tags": [
+      "*special problem",
+      "*1700"
+    ],
+    "timestamp": "Mar/29/2015 01:52"
+  },
   "CF10505773": {
     "contest_id": 531,
     "language": "Picat",
