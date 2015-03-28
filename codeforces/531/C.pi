@@ -1,0 +1,22 @@
+main =>
+  A = read_int(),
+  B = read_int(),
+  C = read_int(),
+  Cnt = 0,
+  foreach (X in 1..C)
+    if (C - A*X) mod B = 0 then
+      Y = (C - A*X) div B,
+      if Y > 0 then
+        Cnt := Cnt + 1
+      end
+    end
+  end,
+  println(Cnt),
+  foreach (X in 1..C)
+    if (C - A*X) mod B = 0 then
+      Y = (C - A*X) div B,
+      if Y > 0 then
+        printf("%d %d%n", X, Y)
+      end
+    end
+  end.

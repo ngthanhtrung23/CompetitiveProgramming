@@ -1,4 +1,19 @@
 {
+  "CF10504220": {
+    "contest_id": 531,
+    "language": "Picat",
+    "path": "codeforces/531/C.pi",
+    "problem_index": "C",
+    "problem_name": "Diophantine equation",
+    "problem_url": "https://codeforces.com/contest/531/problem/C",
+    "submission_id": "CF10504220",
+    "submission_url": "https://codeforces.com/contest/531/submission/10504220",
+    "tags": [
+      "*special problem",
+      "*1500"
+    ],
+    "timestamp": "Mar/29/2015 01:33"
+  },
   "CF10966433": {
     "contest_id": 260,
     "language": "GNU C++11",
