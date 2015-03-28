@@ -1,0 +1,56 @@
+encode(X, Y) = X * 111 + Y + 1.
+ascii('a') = 1.
+ascii('b') = 2.
+ascii('c') = 3.
+ascii('d') = 4.
+ascii('e') = 5.
+ascii('f') = 6.
+ascii('g') = 7.
+ascii('h') = 8.
+ascii('i') = 9.
+ascii('j') = 10.
+ascii('k') = 11.
+ascii('l') = 12.
+ascii('m') = 13.
+ascii('n') = 14.
+ascii('o') = 15.
+ascii('p') = 16.
+ascii('q') = 17.
+ascii('r') = 18.
+ascii('s') = 19.
+ascii('t') = 20.
+ascii('u') = 21.
+ascii('v') = 22.
+ascii('w') = 23.
+ascii('x') = 24.
+ascii('y') = 25.
+ascii('z') = 26.
+sub_cost(A, B) = abs(ascii(A) - ascii(B)).
+ins_cost(A) = ascii(A).
+del_cost(A) = ascii(A).
+
+main =>
+  A = read_line(),
+  B = read_line(),
+  LA = A.length,
+  LB = B.length,
+  Inf = encode(111, 111),
+  F = [0 : I in 1 .. Inf],
+  foreach (I in 0 .. LA)
+    foreach (J in 0 .. LB)
+      Id = encode(I, J),
+      if I = 0 && J = 0 then
+        F[Id] := 0
+      elseif I = 0 then
+        F[Id] := F[encode(I, J-1)] + ins_cost(B[J])
+      elseif J = 0 then
+        F[Id] := F[encode(I-1, J)] + del_cost(A[I])
+      else
+        X = F[encode(I-1, J)] + del_cost(A[I]),
+        Y = F[encode(I, J-1)] + ins_cost(B[J]),
+        Z = F[encode(I-1, J-1)] + sub_cost(A[I], B[J]),
+        F[Id] := min(min(X, Y), Z)
+      end
+    end
+  end,
+  println(F[encode(LA, LB)]).
