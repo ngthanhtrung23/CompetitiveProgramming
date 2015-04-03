@@ -24,17 +24,7 @@ long long fact(int n) {
 int n, k, a[33];
 long long p3[30];
 long long S;
-
-namespace std {
-    template<>
-    struct hash< pair<int,long long> > {
-        public:
-            size_t operator() (pair<int,long long> x) const throw() {
-                return x.first * 1000000009 + x.second;
-            }
-    };
-}
-unordered_map< pair<int, long long>, long long > cnt;
+map< pair<int, long long>, long long > cnt;
 
 long long getBit(long long mask, int pos) {
     return (mask % p3[pos+1]) / p3[pos];
@@ -82,7 +72,7 @@ int main() {
                 if (u == 1) sum += a[i];
                 if (u == 2) sum += fact(a[i]), v += 1;
             }
-            FOR(u,0,left_size)
+            FOR(u,0,min(left_size, k - v))
                 if (u + v <= k)
                     res += cnt[make_pair(u, S - sum)];
         }
