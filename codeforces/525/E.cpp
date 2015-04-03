@@ -30,7 +30,7 @@ namespace std {
     struct hash< pair<int,long long> > {
         public:
             size_t operator() (pair<int,long long> x) const throw() {
-                return x.first ^ x.second;
+                return x.first * 1000000009 + x.second;
             }
     };
 }
