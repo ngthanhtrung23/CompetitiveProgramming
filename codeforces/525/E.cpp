@@ -72,7 +72,7 @@ int main() {
                 if (u == 1) sum += a[i];
                 if (u == 2) sum += fact(a[i]), v += 1;
             }
-            FOR(u,0,min(left_size, k - v))
+            FOR(u,0,left_size)
                 if (u + v <= k)
                     res += cnt[make_pair(u, S - sum)];
         }
