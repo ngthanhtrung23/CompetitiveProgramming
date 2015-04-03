@@ -2350,6 +2350,22 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF10560309": {
+    "contest_id": 528,
+    "language": "GNU C++11",
+    "path": "codeforces/528/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Data Center Drama",
+    "problem_url": "https://codeforces.com/contest/528/problem/C",
+    "submission_id": "CF10560309",
+    "submission_url": "https://codeforces.com/contest/528/submission/10560309",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "*2600"
+    ],
+    "timestamp": "Apr/03/2015 21:15"
+  },
   "CF10562726": {
     "contest_id": 525,
     "language": "GNU C++11",
