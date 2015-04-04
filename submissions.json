@@ -2350,6 +2350,23 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF10583588": {
+    "contest_id": 526,
+    "language": "GNU C++11",
+    "path": "codeforces/526/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Om Nom and Candies",
+    "problem_url": "https://codeforces.com/contest/526/problem/C",
+    "submission_id": "CF10583588",
+    "submission_url": "https://codeforces.com/contest/526/submission/10583588",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Apr/05/2015 01:36"
+  },
   "CF10600409": {
     "contest_id": 526,
     "language": "GNU C++11",
