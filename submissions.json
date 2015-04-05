@@ -2350,6 +2350,21 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF10607201": {
+    "contest_id": 531,
+    "language": "Picat",
+    "path": "codeforces/531/I.pi",
+    "problem_index": "I",
+    "problem_name": "Different variables",
+    "problem_url": "https://codeforces.com/contest/531/problem/I",
+    "submission_id": "CF10607201",
+    "submission_url": "https://codeforces.com/contest/531/submission/10607201",
+    "tags": [
+      "*special problem",
+      "*2500"
+    ],
+    "timestamp": "Apr/06/2015 07:28"
+  },
   "CF10607222": {
     "contest_id": 372,
     "language": "GNU C++11",
