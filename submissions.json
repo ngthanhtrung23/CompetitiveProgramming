@@ -2350,6 +2350,22 @@
     ],
     "timestamp": "Mar/29/2015 01:33"
   },
+  "CF10600409": {
+    "contest_id": 526,
+    "language": "GNU C++11",
+    "path": "codeforces/526/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Transmitting Levels",
+    "problem_url": "https://codeforces.com/contest/526/problem/E",
+    "submission_id": "CF10600409",
+    "submission_url": "https://codeforces.com/contest/526/submission/10600409",
+    "tags": [
+      "dp",
+      "implementation",
+      "*2400"
+    ],
+    "timestamp": "Apr/05/2015 19:06"
+  },
   "CF10601127": {
     "contest_id": 526,
     "language": "GNU C++11",
