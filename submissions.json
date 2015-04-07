@@ -2385,6 +2385,23 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10624417": {
+    "contest_id": 279,
+    "language": "GNU C++11",
+    "path": "codeforces/279/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Point on Spiral",
+    "problem_url": "https://codeforces.com/contest/279/problem/A",
+    "submission_id": "CF10624417",
+    "submission_url": "https://codeforces.com/contest/279/submission/10624417",
+    "tags": [
+      "brute force",
+      "geometry",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Apr/08/2015 02:45"
+  },
   "CF10624488": {
     "contest_id": 279,
     "language": "GNU C++11",
