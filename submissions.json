@@ -2385,6 +2385,22 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10623884": {
+    "contest_id": 305,
+    "language": "GNU C++11",
+    "path": "codeforces/305/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Ivan and Powers of Two",
+    "problem_url": "https://codeforces.com/contest/305/problem/C",
+    "submission_id": "CF10623884",
+    "submission_url": "https://codeforces.com/contest/305/submission/10623884",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Apr/08/2015 01:38"
+  },
   "CF10624044": {
     "contest_id": 305,
     "language": "GNU C++11",
