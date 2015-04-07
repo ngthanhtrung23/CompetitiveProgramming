@@ -2385,6 +2385,23 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10623834": {
+    "contest_id": 305,
+    "language": "Java 8",
+    "path": "codeforces/305/B.java",
+    "problem_index": "B",
+    "problem_name": "Continued Fractions",
+    "problem_url": "https://codeforces.com/contest/305/problem/B",
+    "submission_id": "CF10623834",
+    "submission_url": "https://codeforces.com/contest/305/submission/10623834",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Apr/08/2015 01:34"
+  },
   "CF10623884": {
     "contest_id": 305,
     "language": "GNU C++11",
