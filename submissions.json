@@ -2385,6 +2385,22 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10623527": {
+    "contest_id": 90,
+    "language": "GNU C++11",
+    "path": "codeforces/90/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Cableway",
+    "problem_url": "https://codeforces.com/contest/90/problem/A",
+    "submission_id": "CF10623527",
+    "submission_url": "https://codeforces.com/contest/90/submission/10623527",
+    "tags": [
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Apr/08/2015 01:00"
+  },
   "CF10623543": {
     "contest_id": 90,
     "language": "GNU C++11",
