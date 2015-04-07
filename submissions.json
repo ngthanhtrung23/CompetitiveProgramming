@@ -2385,6 +2385,22 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10618885": {
+    "contest_id": 524,
+    "language": "GNU C++11",
+    "path": "codeforces/524/B.cpp",
+    "problem_index": "B",
+    "problem_name": "\u0424\u043e\u0442\u043e \u043d\u0430 \u043f\u0430\u043c\u044f\u0442\u044c - 2 (round version)",
+    "problem_url": "https://codeforces.com/contest/524/problem/B",
+    "submission_id": "CF10618885",
+    "submission_url": "https://codeforces.com/contest/524/submission/10618885",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Apr/07/2015 15:37"
+  },
   "CF10623527": {
     "contest_id": 90,
     "language": "GNU C++11",
