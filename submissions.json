@@ -2385,6 +2385,21 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10618880": {
+    "contest_id": 524,
+    "language": "GNU C++11",
+    "path": "codeforces/524/A.cpp",
+    "problem_index": "A",
+    "problem_name": "\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e, \u0432\u044b \u0437\u043d\u0430\u0435\u0442\u0435 \u044d\u0442\u0438\u0445 \u043b\u044e\u0434\u0435\u0439?",
+    "problem_url": "https://codeforces.com/contest/524/problem/A",
+    "submission_id": "CF10618880",
+    "submission_url": "https://codeforces.com/contest/524/submission/10618880",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Apr/07/2015 15:35"
+  },
   "CF10618885": {
     "contest_id": 524,
     "language": "GNU C++11",
