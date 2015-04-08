@@ -2385,6 +2385,22 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10632005": {
+    "contest_id": 523,
+    "language": "GNU C++11",
+    "path": "codeforces/523/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Mean Requests",
+    "problem_url": "https://codeforces.com/contest/523/problem/B",
+    "submission_id": "CF10632005",
+    "submission_url": "https://codeforces.com/contest/523/submission/10632005",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Apr/08/2015 23:59"
+  },
   "CF10669139": {
     "contest_id": 534,
     "language": "GNU C++11",
