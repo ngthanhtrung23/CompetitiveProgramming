@@ -2385,6 +2385,22 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10631391": {
+    "contest_id": 522,
+    "language": "GNU C++11",
+    "path": "codeforces/522/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Closest Equals",
+    "problem_url": "https://codeforces.com/contest/522/problem/D",
+    "submission_id": "CF10631391",
+    "submission_url": "https://codeforces.com/contest/522/submission/10631391",
+    "tags": [
+      "*special problem",
+      "data structures",
+      "*2000"
+    ],
+    "timestamp": "Apr/08/2015 22:53"
+  },
   "CF10631791": {
     "contest_id": 523,
     "language": "GNU C++11",
