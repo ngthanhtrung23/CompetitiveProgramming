@@ -2385,6 +2385,23 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10631791": {
+    "contest_id": 523,
+    "language": "GNU C++11",
+    "path": "codeforces/523/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Statistics of Recompressing Videos",
+    "problem_url": "https://codeforces.com/contest/523/problem/D",
+    "submission_id": "CF10631791",
+    "submission_url": "https://codeforces.com/contest/523/submission/10631791",
+    "tags": [
+      "*special problem",
+      "data structures",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Apr/08/2015 23:41"
+  },
   "CF10632005": {
     "contest_id": 523,
     "language": "GNU C++11",
