@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10648507": {
+    "contest_id": 100624,
+    "language": "GNU C++11",
+    "path": "codeforces/100624/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Darts",
+    "problem_url": "https://codeforces.com/gym/100624/problem/H",
+    "submission_id": "CF10648507",
+    "submission_url": "https://codeforces.com/gym/100624/submission/10648507",
+    "tags": [],
+    "timestamp": "Apr/10/2015 20:56"
+  },
   "CF10648515": {
     "contest_id": 100624,
     "language": "GNU C++",
