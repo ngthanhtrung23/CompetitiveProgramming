@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10650833": {
+    "contest_id": 100624,
+    "language": "GNU C++11",
+    "path": "codeforces/100624/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Non-boring sequences",
+    "problem_url": "https://codeforces.com/gym/100624/problem/D",
+    "submission_id": "CF10650833",
+    "submission_url": "https://codeforces.com/gym/100624/submission/10650833",
+    "tags": [],
+    "timestamp": "Apr/11/2015 00:46"
+  },
   "CF10663260": {
     "contest_id": 100512,
     "language": "GNU C++11",
