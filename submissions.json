@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10648597": {
+    "contest_id": 100624,
+    "language": "GNU C++11",
+    "path": "codeforces/100624/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Kingdoms",
+    "problem_url": "https://codeforces.com/gym/100624/problem/A",
+    "submission_id": "CF10648597",
+    "submission_url": "https://codeforces.com/gym/100624/submission/10648597",
+    "tags": [],
+    "timestamp": "Apr/10/2015 21:05"
+  },
   "CF10648810": {
     "contest_id": 100624,
     "language": "GNU C++11",
