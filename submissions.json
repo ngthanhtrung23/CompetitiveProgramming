@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10665925": {
+    "contest_id": 100662,
+    "language": "GNU C++11",
+    "path": "codeforces/100662/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Dijkstra",
+    "problem_url": "https://codeforces.com/gym/100662/problem/C",
+    "submission_id": "CF10665925",
+    "submission_url": "https://codeforces.com/gym/100662/submission/10665925",
+    "tags": [],
+    "timestamp": "Apr/12/2015 18:59"
+  },
   "CF10665929": {
     "contest_id": 100662,
     "language": "GNU C++11",
