@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10665162": {
+    "contest_id": 100512,
+    "language": "GNU C++11",
+    "path": "codeforces/100512/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Journey Planner",
+    "problem_url": "https://codeforces.com/gym/100512/problem/J",
+    "submission_id": "CF10665162",
+    "submission_url": "https://codeforces.com/gym/100512/submission/10665162",
+    "tags": [],
+    "timestamp": "Apr/12/2015 17:44"
+  },
   "CF10665902": {
     "contest_id": 100662,
     "language": "GNU C++11",
