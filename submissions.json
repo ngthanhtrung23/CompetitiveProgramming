@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10663260": {
+    "contest_id": 100512,
+    "language": "GNU C++11",
+    "path": "codeforces/100512/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dynamic LCA",
+    "problem_url": "https://codeforces.com/gym/100512/problem/D",
+    "submission_id": "CF10663260",
+    "submission_url": "https://codeforces.com/gym/100512/submission/10663260",
+    "tags": [],
+    "timestamp": "Apr/12/2015 14:37"
+  },
   "CF10663422": {
     "contest_id": 100512,
     "language": "GNU C++11",
