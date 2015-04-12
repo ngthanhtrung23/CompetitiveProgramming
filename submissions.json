@@ -2385,6 +2385,24 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10685446": {
+    "contest_id": 534,
+    "language": "GNU C++11",
+    "path": "codeforces/534/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Simplified Nonogram",
+    "problem_url": "https://codeforces.com/contest/534/problem/F",
+    "submission_id": "CF10685446",
+    "submission_url": "https://codeforces.com/contest/534/submission/10685446",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "hashing",
+      "meet-in-the-middle",
+      "*2400"
+    ],
+    "timestamp": "Apr/13/2015 02:59"
+  },
   "CF10690884": {
     "contest_id": 279,
     "language": "GNU C++11",
