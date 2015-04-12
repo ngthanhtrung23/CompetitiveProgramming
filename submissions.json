@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10663422": {
+    "contest_id": 100512,
+    "language": "GNU C++11",
+    "path": "codeforces/100512/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Funny Game",
+    "problem_url": "https://codeforces.com/gym/100512/problem/F",
+    "submission_id": "CF10663422",
+    "submission_url": "https://codeforces.com/gym/100512/submission/10663422",
+    "tags": [],
+    "timestamp": "Apr/12/2015 15:00"
+  },
   "CF10663973": {
     "contest_id": 100512,
     "language": "GNU C++11",
