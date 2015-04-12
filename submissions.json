@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10665914": {
+    "contest_id": 100662,
+    "language": "GNU C++11",
+    "path": "codeforces/100662/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Infinite House of Pancakes",
+    "problem_url": "https://codeforces.com/gym/100662/problem/B",
+    "submission_id": "CF10665914",
+    "submission_url": "https://codeforces.com/gym/100662/submission/10665914",
+    "tags": [],
+    "timestamp": "Apr/12/2015 18:58"
+  },
   "CF10665925": {
     "contest_id": 100662,
     "language": "GNU C++11",
