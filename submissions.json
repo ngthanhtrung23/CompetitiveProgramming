@@ -3106,6 +3106,18 @@
     ],
     "timestamp": "Apr/08/2015 23:59"
   },
+  "CF10665902": {
+    "contest_id": 100662,
+    "language": "GNU C++11",
+    "path": "codeforces/100662/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Standing Ovation",
+    "problem_url": "https://codeforces.com/gym/100662/problem/A",
+    "submission_id": "CF10665902",
+    "submission_url": "https://codeforces.com/gym/100662/submission/10665902",
+    "tags": [],
+    "timestamp": "Apr/12/2015 18:57"
+  },
   "CF10665914": {
     "contest_id": 100662,
     "language": "GNU C++11",
