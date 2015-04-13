@@ -1,65 +1,80 @@
-#include <cstdio>
-#include <cstring>
-#include <algorithm>
-#define FOR(i,s,e) for (int i=(s); i<(e); i++)
-#define FOE(i,s,e) for (int i=(s); i<=(e); i++)
-#define FOD(i,s,e) for (int i=(s)-1; i>=(e); i--)
-#define CLR(a,x) memset(a, x, sizeof(a))
-#define EXP(i,l) for (int i=(l); i; i=qn[i])
-#define N 25
+
+#include <bits/stdc++.h>
+
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-int n, ok, t, a[N], b[N][N], ret;
-char dp[24][1<<23], W[1<<24];
+#define TWO(X) (1<<(X))
+#define CONTAIN(S,X) (S & TWO(X))
 
-int possible(int lim){
-    int ok;
-    CLR(dp, 0);
-    dp[1][2] = 1;
-    if (lim >= 2) dp[1][3] = 1;
-    FOR(i,2,n){
-        FOR(j,0,1<<i) if (dp[i-1][j]){
-            ok = 0;
-            FOR(k,0,i) if (b[i][k] != -1 && (j & (1<<k)) && (j & (1<<b[i][k]))) ok = 1;
-            if (!ok) continue;
-            if (i == n - 1) return 1;
-            if (W[j] < lim) dp[i][j | (1<<i)] = 1;
-            FOR(k,0,i) if (j & (1<<k)) dp[i][(j & ~(1<<k)) | (1<<i)] = 1;
-        }
-    }
-    return 0;
-}
+int n, a[111], f[TWO(23)], x[33];
 
-int main(){
-    scanf("%d", &n);
-    if (n == 1) {
-        puts("1");
-        return 0;
-    }
-    FOR(i,0,n) scanf("%d", &a[i+1]);
-    ++n;
-    FOR(i,2,n){
-        ok = 0;
-        FOR(j,0,i){
-            b[i][j] = -1;
-            FOR(k,0,i) if (a[j] + a[k] == a[i]) b[i][j] = k, ok = 1;
+int main() {
+    while (cin >> n) {
+        REP(i,n) cin >> a[i];
+        if (n == 1) {
+            cout << 1 << endl;
+            continue;
         }
-        if (!ok){
-            puts("-1");
-            return 0;
+        int res = n+1;
+        // f(S) = minimum number of variable, such that we can have set of variables S
+        //        Note that when we have set S, we know that the last variable just created is the largest bit,
+        //        and we must create the variable greater than it
+
+        REP(S,TWO(n)) f[S] = n+1;
+        f[1] = 1;
+
+        FOR(S,1,TWO(n)-2) {
+            int last = -1;
+            FORD(i,n-1,0) if (CONTAIN(S,i)) { last = i; break; }
+
+            int cur = f[S];
+            if (last == n-1) {
+                res = min(res, cur);
+                continue;
+            }
+
+            int next = last + 1;
+            bool ok = false;
+
+            int nx = 0;
+            REP(i,n) if (CONTAIN(S,i)) x[++nx] = a[i];
+            sort(x+1, x+nx+1);
+            int j = nx, i = 1;
+            while (i <= j) {
+                if (x[i] + x[j] == a[next]) {
+                    ok = true;
+                    break;
+                }
+                else if (x[i] + x[j] > a[next]) {
+                    --j;
+                }
+                else ++i;
+            }
+
+            if (!ok) continue; // we cannot create the variable next
+
+            // we add new variable to store next
+            int S2 = S | TWO(next);
+            f[S2] = min(f[S2], max(cur, __builtin_popcount(S2)));
+            // we reuse existing variable to store next
+
+            REP(i,n) if (CONTAIN(S,i)) {
+                S2 = S - TWO(i) + TWO(next);
+                f[S2] = min(f[S2], max(cur, __builtin_popcount(S2)));
+            }
         }
+        if (res > n) cout << -1 << endl;
+        else cout << res << endl;
     }
-    
-    FOR(i,0,1<<n){
-        t = i;
-        while (t) W[i] += (t & 1), t >>= 1;
-    }
-    
-    for (int i=1, j=16, k; j>=i; ){
-        k = (i + j) >> 1;
-        if (possible(k)) ret = k, j = k - 1;
-        else i = k + 1;
-    }
-    printf("%d\n", ret);
     return 0;
 }

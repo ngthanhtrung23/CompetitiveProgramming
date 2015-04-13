@@ -2385,6 +2385,22 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10690884": {
+    "contest_id": 279,
+    "language": "GNU C++11",
+    "path": "codeforces/279/D.cpp",
+    "problem_index": "D",
+    "problem_name": "The Minimum Number of Variables",
+    "problem_url": "https://codeforces.com/contest/279/problem/D",
+    "submission_id": "CF10690884",
+    "submission_url": "https://codeforces.com/contest/279/submission/10690884",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "*2200"
+    ],
+    "timestamp": "Apr/13/2015 15:37"
+  },
   "CF10705904": {
     "contest_id": 79,
     "language": "GNU C++11",
