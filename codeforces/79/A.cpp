@@ -1,66 +1,50 @@
-#pragma comment(linker, "/STACK:16777216")
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
-#include <sstream>
-#include <iomanip>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-const double PI = acos(-1.0);
-
-bool get(int x, int y, int turn) {
-    if (turn == 1) {
-        if (x >= 2 && y >= 2) {
-            return !get(x-2, y-2, 3-turn);
-        }
-        else if (x >= 1 && y >= 12) {
-            return !get(x-1, y-12, 3-turn);
-        }
-        else if (y >= 22) {
-            return !get(x, y-22, 3-turn);
-        }
-        else return false;
-    }
-    else {
-        if (y >= 22) {
-            return !get(x, y-22, 3-turn);
-        }
-        else if (x >= 1 && y >= 12) {
-            return !get(x-1, y-12, 3-turn);
-        }
-        else if (x >= 2 && y >= 2) {
-            return !get(x-2, y-2, 3-turn);
-        }
-        else return false;
-    }
-}
-
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
     int x, y;
-    cin >> x >> y;
-    if (get(x, y, 1)) puts("Ciel");
-    else puts("Hanako");
+    while (cin >> x >> y) {
+        while (true) {
+            int cx = -1, cy = -1;
+            FORD(ix,2,0) {
+                int iy = (220 - (ix * 100)) / 10;
+                if (ix <= x && iy <= y) {
+                    cx = ix;
+                    cy = iy;
+
+                    x -= ix;
+                    y -= iy;
+                    break;
+                }
+            }
+            if (cx < 0) { cout << "Hanako" << endl; break; }
+
+            cx = cy = -1;
+            FOR(ix,0,2) {
+                int iy = (220 - (ix * 100)) / 10;
+                if (ix <= x && iy <= y) {
+                    cx = ix;
+                    cy = iy;
+
+                    x -= ix;
+                    y -= iy;
+                    break;
+                }
+            }
+            if (cx < 0) { cout << "Ciel" << endl; break; }
+        }
+    }
     return 0;
 }
