@@ -2385,6 +2385,22 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10722680": {
+    "contest_id": 536,
+    "language": "GNU C++11",
+    "path": "codeforces/536/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Tavas and Pashmaks",
+    "problem_url": "https://codeforces.com/contest/536/problem/C",
+    "submission_id": "CF10722680",
+    "submission_url": "https://codeforces.com/contest/536/submission/10722680",
+    "tags": [
+      "geometry",
+      "math",
+      "*2600"
+    ],
+    "timestamp": "Apr/15/2015 03:43"
+  },
   "CF10726352": {
     "contest_id": 333,
     "language": "GNU C++11",
