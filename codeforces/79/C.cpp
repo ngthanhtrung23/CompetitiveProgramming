@@ -1,82 +1,62 @@
-#pragma comment(linker, "/STACK:16777216")
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
-#include <sstream>
-#include <iomanip>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-const double PI = acos(-1.0);
+string s, b[111];
+vector<int> lefts[100111];
+int best, save;
 
-char s[100111], a[11][20];
-vector<int> ke[100111];
-int n, L;
-
-inline bool check(int left, int right, int k) {
-    int l = strlen(a[k]);
-    int now = left;
-    REP(i,l) {
-        if (a[k][i] != s[now]) return false;
-        now++;
-    }
-    return true;
-}
-
-void match(int left) {
-    FOR(i,1,n) {
-        int l = strlen(a[i]);
-        int right = left + l - 1;
-        if (right >= L) continue;
-        if (check(left, right, i)) {
-//            cout << left << ' ' << right << endl;
-            ke[left].PB(right);
-        }
+void update(int i, int j) {
+    int len = j - i + 1;
+    if (len > best) {
+        best = len;
+        save = i;
     }
 }
 
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    gets(s);
-    scanf("%d\n", &n);
-    FOR(i,1,n) gets(a[i]);
-    
-    L = strlen(s);
-    REP(i,L) {
-        match(i);
-    }
-    
-    int right = L-1, best = 0, save = 0;
-    FORD(i,L-1,0) {
-        REP(x,ke[i].size()) {
-            int u = ke[i][x];
-            right = min(right, u-1);
+    ios :: sync_with_stdio(false);
+    while (cin >> s) {
+        int n; cin >> n;
+        FOR(i,1,n) cin >> b[i];
+
+        REP(i,s.length()) lefts[i].clear();
+
+        multiset<int> bounds;
+        REP(i,s.length()) {
+            FOR(j,1,n)
+                if (b[j].length() <= s.length()-i && s.substr(i, b[j].length()) == b[j]) {
+                    bounds.insert(i + b[j].length()-1);
+                    lefts[i].push_back(i + b[j].length()-1);
+                }
         }
-        if (right - i + 1 > best) {
-            best = right - i + 1;
-            save = i;
+
+        best = 0, save = 0;
+        REP(i,s.length()) {
+            if (bounds.empty()) {
+                int j = s.length() - 1;
+                update(i, j);
+            }
+            else {
+                int j = *bounds.begin() - 1;
+                update(i, j);
+            }
+
+            for(auto x : lefts[i])
+                bounds.erase(bounds.find(x));
         }
+        cout << best << ' ' << save << endl;
     }
-    cout << best << ' ' << save << endl;
     return 0;
 }

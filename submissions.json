@@ -2385,6 +2385,26 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10706115": {
+    "contest_id": 79,
+    "language": "GNU C++11",
+    "path": "codeforces/79/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Beaver",
+    "problem_url": "https://codeforces.com/contest/79/problem/C",
+    "submission_id": "CF10706115",
+    "submission_url": "https://codeforces.com/contest/79/submission/10706115",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "hashing",
+      "strings",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Apr/15/2015 00:17"
+  },
   "CF10720970": {
     "contest_id": 536,
     "language": "GNU C++11",
