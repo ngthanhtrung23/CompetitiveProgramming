@@ -51,9 +51,15 @@ struct Point {
         return Point(x * cosa - y * sina, x * sina + y * cosa);
     }
 };
-double area2(Point a, Point b, Point c) { return a%b + b%c + c%a; }
+double cross(Point p, Point q) { return p.x*q.y-p.y*q.x; }
+double area2(Point a, Point b, Point c) { return cross(a,b) + cross(b,c) + cross(c,a);}
 
-int ccw(Point a, Point b, Point c) { return cmp((b-a)%(c-a),0); }
+int ccw(Point a, Point b, Point c) {
+    double t = cross(b-a, c-a);
+    if (fabs(t) < EPS) return 0;
+    else if (t < 0) return -1;
+    else return 1;
+}
 
 #ifdef REMOVE_REDUNDANT
 bool between(const Point &a, const Point &b, const Point &c) {
@@ -163,4 +169,3 @@ int main() {
     }
     return 0;
 }
-
