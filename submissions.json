@@ -2385,6 +2385,21 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10726352": {
+    "contest_id": 333,
+    "language": "GNU C++11",
+    "path": "codeforces/333/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Secrets",
+    "problem_url": "https://codeforces.com/contest/333/problem/A",
+    "submission_id": "CF10726352",
+    "submission_url": "https://codeforces.com/contest/333/submission/10726352",
+    "tags": [
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Apr/15/2015 12:47"
+  },
   "CF10726881": {
     "contest_id": 333,
     "language": "GNU C++11",
