@@ -2385,6 +2385,21 @@
     ],
     "timestamp": "Apr/06/2015 07:55"
   },
+  "CF10726881": {
+    "contest_id": 333,
+    "language": "GNU C++11",
+    "path": "codeforces/333/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Chips",
+    "problem_url": "https://codeforces.com/contest/333/problem/B",
+    "submission_id": "CF10726881",
+    "submission_url": "https://codeforces.com/contest/333/submission/10726881",
+    "tags": [
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Apr/15/2015 13:57"
+  },
   "CF10747851": {
     "contest_id": 65,
     "language": "GNU C++11",
