@@ -1,58 +1,56 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 using namespace std;
 
-const double PI = acos(-1.0);
+int a[1011], b[1011];
 
-int n, a[1011], res[1011];
+int get(int from, int least) {
+    int res = -1;
+    stringstream ss; ss << from;
+    string s = ss.str();
+
+    REP(pos,4) REP(to,10) {
+        string cur = s;
+        cur[pos] = '0' + to;
+
+        stringstream ss(cur);
+        int x; ss >> x;
+        if (x < least) continue;
+        if (x > 2011) continue;
+
+        if (res < 0) res = x;
+        else res = min(res, x);
+    }
+    return res;
+}
 
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    cin >> n;
-    FOR(i,1,n) cin >> a[i];
-    
-    res[0] = 1000;
-    FOR(i,1,n) {
-        int u = a[i], v;
-        res[i] = 9999;
-        int x = u / 1000, y = (u % 1000) / 100, z = (u % 100) / 10, t = u % 10;
-        FOR(cs,0,9) {
-            v = cs * 1000 + y * 100 + z * 10 + t;
-            if (v >= res[i-1]) res[i] = min(res[i], v);
-            v = x * 1000 + cs * 100 + z * 10 + t;
-            if (v >= res[i-1]) res[i] = min(res[i], v);
-            v = x * 1000 + y * 100 + cs * 10 + t;
-            if (v >= res[i-1]) res[i] = min(res[i], v);
-            v = x * 1000 + y * 100 + z * 10 + cs;
-            if (v >= res[i-1]) res[i] = min(res[i], v);
+    ios :: sync_with_stdio(false);
+    int n;
+    while (cin >> n) {
+        FOR(i,1,n) cin >> a[i];
+        int last = 1000;
+        bool ok = true;
+        FOR(i,1,n) {
+            b[i] = get(a[i], last);
+            last = b[i];
+            if (b[i] < 0) ok = false;
         }
-        if (res[i] == 9999 || res[i] > 2011) {
-            puts("No solution");
-            return 0;
+        if (!ok) cout << "No solution" << endl;
+        else {
+            FOR(i,1,n) cout << b[i] << endl;
         }
     }
-    FOR(i,1,n) printf("%d\n", res[i]);
     return 0;
 }
