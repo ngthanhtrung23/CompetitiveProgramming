@@ -3486,6 +3486,18 @@
     ],
     "timestamp": "Jan/18/2012 23:24"
   },
+  "CF10779848": {
+    "contest_id": 100641,
+    "language": "GNU C++11",
+    "path": "codeforces/100641/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Generalized Roman Numerals",
+    "problem_url": "https://codeforces.com/gym/100641/problem/D",
+    "submission_id": "CF10779848",
+    "submission_url": "https://codeforces.com/gym/100641/submission/10779848",
+    "tags": [],
+    "timestamp": "Apr/19/2015 18:12"
+  },
   "CF10780142": {
     "contest_id": 100641,
     "language": "GNU C++11",
