@@ -3486,6 +3486,18 @@
     ],
     "timestamp": "Jan/18/2012 23:24"
   },
+  "CF10778114": {
+    "contest_id": 100641,
+    "language": "GNU C++11",
+    "path": "codeforces/100641/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Domiyahtzee!",
+    "problem_url": "https://codeforces.com/gym/100641/problem/C",
+    "submission_id": "CF10778114",
+    "submission_url": "https://codeforces.com/gym/100641/submission/10778114",
+    "tags": [],
+    "timestamp": "Apr/19/2015 15:48"
+  },
   "CF10778901": {
     "contest_id": 100641,
     "language": "GNU C++11",
