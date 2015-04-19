@@ -3486,6 +3486,18 @@
     ],
     "timestamp": "Jan/18/2012 23:24"
   },
+  "CF10778901": {
+    "contest_id": 100641,
+    "language": "GNU C++11",
+    "path": "codeforces/100641/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Continued Fractions",
+    "problem_url": "https://codeforces.com/gym/100641/problem/A",
+    "submission_id": "CF10778901",
+    "submission_url": "https://codeforces.com/gym/100641/submission/10778901",
+    "tags": [],
+    "timestamp": "Apr/19/2015 16:42"
+  },
   "CF10779640": {
     "contest_id": 100641,
     "language": "GNU C++11",
