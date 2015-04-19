@@ -3486,6 +3486,18 @@
     ],
     "timestamp": "Jan/18/2012 23:24"
   },
+  "CF10780142": {
+    "contest_id": 100641,
+    "language": "GNU C++11",
+    "path": "codeforces/100641/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Inspectors",
+    "problem_url": "https://codeforces.com/gym/100641/problem/E",
+    "submission_id": "CF10780142",
+    "submission_url": "https://codeforces.com/gym/100641/submission/10780142",
+    "tags": [],
+    "timestamp": "Apr/19/2015 18:42"
+  },
   "CF10780788": {
     "contest_id": 100641,
     "language": "GNU C++11",
