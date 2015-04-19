@@ -3486,6 +3486,18 @@
     ],
     "timestamp": "Jan/18/2012 23:24"
   },
+  "CF10780788": {
+    "contest_id": 100641,
+    "language": "GNU C++11",
+    "path": "codeforces/100641/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Path of Least Persistence",
+    "problem_url": "https://codeforces.com/gym/100641/problem/F",
+    "submission_id": "CF10780788",
+    "submission_url": "https://codeforces.com/gym/100641/submission/10780788",
+    "tags": [],
+    "timestamp": "Apr/19/2015 19:53"
+  },
   "CF1078368": {
     "contest_id": 144,
     "language": "GNU C++",
