@@ -3486,6 +3486,18 @@
     ],
     "timestamp": "Jan/18/2012 23:24"
   },
+  "CF10777718": {
+    "contest_id": 100641,
+    "language": "GNU C++11",
+    "path": "codeforces/100641/B.cpp",
+    "problem_index": "B",
+    "problem_name": "A Cure for the Common Code",
+    "problem_url": "https://codeforces.com/gym/100641/problem/B",
+    "submission_id": "CF10777718",
+    "submission_url": "https://codeforces.com/gym/100641/submission/10777718",
+    "tags": [],
+    "timestamp": "Apr/19/2015 15:18"
+  },
   "CF10778114": {
     "contest_id": 100641,
     "language": "GNU C++11",
