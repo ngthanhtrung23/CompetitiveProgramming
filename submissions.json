@@ -2465,6 +2465,24 @@
     ],
     "timestamp": "Jan/19/2012 01:52"
   },
+  "CF10887932": {
+    "contest_id": 538,
+    "language": "GNU C++11",
+    "path": "codeforces/538/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Demiurges Play Again",
+    "problem_url": "https://codeforces.com/contest/538/problem/E",
+    "submission_id": "CF10887932",
+    "submission_url": "https://codeforces.com/contest/538/submission/10887932",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Apr/27/2015 01:12"
+  },
   "CF10894815": {
     "contest_id": 538,
     "language": "GNU C++11",
