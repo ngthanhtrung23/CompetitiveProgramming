@@ -3641,6 +3641,18 @@
     ],
     "timestamp": "Apr/27/2015 02:13"
   },
+  "CF10910886": {
+    "contest_id": 100676,
+    "language": "GNU C++11",
+    "path": "codeforces/100676/B.cpp",
+    "problem_index": "B",
+    "problem_name": "B. Three Angles",
+    "problem_url": "https://codeforces.com/gym/100676/problem/B",
+    "submission_id": "CF10910886",
+    "submission_url": "https://codeforces.com/gym/100676/submission/10910886",
+    "tags": [],
+    "timestamp": "Apr/27/2015 23:50"
+  },
   "CF10910928": {
     "contest_id": 100676,
     "language": "GNU C++11",
