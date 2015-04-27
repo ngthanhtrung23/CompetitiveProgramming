@@ -3641,6 +3641,18 @@
     ],
     "timestamp": "Apr/27/2015 02:13"
   },
+  "CF10910967": {
+    "contest_id": 100676,
+    "language": "GNU C++11",
+    "path": "codeforces/100676/D.cpp",
+    "problem_index": "D",
+    "problem_name": "D. Sudoku",
+    "problem_url": "https://codeforces.com/gym/100676/problem/D",
+    "submission_id": "CF10910967",
+    "submission_url": "https://codeforces.com/gym/100676/submission/10910967",
+    "tags": [],
+    "timestamp": "Apr/27/2015 23:56"
+  },
   "CF10911008": {
     "contest_id": 100676,
     "language": "GNU C++11",
