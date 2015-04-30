@@ -2465,6 +2465,24 @@
     ],
     "timestamp": "Jan/19/2012 01:52"
   },
+  "CF10939111": {
+    "contest_id": 232,
+    "language": "GNU C++11",
+    "path": "codeforces/232/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Table",
+    "problem_url": "https://codeforces.com/contest/232/problem/B",
+    "submission_id": "CF10939111",
+    "submission_url": "https://codeforces.com/contest/232/submission/10939111",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Apr/30/2015 22:10"
+  },
   "CF10939215": {
     "contest_id": 233,
     "language": "GNU C++11",
