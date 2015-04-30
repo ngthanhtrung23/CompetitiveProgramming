@@ -2465,6 +2465,22 @@
     ],
     "timestamp": "Jan/19/2012 01:52"
   },
+  "CF10941356": {
+    "contest_id": 540,
+    "language": "GNU C++11",
+    "path": "codeforces/540/B.cpp",
+    "problem_index": "B",
+    "problem_name": "School Marks",
+    "problem_url": "https://codeforces.com/contest/540/problem/B",
+    "submission_id": "CF10941356",
+    "submission_url": "https://codeforces.com/contest/540/submission/10941356",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "May/01/2015 00:37"
+  },
   "CF10943485": {
     "contest_id": 540,
     "language": "GNU C++11",
