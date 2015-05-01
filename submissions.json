@@ -2465,6 +2465,23 @@
     ],
     "timestamp": "Jan/19/2012 01:52"
   },
+  "CF10960349": {
+    "contest_id": 232,
+    "language": "GNU C++11",
+    "path": "codeforces/232/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Fence",
+    "problem_url": "https://codeforces.com/contest/232/problem/D",
+    "submission_id": "CF10960349",
+    "submission_url": "https://codeforces.com/contest/232/submission/10960349",
+    "tags": [
+      "binary search",
+      "data structures",
+      "string suffix structures",
+      "*2900"
+    ],
+    "timestamp": "May/01/2015 14:43"
+  },
   "CF10966433": {
     "contest_id": 260,
     "language": "GNU C++11",
