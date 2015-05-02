@@ -1,4 +1,20 @@
 {
+  "CF10975847": {
+    "contest_id": 360,
+    "language": "GNU C++11",
+    "path": "codeforces/360/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Levko and Strings",
+    "problem_url": "https://codeforces.com/contest/360/problem/C",
+    "submission_id": "CF10975847",
+    "submission_url": "https://codeforces.com/contest/360/submission/10975847",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "May/02/2015 23:12"
+  },
   "CF10983124": {
     "contest_id": 512,
     "language": "GNU C++11",
