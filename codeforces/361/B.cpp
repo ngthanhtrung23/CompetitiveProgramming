@@ -1,36 +1,30 @@
 
 #include <bits/stdc++.h>
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
-#define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
 
-#define DEBUG(X) { cout << #X << " = " << X << endl; }
-#define PR(A,n)  { cout << #A << " = "; FOR(_,1,n) cout << A[_] << ' '; cout << endl; }
-#define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
 
 #define sqr(x) ((x) * (x))
-#define ll long long
-#define SZ(x) ((int) (x).size())
 using namespace std;
 
-const int MN = 100111;
-int n, k;
-int a[MN];
-
 int main() {
-    ios :: sync_with_stdio(0); cin.tie(0);
+    ios :: sync_with_stdio(false);
+    int n, k;
     while (cin >> n >> k) {
-        if (n == k) {
-            cout << -1 << endl;
-            continue;
+        if (k == n) cout << -1 << endl;
+        else {
+            vector<int> res;
+            res.push_back(n-k);
+            FOR(i,1,n-k-1) res.push_back(i);
+            FOR(i,n-k+1,n) res.push_back(i);
+            for(int x : res) cout << x << ' '; cout << endl;
         }
-        FOR(i,n-k+1,n) a[i] = i;
-        int bound = n - k;
-        FOR(i,1,bound) {
-            int j = i + 1;
-            if (j > bound) j = 1;
-            a[i] = j;
-        }
-        FOR(i,1,n) cout << a[i] << ' '; cout << endl;
     }
+    return 0;
 }

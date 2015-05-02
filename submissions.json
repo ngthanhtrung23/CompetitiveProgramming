@@ -1,4 +1,21 @@
 {
+  "CF10972665": {
+    "contest_id": 361,
+    "language": "GNU C++11",
+    "path": "codeforces/361/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Levko and Permutation",
+    "problem_url": "https://codeforces.com/contest/361/problem/B",
+    "submission_id": "CF10972665",
+    "submission_url": "https://codeforces.com/contest/361/submission/10972665",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "May/02/2015 17:32"
+  },
   "CF10972755": {
     "contest_id": 361,
     "language": "GNU C++11",
