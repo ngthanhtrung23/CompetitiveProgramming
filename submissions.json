@@ -3859,6 +3859,18 @@
     ],
     "timestamp": "May/02/2015 02:07"
   },
+  "CF10971827": {
+    "contest_id": 100650,
+    "language": "GNU C++11",
+    "path": "codeforces/100650/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Swamp Things",
+    "problem_url": "https://codeforces.com/gym/100650/problem/G",
+    "submission_id": "CF10971827",
+    "submission_url": "https://codeforces.com/gym/100650/submission/10971827",
+    "tags": [],
+    "timestamp": "May/02/2015 16:20"
+  },
   "CF10971920": {
     "contest_id": 100650,
     "language": "GNU C++11",
