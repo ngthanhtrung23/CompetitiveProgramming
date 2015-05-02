@@ -3859,6 +3859,18 @@
     ],
     "timestamp": "May/02/2015 02:07"
   },
+  "CF10971690": {
+    "contest_id": 100650,
+    "language": "GNU C++11",
+    "path": "codeforces/100650/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Countdown",
+    "problem_url": "https://codeforces.com/gym/100650/problem/B",
+    "submission_id": "CF10971690",
+    "submission_url": "https://codeforces.com/gym/100650/submission/10971690",
+    "tags": [],
+    "timestamp": "May/02/2015 16:04"
+  },
   "CF10971739": {
     "contest_id": 100650,
     "language": "GNU C++11",
