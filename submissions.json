@@ -1,4 +1,20 @@
 {
+  "CF10973260": {
+    "contest_id": 360,
+    "language": "GNU C++11",
+    "path": "codeforces/360/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Levko and Array",
+    "problem_url": "https://codeforces.com/contest/360/problem/B",
+    "submission_id": "CF10973260",
+    "submission_url": "https://codeforces.com/contest/360/submission/10973260",
+    "tags": [
+      "binary search",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "May/02/2015 18:33"
+  },
   "CF10975847": {
     "contest_id": 360,
     "language": "GNU C++11",
