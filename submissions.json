@@ -1,4 +1,21 @@
 {
+  "CF10989099": {
+    "contest_id": 542,
+    "language": "GNU C++11",
+    "path": "codeforces/542/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Idempotent functions",
+    "problem_url": "https://codeforces.com/contest/542/problem/C",
+    "submission_id": "CF10989099",
+    "submission_url": "https://codeforces.com/contest/542/submission/10989099",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "May/04/2015 02:20"
+  },
   "CF10989829": {
     "contest_id": 542,
     "language": "GNU C++11",
