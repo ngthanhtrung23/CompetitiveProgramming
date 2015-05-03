@@ -1,4 +1,20 @@
 {
+  "CF10988445": {
+    "contest_id": 542,
+    "language": "GNU C++11",
+    "path": "codeforces/542/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Place Your Ad Here",
+    "problem_url": "https://codeforces.com/contest/542/problem/A",
+    "submission_id": "CF10988445",
+    "submission_url": "https://codeforces.com/contest/542/submission/10988445",
+    "tags": [
+      "data structures",
+      "sortings",
+      "*2400"
+    ],
+    "timestamp": "May/04/2015 01:59"
+  },
   "CF10989099": {
     "contest_id": 542,
     "language": "GNU C++11",
