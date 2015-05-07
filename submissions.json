@@ -1,4 +1,20 @@
 {
+  "CF11032118": {
+    "contest_id": 543,
+    "language": "GNU C++11",
+    "path": "codeforces/543/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Remembering Strings",
+    "problem_url": "https://codeforces.com/contest/543/problem/C",
+    "submission_id": "CF11032118",
+    "submission_url": "https://codeforces.com/contest/543/submission/11032118",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "May/08/2015 02:16"
+  },
   "CF11033395": {
     "contest_id": 543,
     "language": "GNU C++11",
