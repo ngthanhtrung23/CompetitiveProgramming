@@ -1,4 +1,19 @@
 {
+  "CF11023270": {
+    "contest_id": 543,
+    "language": "GNU C++11",
+    "path": "codeforces/543/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Writing Code",
+    "problem_url": "https://codeforces.com/contest/543/problem/A",
+    "submission_id": "CF11023270",
+    "submission_url": "https://codeforces.com/contest/543/submission/11023270",
+    "tags": [
+      "dp",
+      "*1800"
+    ],
+    "timestamp": "May/08/2015 00:42"
+  },
   "CF11032118": {
     "contest_id": 543,
     "language": "GNU C++11",
