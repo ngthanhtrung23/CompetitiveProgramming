@@ -1,4 +1,20 @@
 {
+  "CF11035855": {
+    "contest_id": 544,
+    "language": "GNU C++11",
+    "path": "codeforces/544/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Set of Strings",
+    "problem_url": "https://codeforces.com/contest/544/problem/A",
+    "submission_id": "CF11035855",
+    "submission_url": "https://codeforces.com/contest/544/submission/11035855",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "May/08/2015 04:42"
+  },
   "CF11035881": {
     "contest_id": 544,
     "language": "GNU C++11",
