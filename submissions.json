@@ -1,4 +1,21 @@
 {
+  "CF11090647": {
+    "contest_id": 195,
+    "language": "GNU C++11",
+    "path": "codeforces/195/B.cpp",
+    "problem_index": "B",
+    "problem_name": "After Training",
+    "problem_url": "https://codeforces.com/contest/195/problem/B",
+    "submission_id": "CF11090647",
+    "submission_url": "https://codeforces.com/contest/195/submission/11090647",
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "May/13/2015 23:56"
+  },
   "CF11090735": {
     "contest_id": 195,
     "language": "GNU C++11",
