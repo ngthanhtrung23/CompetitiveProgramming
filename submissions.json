@@ -1,4 +1,21 @@
 {
+  "CF11090783": {
+    "contest_id": 195,
+    "language": "GNU C++11",
+    "path": "codeforces/195/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Analyzing Polyline",
+    "problem_url": "https://codeforces.com/contest/195/problem/D",
+    "submission_id": "CF11090783",
+    "submission_url": "https://codeforces.com/contest/195/submission/11090783",
+    "tags": [
+      "geometry",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "May/14/2015 00:10"
+  },
   "CF11090923": {
     "contest_id": 195,
     "language": "GNU C++11",
