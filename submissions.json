@@ -1,4 +1,20 @@
 {
+  "CF11087730": {
+    "contest_id": 343,
+    "language": "GNU C++11",
+    "path": "codeforces/343/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Rational Resistance",
+    "problem_url": "https://codeforces.com/contest/343/problem/A",
+    "submission_id": "CF11087730",
+    "submission_url": "https://codeforces.com/contest/343/submission/11087730",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "May/13/2015 19:25"
+  },
   "CF11089866": {
     "contest_id": 314,
     "language": "GNU C++11",
