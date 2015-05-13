@@ -1,4 +1,21 @@
 {
+  "CF11090560": {
+    "contest_id": 195,
+    "language": "GNU C++11",
+    "path": "codeforces/195/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Let's Watch Football",
+    "problem_url": "https://codeforces.com/contest/195/problem/A",
+    "submission_id": "CF11090560",
+    "submission_url": "https://codeforces.com/contest/195/submission/11090560",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "May/13/2015 23:48"
+  },
   "CF11090647": {
     "contest_id": 195,
     "language": "GNU C++11",
