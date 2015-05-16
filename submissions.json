@@ -1,4 +1,22 @@
 {
+  "CF11115230": {
+    "contest_id": 370,
+    "language": "GNU C++11",
+    "path": "codeforces/370/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Broken Monitor",
+    "problem_url": "https://codeforces.com/contest/370/problem/D",
+    "submission_id": "CF11115230",
+    "submission_url": "https://codeforces.com/contest/370/submission/11115230",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "May/16/2015 17:01"
+  },
   "CF11146978": {
     "contest_id": 545,
     "language": "GNU C++11",
