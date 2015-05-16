@@ -1,4 +1,19 @@
 {
+  "CF11114443": {
+    "contest_id": 370,
+    "language": "GNU C++11",
+    "path": "codeforces/370/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Berland Bingo",
+    "problem_url": "https://codeforces.com/contest/370/problem/B",
+    "submission_id": "CF11114443",
+    "submission_url": "https://codeforces.com/contest/370/submission/11114443",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/16/2015 15:44"
+  },
   "CF11114959": {
     "contest_id": 370,
     "language": "GNU C++11",
