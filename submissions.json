@@ -1,4 +1,21 @@
 {
+  "CF11193581": {
+    "contest_id": 167,
+    "language": "GNU C++11",
+    "path": "codeforces/167/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Wizards and Huge Prize",
+    "problem_url": "https://codeforces.com/contest/167/problem/B",
+    "submission_id": "CF11193581",
+    "submission_url": "https://codeforces.com/contest/167/submission/11193581",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*1800"
+    ],
+    "timestamp": "May/22/2015 01:50"
+  },
   "CF11194207": {
     "contest_id": 167,
     "language": "GNU C++11",
