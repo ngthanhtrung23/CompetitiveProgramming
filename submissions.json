@@ -1,4 +1,22 @@
 {
+  "CF11195195": {
+    "contest_id": 167,
+    "language": "GNU C++11",
+    "path": "codeforces/167/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Wizards and Bets",
+    "problem_url": "https://codeforces.com/contest/167/problem/E",
+    "submission_id": "CF11195195",
+    "submission_url": "https://codeforces.com/contest/167/submission/11195195",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "math",
+      "matrices",
+      "*2900"
+    ],
+    "timestamp": "May/22/2015 04:26"
+  },
   "CF11197172": {
     "contest_id": 186,
     "language": "GNU C++11",
