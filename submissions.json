@@ -1,4 +1,19 @@
 {
+  "CF11224910": {
+    "contest_id": 82,
+    "language": "GNU C++11",
+    "path": "codeforces/82/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Two out of Three",
+    "problem_url": "https://codeforces.com/contest/82/problem/D",
+    "submission_id": "CF11224910",
+    "submission_url": "https://codeforces.com/contest/82/submission/11224910",
+    "tags": [
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "May/23/2015 03:06"
+  },
   "CF11224935": {
     "contest_id": 546,
     "language": "GNU C++11",
