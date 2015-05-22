@@ -1,4 +1,20 @@
 {
+  "CF11197197": {
+    "contest_id": 108,
+    "language": "GNU C++11",
+    "path": "codeforces/108/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Palindromic Times",
+    "problem_url": "https://codeforces.com/contest/108/problem/A",
+    "submission_id": "CF11197197",
+    "submission_url": "https://codeforces.com/contest/108/submission/11197197",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "May/22/2015 12:07"
+  },
   "CF11197229": {
     "contest_id": 108,
     "language": "GNU C++11",
