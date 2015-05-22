@@ -1,4 +1,21 @@
 {
+  "CF11204800": {
+    "contest_id": 82,
+    "language": "GNU C++11",
+    "path": "codeforces/82/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sets",
+    "problem_url": "https://codeforces.com/contest/82/problem/B",
+    "submission_id": "CF11204800",
+    "submission_url": "https://codeforces.com/contest/82/submission/11204800",
+    "tags": [
+      "constructive algorithms",
+      "hashing",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "May/23/2015 00:18"
+  },
   "CF11219696": {
     "contest_id": 82,
     "language": "GNU C++11",
