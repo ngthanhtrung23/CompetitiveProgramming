@@ -1,4 +1,22 @@
 {
+  "CF11224935": {
+    "contest_id": 546,
+    "language": "GNU C++11",
+    "path": "codeforces/546/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Soldier and Number Game",
+    "problem_url": "https://codeforces.com/contest/546/problem/D",
+    "submission_id": "CF11224935",
+    "submission_url": "https://codeforces.com/contest/546/submission/11224935",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "May/23/2015 03:06"
+  },
   "CF11225089": {
     "contest_id": 546,
     "language": "GNU C++11",
