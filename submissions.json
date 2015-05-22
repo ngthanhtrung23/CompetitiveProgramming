@@ -1,4 +1,21 @@
 {
+  "CF11224681": {
+    "contest_id": 546,
+    "language": "GNU C++11",
+    "path": "codeforces/546/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Soldier and Bananas",
+    "problem_url": "https://codeforces.com/contest/546/problem/A",
+    "submission_id": "CF11224681",
+    "submission_url": "https://codeforces.com/contest/546/submission/11224681",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/23/2015 03:02"
+  },
   "CF11224719": {
     "contest_id": 546,
     "language": "GNU C++11",
