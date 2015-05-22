@@ -1,4 +1,21 @@
 {
+  "CF11199369": {
+    "contest_id": 293,
+    "language": "GNU C++11",
+    "path": "codeforces/293/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Cube Problem",
+    "problem_url": "https://codeforces.com/contest/293/problem/C",
+    "submission_id": "CF11199369",
+    "submission_url": "https://codeforces.com/contest/293/submission/11199369",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "May/22/2015 17:12"
+  },
   "CF11204171": {
     "contest_id": 222,
     "language": "GNU C++11",
