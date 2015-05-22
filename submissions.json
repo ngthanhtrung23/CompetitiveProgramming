@@ -1,4 +1,21 @@
 {
+  "CF11219696": {
+    "contest_id": 82,
+    "language": "GNU C++11",
+    "path": "codeforces/82/C.cpp",
+    "problem_index": "C",
+    "problem_name": "General Mobilization",
+    "problem_url": "https://codeforces.com/contest/82/problem/C",
+    "submission_id": "CF11219696",
+    "submission_url": "https://codeforces.com/contest/82/submission/11219696",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "May/23/2015 01:47"
+  },
   "CF11224681": {
     "contest_id": 546,
     "language": "GNU C++11",
