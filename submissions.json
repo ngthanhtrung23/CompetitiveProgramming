@@ -1,4 +1,22 @@
 {
+  "CF11204320": {
+    "contest_id": 222,
+    "language": "GNU C++11",
+    "path": "codeforces/222/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Reducing Fractions",
+    "problem_url": "https://codeforces.com/contest/222/problem/C",
+    "submission_id": "CF11204320",
+    "submission_url": "https://codeforces.com/contest/222/submission/11204320",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "May/22/2015 23:42"
+  },
   "CF11204423": {
     "contest_id": 222,
     "language": "GNU C++11",
