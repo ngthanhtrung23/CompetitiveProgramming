@@ -1,4 +1,20 @@
 {
+  "CF11197292": {
+    "contest_id": 304,
+    "language": "Java 8",
+    "path": "codeforces/304/B.java",
+    "problem_index": "B",
+    "problem_name": "Calendar",
+    "problem_url": "https://codeforces.com/contest/304/problem/B",
+    "submission_id": "CF11197292",
+    "submission_url": "https://codeforces.com/contest/304/submission/11197292",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/22/2015 12:21"
+  },
   "CF11197309": {
     "contest_id": 289,
     "language": "GNU C++11",
