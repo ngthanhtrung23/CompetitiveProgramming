@@ -1,4 +1,19 @@
 {
+  "CF11233793": {
+    "contest_id": 82,
+    "language": "GNU C++11",
+    "path": "codeforces/82/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Corridor",
+    "problem_url": "https://codeforces.com/contest/82/problem/E",
+    "submission_id": "CF11233793",
+    "submission_url": "https://codeforces.com/contest/82/submission/11233793",
+    "tags": [
+      "geometry",
+      "*2600"
+    ],
+    "timestamp": "May/23/2015 14:45"
+  },
   "CF11246049": {
     "contest_id": 88,
     "language": "GNU C++11",
