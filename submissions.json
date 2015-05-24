@@ -5618,6 +5618,18 @@
     ],
     "timestamp": "May/24/2015 15:20"
   },
+  "CF11248199": {
+    "contest_id": 100687,
+    "language": "GNU C++11",
+    "path": "codeforces/100687/J.cpp",
+    "problem_index": "J",
+    "problem_name": "ACM Student Chapter (B)",
+    "problem_url": "https://codeforces.com/gym/100687/problem/J",
+    "submission_id": "CF11248199",
+    "submission_url": "https://codeforces.com/gym/100687/submission/11248199",
+    "tags": [],
+    "timestamp": "May/24/2015 16:10"
+  },
   "CF11248277": {
     "contest_id": 100687,
     "language": "GNU C++11",
