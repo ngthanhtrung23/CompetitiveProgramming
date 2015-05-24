@@ -1,4 +1,20 @@
 {
+  "CF11246049": {
+    "contest_id": 88,
+    "language": "GNU C++11",
+    "path": "codeforces/88/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Chord",
+    "problem_url": "https://codeforces.com/contest/88/problem/A",
+    "submission_id": "CF11246049",
+    "submission_url": "https://codeforces.com/contest/88/submission/11246049",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "May/24/2015 13:22"
+  },
   "CF11246187": {
     "contest_id": 88,
     "language": "GNU C++11",
