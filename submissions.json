@@ -5618,6 +5618,18 @@
     ],
     "timestamp": "May/24/2015 15:20"
   },
+  "CF11248277": {
+    "contest_id": 100687,
+    "language": "GNU C++11",
+    "path": "codeforces/100687/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Snake (A)",
+    "problem_url": "https://codeforces.com/gym/100687/problem/K",
+    "submission_id": "CF11248277",
+    "submission_url": "https://codeforces.com/gym/100687/submission/11248277",
+    "tags": [],
+    "timestamp": "May/24/2015 16:15"
+  },
   "CF11248916": {
     "contest_id": 100687,
     "language": "GNU C++11",
