@@ -5618,6 +5618,18 @@
     ],
     "timestamp": "May/24/2015 15:20"
   },
+  "CF11247873": {
+    "contest_id": 100687,
+    "language": "GNU C++11",
+    "path": "codeforces/100687/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Forming Teams (A)",
+    "problem_url": "https://codeforces.com/gym/100687/problem/C",
+    "submission_id": "CF11247873",
+    "submission_url": "https://codeforces.com/gym/100687/submission/11247873",
+    "tags": [],
+    "timestamp": "May/24/2015 15:45"
+  },
   "CF11247943": {
     "contest_id": 100687,
     "language": "GNU C++11",
