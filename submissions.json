@@ -5618,6 +5618,18 @@
     ],
     "timestamp": "May/24/2015 15:20"
   },
+  "CF11249054": {
+    "contest_id": 100687,
+    "language": "GNU C++11",
+    "path": "codeforces/100687/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Proficiency Test (B)",
+    "problem_url": "https://codeforces.com/gym/100687/problem/F",
+    "submission_id": "CF11249054",
+    "submission_url": "https://codeforces.com/gym/100687/submission/11249054",
+    "tags": [],
+    "timestamp": "May/24/2015 17:03"
+  },
   "CF11266440": {
     "contest_id": 7,
     "language": "GNU C++11",
