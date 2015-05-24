@@ -5618,6 +5618,18 @@
     ],
     "timestamp": "May/24/2015 15:20"
   },
+  "CF11248048": {
+    "contest_id": 100687,
+    "language": "GNU C++11",
+    "path": "codeforces/100687/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Graduation Projects (B)",
+    "problem_url": "https://codeforces.com/gym/100687/problem/H",
+    "submission_id": "CF11248048",
+    "submission_url": "https://codeforces.com/gym/100687/submission/11248048",
+    "tags": [],
+    "timestamp": "May/24/2015 16:00"
+  },
   "CF11248199": {
     "contest_id": 100687,
     "language": "GNU C++11",
