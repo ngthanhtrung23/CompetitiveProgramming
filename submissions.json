@@ -5618,6 +5618,18 @@
     ],
     "timestamp": "May/24/2015 15:20"
   },
+  "CF11247652": {
+    "contest_id": 100687,
+    "language": "GNU C++11",
+    "path": "codeforces/100687/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bad Printer (A)",
+    "problem_url": "https://codeforces.com/gym/100687/problem/A",
+    "submission_id": "CF11247652",
+    "submission_url": "https://codeforces.com/gym/100687/submission/11247652",
+    "tags": [],
+    "timestamp": "May/24/2015 15:31"
+  },
   "CF11247795": {
     "contest_id": 100687,
     "language": "GNU C++11",
