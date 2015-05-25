@@ -1,4 +1,19 @@
 {
+  "CF11266440": {
+    "contest_id": 7,
+    "language": "GNU C++11",
+    "path": "codeforces/7/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Memory Manager",
+    "problem_url": "https://codeforces.com/contest/7/problem/B",
+    "submission_id": "CF11266440",
+    "submission_url": "https://codeforces.com/contest/7/submission/11266440",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "May/25/2015 22:45"
+  },
   "CF11266731": {
     "contest_id": 7,
     "language": "GNU C++11",
