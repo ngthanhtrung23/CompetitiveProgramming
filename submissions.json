@@ -1,4 +1,20 @@
 {
+  "CF11268574": {
+    "contest_id": 7,
+    "language": "GNU C++11",
+    "path": "codeforces/7/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Palindrome Degree",
+    "problem_url": "https://codeforces.com/contest/7/problem/D",
+    "submission_id": "CF11268574",
+    "submission_url": "https://codeforces.com/contest/7/submission/11268574",
+    "tags": [
+      "hashing",
+      "strings",
+      "*2200"
+    ],
+    "timestamp": "May/26/2015 01:49"
+  },
   "CF11269366": {
     "contest_id": 129,
     "language": "GNU C++11",
