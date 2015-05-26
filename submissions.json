@@ -1,4 +1,22 @@
 {
+  "CF11307356": {
+    "contest_id": 548,
+    "language": "GNU C++11",
+    "path": "codeforces/548/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Mike and Fun",
+    "problem_url": "https://codeforces.com/contest/548/problem/B",
+    "submission_id": "CF11307356",
+    "submission_url": "https://codeforces.com/contest/548/submission/11307356",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "May/27/2015 03:23"
+  },
   "CF11307610": {
     "contest_id": 547,
     "language": "GNU C++11",
