@@ -1,4 +1,22 @@
 {
+  "CF11281442": {
+    "contest_id": 274,
+    "language": "GNU C++11",
+    "path": "codeforces/274/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Zero Tree",
+    "problem_url": "https://codeforces.com/contest/274/problem/B",
+    "submission_id": "CF11281442",
+    "submission_url": "https://codeforces.com/contest/274/submission/11281442",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "May/27/2015 00:25"
+  },
   "CF11282299": {
     "contest_id": 547,
     "language": "GNU C++11",
