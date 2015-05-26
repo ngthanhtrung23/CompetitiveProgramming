@@ -1,4 +1,21 @@
 {
+  "CF11306148": {
+    "contest_id": 548,
+    "language": "GNU C++11",
+    "path": "codeforces/548/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Mike and Fax",
+    "problem_url": "https://codeforces.com/contest/548/problem/A",
+    "submission_id": "CF11306148",
+    "submission_url": "https://codeforces.com/contest/548/submission/11306148",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "May/27/2015 03:04"
+  },
   "CF11307356": {
     "contest_id": 548,
     "language": "GNU C++11",
