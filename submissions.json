@@ -1,4 +1,19 @@
 {
+  "CF11344555": {
+    "contest_id": 14,
+    "language": "GNU C++11",
+    "path": "codeforces/14/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Young Photographer",
+    "problem_url": "https://codeforces.com/contest/14/problem/B",
+    "submission_id": "CF11344555",
+    "submission_url": "https://codeforces.com/contest/14/submission/11344555",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "May/29/2015 19:22"
+  },
   "CF11344597": {
     "contest_id": 14,
     "language": "GNU C++11",
