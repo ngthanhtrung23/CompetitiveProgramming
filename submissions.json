@@ -1,4 +1,19 @@
 {
+  "CF11344597": {
+    "contest_id": 14,
+    "language": "GNU C++11",
+    "path": "codeforces/14/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Letter",
+    "problem_url": "https://codeforces.com/contest/14/problem/A",
+    "submission_id": "CF11344597",
+    "submission_url": "https://codeforces.com/contest/14/submission/11344597",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/29/2015 19:25"
+  },
   "CF11445386": {
     "contest_id": 550,
     "language": "GNU C++11",
