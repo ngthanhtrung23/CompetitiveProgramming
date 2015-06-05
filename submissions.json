@@ -1,4 +1,20 @@
 {
+  "CF11445507": {
+    "contest_id": 550,
+    "language": "GNU C++11",
+    "path": "codeforces/550/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Preparing Olympiad",
+    "problem_url": "https://codeforces.com/contest/550/problem/B",
+    "submission_id": "CF11445507",
+    "submission_url": "https://codeforces.com/contest/550/submission/11445507",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "*1400"
+    ],
+    "timestamp": "Jun/05/2015 19:50"
+  },
   "CF11445611": {
     "contest_id": 550,
     "language": "GNU C++11",
