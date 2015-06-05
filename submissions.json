@@ -1,4 +1,21 @@
 {
+  "CF11445611": {
+    "contest_id": 550,
+    "language": "GNU C++11",
+    "path": "codeforces/550/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Divisibility by Eight",
+    "problem_url": "https://codeforces.com/contest/550/problem/C",
+    "submission_id": "CF11445611",
+    "submission_url": "https://codeforces.com/contest/550/submission/11445611",
+    "tags": [
+      "brute force",
+      "dp",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jun/05/2015 19:57"
+  },
   "CF11490568": {
     "contest_id": 550,
     "language": "GNU C++11",
