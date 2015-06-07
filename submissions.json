@@ -1,4 +1,22 @@
 {
+  "CF11490568": {
+    "contest_id": 550,
+    "language": "GNU C++11",
+    "path": "codeforces/550/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Brackets in Implications",
+    "problem_url": "https://codeforces.com/contest/550/problem/E",
+    "submission_id": "CF11490568",
+    "submission_url": "https://codeforces.com/contest/550/submission/11490568",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Jun/08/2015 01:51"
+  },
   "CF11544093": {
     "contest_id": 550,
     "language": "GNU C++11",
