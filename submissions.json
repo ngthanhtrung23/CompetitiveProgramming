@@ -1,4 +1,21 @@
 {
+  "CF11544093": {
+    "contest_id": 550,
+    "language": "GNU C++11",
+    "path": "codeforces/550/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Regular Bridge",
+    "problem_url": "https://codeforces.com/contest/550/problem/D",
+    "submission_id": "CF11544093",
+    "submission_url": "https://codeforces.com/contest/550/submission/11544093",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Jun/12/2015 21:25"
+  },
   "CF11565274": {
     "contest_id": 551,
     "language": "GNU C++11",
