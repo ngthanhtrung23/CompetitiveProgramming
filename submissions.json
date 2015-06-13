@@ -1,4 +1,22 @@
 {
+  "CF11565363": {
+    "contest_id": 551,
+    "language": "GNU C++11",
+    "path": "codeforces/551/B.cpp",
+    "problem_index": "B",
+    "problem_name": "ZgukistringZ",
+    "problem_url": "https://codeforces.com/contest/551/problem/B",
+    "submission_id": "CF11565363",
+    "submission_url": "https://codeforces.com/contest/551/submission/11565363",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Jun/13/2015 16:52"
+  },
   "CF11565767": {
     "contest_id": 551,
     "language": "GNU C++11",
