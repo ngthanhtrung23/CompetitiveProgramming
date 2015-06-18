@@ -1,4 +1,24 @@
 {
+  "CF11644675": {
+    "contest_id": 552,
+    "language": "GNU C++11",
+    "path": "codeforces/552/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Vanya and Brackets",
+    "problem_url": "https://codeforces.com/contest/552/problem/E",
+    "submission_id": "CF11644675",
+    "submission_url": "https://codeforces.com/contest/552/submission/11644675",
+    "tags": [
+      "brute force",
+      "dp",
+      "expression parsing",
+      "greedy",
+      "implementation",
+      "strings",
+      "*2100"
+    ],
+    "timestamp": "Jun/19/2015 01:18"
+  },
   "CF11739212": {
     "contest_id": 553,
     "language": "GNU C++11",
