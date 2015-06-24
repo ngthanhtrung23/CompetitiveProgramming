@@ -1,4 +1,21 @@
 {
+  "CF11750845": {
+    "contest_id": 554,
+    "language": "GNU C++11",
+    "path": "codeforces/554/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Kyoya and Photobooks",
+    "problem_url": "https://codeforces.com/contest/554/problem/A",
+    "submission_id": "CF11750845",
+    "submission_url": "https://codeforces.com/contest/554/submission/11750845",
+    "tags": [
+      "brute force",
+      "math",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Jun/25/2015 03:22"
+  },
   "CF11751008": {
     "contest_id": 554,
     "language": "GNU C++11",
