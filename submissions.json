@@ -1,4 +1,20 @@
 {
+  "CF11885304": {
+    "contest_id": 556,
+    "language": "GNU C++11",
+    "path": "codeforces/556/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Case of Fake Numbers",
+    "problem_url": "https://codeforces.com/contest/556/problem/B",
+    "submission_id": "CF11885304",
+    "submission_url": "https://codeforces.com/contest/556/submission/11885304",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jul/02/2015 00:53"
+  },
   "CF12043686": {
     "contest_id": 558,
     "language": "GNU C++11",
