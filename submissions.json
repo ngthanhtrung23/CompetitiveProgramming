@@ -1,4 +1,23 @@
 {
+  "CF12055245": {
+    "contest_id": 558,
+    "language": "GNU C++11",
+    "path": "codeforces/558/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Amr and Chemistry",
+    "problem_url": "https://codeforces.com/contest/558/problem/C",
+    "submission_id": "CF12055245",
+    "submission_url": "https://codeforces.com/contest/558/submission/12055245",
+    "tags": [
+      "brute force",
+      "graphs",
+      "greedy",
+      "math",
+      "shortest paths",
+      "*1900"
+    ],
+    "timestamp": "Jul/15/2015 00:38"
+  },
   "CF12059125": {
     "contest_id": 558,
     "language": "GNU C++11",
