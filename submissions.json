@@ -1,4 +1,21 @@
 {
+  "CF12059125": {
+    "contest_id": 558,
+    "language": "GNU C++11",
+    "path": "codeforces/558/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Guess Your Way Out! II",
+    "problem_url": "https://codeforces.com/contest/558/problem/D",
+    "submission_id": "CF12059125",
+    "submission_url": "https://codeforces.com/contest/558/submission/12059125",
+    "tags": [
+      "data structures",
+      "implementation",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Jul/15/2015 01:46"
+  },
   "CF12115300": {
     "contest_id": 557,
     "language": "GNU C++11",
