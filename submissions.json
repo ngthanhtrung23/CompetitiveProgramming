@@ -1,4 +1,20 @@
 {
+  "CF12185472": {
+    "contest_id": 560,
+    "language": "GNU C++11",
+    "path": "codeforces/560/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Gerald is into Art",
+    "problem_url": "https://codeforces.com/contest/560/problem/B",
+    "submission_id": "CF12185472",
+    "submission_url": "https://codeforces.com/contest/560/submission/12185472",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jul/23/2015 00:56"
+  },
   "CF12194756": {
     "contest_id": 557,
     "language": "GNU C++11",
