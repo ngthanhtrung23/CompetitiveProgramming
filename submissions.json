@@ -1,4 +1,22 @@
 {
+  "CF12196443": {
+    "contest_id": 557,
+    "language": "GNU C++11",
+    "path": "codeforces/557/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Vitaly and Cycle",
+    "problem_url": "https://codeforces.com/contest/557/problem/D",
+    "submission_id": "CF12196443",
+    "submission_url": "https://codeforces.com/contest/557/submission/12196443",
+    "tags": [
+      "combinatorics",
+      "dfs and similar",
+      "graphs",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Jul/23/2015 16:04"
+  },
   "CF12221181": {
     "contest_id": 547,
     "language": "GNU C++11",
