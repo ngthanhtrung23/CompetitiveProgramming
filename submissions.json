@@ -1,4 +1,24 @@
 {
+  "CF12195721": {
+    "contest_id": 557,
+    "language": "GNU C++11",
+    "path": "codeforces/557/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Arthur and Table",
+    "problem_url": "https://codeforces.com/contest/557/problem/C",
+    "submission_id": "CF12195721",
+    "submission_url": "https://codeforces.com/contest/557/submission/12195721",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "math",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Jul/23/2015 15:27"
+  },
   "CF12196443": {
     "contest_id": 557,
     "language": "GNU C++11",
