@@ -6761,6 +6761,18 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12253822": {
+    "contest_id": 100725,
+    "language": "GNU C++11",
+    "path": "codeforces/100725/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Highways",
+    "problem_url": "https://codeforces.com/gym/100725/problem/H",
+    "submission_id": "CF12253822",
+    "submission_url": "https://codeforces.com/gym/100725/submission/12253822",
+    "tags": [],
+    "timestamp": "Jul/28/2015 23:21"
+  },
   "CF12255678": {
     "contest_id": 100725,
     "language": "GNU C++11",
