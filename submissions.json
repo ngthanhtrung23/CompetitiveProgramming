@@ -7781,6 +7781,18 @@
     "tags": [],
     "timestamp": "Jul/28/2015 23:21"
   },
+  "CF12253950": {
+    "contest_id": 100725,
+    "language": "GNU C++11",
+    "path": "codeforces/100725/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Greatest Common Increasing Subsequence",
+    "problem_url": "https://codeforces.com/gym/100725/problem/G",
+    "submission_id": "CF12253950",
+    "submission_url": "https://codeforces.com/gym/100725/submission/12253950",
+    "tags": [],
+    "timestamp": "Jul/28/2015 23:36"
+  },
   "CF12254433": {
     "contest_id": 100725,
     "language": "GNU C++11",
