@@ -6761,6 +6761,18 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12253724": {
+    "contest_id": 100725,
+    "language": "GNU C++11",
+    "path": "codeforces/100725/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Banal Tickets",
+    "problem_url": "https://codeforces.com/gym/100725/problem/B",
+    "submission_id": "CF12253724",
+    "submission_url": "https://codeforces.com/gym/100725/submission/12253724",
+    "tags": [],
+    "timestamp": "Jul/28/2015 23:12"
+  },
   "CF12253822": {
     "contest_id": 100725,
     "language": "GNU C++11",
