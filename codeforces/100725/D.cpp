@@ -145,4 +145,3 @@ int main() {
         FOR(i,1,n) if (visited[n+i]) cout << i << " -\n";
     }
 }
-

@@ -1562,11 +1562,11 @@ Codeforces submissions are auto-generated with [Harwest](https://github.com/nile
 1335 | [B - Berland National Library](https://codeforces.com/contest/567/problem/B) | [GNU C++11](./codeforces/567/B.cpp) | `implementation` `*1300` | Aug/06/2015 00:09 | 
 1334 | [A - Lineland Mail](https://codeforces.com/contest/567/problem/A) | [GNU C++11](./codeforces/567/A.cpp) | `greedy` `implementation` `*900` | Aug/06/2015 00:03 | 
 1333 | [I - Up the Stairs](https://codeforces.com/gym/100721) | [GNU C++11](./codeforces/100721/I.cpp) |  | Aug/01/2015 13:20 | 
-1332 | [D - Bowlstack](https://codeforces.com/gym/100721) | [GNU C++11](./codeforces/100721/D.cpp) |  | Aug/01/2015 13:19 | 
-1331 | [H - Guardian of Decency](https://codeforces.com/gym/100721) | [GNU C++11](./codeforces/100721/H.cpp) |  | Aug/01/2015 13:19 | 
-1330 | [F - Reduced ID Numbers](https://codeforces.com/gym/100721/problem/F) | [GNU C++11](./codeforces/100721/F.cpp) |  | Aug/01/2015 13:19 | 
-1329 | [C - Laserbox](https://codeforces.com/gym/100721/problem/C) | [GNU C++11](./codeforces/100721/C.cpp) |  | Aug/01/2015 13:18 | 
-1328 | [B - Declaration of Content](https://codeforces.com/gym/100721/problem/B) | [GNU C++11](./codeforces/100721/B.cpp) |  | Aug/01/2015 13:18 | 
+1332 | [F - Reduced ID Numbers](https://codeforces.com/gym/100721/problem/F) | [GNU C++11](./codeforces/100721/F.cpp) |  | Aug/01/2015 13:19 | 
+1331 | [D - Bowlstack](https://codeforces.com/gym/100721) | [GNU C++11](./codeforces/100721/D.cpp) |  | Aug/01/2015 13:19 | 
+1330 | [H - Guardian of Decency](https://codeforces.com/gym/100721) | [GNU C++11](./codeforces/100721/H.cpp) |  | Aug/01/2015 13:19 | 
+1329 | [B - Declaration of Content](https://codeforces.com/gym/100721/problem/B) | [GNU C++11](./codeforces/100721/B.cpp) |  | Aug/01/2015 13:18 | 
+1328 | [C - Laserbox](https://codeforces.com/gym/100721/problem/C) | [GNU C++11](./codeforces/100721/C.cpp) |  | Aug/01/2015 13:18 | 
 1327 | [D - Bowlstack](https://codeforces.com/gym/100721/problem/D) | [GNU C++11](./codeforces/100721/D.cpp) |  | Aug/01/2015 02:10 | 
 1326 | [I - Up the Stairs](https://codeforces.com/gym/100721/problem/I) | [GNU C++11](./codeforces/100721/I.cpp) |  | Jul/31/2015 22:08 | 
 1325 | [H - Guardian of Decency](https://codeforces.com/gym/100721/problem/H) | [GNU C++11](./codeforces/100721/H.cpp) |  | Jul/31/2015 21:14 | 
@@ -1578,14 +1578,14 @@ Codeforces submissions are auto-generated with [Harwest](https://github.com/nile
 1319 | [E - Clearing Up](https://codeforces.com/contest/141/problem/E) | [GNU C++11](./codeforces/141/E.cpp) | `constructive algorithms` `dp` `dsu` `graphs` `*2300` | Jul/29/2015 18:24 | 
 1318 | [C - Queue](https://codeforces.com/contest/141/problem/C) | [GNU C++11](./codeforces/141/C.cpp) | `constructive algorithms` `greedy` `sortings` `*1800` | Jul/29/2015 17:59 | 
 1317 | [B - Hopscotch](https://codeforces.com/contest/141/problem/B) | [GNU C++11](./codeforces/141/B.cpp) | `geometry` `math` `*1400` | Jul/29/2015 17:43 | 
-1316 | [I - Invariant Polynomials](https://codeforces.com/gym/100725/problem/I) | [GNU C++11](./codeforces/100725/I.cpp) |  | Jul/29/2015 11:45 | 
-1315 | [K - Key Insertion](https://codeforces.com/gym/100725/problem/K) | [GNU C++11](./codeforces/100725/K.cpp) |  | Jul/29/2015 11:45 | 
-1314 | [H - Highways](https://codeforces.com/gym/100725/problem/H) | [GNU C++11](./codeforces/100725/H.cpp) |  | Jul/29/2015 11:44 | 
+1316 | [K - Key Insertion](https://codeforces.com/gym/100725/problem/K) | [GNU C++11](./codeforces/100725/K.cpp) |  | Jul/29/2015 11:45 | 
+1315 | [I - Invariant Polynomials](https://codeforces.com/gym/100725/problem/I) | [GNU C++11](./codeforces/100725/I.cpp) |  | Jul/29/2015 11:45 | 
+1314 | [F - Factoring a Polynomial](https://codeforces.com/gym/100725/problem/F) | [GNU C++11](./codeforces/100725/F.cpp) |  | Jul/29/2015 11:44 | 
 1313 | [G - Greatest Common Increasing Subsequence](https://codeforces.com/gym/100725/problem/G) | [GNU C++11](./codeforces/100725/G.cpp) |  | Jul/29/2015 11:44 | 
-1312 | [F - Factoring a Polynomial](https://codeforces.com/gym/100725/problem/F) | [GNU C++11](./codeforces/100725/F.cpp) |  | Jul/29/2015 11:44 | 
+1312 | [H - Highways](https://codeforces.com/gym/100725/problem/H) | [GNU C++11](./codeforces/100725/H.cpp) |  | Jul/29/2015 11:44 | 
 1311 | [E - Experiment "X": Explosions Expected](https://codeforces.com/gym/100725/problem/E) | [GNU C++11](./codeforces/100725/E.cpp) |  | Jul/29/2015 11:43 | 
-1310 | [D - Destroying The Graph](https://codeforces.com/gym/100725/problem/D) | [GNU C++11](./codeforces/100725/D.cpp) |  | Jul/29/2015 11:42 | 
-1309 | [C - Crankshaft](https://codeforces.com/gym/100725/problem/C) | [GNU C++11](./codeforces/100725/C.cpp) |  | Jul/29/2015 11:42 | 
+1310 | [C - Crankshaft](https://codeforces.com/gym/100725/problem/C) | [GNU C++11](./codeforces/100725/C.cpp) |  | Jul/29/2015 11:42 | 
+1309 | [D - Destroying The Graph](https://codeforces.com/gym/100725/problem/D) | [GNU C++11](./codeforces/100725/D.cpp) |  | Jul/29/2015 11:42 | 
 1308 | [B - Banal Tickets](https://codeforces.com/gym/100725/problem/B) | [GNU C++11](./codeforces/100725/B.cpp) |  | Jul/29/2015 11:31 | 
 1307 | [A - Mike and Frog](https://codeforces.com/contest/547/problem/A) | [GNU C++11](./codeforces/547/A.cpp) | `brute force` `greedy` `implementation` `math` `*2200` | Jul/25/2015 12:51 | 
 1306 | [D - Vitaly and Cycle](https://codeforces.com/contest/557/problem/D) | [GNU C++11](./codeforces/557/D.cpp) | `combinatorics` `dfs and similar` `graphs` `math` `*2000` | Jul/23/2015 16:04 | 
@@ -1827,8 +1827,8 @@ Codeforces submissions are auto-generated with [Harwest](https://github.com/nile
 1070 | [C - Polycarpus' Dice](https://codeforces.com/contest/534/problem/C) | [GNU C++11](./codeforces/534/C.cpp) | `math` `*1600` | Apr/13/2015 00:14 | 
 1069 | [B - Covered Path](https://codeforces.com/contest/534/problem/B) | [GNU C++11](./codeforces/534/B.cpp) | `dp` `greedy` `math` `*1400` | Apr/13/2015 00:08 | 
 1068 | [A - Exam](https://codeforces.com/contest/534/problem/A) | [GNU C++11](./codeforces/534/A.cpp) | `constructive algorithms` `implementation` `math` `*1100` | Apr/13/2015 00:03 | 
-1067 | [D - Ominous Omino](https://codeforces.com/gym/100662/problem/D) | [GNU C++11](./codeforces/100662/D.cpp) |  | Apr/12/2015 18:59 | 
-1066 | [C - Dijkstra](https://codeforces.com/gym/100662/problem/C) | [GNU C++11](./codeforces/100662/C.cpp) |  | Apr/12/2015 18:59 | 
+1067 | [C - Dijkstra](https://codeforces.com/gym/100662/problem/C) | [GNU C++11](./codeforces/100662/C.cpp) |  | Apr/12/2015 18:59 | 
+1066 | [D - Ominous Omino](https://codeforces.com/gym/100662/problem/D) | [GNU C++11](./codeforces/100662/D.cpp) |  | Apr/12/2015 18:59 | 
 1065 | [B - Infinite House of Pancakes](https://codeforces.com/gym/100662/problem/B) | [GNU C++11](./codeforces/100662/B.cpp) |  | Apr/12/2015 18:58 | 
 1064 | [A - Standing Ovation](https://codeforces.com/gym/100662/problem/A) | [GNU C++11](./codeforces/100662/A.cpp) |  | Apr/12/2015 18:57 | 
 1063 | [G - Grand Tour](https://codeforces.com/gym/100512/problem/G) | [GNU C++11](./codeforces/100512/G.cpp) |  | Apr/12/2015 16:22 | 
@@ -1841,8 +1841,8 @@ Codeforces submissions are auto-generated with [Harwest](https://github.com/nile
 1056 | [E - Word equations](https://codeforces.com/gym/100624/problem/E) | [GNU C++11](./codeforces/100624/E.cpp) |  | Apr/10/2015 22:00 | 
 1055 | [J - Conservation](https://codeforces.com/gym/100624/problem/J) | [GNU C++11](./codeforces/100624/J.cpp) |  | Apr/10/2015 21:25 | 
 1054 | [A - Kingdoms](https://codeforces.com/gym/100624/problem/A) | [GNU C++11](./codeforces/100624/A.cpp) |  | Apr/10/2015 21:05 | 
-1053 | [C - Chemist's vows](https://codeforces.com/gym/100624/problem/C) | [GNU C++](./codeforces/100624/C.cpp) |  | Apr/10/2015 20:56 | 
-1052 | [H - Darts](https://codeforces.com/gym/100624/problem/H) | [GNU C++11](./codeforces/100624/H.cpp) |  | Apr/10/2015 20:56 | 
+1053 | [H - Darts](https://codeforces.com/gym/100624/problem/H) | [GNU C++11](./codeforces/100624/H.cpp) |  | Apr/10/2015 20:56 | 
+1052 | [C - Chemist's vows](https://codeforces.com/gym/100624/problem/C) | [GNU C++](./codeforces/100624/C.cpp) |  | Apr/10/2015 20:56 | 
 1051 | [B - Mean Requests](https://codeforces.com/contest/523/problem/B) | [GNU C++11](./codeforces/523/B.cpp) | `*special problem` `implementation` `*1500` | Apr/08/2015 23:59 | 
 1050 | [D - Statistics of Recompressing Videos](https://codeforces.com/contest/523/problem/D) | [GNU C++11](./codeforces/523/D.cpp) | `*special problem` `data structures` `implementation` `*1600` | Apr/08/2015 23:41 | 
 1049 | [D - Closest Equals](https://codeforces.com/contest/522/problem/D) | [GNU C++11](./codeforces/522/D.cpp) | `*special problem` `data structures` `*2000` | Apr/08/2015 22:53 | 
@@ -1934,13 +1934,13 @@ Codeforces submissions are auto-generated with [Harwest](https://github.com/nile
 963 | [A - Flea travel](https://codeforces.com/contest/55/problem/A) | [GNU C++0x](./codeforces/55/A.cpp) | `implementation` `math` `*1200` | Mar/17/2015 02:42 | 
 962 | [C - Name Quest](https://codeforces.com/contest/523/problem/C) | [GNU C++0x](./codeforces/523/C.cpp) | `*special problem` `greedy` `*1400` | Mar/17/2015 00:20 | 
 961 | [A - Rotate, Flip and Zoom](https://codeforces.com/contest/523/problem/A) | [GNU C++0x](./codeforces/523/A.cpp) | `*special problem` `implementation` `*1200` | Mar/16/2015 23:57 | 
-960 | [J - Math Magic](https://codeforces.com/gym/100541/problem/J) | [GNU C++0x](./codeforces/100541/J.cpp) |  | Mar/14/2015 19:09 | 
-959 | [I - Space Tour](https://codeforces.com/gym/100541/problem/I) | [GNU C++0x](./codeforces/100541/I.cpp) |  | Mar/14/2015 19:09 | 
-958 | [H - Pencil Game](https://codeforces.com/gym/100541/problem/H) | [GNU C++0x](./codeforces/100541/H.cpp) |  | Mar/14/2015 19:08 | 
-957 | [E - ACM](https://codeforces.com/gym/100541/problem/E) | [GNU C++0x](./codeforces/100541/E.cpp) |  | Mar/14/2015 19:08 | 
+960 | [I - Space Tour](https://codeforces.com/gym/100541/problem/I) | [GNU C++0x](./codeforces/100541/I.cpp) |  | Mar/14/2015 19:09 | 
+959 | [J - Math Magic](https://codeforces.com/gym/100541/problem/J) | [GNU C++0x](./codeforces/100541/J.cpp) |  | Mar/14/2015 19:09 | 
+958 | [B - Sum](https://codeforces.com/gym/100541/problem/B) | [GNU C++0x](./codeforces/100541/B.cpp) |  | Mar/14/2015 19:08 | 
+957 | [C - ATM withdrawal](https://codeforces.com/gym/100541/problem/C) | [GNU C++0x](./codeforces/100541/C.cpp) |  | Mar/14/2015 19:08 | 
 956 | [D - Treasure Box](https://codeforces.com/gym/100541/problem/D) | [GNU C++0x](./codeforces/100541/D.cpp) |  | Mar/14/2015 19:08 | 
-955 | [C - ATM withdrawal](https://codeforces.com/gym/100541/problem/C) | [GNU C++0x](./codeforces/100541/C.cpp) |  | Mar/14/2015 19:08 | 
-954 | [B - Sum](https://codeforces.com/gym/100541/problem/B) | [GNU C++0x](./codeforces/100541/B.cpp) |  | Mar/14/2015 19:08 | 
+955 | [E - ACM](https://codeforces.com/gym/100541/problem/E) | [GNU C++0x](./codeforces/100541/E.cpp) |  | Mar/14/2015 19:08 | 
+954 | [H - Pencil Game](https://codeforces.com/gym/100541/problem/H) | [GNU C++0x](./codeforces/100541/H.cpp) |  | Mar/14/2015 19:08 | 
 953 | [A - Stock Market](https://codeforces.com/gym/100541/problem/A) | [GNU C++0x](./codeforces/100541/A.cpp) |  | Mar/14/2015 19:07 | 
 952 | [B - Lucky Substring](https://codeforces.com/contest/122/problem/B) | [GNU C++0x](./codeforces/122/B.cpp) | `brute force` `implementation` `*1000` | Mar/12/2015 03:33 | 
 951 | [F - Log Stream Analysis](https://codeforces.com/contest/245/problem/F) | [GNU C++0x](./codeforces/245/F.cpp) | `binary search` `brute force` `implementation` `strings` `*2000` | Mar/12/2015 03:12 | 
@@ -2136,11 +2136,11 @@ Codeforces submissions are auto-generated with [Harwest](https://github.com/nile
 761 | [A - String Task](https://codeforces.com/contest/118/problem/A) | [Python 2](./codeforces/118/A.py) | `implementation` `strings` `*1000` | Feb/22/2015 00:40 | 
 760 | [A - Way Too Long Words](https://codeforces.com/contest/71/problem/A) | [Python 2](./codeforces/71/A.py) | `strings` `*800` | Feb/22/2015 00:29 | 
 759 | [A - Soroban](https://codeforces.com/contest/363/problem/A) | [GNU C++0x](./codeforces/363/A.cpp) | `implementation` `*800` | Feb/22/2015 00:23 | 
-758 | [A - Games](https://codeforces.com/contest/268/problem/A) | [GNU C++0x](./codeforces/268/A.cpp) | `brute force` `*800` | Feb/22/2015 00:11 | 
-757 | [B - Buttons](https://codeforces.com/contest/268/problem/B) | [GNU C++0x](./codeforces/268/B.cpp) | `implementation` `math` `*1000` | Feb/22/2015 00:11 | 
-756 | [C - Beautiful Sets of Points](https://codeforces.com/contest/268/problem/C) | [GNU C++0x](./codeforces/268/C.cpp) | `constructive algorithms` `implementation` `*1500` | Feb/22/2015 00:10 | 
+758 | [B - Buttons](https://codeforces.com/contest/268/problem/B) | [GNU C++0x](./codeforces/268/B.cpp) | `implementation` `math` `*1000` | Feb/22/2015 00:11 | 
+757 | [A - Games](https://codeforces.com/contest/268/problem/A) | [GNU C++0x](./codeforces/268/A.cpp) | `brute force` `*800` | Feb/22/2015 00:11 | 
+756 | [E - Playlist](https://codeforces.com/contest/268/problem/E) | [GNU C++0x](./codeforces/268/E.cpp) | `math` `probabilities` `sortings` `*2100` | Feb/22/2015 00:10 | 
 755 | [D - Wall Bars](https://codeforces.com/contest/268/problem/D) | [GNU C++0x](./codeforces/268/D.cpp) | `dp` `*2300` | Feb/22/2015 00:10 | 
-754 | [E - Playlist](https://codeforces.com/contest/268/problem/E) | [GNU C++0x](./codeforces/268/E.cpp) | `math` `probabilities` `sortings` `*2100` | Feb/22/2015 00:10 | 
+754 | [C - Beautiful Sets of Points](https://codeforces.com/contest/268/problem/C) | [GNU C++0x](./codeforces/268/C.cpp) | `constructive algorithms` `implementation` `*1500` | Feb/22/2015 00:10 | 
 753 | [C - Beautiful Set](https://codeforces.com/contest/364/problem/C) | [GNU C++0x](./codeforces/364/C.cpp) | `brute force` `number theory` `*2300` | Feb/21/2015 19:19 | 
 752 | [B - The Fibonacci Segment](https://codeforces.com/contest/365/problem/B) | [GNU C++0x](./codeforces/365/B.cpp) | `implementation` `*1100` | Feb/21/2015 17:55 | 
 751 | [A - Good Number](https://codeforces.com/contest/365/problem/A) | [GNU C++0x](./codeforces/365/A.cpp) | `implementation` `*1100` | Feb/21/2015 17:52 | 
@@ -2151,18 +2151,18 @@ Codeforces submissions are auto-generated with [Harwest](https://github.com/nile
 746 | [B - Widget Library](https://codeforces.com/contest/89/problem/B) | [GNU C++0x](./codeforces/89/B.cpp) | `dp` `expression parsing` `graphs` `implementation` `*2300` | Feb/21/2015 15:42 | 
 745 | [A - Robbery](https://codeforces.com/contest/89/problem/A) | [GNU C++0x](./codeforces/89/A.cpp) | `greedy` `*1800` | Feb/21/2015 14:41 | 
 744 | [B - Mr. Kitayuta's Technology](https://codeforces.com/contest/506/problem/B) | [GNU C++0x](./codeforces/506/B.cpp) | `dfs and similar` `graphs` `*2200` | Feb/21/2015 14:27 | 
-743 | [A - Two Problems](https://codeforces.com/contest/203/problem/A) | [GNU C++0x](./codeforces/203/A.cpp) | `brute force` `implementation` `*1200` | Feb/21/2015 05:29 | 
+743 | [C - Photographer](https://codeforces.com/contest/203/problem/C) | [GNU C++0x](./codeforces/203/C.cpp) | `greedy` `sortings` `*1400` | Feb/21/2015 05:29 | 
 742 | [B - Game on Paper](https://codeforces.com/contest/203/problem/B) | [GNU C++0x](./codeforces/203/B.cpp) | `brute force` `implementation` `*1300` | Feb/21/2015 05:29 | 
-741 | [C - Photographer](https://codeforces.com/contest/203/problem/C) | [GNU C++0x](./codeforces/203/C.cpp) | `greedy` `sortings` `*1400` | Feb/21/2015 05:29 | 
-740 | [D - Hit Ball](https://codeforces.com/contest/203/problem/D) | [GNU C++0x](./codeforces/203/D.cpp) | `geometry` `implementation` `math` `*1700` | Feb/21/2015 05:28 | 
-739 | [E - Transportation](https://codeforces.com/contest/203/problem/E) | [GNU C++0x](./codeforces/203/E.cpp) | `greedy` `sortings` `two pointers` `*2300` | Feb/21/2015 05:28 | 
+741 | [A - Two Problems](https://codeforces.com/contest/203/problem/A) | [GNU C++0x](./codeforces/203/A.cpp) | `brute force` `implementation` `*1200` | Feb/21/2015 05:29 | 
+740 | [E - Transportation](https://codeforces.com/contest/203/problem/E) | [GNU C++0x](./codeforces/203/E.cpp) | `greedy` `sortings` `two pointers` `*2300` | Feb/21/2015 05:28 | 
+739 | [D - Hit Ball](https://codeforces.com/contest/203/problem/D) | [GNU C++0x](./codeforces/203/D.cpp) | `geometry` `implementation` `math` `*1700` | Feb/21/2015 05:28 | 
 738 | [A - Super Agent](https://codeforces.com/contest/12/problem/A) | [GNU C++0x](./codeforces/12/A.cpp) | `implementation` `*800` | Feb/21/2015 05:17 | 
-737 | [B - Correct Solution?](https://codeforces.com/contest/12/problem/B) | [GNU C++0x](./codeforces/12/B.cpp) | `implementation` `sortings` `*1100` | Feb/21/2015 05:16 | 
-736 | [C - Fruits](https://codeforces.com/contest/12/problem/C) | [GNU C++0x](./codeforces/12/C.cpp) | `greedy` `implementation` `sortings` `*1100` | Feb/21/2015 05:16 | 
-735 | [D - Ball](https://codeforces.com/contest/12/problem/D) | [GNU C++0x](./codeforces/12/D.cpp) | `data structures` `sortings` `*2400` | Feb/21/2015 05:16 | 
-734 | [E - Start of the session](https://codeforces.com/contest/12/problem/E) | [GNU C++0x](./codeforces/12/E.cpp) | `constructive algorithms` `*2100` | Feb/21/2015 05:16 | 
-733 | [A - Die Roll](https://codeforces.com/contest/9/problem/A) | [GNU C++0x](./codeforces/9/A.cpp) | `math` `probabilities` `*800` | Feb/21/2015 05:15 | 
-732 | [B - Running Student](https://codeforces.com/contest/9/problem/B) | [GNU C++0x](./codeforces/9/B.cpp) | `brute force` `geometry` `implementation` `*1200` | Feb/21/2015 05:15 | 
+737 | [E - Start of the session](https://codeforces.com/contest/12/problem/E) | [GNU C++0x](./codeforces/12/E.cpp) | `constructive algorithms` `*2100` | Feb/21/2015 05:16 | 
+736 | [D - Ball](https://codeforces.com/contest/12/problem/D) | [GNU C++0x](./codeforces/12/D.cpp) | `data structures` `sortings` `*2400` | Feb/21/2015 05:16 | 
+735 | [C - Fruits](https://codeforces.com/contest/12/problem/C) | [GNU C++0x](./codeforces/12/C.cpp) | `greedy` `implementation` `sortings` `*1100` | Feb/21/2015 05:16 | 
+734 | [B - Correct Solution?](https://codeforces.com/contest/12/problem/B) | [GNU C++0x](./codeforces/12/B.cpp) | `implementation` `sortings` `*1100` | Feb/21/2015 05:16 | 
+733 | [B - Running Student](https://codeforces.com/contest/9/problem/B) | [GNU C++0x](./codeforces/9/B.cpp) | `brute force` `geometry` `implementation` `*1200` | Feb/21/2015 05:15 | 
+732 | [A - Die Roll](https://codeforces.com/contest/9/problem/A) | [GNU C++0x](./codeforces/9/A.cpp) | `math` `probabilities` `*800` | Feb/21/2015 05:15 | 
 731 | [C - Hexadecimal's Numbers](https://codeforces.com/contest/9/problem/C) | [GNU C++0x](./codeforces/9/C.cpp) | `brute force` `implementation` `math` `*1200` | Feb/21/2015 05:14 | 
 730 | [B - Help Kingdom of Far Far Away 2](https://codeforces.com/contest/143/problem/B) | [GNU C++0x](./codeforces/143/B.cpp) | `implementation` `strings` `*1200` | Feb/21/2015 02:45 | 
 729 | [A - Help Vasilisa the Wise 2](https://codeforces.com/contest/143/problem/A) | [GNU C++0x](./codeforces/143/A.cpp) | `brute force` `math` `*1000` | Feb/21/2015 02:38 | 
