@@ -99,3 +99,4 @@ int main() {
         cout << (fixed) << setprecision(6) << sumG.x << ' ' << sumG.y << endl;
     }
 }
+
