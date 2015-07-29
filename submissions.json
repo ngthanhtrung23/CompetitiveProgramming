@@ -5434,6 +5434,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12267171": {
+    "contest_id": 140,
+    "language": "GNU C++11",
+    "path": "codeforces/140/B.cpp",
+    "problem_index": "B",
+    "problem_name": "New Year Cards",
+    "problem_url": "https://codeforces.com/contest/140/problem/B",
+    "submission_id": "CF12267171",
+    "submission_url": "https://codeforces.com/contest/140/submission/12267171",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Jul/30/2015 00:48"
+  },
   "CF12277417": {
     "contest_id": 566,
     "language": "GNU C++11",
