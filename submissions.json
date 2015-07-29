@@ -5434,6 +5434,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12263286": {
+    "contest_id": 141,
+    "language": "GNU C++11",
+    "path": "codeforces/141/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Take-off Ramps",
+    "problem_url": "https://codeforces.com/contest/141/problem/D",
+    "submission_id": "CF12263286",
+    "submission_url": "https://codeforces.com/contest/141/submission/12263286",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "*2300"
+    ],
+    "timestamp": "Jul/29/2015 18:43"
+  },
   "CF12264983": {
     "contest_id": 140,
     "language": "GNU C++11",
