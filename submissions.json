@@ -5434,6 +5434,24 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12263164": {
+    "contest_id": 141,
+    "language": "GNU C++11",
+    "path": "codeforces/141/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Clearing Up",
+    "problem_url": "https://codeforces.com/contest/141/problem/E",
+    "submission_id": "CF12263164",
+    "submission_url": "https://codeforces.com/contest/141/submission/12263164",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "dsu",
+      "graphs",
+      "*2300"
+    ],
+    "timestamp": "Jul/29/2015 18:24"
+  },
   "CF12263286": {
     "contest_id": 141,
     "language": "GNU C++11",
