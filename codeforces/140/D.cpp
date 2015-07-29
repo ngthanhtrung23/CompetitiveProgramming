@@ -1,49 +1,45 @@
 #include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
 #include <algorithm>
+#include <cstdio>
 #include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
+#include <cstring>
 #include <string>
-#include <deque>
-#include <complex>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#include <cmath>
+#include <utility>
+#include <map>
+#include <set>
+#include <queue>
+#include <stack>
+#include <sstream>
+#define fr(a,b,c) for (int a=b;a<=c;a++)
+#define frr(a,b,c) for (int a=b;a>=c;a--)
+#define rep(a,b) for (int a=0;a<b;a++)
+#define repp(a,b) for (int a=b-1;a>=0;a--)
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+#define sz(a) int(a.size())
+#define all(a) a.begin(),a.end()
+#define pii pair<int,int>
+#define oo 1000111222
+#define maxN 1
 using namespace std;
 
-const double PI = acos(-1.0);
+int n,a[111],num,ans;
 
-int n, a[111];
-
-int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    int n; scanf("%d", &n);
-    FOR(i,1,n) scanf("%d", &a[i]);
-    sort(a+1, a+n+1);
-    int passed = 10;
-    int res = 0, p = 0;
-    FOR(i,1,n) {
-        int nn = passed + a[i];
-        if (nn <= 720) {
-            res++;
-            if (nn <= 360) p += 0;
-            else p += nn - 360;
-            passed += a[i];
-        }
-    }
-    printf("%d %d\n", res, p);
-    return 0;
+int main()
+{
+	cin >> n;
+	fr(i,1,n) cin >> a[i];
+	sort(a+1,a+n+1);
+	a[0]=10;
+	fr(i,1,n)
+	{
+		a[i]+=a[i-1];
+		if (a[i]>720) break;
+		num=i; 
+		if (a[i]>360) ans+=a[i]-360;
+	}
+	cout << num << ' ' << ans << endl;
 }
