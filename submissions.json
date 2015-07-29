@@ -6761,6 +6761,18 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12258763": {
+    "contest_id": 100725,
+    "language": "GNU C++11",
+    "path": "codeforces/100725/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Key Insertion",
+    "problem_url": "https://codeforces.com/gym/100725/problem/K",
+    "submission_id": "CF12258763",
+    "submission_url": "https://codeforces.com/gym/100725/submission/12258763",
+    "tags": [],
+    "timestamp": "Jul/29/2015 11:45"
+  },
   "CF12258767": {
     "contest_id": 100725,
     "language": "GNU C++11",
