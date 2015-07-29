@@ -6761,6 +6761,18 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12258741": {
+    "contest_id": 100725,
+    "language": "GNU C++11",
+    "path": "codeforces/100725/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Destroying The Graph",
+    "problem_url": "https://codeforces.com/gym/100725/problem/D",
+    "submission_id": "CF12258741",
+    "submission_url": "https://codeforces.com/gym/100725/submission/12258741",
+    "tags": [],
+    "timestamp": "Jul/29/2015 11:42"
+  },
   "CF12258744": {
     "contest_id": 100725,
     "language": "GNU C++11",
