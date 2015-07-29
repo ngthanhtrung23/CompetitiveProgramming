@@ -5434,6 +5434,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12262905": {
+    "contest_id": 141,
+    "language": "GNU C++11",
+    "path": "codeforces/141/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Queue",
+    "problem_url": "https://codeforces.com/contest/141/problem/C",
+    "submission_id": "CF12262905",
+    "submission_url": "https://codeforces.com/contest/141/submission/12262905",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Jul/29/2015 17:59"
+  },
   "CF12263164": {
     "contest_id": 141,
     "language": "GNU C++11",
