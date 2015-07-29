@@ -6761,6 +6761,18 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12258752": {
+    "contest_id": 100725,
+    "language": "GNU C++11",
+    "path": "codeforces/100725/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Factoring a Polynomial",
+    "problem_url": "https://codeforces.com/gym/100725/problem/F",
+    "submission_id": "CF12258752",
+    "submission_url": "https://codeforces.com/gym/100725/submission/12258752",
+    "tags": [],
+    "timestamp": "Jul/29/2015 11:44"
+  },
   "CF12258754": {
     "contest_id": 100725,
     "language": "GNU C++11",
