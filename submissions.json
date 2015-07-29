@@ -6761,6 +6761,18 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12258735": {
+    "contest_id": 100725,
+    "language": "GNU C++11",
+    "path": "codeforces/100725/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Crankshaft",
+    "problem_url": "https://codeforces.com/gym/100725/problem/C",
+    "submission_id": "CF12258735",
+    "submission_url": "https://codeforces.com/gym/100725/submission/12258735",
+    "tags": [],
+    "timestamp": "Jul/29/2015 11:42"
+  },
   "CF12258741": {
     "contest_id": 100725,
     "language": "GNU C++11",
