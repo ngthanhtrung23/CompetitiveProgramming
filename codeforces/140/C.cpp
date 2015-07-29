@@ -1,91 +1,59 @@
 #include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
 #include <algorithm>
+#include <cstdio>
 #include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
+#include <cstring>
 #include <string>
-#include <deque>
-#include <complex>
-
-#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
-#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
-#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
-#define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#include <cmath>
+#include <utility>
+#include <map>
+#include <set>
+#include <queue>
+#include <stack>
+#include <sstream>
+#define fr(a,b,c) for (int a=b;a<=c;a++)
+#define frr(a,b,c) for (int a=b;a>=c;a--)
+#define rep(a,b) for (int a=0;a<b;a++)
+#define repp(a,b) for (int a=b-1;a>=0;a--)
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+#define sz(a) int(a.size())
+#define all(a) a.begin(),a.end()
+#define pii pair<int,int>
+#define oo 1000111222
+#define maxN 1
 using namespace std;
 
-const double PI = acos(-1.0);
+int n,a[100100],b[100100],c[100100],ans;
+priority_queue < pair<int,int> > q;
+map <int,int> d;
+map <int,int>::iterator it;
 
-int a[100111];
-pair<int,int> c[100111];
-set< pair<int,int> > Set;
-
-int r1[100111], r2[100111], r3[100111];
-
-int max3(int a, int b, int c) {
-    return max(max(a, b), c);
-}
-
-int min3(int a, int b, int c) {
-    return min(min(a, b), c);
-}
-
-int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    int n;
-    scanf("%d", &n);
-    FOR(i,1,n) {
-        scanf("%d", &a[i]);
-    }
-    sort(a+1, a+n+1);
-    int s = 0, cnt = 0;
-    FOR(i,1,n) {
-        cnt++;
-        if (a[i] != a[i+1]) {
-            s++;
-            c[s] = MP(-cnt, a[i]);
-            cnt = 0;
-        }
-    }
-    
-    FOR(i,1,s) {
-        Set.insert(c[i]);
-//        cout << c[i].F << ' ' << c[i].S << endl;
-    }
-    
-    cnt = 0;
-    while (Set.size() >= 3) {
-        pair<int,int> x, y, z;
-        x = *Set.begin(); Set.erase(Set.begin());
-        y = *Set.begin(); Set.erase(Set.begin());
-        z = *Set.begin(); Set.erase(Set.begin());
-        
-        cnt++;
-        r1[cnt] = x.S;
-        r2[cnt] = y.S;
-        r3[cnt] = z.S;
-        x.F++; y.F++; z.F++;
-        if (x.F) Set.insert(x);
-        if (y.F) Set.insert(y);
-        if (z.F) Set.insert(z);
-        
-    }
-    printf("%d\n", cnt);
-    FOR(i,1,cnt) {
-        int ln = max3(r1[i], r2[i], r3[i]);
-        int nn = min3(r1[i], r2[i], r3[i]);
-        int mid = r1[i] + r2[i] + r3[i] - ln - nn;
-        printf("%d %d %d\n", ln, mid, nn);
-    }
-    return 0;
+int main()
+{
+	int x;
+	cin >> n;
+	for (int i=0;i<n;i++) scanf("%d",&x), d[x]++;
+	for (it=d.begin();it!=d.end();it++) q.push(mp(it->se,it->fi));
+	while (q.size()>2)
+	{
+		pair <int,int> x,y,z;
+		x=q.top(); q.pop();
+		y=q.top(); q.pop();
+		z=q.top(); q.pop();
+		a[++ans]=x.se; b[ans]=y.se; c[ans]=z.se;
+		if (--x.fi) q.push(x);
+		if (--y.fi) q.push(y);
+		if (--z.fi) q.push(z);
+	}
+	cout << ans << endl;
+	for (int i=1;i<=ans;i++) 
+	{
+		if (b[i]>a[i]) swap(b[i],a[i]);
+		if (c[i]>a[i]) swap(c[i],a[i]);
+		if (c[i]>b[i]) swap(b[i],c[i]);
+		printf("%d %d %d\n",a[i],b[i],c[i]);
+	}
 }
