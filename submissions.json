@@ -5434,6 +5434,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12279298": {
+    "contest_id": 566,
+    "language": "GNU C++",
+    "path": "codeforces/566/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Matching Names",
+    "problem_url": "https://codeforces.com/contest/566/problem/A",
+    "submission_id": "CF12279298",
+    "submission_url": "https://codeforces.com/contest/566/submission/12279298",
+    "tags": [
+      "dfs and similar",
+      "strings",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Jul/31/2015 01:29"
+  },
   "CF12280562": {
     "contest_id": 566,
     "language": "GNU C++11",
