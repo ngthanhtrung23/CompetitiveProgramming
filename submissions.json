@@ -6975,6 +6975,18 @@
     ],
     "timestamp": "Jul/31/2015 02:16"
   },
+  "CF12292044": {
+    "contest_id": 100721,
+    "language": "GNU C++11",
+    "path": "codeforces/100721/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Reduced ID Numbers",
+    "problem_url": "https://codeforces.com/gym/100721/problem/F",
+    "submission_id": "CF12292044",
+    "submission_url": "https://codeforces.com/gym/100721/submission/12292044",
+    "tags": [],
+    "timestamp": "Jul/31/2015 21:19"
+  },
   "CF12292492": {
     "contest_id": 100721,
     "language": "GNU C++11",
