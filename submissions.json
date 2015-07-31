@@ -6975,6 +6975,18 @@
     ],
     "timestamp": "Jul/31/2015 02:16"
   },
+  "CF12295186": {
+    "contest_id": 100721,
+    "language": "GNU C++11",
+    "path": "codeforces/100721/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Bowlstack",
+    "problem_url": "https://codeforces.com/gym/100721/problem/D",
+    "submission_id": "CF12295186",
+    "submission_url": "https://codeforces.com/gym/100721/submission/12295186",
+    "tags": [],
+    "timestamp": "Aug/01/2015 02:10"
+  },
   "CF12299182": {
     "contest_id": 100721,
     "language": "GNU C++11",
