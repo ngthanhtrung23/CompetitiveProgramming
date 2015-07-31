@@ -6975,6 +6975,18 @@
     ],
     "timestamp": "Jul/31/2015 02:16"
   },
+  "CF12294171": {
+    "contest_id": 100721,
+    "language": "GNU C++11",
+    "path": "codeforces/100721/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Declaration of Content",
+    "problem_url": "https://codeforces.com/gym/100721/problem/B",
+    "submission_id": "CF12294171",
+    "submission_url": "https://codeforces.com/gym/100721/submission/12294171",
+    "tags": [],
+    "timestamp": "Aug/01/2015 00:27"
+  },
   "CF12295186": {
     "contest_id": 100721,
     "language": "GNU C++11",
