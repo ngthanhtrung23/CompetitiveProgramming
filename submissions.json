@@ -6975,6 +6975,18 @@
     ],
     "timestamp": "Jul/31/2015 02:16"
   },
+  "CF12292630": {
+    "contest_id": 100721,
+    "language": "GNU C++11",
+    "path": "codeforces/100721/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Up the Stairs",
+    "problem_url": "https://codeforces.com/gym/100721/problem/I",
+    "submission_id": "CF12292630",
+    "submission_url": "https://codeforces.com/gym/100721/submission/12292630",
+    "tags": [],
+    "timestamp": "Jul/31/2015 22:08"
+  },
   "CF12294171": {
     "contest_id": 100721,
     "language": "GNU C++11",
