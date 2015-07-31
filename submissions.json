@@ -6975,6 +6975,18 @@
     ],
     "timestamp": "Jul/31/2015 02:16"
   },
+  "CF12291991": {
+    "contest_id": 100721,
+    "language": "GNU C++11",
+    "path": "codeforces/100721/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Guardian of Decency",
+    "problem_url": "https://codeforces.com/gym/100721/problem/H",
+    "submission_id": "CF12291991",
+    "submission_url": "https://codeforces.com/gym/100721/submission/12291991",
+    "tags": [],
+    "timestamp": "Jul/31/2015 21:14"
+  },
   "CF12292044": {
     "contest_id": 100721,
     "language": "GNU C++11",
