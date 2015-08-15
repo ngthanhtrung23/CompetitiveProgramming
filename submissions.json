@@ -7272,6 +7272,18 @@
     "tags": [],
     "timestamp": "Aug/15/2015 17:16"
   },
+  "CF12546888": {
+    "contest_id": 100722,
+    "language": "GNU C++11",
+    "path": "codeforces/100722/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Sudoku",
+    "problem_url": "https://codeforces.com/gym/100722/problem/A",
+    "submission_id": "CF12546888",
+    "submission_url": "https://codeforces.com/gym/100722/submission/12546888",
+    "tags": [],
+    "timestamp": "Aug/15/2015 19:47"
+  },
   "CF12547043": {
     "contest_id": 100722,
     "language": "GNU C++11",
