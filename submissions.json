@@ -7208,6 +7208,18 @@
     ],
     "timestamp": "Aug/17/2015 17:06"
   },
+  "CF12576491": {
+    "contest_id": 100199,
+    "language": "GNU C++11",
+    "path": "codeforces/100199/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Nice Patterns Strike Back",
+    "problem_url": "https://codeforces.com/gym/100199",
+    "submission_id": "CF12576491",
+    "submission_url": "https://codeforces.com/gym/100199/submission/12576491",
+    "tags": [],
+    "timestamp": "Aug/17/2015 22:22"
+  },
   "CF12576700": {
     "contest_id": 100199,
     "language": "GNU C++11",
