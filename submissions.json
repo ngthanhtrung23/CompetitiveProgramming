@@ -5434,6 +5434,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12571259": {
+    "contest_id": 555,
+    "language": "GNU C++11",
+    "path": "codeforces/555/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Case of Fugitive",
+    "problem_url": "https://codeforces.com/contest/555/problem/B",
+    "submission_id": "CF12571259",
+    "submission_url": "https://codeforces.com/contest/555/submission/12571259",
+    "tags": [
+      "data structures",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "Aug/17/2015 15:04"
+  },
   "CF12572780": {
     "contest_id": 555,
     "language": "GNU C++11",
