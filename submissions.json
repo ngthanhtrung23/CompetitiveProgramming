@@ -7208,6 +7208,18 @@
     ],
     "timestamp": "Aug/17/2015 17:06"
   },
+  "CF12575803": {
+    "contest_id": 100199,
+    "language": "Java 7",
+    "path": "codeforces/100199/A.java",
+    "problem_index": "A",
+    "problem_name": "Chinese Girls' Amusement",
+    "problem_url": "https://codeforces.com/gym/100199",
+    "submission_id": "CF12575803",
+    "submission_url": "https://codeforces.com/gym/100199/submission/12575803",
+    "tags": [],
+    "timestamp": "Aug/17/2015 21:23"
+  },
   "CF12575934": {
     "contest_id": 100199,
     "language": "GNU C++11",
