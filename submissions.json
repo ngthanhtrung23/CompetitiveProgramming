@@ -5434,6 +5434,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12586805": {
+    "contest_id": 555,
+    "language": "GNU C++11",
+    "path": "codeforces/555/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Case of a Top Secret",
+    "problem_url": "https://codeforces.com/contest/555/problem/D",
+    "submission_id": "CF12586805",
+    "submission_url": "https://codeforces.com/contest/555/submission/12586805",
+    "tags": [
+      "binary search",
+      "implementation",
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Aug/18/2015 17:48"
+  },
   "CF12589694": {
     "contest_id": 555,
     "language": "GNU C++11",
