@@ -7242,6 +7242,18 @@
     ],
     "timestamp": "Aug/18/2015 22:10"
   },
+  "CF12608253": {
+    "contest_id": 100199,
+    "language": "GNU C++11",
+    "path": "codeforces/100199/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Beautiful People",
+    "problem_url": "https://codeforces.com/gym/100199",
+    "submission_id": "CF12608253",
+    "submission_url": "https://codeforces.com/gym/100199/submission/12608253",
+    "tags": [],
+    "timestamp": "Aug/20/2015 03:08"
+  },
   "CF12608263": {
     "contest_id": 100199,
     "language": "GNU C++11",
