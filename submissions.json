@@ -7242,6 +7242,18 @@
     ],
     "timestamp": "Aug/18/2015 22:10"
   },
+  "CF12608303": {
+    "contest_id": 100722,
+    "language": "GNU C++11",
+    "path": "codeforces/100722/B.cpp",
+    "problem_index": "B",
+    "problem_name": "The SetStack Computer",
+    "problem_url": "https://codeforces.com/gym/100722",
+    "submission_id": "CF12608303",
+    "submission_url": "https://codeforces.com/gym/100722/submission/12608303",
+    "tags": [],
+    "timestamp": "Aug/20/2015 03:12"
+  },
   "CF12608307": {
     "contest_id": 100722,
     "language": "GNU C++11",
