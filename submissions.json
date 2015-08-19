@@ -7242,6 +7242,18 @@
     ],
     "timestamp": "Aug/18/2015 22:10"
   },
+  "CF12608377": {
+    "contest_id": 100624,
+    "language": "GNU C++11",
+    "path": "codeforces/100624/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Word equations",
+    "problem_url": "https://codeforces.com/gym/100624",
+    "submission_id": "CF12608377",
+    "submission_url": "https://codeforces.com/gym/100624/submission/12608377",
+    "tags": [],
+    "timestamp": "Aug/20/2015 03:19"
+  },
   "CF12608381": {
     "contest_id": 100624,
     "language": "GNU C++11",
