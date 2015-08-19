@@ -7242,6 +7242,18 @@
     ],
     "timestamp": "Aug/18/2015 22:10"
   },
+  "CF12608313": {
+    "contest_id": 100722,
+    "language": "GNU C++11",
+    "path": "codeforces/100722/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Printer Queue",
+    "problem_url": "https://codeforces.com/gym/100722",
+    "submission_id": "CF12608313",
+    "submission_url": "https://codeforces.com/gym/100722/submission/12608313",
+    "tags": [],
+    "timestamp": "Aug/20/2015 03:13"
+  },
   "CF12608318": {
     "contest_id": 100722,
     "language": "GNU C++11",
