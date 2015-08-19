@@ -7242,6 +7242,18 @@
     ],
     "timestamp": "Aug/18/2015 22:10"
   },
+  "CF12608236": {
+    "contest_id": 100199,
+    "language": "GNU C++11",
+    "path": "codeforces/100199/C.cpp",
+    "problem_index": "C",
+    "problem_name": "New Year Bonus Grant",
+    "problem_url": "https://codeforces.com/gym/100199",
+    "submission_id": "CF12608236",
+    "submission_url": "https://codeforces.com/gym/100199/submission/12608236",
+    "tags": [],
+    "timestamp": "Aug/20/2015 03:06"
+  },
   "CF12608242": {
     "contest_id": 100199,
     "language": "GNU C++11",
