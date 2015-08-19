@@ -7242,6 +7242,18 @@
     ],
     "timestamp": "Aug/18/2015 22:10"
   },
+  "CF12608318": {
+    "contest_id": 100722,
+    "language": "GNU C++11",
+    "path": "codeforces/100722/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Prime Path",
+    "problem_url": "https://codeforces.com/gym/100722",
+    "submission_id": "CF12608318",
+    "submission_url": "https://codeforces.com/gym/100722/submission/12608318",
+    "tags": [],
+    "timestamp": "Aug/20/2015 03:14"
+  },
   "CF12608321": {
     "contest_id": 100722,
     "language": "GNU C++11",
