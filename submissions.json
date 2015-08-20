@@ -7309,6 +7309,18 @@
     ],
     "timestamp": "Aug/20/2015 17:06"
   },
+  "CF12616772": {
+    "contest_id": 100197,
+    "language": "GNU C++11",
+    "path": "codeforces/100197/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Robbers",
+    "problem_url": "https://codeforces.com/gym/100197",
+    "submission_id": "CF12616772",
+    "submission_url": "https://codeforces.com/gym/100197/submission/12616772",
+    "tags": [],
+    "timestamp": "Aug/20/2015 22:14"
+  },
   "CF12616886": {
     "contest_id": 100197,
     "language": "GNU C++11",
