@@ -21,21 +21,31 @@ double get_vmax_vy_D(double vy2, double D) {
 }
 
 double get_vmax(double ds, double low, double high, double D) {
-    double t1 = ds / D;
-    double t3 = 2.0 / g * (t1 - sqr(t1));
-
-    vxvy = 0.5 * g * D;
-    vxvy2 = vxvy * vxvy;
-
-    double L = low / t3;
-    double R = high / t3;
-
-    double vmax = get_vmax_vy_D(L, D);
-    vmax = min(vmax, get_vmax_vy_D(R, D));
-
-    double vy2 = vxvy;
-    if (L < vy2 && vy2 < R) vmax = min(vmax, get_vmax_vy_D(vy2, D));
-    return vmax;
+    double c = ds * (1 - ds / D);
+    low /= c;
+    high /= c;
+    if (low > 1) {
+        return sqrt(g * D / 2 * (low + 1 / low));
+    }
+    else if (high < 1) {
+        return sqrt(g * D / 2 * (high + 1 / high));
+    }
+    else return sqrt(g * D);
+//    double t1 = ds / D;
+//    double t3 = 2.0 / g * (t1 - sqr(t1));
+//
+//    vxvy = 0.5 * g * D;
+//    vxvy2 = vxvy * vxvy;
+//
+//    double L = low / t3;
+//    double R = high / t3;
+//
+//    double vmax = get_vmax_vy_D(L, D);
+//    vmax = min(vmax, get_vmax_vy_D(R, D));
+//
+//    double vy2 = vxvy;
+//    if (L < vy2 && vy2 < R) vmax = min(vmax, get_vmax_vy_D(vy2, D));
+//    return vmax;
 }
 
 double get_vmax(double D) {
@@ -69,3 +79,4 @@ int main() {
         printf("%.6f\n", res);
     }
 }
+
