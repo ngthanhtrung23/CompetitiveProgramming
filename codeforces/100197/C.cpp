@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, a[1000100], length[1000100], edge[1000100][2];
+int n, a[1000100];
 long long ans;
 
 int INP,AM,REACHEOF;
@@ -39,32 +39,16 @@ int main()
     q.push(make_pair(-a[i], i));
   }
   
+  long long res = 0;
   while (q.size() > 1)
   {
-    pair <long long,int> u = q.top(); 
+    auto u = q.top(); 
     q.pop();
-    pair <long long,int> v = q.top();
+    auto v = q.top();
     q.pop();
-    edge[n][0] = u.second;
-    edge[n][1] = v.second;
     q.push(make_pair(u.first + v.first, n++));
+    res -= u.first + v.first;
   }
 
-  int root = q.top().second;
-  queue <int> bfsQ;
-  bfsQ.push(root);
-  while (!bfsQ.empty())
-  {
-    int x = bfsQ.front();
-    bfsQ.pop();
-    ans += 1LL * length[x] * a[x];
-    if (!a[x])
-      for (int i = 0; i < 2; i++)
-      {
-        length[edge[x][i]] = length[x] + 1;
-        bfsQ.push(edge[x][i]);
-      }
-  }
-
-  cout << ans << endl;
+  cout << res << endl;
 }
