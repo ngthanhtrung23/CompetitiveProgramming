@@ -5399,6 +5399,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12613571": {
+    "contest_id": 568,
+    "language": "GNU C++11",
+    "path": "codeforces/568/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Symmetric and Transitive",
+    "problem_url": "https://codeforces.com/contest/568/problem/B",
+    "submission_id": "CF12613571",
+    "submission_url": "https://codeforces.com/contest/568/submission/12613571",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Aug/20/2015 17:06"
+  },
   "CF12637706": {
     "contest_id": 337,
     "language": "GNU C++11",
