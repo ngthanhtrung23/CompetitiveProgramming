@@ -5399,6 +5399,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12649631": {
+    "contest_id": 571,
+    "language": "GNU C++11",
+    "path": "codeforces/571/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Lengthening Sticks",
+    "problem_url": "https://codeforces.com/contest/571/problem/A",
+    "submission_id": "CF12649631",
+    "submission_url": "https://codeforces.com/contest/571/submission/12649631",
+    "tags": [
+      "combinatorics",
+      "implementation",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Aug/23/2015 00:53"
+  },
   "CF12653471": {
     "contest_id": 571,
     "language": "GNU C++11",
