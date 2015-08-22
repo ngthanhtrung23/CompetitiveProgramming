@@ -23,7 +23,7 @@ int main()
   {
     double a = 1. * i / INTERVAL * PI / 2;
     double b = 1. * (i + 1) / INTERVAL * PI / 2;
-    ans += (b - a) / 3 * (f(a) + 1 * f((a + b) / 2) + f(b));
+    ans += (b - a) / 6 * (f(a) + 4 * f((a + b) / 2) + f(b));
   }
 
   cout << fixed << setprecision(6) << ans * 8 * r2 * r2 << endl;
