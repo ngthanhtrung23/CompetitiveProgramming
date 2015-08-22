@@ -5399,6 +5399,24 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12664020": {
+    "contest_id": 571,
+    "language": "GNU C++11",
+    "path": "codeforces/571/C.cpp",
+    "problem_index": "C",
+    "problem_name": "CNF 2",
+    "problem_url": "https://codeforces.com/contest/571/problem/C",
+    "submission_id": "CF12664020",
+    "submission_url": "https://codeforces.com/contest/571/submission/12664020",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "Aug/23/2015 03:21"
+  },
   "CF12664093": {
     "contest_id": 571,
     "language": "GNU C++11",

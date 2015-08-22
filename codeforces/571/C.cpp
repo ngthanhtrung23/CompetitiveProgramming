@@ -49,19 +49,19 @@ void removeClause(int cl) {
     allClause.erase(make_pair(clauses[cl].nVar, cl));
     for(auto t : clauses[cl].vars) {
         int v = abs(t);
+        if (vars[v].value >= 0) continue;
 
-        if (allVar.count(make_pair(vars[v].nClause, v))) {
-            allVar.erase(make_pair(vars[v].nClause, v));
-            vars[v].nClause--;
-            if (vars[v].nClause == 1 && vars[v].clauses[1] == cl) {
-                vars[v].clauses[1] = vars[v].clauses[2];
-            }
-            allVar.insert(make_pair(vars[v].nClause, v));
+        allVar.erase(make_pair(vars[v].nClause, v));
+        vars[v].nClause--;
+        if (vars[v].nClause == 1 && vars[v].clauses[1] == cl) {
+            vars[v].clauses[1] = vars[v].clauses[2];
         }
+        allVar.insert(make_pair(vars[v].nClause, v));
     }
 }
 
-void processVar(int var) { if (var < 0) var = -var;
+void processVar(int var) {
+    if (var < 0) var = -var;
 //    DEBUG(var);
     int cnt = vars[var].nClause;
     allVar.erase(make_pair(cnt, var));
@@ -90,7 +90,6 @@ void processVar(int var) { if (var < 0) var = -var;
         if (clauses[cl1].nVar > clauses[cl2].nVar) {
             swap(cl1, cl2);
         }
-        if (clauses[cl1].ok) swap(cl1, cl2);
         
         if (clauses[cl1].vars.count(var)) {
             vars[var].value = 1;
