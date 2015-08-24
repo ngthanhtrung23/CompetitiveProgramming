@@ -94,4 +94,3 @@ int main() {
         FOR(i,1,q) printf("%I64d ", g[i] * (ll) res[i]); puts("");
     }
 }
-
