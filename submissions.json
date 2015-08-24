@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12684716": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Game of numbers",
+    "problem_url": "https://codeforces.com/gym/100703",
+    "submission_id": "CF12684716",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12684716",
+    "tags": [],
+    "timestamp": "Aug/24/2015 21:28"
+  },
   "CF12685062": {
     "contest_id": 100703,
     "language": "GNU C++11",
