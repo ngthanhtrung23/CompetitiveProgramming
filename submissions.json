@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12687781": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Word order",
+    "problem_url": "https://codeforces.com/gym/100703",
+    "submission_id": "CF12687781",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12687781",
+    "tags": [],
+    "timestamp": "Aug/25/2015 02:26"
+  },
   "CF12687792": {
     "contest_id": 100703,
     "language": "GNU C++11",
