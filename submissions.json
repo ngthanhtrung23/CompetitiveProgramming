@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12687755": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Energy Saving",
+    "problem_url": "https://codeforces.com/gym/100703",
+    "submission_id": "CF12687755",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12687755",
+    "tags": [],
+    "timestamp": "Aug/25/2015 02:24"
+  },
   "CF12687757": {
     "contest_id": 100703,
     "language": "GNU C++11",
