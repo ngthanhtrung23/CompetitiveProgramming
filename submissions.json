@@ -8356,6 +8356,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12679959": {
+    "contest_id": 100198,
+    "language": "GNU C++11",
+    "path": "codeforces/100198/G.cpp",
+    "problem_index": "G",
+    "problem_name": "PL/Cool",
+    "problem_url": "https://codeforces.com/gym/100198/problem/G",
+    "submission_id": "CF12679959",
+    "submission_url": "https://codeforces.com/gym/100198/submission/12679959",
+    "tags": [],
+    "timestamp": "Aug/24/2015 13:30"
+  },
   "CF12684515": {
     "contest_id": 100703,
     "language": "GNU C++11",
