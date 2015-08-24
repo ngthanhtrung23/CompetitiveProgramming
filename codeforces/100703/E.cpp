@@ -95,4 +95,3 @@ int main() {
         cout << save + 1 << endl;
     }
 }
-

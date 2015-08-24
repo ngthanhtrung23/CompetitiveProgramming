@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12685712": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dragons in sleeping",
+    "problem_url": "https://codeforces.com/gym/100703",
+    "submission_id": "CF12685712",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12685712",
+    "tags": [],
+    "timestamp": "Aug/24/2015 23:04"
+  },
   "CF12686160": {
     "contest_id": 100703,
     "language": "GNU C++11",
