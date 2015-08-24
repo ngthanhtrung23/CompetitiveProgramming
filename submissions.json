@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12687763": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Game of words",
+    "problem_url": "https://codeforces.com/gym/100703",
+    "submission_id": "CF12687763",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12687763",
+    "tags": [],
+    "timestamp": "Aug/25/2015 02:24"
+  },
   "CF12687765": {
     "contest_id": 100703,
     "language": "GNU C++11",
