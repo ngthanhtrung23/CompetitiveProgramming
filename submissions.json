@@ -8356,6 +8356,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12684555": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Tea-drinking",
+    "problem_url": "https://codeforces.com/gym/100703/problem/A",
+    "submission_id": "CF12684555",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12684555",
+    "tags": [],
+    "timestamp": "Aug/24/2015 21:13"
+  },
   "CF12684627": {
     "contest_id": 100703,
     "language": "GNU C++11",
