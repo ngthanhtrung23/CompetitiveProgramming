@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12687772": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/H.cpp",
+    "problem_index": "H",
+    "problem_name": "A lot of work",
+    "problem_url": "https://codeforces.com/gym/100703",
+    "submission_id": "CF12687772",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12687772",
+    "tags": [],
+    "timestamp": "Aug/25/2015 02:25"
+  },
   "CF12687774": {
     "contest_id": 100703,
     "language": "GNU C++11",
