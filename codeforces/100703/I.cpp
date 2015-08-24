@@ -69,4 +69,3 @@ int main() {
         FOR(i,1,n) printf("%d ", trace[i]); puts("");
     }
 }
-
