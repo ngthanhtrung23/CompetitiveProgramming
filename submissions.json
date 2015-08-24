@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12687517": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Draconian Actions",
+    "problem_url": "https://codeforces.com/gym/100703",
+    "submission_id": "CF12687517",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12687517",
+    "tags": [],
+    "timestamp": "Aug/25/2015 01:58"
+  },
   "CF12687744": {
     "contest_id": 100703,
     "language": "GNU C++11",
