@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12740476": {
+    "contest_id": 100200,
+    "language": "GNU C++11",
+    "path": "codeforces/100200/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Burning Bridges",
+    "problem_url": "https://codeforces.com/gym/100200",
+    "submission_id": "CF12740476",
+    "submission_url": "https://codeforces.com/gym/100200/submission/12740476",
+    "tags": [],
+    "timestamp": "Aug/29/2015 16:24"
+  },
   "CF12740495": {
     "contest_id": 100200,
     "language": "GNU C++11",
