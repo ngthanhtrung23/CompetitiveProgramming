@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12739603": {
+    "contest_id": 100703,
+    "language": "GNU C++11",
+    "path": "codeforces/100703/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Aerotaxi",
+    "problem_url": "https://codeforces.com/gym/100703",
+    "submission_id": "CF12739603",
+    "submission_url": "https://codeforces.com/gym/100703/submission/12739603",
+    "tags": [],
+    "timestamp": "Aug/29/2015 15:09"
+  },
   "CF12740476": {
     "contest_id": 100200,
     "language": "GNU C++11",
