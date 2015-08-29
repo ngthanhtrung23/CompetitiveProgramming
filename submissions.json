@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12740495": {
+    "contest_id": 100200,
+    "language": "GNU C++11",
+    "path": "codeforces/100200/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Think Positive",
+    "problem_url": "https://codeforces.com/gym/100200",
+    "submission_id": "CF12740495",
+    "submission_url": "https://codeforces.com/gym/100200/submission/12740495",
+    "tags": [],
+    "timestamp": "Aug/29/2015 16:27"
+  },
   "CF12741042": {
     "contest_id": 100200,
     "language": "GNU C++11",
