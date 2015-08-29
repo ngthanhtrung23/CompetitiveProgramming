@@ -7480,6 +7480,18 @@
     ],
     "timestamp": "Aug/23/2015 04:17"
   },
+  "CF12742078": {
+    "contest_id": 100200,
+    "language": "GNU C++11",
+    "path": "codeforces/100200/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Driving Straight",
+    "problem_url": "https://codeforces.com/gym/100200",
+    "submission_id": "CF12742078",
+    "submission_url": "https://codeforces.com/gym/100200/submission/12742078",
+    "tags": [],
+    "timestamp": "Aug/29/2015 18:41"
+  },
   "CF12742955": {
     "contest_id": 100200,
     "language": "GNU C++11",
