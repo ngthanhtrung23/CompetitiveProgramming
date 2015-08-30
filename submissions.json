@@ -7566,6 +7566,18 @@
     ],
     "timestamp": "Aug/30/2015 17:36"
   },
+  "CF12775157": {
+    "contest_id": 100738,
+    "language": "GNU C++11",
+    "path": "codeforces/100738/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Degree Sequence Tree",
+    "problem_url": "https://codeforces.com/gym/100738",
+    "submission_id": "CF12775157",
+    "submission_url": "https://codeforces.com/gym/100738/submission/12775157",
+    "tags": [],
+    "timestamp": "Aug/30/2015 19:13"
+  },
   "CF12775764": {
     "contest_id": 100738,
     "language": "GNU C++11",
