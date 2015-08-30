@@ -7566,6 +7566,18 @@
     ],
     "timestamp": "Aug/30/2015 17:36"
   },
+  "CF12774472": {
+    "contest_id": 100738,
+    "language": "GNU C++11",
+    "path": "codeforces/100738/K.cpp",
+    "problem_index": "K",
+    "problem_name": "New GPU",
+    "problem_url": "https://codeforces.com/gym/100738",
+    "submission_id": "CF12774472",
+    "submission_url": "https://codeforces.com/gym/100738/submission/12774472",
+    "tags": [],
+    "timestamp": "Aug/30/2015 18:30"
+  },
   "CF12774873": {
     "contest_id": 100738,
     "language": "GNU C++11",
