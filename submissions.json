@@ -7532,6 +7532,18 @@
     ],
     "timestamp": "Aug/30/2015 01:29"
   },
+  "CF12772294": {
+    "contest_id": 100200,
+    "language": "GNU C++11",
+    "path": "codeforces/100200/E.cpp",
+    "problem_index": "E",
+    "problem_name": "DVD",
+    "problem_url": "https://codeforces.com/gym/100200",
+    "submission_id": "CF12772294",
+    "submission_url": "https://codeforces.com/gym/100200/submission/12772294",
+    "tags": [],
+    "timestamp": "Aug/30/2015 15:43"
+  },
   "CF12772332": {
     "contest_id": 100200,
     "language": "GNU C++11",
