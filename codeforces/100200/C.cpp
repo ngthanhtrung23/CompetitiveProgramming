@@ -115,13 +115,18 @@ bool areIntersect(Circle u, Circle v) {
 vector<Point> circleIntersect(Circle u, Circle v) {
     vector<Point> res;
     if (!areIntersect(u, v)) return res;
+
     double d = (u - v).len();
     double alpha = acos((u.r * u.r + d*d - v.r * v.r) / 2.0 / u.r / d);
 
     Point p1 = (v - u).rotate(alpha);
     Point p2 = (v - u).rotate(-alpha);
-    res.push_back(p1 / p1.len() * u.r + u);
-    res.push_back(p2 / p2.len() * u.r + u);
+    p1 = p1 / p1.len() * u.r;
+    p2 = p2 / p2.len() * u.r;
+
+    res.push_back(p1 + u);
+    res.push_back(p2 + u);
+
     return res;
 }
 
