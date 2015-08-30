@@ -9018,6 +9018,18 @@
     "tags": [],
     "timestamp": "Aug/30/2015 20:25"
   },
+  "CF12776713": {
+    "contest_id": 100738,
+    "language": "GNU C++11",
+    "path": "codeforces/100738/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Sequence of words",
+    "problem_url": "https://codeforces.com/gym/100738/problem/F",
+    "submission_id": "CF12776713",
+    "submission_url": "https://codeforces.com/gym/100738/submission/12776713",
+    "tags": [],
+    "timestamp": "Aug/30/2015 21:00"
+  },
   "CF12807117": {
     "contest_id": 100741,
     "language": "GNU C++11",
