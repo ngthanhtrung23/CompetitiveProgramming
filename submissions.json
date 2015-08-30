@@ -7566,6 +7566,18 @@
     ],
     "timestamp": "Aug/30/2015 17:36"
   },
+  "CF12774961": {
+    "contest_id": 100738,
+    "language": "GNU C++11",
+    "path": "codeforces/100738/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Rating Shuffle",
+    "problem_url": "https://codeforces.com/gym/100738",
+    "submission_id": "CF12774961",
+    "submission_url": "https://codeforces.com/gym/100738/submission/12774961",
+    "tags": [],
+    "timestamp": "Aug/30/2015 19:01"
+  },
   "CF12775157": {
     "contest_id": 100738,
     "language": "GNU C++11",
