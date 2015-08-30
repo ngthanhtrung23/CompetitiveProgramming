@@ -7532,6 +7532,18 @@
     ],
     "timestamp": "Aug/30/2015 01:29"
   },
+  "CF12772351": {
+    "contest_id": 100200,
+    "language": "GNU C++11",
+    "path": "codeforces/100200/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Linear Programming Dual",
+    "problem_url": "https://codeforces.com/gym/100200",
+    "submission_id": "CF12772351",
+    "submission_url": "https://codeforces.com/gym/100200/submission/12772351",
+    "tags": [],
+    "timestamp": "Aug/30/2015 15:47"
+  },
   "CF12772842": {
     "contest_id": 100200,
     "language": "GNU C++11",
