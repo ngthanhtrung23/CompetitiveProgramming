@@ -120,14 +120,17 @@ vector<Point> circleIntersect(Circle u, Circle v) {
     vector<Point> res;
     if (!areIntersect(u, v)) return res;
 
-    v.x -= u.x;
-    v.y -= u.y;
-    Line l(-2 * v.x, -2 * v.y, v.x * v.x + v.y * v.y + u.r * u.r - v.r * v.r);
-    res = intersection(l, v);
-    REP(i,res.size()) {
-        res[i].x += u.x;
-        res[i].y += u.y;
-    }
+    double d = (u - v).len();
+    double alpha = acos((u.r * u.r + d*d - v.r * v.r) / 2.0 / u.r / d);
+
+    Point p1 = (v - u).rotate(alpha);
+    Point p2 = (v - u).rotate(-alpha);
+    p1 = p1 / p1.len() * u.r;
+    p2 = p2 / p2.len() * u.r;
+
+    res.push_back(p1 + u);
+    res.push_back(p2 + u);
+
     return res;
 }
 
