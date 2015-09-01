@@ -7566,6 +7566,18 @@
     ],
     "timestamp": "Aug/30/2015 17:36"
   },
+  "CF12807117": {
+    "contest_id": 100741,
+    "language": "GNU C++11",
+    "path": "codeforces/100741/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Card Jousting",
+    "problem_url": "https://codeforces.com/gym/100741",
+    "submission_id": "CF12807117",
+    "submission_url": "https://codeforces.com/gym/100741/submission/12807117",
+    "tags": [],
+    "timestamp": "Sep/02/2015 03:02"
+  },
   "CF12810407": {
     "contest_id": 100741,
     "language": "GNU C++11",
