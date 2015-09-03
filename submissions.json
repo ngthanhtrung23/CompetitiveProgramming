@@ -7566,6 +7566,18 @@
     ],
     "timestamp": "Aug/30/2015 17:36"
   },
+  "CF12832988": {
+    "contest_id": 100201,
+    "language": "GNU C++11",
+    "path": "codeforces/100201/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Don't Go Left",
+    "problem_url": "https://codeforces.com/gym/100201",
+    "submission_id": "CF12832988",
+    "submission_url": "https://codeforces.com/gym/100201/submission/12832988",
+    "tags": [],
+    "timestamp": "Sep/04/2015 02:43"
+  },
   "CF12832989": {
     "contest_id": 100201,
     "language": "GNU C++11",
