@@ -7566,6 +7566,18 @@
     ],
     "timestamp": "Aug/30/2015 17:36"
   },
+  "CF12831497": {
+    "contest_id": 100201,
+    "language": "GNU C++11",
+    "path": "codeforces/100201/B.cpp",
+    "problem_index": "B",
+    "problem_name": "The Minimal Angle",
+    "problem_url": "https://codeforces.com/gym/100201",
+    "submission_id": "CF12831497",
+    "submission_url": "https://codeforces.com/gym/100201/submission/12831497",
+    "tags": [],
+    "timestamp": "Sep/04/2015 00:38"
+  },
   "CF12832287": {
     "contest_id": 100201,
     "language": "GNU C++11",
