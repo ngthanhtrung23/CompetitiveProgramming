@@ -7566,6 +7566,18 @@
     ],
     "timestamp": "Aug/30/2015 17:36"
   },
+  "CF12832972": {
+    "contest_id": 100201,
+    "language": "Java 8",
+    "path": "codeforces/100201/D.java",
+    "problem_index": "D",
+    "problem_name": "Yet Another Digit",
+    "problem_url": "https://codeforces.com/gym/100201",
+    "submission_id": "CF12832972",
+    "submission_url": "https://codeforces.com/gym/100201/submission/12832972",
+    "tags": [],
+    "timestamp": "Sep/04/2015 02:41"
+  },
   "CF12832975": {
     "contest_id": 100201,
     "language": "GNU C++11",
