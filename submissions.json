@@ -7566,6 +7566,18 @@
     ],
     "timestamp": "Aug/30/2015 17:36"
   },
+  "CF12832287": {
+    "contest_id": 100201,
+    "language": "GNU C++11",
+    "path": "codeforces/100201/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Warehouse Keeper",
+    "problem_url": "https://codeforces.com/gym/100201",
+    "submission_id": "CF12832287",
+    "submission_url": "https://codeforces.com/gym/100201/submission/12832287",
+    "tags": [],
+    "timestamp": "Sep/04/2015 01:37"
+  },
   "CF12832963": {
     "contest_id": 100201,
     "language": "GNU C++11",

@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
@@ -147,3 +148,4 @@ int main() {
     FOR(i,1,left) if (c[i][mx[i]] < inf) cout << mx[i] << ' '; else cout << "0 ";
     cout << endl;
 }
+
