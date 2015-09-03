@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
@@ -54,3 +55,4 @@ int main() {
         puts("");
     }
 }
+
