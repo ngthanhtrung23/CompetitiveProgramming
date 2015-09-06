@@ -5399,6 +5399,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12874035": {
+    "contest_id": 566,
+    "language": "GNU C++11",
+    "path": "codeforces/566/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Clique in the Divisibility Graph",
+    "problem_url": "https://codeforces.com/contest/566/problem/F",
+    "submission_id": "CF12874035",
+    "submission_url": "https://codeforces.com/contest/566/submission/12874035",
+    "tags": [
+      "dp",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Sep/06/2015 22:59"
+  },
   "CF12874040": {
     "contest_id": 566,
     "language": "GNU C++11",
