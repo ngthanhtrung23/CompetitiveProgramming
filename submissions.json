@@ -5399,6 +5399,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12873962": {
+    "contest_id": 575,
+    "language": "GNU C++11",
+    "path": "codeforces/575/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bribes",
+    "problem_url": "https://codeforces.com/contest/575/problem/B",
+    "submission_id": "CF12873962",
+    "submission_url": "https://codeforces.com/contest/575/submission/12873962",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Sep/06/2015 22:53"
+  },
   "CF12873967": {
     "contest_id": 575,
     "language": "GNU C++11",
