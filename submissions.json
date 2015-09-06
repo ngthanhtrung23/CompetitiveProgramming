@@ -5399,6 +5399,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12873986": {
+    "contest_id": 575,
+    "language": "GNU C++11",
+    "path": "codeforces/575/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Bulbo",
+    "problem_url": "https://codeforces.com/contest/575/problem/F",
+    "submission_id": "CF12873986",
+    "submission_url": "https://codeforces.com/contest/575/submission/12873986",
+    "tags": [
+      "dp",
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Sep/06/2015 22:55"
+  },
   "CF12873989": {
     "contest_id": 575,
     "language": "GNU C++11",
