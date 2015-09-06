@@ -5399,6 +5399,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12873967": {
+    "contest_id": 575,
+    "language": "GNU C++11",
+    "path": "codeforces/575/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Party",
+    "problem_url": "https://codeforces.com/contest/575/problem/C",
+    "submission_id": "CF12873967",
+    "submission_url": "https://codeforces.com/contest/575/submission/12873967",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "graph matchings",
+      "*2700"
+    ],
+    "timestamp": "Sep/06/2015 22:54"
+  },
   "CF12873979": {
     "contest_id": 575,
     "language": "GNU C++11",
