@@ -5399,6 +5399,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12873979": {
+    "contest_id": 575,
+    "language": "GNU C++11",
+    "path": "codeforces/575/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Tablecity",
+    "problem_url": "https://codeforces.com/contest/575/problem/D",
+    "submission_id": "CF12873979",
+    "submission_url": "https://codeforces.com/contest/575/submission/12873979",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Sep/06/2015 22:55"
+  },
   "CF12873986": {
     "contest_id": 575,
     "language": "GNU C++11",
