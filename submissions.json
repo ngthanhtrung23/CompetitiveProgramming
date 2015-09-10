@@ -5399,6 +5399,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12920142": {
+    "contest_id": 80,
+    "language": "GNU C++11",
+    "path": "codeforces/80/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Depression",
+    "problem_url": "https://codeforces.com/contest/80/problem/B",
+    "submission_id": "CF12920142",
+    "submission_url": "https://codeforces.com/contest/80/submission/12920142",
+    "tags": [
+      "geometry",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Sep/10/2015 16:38"
+  },
   "CF12921084": {
     "contest_id": 65,
     "language": "GNU C++11",
