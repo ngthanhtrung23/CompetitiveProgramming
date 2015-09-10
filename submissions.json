@@ -5399,6 +5399,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12921084": {
+    "contest_id": 65,
+    "language": "GNU C++11",
+    "path": "codeforces/65/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Harry Potter and the Golden Snitch",
+    "problem_url": "https://codeforces.com/contest/65/problem/C",
+    "submission_id": "CF12921084",
+    "submission_url": "https://codeforces.com/contest/65/submission/12921084",
+    "tags": [
+      "binary search",
+      "geometry",
+      "*2100"
+    ],
+    "timestamp": "Sep/10/2015 18:01"
+  },
   "CF12947094": {
     "contest_id": 577,
     "language": "GNU C++11",
