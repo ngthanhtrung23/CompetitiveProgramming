@@ -5399,6 +5399,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12947094": {
+    "contest_id": 577,
+    "language": "GNU C++11",
+    "path": "codeforces/577/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Vasya and Petya's Game",
+    "problem_url": "https://codeforces.com/contest/577/problem/C",
+    "submission_id": "CF12947094",
+    "submission_url": "https://codeforces.com/contest/577/submission/12947094",
+    "tags": [
+      "implementation",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Sep/11/2015 04:15"
+  },
   "CF12947124": {
     "contest_id": 577,
     "language": "GNU C++11",
