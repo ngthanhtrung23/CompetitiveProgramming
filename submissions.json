@@ -5399,6 +5399,24 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF12947855": {
+    "contest_id": 576,
+    "language": "GNU C++11",
+    "path": "codeforces/576/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Invariance of Tree",
+    "problem_url": "https://codeforces.com/contest/576/problem/B",
+    "submission_id": "CF12947855",
+    "submission_url": "https://codeforces.com/contest/576/submission/12947855",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "greedy",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Sep/11/2015 04:31"
+  },
   "CF12947891": {
     "contest_id": 576,
     "language": "GNU C++11",
