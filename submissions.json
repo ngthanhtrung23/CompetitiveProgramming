@@ -8026,6 +8026,18 @@
     ],
     "timestamp": "Sep/11/2015 17:35"
   },
+  "CF13008484": {
+    "contest_id": 100735,
+    "language": "GNU C++11",
+    "path": "codeforces/100735/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Retrospective Sequence",
+    "problem_url": "https://codeforces.com/gym/100735",
+    "submission_id": "CF13008484",
+    "submission_url": "https://codeforces.com/gym/100735/submission/13008484",
+    "tags": [],
+    "timestamp": "Sep/15/2015 21:17"
+  },
   "CF13008763": {
     "contest_id": 100735,
     "language": "GNU C++11",
