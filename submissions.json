@@ -8026,6 +8026,18 @@
     ],
     "timestamp": "Sep/11/2015 17:35"
   },
+  "CF13012553": {
+    "contest_id": 100735,
+    "language": "GNU C++11",
+    "path": "codeforces/100735/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Ellipses",
+    "problem_url": "https://codeforces.com/gym/100735",
+    "submission_id": "CF13012553",
+    "submission_url": "https://codeforces.com/gym/100735/submission/13012553",
+    "tags": [],
+    "timestamp": "Sep/16/2015 02:39"
+  },
   "CF13036497": {
     "contest_id": 578,
     "language": "GNU C++11",
