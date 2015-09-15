@@ -8026,6 +8026,18 @@
     ],
     "timestamp": "Sep/11/2015 17:35"
   },
+  "CF13008481": {
+    "contest_id": 100735,
+    "language": "GNU C++11",
+    "path": "codeforces/100735/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Triangle Formation",
+    "problem_url": "https://codeforces.com/gym/100735",
+    "submission_id": "CF13008481",
+    "submission_url": "https://codeforces.com/gym/100735/submission/13008481",
+    "tags": [],
+    "timestamp": "Sep/15/2015 21:17"
+  },
   "CF13008484": {
     "contest_id": 100735,
     "language": "GNU C++11",
