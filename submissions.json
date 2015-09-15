@@ -8026,6 +8026,18 @@
     ],
     "timestamp": "Sep/11/2015 17:35"
   },
+  "CF13008763": {
+    "contest_id": 100735,
+    "language": "GNU C++11",
+    "path": "codeforces/100735/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Words from cubes",
+    "problem_url": "https://codeforces.com/gym/100735",
+    "submission_id": "CF13008763",
+    "submission_url": "https://codeforces.com/gym/100735/submission/13008763",
+    "tags": [],
+    "timestamp": "Sep/15/2015 21:42"
+  },
   "CF13009930": {
     "contest_id": 100735,
     "language": "GNU C++11",
