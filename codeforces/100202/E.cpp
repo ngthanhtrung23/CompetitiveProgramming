@@ -13,7 +13,7 @@
 #define sqr(x) ((x) * (x))
 #define ll long long
 using namespace std;
-#define EPS 1e-6
+#define EPS 1e-8
 
 inline int cmp(double a, double b) {
     if (fabs(a - b) < EPS) return 0;
@@ -224,4 +224,3 @@ int main() {
 //        S.print();
     }
 }
-
