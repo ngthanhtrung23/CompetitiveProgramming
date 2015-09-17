@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13069384": {
+    "contest_id": 100202,
+    "language": "GNU C++11",
+    "path": "codeforces/100202/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Puzzle",
+    "problem_url": "https://codeforces.com/gym/100202",
+    "submission_id": "CF13069384",
+    "submission_url": "https://codeforces.com/gym/100202/submission/13069384",
+    "tags": [],
+    "timestamp": "Sep/17/2015 22:26"
+  },
   "CF13070225": {
     "contest_id": 100202,
     "language": "GNU C++11",
