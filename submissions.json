@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13075306": {
+    "contest_id": 100202,
+    "language": "GNU C++11",
+    "path": "codeforces/100202/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Stable Sets",
+    "problem_url": "https://codeforces.com/gym/100202",
+    "submission_id": "CF13075306",
+    "submission_url": "https://codeforces.com/gym/100202/submission/13075306",
+    "tags": [],
+    "timestamp": "Sep/18/2015 03:21"
+  },
   "CF13075308": {
     "contest_id": 100202,
     "language": "GNU C++11",
