@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13071570": {
+    "contest_id": 100202,
+    "language": "GNU C++11",
+    "path": "codeforces/100202/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Maps",
+    "problem_url": "https://codeforces.com/gym/100202",
+    "submission_id": "CF13071570",
+    "submission_url": "https://codeforces.com/gym/100202/submission/13071570",
+    "tags": [],
+    "timestamp": "Sep/18/2015 00:39"
+  },
   "CF13073068": {
     "contest_id": 100202,
     "language": "GNU C++11",

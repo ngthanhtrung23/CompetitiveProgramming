@@ -180,7 +180,7 @@ int main() {
         double sc2 = (S - C3).len() * s2 / s3;
         double sd2 = (S - D3).len() * s2 / s3;
 
-        const int C = 100000;
+        const int C = 10000;
         bool ok = false;
         REP(turn,C) {
             double alpha = acos(-1.0) * 2.0 / C * turn;
@@ -224,3 +224,4 @@ int main() {
 //        S.print();
     }
 }
+
