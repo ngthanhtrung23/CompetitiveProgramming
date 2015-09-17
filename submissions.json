@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13068209": {
+    "contest_id": 100202,
+    "language": "Java 8",
+    "path": "codeforces/100202/A.java",
+    "problem_index": "A",
+    "problem_name": "Little Brackets",
+    "problem_url": "https://codeforces.com/gym/100202",
+    "submission_id": "CF13068209",
+    "submission_url": "https://codeforces.com/gym/100202/submission/13068209",
+    "tags": [],
+    "timestamp": "Sep/17/2015 21:55"
+  },
   "CF13069384": {
     "contest_id": 100202,
     "language": "GNU C++11",
