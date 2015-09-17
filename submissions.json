@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13075323": {
+    "contest_id": 100202,
+    "language": "GNU C++11",
+    "path": "codeforces/100202/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Crazy Painter",
+    "problem_url": "https://codeforces.com/gym/100202",
+    "submission_id": "CF13075323",
+    "submission_url": "https://codeforces.com/gym/100202/submission/13075323",
+    "tags": [],
+    "timestamp": "Sep/18/2015 03:22"
+  },
   "CF13097133": {
     "contest_id": 100204,
     "language": "GNU C++11",
