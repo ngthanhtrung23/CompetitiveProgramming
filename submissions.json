@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13097133": {
+    "contest_id": 100204,
+    "language": "GNU C++11",
+    "path": "codeforces/100204/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Nonoptimal Assignments",
+    "problem_url": "https://codeforces.com/gym/100204",
+    "submission_id": "CF13097133",
+    "submission_url": "https://codeforces.com/gym/100204/submission/13097133",
+    "tags": [],
+    "timestamp": "Sep/19/2015 14:32"
+  },
   "CF13097224": {
     "contest_id": 100204,
     "language": "GNU C++11",
