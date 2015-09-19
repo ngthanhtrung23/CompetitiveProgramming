@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13097777": {
+    "contest_id": 100204,
+    "language": "GNU C++11",
+    "path": "codeforces/100204/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Strange Limit",
+    "problem_url": "https://codeforces.com/gym/100204",
+    "submission_id": "CF13097777",
+    "submission_url": "https://codeforces.com/gym/100204/submission/13097777",
+    "tags": [],
+    "timestamp": "Sep/19/2015 15:39"
+  },
   "CF13097806": {
     "contest_id": 100204,
     "language": "GNU C++11",
