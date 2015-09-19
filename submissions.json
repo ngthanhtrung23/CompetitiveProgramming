@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13103635": {
+    "contest_id": 100204,
+    "language": "GNU C++11",
+    "path": "codeforces/100204/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Network Wars",
+    "problem_url": "https://codeforces.com/gym/100204",
+    "submission_id": "CF13103635",
+    "submission_url": "https://codeforces.com/gym/100204/submission/13103635",
+    "tags": [],
+    "timestamp": "Sep/19/2015 23:02"
+  },
   "CF13103638": {
     "contest_id": 100204,
     "language": "GNU C++11",
