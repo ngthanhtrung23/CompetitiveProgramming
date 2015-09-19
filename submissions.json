@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13099171": {
+    "contest_id": 100204,
+    "language": "GNU C++11",
+    "path": "codeforces/100204/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Little Mammoth",
+    "problem_url": "https://codeforces.com/gym/100204",
+    "submission_id": "CF13099171",
+    "submission_url": "https://codeforces.com/gym/100204/submission/13099171",
+    "tags": [],
+    "timestamp": "Sep/19/2015 17:32"
+  },
   "CF13103584": {
     "contest_id": 100204,
     "language": "GNU C++11",
