@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13106603": {
+    "contest_id": 100212,
+    "language": "GNU C++11",
+    "path": "codeforces/100212/A.cpp",
+    "problem_index": "A",
+    "problem_name": "The Smart Bomb",
+    "problem_url": "https://codeforces.com/gym/100212",
+    "submission_id": "CF13106603",
+    "submission_url": "https://codeforces.com/gym/100212/submission/13106603",
+    "tags": [],
+    "timestamp": "Sep/20/2015 03:05"
+  },
   "CF13106613": {
     "contest_id": 100212,
     "language": "GNU C++11",
