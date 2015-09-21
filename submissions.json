@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13131297": {
+    "contest_id": 100212,
+    "language": "GNU C++11",
+    "path": "codeforces/100212/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Periodic Tilings",
+    "problem_url": "https://codeforces.com/gym/100212",
+    "submission_id": "CF13131297",
+    "submission_url": "https://codeforces.com/gym/100212/submission/13131297",
+    "tags": [],
+    "timestamp": "Sep/22/2015 02:30"
+  },
   "CF13138488": {
     "contest_id": 100212,
     "language": "GNU C++11",
