@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13123331": {
+    "contest_id": 100151,
+    "language": "GNU C++",
+    "path": "codeforces/100151/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Berland Chess",
+    "problem_url": "https://codeforces.com/gym/100151",
+    "submission_id": "CF13123331",
+    "submission_url": "https://codeforces.com/gym/100151/submission/13123331",
+    "tags": [],
+    "timestamp": "Sep/21/2015 16:41"
+  },
   "CF13131297": {
     "contest_id": 100212,
     "language": "GNU C++11",
