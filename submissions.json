@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13123220": {
+    "contest_id": 100151,
+    "language": "GNU C++",
+    "path": "codeforces/100151/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Emoticons",
+    "problem_url": "https://codeforces.com/gym/100151",
+    "submission_id": "CF13123220",
+    "submission_url": "https://codeforces.com/gym/100151/submission/13123220",
+    "tags": [],
+    "timestamp": "Sep/21/2015 16:31"
+  },
   "CF13123253": {
     "contest_id": 100151,
     "language": "GNU C++",
