@@ -8189,6 +8189,18 @@
     ],
     "timestamp": "Sep/23/2015 03:02"
   },
+  "CF13172612": {
+    "contest_id": 100430,
+    "language": "GNU C++11",
+    "path": "codeforces/100430/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Magic Potions",
+    "problem_url": "https://codeforces.com/gym/100430",
+    "submission_id": "CF13172612",
+    "submission_url": "https://codeforces.com/gym/100430/submission/13172612",
+    "tags": [],
+    "timestamp": "Sep/23/2015 03:56"
+  },
   "CF13172847": {
     "contest_id": 100430,
     "language": "GNU C++11",
