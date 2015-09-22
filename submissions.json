@@ -5399,6 +5399,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13170155": {
+    "contest_id": 580,
+    "language": "GNU C++11",
+    "path": "codeforces/580/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Kefa and Watch",
+    "problem_url": "https://codeforces.com/contest/580/problem/E",
+    "submission_id": "CF13170155",
+    "submission_url": "https://codeforces.com/contest/580/submission/13170155",
+    "tags": [
+      "data structures",
+      "hashing",
+      "strings",
+      "*2500"
+    ],
+    "timestamp": "Sep/23/2015 03:02"
+  },
   "CF13218631": {
     "contest_id": 549,
     "language": "GNU C++11",
