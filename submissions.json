@@ -8172,6 +8172,18 @@
     ],
     "timestamp": "Sep/23/2015 00:45"
   },
+  "CF13169564": {
+    "contest_id": 100430,
+    "language": "GNU C++11",
+    "path": "codeforces/100430/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Chip Installation",
+    "problem_url": "https://codeforces.com/gym/100430",
+    "submission_id": "CF13169564",
+    "submission_url": "https://codeforces.com/gym/100430/submission/13169564",
+    "tags": [],
+    "timestamp": "Sep/23/2015 02:42"
+  },
   "CF13170155": {
     "contest_id": 580,
     "language": "GNU C++11",
