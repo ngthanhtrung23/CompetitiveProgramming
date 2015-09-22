@@ -8105,6 +8105,18 @@
     ],
     "timestamp": "Sep/17/2015 02:38"
   },
+  "CF13139110": {
+    "contest_id": 100430,
+    "language": "GNU C++11",
+    "path": "codeforces/100430/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Squary Set",
+    "problem_url": "https://codeforces.com/gym/100430",
+    "submission_id": "CF13139110",
+    "submission_url": "https://codeforces.com/gym/100430/submission/13139110",
+    "tags": [],
+    "timestamp": "Sep/22/2015 18:50"
+  },
   "CF13143767": {
     "contest_id": 580,
     "language": "GNU C++11",
