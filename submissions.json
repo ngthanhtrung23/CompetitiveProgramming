@@ -8189,6 +8189,18 @@
     ],
     "timestamp": "Sep/23/2015 03:02"
   },
+  "CF13192352": {
+    "contest_id": 100210,
+    "language": "Java 8",
+    "path": "codeforces/100210/B.java",
+    "problem_index": "B",
+    "problem_name": "Divide and Conquer",
+    "problem_url": "https://codeforces.com/gym/100210",
+    "submission_id": "CF13192352",
+    "submission_url": "https://codeforces.com/gym/100210/submission/13192352",
+    "tags": [],
+    "timestamp": "Sep/24/2015 00:57"
+  },
   "CF13206333": {
     "contest_id": 100211,
     "language": "GNU C++11",
