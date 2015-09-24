@@ -8189,6 +8189,18 @@
     ],
     "timestamp": "Sep/23/2015 03:02"
   },
+  "CF13206386": {
+    "contest_id": 100211,
+    "language": "GNU C++11",
+    "path": "codeforces/100211/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Police Cities",
+    "problem_url": "https://codeforces.com/gym/100211",
+    "submission_id": "CF13206386",
+    "submission_url": "https://codeforces.com/gym/100211/submission/13206386",
+    "tags": [],
+    "timestamp": "Sep/24/2015 23:14"
+  },
   "CF13206526": {
     "contest_id": 100211,
     "language": "GNU C++11",
