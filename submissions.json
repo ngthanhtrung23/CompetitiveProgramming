@@ -8189,6 +8189,18 @@
     ],
     "timestamp": "Sep/23/2015 03:02"
   },
+  "CF13209351": {
+    "contest_id": 100211,
+    "language": "GNU C++11",
+    "path": "codeforces/100211/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Quadratic Equation",
+    "problem_url": "https://codeforces.com/gym/100211",
+    "submission_id": "CF13209351",
+    "submission_url": "https://codeforces.com/gym/100211/submission/13209351",
+    "tags": [],
+    "timestamp": "Sep/25/2015 02:56"
+  },
   "CF13209354": {
     "contest_id": 100211,
     "language": "GNU C++11",
