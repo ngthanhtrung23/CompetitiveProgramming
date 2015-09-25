@@ -5399,6 +5399,24 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13218818": {
+    "contest_id": 549,
+    "language": "GNU C++11",
+    "path": "codeforces/549/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Looksery Party",
+    "problem_url": "https://codeforces.com/contest/549/problem/B",
+    "submission_id": "CF13218818",
+    "submission_url": "https://codeforces.com/contest/549/submission/13218818",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*2300"
+    ],
+    "timestamp": "Sep/25/2015 20:44"
+  },
   "CF13219970": {
     "contest_id": 549,
     "language": "GNU C++11",
