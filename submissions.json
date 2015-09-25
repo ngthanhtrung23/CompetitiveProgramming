@@ -5399,6 +5399,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13222022": {
+    "contest_id": 549,
+    "language": "GNU C++11",
+    "path": "codeforces/549/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Happy Line",
+    "problem_url": "https://codeforces.com/contest/549/problem/G",
+    "submission_id": "CF13222022",
+    "submission_url": "https://codeforces.com/contest/549/submission/13222022",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Sep/26/2015 00:27"
+  },
   "CF13222782": {
     "contest_id": 549,
     "language": "GNU C++11",
