@@ -5399,6 +5399,26 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13286911": {
+    "contest_id": 581,
+    "language": "GNU C++11",
+    "path": "codeforces/581/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Three Logos",
+    "problem_url": "https://codeforces.com/contest/581/problem/D",
+    "submission_id": "CF13286911",
+    "submission_url": "https://codeforces.com/contest/581/submission/13286911",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "geometry",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Sep/29/2015 03:15"
+  },
   "CF13308929": {
     "contest_id": 581,
     "language": "GNU C++11",
