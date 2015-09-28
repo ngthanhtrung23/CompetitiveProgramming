@@ -8355,6 +8355,18 @@
     ],
     "timestamp": "Sep/28/2015 02:58"
   },
+  "CF13279196": {
+    "contest_id": 100765,
+    "language": "GNU C++11",
+    "path": "codeforces/100765/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Train",
+    "problem_url": "https://codeforces.com/gym/100765",
+    "submission_id": "CF13279196",
+    "submission_url": "https://codeforces.com/gym/100765/submission/13279196",
+    "tags": [],
+    "timestamp": "Sep/28/2015 21:56"
+  },
   "CF13280159": {
     "contest_id": 100765,
     "language": "GNU C++11",
