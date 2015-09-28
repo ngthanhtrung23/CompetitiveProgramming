@@ -8355,6 +8355,18 @@
     ],
     "timestamp": "Sep/28/2015 02:58"
   },
+  "CF13277826": {
+    "contest_id": 100765,
+    "language": "GNU C++11",
+    "path": "codeforces/100765/G.cpp",
+    "problem_index": "G",
+    "problem_name": "BHTML 1.0",
+    "problem_url": "https://codeforces.com/gym/100765",
+    "submission_id": "CF13277826",
+    "submission_url": "https://codeforces.com/gym/100765/submission/13277826",
+    "tags": [],
+    "timestamp": "Sep/28/2015 21:16"
+  },
   "CF13277911": {
     "contest_id": 100765,
     "language": "GNU C++11",
