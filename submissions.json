@@ -8355,6 +8355,18 @@
     ],
     "timestamp": "Sep/28/2015 02:58"
   },
+  "CF13278472": {
+    "contest_id": 100765,
+    "language": "GNU C++11",
+    "path": "codeforces/100765/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Mars Stomatology",
+    "problem_url": "https://codeforces.com/gym/100765",
+    "submission_id": "CF13278472",
+    "submission_url": "https://codeforces.com/gym/100765/submission/13278472",
+    "tags": [],
+    "timestamp": "Sep/28/2015 21:34"
+  },
   "CF13279196": {
     "contest_id": 100765,
     "language": "GNU C++11",
