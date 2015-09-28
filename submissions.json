@@ -8355,6 +8355,18 @@
     ],
     "timestamp": "Sep/28/2015 02:58"
   },
+  "CF13277911": {
+    "contest_id": 100765,
+    "language": "GNU C++11",
+    "path": "codeforces/100765/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Fair-play",
+    "problem_url": "https://codeforces.com/gym/100765",
+    "submission_id": "CF13277911",
+    "submission_url": "https://codeforces.com/gym/100765/submission/13277911",
+    "tags": [],
+    "timestamp": "Sep/28/2015 21:18"
+  },
   "CF13278103": {
     "contest_id": 100765,
     "language": "Java 8",
