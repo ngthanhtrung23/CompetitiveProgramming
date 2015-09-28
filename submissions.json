@@ -5399,6 +5399,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13286125": {
+    "contest_id": 581,
+    "language": "GNU C++11",
+    "path": "codeforces/581/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Vasya the Hipster",
+    "problem_url": "https://codeforces.com/contest/581/problem/A",
+    "submission_id": "CF13286125",
+    "submission_url": "https://codeforces.com/contest/581/submission/13286125",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/29/2015 02:34"
+  },
   "CF13286241": {
     "contest_id": 581,
     "language": "GNU C++11",
