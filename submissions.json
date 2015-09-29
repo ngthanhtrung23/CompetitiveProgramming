@@ -8424,6 +8424,18 @@
     ],
     "timestamp": "Sep/29/2015 03:15"
   },
+  "CF13301235": {
+    "contest_id": 100554,
+    "language": "GNU C++11",
+    "path": "codeforces/100554/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Hierarchical Notation",
+    "problem_url": "https://codeforces.com/gym/100554",
+    "submission_id": "CF13301235",
+    "submission_url": "https://codeforces.com/gym/100554/submission/13301235",
+    "tags": [],
+    "timestamp": "Sep/30/2015 00:06"
+  },
   "CF13308929": {
     "contest_id": 581,
     "language": "GNU C++11",
