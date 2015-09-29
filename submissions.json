@@ -8424,6 +8424,18 @@
     ],
     "timestamp": "Sep/29/2015 03:15"
   },
+  "CF13300435": {
+    "contest_id": 100554,
+    "language": "GNU C++11",
+    "path": "codeforces/100554/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Known Notation",
+    "problem_url": "https://codeforces.com/gym/100554",
+    "submission_id": "CF13300435",
+    "submission_url": "https://codeforces.com/gym/100554/submission/13300435",
+    "tags": [],
+    "timestamp": "Sep/29/2015 23:22"
+  },
   "CF13301235": {
     "contest_id": 100554,
     "language": "GNU C++11",
