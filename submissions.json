@@ -8424,6 +8424,18 @@
     ],
     "timestamp": "Sep/29/2015 03:15"
   },
+  "CF13298440": {
+    "contest_id": 100554,
+    "language": "GNU C++11",
+    "path": "codeforces/100554/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Information Entropy",
+    "problem_url": "https://codeforces.com/gym/100554",
+    "submission_id": "CF13298440",
+    "submission_url": "https://codeforces.com/gym/100554/submission/13298440",
+    "tags": [],
+    "timestamp": "Sep/29/2015 21:31"
+  },
   "CF13298637": {
     "contest_id": 100554,
     "language": "GNU C++11",
