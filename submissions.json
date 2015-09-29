@@ -8424,6 +8424,18 @@
     ],
     "timestamp": "Sep/29/2015 03:15"
   },
+  "CF13299799": {
+    "contest_id": 100554,
+    "language": "GNU C++11",
+    "path": "codeforces/100554/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Building Fire Stations",
+    "problem_url": "https://codeforces.com/gym/100554",
+    "submission_id": "CF13299799",
+    "submission_url": "https://codeforces.com/gym/100554/submission/13299799",
+    "tags": [],
+    "timestamp": "Sep/29/2015 22:46"
+  },
   "CF13300435": {
     "contest_id": 100554,
     "language": "GNU C++11",
