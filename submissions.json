@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13310155": {
+    "contest_id": 100648,
+    "language": "GNU C++11",
+    "path": "codeforces/100648/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Hie with the Pie",
+    "problem_url": "https://codeforces.com/gym/100648",
+    "submission_id": "CF13310155",
+    "submission_url": "https://codeforces.com/gym/100648/submission/13310155",
+    "tags": [],
+    "timestamp": "Sep/30/2015 15:47"
+  },
   "CF13310460": {
     "contest_id": 100648,
     "language": "GNU C++11",
