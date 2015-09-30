@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13310460": {
+    "contest_id": 100648,
+    "language": "GNU C++11",
+    "path": "codeforces/100648/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Mahershalalhashbaz, Nebuchadnezzar, and Billy Bob Benjamin Go to the Regionals",
+    "problem_url": "https://codeforces.com/gym/100648",
+    "submission_id": "CF13310460",
+    "submission_url": "https://codeforces.com/gym/100648/submission/13310460",
+    "tags": [],
+    "timestamp": "Sep/30/2015 16:22"
+  },
   "CF13311455": {
     "contest_id": 100648,
     "language": "GNU C++11",
