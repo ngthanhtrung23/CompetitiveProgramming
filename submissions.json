@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13311455": {
+    "contest_id": 100648,
+    "language": "GNU C++11",
+    "path": "codeforces/100648/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Plaque Pack",
+    "problem_url": "https://codeforces.com/gym/100648",
+    "submission_id": "CF13311455",
+    "submission_url": "https://codeforces.com/gym/100648/submission/13311455",
+    "tags": [],
+    "timestamp": "Sep/30/2015 17:53"
+  },
   "CF13330059": {
     "contest_id": 100213,
     "language": "GNU C++11",
