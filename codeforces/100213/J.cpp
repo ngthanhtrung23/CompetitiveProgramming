@@ -1,5 +1,6 @@
 
 #include <bits/stdc++.h>
+#include <ext/rope>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
@@ -14,6 +15,7 @@
 #define ll long long
 #define SZ(X) ((int) ((X).size()))
 using namespace std;
+using namespace __gnu_cxx;
 
 const int MN = 40;
 int n, t, p;
@@ -127,4 +129,3 @@ int main() {
         }
     }
 }
-
