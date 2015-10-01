@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13331030": {
+    "contest_id": 100213,
+    "language": "GNU C++11",
+    "path": "codeforces/100213/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Radio Waves",
+    "problem_url": "https://codeforces.com/gym/100213",
+    "submission_id": "CF13331030",
+    "submission_url": "https://codeforces.com/gym/100213/submission/13331030",
+    "tags": [],
+    "timestamp": "Oct/01/2015 22:21"
+  },
   "CF13331418": {
     "contest_id": 100213,
     "language": "GNU C++11",
