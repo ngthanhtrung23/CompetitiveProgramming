@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13330843": {
+    "contest_id": 100213,
+    "language": "GNU C++11",
+    "path": "codeforces/100213/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Saving Princess",
+    "problem_url": "https://codeforces.com/gym/100213",
+    "submission_id": "CF13330843",
+    "submission_url": "https://codeforces.com/gym/100213/submission/13330843",
+    "tags": [],
+    "timestamp": "Oct/01/2015 22:08"
+  },
   "CF13331030": {
     "contest_id": 100213,
     "language": "GNU C++11",
