@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13333427": {
+    "contest_id": 100213,
+    "language": "GNU C++11",
+    "path": "codeforces/100213/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Gone Swimming",
+    "problem_url": "https://codeforces.com/gym/100213",
+    "submission_id": "CF13333427",
+    "submission_url": "https://codeforces.com/gym/100213/submission/13333427",
+    "tags": [],
+    "timestamp": "Oct/02/2015 01:07"
+  },
   "CF13334194": {
     "contest_id": 100213,
     "language": "GNU C++11",
