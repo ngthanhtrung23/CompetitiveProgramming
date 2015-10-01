@@ -119,4 +119,3 @@ int main() {
         for(auto x : res) cout << x << ' '; cout << endl;
     }
 }
-
