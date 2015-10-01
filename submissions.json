@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13334225": {
+    "contest_id": 100213,
+    "language": "GNU C++11",
+    "path": "codeforces/100213/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Cheater's Shuffle",
+    "problem_url": "https://codeforces.com/gym/100213",
+    "submission_id": "CF13334225",
+    "submission_url": "https://codeforces.com/gym/100213/submission/13334225",
+    "tags": [],
+    "timestamp": "Oct/02/2015 02:05"
+  },
   "CF13334302": {
     "contest_id": 100213,
     "language": "GNU C++11",
