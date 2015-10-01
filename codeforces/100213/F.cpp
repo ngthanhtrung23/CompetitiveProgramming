@@ -107,4 +107,3 @@ int main() {
         cout << save_i2 << ' ' << save_j2 << endl;
     }
 }
-

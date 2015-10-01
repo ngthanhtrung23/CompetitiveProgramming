@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13331821": {
+    "contest_id": 100213,
+    "language": "GNU C++11",
+    "path": "codeforces/100213/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Counterfeit Money",
+    "problem_url": "https://codeforces.com/gym/100213",
+    "submission_id": "CF13331821",
+    "submission_url": "https://codeforces.com/gym/100213/submission/13331821",
+    "tags": [],
+    "timestamp": "Oct/01/2015 23:15"
+  },
   "CF13332833": {
     "contest_id": 100213,
     "language": "GNU C++11",
