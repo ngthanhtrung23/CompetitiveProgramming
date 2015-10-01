@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13334203": {
+    "contest_id": 100213,
+    "language": "GNU C++11",
+    "path": "codeforces/100213/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Black and White",
+    "problem_url": "https://codeforces.com/gym/100213",
+    "submission_id": "CF13334203",
+    "submission_url": "https://codeforces.com/gym/100213/submission/13334203",
+    "tags": [],
+    "timestamp": "Oct/02/2015 02:04"
+  },
   "CF13334208": {
     "contest_id": 100213,
     "language": "GNU C++11",
