@@ -8441,6 +8441,18 @@
     ],
     "timestamp": "Sep/30/2015 13:32"
   },
+  "CF13341087": {
+    "contest_id": 100765,
+    "language": "GNU C++11",
+    "path": "codeforces/100765/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Great Berland Wall",
+    "problem_url": "https://codeforces.com/gym/100765",
+    "submission_id": "CF13341087",
+    "submission_url": "https://codeforces.com/gym/100765/submission/13341087",
+    "tags": [],
+    "timestamp": "Oct/02/2015 17:19"
+  },
   "CF13366751": {
     "contest_id": 582,
     "language": "GNU C++11",
