@@ -5399,6 +5399,22 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13386747": {
+    "contest_id": 583,
+    "language": "GNU C++11",
+    "path": "codeforces/583/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Robot's Task",
+    "problem_url": "https://codeforces.com/contest/583/problem/B",
+    "submission_id": "CF13386747",
+    "submission_url": "https://codeforces.com/contest/583/submission/13386747",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Oct/04/2015 04:29"
+  },
   "CF13459567": {
     "contest_id": 584,
     "language": "Python 2",
