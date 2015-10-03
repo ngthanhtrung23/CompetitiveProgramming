@@ -18,7 +18,7 @@ const int MN = 200111;
 
 int a[MN], n;
 int max_rem[MN], good[MN*2];
-int x[MN];
+ll x[MN];
 int cache_gcd[MN];
 
 ll get(int d) {
