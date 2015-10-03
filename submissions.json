@@ -5399,6 +5399,21 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13385478": {
+    "contest_id": 583,
+    "language": "GNU C++11",
+    "path": "codeforces/583/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Superior Periodic Subarrays",
+    "problem_url": "https://codeforces.com/contest/583/problem/E",
+    "submission_id": "CF13385478",
+    "submission_url": "https://codeforces.com/contest/583/submission/13385478",
+    "tags": [
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "Oct/04/2015 03:44"
+  },
   "CF13386593": {
     "contest_id": 583,
     "language": "GNU C++11",
