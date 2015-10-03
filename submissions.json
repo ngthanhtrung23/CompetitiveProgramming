@@ -5399,6 +5399,23 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13371934": {
+    "contest_id": 582,
+    "language": "GNU C++11",
+    "path": "codeforces/582/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Once Again...",
+    "problem_url": "https://codeforces.com/contest/582/problem/B",
+    "submission_id": "CF13371934",
+    "submission_url": "https://codeforces.com/contest/582/submission/13371934",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "matrices",
+      "*1900"
+    ],
+    "timestamp": "Oct/04/2015 01:19"
+  },
   "CF13383105": {
     "contest_id": 582,
     "language": "GNU C++11",
