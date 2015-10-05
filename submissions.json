@@ -8551,6 +8551,18 @@
     ],
     "timestamp": "Oct/04/2015 04:29"
   },
+  "CF13417831": {
+    "contest_id": 100723,
+    "language": "GNU C++11",
+    "path": "codeforces/100723/B.cpp",
+    "problem_index": "B",
+    "problem_name": "March of the Penguins",
+    "problem_url": "https://codeforces.com/gym/100723",
+    "submission_id": "CF13417831",
+    "submission_url": "https://codeforces.com/gym/100723/submission/13417831",
+    "tags": [],
+    "timestamp": "Oct/05/2015 22:35"
+  },
   "CF13420194": {
     "contest_id": 100723,
     "language": "GNU C++11",
