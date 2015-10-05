@@ -8551,6 +8551,18 @@
     ],
     "timestamp": "Oct/04/2015 04:29"
   },
+  "CF13417379": {
+    "contest_id": 100723,
+    "language": "GNU C++11",
+    "path": "codeforces/100723/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Walk",
+    "problem_url": "https://codeforces.com/gym/100723",
+    "submission_id": "CF13417379",
+    "submission_url": "https://codeforces.com/gym/100723/submission/13417379",
+    "tags": [],
+    "timestamp": "Oct/05/2015 22:07"
+  },
   "CF13417831": {
     "contest_id": 100723,
     "language": "GNU C++11",
