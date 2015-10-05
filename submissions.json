@@ -8743,6 +8743,18 @@
     "tags": [],
     "timestamp": "Oct/06/2015 01:39"
   },
+  "CF13420400": {
+    "contest_id": 100723,
+    "language": "GNU C++11",
+    "path": "codeforces/100723/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Tower Parking",
+    "problem_url": "https://codeforces.com/gym/100723",
+    "submission_id": "CF13420400",
+    "submission_url": "https://codeforces.com/gym/100723/submission/13420400",
+    "tags": [],
+    "timestamp": "Oct/06/2015 01:39"
+  },
   "CF13420403": {
     "contest_id": 100723,
     "language": "GNU C++11",
