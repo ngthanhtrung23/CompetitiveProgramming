@@ -8551,6 +8551,18 @@
     ],
     "timestamp": "Oct/04/2015 04:29"
   },
+  "CF13420387": {
+    "contest_id": 100723,
+    "language": "GNU C++11",
+    "path": "codeforces/100723/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Summits",
+    "problem_url": "https://codeforces.com/gym/100723",
+    "submission_id": "CF13420387",
+    "submission_url": "https://codeforces.com/gym/100723/submission/13420387",
+    "tags": [],
+    "timestamp": "Oct/06/2015 01:39"
+  },
   "CF13459567": {
     "contest_id": 584,
     "language": "Python 2",
