@@ -8551,6 +8551,18 @@
     ],
     "timestamp": "Oct/04/2015 04:29"
   },
+  "CF13417120": {
+    "contest_id": 100723,
+    "language": "GNU C++11",
+    "path": "codeforces/100723/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Obfuscation",
+    "problem_url": "https://codeforces.com/gym/100723",
+    "submission_id": "CF13417120",
+    "submission_url": "https://codeforces.com/gym/100723/submission/13417120",
+    "tags": [],
+    "timestamp": "Oct/05/2015 21:51"
+  },
   "CF13417379": {
     "contest_id": 100723,
     "language": "GNU C++11",
