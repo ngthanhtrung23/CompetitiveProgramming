@@ -50,4 +50,3 @@ int main() {
         cout << savex << " X " << savey << " = " << best << '\n';
     }
 }
-
