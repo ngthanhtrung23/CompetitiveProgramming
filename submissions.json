@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13497347": {
+    "contest_id": 100215,
+    "language": "GNU C++11",
+    "path": "codeforces/100215/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Words Game",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13497347",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13497347",
+    "tags": [],
+    "timestamp": "Oct/09/2015 00:34"
+  },
   "CF13497669": {
     "contest_id": 100215,
     "language": "GNU C++11",
