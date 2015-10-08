@@ -88,6 +88,7 @@ Poly operator / (Poly a, const Poly& b) {
 }
 
 Poly operator % (Poly a, const Poly& b) {
+    if (a.deg < 0) return a;
     if (b.deg == 0) {
         Poly res;
         res.deg = -1;
