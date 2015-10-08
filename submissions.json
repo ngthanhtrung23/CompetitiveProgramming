@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13499227": {
+    "contest_id": 100215,
+    "language": "Java 8",
+    "path": "codeforces/100215/I.java",
+    "problem_index": "I",
+    "problem_name": "Regular Words",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13499227",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13499227",
+    "tags": [],
+    "timestamp": "Oct/09/2015 02:36"
+  },
   "CF13499234": {
     "contest_id": 100215,
     "language": "GNU C++11",
