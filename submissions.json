@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13495104": {
+    "contest_id": 100215,
+    "language": "GNU C++11",
+    "path": "codeforces/100215/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Thermal Death of the Universe",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13495104",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13495104",
+    "tags": [],
+    "timestamp": "Oct/08/2015 22:15"
+  },
   "CF13495417": {
     "contest_id": 100215,
     "language": "Java 8",
