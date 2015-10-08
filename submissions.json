@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13499010": {
+    "contest_id": 100215,
+    "language": "Java 8",
+    "path": "codeforces/100215/F.java",
+    "problem_index": "F",
+    "problem_name": "Lottery",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13499010",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13499010",
+    "tags": [],
+    "timestamp": "Oct/09/2015 02:20"
+  },
   "CF13499132": {
     "contest_id": 100215,
     "language": "GNU C++11",
