@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13498805": {
+    "contest_id": 100215,
+    "language": "GNU C++11",
+    "path": "codeforces/100215/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Dividing a Chocolate",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13498805",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13498805",
+    "tags": [],
+    "timestamp": "Oct/09/2015 02:07"
+  },
   "CF13498862": {
     "contest_id": 100215,
     "language": "GNU C++11",
