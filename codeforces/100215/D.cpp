@@ -72,6 +72,11 @@ Poly operator * (const Poly& a, const Poly& b) {
 
 Poly operator / (Poly a, const Poly& b) {
     Poly res;
+    if (a.deg < b.deg) {
+        res.deg = -1;
+        res.x.reset();
+        return res;
+    }
     if (b.deg == 0) return a;
 
     res.deg = a.deg - b.deg;
