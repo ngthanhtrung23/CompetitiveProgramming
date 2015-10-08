@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13499151": {
+    "contest_id": 100215,
+    "language": "GNU C++11",
+    "path": "codeforces/100215/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Manhattan Police",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13499151",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13499151",
+    "tags": [],
+    "timestamp": "Oct/09/2015 02:29"
+  },
   "CF13499227": {
     "contest_id": 100215,
     "language": "Java 8",
