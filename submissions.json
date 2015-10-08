@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13496952": {
+    "contest_id": 100215,
+    "language": "GNU C++11",
+    "path": "codeforces/100215/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Fool's Game",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13496952",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13496952",
+    "tags": [],
+    "timestamp": "Oct/09/2015 00:10"
+  },
   "CF13497347": {
     "contest_id": 100215,
     "language": "GNU C++11",
