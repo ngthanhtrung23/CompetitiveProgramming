@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13498711": {
+    "contest_id": 100215,
+    "language": "GNU C++11",
+    "path": "codeforces/100215/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Brackets",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13498711",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13498711",
+    "tags": [],
+    "timestamp": "Oct/09/2015 02:01"
+  },
   "CF13498805": {
     "contest_id": 100215,
     "language": "GNU C++11",
