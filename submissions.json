@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13499132": {
+    "contest_id": 100215,
+    "language": "GNU C++11",
+    "path": "codeforces/100215/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Two Pipelines",
+    "problem_url": "https://codeforces.com/gym/100215",
+    "submission_id": "CF13499132",
+    "submission_url": "https://codeforces.com/gym/100215/submission/13499132",
+    "tags": [],
+    "timestamp": "Oct/09/2015 02:28"
+  },
   "CF13499151": {
     "contest_id": 100215,
     "language": "GNU C++11",
