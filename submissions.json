@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13507791": {
+    "contest_id": 100733,
+    "language": "GNU C++11",
+    "path": "codeforces/100733/G.cpp",
+    "problem_index": "G",
+    "problem_name": "No Negations",
+    "problem_url": "https://codeforces.com/gym/100733",
+    "submission_id": "CF13507791",
+    "submission_url": "https://codeforces.com/gym/100733/submission/13507791",
+    "tags": [],
+    "timestamp": "Oct/09/2015 19:13"
+  },
   "CF13522684": {
     "contest_id": 100216,
     "language": "GNU C++11",
