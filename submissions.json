@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13507695": {
+    "contest_id": 100733,
+    "language": "GNU C++11",
+    "path": "codeforces/100733/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Cosmic timeline",
+    "problem_url": "https://codeforces.com/gym/100733",
+    "submission_id": "CF13507695",
+    "submission_url": "https://codeforces.com/gym/100733/submission/13507695",
+    "tags": [],
+    "timestamp": "Oct/09/2015 19:07"
+  },
   "CF13507791": {
     "contest_id": 100733,
     "language": "GNU C++11",
