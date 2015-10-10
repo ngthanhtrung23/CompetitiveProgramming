@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13534048": {
+    "contest_id": 100216,
+    "language": "GNU C++11",
+    "path": "codeforces/100216/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Lucky Tickets",
+    "problem_url": "https://codeforces.com/gym/100216",
+    "submission_id": "CF13534048",
+    "submission_url": "https://codeforces.com/gym/100216/submission/13534048",
+    "tags": [],
+    "timestamp": "Oct/11/2015 02:09"
+  },
   "CF13534413": {
     "contest_id": 100216,
     "language": "GNU C++11",
