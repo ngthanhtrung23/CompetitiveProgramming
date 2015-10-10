@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13531542": {
+    "contest_id": 100216,
+    "language": "GNU C++11",
+    "path": "codeforces/100216/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Pyraminx",
+    "problem_url": "https://codeforces.com/gym/100216",
+    "submission_id": "CF13531542",
+    "submission_url": "https://codeforces.com/gym/100216/submission/13531542",
+    "tags": [],
+    "timestamp": "Oct/10/2015 23:09"
+  },
   "CF13532182": {
     "contest_id": 100216,
     "language": "GNU C++11",
