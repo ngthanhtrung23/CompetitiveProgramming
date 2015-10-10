@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13530322": {
+    "contest_id": 100216,
+    "language": "Java 8",
+    "path": "codeforces/100216/F.java",
+    "problem_index": "F",
+    "problem_name": "Cutting Puzzle",
+    "problem_url": "https://codeforces.com/gym/100216",
+    "submission_id": "CF13530322",
+    "submission_url": "https://codeforces.com/gym/100216/submission/13530322",
+    "tags": [],
+    "timestamp": "Oct/10/2015 21:57"
+  },
   "CF13530347": {
     "contest_id": 100216,
     "language": "GNU C++11",
