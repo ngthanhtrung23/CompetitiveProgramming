@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13534413": {
+    "contest_id": 100216,
+    "language": "GNU C++11",
+    "path": "codeforces/100216/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Matrix Game",
+    "problem_url": "https://codeforces.com/gym/100216",
+    "submission_id": "CF13534413",
+    "submission_url": "https://codeforces.com/gym/100216/submission/13534413",
+    "tags": [],
+    "timestamp": "Oct/11/2015 02:36"
+  },
   "CF13549038": {
     "contest_id": 100210,
     "language": "GNU C++11",
