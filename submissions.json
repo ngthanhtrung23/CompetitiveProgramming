@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13530347": {
+    "contest_id": 100216,
+    "language": "GNU C++11",
+    "path": "codeforces/100216/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Sand-Glass",
+    "problem_url": "https://codeforces.com/gym/100216",
+    "submission_id": "CF13530347",
+    "submission_url": "https://codeforces.com/gym/100216/submission/13530347",
+    "tags": [],
+    "timestamp": "Oct/10/2015 21:59"
+  },
   "CF13530356": {
     "contest_id": 100216,
     "language": "GNU C++11",
