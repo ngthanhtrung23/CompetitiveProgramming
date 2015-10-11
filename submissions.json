@@ -8615,6 +8615,18 @@
     ],
     "timestamp": "Oct/07/2015 13:20"
   },
+  "CF13549969": {
+    "contest_id": 100210,
+    "language": "GNU C++11",
+    "path": "codeforces/100210/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Beautiful Permutation",
+    "problem_url": "https://codeforces.com/gym/100210",
+    "submission_id": "CF13549969",
+    "submission_url": "https://codeforces.com/gym/100210/submission/13549969",
+    "tags": [],
+    "timestamp": "Oct/12/2015 02:18"
+  },
   "CF13549976": {
     "contest_id": 100210,
     "language": "GNU C++11",
