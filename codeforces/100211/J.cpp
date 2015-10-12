@@ -80,16 +80,16 @@ int main() {
         // - O  = A (cylinder center)
         // - Oz = (cylinder axis).normalize()
         // - Ox, Oy = 2 perpendicularvectors on cylinder base
+        Point Oz = (B - A).normalize();
+        Point rand_point = Point(141.12731, 892.19284, 712.12347);
+        Point Ox = (Oz % rand_point).normalize();
+        Point Oy = (Oz % Ox).normalize();
+
         Point O = A;
         A = A - O;
         B = B - O;
         X = X - O;
         Y = Y - O;
-
-        Point Oz = (B - A).normalize();
-        Point rand_point = Point(141.12731, 892.19284, 712.12347);
-        Point Ox = (Oz % rand_point).normalize();
-        Point Oy = (Oz % Ox).normalize();
 
 
         A = project(A, Ox, Oy, Oz);
@@ -128,4 +128,3 @@ int main() {
     }
     return 0;
 }
-
