@@ -4852,6 +4852,21 @@
     ],
     "timestamp": "Jul/25/2015 12:51"
   },
+  "CF13579250": {
+    "contest_id": 585,
+    "language": "GNU C++11",
+    "path": "codeforces/585/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Alice, Bob, Oranges and Apples",
+    "problem_url": "https://codeforces.com/contest/585/problem/C",
+    "submission_id": "CF13579250",
+    "submission_url": "https://codeforces.com/contest/585/submission/13579250",
+    "tags": [
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "Oct/13/2015 00:40"
+  },
   "CF14592469": {
     "contest_id": 603,
     "language": "GNU C++11",
