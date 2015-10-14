@@ -5414,6 +5414,22 @@
     ],
     "timestamp": "Oct/13/2015 00:40"
   },
+  "CF13601511": {
+    "contest_id": 585,
+    "language": "GNU C++11",
+    "path": "codeforces/585/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Gennady the Dentist",
+    "problem_url": "https://codeforces.com/contest/585/problem/A",
+    "submission_id": "CF13601511",
+    "submission_url": "https://codeforces.com/contest/585/submission/13601511",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Oct/14/2015 12:12"
+  },
   "CF13602963": {
     "contest_id": 585,
     "language": "GNU C++11",
