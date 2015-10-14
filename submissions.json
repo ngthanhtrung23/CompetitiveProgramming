@@ -5414,6 +5414,21 @@
     ],
     "timestamp": "Oct/13/2015 00:40"
   },
+  "CF13604546": {
+    "contest_id": 585,
+    "language": "GNU C++11",
+    "path": "codeforces/585/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Lizard Era: Beginning",
+    "problem_url": "https://codeforces.com/contest/585/problem/D",
+    "submission_id": "CF13604546",
+    "submission_url": "https://codeforces.com/contest/585/submission/13604546",
+    "tags": [
+      "meet-in-the-middle",
+      "*2300"
+    ],
+    "timestamp": "Oct/14/2015 17:37"
+  },
   "CF13617379": {
     "contest_id": 586,
     "language": "GNU C++11",
