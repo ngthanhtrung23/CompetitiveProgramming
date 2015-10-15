@@ -5414,6 +5414,21 @@
     ],
     "timestamp": "Oct/13/2015 00:40"
   },
+  "CF13617379": {
+    "contest_id": 586,
+    "language": "GNU C++11",
+    "path": "codeforces/586/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Alena's Schedule",
+    "problem_url": "https://codeforces.com/contest/586/problem/A",
+    "submission_id": "CF13617379",
+    "submission_url": "https://codeforces.com/contest/586/submission/13617379",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Oct/15/2015 16:48"
+  },
   "CF13617443": {
     "contest_id": 586,
     "language": "GNU C++11",
