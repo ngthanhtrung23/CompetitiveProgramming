@@ -50,11 +50,12 @@ int main() {
             pair<int,int> p = res[i];
             sum += abs(p.first - p.second);
         }
-        printf("%d\n", sum);
-        printf("%d\n", SZ(res));
+        cout << sum << endl;
+        cout << SZ(res) << endl;
         REP(i,SZ(res)) {
             pair<int,int> p = res[i];
-            printf("%d %d\n", p.first, p.second);
+            cout << p.first << ' ' << p.second << '\n';
         }
     }
 }
+
