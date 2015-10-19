@@ -9669,6 +9669,18 @@
     ],
     "timestamp": "Oct/16/2015 03:44"
   },
+  "CF13730392": {
+    "contest_id": 100781,
+    "language": "GNU C++11",
+    "path": "codeforces/100781/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Floppy Music",
+    "problem_url": "https://codeforces.com/gym/100781",
+    "submission_id": "CF13730392",
+    "submission_url": "https://codeforces.com/gym/100781/submission/13730392",
+    "tags": [],
+    "timestamp": "Oct/19/2015 22:51"
+  },
   "CF13730726": {
     "contest_id": 100781,
     "language": "GNU C++11",
