@@ -8865,6 +8865,18 @@
     ],
     "timestamp": "Oct/16/2015 03:44"
   },
+  "CF13732089": {
+    "contest_id": 100781,
+    "language": "GNU C++11",
+    "path": "codeforces/100781/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Just a Quiz",
+    "problem_url": "https://codeforces.com/gym/100781",
+    "submission_id": "CF13732089",
+    "submission_url": "https://codeforces.com/gym/100781/submission/13732089",
+    "tags": [],
+    "timestamp": "Oct/20/2015 02:17"
+  },
   "CF13732361": {
     "contest_id": 100781,
     "language": "GNU C++11",
