@@ -8865,6 +8865,18 @@
     ],
     "timestamp": "Oct/16/2015 03:44"
   },
+  "CF13792124": {
+    "contest_id": 100796,
+    "language": "GNU C++11",
+    "path": "codeforces/100796/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Profact",
+    "problem_url": "https://codeforces.com/gym/100796",
+    "submission_id": "CF13792124",
+    "submission_url": "https://codeforces.com/gym/100796/submission/13792124",
+    "tags": [],
+    "timestamp": "Oct/22/2015 21:32"
+  },
   "CF13792527": {
     "contest_id": 100796,
     "language": "GNU C++11",
