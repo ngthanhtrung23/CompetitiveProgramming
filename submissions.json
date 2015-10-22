@@ -8865,6 +8865,18 @@
     ],
     "timestamp": "Oct/16/2015 03:44"
   },
+  "CF13792668": {
+    "contest_id": 100796,
+    "language": "GNU C++11",
+    "path": "codeforces/100796/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Shell Game",
+    "problem_url": "https://codeforces.com/gym/100796",
+    "submission_id": "CF13792668",
+    "submission_url": "https://codeforces.com/gym/100796/submission/13792668",
+    "tags": [],
+    "timestamp": "Oct/22/2015 21:49"
+  },
   "CF13794726": {
     "contest_id": 100796,
     "language": "GNU C++11",
