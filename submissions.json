@@ -8865,6 +8865,18 @@
     ],
     "timestamp": "Oct/16/2015 03:44"
   },
+  "CF13791416": {
+    "contest_id": 100796,
+    "language": "GNU C++11",
+    "path": "codeforces/100796/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Robot Walk",
+    "problem_url": "https://codeforces.com/gym/100796",
+    "submission_id": "CF13791416",
+    "submission_url": "https://codeforces.com/gym/100796/submission/13791416",
+    "tags": [],
+    "timestamp": "Oct/22/2015 21:12"
+  },
   "CF13791471": {
     "contest_id": 100796,
     "language": "GNU C++11",
