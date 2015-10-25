@@ -5414,6 +5414,22 @@
     ],
     "timestamp": "Oct/13/2015 00:40"
   },
+  "CF13857027": {
+    "contest_id": 591,
+    "language": "GNU C++11",
+    "path": "codeforces/591/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Wizards' Duel",
+    "problem_url": "https://codeforces.com/contest/591/problem/A",
+    "submission_id": "CF13857027",
+    "submission_url": "https://codeforces.com/contest/591/submission/13857027",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Oct/26/2015 01:12"
+  },
   "CF13857123": {
     "contest_id": 591,
     "language": "GNU C++11",
