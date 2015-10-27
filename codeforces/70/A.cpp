@@ -1,37 +1,34 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <stack>
-#include <queue>
-#include <string>
-#include <deque>
-#include <complex>
+
+#include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
 #define ll long long
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
+#define SZ(X) ((int) ((X).size()))
 using namespace std;
 
-const double PI = acos(-1.0);
-const int BASE = 1000003;
+const int MOD = 1e6 + 3;
+
+ll power(ll x, int k) {
+    if (k <= 0) return 1;
+    if (k == 1) return x;
+    ll mid = power(x*x % MOD, k >> 1);
+    if (k & 1) return mid * x % MOD;
+    else return mid;
+}
 
 int main() {
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w", stdout);
-    int n; cin >> n;
-    int res = 1;
-    FOR(i,1,n-1) res = (res * 3) % BASE;
-    cout << res;
-    return 0;
+    ios :: sync_with_stdio(false);
+    int n;
+    while (cin >> n) {
+        cout << power(3, n-1) << endl;
+    }
 }

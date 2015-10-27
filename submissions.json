@@ -5414,6 +5414,21 @@
     ],
     "timestamp": "Oct/13/2015 00:40"
   },
+  "CF13895636": {
+    "contest_id": 70,
+    "language": "GNU C++11",
+    "path": "codeforces/70/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Cookies",
+    "problem_url": "https://codeforces.com/contest/70/problem/A",
+    "submission_id": "CF13895636",
+    "submission_url": "https://codeforces.com/contest/70/submission/13895636",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Oct/27/2015 23:45"
+  },
   "CF13975254": {
     "contest_id": 592,
     "language": "GNU C++11",
