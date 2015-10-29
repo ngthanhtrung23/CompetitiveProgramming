@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13939062": {
+    "contest_id": 100222,
+    "language": "GNU C++11",
+    "path": "codeforces/100222/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Polymorphism",
+    "problem_url": "https://codeforces.com/gym/100222",
+    "submission_id": "CF13939062",
+    "submission_url": "https://codeforces.com/gym/100222/submission/13939062",
+    "tags": [],
+    "timestamp": "Oct/30/2015 02:43"
+  },
   "CF13939064": {
     "contest_id": 100222,
     "language": "GNU C++11",
