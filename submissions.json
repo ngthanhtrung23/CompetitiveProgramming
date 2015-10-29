@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13934487": {
+    "contest_id": 100222,
+    "language": "GNU C++11",
+    "path": "codeforces/100222/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Refrain",
+    "problem_url": "https://codeforces.com/gym/100222",
+    "submission_id": "CF13934487",
+    "submission_url": "https://codeforces.com/gym/100222/submission/13934487",
+    "tags": [],
+    "timestamp": "Oct/29/2015 21:59"
+  },
   "CF13934525": {
     "contest_id": 100222,
     "language": "GNU C++11",
