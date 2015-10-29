@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13939149": {
+    "contest_id": 100222,
+    "language": "GNU C++11",
+    "path": "codeforces/100222/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Infinity Sect",
+    "problem_url": "https://codeforces.com/gym/100222",
+    "submission_id": "CF13939149",
+    "submission_url": "https://codeforces.com/gym/100222/submission/13939149",
+    "tags": [],
+    "timestamp": "Oct/30/2015 02:52"
+  },
   "CF13965986": {
     "contest_id": 100324,
     "language": "GNU C++11",
