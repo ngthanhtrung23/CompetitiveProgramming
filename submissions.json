@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13934525": {
+    "contest_id": 100222,
+    "language": "GNU C++11",
+    "path": "codeforces/100222/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Addictions",
+    "problem_url": "https://codeforces.com/gym/100222",
+    "submission_id": "CF13934525",
+    "submission_url": "https://codeforces.com/gym/100222/submission/13934525",
+    "tags": [],
+    "timestamp": "Oct/29/2015 22:02"
+  },
   "CF13934971": {
     "contest_id": 100222,
     "language": "GNU C++11",
