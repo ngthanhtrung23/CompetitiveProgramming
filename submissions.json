@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13933895": {
+    "contest_id": 100222,
+    "language": "GNU C++11",
+    "path": "codeforces/100222/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Truth",
+    "problem_url": "https://codeforces.com/gym/100222",
+    "submission_id": "CF13933895",
+    "submission_url": "https://codeforces.com/gym/100222/submission/13933895",
+    "tags": [],
+    "timestamp": "Oct/29/2015 21:25"
+  },
   "CF13933971": {
     "contest_id": 100222,
     "language": "GNU C++11",
