@@ -5414,6 +5414,21 @@
     ],
     "timestamp": "Oct/13/2015 00:40"
   },
+  "CF13977625": {
+    "contest_id": 592,
+    "language": "Python 2",
+    "path": "codeforces/592/C.py",
+    "problem_index": "C",
+    "problem_name": "The Big Race",
+    "problem_url": "https://codeforces.com/contest/592/problem/C",
+    "submission_id": "CF13977625",
+    "submission_url": "https://codeforces.com/contest/592/submission/13977625",
+    "tags": [
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Nov/01/2015 00:53"
+  },
   "CF13980999": {
     "contest_id": 592,
     "language": "GNU C++11",
