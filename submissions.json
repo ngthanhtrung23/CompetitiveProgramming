@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13966711": {
+    "contest_id": 100324,
+    "language": "Java 8",
+    "path": "codeforces/100324/B.java",
+    "problem_index": "B",
+    "problem_name": "Cartesian Tree",
+    "problem_url": "https://codeforces.com/gym/100324",
+    "submission_id": "CF13966711",
+    "submission_url": "https://codeforces.com/gym/100324/submission/13966711",
+    "tags": [],
+    "timestamp": "Oct/31/2015 16:52"
+  },
   "CF13966821": {
     "contest_id": 100324,
     "language": "GNU C++11",
