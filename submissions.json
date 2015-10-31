@@ -5414,6 +5414,21 @@
     ],
     "timestamp": "Oct/13/2015 00:40"
   },
+  "CF13993115": {
+    "contest_id": 592,
+    "language": "GNU C++11",
+    "path": "codeforces/592/A.cpp",
+    "problem_index": "A",
+    "problem_name": "PawnChess",
+    "problem_url": "https://codeforces.com/contest/592/problem/A",
+    "submission_id": "CF13993115",
+    "submission_url": "https://codeforces.com/contest/592/submission/13993115",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Nov/01/2015 04:16"
+  },
   "CF13995495": {
     "contest_id": 592,
     "language": "GNU C++11",
