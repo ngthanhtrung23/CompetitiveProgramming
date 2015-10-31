@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13969207": {
+    "contest_id": 100324,
+    "language": "GNU C++11",
+    "path": "codeforces/100324/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Surface Genus",
+    "problem_url": "https://codeforces.com/gym/100324",
+    "submission_id": "CF13969207",
+    "submission_url": "https://codeforces.com/gym/100324/submission/13969207",
+    "tags": [],
+    "timestamp": "Oct/31/2015 19:40"
+  },
   "CF13970236": {
     "contest_id": 100324,
     "language": "Java 8",
