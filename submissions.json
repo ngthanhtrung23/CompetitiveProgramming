@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13966590": {
+    "contest_id": 100324,
+    "language": "GNU C++11",
+    "path": "codeforces/100324/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Matrix Multiplication",
+    "problem_url": "https://codeforces.com/gym/100324",
+    "submission_id": "CF13966590",
+    "submission_url": "https://codeforces.com/gym/100324/submission/13966590",
+    "tags": [],
+    "timestamp": "Oct/31/2015 16:44"
+  },
   "CF13966711": {
     "contest_id": 100324,
     "language": "Java 8",
