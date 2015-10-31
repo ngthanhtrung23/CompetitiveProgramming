@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13973175": {
+    "contest_id": 100324,
+    "language": "GNU C++11",
+    "path": "codeforces/100324/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Colorful Pebbles",
+    "problem_url": "https://codeforces.com/gym/100324",
+    "submission_id": "CF13973175",
+    "submission_url": "https://codeforces.com/gym/100324/submission/13973175",
+    "tags": [],
+    "timestamp": "Oct/31/2015 23:24"
+  },
   "CF13973573": {
     "contest_id": 100324,
     "language": "GNU C++11",
