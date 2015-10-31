@@ -5414,6 +5414,23 @@
     ],
     "timestamp": "Oct/13/2015 00:40"
   },
+  "CF13995495": {
+    "contest_id": 592,
+    "language": "GNU C++11",
+    "path": "codeforces/592/E.cpp",
+    "problem_index": "E",
+    "problem_name": "BCPC",
+    "problem_url": "https://codeforces.com/contest/592/problem/E",
+    "submission_id": "CF13995495",
+    "submission_url": "https://codeforces.com/contest/592/submission/13995495",
+    "tags": [
+      "binary search",
+      "geometry",
+      "two pointers",
+      "*2700"
+    ],
+    "timestamp": "Nov/01/2015 05:55"
+  },
   "CF14008160": {
     "contest_id": 276,
     "language": "GNU C++11",
