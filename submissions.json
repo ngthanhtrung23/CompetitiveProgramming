@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13972989": {
+    "contest_id": 100324,
+    "language": "Java 8",
+    "path": "codeforces/100324/C.java",
+    "problem_index": "C",
+    "problem_name": "Casino",
+    "problem_url": "https://codeforces.com/gym/100324",
+    "submission_id": "CF13972989",
+    "submission_url": "https://codeforces.com/gym/100324/submission/13972989",
+    "tags": [],
+    "timestamp": "Oct/31/2015 23:07"
+  },
   "CF13973025": {
     "contest_id": 100324,
     "language": "GNU C++11",
