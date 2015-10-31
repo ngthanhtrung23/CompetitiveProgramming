@@ -9024,6 +9024,18 @@
     ],
     "timestamp": "Nov/01/2015 01:11"
   },
+  "CF13992604": {
+    "contest_id": 100324,
+    "language": "GNU C++11",
+    "path": "codeforces/100324/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Crossing the River",
+    "problem_url": "https://codeforces.com/gym/100324",
+    "submission_id": "CF13992604",
+    "submission_url": "https://codeforces.com/gym/100324/submission/13992604",
+    "tags": [],
+    "timestamp": "Nov/01/2015 03:14"
+  },
   "CF13993115": {
     "contest_id": 592,
     "language": "GNU C++11",
