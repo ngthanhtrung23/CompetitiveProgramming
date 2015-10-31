@@ -8976,6 +8976,18 @@
     ],
     "timestamp": "Oct/27/2015 23:45"
   },
+  "CF13967914": {
+    "contest_id": 100324,
+    "language": "GNU C++11",
+    "path": "codeforces/100324/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Almost Palindromic Numbers",
+    "problem_url": "https://codeforces.com/gym/100324",
+    "submission_id": "CF13967914",
+    "submission_url": "https://codeforces.com/gym/100324/submission/13967914",
+    "tags": [],
+    "timestamp": "Oct/31/2015 18:17"
+  },
   "CF13968407": {
     "contest_id": 100324,
     "language": "GNU C++11",
