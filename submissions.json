@@ -5447,6 +5447,21 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14014146": {
+    "contest_id": 235,
+    "language": "Python 2",
+    "path": "codeforces/235/A.py",
+    "problem_index": "A",
+    "problem_name": "LCM Challenge",
+    "problem_url": "https://codeforces.com/contest/235/problem/A",
+    "submission_id": "CF14014146",
+    "submission_url": "https://codeforces.com/contest/235/submission/14014146",
+    "tags": [
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Nov/02/2015 03:40"
+  },
   "CF14014289": {
     "contest_id": 235,
     "language": "GNU C++11",
