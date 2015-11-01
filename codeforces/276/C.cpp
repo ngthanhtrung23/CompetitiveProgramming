@@ -28,8 +28,9 @@ const int MN = 200111;
 int n, q, a[MN], cnt[MN];
 
 int main() {
-  while (scanf("%d%d", &n, &q) == 2) {
-      FOR(i,1,n) scanf("%d", &a[i]);
+  ios::sync_with_stdio(0);
+  while (cin >> n >> q) {
+      FOR(i,1,n) cin >> a[i];
       memset(cnt, 0, sizeof cnt);
       FOR(i,1,q) {
           int u, v; cin >> u >> v;
