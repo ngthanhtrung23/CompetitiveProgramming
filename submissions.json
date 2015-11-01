@@ -5447,6 +5447,24 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14013837": {
+    "contest_id": 358,
+    "language": "GNU C++11",
+    "path": "codeforces/358/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Dima and Kicks",
+    "problem_url": "https://codeforces.com/contest/358/problem/E",
+    "submission_id": "CF14013837",
+    "submission_url": "https://codeforces.com/contest/358/submission/14013837",
+    "tags": [
+      "brute force",
+      "dsu",
+      "graphs",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Nov/02/2015 03:17"
+  },
   "CF14014146": {
     "contest_id": 235,
     "language": "Python 2",
