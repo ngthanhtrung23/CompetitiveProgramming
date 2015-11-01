@@ -32,7 +32,7 @@ int main() {
       FOR(i,1,n) scanf("%d", &a[i]);
       memset(cnt, 0, sizeof cnt);
       FOR(i,1,q) {
-          int u, v; scanf("%d%d", &u, &v);
+          int u, v; cin >> u >> v;
           cnt[u]++;
           cnt[v+1]--;
       }
