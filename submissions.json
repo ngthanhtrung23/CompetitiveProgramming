@@ -5447,6 +5447,23 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14014289": {
+    "contest_id": 235,
+    "language": "GNU C++11",
+    "path": "codeforces/235/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Let's Play Osu!",
+    "problem_url": "https://codeforces.com/contest/235/problem/B",
+    "submission_id": "CF14014289",
+    "submission_url": "https://codeforces.com/contest/235/submission/14014289",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*2000"
+    ],
+    "timestamp": "Nov/02/2015 03:53"
+  },
   "CF14014321": {
     "contest_id": 236,
     "language": "GNU C++11",
