@@ -5447,6 +5447,22 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14033216": {
+    "contest_id": 208,
+    "language": "GNU C++11",
+    "path": "codeforces/208/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Solitaire",
+    "problem_url": "https://codeforces.com/contest/208/problem/B",
+    "submission_id": "CF14033216",
+    "submission_url": "https://codeforces.com/contest/208/submission/14033216",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Nov/03/2015 03:48"
+  },
   "CF14033363": {
     "contest_id": 208,
     "language": "GNU C++11",

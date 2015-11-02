@@ -1,89 +1,83 @@
-#include <iostream>
-#include <cstdio>
-#include <cstdlib>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-#include <cstring>
-#include <string>
-#include <queue>
 
-#define FOR(i,a,b) for(int i=(a),_b=(b); i <= _b; ++i)
-#define FORD(i,a,b) for(int i=(a), _b=(b); i >= _b; --i)
-#define REP(i,a) for(int i = 0, _a=(a); i < _a; ++i)
-#define MP make_pair
-#define PB push_back
-#define F first
-#define S second
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#include <bits/stdc++.h>
+
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << card[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << card[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
+#define ll long long
+#define SZ(X) ((int) ((X).size()))
 using namespace std;
 
-int getVal(char v) {
-    if (v >= '2' && v <= '9') return v - '2';
-    if (v == 'T') return 8;
-    if (v == 'J') return 9;
-    if (v == 'Q') return 10;
-    if (v == 'K') return 11;
-    if (v == 'A') return 12;
-    return -1;
+string card[55];
+int n;
+
+bool check(string a, string b) {
+    return a[0] == b[0] || a[1] == b[1];
+}
+bool check(string a, string b, string c) {
+    return check(c, b) && check(c, a);
 }
 
-int getSuit(char s) {
-    if (s == 'S') return 0;
-    if (s == 'D') return 1;
-    if (s == 'H') return 2;
-    if (s == 'C') return 3;
-    return -1;
-}
+set< pair< pair<int,string>, pair<string,string> > > s;
+bool solve() {
+    if (n == 1) return true;
+    if (n == 2) return check(card[1], card[2]);
 
-int getNum(string s) {
-    int u = getVal(s[0]);
-    int v = getSuit(s[1]);
-    return v*13 + u;
-}
+    queue<int> qn;
+    queue<string> qa;
+    queue<string> qb;
+    queue<string> qc;
+    s.clear();
 
-inline bool can(int a, int b) {
-    if (a == 52 || b == 52) return false;
-    return (a / 13 == b / 13) || (a % 13 == b % 13);
-}
+    qn.push(n);
+    qa.push(card[n-2]);
+    qb.push(card[n-1]);
+    qc.push(card[n]);
+    s.insert(make_pair(make_pair(n, card[n-2]), make_pair(card[n-1], card[n])));
+    while (!qn.empty()) {
+        int n = qn.front(); qn.pop();
+        string a = qa.front(); qa.pop();
+        string b = qb.front(); qb.pop();
+        string c = qc.front(); qc.pop();
 
-bool f[55][55][55][55];
-int n, a[55];
+        if (n == 3) {
+            if (check(a, b, c)) return true;
+            continue;
+        }
 
-void solve() {
-    memset(f, false, sizeof f);
-    int x = a[n];
-    int y = 52; if (n > 1) y = a[n-1];
-    int z = 52; if (n > 2) z = a[n-2];
-    f[n][x][y][z] = true;
-
-    FORD(i,n,2) FOR(x,0,52) FOR(y,0,52) FOR(z,0,52) if (f[i][x][y][z]) {
-        int t = 52;
-        if (i > 3) t = a[i-3];
-        if (can(x, y)) f[i-1][x][z][t] = true;
-        if (can(x, t)) f[i-1][y][z][x] = true;
-    }
-
-    bool res = false;
-    FOR(x,0,52) FOR(y,0,52) FOR(z,0,52) {
-        if (f[1][x][y][z]) {
-            res = true;
+        // c --> b
+        string prev = card[n-3];
+        if (check(c, b) && !s.count(make_pair(make_pair(n-1, prev), make_pair(a, c)))) {
+            s.insert(make_pair(make_pair(n-1, prev), make_pair(a, c)));
+            qn.push(n-1);
+            qa.push(prev);
+            qb.push(a);
+            qc.push(c);
+        }
+        // c --> prev
+        if (check(c, prev) && !s.count(make_pair(make_pair(n-1, c), make_pair(a, b)))) {
+            s.insert(make_pair(make_pair(n-1, c), make_pair(a, b)));
+            qn.push(n-1);
+            qa.push(c);
+            qb.push(a);
+            qc.push(b);
         }
     }
-    if (res) cout << "YES\n";
-    else cout << "NO\n";
+
+    return false;
 }
 
 int main() {
     ios :: sync_with_stdio(false);
     while (cin >> n) {
-        FOR(i,1,n) {
-            string s; cin >> s;
-            a[i] = getNum(s);
-        }
-        solve();
+        FOR(i,1,n) cin >> card[i];
+        cout << (solve() ? "YES" : "NO") << endl;
     }
-    return 0;
 }
