@@ -1,113 +1,103 @@
+
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) { cout << #x << " = "; cout << x << endl; }
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
 #define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
 #define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
-using namespace std;
 
-//Buffer reading
-int INP,AM,REACHEOF;
-const int BUFSIZE = (1<<12) + 17;
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp && !REACHEOF) { \
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
+#define sqr(x) ((x) * (x))
+#define ll long long
+#define SZ(X) ((int) ((X).size()))
+using namespace std;
 
 const int MN = 100111;
 
+int n;
+ll a[MN], nChild[MN], f[MN], res;
 vector<int> ke[MN];
-long long mult[MN], a[MN], sum;
-int n, cnt[MN];
 
-long long lcm(long long a, long long b) {
-    return a * b / __gcd(a, b);
+void init() {
+    FOR(i,1,n) ke[i].clear();
 }
 
-void dfs(int u, int fu) {
-    cnt[u] = 0;
-    long long l = 1;
-    REP(i,ke[u].size()) {
+ll lcm(ll a, ll b) {
+    return a / __gcd(a, b) * b;
+}
+
+void dfs1(int u, int fu) {
+    nChild[u] = 0;
+
+    f[u] = 1;
+    REP(i,SZ(ke[u])) {
         int v = ke[u][i];
         if (v == fu) continue;
 
-        dfs(v, u);
-        ++cnt[u];
-        l = lcm(l, mult[v]);
-        if (l < 0) {
-            cout << sum << endl;
-            exit(0);
-        }
-    }
+        ++nChild[u];
+        dfs1(v, u);
 
-    if (cnt[u] == 0) {
-        mult[u] = 1;
+        f[u] = lcm(f[u], f[v]);
+        if (f[u] < 0) throw 1;
     }
+    if (nChild[u] == 0) f[u] = 1;
     else {
-        mult[u] = l * cnt[u];
+        f[u] *= nChild[u];
     }
 }
 
-bool check(int u, int fu, long long val) {
-    if (cnt[u] == 0) { // leaf
-        return a[u] >= val;
-    }
-
-    // non-leaf
-    long long each = val / cnt[u];
-    REP(i,ke[u].size()) {
+void dfs2(int u, int fu, ll need) {
+    REP(i,SZ(ke[u])) {
         int v = ke[u][i];
         if (v == fu) continue;
 
-        if (!check(v, u, each)) return false;
+        dfs2(v, u, need / nChild[u]);
     }
-    return true;
+
+    if (nChild[u] == 0) {
+        res = min(res, a[u] / need);
+    }
+}
+
+ll dfs3(int u, int fu, ll need) {
+    ll res = 0;
+    REP(i,SZ(ke[u])) {
+        int v = ke[u][i];
+        if (v == fu) continue;
+
+        res += dfs3(v, u, need / nChild[u]);
+    }
+    if (nChild[u] == 0) res += a[u] - need;
+    return res;
 }
 
 int main() {
     ios :: sync_with_stdio(false);
-    while (cin >> n) {
-        sum = 0;
-        FOR(i,1,n) cin >> a[i], sum += a[i];
-        FOR(i,1,n) ke[i].clear();
-
+    while (scanf("%d", &n) == 1) {
+        init();
+        ll sum = 0;
+        FOR(i,1,n) {
+            int x; scanf("%d", &x);
+            a[i] = x;
+            sum += x;
+        }
         FOR(i,2,n) {
-            int u, v; cin >> u >> v;
+            int u, v; scanf("%d%d", &u, &v);
             ke[u].push_back(v);
             ke[v].push_back(u);
         }
-        dfs(1, -1);
-        // PR(mult, n);
+        try {
+            dfs1(1, -1);
+            res = 1000111000111000111LL;
+            dfs2(1, -1, f[1]);
 
-        long long l = 0, r = 1000111000111000 / mult[1], res = 0;
-        while (l <= r) {
-            long long mid = (l + r) >> 1;
-            if (check(1, -1, mid * mult[1])) {
-                l = mid + 1;
-                res = mid;
-            }
-            else r = mid - 1;
+            cout << dfs3(1, -1, res * f[1]) << endl;
         }
-        cout << sum - res*mult[1] << endl;
+        catch (int e) {
+            cout << sum << endl;
+        }
     }
-    return 0;
 }
