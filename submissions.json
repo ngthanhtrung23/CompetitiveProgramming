@@ -5447,6 +5447,22 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14020133": {
+    "contest_id": 348,
+    "language": "GNU C++11",
+    "path": "codeforces/348/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Turtles",
+    "problem_url": "https://codeforces.com/contest/348/problem/D",
+    "submission_id": "CF14020133",
+    "submission_url": "https://codeforces.com/contest/348/submission/14020133",
+    "tags": [
+      "dp",
+      "matrices",
+      "*2500"
+    ],
+    "timestamp": "Nov/02/2015 17:23"
+  },
   "CF14020208": {
     "contest_id": 349,
     "language": "GNU C++11",
