@@ -5447,6 +5447,23 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14032094": {
+    "contest_id": 369,
+    "language": "GNU C++11",
+    "path": "codeforces/369/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Valera and Contest",
+    "problem_url": "https://codeforces.com/contest/369/problem/B",
+    "submission_id": "CF14032094",
+    "submission_url": "https://codeforces.com/contest/369/submission/14032094",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Nov/03/2015 02:18"
+  },
   "CF14032226": {
     "contest_id": 369,
     "language": "GNU C++11",
