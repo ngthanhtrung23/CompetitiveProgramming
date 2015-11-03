@@ -5447,6 +5447,23 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14037860": {
+    "contest_id": 47,
+    "language": "GNU C++11",
+    "path": "codeforces/47/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Cannon",
+    "problem_url": "https://codeforces.com/contest/47/problem/E",
+    "submission_id": "CF14037860",
+    "submission_url": "https://codeforces.com/contest/47/submission/14037860",
+    "tags": [
+      "data structures",
+      "geometry",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Nov/03/2015 14:49"
+  },
   "CF14038049": {
     "contest_id": 298,
     "language": "GNU C++11",
