@@ -1,29 +1,43 @@
-#include <iostream>
-#include <cstdio>
-#define REP(i,a) for(int i=0; i < a; ++i)
+
+#include <bits/stdc++.h>
+
+#define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
+#define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
+#define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
+
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
+#define ll long long
+#define SZ(X) ((int) ((X).size()))
 using namespace std;
 
-int t, sx, sy, tx, ty;
-char a[100111];
-
 int main() {
-	while (scanf("%d%d%d%d%d\n", &t, &sx, &sy, &tx, &ty) == 5) {
-		gets(a);
-		bool good = false;
-		REP(i,t) {
-			char c = a[i];
-			if (c == 'S' && sy > ty) --sy;
-			if (c == 'E' && sx < tx) ++sx;
-			if (c == 'W' && sx > tx) --sx;
-			if (c == 'N' && sy < ty) ++sy;
+    ios :: sync_with_stdio(false);
+    int t, x0, y0, x1, y1;
+    string s;
+    while (cin >> t >> x0 >> y0 >> x1 >> y1) {
+        cin >> s;
+        if (x0 == x1 && y0 == y1) cout << 0 << endl;
+        else {
+            try {
+                REP(i,SZ(s)) {
+                    if (s[i] == 'E' && x0 < x1) ++x0;
+                    else if (s[i] == 'S' && y0 > y1) --y0;
+                    else if (s[i] == 'W' && x0 > x1) --x0;
+                    else if (s[i] == 'N' && y0 < y1) ++y0;
 
-			if (sx == tx && sy == ty) {
-				good = true;
-				cout << i+1 << endl;
-				break;
-			}
-		}
-		if (!good) puts("-1");
-	}
-	return 0;
+                    if (x0 == x1 && y0 == y1) {
+                        cout << i+1 << endl;
+                        throw 1;
+                    }
+                }
+                cout << -1 << endl;
+            } catch(int e) {
+            }
+        }
+    }
 }
