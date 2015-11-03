@@ -1,63 +1,45 @@
+
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; i--)
 #define REP(i,a) for(int i=0,_a=(a); i<_a; i++)
+#define EACH(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
 
-#define DEBUG(x) cout << #x << " = "; cout << x << endl;
-#define PR(a,n) cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl;
-#define PR0(a,n) cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl;
+#define DEBUG(x) { cout << #x << " = "; cout << (x) << endl; }
+#define PR(a,n) { cout << #a << " = "; FOR(_,1,n) cout << a[_] << ' '; cout << endl; }
+#define PR0(a,n) { cout << #a << " = "; REP(_,n) cout << a[_] << ' '; cout << endl; }
+
+#define sqr(x) ((x) * (x))
+#define ll long long
+#define SZ(X) ((int) ((X).size()))
 using namespace std;
 
-//Buffer reading
-int INP,AM,REACHEOF;
-const int BUFSIZE = (1<<12) + 17;
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp && !REACHEOF) { \
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-//End of buffer reading
-
-const int MN = 100111;
-
-int a[MN];
-int add, n, m;
+int n, q;
+ll a[100111];
 
 int main() {
     ios :: sync_with_stdio(false);
-    while (cin >> n >> m) {
-        FOR(i,1,n) cin >> a[i];
-        add = 0;
-        while (m--) {
-            int type; cin >> type;
-            if (type == 1) {
-                int x, val; cin >> x >> val;
-                a[x] = val - add;
+    while (scanf("%d%d", &n, &q) == 2) {
+        FOR(i,1,n) {
+            int x; scanf("%d", &x);
+            a[i] = x;
+        }
+        ll addAll = 0;
+        while (q--) {
+            int typ; scanf("%d", &typ);
+            if (typ == 1) {
+                int v, x; scanf("%d%d", &v, &x);
+                a[v] = x - addAll;
             }
-            else if (type == 2) {
-                int v; cin >> v;
-                add += v;
+            else if (typ == 2) {
+                int y; scanf("%d", &y);
+                addAll += y;
             }
-            else {
-                int x; cin >> x;
-                cout << a[x] + add << endl;
+            else if (typ == 3) {
+                int v; scanf("%d", &v);
+                printf("%d\n", (int) (a[v] + addAll));
             }
         }
     }
-    return 0;
 }
