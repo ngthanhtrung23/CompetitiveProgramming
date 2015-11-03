@@ -5447,6 +5447,21 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14045347": {
+    "contest_id": 58,
+    "language": "GNU C++11",
+    "path": "codeforces/58/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Trees",
+    "problem_url": "https://codeforces.com/contest/58/problem/C",
+    "submission_id": "CF14045347",
+    "submission_url": "https://codeforces.com/contest/58/submission/14045347",
+    "tags": [
+      "brute force",
+      "*1800"
+    ],
+    "timestamp": "Nov/04/2015 00:52"
+  },
   "CF14046472": {
     "contest_id": 58,
     "language": "GNU C++11",
