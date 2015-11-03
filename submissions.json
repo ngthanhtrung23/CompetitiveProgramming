@@ -5447,6 +5447,21 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14037249": {
+    "contest_id": 47,
+    "language": "GNU C++11",
+    "path": "codeforces/47/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Coins",
+    "problem_url": "https://codeforces.com/contest/47/problem/B",
+    "submission_id": "CF14037249",
+    "submission_url": "https://codeforces.com/contest/47/submission/14037249",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Nov/03/2015 13:21"
+  },
   "CF14037335": {
     "contest_id": 47,
     "language": "GNU C++11",
