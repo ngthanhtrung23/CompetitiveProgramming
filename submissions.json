@@ -5447,6 +5447,21 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14037335": {
+    "contest_id": 47,
+    "language": "GNU C++11",
+    "path": "codeforces/47/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Crossword",
+    "problem_url": "https://codeforces.com/contest/47/problem/C",
+    "submission_id": "CF14037335",
+    "submission_url": "https://codeforces.com/contest/47/submission/14037335",
+    "tags": [
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Nov/03/2015 13:36"
+  },
   "CF14037438": {
     "contest_id": 47,
     "language": "GNU C++11",
