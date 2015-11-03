@@ -5447,6 +5447,21 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14046956": {
+    "contest_id": 58,
+    "language": "GNU C++11",
+    "path": "codeforces/58/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Expression",
+    "problem_url": "https://codeforces.com/contest/58/problem/E",
+    "submission_id": "CF14046956",
+    "submission_url": "https://codeforces.com/contest/58/submission/14046956",
+    "tags": [
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "Nov/04/2015 02:36"
+  },
   "CF14055143": {
     "contest_id": 106,
     "language": "GNU C++11",
