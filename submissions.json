@@ -5447,6 +5447,22 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14056090": {
+    "contest_id": 106,
+    "language": "GNU C++11",
+    "path": "codeforces/106/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Space Rescuers",
+    "problem_url": "https://codeforces.com/contest/106/problem/E",
+    "submission_id": "CF14056090",
+    "submission_url": "https://codeforces.com/contest/106/submission/14056090",
+    "tags": [
+      "geometry",
+      "ternary search",
+      "*2100"
+    ],
+    "timestamp": "Nov/04/2015 19:21"
+  },
   "CF14056531": {
     "contest_id": 355,
     "language": "GNU C++11",
