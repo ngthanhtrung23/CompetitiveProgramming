@@ -5447,6 +5447,22 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14064624": {
+    "contest_id": 593,
+    "language": "GNU C++11",
+    "path": "codeforces/593/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Anton and Lines",
+    "problem_url": "https://codeforces.com/contest/593/problem/B",
+    "submission_id": "CF14064624",
+    "submission_url": "https://codeforces.com/contest/593/submission/14064624",
+    "tags": [
+      "geometry",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Nov/05/2015 00:52"
+  },
   "CF14070881": {
     "contest_id": 593,
     "language": "GNU C++11",
