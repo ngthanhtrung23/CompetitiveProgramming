@@ -5447,6 +5447,21 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14055343": {
+    "contest_id": 106,
+    "language": "GNU C++11",
+    "path": "codeforces/106/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Buns",
+    "problem_url": "https://codeforces.com/contest/106/problem/C",
+    "submission_id": "CF14055343",
+    "submission_url": "https://codeforces.com/contest/106/submission/14055343",
+    "tags": [
+      "dp",
+      "*1700"
+    ],
+    "timestamp": "Nov/04/2015 18:38"
+  },
   "CF14055549": {
     "contest_id": 106,
     "language": "GNU C++11",
