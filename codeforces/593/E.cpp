@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; i++)
@@ -57,15 +56,14 @@ Matrix operator * (const Matrix& a, const Matrix& b) {
     return res;
 }
 
-Matrix power(const Matrix& a, int k) {
-    if (k == 0) return I;
-    if (k == 1) return a;
-
-    Matrix mid = power(a, k >> 1);
-    mid = mid * mid;
-
-    if (k & 1) return mid * a;
-    return mid;
+Matrix power(Matrix a, int k) {
+    Matrix res = I;
+    while (k) {
+        if (k & 1) res = res * a;
+        a = a * a;
+        k >>= 1;
+    }
+    return res;
 }
 
 const int MN = 22;
@@ -144,4 +142,3 @@ int main() {
         }
     }
 }
-
