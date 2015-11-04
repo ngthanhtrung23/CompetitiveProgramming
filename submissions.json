@@ -5447,6 +5447,22 @@
     ],
     "timestamp": "Nov/02/2015 01:29"
   },
+  "CF14064190": {
+    "contest_id": 593,
+    "language": "GNU C++11",
+    "path": "codeforces/593/A.cpp",
+    "problem_index": "A",
+    "problem_name": "2Char",
+    "problem_url": "https://codeforces.com/contest/593/problem/A",
+    "submission_id": "CF14064190",
+    "submission_url": "https://codeforces.com/contest/593/submission/14064190",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Nov/05/2015 00:47"
+  },
   "CF14064624": {
     "contest_id": 593,
     "language": "GNU C++11",
