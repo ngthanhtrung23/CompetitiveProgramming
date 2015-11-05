@@ -10030,6 +10030,18 @@
     ],
     "timestamp": "Nov/05/2015 05:05"
   },
+  "CF14094848": {
+    "contest_id": 100800,
+    "language": "GNU C++11",
+    "path": "codeforces/100800/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Telescope",
+    "problem_url": "https://codeforces.com/gym/100800",
+    "submission_id": "CF14094848",
+    "submission_url": "https://codeforces.com/gym/100800/submission/14094848",
+    "tags": [],
+    "timestamp": "Nov/06/2015 03:00"
+  },
   "CF14108125": {
     "contest_id": 14,
     "language": "GNU C++11",
