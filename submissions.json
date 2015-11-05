@@ -10030,6 +10030,18 @@
     ],
     "timestamp": "Nov/05/2015 05:05"
   },
+  "CF14093847": {
+    "contest_id": 100800,
+    "language": "GNU C++11",
+    "path": "codeforces/100800/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Slant Drilling",
+    "problem_url": "https://codeforces.com/gym/100800",
+    "submission_id": "CF14093847",
+    "submission_url": "https://codeforces.com/gym/100800/submission/14093847",
+    "tags": [],
+    "timestamp": "Nov/06/2015 01:50"
+  },
   "CF14094848": {
     "contest_id": 100800,
     "language": "GNU C++11",
