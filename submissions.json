@@ -10030,6 +10030,18 @@
     ],
     "timestamp": "Nov/05/2015 05:05"
   },
+  "CF14091998": {
+    "contest_id": 100800,
+    "language": "GNU C++11",
+    "path": "codeforces/100800/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Drink Responsibly",
+    "problem_url": "https://codeforces.com/gym/100800",
+    "submission_id": "CF14091998",
+    "submission_url": "https://codeforces.com/gym/100800/submission/14091998",
+    "tags": [],
+    "timestamp": "Nov/05/2015 23:45"
+  },
   "CF14092746": {
     "contest_id": 100800,
     "language": "GNU C++11",
