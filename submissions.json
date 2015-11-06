@@ -8068,6 +8068,21 @@
     ],
     "timestamp": "Nov/05/2015 04:15"
   },
+  "CF14109132": {
+    "contest_id": 69,
+    "language": "GNU C++11",
+    "path": "codeforces/69/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Game",
+    "problem_url": "https://codeforces.com/contest/69/problem/C",
+    "submission_id": "CF14109132",
+    "submission_url": "https://codeforces.com/contest/69/submission/14109132",
+    "tags": [
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Nov/06/2015 23:30"
+  },
   "CF14109536": {
     "contest_id": 69,
     "language": "GNU C++11",
