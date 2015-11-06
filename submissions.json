@@ -8068,6 +8068,22 @@
     ],
     "timestamp": "Nov/05/2015 04:15"
   },
+  "CF14108361": {
+    "contest_id": 69,
+    "language": "GNU C++11",
+    "path": "codeforces/69/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bets",
+    "problem_url": "https://codeforces.com/contest/69/problem/B",
+    "submission_id": "CF14108361",
+    "submission_url": "https://codeforces.com/contest/69/submission/14108361",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Nov/06/2015 22:46"
+  },
   "CF14109132": {
     "contest_id": 69,
     "language": "GNU C++11",
