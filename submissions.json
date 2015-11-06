@@ -8068,6 +8068,21 @@
     ],
     "timestamp": "Nov/05/2015 04:15"
   },
+  "CF14108226": {
+    "contest_id": 14,
+    "language": "GNU C++11",
+    "path": "codeforces/14/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Camels",
+    "problem_url": "https://codeforces.com/contest/14/problem/E",
+    "submission_id": "CF14108226",
+    "submission_url": "https://codeforces.com/contest/14/submission/14108226",
+    "tags": [
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Nov/06/2015 22:39"
+  },
   "CF14108361": {
     "contest_id": 69,
     "language": "GNU C++11",
