@@ -8068,6 +8068,22 @@
     ],
     "timestamp": "Nov/05/2015 04:15"
   },
+  "CF14109536": {
+    "contest_id": 69,
+    "language": "GNU C++11",
+    "path": "codeforces/69/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dot",
+    "problem_url": "https://codeforces.com/contest/69/problem/D",
+    "submission_id": "CF14109536",
+    "submission_url": "https://codeforces.com/contest/69/submission/14109536",
+    "tags": [
+      "dp",
+      "games",
+      "*1900"
+    ],
+    "timestamp": "Nov/06/2015 23:50"
+  },
   "CF1411611": {
     "contest_id": 163,
     "language": "GNU C++",
