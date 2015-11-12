@@ -8099,6 +8099,23 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14218518": {
+    "contest_id": 597,
+    "language": "GNU C++11",
+    "path": "codeforces/597/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Restaurant",
+    "problem_url": "https://codeforces.com/contest/597/problem/B",
+    "submission_id": "CF14218518",
+    "submission_url": "https://codeforces.com/contest/597/submission/14218518",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Nov/13/2015 02:59"
+  },
   "CF14218611": {
     "contest_id": 597,
     "language": "GNU C++11",
