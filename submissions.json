@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14229532": {
+    "contest_id": 598,
+    "language": "GNU C++11",
+    "path": "codeforces/598/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Queries on a String",
+    "problem_url": "https://codeforces.com/contest/598/problem/B",
+    "submission_id": "CF14229532",
+    "submission_url": "https://codeforces.com/contest/598/submission/14229532",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Nov/13/2015 23:12"
+  },
   "CF14230880": {
     "contest_id": 598,
     "language": "GNU C++11",
