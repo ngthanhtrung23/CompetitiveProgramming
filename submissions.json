@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14231898": {
+    "contest_id": 598,
+    "language": "GNU C++11",
+    "path": "codeforces/598/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Chocolate Bar",
+    "problem_url": "https://codeforces.com/contest/598/problem/E",
+    "submission_id": "CF14231898",
+    "submission_url": "https://codeforces.com/contest/598/submission/14231898",
+    "tags": [
+      "brute force",
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Nov/13/2015 23:39"
+  },
   "CF14248165": {
     "contest_id": 598,
     "language": "GNU C++11",
