@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14251521": {
+    "contest_id": 598,
+    "language": "GNU C++11",
+    "path": "codeforces/598/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Nearest vectors",
+    "problem_url": "https://codeforces.com/contest/598/problem/C",
+    "submission_id": "CF14251521",
+    "submission_url": "https://codeforces.com/contest/598/submission/14251521",
+    "tags": [
+      "geometry",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Nov/14/2015 17:19"
+  },
   "CF14252179": {
     "contest_id": 598,
     "language": "GNU C++11",
