@@ -8099,6 +8099,21 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14252179": {
+    "contest_id": 598,
+    "language": "GNU C++11",
+    "path": "codeforces/598/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Cut Length",
+    "problem_url": "https://codeforces.com/contest/598/problem/F",
+    "submission_id": "CF14252179",
+    "submission_url": "https://codeforces.com/contest/598/submission/14252179",
+    "tags": [
+      "geometry",
+      "*2900"
+    ],
+    "timestamp": "Nov/14/2015 18:00"
+  },
   "CF14273084": {
     "contest_id": 596,
     "language": "GNU C++11",
