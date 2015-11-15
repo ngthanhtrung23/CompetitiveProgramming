@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14274036": {
+    "contest_id": 596,
+    "language": "GNU C++11",
+    "path": "codeforces/596/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Wilbur and Swimming Pool",
+    "problem_url": "https://codeforces.com/contest/596/problem/A",
+    "submission_id": "CF14274036",
+    "submission_url": "https://codeforces.com/contest/596/submission/14274036",
+    "tags": [
+      "geometry",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Nov/16/2015 00:46"
+  },
   "CF14277370": {
     "contest_id": 596,
     "language": "GNU C++11",
