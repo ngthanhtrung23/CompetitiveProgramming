@@ -8099,6 +8099,23 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14277370": {
+    "contest_id": 596,
+    "language": "GNU C++11",
+    "path": "codeforces/596/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Wilbur and Points",
+    "problem_url": "https://codeforces.com/contest/596/problem/C",
+    "submission_id": "CF14277370",
+    "submission_url": "https://codeforces.com/contest/596/submission/14277370",
+    "tags": [
+      "combinatorics",
+      "greedy",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Nov/16/2015 01:01"
+  },
   "CF14288766": {
     "contest_id": 596,
     "language": "GNU C++11",
