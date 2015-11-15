@@ -8099,6 +8099,24 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14288766": {
+    "contest_id": 596,
+    "language": "GNU C++11",
+    "path": "codeforces/596/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Wilbur and Trees",
+    "problem_url": "https://codeforces.com/contest/596/problem/D",
+    "submission_id": "CF14288766",
+    "submission_url": "https://codeforces.com/contest/596/submission/14288766",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Nov/16/2015 03:53"
+  },
   "CF14393749": {
     "contest_id": 596,
     "language": "GNU C++11",
