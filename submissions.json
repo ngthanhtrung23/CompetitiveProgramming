@@ -10369,6 +10369,18 @@
     ],
     "timestamp": "Nov/16/2015 03:53"
   },
+  "CF14327841": {
+    "contest_id": 100812,
+    "language": "GNU C++11",
+    "path": "codeforces/100812/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Knights without Fear and Reproach",
+    "problem_url": "https://codeforces.com/gym/100812",
+    "submission_id": "CF14327841",
+    "submission_url": "https://codeforces.com/gym/100812/submission/14327841",
+    "tags": [],
+    "timestamp": "Nov/18/2015 22:41"
+  },
   "CF14328613": {
     "contest_id": 100812,
     "language": "GNU C++11",
