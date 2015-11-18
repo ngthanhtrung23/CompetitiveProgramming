@@ -10369,6 +10369,18 @@
     ],
     "timestamp": "Nov/16/2015 03:53"
   },
+  "CF14327284": {
+    "contest_id": 100812,
+    "language": "GNU C++11",
+    "path": "codeforces/100812/E.cpp",
+    "problem_index": "E",
+    "problem_name": "World of Knights",
+    "problem_url": "https://codeforces.com/gym/100812",
+    "submission_id": "CF14327284",
+    "submission_url": "https://codeforces.com/gym/100812/submission/14327284",
+    "tags": [],
+    "timestamp": "Nov/18/2015 22:03"
+  },
   "CF14327410": {
     "contest_id": 100812,
     "language": "GNU C++11",
