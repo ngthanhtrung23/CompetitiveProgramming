@@ -10369,6 +10369,18 @@
     ],
     "timestamp": "Nov/16/2015 03:53"
   },
+  "CF14329388": {
+    "contest_id": 100812,
+    "language": "GNU C++11",
+    "path": "codeforces/100812/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Tale of Debt",
+    "problem_url": "https://codeforces.com/gym/100812",
+    "submission_id": "CF14329388",
+    "submission_url": "https://codeforces.com/gym/100812/submission/14329388",
+    "tags": [],
+    "timestamp": "Nov/19/2015 00:38"
+  },
   "CF14393749": {
     "contest_id": 596,
     "language": "GNU C++11",
