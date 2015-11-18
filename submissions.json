@@ -10369,6 +10369,18 @@
     ],
     "timestamp": "Nov/16/2015 03:53"
   },
+  "CF14329077": {
+    "contest_id": 100812,
+    "language": "GNU C++11",
+    "path": "codeforces/100812/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Might and Magic",
+    "problem_url": "https://codeforces.com/gym/100812",
+    "submission_id": "CF14329077",
+    "submission_url": "https://codeforces.com/gym/100812/submission/14329077",
+    "tags": [],
+    "timestamp": "Nov/19/2015 00:13"
+  },
   "CF14329388": {
     "contest_id": 100812,
     "language": "GNU C++11",
