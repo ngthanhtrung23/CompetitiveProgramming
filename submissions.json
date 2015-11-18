@@ -10369,6 +10369,18 @@
     ],
     "timestamp": "Nov/16/2015 03:53"
   },
+  "CF14327410": {
+    "contest_id": 100812,
+    "language": "GNU C++11",
+    "path": "codeforces/100812/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Set of Tasks",
+    "problem_url": "https://codeforces.com/gym/100812",
+    "submission_id": "CF14327410",
+    "submission_url": "https://codeforces.com/gym/100812/submission/14327410",
+    "tags": [],
+    "timestamp": "Nov/18/2015 22:11"
+  },
   "CF14327841": {
     "contest_id": 100812,
     "language": "GNU C++11",
