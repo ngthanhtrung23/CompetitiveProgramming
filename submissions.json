@@ -8099,6 +8099,23 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14401791": {
+    "contest_id": 599,
+    "language": "GNU C++",
+    "path": "codeforces/599/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Sandy and Nuts",
+    "problem_url": "https://codeforces.com/contest/599/problem/E",
+    "submission_id": "CF14401791",
+    "submission_url": "https://codeforces.com/contest/599/submission/14401791",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "trees",
+      "*2600"
+    ],
+    "timestamp": "Nov/22/2015 00:44"
+  },
   "CF14403180": {
     "contest_id": 595,
     "language": "GNU C++",
