@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14403277": {
+    "contest_id": 595,
+    "language": "GNU C++",
+    "path": "codeforces/595/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Pasha and Phone",
+    "problem_url": "https://codeforces.com/contest/595/problem/B",
+    "submission_id": "CF14403277",
+    "submission_url": "https://codeforces.com/contest/595/submission/14403277",
+    "tags": [
+      "binary search",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Nov/22/2015 02:49"
+  },
   "CF14404055": {
     "contest_id": 594,
     "language": "GNU C++",
