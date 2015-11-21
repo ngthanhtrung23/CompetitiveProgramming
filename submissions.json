@@ -8099,6 +8099,24 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14393749": {
+    "contest_id": 596,
+    "language": "GNU C++11",
+    "path": "codeforces/596/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Wilbur and Strings",
+    "problem_url": "https://codeforces.com/contest/596/problem/E",
+    "submission_id": "CF14393749",
+    "submission_url": "https://codeforces.com/contest/596/submission/14393749",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "strings",
+      "*2500"
+    ],
+    "timestamp": "Nov/21/2015 15:41"
+  },
   "CF14393823": {
     "contest_id": 599,
     "language": "GNU C++11",
