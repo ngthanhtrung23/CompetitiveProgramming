@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14403180": {
+    "contest_id": 595,
+    "language": "GNU C++",
+    "path": "codeforces/595/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Vitaly and Night",
+    "problem_url": "https://codeforces.com/contest/595/problem/A",
+    "submission_id": "CF14403180",
+    "submission_url": "https://codeforces.com/contest/595/submission/14403180",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Nov/22/2015 02:40"
+  },
   "CF14403277": {
     "contest_id": 595,
     "language": "GNU C++",
