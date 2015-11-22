@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14412415": {
+    "contest_id": 594,
+    "language": "GNU C++11",
+    "path": "codeforces/594/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Max and Bike",
+    "problem_url": "https://codeforces.com/contest/594/problem/B",
+    "submission_id": "CF14412415",
+    "submission_url": "https://codeforces.com/contest/594/submission/14412415",
+    "tags": [
+      "binary search",
+      "geometry",
+      "*2500"
+    ],
+    "timestamp": "Nov/22/2015 18:50"
+  },
   "CF14415948": {
     "contest_id": 590,
     "language": "GNU C++11",
