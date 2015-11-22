@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14417790": {
+    "contest_id": 576,
+    "language": "GNU C++11",
+    "path": "codeforces/576/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Flights for Regular Customers",
+    "problem_url": "https://codeforces.com/contest/576/problem/D",
+    "submission_id": "CF14417790",
+    "submission_url": "https://codeforces.com/contest/576/submission/14417790",
+    "tags": [
+      "dp",
+      "matrices",
+      "*2700"
+    ],
+    "timestamp": "Nov/23/2015 02:06"
+  },
   "CF14445856": {
     "contest_id": 601,
     "language": "GNU C++11",
