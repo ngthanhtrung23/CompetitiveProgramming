@@ -8099,6 +8099,22 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14448324": {
+    "contest_id": 601,
+    "language": "GNU C++11",
+    "path": "codeforces/601/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lipshitz Sequence",
+    "problem_url": "https://codeforces.com/contest/601/problem/B",
+    "submission_id": "CF14448324",
+    "submission_url": "https://codeforces.com/contest/601/submission/14448324",
+    "tags": [
+      "data structures",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Nov/25/2015 01:09"
+  },
   "CF14452773": {
     "contest_id": 601,
     "language": "GNU C++11",
