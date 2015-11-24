@@ -5445,6 +5445,23 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14458177": {
+    "contest_id": 602,
+    "language": "GNU C++11",
+    "path": "codeforces/602/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Approximating a Constant Range",
+    "problem_url": "https://codeforces.com/contest/602/problem/B",
+    "submission_id": "CF14458177",
+    "submission_url": "https://codeforces.com/contest/602/submission/14458177",
+    "tags": [
+      "dp",
+      "implementation",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Nov/25/2015 03:58"
+  },
   "CF14524537": {
     "contest_id": 601,
     "language": "GNU C++11",
