@@ -8099,6 +8099,26 @@
     ],
     "timestamp": "Mar/26/2012 00:28"
   },
+  "CF14452773": {
+    "contest_id": 601,
+    "language": "GNU C++11",
+    "path": "codeforces/601/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Acyclic Organic Compounds",
+    "problem_url": "https://codeforces.com/contest/601/problem/D",
+    "submission_id": "CF14452773",
+    "submission_url": "https://codeforces.com/contest/601/submission/14452773",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "hashing",
+      "strings",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Nov/25/2015 01:49"
+  },
   "CF14456287": {
     "contest_id": 601,
     "language": "GNU C++11",
