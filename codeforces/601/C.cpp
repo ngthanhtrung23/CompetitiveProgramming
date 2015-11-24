@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
@@ -13,7 +14,7 @@ using namespace std;
 
 #define double long double
 int n, m, a[111], x[111], saven;
-double f[2][150111], sum[2][150111];
+double f[2][200111], sum[2][200111];
 
 int main() {
     ios :: sync_with_stdio(0); cin.tie(0);
@@ -45,7 +46,7 @@ int main() {
                     f[cur][val] = sum[1-cur][val];
                     if (val >= m)
                         f[cur][val] -= sum[1-cur][val-m];
-                    f[cur][val] -= f[1-cur][val - a[i]];
+                    if (val >= a[i]) f[cur][val] -= f[1-cur][val - a[i]];
                 }
             }
             
