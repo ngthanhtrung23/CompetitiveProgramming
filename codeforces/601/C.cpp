@@ -13,7 +13,7 @@ using namespace std;
 
 #define double long double
 int n, m, a[111], x[111], saven;
-double f[2][100111], sum[2][100111];
+double f[2][150111], sum[2][150111];
 
 int main() {
     ios :: sync_with_stdio(0); cin.tie(0);
