@@ -1,4 +1,23 @@
 {
+  "CF14592469": {
+    "contest_id": 603,
+    "language": "GNU C++11",
+    "path": "codeforces/603/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Moodular Arithmetic",
+    "problem_url": "https://codeforces.com/contest/603/problem/B",
+    "submission_id": "CF14592469",
+    "submission_url": "https://codeforces.com/contest/603/submission/14592469",
+    "tags": [
+      "combinatorics",
+      "dfs and similar",
+      "dsu",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Dec/02/2015 00:10"
+  },
   "CF14594881": {
     "contest_id": 603,
     "language": "GNU C++11",
