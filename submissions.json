@@ -1,4 +1,19 @@
 {
+  "CF14605916": {
+    "contest_id": 604,
+    "language": "GNU C++11",
+    "path": "codeforces/604/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Uncowed Forces",
+    "problem_url": "https://codeforces.com/contest/604/problem/A",
+    "submission_id": "CF14605916",
+    "submission_url": "https://codeforces.com/contest/604/submission/14605916",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Dec/02/2015 02:44"
+  },
   "CF14606182": {
     "contest_id": 604,
     "language": "GNU C++11",
