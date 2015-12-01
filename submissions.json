@@ -1,4 +1,20 @@
 {
+  "CF14606182": {
+    "contest_id": 604,
+    "language": "GNU C++11",
+    "path": "codeforces/604/B.cpp",
+    "problem_index": "B",
+    "problem_name": "More Cowbell",
+    "problem_url": "https://codeforces.com/contest/604/problem/B",
+    "submission_id": "CF14606182",
+    "submission_url": "https://codeforces.com/contest/604/submission/14606182",
+    "tags": [
+      "binary search",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Dec/02/2015 02:55"
+  },
   "CF14667219": {
     "contest_id": 603,
     "language": "GNU C++11",
