@@ -1,4 +1,20 @@
 {
+  "CF14594881": {
+    "contest_id": 603,
+    "language": "GNU C++11",
+    "path": "codeforces/603/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Lieges of Legendre",
+    "problem_url": "https://codeforces.com/contest/603/problem/C",
+    "submission_id": "CF14594881",
+    "submission_url": "https://codeforces.com/contest/603/submission/14594881",
+    "tags": [
+      "games",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Dec/02/2015 00:26"
+  },
   "CF14605916": {
     "contest_id": 604,
     "language": "GNU C++11",
