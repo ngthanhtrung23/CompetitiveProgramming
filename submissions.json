@@ -10944,6 +10944,18 @@
     ],
     "timestamp": "Dec/02/2015 02:55"
   },
+  "CF14648890": {
+    "contest_id": 100803,
+    "language": "GNU C++11",
+    "path": "codeforces/100803/F.cpp",
+    "problem_index": "F",
+    "problem_name": "There is No Alternative",
+    "problem_url": "https://codeforces.com/gym/100803",
+    "submission_id": "CF14648890",
+    "submission_url": "https://codeforces.com/gym/100803/submission/14648890",
+    "tags": [],
+    "timestamp": "Dec/04/2015 21:49"
+  },
   "CF14649202": {
     "contest_id": 100803,
     "language": "GNU C++11",
