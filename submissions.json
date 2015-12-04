@@ -10944,6 +10944,18 @@
     ],
     "timestamp": "Dec/02/2015 02:55"
   },
+  "CF14652591": {
+    "contest_id": 100803,
+    "language": "GNU C++11",
+    "path": "codeforces/100803/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Sweet War",
+    "problem_url": "https://codeforces.com/gym/100803",
+    "submission_id": "CF14652591",
+    "submission_url": "https://codeforces.com/gym/100803/submission/14652591",
+    "tags": [],
+    "timestamp": "Dec/05/2015 01:52"
+  },
   "CF14660420": {
     "contest_id": 100803,
     "language": "GNU C++11",
