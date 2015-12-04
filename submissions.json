@@ -10944,6 +10944,18 @@
     ],
     "timestamp": "Dec/02/2015 02:55"
   },
+  "CF14650286": {
+    "contest_id": 100803,
+    "language": "GNU C++11",
+    "path": "codeforces/100803/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Automotive Navigation",
+    "problem_url": "https://codeforces.com/gym/100803",
+    "submission_id": "CF14650286",
+    "submission_url": "https://codeforces.com/gym/100803/submission/14650286",
+    "tags": [],
+    "timestamp": "Dec/04/2015 23:21"
+  },
   "CF14652591": {
     "contest_id": 100803,
     "language": "GNU C++11",
