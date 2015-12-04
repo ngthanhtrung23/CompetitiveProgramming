@@ -10944,6 +10944,18 @@
     ],
     "timestamp": "Dec/02/2015 02:55"
   },
+  "CF14650019": {
+    "contest_id": 100803,
+    "language": "GNU C++11",
+    "path": "codeforces/100803/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Flipping Parentheses",
+    "problem_url": "https://codeforces.com/gym/100803",
+    "submission_id": "CF14650019",
+    "submission_url": "https://codeforces.com/gym/100803/submission/14650019",
+    "tags": [],
+    "timestamp": "Dec/04/2015 23:00"
+  },
   "CF14650286": {
     "contest_id": 100803,
     "language": "GNU C++11",
