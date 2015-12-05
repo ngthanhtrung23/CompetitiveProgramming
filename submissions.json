@@ -10944,6 +10944,18 @@
     ],
     "timestamp": "Dec/02/2015 02:55"
   },
+  "CF14660420": {
+    "contest_id": 100803,
+    "language": "GNU C++11",
+    "path": "codeforces/100803/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Cornering at Poles",
+    "problem_url": "https://codeforces.com/gym/100803",
+    "submission_id": "CF14660420",
+    "submission_url": "https://codeforces.com/gym/100803/submission/14660420",
+    "tags": [],
+    "timestamp": "Dec/05/2015 18:44"
+  },
   "CF14667219": {
     "contest_id": 603,
     "language": "GNU C++11",
