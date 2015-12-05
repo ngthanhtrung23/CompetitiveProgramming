@@ -1,4 +1,20 @@
 {
+  "CF14667219": {
+    "contest_id": 603,
+    "language": "GNU C++11",
+    "path": "codeforces/603/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Ruminations on Ruminants",
+    "problem_url": "https://codeforces.com/contest/603/problem/D",
+    "submission_id": "CF14667219",
+    "submission_url": "https://codeforces.com/contest/603/submission/14667219",
+    "tags": [
+      "geometry",
+      "math",
+      "*2900"
+    ],
+    "timestamp": "Dec/06/2015 02:07"
+  },
   "CF14777590": {
     "contest_id": 606,
     "language": "GNU C++11",
