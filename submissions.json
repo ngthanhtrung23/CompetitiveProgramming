@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14762316": {
+    "contest_id": 100837,
+    "language": "GNU C++11",
+    "path": "codeforces/100837/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Dendrograms",
+    "problem_url": "https://codeforces.com/gym/100837",
+    "submission_id": "CF14762316",
+    "submission_url": "https://codeforces.com/gym/100837/submission/14762316",
+    "tags": [],
+    "timestamp": "Dec/12/2015 01:21"
+  },
   "CF14764526": {
     "contest_id": 100837,
     "language": "GNU C++11",
