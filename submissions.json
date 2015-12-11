@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14761101": {
+    "contest_id": 100837,
+    "language": "GNU C++",
+    "path": "codeforces/100837/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Dig or Climb",
+    "problem_url": "https://codeforces.com/gym/100837",
+    "submission_id": "CF14761101",
+    "submission_url": "https://codeforces.com/gym/100837/submission/14761101",
+    "tags": [],
+    "timestamp": "Dec/12/2015 00:27"
+  },
   "CF14761613": {
     "contest_id": 100837,
     "language": "GNU C++11",
