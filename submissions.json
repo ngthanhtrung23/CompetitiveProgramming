@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14760226": {
+    "contest_id": 100837,
+    "language": "GNU C++11",
+    "path": "codeforces/100837/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Rotation Estimation",
+    "problem_url": "https://codeforces.com/gym/100837",
+    "submission_id": "CF14760226",
+    "submission_url": "https://codeforces.com/gym/100837/submission/14760226",
+    "tags": [],
+    "timestamp": "Dec/11/2015 23:33"
+  },
   "CF14761101": {
     "contest_id": 100837,
     "language": "GNU C++",
