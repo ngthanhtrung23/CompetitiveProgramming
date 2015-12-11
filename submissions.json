@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14761613": {
+    "contest_id": 100837,
+    "language": "GNU C++11",
+    "path": "codeforces/100837/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Optimal Rest",
+    "problem_url": "https://codeforces.com/gym/100837",
+    "submission_id": "CF14761613",
+    "submission_url": "https://codeforces.com/gym/100837/submission/14761613",
+    "tags": [],
+    "timestamp": "Dec/12/2015 00:51"
+  },
   "CF14762316": {
     "contest_id": 100837,
     "language": "GNU C++11",
