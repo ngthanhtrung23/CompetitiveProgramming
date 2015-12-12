@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14774706": {
+    "contest_id": 100548,
+    "language": "GNU C++11",
+    "path": "codeforces/100548/G.cpp",
+    "problem_index": "G",
+    "problem_name": "The Problem to Slow Down You",
+    "problem_url": "https://codeforces.com/gym/100548",
+    "submission_id": "CF14774706",
+    "submission_url": "https://codeforces.com/gym/100548/submission/14774706",
+    "tags": [],
+    "timestamp": "Dec/13/2015 00:25"
+  },
   "CF14775423": {
     "contest_id": 100548,
     "language": "GNU C++11",
