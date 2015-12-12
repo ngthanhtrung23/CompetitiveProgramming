@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14775462": {
+    "contest_id": 100548,
+    "language": "GNU C++11",
+    "path": "codeforces/100548/C.cpp",
+    "problem_index": "C",
+    "problem_name": "The Problem Needs 3D Arrays",
+    "problem_url": "https://codeforces.com/gym/100548",
+    "submission_id": "CF14775462",
+    "submission_url": "https://codeforces.com/gym/100548/submission/14775462",
+    "tags": [],
+    "timestamp": "Dec/13/2015 01:19"
+  },
   "CF14775856": {
     "contest_id": 100548,
     "language": "GNU C++11",
