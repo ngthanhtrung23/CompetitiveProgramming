@@ -1,4 +1,19 @@
 {
+  "CF14777743": {
+    "contest_id": 606,
+    "language": "GNU C++11",
+    "path": "codeforces/606/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Testing Robots",
+    "problem_url": "https://codeforces.com/contest/606/problem/B",
+    "submission_id": "CF14777743",
+    "submission_url": "https://codeforces.com/contest/606/submission/14777743",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Dec/13/2015 04:34"
+  },
   "CF14777872": {
     "contest_id": 605,
     "language": "GNU C++11",
