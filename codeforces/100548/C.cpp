@@ -93,7 +93,7 @@ private:
 int n, m, eu[10111], ev[10111];
 bool mark[10111], visited[10111];
 
-bool check(double val) {
+bool check(double val, bool trace = false) {
     MaxFlow flow(n+m+2);
     FOR(i,1,m) flow.addEdge(0, i, 1);
     FOR(i,m+1,m+n) flow.addEdge(i, m+n+1, val);
@@ -104,7 +104,26 @@ bool check(double val) {
         flow.addEdge(i, v, INF);
     }
 
+    // DEBUG(flow.getMaxFlow(0, m+n+1));
     double mf = flow.getMaxFlow(0, m+n+1);
+    if (trace) {
+        memset(visited, false, sizeof visited);
+        queue<int> qu;
+        qu.push(0);
+        visited[0] = true;
+        while (!qu.empty()) {
+            int u = qu.front(); qu.pop();
+            if (u >= m+1 && u <= m+n) mark[u-m] = true;
+            for(int edge_id : flow.g[u]) {
+                Edge e = flow.e[edge_id];
+                if (e.flow < e.cap && !visited[e.b]) {
+                    qu.push(e.b);
+                    visited[e.b] = true;
+                }
+            }
+        }
+    }
+    // DEBUG(mf);
     return mf >= m;
 }
 
