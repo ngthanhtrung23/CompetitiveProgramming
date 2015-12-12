@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14772250": {
+    "contest_id": 100548,
+    "language": "GNU C++11",
+    "path": "codeforces/100548/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Built with Qinghuai and Ari Factor",
+    "problem_url": "https://codeforces.com/gym/100548",
+    "submission_id": "CF14772250",
+    "submission_url": "https://codeforces.com/gym/100548/submission/14772250",
+    "tags": [],
+    "timestamp": "Dec/12/2015 21:35"
+  },
   "CF14772365": {
     "contest_id": 100548,
     "language": "GNU C++11",
