@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14772365": {
+    "contest_id": 100548,
+    "language": "GNU C++11",
+    "path": "codeforces/100548/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Last Defence",
+    "problem_url": "https://codeforces.com/gym/100548",
+    "submission_id": "CF14772365",
+    "submission_url": "https://codeforces.com/gym/100548/submission/14772365",
+    "tags": [],
+    "timestamp": "Dec/12/2015 21:42"
+  },
   "CF14773281": {
     "contest_id": 100548,
     "language": "GNU C++11",
