@@ -10960,6 +10960,18 @@
     ],
     "timestamp": "Dec/06/2015 02:07"
   },
+  "CF14773281": {
+    "contest_id": 100548,
+    "language": "GNU C++11",
+    "path": "codeforces/100548/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Color",
+    "problem_url": "https://codeforces.com/gym/100548",
+    "submission_id": "CF14773281",
+    "submission_url": "https://codeforces.com/gym/100548/submission/14773281",
+    "tags": [],
+    "timestamp": "Dec/12/2015 22:37"
+  },
   "CF14773467": {
     "contest_id": 100548,
     "language": "GNU C++11",
