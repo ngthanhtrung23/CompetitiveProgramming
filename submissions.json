@@ -1,4 +1,21 @@
 {
+  "CF14778153": {
+    "contest_id": 605,
+    "language": "GNU C++11",
+    "path": "codeforces/605/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lazy Student",
+    "problem_url": "https://codeforces.com/contest/605/problem/B",
+    "submission_id": "CF14778153",
+    "submission_url": "https://codeforces.com/contest/605/submission/14778153",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "graphs",
+      "*1700"
+    ],
+    "timestamp": "Dec/13/2015 05:22"
+  },
   "CF14806002": {
     "contest_id": 605,
     "language": "GNU C++11",
