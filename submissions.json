@@ -11023,6 +11023,18 @@
     ],
     "timestamp": "Dec/13/2015 05:22"
   },
+  "CF14788246": {
+    "contest_id": 100834,
+    "language": "GNU C++11",
+    "path": "codeforces/100834/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Polycarp and Polynoms",
+    "problem_url": "https://codeforces.com/gym/100834",
+    "submission_id": "CF14788246",
+    "submission_url": "https://codeforces.com/gym/100834/submission/14788246",
+    "tags": [],
+    "timestamp": "Dec/14/2015 01:21"
+  },
   "CF14788515": {
     "contest_id": 100834,
     "language": "GNU C++11",
