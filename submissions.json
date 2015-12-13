@@ -11023,6 +11023,18 @@
     ],
     "timestamp": "Dec/13/2015 05:22"
   },
+  "CF14787815": {
+    "contest_id": 100834,
+    "language": "GNU C++11",
+    "path": "codeforces/100834/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Polycarp and Lamps",
+    "problem_url": "https://codeforces.com/gym/100834",
+    "submission_id": "CF14787815",
+    "submission_url": "https://codeforces.com/gym/100834/submission/14787815",
+    "tags": [],
+    "timestamp": "Dec/14/2015 00:46"
+  },
   "CF14788246": {
     "contest_id": 100834,
     "language": "GNU C++11",
