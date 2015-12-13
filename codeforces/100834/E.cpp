@@ -282,10 +282,12 @@ int main() {
 		FOR(i,1,n) FOR(j,i+1,n) {
 			auto p = tangents(a[i], a[j]);
 			for(auto l : p) {
+				if (check(l)) {
 					auto cur = intersection(l, a[i]);
 					for(auto p : cur) all.push_back(p); 
 					cur = intersection(l, a[j]);
 					for(auto p : cur) all.push_back(p);
+				}
 			}
 		}
 
