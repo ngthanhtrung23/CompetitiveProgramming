@@ -11023,6 +11023,18 @@
     ],
     "timestamp": "Dec/13/2015 05:22"
   },
+  "CF14786426": {
+    "contest_id": 100834,
+    "language": "GNU C++11",
+    "path": "codeforces/100834/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Polycarp and Satellites",
+    "problem_url": "https://codeforces.com/gym/100834",
+    "submission_id": "CF14786426",
+    "submission_url": "https://codeforces.com/gym/100834/submission/14786426",
+    "tags": [],
+    "timestamp": "Dec/13/2015 22:51"
+  },
   "CF14786512": {
     "contest_id": 100834,
     "language": "GNU C++11",
