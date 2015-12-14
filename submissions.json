@@ -1,4 +1,20 @@
 {
+  "CF14808005": {
+    "contest_id": 605,
+    "language": "GNU C++11",
+    "path": "codeforces/605/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Intergalaxy Trips",
+    "problem_url": "https://codeforces.com/contest/605/problem/E",
+    "submission_id": "CF14808005",
+    "submission_url": "https://codeforces.com/contest/605/submission/14808005",
+    "tags": [
+      "probabilities",
+      "shortest paths",
+      "*2700"
+    ],
+    "timestamp": "Dec/15/2015 04:08"
+  },
   "CF14898384": {
     "contest_id": 609,
     "language": "GNU C++11",
