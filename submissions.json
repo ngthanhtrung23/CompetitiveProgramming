@@ -1,4 +1,19 @@
 {
+  "CF14806002": {
+    "contest_id": 605,
+    "language": "GNU C++11",
+    "path": "codeforces/605/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Freelancer's Dreams",
+    "problem_url": "https://codeforces.com/contest/605/problem/C",
+    "submission_id": "CF14806002",
+    "submission_url": "https://codeforces.com/contest/605/submission/14806002",
+    "tags": [
+      "geometry",
+      "*2400"
+    ],
+    "timestamp": "Dec/15/2015 01:20"
+  },
   "CF14807082": {
     "contest_id": 605,
     "language": "GNU C++11",
