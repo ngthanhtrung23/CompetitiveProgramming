@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14816219": {
+    "contest_id": 100820,
+    "language": "GNU C++11",
+    "path": "codeforces/100820/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Excellence",
+    "problem_url": "https://codeforces.com/gym/100820",
+    "submission_id": "CF14816219",
+    "submission_url": "https://codeforces.com/gym/100820/submission/14816219",
+    "tags": [],
+    "timestamp": "Dec/15/2015 22:09"
+  },
   "CF14816315": {
     "contest_id": 100820,
     "language": "GNU C++11",
