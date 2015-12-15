@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14817166": {
+    "contest_id": 100820,
+    "language": "GNU C++11",
+    "path": "codeforces/100820/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Airports",
+    "problem_url": "https://codeforces.com/gym/100820",
+    "submission_id": "CF14817166",
+    "submission_url": "https://codeforces.com/gym/100820/submission/14817166",
+    "tags": [],
+    "timestamp": "Dec/15/2015 23:26"
+  },
   "CF14817787": {
     "contest_id": 100820,
     "language": "GNU C++11",
