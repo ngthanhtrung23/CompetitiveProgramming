@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14816808": {
+    "contest_id": 100820,
+    "language": "GNU C++11",
+    "path": "codeforces/100820/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Racing Gems",
+    "problem_url": "https://codeforces.com/gym/100820",
+    "submission_id": "CF14816808",
+    "submission_url": "https://codeforces.com/gym/100820/submission/14816808",
+    "tags": [],
+    "timestamp": "Dec/15/2015 22:58"
+  },
   "CF14817166": {
     "contest_id": 100820,
     "language": "GNU C++11",
