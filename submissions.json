@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14816179": {
+    "contest_id": 100820,
+    "language": "GNU C++11",
+    "path": "codeforces/100820/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Triangle",
+    "problem_url": "https://codeforces.com/gym/100820",
+    "submission_id": "CF14816179",
+    "submission_url": "https://codeforces.com/gym/100820/submission/14816179",
+    "tags": [],
+    "timestamp": "Dec/15/2015 22:07"
+  },
   "CF14816219": {
     "contest_id": 100820,
     "language": "GNU C++11",
