@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14825973": {
+    "contest_id": 100820,
+    "language": "GNU C++11",
+    "path": "codeforces/100820/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Coverage",
+    "problem_url": "https://codeforces.com/gym/100820",
+    "submission_id": "CF14825973",
+    "submission_url": "https://codeforces.com/gym/100820/submission/14825973",
+    "tags": [],
+    "timestamp": "Dec/16/2015 02:36"
+  },
   "CF14834275": {
     "contest_id": 100825,
     "language": "GNU C++11",
