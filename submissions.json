@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14837413": {
+    "contest_id": 100851,
+    "language": "GNU C++11",
+    "path": "codeforces/100851/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Adjustment Office",
+    "problem_url": "https://codeforces.com/gym/100851",
+    "submission_id": "CF14837413",
+    "submission_url": "https://codeforces.com/gym/100851/submission/14837413",
+    "tags": [],
+    "timestamp": "Dec/17/2015 01:09"
+  },
   "CF14837660": {
     "contest_id": 100851,
     "language": "GNU C++11",
