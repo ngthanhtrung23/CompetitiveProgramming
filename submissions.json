@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14834863": {
+    "contest_id": 100825,
+    "language": "GNU C++11",
+    "path": "codeforces/100825/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Transportation Delegation",
+    "problem_url": "https://codeforces.com/gym/100825",
+    "submission_id": "CF14834863",
+    "submission_url": "https://codeforces.com/gym/100825/submission/14834863",
+    "tags": [],
+    "timestamp": "Dec/16/2015 21:32"
+  },
   "CF14835096": {
     "contest_id": 100825,
     "language": "GNU C++11",
