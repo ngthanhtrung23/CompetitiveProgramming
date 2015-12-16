@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14838190": {
+    "contest_id": 100851,
+    "language": "GNU C++11",
+    "path": "codeforces/100851/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Landscape Improved",
+    "problem_url": "https://codeforces.com/gym/100851",
+    "submission_id": "CF14838190",
+    "submission_url": "https://codeforces.com/gym/100851/submission/14838190",
+    "tags": [],
+    "timestamp": "Dec/17/2015 02:19"
+  },
   "CF14838220": {
     "contest_id": 100851,
     "language": "GNU C++11",
