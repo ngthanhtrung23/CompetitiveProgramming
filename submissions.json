@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14834275": {
+    "contest_id": 100825,
+    "language": "GNU C++11",
+    "path": "codeforces/100825/I.cpp",
+    "problem_index": "I",
+    "problem_name": "What's on the Grille?",
+    "problem_url": "https://codeforces.com/gym/100825",
+    "submission_id": "CF14834275",
+    "submission_url": "https://codeforces.com/gym/100825/submission/14834275",
+    "tags": [],
+    "timestamp": "Dec/16/2015 20:44"
+  },
   "CF14834570": {
     "contest_id": 100825,
     "language": "GNU C++11",
