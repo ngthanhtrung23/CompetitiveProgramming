@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14834652": {
+    "contest_id": 100825,
+    "language": "GNU C++11",
+    "path": "codeforces/100825/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Rings",
+    "problem_url": "https://codeforces.com/gym/100825",
+    "submission_id": "CF14834652",
+    "submission_url": "https://codeforces.com/gym/100825/submission/14834652",
+    "tags": [],
+    "timestamp": "Dec/16/2015 21:14"
+  },
   "CF14834863": {
     "contest_id": 100825,
     "language": "GNU C++11",
