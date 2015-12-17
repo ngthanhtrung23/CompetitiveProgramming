@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14848916": {
+    "contest_id": 100827,
+    "language": "GNU C++11",
+    "path": "codeforces/100827/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Towers",
+    "problem_url": "https://codeforces.com/gym/100827",
+    "submission_id": "CF14848916",
+    "submission_url": "https://codeforces.com/gym/100827/submission/14848916",
+    "tags": [],
+    "timestamp": "Dec/18/2015 01:03"
+  },
   "CF14871592": {
     "contest_id": 100217,
     "language": "GNU C++11",
