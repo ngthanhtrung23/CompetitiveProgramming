@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14846988": {
+    "contest_id": 100827,
+    "language": "GNU C++11",
+    "path": "codeforces/100827/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Salary Inequity",
+    "problem_url": "https://codeforces.com/gym/100827",
+    "submission_id": "CF14846988",
+    "submission_url": "https://codeforces.com/gym/100827/submission/14846988",
+    "tags": [],
+    "timestamp": "Dec/17/2015 22:17"
+  },
   "CF14847054": {
     "contest_id": 100827,
     "language": "GNU C++11",
