@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14847420": {
+    "contest_id": 100827,
+    "language": "GNU C++11",
+    "path": "codeforces/100827/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Hill Number",
+    "problem_url": "https://codeforces.com/gym/100827",
+    "submission_id": "CF14847420",
+    "submission_url": "https://codeforces.com/gym/100827/submission/14847420",
+    "tags": [],
+    "timestamp": "Dec/17/2015 22:50"
+  },
   "CF14847622": {
     "contest_id": 100827,
     "language": "GNU C++11",
