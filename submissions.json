@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14848713": {
+    "contest_id": 100827,
+    "language": "GNU C++11",
+    "path": "codeforces/100827/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Function",
+    "problem_url": "https://codeforces.com/gym/100827",
+    "submission_id": "CF14848713",
+    "submission_url": "https://codeforces.com/gym/100827/submission/14848713",
+    "tags": [],
+    "timestamp": "Dec/18/2015 00:47"
+  },
   "CF14848916": {
     "contest_id": 100827,
     "language": "GNU C++11",
