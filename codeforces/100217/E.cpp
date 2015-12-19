@@ -10,11 +10,11 @@
 #define sqr(x) ((x) * (x))
 #define ll long long
 #define SZ(x) ((int) (x).size())
+
 #define double long double
 using namespace std;
 
 const double EPS = 1e-11;
-const double INF = 1e9;
 
 int cmp(double x, double y) {
     if (fabs(x - y) < EPS) return 0;
@@ -69,14 +69,25 @@ int cmp(const D& a, const D& b) {
     return cmp(a.x, b.x);
 }
 
-D sqrt(D x) { assert(x >= 0); return D(sqrt(x.x)); }
+D sqrt(D x) {
+    assert(x >= 0);
+    double t = x.x;
+    if (t < 0.0) t = 0.0;
+    return D(sqrt(t));
+}
 D abs(D x) { if (x < 0) return -x; else return x; }
 D fabs(D x) { if (x < 0) return -x; else return x; }
 D sin(D x) { return D(sin(x.x)); }
 D cos(D x) { return D(cos(x.x)); }
 D tan(D x) { return D(tan(x.x)); }
 D asin(D x) { assert(D(-1) <= x && x <= D(1)); return asin(x.x); }
-D acos(D x) { assert(D(-1) <= x && x <= D(1)); return acos(x.x); }
+D acos(D x) {
+    assert(D(-1) <= x && x <= D(1));
+    double t = x.x;
+    if (t < -1.0) t = -1.0;
+    if (t > 1.0) t = 1.0;
+    return D(acos(t));
+}
 D atan(D x) { return D(atan(x.x)); }
 D atan2(D x, D y) { return D(atan2(x.x, y.x)); }
 
@@ -302,36 +313,19 @@ void ConvexHull(vector<Point> &pts) {
     }
     pts = dn;
 }
-D signed_area(Polygon p) {
-    D area = 0;
-    for(int i = 0; i < p.size(); i++) {
-        int j = (i+1) % p.size();
-        area += p[i].x*p[j].y - p[j].x*p[i].y;
-    }
-    return area / 2.0;
-}
-D area(const Polygon &p) {
-    return fabs(signed_area(p));
-}
 
 Circle a[555];
 int n;
 
 bool good(Line l) {
+    int t = l.f(a[1]).sign();
+
     // no circle intersect l
     FOR(i,1,n) if (l.dist(a[i]) < a[i].r) return false;
 
     // all circles are on same side
-    int t = l.f(a[1]).sign();
-    FOR(i,2,n) if (l.f(a[i]).sign() != t) return false;
+//    FOR(i,2,n) if (l.f(a[i]).sign() != t) return false;
     return true;
-}
-
-D directed_angle(Point a, Point o, Point b) { // angle AOB, in range [0, 2*PI)
-    D t = -atan2(a.y - o.y, a.x - o.x)
-            + atan2(b.y - o.y, b.x - o.x);
-    while (t < 0) t = t + D(2.0) * PI;
-    return t;
 }
 
 int main() {
@@ -341,7 +335,9 @@ int main() {
     cout << (fixed) << setprecision(9);
 
     while (cin >> n) {
-        FOR(i,1,n) cin >> a[i].x >> a[i].y >> a[i].r;
+        FOR(i,1,n) {
+            cin >> a[i].x >> a[i].y >> a[i].r;
+        }
         if (n == 1) {
             D res = PI * a[1].r * D(2.0);
             cout << res << endl;
@@ -358,9 +354,13 @@ int main() {
                 for(auto p : cur) all.push_back(p);
             }
         }
+//        DEBUG(SZ(all));
         sort(all.begin(), all.end());
         all.resize(unique(all.begin(), all.end()) - all.begin());
+//        DEBUG(SZ(all));
         ConvexHull(all);
+
+//        assert(SZ(all) < 5000);
 
         D totalLen = D(0.0);
         REP(i,SZ(all)) {
@@ -377,6 +377,7 @@ int main() {
                 D alpha = angle(all[i], a[x], all[j]);
                 if (l.f(a[x]).sign() != t) alpha = D(2.0) * PI - alpha;
                 totalLen += alpha * a[x].r;
+                break;
             }
 
             if (ok) totalLen += (all[i] - all[j]).len();
