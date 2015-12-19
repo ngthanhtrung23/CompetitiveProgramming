@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14873621": {
+    "contest_id": 100217,
+    "language": "GNU C++11",
+    "path": "codeforces/100217/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Finite Automata",
+    "problem_url": "https://codeforces.com/gym/100217",
+    "submission_id": "CF14873621",
+    "submission_url": "https://codeforces.com/gym/100217/submission/14873621",
+    "tags": [],
+    "timestamp": "Dec/19/2015 18:16"
+  },
   "CF14874169": {
     "contest_id": 100217,
     "language": "GNU C++11",
