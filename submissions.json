@@ -11070,6 +11070,18 @@
     ],
     "timestamp": "Dec/15/2015 04:08"
   },
+  "CF14875173": {
+    "contest_id": 100217,
+    "language": "GNU C++11",
+    "path": "codeforces/100217/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Guarding the Place of Murder",
+    "problem_url": "https://codeforces.com/gym/100217",
+    "submission_id": "CF14875173",
+    "submission_url": "https://codeforces.com/gym/100217/submission/14875173",
+    "tags": [],
+    "timestamp": "Dec/19/2015 20:03"
+  },
   "CF14898384": {
     "contest_id": 609,
     "language": "GNU C++11",
