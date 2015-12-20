@@ -1,4 +1,20 @@
 {
+  "CF14898401": {
+    "contest_id": 609,
+    "language": "GNU C++11",
+    "path": "codeforces/609/B.cpp",
+    "problem_index": "B",
+    "problem_name": "\u041a\u043d\u0438\u0433\u0430 - \u043b\u0443\u0447\u0448\u0438\u0439 \u043f\u043e\u0434\u0430\u0440\u043e\u043a",
+    "problem_url": "https://codeforces.com/contest/609/problem/B",
+    "submission_id": "CF14898401",
+    "submission_url": "https://codeforces.com/contest/609/submission/14898401",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/20/2015 20:02"
+  },
   "CF14898444": {
     "contest_id": 609,
     "language": "GNU C++11",
