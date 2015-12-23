@@ -1,4 +1,20 @@
 {
+  "CF14942626": {
+    "contest_id": 607,
+    "language": "GNU C++11",
+    "path": "codeforces/607/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Chain Reaction",
+    "problem_url": "https://codeforces.com/contest/607/problem/A",
+    "submission_id": "CF14942626",
+    "submission_url": "https://codeforces.com/contest/607/submission/14942626",
+    "tags": [
+      "binary search",
+      "dp",
+      "*1600"
+    ],
+    "timestamp": "Dec/24/2015 00:43"
+  },
   "CF14945382": {
     "contest_id": 607,
     "language": "GNU C++11",
