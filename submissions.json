@@ -1,4 +1,19 @@
 {
+  "CF14945382": {
+    "contest_id": 607,
+    "language": "GNU C++11",
+    "path": "codeforces/607/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Zuma",
+    "problem_url": "https://codeforces.com/contest/607/problem/B",
+    "submission_id": "CF14945382",
+    "submission_url": "https://codeforces.com/contest/607/submission/14945382",
+    "tags": [
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Dec/24/2015 00:56"
+  },
   "CF14953857": {
     "contest_id": 607,
     "language": "GNU C++11",
