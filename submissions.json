@@ -1,4 +1,23 @@
 {
+  "CF15042146": {
+    "contest_id": 612,
+    "language": "GNU C++11",
+    "path": "codeforces/612/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Square Root of Permutation",
+    "problem_url": "https://codeforces.com/contest/612/problem/E",
+    "submission_id": "CF15042146",
+    "submission_url": "https://codeforces.com/contest/612/submission/15042146",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Dec/27/2015 18:33"
+  },
   "CF15101820": {
     "contest_id": 611,
     "language": "GNU C++11",
