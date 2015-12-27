@@ -1,4 +1,21 @@
 {
+  "CF15041813": {
+    "contest_id": 612,
+    "language": "GNU C++11",
+    "path": "codeforces/612/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Replace To Make Regular Bracket Sequence",
+    "problem_url": "https://codeforces.com/contest/612/problem/C",
+    "submission_id": "CF15041813",
+    "submission_url": "https://codeforces.com/contest/612/submission/15041813",
+    "tags": [
+      "data structures",
+      "expression parsing",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Dec/27/2015 18:07"
+  },
   "CF15041890": {
     "contest_id": 612,
     "language": "GNU C++11",
