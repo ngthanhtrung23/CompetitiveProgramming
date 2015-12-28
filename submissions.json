@@ -11447,6 +11447,18 @@
     ],
     "timestamp": "Dec/27/2015 18:33"
   },
+  "CF15074401": {
+    "contest_id": 100218,
+    "language": "GNU C++11",
+    "path": "codeforces/100218/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Mazes Exit Guide",
+    "problem_url": "https://codeforces.com/gym/100218",
+    "submission_id": "CF15074401",
+    "submission_url": "https://codeforces.com/gym/100218/submission/15074401",
+    "tags": [],
+    "timestamp": "Dec/29/2015 00:36"
+  },
   "CF15075313": {
     "contest_id": 100218,
     "language": "GNU C++11",
