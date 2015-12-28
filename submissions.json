@@ -11447,6 +11447,18 @@
     ],
     "timestamp": "Dec/27/2015 18:33"
   },
+  "CF15071786": {
+    "contest_id": 100218,
+    "language": "GNU C++11",
+    "path": "codeforces/100218/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Primitive Product",
+    "problem_url": "https://codeforces.com/gym/100218",
+    "submission_id": "CF15071786",
+    "submission_url": "https://codeforces.com/gym/100218/submission/15071786",
+    "tags": [],
+    "timestamp": "Dec/28/2015 21:59"
+  },
   "CF15072339": {
     "contest_id": 100218,
     "language": "GNU C++11",
