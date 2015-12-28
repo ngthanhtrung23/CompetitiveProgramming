@@ -11447,6 +11447,18 @@
     ],
     "timestamp": "Dec/27/2015 18:33"
   },
+  "CF15075313": {
+    "contest_id": 100218,
+    "language": "GNU C++11",
+    "path": "codeforces/100218/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Yet Another Minimal Triangle",
+    "problem_url": "https://codeforces.com/gym/100218",
+    "submission_id": "CF15075313",
+    "submission_url": "https://codeforces.com/gym/100218/submission/15075313",
+    "tags": [],
+    "timestamp": "Dec/29/2015 01:44"
+  },
   "CF15101820": {
     "contest_id": 611,
     "language": "GNU C++11",
