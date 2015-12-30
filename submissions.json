@@ -1,4 +1,20 @@
 {
+  "CF15128163": {
+    "contest_id": 611,
+    "language": "GNU C++11",
+    "path": "codeforces/611/F.cpp",
+    "problem_index": "F",
+    "problem_name": "New Year and Cleaning",
+    "problem_url": "https://codeforces.com/contest/611/problem/F",
+    "submission_id": "CF15128163",
+    "submission_url": "https://codeforces.com/contest/611/submission/15128163",
+    "tags": [
+      "binary search",
+      "implementation",
+      "*2500"
+    ],
+    "timestamp": "Dec/31/2015 03:24"
+  },
   "CF15136909": {
     "contest_id": 610,
     "language": "GNU C++11",
