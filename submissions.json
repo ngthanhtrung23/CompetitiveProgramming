@@ -11592,6 +11592,18 @@
     ],
     "timestamp": "Dec/31/2015 22:16"
   },
+  "CF15138344": {
+    "contest_id": 100220,
+    "language": "GNU C++11",
+    "path": "codeforces/100220/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Darts",
+    "problem_url": "https://codeforces.com/gym/100220",
+    "submission_id": "CF15138344",
+    "submission_url": "https://codeforces.com/gym/100220/submission/15138344",
+    "tags": [],
+    "timestamp": "Dec/31/2015 23:07"
+  },
   "CF15138450": {
     "contest_id": 100220,
     "language": "GNU C++11",
