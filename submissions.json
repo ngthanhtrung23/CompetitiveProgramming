@@ -11592,6 +11592,18 @@
     ],
     "timestamp": "Dec/31/2015 22:16"
   },
+  "CF15139506": {
+    "contest_id": 100220,
+    "language": "GNU C++11",
+    "path": "codeforces/100220/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Set Partitions",
+    "problem_url": "https://codeforces.com/gym/100220",
+    "submission_id": "CF15139506",
+    "submission_url": "https://codeforces.com/gym/100220/submission/15139506",
+    "tags": [],
+    "timestamp": "Jan/01/2016 01:07"
+  },
   "CF15139827": {
     "contest_id": 100220,
     "language": "GNU C++11",
