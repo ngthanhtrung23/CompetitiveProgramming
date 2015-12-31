@@ -132,10 +132,10 @@ int main() {
         FOR(i,1,m) FOR(j,1,n) cin >> a[i][j];
 
         int x = 0, y = 1, cur = 2;
-        int z = cur++;
         FOR(i,1,m) FOR(j,1,n) {
             id[i][j] = cur++;
         }
+        int z = cur++;
 
         MinCostFlow<int,ll> flow(cur);
         flow.addEdge(x, y, k, 0);
