@@ -11592,6 +11592,18 @@
     ],
     "timestamp": "Dec/31/2015 22:16"
   },
+  "CF15138917": {
+    "contest_id": 100220,
+    "language": "GNU C++11",
+    "path": "codeforces/100220/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Pipe Layout",
+    "problem_url": "https://codeforces.com/gym/100220",
+    "submission_id": "CF15138917",
+    "submission_url": "https://codeforces.com/gym/100220/submission/15138917",
+    "tags": [],
+    "timestamp": "Jan/01/2016 00:05"
+  },
   "CF15139506": {
     "contest_id": 100220,
     "language": "GNU C++11",
