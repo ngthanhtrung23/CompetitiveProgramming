@@ -73,8 +73,7 @@ private:
                 if (edges[it].cap > 0 && dis[edges[it].to] > d + edges[it].cost)
                     Q.push(make_pair(-(dis[edges[it].to] = d + edges[it].cost), edges[it].to));
         }
-        Cost disT = dis[T];
-        REP(i,n) dis[i] = disT - dis[i];
+        REP(i,n) dis[i] = dis[T] - dis[i];
     }
 
     Flow findFlow(int x, Flow flow) {
