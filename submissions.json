@@ -11592,6 +11592,18 @@
     ],
     "timestamp": "Dec/31/2015 22:16"
   },
+  "CF15140148": {
+    "contest_id": 100220,
+    "language": "GNU C++11",
+    "path": "codeforces/100220/I.cpp",
+    "problem_index": "I",
+    "problem_name": "HTML Table",
+    "problem_url": "https://codeforces.com/gym/100220",
+    "submission_id": "CF15140148",
+    "submission_url": "https://codeforces.com/gym/100220/submission/15140148",
+    "tags": [],
+    "timestamp": "Jan/01/2016 02:19"
+  },
   "CF15140586": {
     "contest_id": 100220,
     "language": "GNU C++11",
