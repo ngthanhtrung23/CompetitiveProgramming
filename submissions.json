@@ -11592,6 +11592,18 @@
     ],
     "timestamp": "Dec/31/2015 22:16"
   },
+  "CF15138885": {
+    "contest_id": 100220,
+    "language": "GNU C++11",
+    "path": "codeforces/100220/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Domino in Casino",
+    "problem_url": "https://codeforces.com/gym/100220",
+    "submission_id": "CF15138885",
+    "submission_url": "https://codeforces.com/gym/100220/submission/15138885",
+    "tags": [],
+    "timestamp": "Jan/01/2016 00:00"
+  },
   "CF15138917": {
     "contest_id": 100220,
     "language": "GNU C++11",
