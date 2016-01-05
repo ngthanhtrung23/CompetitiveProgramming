@@ -13,7 +13,7 @@
 using namespace std;
 
 #define double long double
-const double EPS = 1e-9;
+const double EPS = 1e-12;
 const double INF = 1e9;
 
 int cmp(double x, double y) {
