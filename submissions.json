@@ -11626,6 +11626,18 @@
     ],
     "timestamp": "Jan/01/2016 18:25"
   },
+  "CF15193969": {
+    "contest_id": 100523,
+    "language": "GNU C++11",
+    "path": "codeforces/100523/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Arithmetic Rectangle",
+    "problem_url": "https://codeforces.com/gym/100523",
+    "submission_id": "CF15193969",
+    "submission_url": "https://codeforces.com/gym/100523/submission/15193969",
+    "tags": [],
+    "timestamp": "Jan/06/2016 01:27"
+  },
   "CF15194460": {
     "contest_id": 100523,
     "language": "GNU C++11",
