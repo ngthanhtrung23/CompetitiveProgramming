@@ -16,23 +16,75 @@ using namespace std;
 const double EPS = 1e-9;
 const double INF = 1e9;
 
-#define EPS 1e-6
-
-inline int cmp(double a, double b) {
-    return (a < b - EPS) ? -1 : ((a > b + EPS) ? 1 : 0);
+int cmp(double x, double y) {
+    if (fabs(x - y) < EPS) return 0;
+    if (x < y) return -1;
+    return 1;
 }
 
+// ------------------------ BASIC TYPE
+struct D {
+    double x;
+
+    D() {}
+    D(double x) : x(x) {}
+
+    D operator + (const D& a) const { return D(x+a.x); }
+    D operator - (const D& a) const { return D(x-a.x); }
+    D operator * (const D& a) const { return D(x*a.x); }
+    D operator / (const D& a) const { return D(x/a.x); }
+
+    D operator - () const { return D(-x); }
+
+    D& operator += (const D& a) { return *this = *this + a; }
+    D& operator -= (const D& a) { return *this = *this - a; }
+    D& operator *= (const D& a) { return *this = *this * a; }
+    D& operator /= (const D& a) { return *this = *this / a; }
+
+    bool operator == (const D& a) const { return cmp(x, a.x) == 0; }
+    bool operator <= (const D& a) const { return cmp(x, a.x) <= 0; }
+    bool operator >= (const D& a) const { return cmp(x, a.x) >= 0; }
+    bool operator <  (const D& a) const { return cmp(x, a.x) <  0; }
+    bool operator >  (const D& a) const { return cmp(x, a.x) >  0; }
+    bool operator != (const D& a) const { return cmp(x, a.x) != 0; }
+
+    int sign() {
+        int t = cmp(x, 0);
+        if (t == 0) return 0;
+        if (t < 0) return -1;
+        return 1;
+    }
+
+    friend istream& operator >> (istream& cin, D& x) {
+        cin >> x.x;
+        return cin;
+    }
+    friend ostream& operator << (ostream& cout, D& x) {
+        cout << x.x;
+        return cout;
+    }
+} O(0.0), PI(acos((double) -1.0));
+
+int cmp(const D& a, const D& b) {
+    return cmp(a.x, b.x);
+}
+
+D sqrt(D x) { assert(x >= 0); return D(sqrt(x.x)); }
+D abs(D x) { if (x < 0) return -x; else return x; }
+D fabs(D x) { if (x < 0) return -x; else return x; }
+D sin(D x) { return sin(x.x); }
+D cos(D x) { return cos(x.x); }
+D tan(D x) { return tan(x.x); }
+D asin(D x) { assert(D(-1) <= x && x <= D(1)); return asin(x.x); }
+D acos(D x) { assert(D(-1) <= x && x <= D(1)); return acos(x.x); }
+D atan(D x) { return atan(x.x); }
+
 struct Point {
-    double x, y;
-    Point(double x = 0.0, double y = 0.0) : x(x), y(y) {}
+    D x, y;
 
-    Point operator + (Point a) { return Point(x+a.x, y+a.y); }
-    Point operator - (Point a) { return Point(x-a.x, y-a.y); }
-    Point operator * (double k) { return Point(x*k, y*k); }
-    Point operator / (double k) { return Point(x/k, y/k); }
-
-    double operator * (Point a) { return x*a.x + y*a.y; } // dot product
-    double operator % (Point a) { return x*a.y - y*a.x; } // cross product
+    Point() {}
+    Point(double x, double y) : x(x), y(y) {}
+    Point(D x, D y) : x(x), y(y) {}
 
     int cmp(Point q) const { if (int t = ::cmp(x,q.x)) return t; return ::cmp(y,q.y); }
 
@@ -40,129 +92,134 @@ struct Point {
     Comp(>) Comp(<) Comp(==) Comp(>=) Comp(<=) Comp(!=)
     #undef Comp
 
-    Point conj() { return Point(x, -y); }
-    double norm() { return x*x + y*y; }
+    Point operator + (const Point& a) const { return Point(x+a.x, y+a.y); }
+    Point operator - (const Point& a) const { return Point(x-a.x, y-a.y); }
+    Point operator * (const D& k)     const { return Point(x*k, y*k); }
+    Point operator / (const D& k)     const { assert(k != D(0)); return Point(x/k, y/k); }
 
-    // Note: There are 2 ways for implementing len():
-    // 1. sqrt(norm()) --> fast, but inaccurate (produce some values that are of order X^2)
-    // 2. hypot(x, y) --> slow, but much more accurate
-    double len() { return sqrt(norm()); }
+    D operator * (const Point& a)     const { return x*a.x + y*a.y; } // dot
+    D operator % (const Point& a)     const { return x*a.y - y*a.x; } // cross
 
-    Point rotate(double alpha) {
-        double cosa = cos(alpha), sina = sin(alpha);
+    friend istream& operator >> (istream& cin, Point& a) {
+        cin >> a.x >> a.y;
+        return cin;
+    }
+    friend ostream& operator << (ostream& cout, Point& a) {
+        cout << a.x << ' ' << a.y;
+        return cout;
+    }
+
+    D norm() { return x*x + y*y; }
+    D len() { return hypot(x.x, y.x); }
+
+    Point rotate(D alpha) {
+        D cosa = cos(alpha), sina = sin(alpha);
         return Point(x * cosa - y * sina, x * sina + y * cosa);
     }
+
+    Point normalize(D l) {
+        return Point(x, y) * l / len();
+    }
 };
-
-int ccw(Point a, Point b, Point c) {
-    return cmp((b-a)%(c-a),0);
-}
-
-double angle(Point a, Point o, Point b) { // min of directed angle AOB & BOA
+D angle(Point a, Point o, Point b) { // min of directed angle AOB & BOA
     a = a - o; b = b - o;
     return acos((a * b) / sqrt(a.norm() * b.norm()));
 }
-
-double distToLine(Point p, Point a, Point b, Point &c) {
-    Point ap = p - a, ab = b - a;
-    double u = (ap * ab) / ab.norm();
-    c = a + (ab * u);
-    return (p-c).len();
+int ccw(const Point& a, const Point& b, const Point& c) {
+    return ((b - a) % (c - a)).sign();
 }
 
-double distToLineSegment(Point p, Point a, Point b, Point &c) {
-    Point ap = p - a, ab = b - a;
-    double u = (ap * ab) / ab.norm();
-    if (u < 0.0) {
-        c = Point(a.x, a.y);
-        return (p - a).len();
-    }
-    if (u > 1.0) {
-        c = Point(b.x, b.y);
-        return (p - b).len();
-    }
-    return distToLine(p, a, b, c);
-}
-
-// NOTE: WILL NOT WORK WHEN a = b = 0.
 struct Line {
-    double a, b, c;
-    Point A, B; // Added for polygon intersect line. Do not rely on assumption that these are valid
+    D a, b, c;
+    Point A, B;
 
-    Line(double a, double b, double c) : a(a), b(b), c(c) {} 
+    Line(D a, D b, D c) : a(a), b(b), c(c) {}
 
     Line(Point A, Point B) : A(A), B(B) {
         a = B.y - A.y;
         b = A.x - B.x;
-        c = - (a * A.x + b * A.y);
+        c = D(0) - (a * A.x + b * A.y);
     }
-    Line(Point P, double m) {
-        a = -m; b = 1;
-        c = -((a * P.x) + (b * P.y));
+    D f(const Point &p) {
+        return a*p.x + b*p.y + c;
     }
-    double f(Point A) {
-        return a*A.x + b*A.y + c;
+
+    D dist(Point p) {
+        return fabs(a*p.x + b*p.y + c) / sqrt(a*a + b*b);
     }
 };
 
+struct Circle : Point {
+    D r;
+
+    Circle() {}
+    Circle(Point a, D r) : Point(a), r(r) {}
+
+    bool strictContains(Point p) {
+        return (*this - p).len() < r;
+    }
+    bool onBorder(Point p) {
+        return (*this - p).len() == r;
+    }
+    bool contains(Point p) {
+        return (*this - p).len() <= r;
+    }
+};
+
+// ------------------------ Line operations
 bool areParallel(Line l1, Line l2) {
-    return cmp(l1.a*l2.b, l1.b*l2.a) == 0;
+    return l1.a*l2.b == l1.b*l2.a;
 }
 
 bool areSame(Line l1, Line l2) {
-    return areParallel(l1 ,l2) && cmp(l1.c*l2.a, l2.c*l1.a) == 0
-                && cmp(l1.c*l2.b, l1.b*l2.c) == 0;
+    return areParallel(l1 ,l2) && l1.c*l2.a == l2.c*l1.a
+            && l1.c*l2.b == l1.b*l2.c;
 }
 
 bool areIntersect(Line l1, Line l2, Point &p) {
     if (areParallel(l1, l2)) return false;
-    double dx = l1.b*l2.c - l2.b*l1.c;
-    double dy = l1.c*l2.a - l2.c*l1.a;
-    double d  = l1.a*l2.b - l2.a*l1.b;
+    D dx = l1.b*l2.c - l2.b*l1.c;
+    D dy = l1.c*l2.a - l2.c*l1.a;
+    D d    = l1.a*l2.b - l2.a*l1.b;
     p = Point(dx/d, dy/d);
     return true;
 }
 
-void closestPoint(Line l, Point p, Point &ans) {
-    if (fabs(l.b) < EPS) {
-        ans.x = -(l.c) / l.a; ans.y = p.y;
-        return;
-    }
-    if (fabs(l.a) < EPS) {
-        ans.x = p.x; ans.y = -(l.c) / l.b;
-        return;
-    }
-    Line perp(l.b, -l.a, - (l.b*p.x - l.a*p.y));
-    areIntersect(l, perp, ans);
+// ------------------------ Circle operations
+bool areIntersect(Circle u, Circle v) {
+    if (cmp((u - v).len(), u.r + v.r) > 0) return false;
+    if (cmp((u - v).len() + v.r, u.r) < 0) return false;
+    if (cmp((u - v).len() + u.r, v.r) < 0) return false;
+    return true;
 }
 
-void reflectionPoint(Line l, Point p, Point &ans) {
-    Point b;
-    closestPoint(l, p, b);
-    ans = p + (b - p) * 2;
+vector<Point> circleIntersect(Circle u, Circle v) {
+    vector<Point> res;
+    if (!areIntersect(u, v)) return res;
+    D d = (u - v).len();
+    D alpha = acos((u.r * u.r + d*d - v.r * v.r) / 2.0 / u.r / d);
+
+    Point p1 = (v - u).rotate(alpha);
+    Point p2 = (v - u).rotate(-alpha);
+    res.push_back(p1 / p1.len() * u.r + u);
+    res.push_back(p2 / p2.len() * u.r + u);
+    return res;
 }
-struct Circle : Point {
-    double r;
-    Circle(double x = 0, double y = 0, double r = 0) : Point(x, y), r(r) {}
-    Circle(Point p, double r) : Point(p), r(r) {}
-    
-    bool contains(Point p) { return (*this - p).len() <= r + EPS; }
-};
 
 vector<Point> intersection(Line l, Circle cir) {
-    double r = cir.r, a = l.a, b = l.b, c = l.c + l.a*cir.x + l.b*cir.y;
+    D r = cir.r, a = l.a, b = l.b, c = l.c + l.a*cir.x + l.b*cir.y;
     vector<Point> res;
 
-    double x0 = -a*c/(a*a+b*b),  y0 = -b*c/(a*a+b*b);
-    if (c*c > r*r*(a*a+b*b)+EPS) return res;
-    else if (fabs(c*c - r*r*(a*a+b*b)) < EPS) {
+    D x0 = -a*c/(a*a+b*b), y0 = -b*c/(a*a+b*b);
+    if (c*c > r*r*(a*a+b*b)) return res;
+    else if (c*c == r*r*(a*a+b*b)) {
         res.push_back(Point(x0, y0) + Point(cir.x, cir.y));
         return res;
     }
     else {
-        double d = r*r - c*c/(a*a+b*b);
-        double mult = sqrt (d / (a*a+b*b));
-        double ax,ay,bx,by;
+        D d = r*r - c*c/(a*a+b*b);
+        D mult = sqrt (d / (a*a+b*b));
+        D ax,ay,bx,by;
         ax = x0 + b * mult;
         bx = x0 - b * mult;
         ay = y0 - a * mult;
@@ -174,59 +231,29 @@ vector<Point> intersection(Line l, Circle cir) {
     }
 }
 
-// helper functions for commonCircleArea
-double cir_area_solve(double a, double b, double c) {
-    return acos((a*a + b*b - c*c) / 2 / a / b);
-}
-double cir_area_cut(double a, double r) {
-    double s1 = a * r * r / 2;
-    double s2 = sin(a) * r * r / 2;
-    return s1 - s2;
-}
-
-bool areIntersect(Circle u, Circle v) {
-    if (cmp((u - v).len(), u.r + v.r) > 0) return false;
-    if (cmp((u - v).len() + v.r, u.r) < 0) return false;
-    if (cmp((u - v).len() + u.r, v.r) < 0) return false;
-    return true;
-}
-
-vector<Point> circleIntersect(Circle u, Circle v) {
-    vector<Point> res;
-    if (!areIntersect(u, v)) return res;
-    double d = (u - v).len();
-    double alpha = acos((u.r * u.r + d*d - v.r * v.r) / 2.0 / u.r / d);
-
-    Point p1 = (v - u).rotate(alpha);
-    Point p2 = (v - u).rotate(-alpha);
-    res.push_back(p1 / p1.len() * u.r + u);
-    res.push_back(p2 / p2.len() * u.r + u);
-    return res;
-}
-
 int n;
 int nTower;
 Circle towers[111];
 Point a[1011];
-double c[1011][1011];
-double R;
+D c[1011][1011];
+D R;
 
 bool isGood(const Point& p) {
     FOR(i,1,nTower)
-        if ((towers[i] - p).len() < R - EPS) return false;
+        if ((towers[i] - p).len() < R) return false;
     return true;
 }
 
-double segment_union(vector< pair<double, double> > segs) {
+D segment_union(vector< pair<D, D> > segs) {
     int n = SZ(segs);
-    vector< pair<double, bool> > x(n*2);
+    vector< pair<D, bool> > x(n*2);
     REP(i,n) {
         x[i*2] = make_pair(segs[i].first, false);
         x[i*2+1] = make_pair(segs[i].second, true);
     }
     sort(x.begin(), x.end());
 
-    double res = 0.0;
+    D res = 0.0;
     int c = 0;
     REP(i,n*2) {
         if (c && i) res += x[i].first - x[i-1].first;
@@ -239,32 +266,32 @@ double segment_union(vector< pair<double, double> > segs) {
 bool isGood(Point a, Point b) {
     if (a > b) swap(a, b);
 
-    vector< pair<double, double> > segs;
+    vector< pair<D, D> > segs;
     Line l(a, b);
 
-    double a_b = (b - a).len();
+    D a_b = (b - a).len();
 
     FOR(i,1,nTower) {
         auto t = intersection(l, towers[i]);
         if (SZ(t) < 2) continue;
 
-        double x, y;
+        D x, y;
         if (t[0] >= a) x = (t[0] - a).len();
-        else x = 0;
+        else x = D(0);
 
         if (x > a_b) x = a_b;
 
         if (t[1] >= a) y = (t[1] - a).len();
-        else y = 0;
+        else y = D(0);
 
         if (y > a_b) y = a_b;
 
         segs.push_back(make_pair(min(x, y), max(x, y)));
     }
-    return cmp(segment_union(segs), a_b) == 0;
+    return segment_union(segs) == a_b;
 }
 
-double f[1011];
+D f[1011];
 
 int main() {
     ios :: sync_with_stdio(0); cin.tie(0);
@@ -274,12 +301,10 @@ int main() {
         cin >> R;
         cin >> nTower;
 
-        Point start, target;
-        cin >> start.x >> start.y;
-        cin >> target.x >> target.y;
+        Point start, target; cin >> start >> target;
 
         FOR(i,1,nTower) {
-            cin >> towers[i].x >> towers[i].y;
+            cin >> towers[i];
             towers[i].r = R;
         }
 
@@ -300,25 +325,28 @@ int main() {
         a[++n] = start;
         a[++n] = target;
 
+        if (n > 1000) continue;
+
 //        cout << "Interesting points: " << endl;
 //        FOR(i,1,n) cout << a[i] << endl;
 
         FOR(i,1,n) FOR(j,i+1,n) {
             if (isGood(a[i], a[j])) {
                 c[i][j] = c[j][i] = (a[i] - a[j]).len();
+//                cout << i << " --> " << j << endl;
             }
             else {
                 c[i][j] = c[j][i] = 1e9;
             }
         }
-        set< pair<double, int> > all;
-        FOR(i,1,n) f[i] = INF;
-        f[n-1] = 0.0;
+        set< pair<D, int> > all;
+        FOR(i,1,n) f[i] = D(INF);
+        f[n-1] = D(0.0);
         all.insert(make_pair(f[n-1], n-1));
         while (!all.empty()) {
             auto p = *all.begin(); all.erase(all.begin());
             int u = p.second;
-            double cur = p.first;
+            D cur = p.first;
             if (cur != f[u]) continue;
 
             if (u == n) break;
@@ -328,7 +356,8 @@ int main() {
                 all.insert(make_pair(f[v], v));
             }
         }
-        if (f[n] > 1e5) f[n] = -1;
+        if (f[n] == D(INF)) f[n] = -1;
+//        PR(f, n);
         cout << f[n] << '\n';
     }
 }
