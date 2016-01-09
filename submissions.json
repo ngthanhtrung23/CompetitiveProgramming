@@ -11626,6 +11626,18 @@
     ],
     "timestamp": "Jan/01/2016 18:25"
   },
+  "CF15268278": {
+    "contest_id": 100227,
+    "language": "GNU C++11",
+    "path": "codeforces/100227/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Checker's Check",
+    "problem_url": "https://codeforces.com/gym/100227",
+    "submission_id": "CF15268278",
+    "submission_url": "https://codeforces.com/gym/100227/submission/15268278",
+    "tags": [],
+    "timestamp": "Jan/09/2016 19:03"
+  },
   "CF15269062": {
     "contest_id": 100227,
     "language": "GNU C++11",
