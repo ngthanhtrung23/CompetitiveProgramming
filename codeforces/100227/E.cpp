@@ -29,8 +29,141 @@ void init() {
 //    DEBUG(nid);
 }
 
+bool validCaptureDirection(pair<int,int> p, int di, int dj, int side) {
+    if (abs(di) != 2) return false;
+    if (abs(dj) != 2) return false;
+    if (abs(board[p.first][p.second]) == 1) { // NOT KING
+        if (di * side < 0) return false;
+    }
+    return true;
+}
+
 bool outside(pair<int,int> p) {
     return p.first < 1 || p.first > 8 || p.second < 1 || p.second > 8;
+}
+
+bool canCapture(pair<int,int> p, pair<int,int> mid, pair<int,int> target,
+        int di, int dj, int side) {
+    if (outside(mid) || outside(target)) return false;
+
+    // direction must be good
+    if (!validCaptureDirection(p, di, dj, side)) return false;
+
+    // middle position must be enemy's piece
+    if (board[mid.first][mid.second] * side >= 0) return false;
+
+    // target must be empty
+    if (board[target.first][target.second]) return false;
+
+    return true;
+}
+
+bool canCaptureAnything(int side, pair<int,int> p) {
+    for(int di = -2; di <= 2; di += 4)
+        for(int dj = -2; dj <= 2; dj += 4) {
+            auto mid = make_pair(p.first + di/2, p.second + dj/2);
+            auto target = make_pair(p.first + di, p.second + dj);
+
+            if (outside(mid) || outside(target)) continue;
+
+            if (canCapture(p, mid, target, di, dj, side)) {
+                return true;
+            }
+        }
+    return false;
+}
+
+bool canCaptureAnything(int side) {
+    FOR(i,1,8) FOR(j,1,8) if (board[i][j] * side > 0) {
+        auto p = make_pair(i, j);
+        if (canCaptureAnything(side, p)) return true;
+    }
+    return false;
+}
+
+bool canNormal(pair<int,int> p, pair<int,int> to,
+        int di, int dj, int side) {
+    if (outside(to)) return false;
+    if (canCaptureAnything(side, p)) return false;
+
+    if (abs(board[p.first][p.second]) == 1) { // NOT KING
+        if (side * di < 0) return false;
+    }
+    if (board[to.first][to.second]) return false;
+
+    return true;
+}
+
+bool valid(int side, string s) {
+    REP(i,SZ(s)-1) if (s[i] == '-' && s[i+1] == '-') return false;
+    REP(i,SZ(s)) {
+        if (s[i] >= '0' && s[i] <= '9') continue;
+        if (s[i] == '-') s[i] = ' ';
+        else return false;
+    }
+
+    istringstream ss(s);
+    vector<int> id;
+    int u;
+    while (ss >> u) id.push_back(u);
+//    PR0(id, SZ(id));
+
+    REP(i,SZ(id)) if (id[i] < 1 || id[i] > 32) return false;
+
+    if (SZ(id) <= 1) return false;
+
+    // check if this position is indeed of this side
+    auto p = idToPos[id[0]];
+    if (side * board[p.first][p.second] <= 0) return false;
+
+    // middle moves are all capture moves
+    FOR(i,1,SZ(id)-1) {
+        auto to = idToPos[id[i]];
+        
+        // check this move
+        int di = to.first - p.first;
+        int dj = to.second - p.second;
+
+        if (abs(di) == 1 && abs(dj) == 1) {
+            if (i < SZ(id)-1) return false;
+            if (i == 1 && canCaptureAnything(side)) return false;
+
+//            DEBUG(i);
+
+            if (!canNormal(p, to, di, dj, side)) return false;
+            swap(board[p.first][p.second], board[to.first][to.second]);
+
+            p = to;
+        }
+        else {
+            auto mid = make_pair(p.first + di / 2, p.second + dj / 2);
+            if (!canCapture(p, mid, to, di, dj, side)) return false;
+
+            // make the move
+            int tmp = board[p.first][p.second];
+            board[p.first][p.second] = 0;
+            board[mid.first][mid.second] = 0;
+            board[to.first][to.second] = tmp;
+            p = to;
+        }
+
+        if ((side == 1 && p.first == 8)
+                || (side == -1 && p.first == 1)) {
+            if (abs(board[p.first][p.second]) == 2) continue;
+
+            board[p.first][p.second] *= 2;
+            if (i == SZ(id) - 1) return true;
+            else {
+                return false;
+            }
+        }
+
+        if (abs(di) == 1) return true;
+    }
+    if (canCaptureAnything(side, p)) {
+        return false;
+    }
+    return true;
 }
 
 void printBoard() {
@@ -38,137 +171,6 @@ void printBoard() {
         FOR(j,1,8) cout << setw(3) << board[i][j] << ' ';
         cout << endl;
     }
-}
-
-bool isKing(pair<int,int> p) {
-    return abs(board[p.first][p.second]) == 2;
-}
-
-int side(pair<int,int> p) {
-    int t = board[p.first][p.second];
-    if (t < 0) return -1;
-    if (t > 0) return 1;
-    return 0;
-}
-
-int validDirection(pair<int,int> p, int di, int dj) {
-    if (abs(di) != abs(dj)) return false;
-    if (abs(di) < 1 || abs(di) > 2) return false;
-
-    if (isKing(p)) return true;
-
-    if (side(p) * di <= 0) return false;
-    return true;
-}
-
-bool canMove(pair<int,int> p, pair<int,int> to) {
-    if (outside(to)) return false;
-
-    int di = to.first - p.first;
-    int dj = to.second - p.second;
-
-    if (!validDirection(p, di, dj)) return false;
-    if (abs(di) == 2) return false;
-
-    if (side(to) != 0) return false;
-
-    return true;
-}
-
-bool canJump(pair<int,int> p, pair<int,int> to) {
-    int di = to.first - p.first;
-    int dj = to.second - p.second;
-    pair<int,int> mid = make_pair(p.first + di/2, p.second + dj/2);
-
-    if (outside(to) || outside(mid)) return false;
-
-    if (!validDirection(p, di, dj)) return false;
-    if (abs(di) == 1) return false;
-
-    if (side(to) != 0) return false;
-    if (side(mid) != -side(p)) return false;
-
-    return true;
-}
-
-bool canJump(pair<int,int> p) {
-    for(int di=-2; di <= 2; di += 4) 
-        for(int dj=-2; dj <= 2; dj += 4) {
-            auto to = make_pair(p.first + di, p.second + dj);
-            if (canJump(p, to)) return true;
-        }
-    return false;
-}
-
-bool canJump(int turn) {
-    FOR(i,1,8) FOR(j,1,8) {
-        auto p = make_pair(i, j);
-        if (side(p) == turn && canJump(p)) return true;
-    }
-    return false;
-}
-
-bool promote(pair<int,int> p) {
-    if ((board[p.first][p.second] == 1 && p.first == 8)
-            || (board[p.first][p.second] == -1 && p.first == 1)) {
-        board[p.first][p.second] *= 2;
-        return true;
-    }
-    return false;
-}
-
-void makeMove(pair<int,int> &p, pair<int,int> to) {
-    swap(board[p.first][p.second], board[to.first][to.second]);
-    p = to;
-}
-
-void makeJump(pair<int,int>&p, pair<int,int> to) {
-    int di = to.first - p.first;
-    int dj = to.second - p.second;
-    pair<int,int> mid = make_pair(p.first + di/2, p.second + dj/2);
-
-    swap(board[p.first][p.second], board[to.first][to.second]);
-    board[mid.first][mid.second] = 0;
-
-    p = to;
-}
-
-bool valid(int turn, string s) {
-    REP(i,SZ(s)-1) if (s[i] == '-' && s[i+1] == '-') return false;
-    REP(i,SZ(s)) {
-        if (s[i] == '-') s[i] = ' ';
-        else if (s[i] < '0' || s[i] > '9') return false;
-    }
-    istringstream ss(s);
-    vector<int> ids;
-    int u; while (ss >> u) ids.push_back(u);
-
-//    PR0(ids, SZ(ids));
-    auto p = idToPos[ids[0]];
-    if (side(p) != turn) return false;
-
-    FOR(i,1,SZ(ids)-1) {
-        auto to = idToPos[ids[i]];
-        if (canMove(p, to)) {
-//            cout << "MOVE" << endl;
-            if (i == 1 && canJump(side(p))) return false;
-            if (canJump(p)) return false;
-            makeMove(p, to);
-
-            if (promote(p)) return i == SZ(ids) - 1;
-
-            if (i != SZ(ids)-1) return false;
-            else return true;
-        }
-        else if (canJump(p, to)) {
-//            cout << "JUMP" << endl;
-            makeJump(p, to);
-            if (promote(p)) return i == SZ(ids) - 1;
-        }
-        else return false;
-    }
-    if (canJump(p)) return false;
-    return true;
 }
 
 int main() {
@@ -182,6 +184,7 @@ int main() {
             bool isKing = u < 0;
             u = abs(u);
             auto p = idToPos[u];
+//            DEBUG(u);
             assert(board[p.first][p.second] == 0);
 
             board[p.first][p.second] = (isKing) ? 2 : 1;
