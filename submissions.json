@@ -11626,6 +11626,18 @@
     ],
     "timestamp": "Jan/01/2016 18:25"
   },
+  "CF15279992": {
+    "contest_id": 100864,
+    "language": "GNU C++",
+    "path": "codeforces/100864/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Kaleidoscope",
+    "problem_url": "https://codeforces.com/gym/100864",
+    "submission_id": "CF15279992",
+    "submission_url": "https://codeforces.com/gym/100864/submission/15279992",
+    "tags": [],
+    "timestamp": "Jan/10/2016 20:31"
+  },
   "CF15282094": {
     "contest_id": 615,
     "language": "GNU C++11",
