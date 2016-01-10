@@ -15104,6 +15104,18 @@
     "tags": [],
     "timestamp": "Jan/11/2016 01:17"
   },
+  "CF15282922": {
+    "contest_id": 100002,
+    "language": "GNU C++11",
+    "path": "codeforces/100002/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Folding",
+    "problem_url": "https://codeforces.com/gym/100002",
+    "submission_id": "CF15282922",
+    "submission_url": "https://codeforces.com/gym/100002/submission/15282922",
+    "tags": [],
+    "timestamp": "Jan/11/2016 01:56"
+  },
   "CF15283237": {
     "contest_id": 100002,
     "language": "GNU C++11",
