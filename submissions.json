@@ -11626,6 +11626,18 @@
     ],
     "timestamp": "Jan/01/2016 18:25"
   },
+  "CF15277943": {
+    "contest_id": 100864,
+    "language": "GNU C++11",
+    "path": "codeforces/100864/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Jeltz\u2019 Torture",
+    "problem_url": "https://codeforces.com/gym/100864",
+    "submission_id": "CF15277943",
+    "submission_url": "https://codeforces.com/gym/100864/submission/15277943",
+    "tags": [],
+    "timestamp": "Jan/10/2016 16:50"
+  },
   "CF15278341": {
     "contest_id": 100864,
     "language": "GNU C++11",
