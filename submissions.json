@@ -15104,6 +15104,18 @@
     "tags": [],
     "timestamp": "Jan/11/2016 01:17"
   },
+  "CF15283237": {
+    "contest_id": 100002,
+    "language": "GNU C++11",
+    "path": "codeforces/100002/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Heroes Of Might And Magic",
+    "problem_url": "https://codeforces.com/gym/100002",
+    "submission_id": "CF15283237",
+    "submission_url": "https://codeforces.com/gym/100002/submission/15283237",
+    "tags": [],
+    "timestamp": "Jan/11/2016 02:37"
+  },
   "CF15283402": {
     "contest_id": 100002,
     "language": "GNU C++11",
