@@ -11789,6 +11789,18 @@
     ],
     "timestamp": "Jan/13/2016 02:50"
   },
+  "CF15322242": {
+    "contest_id": 100248,
+    "language": "GNU C++11",
+    "path": "codeforces/100248/I.cpp",
+    "problem_index": "I",
+    "problem_name": "DNA",
+    "problem_url": "https://codeforces.com/gym/100248",
+    "submission_id": "CF15322242",
+    "submission_url": "https://codeforces.com/gym/100248/submission/15322242",
+    "tags": [],
+    "timestamp": "Jan/13/2016 03:29"
+  },
   "CF15322271": {
     "contest_id": 100248,
     "language": "Java 8",
