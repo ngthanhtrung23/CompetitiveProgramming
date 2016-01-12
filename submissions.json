@@ -11789,6 +11789,18 @@
     ],
     "timestamp": "Jan/13/2016 02:50"
   },
+  "CF15322271": {
+    "contest_id": 100248,
+    "language": "Java 8",
+    "path": "codeforces/100248/J.java",
+    "problem_index": "J",
+    "problem_name": "Quaternary Balance",
+    "problem_url": "https://codeforces.com/gym/100248",
+    "submission_id": "CF15322271",
+    "submission_url": "https://codeforces.com/gym/100248/submission/15322271",
+    "tags": [],
+    "timestamp": "Jan/13/2016 03:32"
+  },
   "CF15322362": {
     "contest_id": 100248,
     "language": "GNU C++",
