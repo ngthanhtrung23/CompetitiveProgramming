@@ -11789,6 +11789,18 @@
     ],
     "timestamp": "Jan/13/2016 02:50"
   },
+  "CF15321928": {
+    "contest_id": 100248,
+    "language": "GNU C++11",
+    "path": "codeforces/100248/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Euro Efficiency",
+    "problem_url": "https://codeforces.com/gym/100248",
+    "submission_id": "CF15321928",
+    "submission_url": "https://codeforces.com/gym/100248/submission/15321928",
+    "tags": [],
+    "timestamp": "Jan/13/2016 03:05"
+  },
   "CF15321994": {
     "contest_id": 100248,
     "language": "GNU C++11",
