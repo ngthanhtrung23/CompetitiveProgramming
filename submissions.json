@@ -11725,6 +11725,18 @@
     ],
     "timestamp": "Jan/11/2016 23:11"
   },
+  "CF15318193": {
+    "contest_id": 100869,
+    "language": "GNU C++11",
+    "path": "codeforces/100869/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Boomerang Constellations",
+    "problem_url": "https://codeforces.com/gym/100869",
+    "submission_id": "CF15318193",
+    "submission_url": "https://codeforces.com/gym/100869/submission/15318193",
+    "tags": [],
+    "timestamp": "Jan/12/2016 23:36"
+  },
   "CF15318907": {
     "contest_id": 100002,
     "language": "GNU C++11",
