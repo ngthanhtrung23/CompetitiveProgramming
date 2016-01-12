@@ -11725,6 +11725,18 @@
     ],
     "timestamp": "Jan/11/2016 23:11"
   },
+  "CF15318907": {
+    "contest_id": 100002,
+    "language": "GNU C++11",
+    "path": "codeforces/100002/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Evacuation Plan",
+    "problem_url": "https://codeforces.com/gym/100002",
+    "submission_id": "CF15318907",
+    "submission_url": "https://codeforces.com/gym/100002/submission/15318907",
+    "tags": [],
+    "timestamp": "Jan/13/2016 00:05"
+  },
   "CF15321007": {
     "contest_id": 100002,
     "language": "GNU C++11",
