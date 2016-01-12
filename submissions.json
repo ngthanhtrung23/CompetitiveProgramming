@@ -11725,6 +11725,18 @@
     ],
     "timestamp": "Jan/11/2016 23:11"
   },
+  "CF15317820": {
+    "contest_id": 100869,
+    "language": "GNU C++11",
+    "path": "codeforces/100869/C.cpp",
+    "problem_index": "C",
+    "problem_name": "The Price is Correct",
+    "problem_url": "https://codeforces.com/gym/100869",
+    "submission_id": "CF15317820",
+    "submission_url": "https://codeforces.com/gym/100869/submission/15317820",
+    "tags": [],
+    "timestamp": "Jan/12/2016 23:14"
+  },
   "CF15318193": {
     "contest_id": 100869,
     "language": "GNU C++11",
