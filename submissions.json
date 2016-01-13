@@ -11789,6 +11789,18 @@
     ],
     "timestamp": "Jan/13/2016 02:50"
   },
+  "CF15335534": {
+    "contest_id": 100228,
+    "language": "GNU C++",
+    "path": "codeforces/100228/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Chessboard in FEN",
+    "problem_url": "https://codeforces.com/gym/100228",
+    "submission_id": "CF15335534",
+    "submission_url": "https://codeforces.com/gym/100228/submission/15335534",
+    "tags": [],
+    "timestamp": "Jan/14/2016 02:30"
+  },
   "CF15335684": {
     "contest_id": 100228,
     "language": "Java 8",
