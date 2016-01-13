@@ -11789,6 +11789,18 @@
     ],
     "timestamp": "Jan/13/2016 02:50"
   },
+  "CF15334867": {
+    "contest_id": 100248,
+    "language": "GNU C++",
+    "path": "codeforces/100248/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Rock Garden",
+    "problem_url": "https://codeforces.com/gym/100248",
+    "submission_id": "CF15334867",
+    "submission_url": "https://codeforces.com/gym/100248/submission/15334867",
+    "tags": [],
+    "timestamp": "Jan/14/2016 01:43"
+  },
   "CF15335116": {
     "contest_id": 100869,
     "language": "GNU C++",
