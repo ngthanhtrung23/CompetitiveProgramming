@@ -11789,6 +11789,18 @@
     ],
     "timestamp": "Jan/13/2016 02:50"
   },
+  "CF15336018": {
+    "contest_id": 100228,
+    "language": "GNU C++11",
+    "path": "codeforces/100228/H.cpp",
+    "problem_index": "H",
+    "problem_name": "This Takes the Cake",
+    "problem_url": "https://codeforces.com/gym/100228",
+    "submission_id": "CF15336018",
+    "submission_url": "https://codeforces.com/gym/100228/submission/15336018",
+    "tags": [],
+    "timestamp": "Jan/14/2016 03:08"
+  },
   "CF15336066": {
     "contest_id": 100228,
     "language": "GNU C++11",
