@@ -1,4 +1,24 @@
 {
+  "CF15375669": {
+    "contest_id": 613,
+    "language": "GNU C++11",
+    "path": "codeforces/613/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Skills",
+    "problem_url": "https://codeforces.com/contest/613/problem/B",
+    "submission_id": "CF15375669",
+    "submission_url": "https://codeforces.com/contest/613/submission/15375669",
+    "tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Jan/15/2016 03:53"
+  },
   "CF15376213": {
     "contest_id": 613,
     "language": "GNU C++11",
