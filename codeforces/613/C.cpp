@@ -14,81 +14,81 @@
 using namespace std;
 
 const int MN = 100111;
-int n, a[MN], res[MN], all, best;
+int cnt[33];
+int n;
 
-void print() {
-    printf("%d\n", best);
-    FOR(i,1,all) putchar((char) ('a' + res[i] - 1));
-    puts("");
+void append(string& s, int i, int t) {
+    char c = 'a' + i - 1;
+    REP(i,t) s += c;
 }
 
-void solve2() {
-    int cur = 0;
-    FOR(i,1,n) {
-        while (a[i]--) res[++cur] = i;
-    }
-}
-
-void solve1() {
-    FOR(i,1,n) if (a[i] % 2 == 1) {
-        int g = a[i];
-        FOR(j,1,n) if (j != i) g = __gcd(g, a[j] / 2);
-
-        int cur = 0;
-        FOR(group,1,g) {
-            FOR(j,1,n) if (j != i) {
-                REP(turn, a[j] / 2 / g) res[++cur] = j;
-            }
-            FORD(j,n,1) if (j != i) {
-                REP(turn, a[j] / 2 / g) res[++cur] = j;
-            }
-            REP(turn,a[i] / g) res[++cur] = i;
-        }
-        best = g;
-    }
-}
-
-void solve0() {
-    int bestg = 0, besti = 0;
-    FOR(i,1,n) {
-        int g = a[i] / 2;
-        FOR(j,1,n) if (j != i) g = __gcd(g, a[j] / 2);
-
-        if (g > bestg) {
-            bestg = g;
-            besti = i;
-        }
-    }
-    int i = besti;
-    int g = bestg;
-    int cur = 0;
-    best = g * 2;
-
-    FOR(group,1,g) {
-        FOR(j,1,n) if (j != i) {
-            REP(turn,a[j]/2/g) res[++cur] = j;
-        }
-        FORD(j,n,1) if (j != i) {
-            REP(turn,a[j]/2/g) res[++cur] = j;
-        }
-        REP(turn,a[i]/g) res[++cur] = i;
-    }
+bool allEvenDivisible(int x) {
+    FOR(i,1,n) if (cnt[i] % 2 == 0 && cnt[i] % x) return false;
+    return true;
 }
 
 int main() {
+    ios :: sync_with_stdio(0); cin.tie(0);
     while (cin >> n) {
-        int sum = 0;
-        all = 0;
+        int nOdd = 0;
         FOR(i,1,n) {
-            cin >> a[i];
-            sum += a[i] % 2;
-            all += a[i];
+            cin >> cnt[i];
+            if (cnt[i] % 2) ++nOdd;
         }
-        memset(res, 0, sizeof res);
-        best = 0;
-        if (sum > 1) solve2();
-        else if (sum == 1) solve1();
-        else solve0();
-        print();
+        string res = "";
+        int best = 0;
+        if (nOdd >= 2) {
+            FOR(i,1,n) {
+                append(res, i, cnt[i]);
+            }
+        }
+        else if (nOdd == 1) {
+            int all = 1;
+            int x = 0, odd = -1;
+            FOR(i,1,n) if (cnt[i] % 2) {
+                x = cnt[i];
+                odd = i;
+            }
+
+            FOR(nGroup,1,x) if (x % nGroup == 0) {
+                if (allEvenDivisible(nGroup)) {
+                    best = nGroup;
+                }
+            }
+
+            FOR(turn,1,best) {
+                FOR(i,1,n) if (cnt[i] % 2 == 0) append(res, i, cnt[i] / 2 / best);
+                FORD(i,n,1) if (cnt[i] % 2 == 0) append(res, i, cnt[i] / 2 / best);
+                append(res, odd, x / best);
+            }
+        }
+        else {
+            FOR(good,1,n) {
+                string cur = "";
+                int x = cnt[good];
+
+                int cur_best = 0;
+                FOR(nGroup,1,x) if (x % (nGroup*2) == 0) {
+                    bool can = true;
+                    FOR(i,1,n) if (i != good) {
+                        if (cnt[i] % (2*nGroup)) can = false;
+                    }
+                    if (can) cur_best = nGroup;
+                }
+
+                if (cur_best > best) {
+                    best = cur_best;
+                    res = "";
+                    FOR(turn,1,best) {
+                        FOR(i,1,n) if (i != good) append(res, i, cnt[i] / 2 / best);
+                        FORD(i,n,1) if (i != good) append(res, i, cnt[i] / 2 / best);
+                        append(res, good, x / best);
+                    }
+                }
+            }
+            best *= 2;
+        }
+        printf("%d\n", best);
+        puts(res.c_str());
     }
 }
