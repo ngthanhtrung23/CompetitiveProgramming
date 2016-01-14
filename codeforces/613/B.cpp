@@ -13,68 +13,93 @@
 #define SZ(x) ((int) (x).size())
 using namespace std;
 
-#define int long long
-
 const int MN = 100111;
-int n, A, cf, cm, m;
-pair<int,int> a[MN];
-int res[MN], sum[MN];
 
-int get(int x, int n) {
-    if (a[n].first < x) return x*n - sum[n];
-    int t = lower_bound(a+1, a+n+1, make_pair(x, 0LL)) - a - 1;
-    return x * t - sum[t];
+int n;
+ll A, cf, cm, can, s[MN];
+pair<ll,int> a[MN];
+int res[MN];
+
+ll read() {
+    ll x; scanf("%I64d", &x);
+    return x;
 }
 
-#undef int
+ll get(ll x, int n) {
+    if (n <= 0) return 0;
+
+    int l = 0, r = n, res = 0;
+    while (l <= r) {
+        int mid = (l + r) >> 1;
+        if (a[mid].first < x) res = mid, l = mid + 1;
+        else r = mid - 1;
+    }
+
+    return x*res - s[res];
+}
+
 int main() {
-#define int long long
     ios :: sync_with_stdio(0); cin.tie(0);
-    while (cin >> n >> A >> cf >> cm >> m) {
+    while (scanf("%d", &n) == 1) {
+        A = read();
+        cf = read();
+        cm = read();
+        can = read();
         FOR(i,1,n) {
-            cin >> a[i].first;
+            a[i].first = read();
             a[i].second = i;
         }
         sort(a+1, a+n+1);
-        FOR(i,1,n) sum[i] = sum[i-1] + a[i].first;
+        FOR(i,1,n) s[i] = s[i-1] + a[i].first;
 
-        int best = 0;
-        int savef = 0, savem = 0;
+        int savek = 0, savex = 0;
+        ll best = 0;
+        FOR(k,0,n) {
+            ll cost = 0;
+            ll score = 0;
 
-        FOR(f,0,n) {
-            int cost = A*f - (sum[n] - sum[n-f]);
-            int score = f * cf;
+            // n-k+1 --> n: == A
+            cost += A * k - (s[n] - s[n-k]);
+            score += k * cf;
 
-            if (cost > m) continue;
+            if (cost > can) continue;
 
-            int l = 0, r = A, res = 0;
+            // what is minimum?
+            ll l = 0, r = A, res = 0;
             while (l <= r) {
-                int mid = (l + r) >> 1;
-                if (get(mid, n-f) + cost <= m) {
+                ll mid = (l + r) >> 1;
+                if (get(mid, n-k) + cost <= can) {
                     res = mid;
                     l = mid + 1;
                 }
                 else r = mid - 1;
             }
+
             score += res * cm;
 
             if (score > best) {
                 best = score;
-                savef = f;
-                savem = res;
+                savek = k;
+                savex = res;
             }
         }
 
-        cout << best << endl;
-        FOR(i,1,n) {
-            int t = 0;
-            if (i <= n - savef) {
-                t = max(a[i].first, savem);
+        printf("%I64d\n", best);
+        ll cost = 0;
+        FOR(i,1,n-savek) {
+            int id = a[i].second;
+            res[id] = a[i].first;
+            if (res[id] < savex) {
+                res[id] = savex;
+                cost += savex - a[i].first;
             }
-            else t = A;
-
-            res[a[i].second] = t;
         }
-        FOR(i,1,n) cout << res[i] << ' '; cout << endl;
+        FOR(i,n-savek+1,n) {
+            int id = a[i].second;
+            cost += A - a[i].first;
+            res[id] = A;
+        }
+        assert(cost <= can);
+        FOR(i,1,n) printf("%d ", res[i]); puts("");
     }
 }
