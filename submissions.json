@@ -1,4 +1,21 @@
 {
+  "CF15375196": {
+    "contest_id": 613,
+    "language": "GNU C++11",
+    "path": "codeforces/613/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Peter and Snow Blower",
+    "problem_url": "https://codeforces.com/contest/613/problem/A",
+    "submission_id": "CF15375196",
+    "submission_url": "https://codeforces.com/contest/613/submission/15375196",
+    "tags": [
+      "binary search",
+      "geometry",
+      "ternary search",
+      "*1900"
+    ],
+    "timestamp": "Jan/15/2016 03:43"
+  },
   "CF15375669": {
     "contest_id": 613,
     "language": "GNU C++11",
