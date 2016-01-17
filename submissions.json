@@ -11927,6 +11927,18 @@
     ],
     "timestamp": "Jan/15/2016 04:18"
   },
+  "CF15418551": {
+    "contest_id": 100875,
+    "language": "GNU C++11",
+    "path": "codeforces/100875/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Boomerang Tournament",
+    "problem_url": "https://codeforces.com/gym/100875",
+    "submission_id": "CF15418551",
+    "submission_url": "https://codeforces.com/gym/100875/submission/15418551",
+    "tags": [],
+    "timestamp": "Jan/18/2016 03:44"
+  },
   "CF15430011": {
     "contest_id": 367,
     "language": "GNU C++11",
