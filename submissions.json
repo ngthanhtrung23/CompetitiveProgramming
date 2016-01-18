@@ -1,4 +1,20 @@
 {
+  "CF15430737": {
+    "contest_id": 367,
+    "language": "GNU C++11",
+    "path": "codeforces/367/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Sereja and Sets",
+    "problem_url": "https://codeforces.com/contest/367/problem/D",
+    "submission_id": "CF15430737",
+    "submission_url": "https://codeforces.com/contest/367/submission/15430737",
+    "tags": [
+      "bitmasks",
+      "dfs and similar",
+      "*2400"
+    ],
+    "timestamp": "Jan/19/2016 01:34"
+  },
   "CF15431380": {
     "contest_id": 367,
     "language": "GNU C++11",
