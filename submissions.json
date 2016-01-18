@@ -1,4 +1,20 @@
 {
+  "CF15430011": {
+    "contest_id": 367,
+    "language": "GNU C++11",
+    "path": "codeforces/367/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Sereja and Algorithm ",
+    "problem_url": "https://codeforces.com/contest/367/problem/A",
+    "submission_id": "CF15430011",
+    "submission_url": "https://codeforces.com/contest/367/submission/15430011",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jan/19/2016 00:33"
+  },
   "CF15430245": {
     "contest_id": 367,
     "language": "GNU C++11",
