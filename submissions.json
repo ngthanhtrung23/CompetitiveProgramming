@@ -1,4 +1,21 @@
 {
+  "CF15430349": {
+    "contest_id": 367,
+    "language": "GNU C++11",
+    "path": "codeforces/367/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Sereja and the Arrangement of Numbers",
+    "problem_url": "https://codeforces.com/contest/367/problem/C",
+    "submission_id": "CF15430349",
+    "submission_url": "https://codeforces.com/contest/367/submission/15430349",
+    "tags": [
+      "graphs",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "Jan/19/2016 01:02"
+  },
   "CF15430737": {
     "contest_id": 367,
     "language": "GNU C++11",
