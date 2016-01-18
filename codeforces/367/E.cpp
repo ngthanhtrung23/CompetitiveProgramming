@@ -17,13 +17,8 @@ const ll MOD = 1e9 + 7;
 const ll MOD2 = MOD * MOD;
 
 ll f[2][333][333][2];  // xoay mang theo j
-ll sum[2][333][333][2];  // xoay mang theo j
 int n, m, x;
 
-ll refine(ll x) {
-    x %= MOD;
-    if (x < 0) x += MOD;
-}
 void update(ll& x, ll t) {
     x += t;
     if (x >= MOD2) x -= MOD2;
