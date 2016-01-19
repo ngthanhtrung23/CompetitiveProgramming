@@ -12024,6 +12024,18 @@
     ],
     "timestamp": "Jan/19/2016 02:48"
   },
+  "CF15443864": {
+    "contest_id": 100325,
+    "language": "GNU C++11",
+    "path": "codeforces/100325/A.cpp",
+    "problem_index": "A",
+    "problem_name": "String Decomposition",
+    "problem_url": "https://codeforces.com/gym/100325",
+    "submission_id": "CF15443864",
+    "submission_url": "https://codeforces.com/gym/100325/submission/15443864",
+    "tags": [],
+    "timestamp": "Jan/20/2016 04:23"
+  },
   "CF15454460": {
     "contest_id": 18,
     "language": "GNU C++11",
