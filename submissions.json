@@ -1,4 +1,21 @@
 {
+  "CF15456150": {
+    "contest_id": 120,
+    "language": "GNU C++11",
+    "path": "codeforces/120/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Minimum Sum",
+    "problem_url": "https://codeforces.com/contest/120/problem/J",
+    "submission_id": "CF15456150",
+    "submission_url": "https://codeforces.com/contest/120/submission/15456150",
+    "tags": [
+      "divide and conquer",
+      "geometry",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Jan/21/2016 00:16"
+  },
   "CF15456705": {
     "contest_id": 199,
     "language": "GNU C++11",
