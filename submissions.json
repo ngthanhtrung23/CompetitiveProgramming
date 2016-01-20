@@ -1,4 +1,20 @@
 {
+  "CF15454460": {
+    "contest_id": 18,
+    "language": "GNU C++11",
+    "path": "codeforces/18/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Triangle",
+    "problem_url": "https://codeforces.com/contest/18/problem/A",
+    "submission_id": "CF15454460",
+    "submission_url": "https://codeforces.com/contest/18/submission/15454460",
+    "tags": [
+      "brute force",
+      "geometry",
+      "*1500"
+    ],
+    "timestamp": "Jan/20/2016 22:11"
+  },
   "CF15454698": {
     "contest_id": 257,
     "language": "GNU C++11",
