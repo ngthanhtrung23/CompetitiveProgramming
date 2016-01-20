@@ -1,4 +1,20 @@
 {
+  "CF15455789": {
+    "contest_id": 248,
+    "language": "GNU C++11",
+    "path": "codeforces/248/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Robo-Footballer",
+    "problem_url": "https://codeforces.com/contest/248/problem/C",
+    "submission_id": "CF15455789",
+    "submission_url": "https://codeforces.com/contest/248/submission/15455789",
+    "tags": [
+      "binary search",
+      "geometry",
+      "*2000"
+    ],
+    "timestamp": "Jan/20/2016 23:51"
+  },
   "CF15456150": {
     "contest_id": 120,
     "language": "GNU C++11",
