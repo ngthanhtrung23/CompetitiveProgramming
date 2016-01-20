@@ -83,6 +83,10 @@ int main() {
 
     while (cin >> y1 >> y2 >> yw >> ball >> R) {
         double l = EPS, r = ball.x - EPS, res = -1.0;
+        if (l > r) {
+            cout << -1.0 << endl;
+            continue;
+        }
 
         yw -= R;  // now we can consider ball as 1 point
 
