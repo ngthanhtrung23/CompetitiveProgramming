@@ -12156,6 +12156,18 @@
     ],
     "timestamp": "Jan/21/2016 21:14"
   },
+  "CF15512268": {
+    "contest_id": 100345,
+    "language": "GNU C++11",
+    "path": "codeforces/100345/A.cpp",
+    "problem_index": "A",
+    "problem_name": "BibTeX",
+    "problem_url": "https://codeforces.com/gym/100345",
+    "submission_id": "CF15512268",
+    "submission_url": "https://codeforces.com/gym/100345/submission/15512268",
+    "tags": [],
+    "timestamp": "Jan/23/2016 17:57"
+  },
   "CF15512535": {
     "contest_id": 100345,
     "language": "GNU C++11",
