@@ -12156,6 +12156,18 @@
     ],
     "timestamp": "Jan/21/2016 21:14"
   },
+  "CF15543891": {
+    "contest_id": 100878,
+    "language": "GNU C++11",
+    "path": "codeforces/100878/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Costly Labels",
+    "problem_url": "https://codeforces.com/gym/100878",
+    "submission_id": "CF15543891",
+    "submission_url": "https://codeforces.com/gym/100878/submission/15543891",
+    "tags": [],
+    "timestamp": "Jan/24/2016 07:09"
+  },
   "CF15543892": {
     "contest_id": 100878,
     "language": "GNU C++11",
