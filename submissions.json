@@ -12156,6 +12156,18 @@
     ],
     "timestamp": "Jan/21/2016 21:14"
   },
+  "CF15542407": {
+    "contest_id": 100345,
+    "language": "GNU C++11",
+    "path": "codeforces/100345/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Zen Garden",
+    "problem_url": "https://codeforces.com/gym/100345",
+    "submission_id": "CF15542407",
+    "submission_url": "https://codeforces.com/gym/100345/submission/15542407",
+    "tags": [],
+    "timestamp": "Jan/24/2016 04:45"
+  },
   "CF15543891": {
     "contest_id": 100878,
     "language": "GNU C++11",
