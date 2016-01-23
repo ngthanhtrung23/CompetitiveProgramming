@@ -12156,6 +12156,18 @@
     ],
     "timestamp": "Jan/21/2016 21:14"
   },
+  "CF15543892": {
+    "contest_id": 100878,
+    "language": "GNU C++11",
+    "path": "codeforces/100878/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Boomerang Decoration",
+    "problem_url": "https://codeforces.com/gym/100878",
+    "submission_id": "CF15543892",
+    "submission_url": "https://codeforces.com/gym/100878/submission/15543892",
+    "tags": [],
+    "timestamp": "Jan/24/2016 07:09"
+  },
   "CF15543894": {
     "contest_id": 100878,
     "language": "GNU C++11",
