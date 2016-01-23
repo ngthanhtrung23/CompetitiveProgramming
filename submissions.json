@@ -12156,6 +12156,18 @@
     ],
     "timestamp": "Jan/21/2016 21:14"
   },
+  "CF15511572": {
+    "contest_id": 100345,
+    "language": "GNU C++11",
+    "path": "codeforces/100345/E.cpp",
+    "problem_index": "E",
+    "problem_name": "New Mayors",
+    "problem_url": "https://codeforces.com/gym/100345",
+    "submission_id": "CF15511572",
+    "submission_url": "https://codeforces.com/gym/100345/submission/15511572",
+    "tags": [],
+    "timestamp": "Jan/23/2016 17:11"
+  },
   "CF15512268": {
     "contest_id": 100345,
     "language": "GNU C++11",
