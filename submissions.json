@@ -12156,6 +12156,18 @@
     ],
     "timestamp": "Jan/21/2016 21:14"
   },
+  "CF15509212": {
+    "contest_id": 100345,
+    "language": "GNU C++11",
+    "path": "codeforces/100345/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Sqrt Nim",
+    "problem_url": "https://codeforces.com/gym/100345",
+    "submission_id": "CF15509212",
+    "submission_url": "https://codeforces.com/gym/100345/submission/15509212",
+    "tags": [],
+    "timestamp": "Jan/23/2016 14:45"
+  },
   "CF15509511": {
     "contest_id": 100345,
     "language": "GNU C++11",
