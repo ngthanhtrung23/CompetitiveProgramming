@@ -12156,6 +12156,18 @@
     ],
     "timestamp": "Jan/21/2016 21:14"
   },
+  "CF15511171": {
+    "contest_id": 100345,
+    "language": "GNU C++11",
+    "path": "codeforces/100345/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Settling the Universe Up",
+    "problem_url": "https://codeforces.com/gym/100345",
+    "submission_id": "CF15511171",
+    "submission_url": "https://codeforces.com/gym/100345/submission/15511171",
+    "tags": [],
+    "timestamp": "Jan/23/2016 16:46"
+  },
   "CF15511572": {
     "contest_id": 100345,
     "language": "GNU C++11",
