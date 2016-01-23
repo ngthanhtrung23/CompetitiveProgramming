@@ -12156,6 +12156,18 @@
     ],
     "timestamp": "Jan/21/2016 21:14"
   },
+  "CF15509511": {
+    "contest_id": 100345,
+    "language": "GNU C++11",
+    "path": "codeforces/100345/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Currency Exchange",
+    "problem_url": "https://codeforces.com/gym/100345",
+    "submission_id": "CF15509511",
+    "submission_url": "https://codeforces.com/gym/100345/submission/15509511",
+    "tags": [],
+    "timestamp": "Jan/23/2016 15:03"
+  },
   "CF15509721": {
     "contest_id": 100345,
     "language": "Java 8",
