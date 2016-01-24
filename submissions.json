@@ -1,4 +1,21 @@
 {
+  "CF15558037": {
+    "contest_id": 620,
+    "language": "GNU C++11",
+    "path": "codeforces/620/E.cpp",
+    "problem_index": "E",
+    "problem_name": "New Year Tree",
+    "problem_url": "https://codeforces.com/contest/620/problem/E",
+    "submission_id": "CF15558037",
+    "submission_url": "https://codeforces.com/contest/620/submission/15558037",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Jan/24/2016 22:53"
+  },
   "CF15635258": {
     "contest_id": 620,
     "language": "GNU C++11",
