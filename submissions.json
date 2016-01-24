@@ -1,4 +1,20 @@
 {
+  "CF15551635": {
+    "contest_id": 620,
+    "language": "GNU C++11",
+    "path": "codeforces/620/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Professor GukiZ's Robot",
+    "problem_url": "https://codeforces.com/contest/620/problem/A",
+    "submission_id": "CF15551635",
+    "submission_url": "https://codeforces.com/contest/620/submission/15551635",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/24/2016 17:22"
+  },
   "CF15551665": {
     "contest_id": 620,
     "language": "GNU C++11",
