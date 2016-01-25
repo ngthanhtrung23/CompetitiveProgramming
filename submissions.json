@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15577332": {
+    "contest_id": 100357,
+    "language": "GNU C++11",
+    "path": "codeforces/100357/I.cpp",
+    "problem_index": "I",
+    "problem_name": "No Term Repetition Exactly One Satisfiability",
+    "problem_url": "https://codeforces.com/gym/100357",
+    "submission_id": "CF15577332",
+    "submission_url": "https://codeforces.com/gym/100357/submission/15577332",
+    "tags": [],
+    "timestamp": "Jan/26/2016 00:03"
+  },
   "CF15577937": {
     "contest_id": 100357,
     "language": "GNU C++11",
