@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15577937": {
+    "contest_id": 100357,
+    "language": "GNU C++11",
+    "path": "codeforces/100357/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Merge",
+    "problem_url": "https://codeforces.com/gym/100357",
+    "submission_id": "CF15577937",
+    "submission_url": "https://codeforces.com/gym/100357/submission/15577937",
+    "tags": [],
+    "timestamp": "Jan/26/2016 00:35"
+  },
   "CF15578942": {
     "contest_id": 100357,
     "language": "GNU C++11",
