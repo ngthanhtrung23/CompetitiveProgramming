@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15579208": {
+    "contest_id": 100357,
+    "language": "GNU C++11",
+    "path": "codeforces/100357/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Chip Reconstruction",
+    "problem_url": "https://codeforces.com/gym/100357",
+    "submission_id": "CF15579208",
+    "submission_url": "https://codeforces.com/gym/100357/submission/15579208",
+    "tags": [],
+    "timestamp": "Jan/26/2016 01:39"
+  },
   "CF15630104": {
     "contest_id": 100343,
     "language": "GNU C++11",
