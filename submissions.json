@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15574959": {
+    "contest_id": 100357,
+    "language": "GNU C++11",
+    "path": "codeforces/100357/G.cpp",
+    "problem_index": "G",
+    "problem_name": "The Most Relevant Pattern",
+    "problem_url": "https://codeforces.com/gym/100357",
+    "submission_id": "CF15574959",
+    "submission_url": "https://codeforces.com/gym/100357/submission/15574959",
+    "tags": [],
+    "timestamp": "Jan/25/2016 22:17"
+  },
   "CF15575109": {
     "contest_id": 100357,
     "language": "GNU C++11",
