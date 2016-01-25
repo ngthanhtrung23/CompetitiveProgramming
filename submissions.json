@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15575109": {
+    "contest_id": 100357,
+    "language": "GNU C++11",
+    "path": "codeforces/100357/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Casino",
+    "problem_url": "https://codeforces.com/gym/100357",
+    "submission_id": "CF15575109",
+    "submission_url": "https://codeforces.com/gym/100357/submission/15575109",
+    "tags": [],
+    "timestamp": "Jan/25/2016 22:24"
+  },
   "CF15576629": {
     "contest_id": 100357,
     "language": "GNU C++11",
