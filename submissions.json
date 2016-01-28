@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15632919": {
+    "contest_id": 100343,
+    "language": "GNU C++11",
+    "path": "codeforces/100343/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Kingdom Division",
+    "problem_url": "https://codeforces.com/gym/100343",
+    "submission_id": "CF15632919",
+    "submission_url": "https://codeforces.com/gym/100343/submission/15632919",
+    "tags": [],
+    "timestamp": "Jan/29/2016 00:24"
+  },
   "CF15633488": {
     "contest_id": 100343,
     "language": "GNU C++11",
