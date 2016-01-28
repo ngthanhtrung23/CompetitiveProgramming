@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15630104": {
+    "contest_id": 100343,
+    "language": "GNU C++11",
+    "path": "codeforces/100343/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Financial Software",
+    "problem_url": "https://codeforces.com/gym/100343",
+    "submission_id": "CF15630104",
+    "submission_url": "https://codeforces.com/gym/100343/submission/15630104",
+    "tags": [],
+    "timestamp": "Jan/28/2016 21:40"
+  },
   "CF15630451": {
     "contest_id": 100343,
     "language": "GNU C++11",
