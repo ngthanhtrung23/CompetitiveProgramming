@@ -26,7 +26,7 @@ int main() {
         }
         REP(i,m) {
             res[i] = -1;
-            scanf("%d %d", l + i, r + i);
+            scanf("%d%d", l + i, r + i);
             --l[i]; --r[i];
         }
 
