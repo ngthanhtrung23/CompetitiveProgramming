@@ -21,27 +21,26 @@ int main() {
     f[0] = 0;
     FOR(i,1,1000*1000) f[i] = f[i-1] ^ i;
     while (scanf("%d%d", &n, &m) == 2) {
-        REP(i,n) {
+        FOR(i,1,n) {
             scanf("%d", &a[i]);
             cache[i] = f[a[i]];
         }
-        REP(i,m) {
+        FOR(i,1,m) {
             res[i] = -1;
             scanf("%d%d", &l[i], &r[i]);
-            --l[i]; --r[i];
         }
 
-        REP(i,n) {
+        FOR(i,1,n) {
             cur[i] = a[i];
-            FOR(j,i+1,n-1) {
+            FOR(j,i+1,n) {
                 int t = cache[i] ^ cache[j] ^ (a[i] < a[j] ? a[i] : a[j]);
                 if (t < cur[j-1]) t = cur[j-1];
                 cur[j] = t;
             }
 
-            REP(j,m) if (l[j] <= i && i <= r[j])
+            FOR(j,1,m) if (l[j] <= i && i <= r[j])
                 res[j] = max(res[j], cur[r[j]]);
         }
-        REP(i,m) printf("%d\n", res[i]);
+        FOR(i,1,m) printf("%d\n", res[i]);
     }
 }
