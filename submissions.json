@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15632111": {
+    "contest_id": 100343,
+    "language": "GNU C++11",
+    "path": "codeforces/100343/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Truth is in the...",
+    "problem_url": "https://codeforces.com/gym/100343",
+    "submission_id": "CF15632111",
+    "submission_url": "https://codeforces.com/gym/100343/submission/15632111",
+    "tags": [],
+    "timestamp": "Jan/28/2016 23:28"
+  },
   "CF15632919": {
     "contest_id": 100343,
     "language": "GNU C++11",
