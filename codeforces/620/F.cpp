@@ -13,7 +13,7 @@
 #define SZ(x) ((int) (x).size())
 using namespace std;
 
-int f[1000111], a[50111], res[50111], l[50111], r[50111], cur[50111], cache[50111];
+int f[1000111], a[100111], res[100111], l[100111], r[100111], cur[100111], cache[100111];
 int n, m;
 
 int main() {
