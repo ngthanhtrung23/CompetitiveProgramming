@@ -34,8 +34,7 @@ int main() {
             cur[i] = a[i];
             FOR(j,i+1,n) {
                 int t = cache[i] ^ cache[j] ^ (a[i] < a[j] ? a[i] : a[j]);
-                if (t < cur[j-1]) t = cur[j-1];
-                cur[j] = t;
+                cur[j] = max(cur[j-1], t);
             }
 
             FOR(j,1,m) if (l[j] <= i && i <= r[j])
