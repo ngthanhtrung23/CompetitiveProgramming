@@ -32,11 +32,10 @@ int main() {
 
         REP(i,n) {
             cur[i] = a[i];
-            int mx = a[i];
             for(int j = i+1; j < n; ++j) {
                 int t = cache[i] ^ cache[j] ^ (a[i] < a[j] ? a[i] : a[j]);
-                if (t > mx) mx = t;
-                cur[j] = mx;
+                if (t < cur[j-1]) t = cur[j-1];
+                cur[j] = t;
             }
 
             for(int j = 0; j < m; ++j)
