@@ -17,30 +17,30 @@ int f[1000111], a[100111], res[100111], l[100111], r[100111], cur[100111], cache
 int n, m;
 
 int main() {
+    ios :: sync_with_stdio(0); cin.tie(0);
     f[0] = 0;
     FOR(i,1,1000*1000) f[i] = f[i-1] ^ i;
     while (scanf("%d%d", &n, &m) == 2) {
         REP(i,n) {
-            scanf("%d", a + i);
+            scanf("%d", &a[i]);
             cache[i] = f[a[i]];
         }
         REP(i,m) {
             res[i] = -1;
-            scanf("%d%d", l + i, r + i);
+            scanf("%d%d", &l[i], &r[i]);
             --l[i]; --r[i];
         }
 
         REP(i,n) {
             cur[i] = a[i];
-            for(int j = i+1; j < n; ++j) {
+            FOR(j,i+1,n-1) {
                 int t = cache[i] ^ cache[j] ^ (a[i] < a[j] ? a[i] : a[j]);
                 if (t < cur[j-1]) t = cur[j-1];
                 cur[j] = t;
             }
 
-            for(int j = 0; j < m; ++j)
-                if (l[j] <= i && i <= r[j])
-                    res[j] = max(res[j], cur[r[j]]);
+            REP(j,m) if (l[j] <= i && i <= r[j])
+                res[j] = max(res[j], cur[r[j]]);
         }
         REP(i,m) printf("%d\n", res[i]);
     }
