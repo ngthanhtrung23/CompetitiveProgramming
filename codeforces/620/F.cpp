@@ -13,7 +13,7 @@
 #define SZ(x) ((int) (x).size())
 using namespace std;
 
-int f[1000111], a[100111], res[100111], l[100111], r[100111], cur[100111], cache[100111];
+int f[1000111], a[100111], res[100111], l[100111], r[100111], cur[100111];
 int n, m;
 
 int main() {
@@ -23,7 +23,6 @@ int main() {
     while (scanf("%d%d", &n, &m) == 2) {
         FOR(i,1,n) {
             scanf("%d", &a[i]);
-            cache[i] = f[a[i]];
         }
         FOR(i,1,m) {
             res[i] = -1;
@@ -34,8 +33,8 @@ int main() {
             cur[i] = a[i];
             FOR(j,i+1,n) {
                 int t;
-                if (a[i] >= a[j]) t = cache[i] ^ cache[j] ^ a[j];
-                else t = cache[j] ^ cache[i] ^ a[i];
+                if (a[i] >= a[j]) t = f[a[i]] ^ f[a[j] - 1];
+                else t = f[a[j]] ^ f[a[i] - 1];
                 cur[j] = max(cur[j-1], t);
             }
 
