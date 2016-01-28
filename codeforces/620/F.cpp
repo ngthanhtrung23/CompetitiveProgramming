@@ -31,8 +31,9 @@ int main() {
         }
 
         REP(i,n) {
-            int mx = 0;
-            for(int j = i; j < n; ++j) {
+            cur[i] = a[i];
+            int mx = a[i];
+            for(int j = i+1; j < n; ++j) {
                 int t = cache[i] ^ cache[j] ^ (a[i] < a[j] ? a[i] : a[j]);
                 if (t > mx) mx = t;
                 cur[j] = mx;
