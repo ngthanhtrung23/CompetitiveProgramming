@@ -12311,6 +12311,18 @@
     ],
     "timestamp": "Jan/24/2016 22:53"
   },
+  "CF15630932": {
+    "contest_id": 100343,
+    "language": "GNU C++11",
+    "path": "codeforces/100343/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Substring Search",
+    "problem_url": "https://codeforces.com/gym/100343",
+    "submission_id": "CF15630932",
+    "submission_url": "https://codeforces.com/gym/100343/submission/15630932",
+    "tags": [],
+    "timestamp": "Jan/28/2016 22:24"
+  },
   "CF15631248": {
     "contest_id": 100343,
     "language": "GNU C++11",
