@@ -18,15 +18,6 @@ const int MN = 66;
 
 ll f[MN][MN][MN][2][2];
 
-// DP line by line (increasing y every iteration)
-// f(y, x1, x2, incl, decr) = # configurations where:
-// - we considered y horizontal lines
-// - 2 downward vertical lines are at x1 & x2
-// - x1, x2 are relative positions. Meaning 1st current vertical line is x1-th smallest
-//   amongst all vertical lines, 2nd current vertical line is x2-th smallest.
-// - incl = did we ever increase x1?
-// - decr = did we ever decrease x2?
-
 int main() {
     ios :: sync_with_stdio(0); cin.tie(0);
     freopen("permutominoes.in", "r", stdin);
