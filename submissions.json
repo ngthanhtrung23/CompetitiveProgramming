@@ -12532,6 +12532,18 @@
     ],
     "timestamp": "Jan/29/2016 04:19"
   },
+  "CF15673439": {
+    "contest_id": 100342,
+    "language": "GNU C++11",
+    "path": "codeforces/100342/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dinner Problem",
+    "problem_url": "https://codeforces.com/gym/100342",
+    "submission_id": "CF15673439",
+    "submission_url": "https://codeforces.com/gym/100342/submission/15673439",
+    "tags": [],
+    "timestamp": "Jan/30/2016 14:40"
+  },
   "CF15673500": {
     "contest_id": 100342,
     "language": "GNU C++11",
