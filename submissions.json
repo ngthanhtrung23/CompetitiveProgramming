@@ -12532,6 +12532,18 @@
     ],
     "timestamp": "Jan/29/2016 04:19"
   },
+  "CF15674589": {
+    "contest_id": 100342,
+    "language": "GNU C++11",
+    "path": "codeforces/100342/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Travel Agency",
+    "problem_url": "https://codeforces.com/gym/100342",
+    "submission_id": "CF15674589",
+    "submission_url": "https://codeforces.com/gym/100342/submission/15674589",
+    "tags": [],
+    "timestamp": "Jan/30/2016 15:48"
+  },
   "CF15674930": {
     "contest_id": 100342,
     "language": "GNU C++11",
