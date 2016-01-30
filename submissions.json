@@ -12532,6 +12532,18 @@
     ],
     "timestamp": "Jan/29/2016 04:19"
   },
+  "CF15675675": {
+    "contest_id": 100342,
+    "language": "GNU C++11",
+    "path": "codeforces/100342/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Painting Cottages",
+    "problem_url": "https://codeforces.com/gym/100342",
+    "submission_id": "CF15675675",
+    "submission_url": "https://codeforces.com/gym/100342/submission/15675675",
+    "tags": [],
+    "timestamp": "Jan/30/2016 17:11"
+  },
   "CF15676079": {
     "contest_id": 100342,
     "language": "GNU C++11",
