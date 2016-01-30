@@ -12548,6 +12548,18 @@
     ],
     "timestamp": "Jan/31/2016 00:24"
   },
+  "CF15686401": {
+    "contest_id": 100880,
+    "language": "GNU C++11",
+    "path": "codeforces/100880/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Chess",
+    "problem_url": "https://codeforces.com/gym/100880",
+    "submission_id": "CF15686401",
+    "submission_url": "https://codeforces.com/gym/100880/submission/15686401",
+    "tags": [],
+    "timestamp": "Jan/31/2016 06:21"
+  },
   "CF15686407": {
     "contest_id": 100880,
     "language": "GNU C++11",
