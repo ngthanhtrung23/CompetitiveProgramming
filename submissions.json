@@ -12594,6 +12594,18 @@
     ],
     "timestamp": "Jan/31/2016 16:16"
   },
+  "CF15733981": {
+    "contest_id": 100341,
+    "language": "GNU C++11",
+    "path": "codeforces/100341/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Perfect Lodging",
+    "problem_url": "https://codeforces.com/gym/100341",
+    "submission_id": "CF15733981",
+    "submission_url": "https://codeforces.com/gym/100341/submission/15733981",
+    "tags": [],
+    "timestamp": "Feb/01/2016 23:10"
+  },
   "CF15734591": {
     "contest_id": 100341,
     "language": "GNU C++11",
