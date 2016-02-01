@@ -12594,6 +12594,18 @@
     ],
     "timestamp": "Jan/31/2016 16:16"
   },
+  "CF15735774": {
+    "contest_id": 100341,
+    "language": "GNU C++11",
+    "path": "codeforces/100341/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Block Edit Distance",
+    "problem_url": "https://codeforces.com/gym/100341",
+    "submission_id": "CF15735774",
+    "submission_url": "https://codeforces.com/gym/100341/submission/15735774",
+    "tags": [],
+    "timestamp": "Feb/02/2016 00:36"
+  },
   "CF15738505": {
     "contest_id": 100341,
     "language": "GNU C++11",
