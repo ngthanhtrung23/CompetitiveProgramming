@@ -12594,6 +12594,18 @@
     ],
     "timestamp": "Jan/31/2016 16:16"
   },
+  "CF15738505": {
+    "contest_id": 100341,
+    "language": "GNU C++11",
+    "path": "codeforces/100341/C.cpp",
+    "problem_index": "C",
+    "problem_name": "AVL Trees",
+    "problem_url": "https://codeforces.com/gym/100341",
+    "submission_id": "CF15738505",
+    "submission_url": "https://codeforces.com/gym/100341/submission/15738505",
+    "tags": [],
+    "timestamp": "Feb/02/2016 03:15"
+  },
   "CF15756034": {
     "contest_id": 618,
     "language": "GNU C++11",
