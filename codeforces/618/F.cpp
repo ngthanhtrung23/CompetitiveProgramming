@@ -64,7 +64,6 @@ int main() {
                     }
                     id[diff] = make_pair(ia, ib);
                 }
-                throw 2;
 
                 random_shuffle(a+1, a+n+1);
                 random_shuffle(b+1, b+n+1);
