@@ -1,4 +1,20 @@
 {
+  "CF15811195": {
+    "contest_id": 623,
+    "language": "GNU C++11",
+    "path": "codeforces/623/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Graph and String",
+    "problem_url": "https://codeforces.com/contest/623/problem/A",
+    "submission_id": "CF15811195",
+    "submission_url": "https://codeforces.com/contest/623/submission/15811195",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "*1800"
+    ],
+    "timestamp": "Feb/05/2016 03:34"
+  },
   "CF15891592": {
     "contest_id": 625,
     "language": "Python 2",
