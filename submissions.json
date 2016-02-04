@@ -1,4 +1,21 @@
 {
+  "CF15804553": {
+    "contest_id": 623,
+    "language": "GNU C++11",
+    "path": "codeforces/623/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Array GCD",
+    "problem_url": "https://codeforces.com/contest/623/problem/B",
+    "submission_id": "CF15804553",
+    "submission_url": "https://codeforces.com/contest/623/submission/15804553",
+    "tags": [
+      "dp",
+      "greedy",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Feb/05/2016 02:09"
+  },
   "CF15811195": {
     "contest_id": 623,
     "language": "GNU C++11",
