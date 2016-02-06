@@ -12760,6 +12760,18 @@
     ],
     "timestamp": "Feb/05/2016 03:34"
   },
+  "CF15838720": {
+    "contest_id": 100243,
+    "language": "GNU C++11",
+    "path": "codeforces/100243/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Delta, Kappa, Lambda",
+    "problem_url": "https://codeforces.com/gym/100243",
+    "submission_id": "CF15838720",
+    "submission_url": "https://codeforces.com/gym/100243/submission/15838720",
+    "tags": [],
+    "timestamp": "Feb/06/2016 16:10"
+  },
   "CF15839079": {
     "contest_id": 100243,
     "language": "GNU C++11",
