@@ -1,4 +1,21 @@
 {
+  "CF15891592": {
+    "contest_id": 625,
+    "language": "Python 2",
+    "path": "codeforces/625/B.py",
+    "problem_index": "B",
+    "problem_name": "War of the Corporations",
+    "problem_url": "https://codeforces.com/contest/625/problem/B",
+    "submission_id": "CF15891592",
+    "submission_url": "https://codeforces.com/contest/625/submission/15891592",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Feb/08/2016 14:47"
+  },
   "CF15891645": {
     "contest_id": 625,
     "language": "GNU C++11",
