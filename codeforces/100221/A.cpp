@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
@@ -36,7 +37,7 @@ struct BigInt {
     }
 
     void operator=(long long v) {
-        sign = 1; a.clear();
+        sign = 1;
         if (v < 0)
             sign = -1, v = -v;
         for (; v > 0; v = v / base)
@@ -370,10 +371,10 @@ int main() {
         n = SZ(s);
         s = " " + s + " ";
 
-        FOR(i,0,n) FOR(sum,0,300) f[i][sum] = 0;
+        FOR(i,0,n) FOR(sum,0,300) f[i][sum] = BigInt(0);
 
         FOR(i,1,n) {
-            if (s[i] == '(') f[i][1] = 1;
+            if (s[i] == '(') f[i][1] = BigInt(1);
 
             int open = i-1, close = i-1;
             while (open > 0 && s[open] != '(') --open;
@@ -390,7 +391,7 @@ int main() {
                 }
             }
         }
-        BigInt ans = 1;
+        BigInt ans = BigInt(1);
         FORD(i,n,1) if (s[i] == ')') {
             ans = ans + f[i][0];
             break;

@@ -12873,6 +12873,18 @@
     ],
     "timestamp": "Feb/11/2016 01:53"
   },
+  "CF15960982": {
+    "contest_id": 100221,
+    "language": "GNU C++11",
+    "path": "codeforces/100221/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Brackets Subsequences",
+    "problem_url": "https://codeforces.com/gym/100221",
+    "submission_id": "CF15960982",
+    "submission_url": "https://codeforces.com/gym/100221/submission/15960982",
+    "tags": [],
+    "timestamp": "Feb/12/2016 01:34"
+  },
   "CF15961217": {
     "contest_id": 100221,
     "language": "GNU C++11",
