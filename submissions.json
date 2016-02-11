@@ -12873,6 +12873,18 @@
     ],
     "timestamp": "Feb/11/2016 01:53"
   },
+  "CF15959262": {
+    "contest_id": 100221,
+    "language": "GNU C++11",
+    "path": "codeforces/100221/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Compact Relations Encoding",
+    "problem_url": "https://codeforces.com/gym/100221",
+    "submission_id": "CF15959262",
+    "submission_url": "https://codeforces.com/gym/100221/submission/15959262",
+    "tags": [],
+    "timestamp": "Feb/11/2016 23:59"
+  },
   "CF15959385": {
     "contest_id": 100221,
     "language": "GNU C++11",
