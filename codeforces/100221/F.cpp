@@ -30,7 +30,6 @@ struct BigInt {
         sign = 1;
         if (v < 0)
             sign = -1, v = -v;
-        a.clear();
         for (; v > 0; v = v / base)
             a.push_back(v % base);
     }
@@ -369,8 +368,8 @@ int main() {
 	}		
 	
 	for(int i=1; i<=10; i++) {
-        A[i][i][1] = 1;
-        A[i][1][i] = 1;
+        A[i][i][1] = BigInt(1);
+        A[i][1][i] = BigInt(1);
     }
 	
 	for(int i=2; i<=10; i++)
