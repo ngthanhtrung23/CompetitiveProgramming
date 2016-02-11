@@ -12873,6 +12873,18 @@
     ],
     "timestamp": "Feb/11/2016 01:53"
   },
+  "CF15958907": {
+    "contest_id": 100221,
+    "language": "GNU C++11",
+    "path": "codeforces/100221/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Puzzle Championship",
+    "problem_url": "https://codeforces.com/gym/100221",
+    "submission_id": "CF15958907",
+    "submission_url": "https://codeforces.com/gym/100221/submission/15958907",
+    "tags": [],
+    "timestamp": "Feb/11/2016 23:36"
+  },
   "CF15958944": {
     "contest_id": 100221,
     "language": "GNU C++11",

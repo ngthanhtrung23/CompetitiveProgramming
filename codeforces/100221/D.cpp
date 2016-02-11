@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
@@ -40,8 +41,8 @@ ll getHash(vector<pair<int,int> >& cur) {
     for(auto p : cur) {
         int dx = p.first - cur[0].first;
         int dy = p.second - cur[0].second;
-        res = res * 101 + (dx + 14);
-        res = res * 101 + (dy + 4);
+        res = res * 71LL + dx + 1;
+        res = res * 73LL + dy + 1;
     }
     return res;
 }
@@ -74,7 +75,7 @@ vector< pair<int,int> > flipy(vector< pair<int,int> >& cur) {
     return res;
 }
 
-const ll BASE = 1e9 + 7;
+const ll BASE = 1e6 + 3;
 
 void update(int nid) {
     vector<ll> t;
@@ -93,6 +94,8 @@ void update(int nid) {
         for(auto p : cur)
             if (!visited[p.first][p.second]) return ;
 
+        auto save = cur;
+
         ll h = 1e18;
         REP(rot,4) {
             REP(fx,2) {
@@ -106,9 +109,7 @@ void update(int nid) {
         }
         t.push_back(h);
     }
-//    PR(id, nx);
     sort(t.begin(), t.end());
-//    PR0(t, SZ(t));
 
     ll res = 0;
     for(auto p : t) res = res * BASE + p;
