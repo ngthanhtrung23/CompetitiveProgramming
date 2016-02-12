@@ -55,10 +55,10 @@ void build(int i, int l, int r) {
         }
     }
 
-    if (SZ(it[i]) > 2) {
-        it[i].resize(2);
-        id[i].resize(2);
-    }
+//    if (SZ(it[i]) > 2) {
+//        it[i].resize(2);
+//        id[i].resize(2);
+//    }
 }
 
 void get(int i, int l, int r, int u, int v, int x) {
