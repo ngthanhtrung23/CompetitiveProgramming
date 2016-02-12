@@ -54,9 +54,12 @@ int main() {
         r[n+1] = 1; FORD(i,n,1) r[i] = r[i+1] * f[i] % MOD;
 
         FOR(i,1,n) {
-            int cur = l[i-1] * inv_gt[i - 1] % MOD;
+            int cur = 1;
+            cur = cur * l[i-1] % MOD;
+            cur = cur * inv_gt[i - 1] % MOD;
 
-            cur = cur * r[i+1] % MOD * inv_gt[n - i] % MOD;
+            cur = cur * r[i+1] % MOD;
+            cur = cur * inv_gt[n - i] % MOD;
             if ((n - i) % 2) cur = cur * (MOD - 1) % MOD;
 
             res = (res + cur * y[i]) % MOD;
