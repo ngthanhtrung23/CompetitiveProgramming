@@ -356,7 +356,7 @@ BigInt C[30][30], A[105][20][20];
 int main() {
     freopen("rooks.in", "r", stdin);
     freopen("rooks.out", "w", stdout);
-	fac[0] = 1;
+	fac[0] = BigInt(1);
 	
 	for(int i=1; i<=20; i++) {
 		fac[i] = fac[i-1] * i;
@@ -391,7 +391,7 @@ int main() {
 	int m, n, k, l;
 	cin >> m >> n >> k >> l;
 	
-	BigInt res = 0;
+	BigInt res = BigInt(0);
 	
 	for(int x=1; x<m; x++) 
 	for(int y=1; y<=m-x; y++)
