@@ -12999,6 +12999,18 @@
     ],
     "timestamp": "Feb/13/2016 03:56"
   },
+  "CF15984916": {
+    "contest_id": 100365,
+    "language": "Java 8",
+    "path": "codeforces/100365/C.java",
+    "problem_index": "C",
+    "problem_name": "Arbitrage",
+    "problem_url": "https://codeforces.com/gym/100365",
+    "submission_id": "CF15984916",
+    "submission_url": "https://codeforces.com/gym/100365/submission/15984916",
+    "tags": [],
+    "timestamp": "Feb/13/2016 17:38"
+  },
   "CF15985590": {
     "contest_id": 100365,
     "language": "GNU C++11",
