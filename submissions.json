@@ -1,4 +1,22 @@
 {
+  "CF15992874": {
+    "contest_id": 626,
+    "language": "GNU C++11",
+    "path": "codeforces/626/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Block Towers",
+    "problem_url": "https://codeforces.com/contest/626/problem/C",
+    "submission_id": "CF15992874",
+    "submission_url": "https://codeforces.com/contest/626/submission/15992874",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Feb/14/2016 01:48"
+  },
   "CF15997506": {
     "contest_id": 626,
     "language": "GNU C++11",
