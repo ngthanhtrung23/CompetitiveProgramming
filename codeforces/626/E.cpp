@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
@@ -43,7 +44,7 @@ int main() {
                 if (f(mid, x) > f(mid+1, x)) {
                     r = mid;
                 }
-                else l = mid;
+                else l = mid + 1;
             }
             FOR(i,l,r) {
                 double cur = f(i, x);
