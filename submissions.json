@@ -1,4 +1,20 @@
 {
+  "CF15990825": {
+    "contest_id": 626,
+    "language": "GNU C++11",
+    "path": "codeforces/626/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Robot Sequence",
+    "problem_url": "https://codeforces.com/contest/626/problem/A",
+    "submission_id": "CF15990825",
+    "submission_url": "https://codeforces.com/contest/626/submission/15990825",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/14/2016 01:37"
+  },
   "CF15992036": {
     "contest_id": 626,
     "language": "GNU C++11",
