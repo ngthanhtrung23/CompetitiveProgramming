@@ -1,4 +1,20 @@
 {
+  "CF16022597": {
+    "contest_id": 624,
+    "language": "GNU C++11",
+    "path": "codeforces/624/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Making a String",
+    "problem_url": "https://codeforces.com/contest/624/problem/B",
+    "submission_id": "CF16022597",
+    "submission_url": "https://codeforces.com/contest/624/submission/16022597",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Feb/15/2016 02:49"
+  },
   "CF16039026": {
     "contest_id": 11,
     "language": "GNU C++11",
