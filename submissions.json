@@ -13148,6 +13148,18 @@
     ],
     "timestamp": "Feb/15/2016 02:49"
   },
+  "CF16036160": {
+    "contest_id": 100402,
+    "language": "GNU C++11",
+    "path": "codeforces/100402/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Minimal Matrix",
+    "problem_url": "https://codeforces.com/gym/100402",
+    "submission_id": "CF16036160",
+    "submission_url": "https://codeforces.com/gym/100402/submission/16036160",
+    "tags": [],
+    "timestamp": "Feb/16/2016 00:04"
+  },
   "CF16036419": {
     "contest_id": 100402,
     "language": "GNU C++11",
