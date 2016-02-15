@@ -13148,6 +13148,18 @@
     ],
     "timestamp": "Feb/15/2016 02:49"
   },
+  "CF16032795": {
+    "contest_id": 100402,
+    "language": "GNU C++11",
+    "path": "codeforces/100402/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Inverse Range Minimum Query",
+    "problem_url": "https://codeforces.com/gym/100402",
+    "submission_id": "CF16032795",
+    "submission_url": "https://codeforces.com/gym/100402/submission/16032795",
+    "tags": [],
+    "timestamp": "Feb/15/2016 20:42"
+  },
   "CF16033047": {
     "contest_id": 100402,
     "language": "GNU C++11",
