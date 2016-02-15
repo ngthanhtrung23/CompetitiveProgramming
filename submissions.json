@@ -13148,6 +13148,18 @@
     ],
     "timestamp": "Feb/15/2016 02:49"
   },
+  "CF16033542": {
+    "contest_id": 100402,
+    "language": "GNU C++11",
+    "path": "codeforces/100402/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Reversing Prefixes",
+    "problem_url": "https://codeforces.com/gym/100402",
+    "submission_id": "CF16033542",
+    "submission_url": "https://codeforces.com/gym/100402/submission/16033542",
+    "tags": [],
+    "timestamp": "Feb/15/2016 21:30"
+  },
   "CF16033753": {
     "contest_id": 100402,
     "language": "GNU C++11",
