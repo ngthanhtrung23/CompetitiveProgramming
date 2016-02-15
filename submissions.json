@@ -13148,6 +13148,18 @@
     ],
     "timestamp": "Feb/15/2016 02:49"
   },
+  "CF16033753": {
+    "contest_id": 100402,
+    "language": "GNU C++11",
+    "path": "codeforces/100402/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Avoiding Partitions",
+    "problem_url": "https://codeforces.com/gym/100402",
+    "submission_id": "CF16033753",
+    "submission_url": "https://codeforces.com/gym/100402/submission/16033753",
+    "tags": [],
+    "timestamp": "Feb/15/2016 21:45"
+  },
   "CF16034144": {
     "contest_id": 100402,
     "language": "GNU C++11",
