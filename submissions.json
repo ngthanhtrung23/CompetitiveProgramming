@@ -1,4 +1,21 @@
 {
+  "CF16057385": {
+    "contest_id": 11,
+    "language": "GNU C++11",
+    "path": "codeforces/11/D.cpp",
+    "problem_index": "D",
+    "problem_name": "A Simple Task",
+    "problem_url": "https://codeforces.com/contest/11/problem/D",
+    "submission_id": "CF16057385",
+    "submission_url": "https://codeforces.com/contest/11/submission/16057385",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "graphs",
+      "*2200"
+    ],
+    "timestamp": "Feb/16/2016 22:25"
+  },
   "CF16059291": {
     "contest_id": 361,
     "language": "GNU C++11",
