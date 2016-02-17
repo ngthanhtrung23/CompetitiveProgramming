@@ -1,4 +1,20 @@
 {
+  "CF16085743": {
+    "contest_id": 8,
+    "language": "GNU C++11",
+    "path": "codeforces/8/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Beads",
+    "problem_url": "https://codeforces.com/contest/8/problem/E",
+    "submission_id": "CF16085743",
+    "submission_url": "https://codeforces.com/contest/8/submission/16085743",
+    "tags": [
+      "dp",
+      "graphs",
+      "*2600"
+    ],
+    "timestamp": "Feb/18/2016 02:10"
+  },
   "CF16085976": {
     "contest_id": 10,
     "language": "GNU C++11",
