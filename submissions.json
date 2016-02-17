@@ -1,4 +1,21 @@
 {
+  "CF16080933": {
+    "contest_id": 360,
+    "language": "GNU C++11",
+    "path": "codeforces/360/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Levko and Game",
+    "problem_url": "https://codeforces.com/contest/360/problem/E",
+    "submission_id": "CF16080933",
+    "submission_url": "https://codeforces.com/contest/360/submission/16080933",
+    "tags": [
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*2800"
+    ],
+    "timestamp": "Feb/17/2016 23:07"
+  },
   "CF16085743": {
     "contest_id": 8,
     "language": "GNU C++11",
