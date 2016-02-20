@@ -12,7 +12,7 @@
 #define SZ(x) ((int) (x).size())
 using namespace std;
 
-const int MN = 100111;
+const int MN = 1000111;
 const ll MOD = 1e9 + 7;
 int n;
 ll k[MN], a[MN];

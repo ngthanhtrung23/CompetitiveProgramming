@@ -13575,6 +13575,18 @@
     ],
     "timestamp": "Feb/20/2016 21:50"
   },
+  "CF16235199": {
+    "contest_id": 100418,
+    "language": "GNU C++11",
+    "path": "codeforces/100418/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Equalize",
+    "problem_url": "https://codeforces.com/gym/100418",
+    "submission_id": "CF16235199",
+    "submission_url": "https://codeforces.com/gym/100418/submission/16235199",
+    "tags": [],
+    "timestamp": "Feb/21/2016 00:47"
+  },
   "CF16235494": {
     "contest_id": 100418,
     "language": "GNU C++11",
