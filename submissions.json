@@ -1,4 +1,20 @@
 {
+  "CF16226244": {
+    "contest_id": 630,
+    "language": "Python 2",
+    "path": "codeforces/630/H.py",
+    "problem_index": "H",
+    "problem_name": "Benches",
+    "problem_url": "https://codeforces.com/contest/630/problem/H",
+    "submission_id": "CF16226244",
+    "submission_url": "https://codeforces.com/contest/630/submission/16226244",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Feb/20/2016 17:34"
+  },
   "CF16226368": {
     "contest_id": 630,
     "language": "Python 2",
