@@ -13575,6 +13575,18 @@
     ],
     "timestamp": "Feb/20/2016 21:50"
   },
+  "CF16230601": {
+    "contest_id": 100418,
+    "language": "GNU C++11",
+    "path": "codeforces/100418/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sum of sequences",
+    "problem_url": "https://codeforces.com/gym/100418",
+    "submission_id": "CF16230601",
+    "submission_url": "https://codeforces.com/gym/100418/submission/16230601",
+    "tags": [],
+    "timestamp": "Feb/20/2016 22:24"
+  },
   "CF16230609": {
     "contest_id": 100418,
     "language": "GNU C++11",
