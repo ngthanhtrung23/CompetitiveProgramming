@@ -1,4 +1,20 @@
 {
+  "CF16226213": {
+    "contest_id": 630,
+    "language": "Python 2",
+    "path": "codeforces/630/G.py",
+    "problem_index": "G",
+    "problem_name": "Challenge Pennants",
+    "problem_url": "https://codeforces.com/contest/630/problem/G",
+    "submission_id": "CF16226213",
+    "submission_url": "https://codeforces.com/contest/630/submission/16226213",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Feb/20/2016 17:32"
+  },
   "CF16226244": {
     "contest_id": 630,
     "language": "Python 2",
