@@ -1,4 +1,20 @@
 {
+  "CF16229616": {
+    "contest_id": 630,
+    "language": "Python 2",
+    "path": "codeforces/630/R.py",
+    "problem_index": "R",
+    "problem_name": "Game",
+    "problem_url": "https://codeforces.com/contest/630/problem/R",
+    "submission_id": "CF16229616",
+    "submission_url": "https://codeforces.com/contest/630/submission/16229616",
+    "tags": [
+      "games",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Feb/20/2016 21:29"
+  },
   "CF16229763": {
     "contest_id": 630,
     "language": "GNU C++11",
