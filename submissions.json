@@ -1,4 +1,20 @@
 {
+  "CF16225869": {
+    "contest_id": 630,
+    "language": "GNU C++11",
+    "path": "codeforces/630/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Lucky Numbers",
+    "problem_url": "https://codeforces.com/contest/630/problem/C",
+    "submission_id": "CF16225869",
+    "submission_url": "https://codeforces.com/contest/630/submission/16225869",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Feb/20/2016 17:10"
+  },
   "CF16225916": {
     "contest_id": 630,
     "language": "Python 2",
