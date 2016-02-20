@@ -1,4 +1,20 @@
 {
+  "CF16226118": {
+    "contest_id": 630,
+    "language": "Python 2",
+    "path": "codeforces/630/F.py",
+    "problem_index": "F",
+    "problem_name": "Selection of Personnel",
+    "problem_url": "https://codeforces.com/contest/630/problem/F",
+    "submission_id": "CF16226118",
+    "submission_url": "https://codeforces.com/contest/630/submission/16226118",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Feb/20/2016 17:25"
+  },
   "CF16226213": {
     "contest_id": 630,
     "language": "Python 2",
