@@ -1,4 +1,20 @@
 {
+  "CF16226562": {
+    "contest_id": 630,
+    "language": "Python 2",
+    "path": "codeforces/630/L.py",
+    "problem_index": "L",
+    "problem_name": "Cracking the Code",
+    "problem_url": "https://codeforces.com/contest/630/problem/L",
+    "submission_id": "CF16226562",
+    "submission_url": "https://codeforces.com/contest/630/submission/16226562",
+    "tags": [
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Feb/20/2016 17:53"
+  },
   "CF16229616": {
     "contest_id": 630,
     "language": "Python 2",
