@@ -13656,6 +13656,18 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF16280613": {
+    "contest_id": 100417,
+    "language": "GNU C++11",
+    "path": "codeforces/100417/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Roof Skeleton",
+    "problem_url": "https://codeforces.com/gym/100417",
+    "submission_id": "CF16280613",
+    "submission_url": "https://codeforces.com/gym/100417/submission/16280613",
+    "tags": [],
+    "timestamp": "Feb/23/2016 00:43"
+  },
   "CF16281241": {
     "contest_id": 100417,
     "language": "GNU C++11",
