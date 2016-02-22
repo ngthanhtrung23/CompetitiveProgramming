@@ -13656,6 +13656,18 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF16278872": {
+    "contest_id": 100417,
+    "language": "GNU C++11",
+    "path": "codeforces/100417/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Strange Digits",
+    "problem_url": "https://codeforces.com/gym/100417",
+    "submission_id": "CF16278872",
+    "submission_url": "https://codeforces.com/gym/100417/submission/16278872",
+    "tags": [],
+    "timestamp": "Feb/22/2016 22:51"
+  },
   "CF16280119": {
     "contest_id": 100417,
     "language": "GNU C++11",
