@@ -13656,6 +13656,18 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF16277322": {
+    "contest_id": 100417,
+    "language": "GNU C++11",
+    "path": "codeforces/100417/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Permutations",
+    "problem_url": "https://codeforces.com/gym/100417",
+    "submission_id": "CF16277322",
+    "submission_url": "https://codeforces.com/gym/100417/submission/16277322",
+    "tags": [],
+    "timestamp": "Feb/22/2016 21:20"
+  },
   "CF16278076": {
     "contest_id": 100417,
     "language": "GNU C++11",
