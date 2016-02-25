@@ -8223,6 +8223,21 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF16334410": {
+    "contest_id": 10,
+    "language": "GNU C++11",
+    "path": "codeforces/10/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Greedy Change",
+    "problem_url": "https://codeforces.com/contest/10/problem/E",
+    "submission_id": "CF16334410",
+    "submission_url": "https://codeforces.com/contest/10/submission/16334410",
+    "tags": [
+      "constructive algorithms",
+      "*2600"
+    ],
+    "timestamp": "Feb/26/2016 00:45"
+  },
   "CF16334723": {
     "contest_id": 13,
     "language": "Java 7",
