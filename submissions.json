@@ -8223,6 +8223,24 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF16433858": {
+    "contest_id": 634,
+    "language": "GNU C++11",
+    "path": "codeforces/634/B.cpp",
+    "problem_index": "B",
+    "problem_name": "XOR Equation",
+    "problem_url": "https://codeforces.com/contest/634/problem/B",
+    "submission_id": "CF16433858",
+    "submission_url": "https://codeforces.com/contest/634/submission/16433858",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Mar/01/2016 07:18"
+  },
   "CF16433934": {
     "contest_id": 634,
     "language": "GNU C++11",
