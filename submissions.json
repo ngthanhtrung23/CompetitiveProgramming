@@ -8223,6 +8223,22 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF16433807": {
+    "contest_id": 634,
+    "language": "GNU C++11",
+    "path": "codeforces/634/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Island Puzzle",
+    "problem_url": "https://codeforces.com/contest/634/problem/A",
+    "submission_id": "CF16433807",
+    "submission_url": "https://codeforces.com/contest/634/submission/16433807",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Mar/01/2016 07:12"
+  },
   "CF16433858": {
     "contest_id": 634,
     "language": "GNU C++11",
