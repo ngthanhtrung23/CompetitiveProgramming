@@ -8223,6 +8223,20 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF16481988": {
+    "contest_id": 632,
+    "language": "GNU C++11",
+    "path": "codeforces/632/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Grandma Laura and Apples",
+    "problem_url": "https://codeforces.com/contest/632/problem/A",
+    "submission_id": "CF16481988",
+    "submission_url": "https://codeforces.com/contest/632/submission/16481988",
+    "tags": [
+      "*1200"
+    ],
+    "timestamp": "Mar/03/2016 19:56"
+  },
   "CF16482044": {
     "contest_id": 632,
     "language": "GNU C++11",
