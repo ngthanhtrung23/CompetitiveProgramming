@@ -8223,6 +8223,25 @@
     ],
     "timestamp": "Feb/22/2016 20:46"
   },
+  "CF16537730": {
+    "contest_id": 632,
+    "language": "GNU C++11",
+    "path": "codeforces/632/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Magic Matrix",
+    "problem_url": "https://codeforces.com/contest/632/problem/F",
+    "submission_id": "CF16537730",
+    "submission_url": "https://codeforces.com/contest/632/submission/16537730",
+    "tags": [
+      "brute force",
+      "divide and conquer",
+      "graphs",
+      "matrices",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Mar/06/2016 00:35"
+  },
   "CF16537801": {
     "contest_id": 633,
     "language": "GNU C++11",
