@@ -14043,6 +14043,18 @@
     ],
     "timestamp": "Mar/07/2016 22:38"
   },
+  "CF16602708": {
+    "contest_id": 100917,
+    "language": "GNU C++11",
+    "path": "codeforces/100917/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Constant Ratio",
+    "problem_url": "https://codeforces.com/gym/100917",
+    "submission_id": "CF16602708",
+    "submission_url": "https://codeforces.com/gym/100917/submission/16602708",
+    "tags": [],
+    "timestamp": "Mar/08/2016 22:09"
+  },
   "CF16603082": {
     "contest_id": 100917,
     "language": "GNU C++11",
