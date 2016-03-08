@@ -14043,6 +14043,18 @@
     ],
     "timestamp": "Mar/07/2016 22:38"
   },
+  "CF16605683": {
+    "contest_id": 100917,
+    "language": "GNU C++11",
+    "path": "codeforces/100917/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Extreme Permutations",
+    "problem_url": "https://codeforces.com/gym/100917",
+    "submission_id": "CF16605683",
+    "submission_url": "https://codeforces.com/gym/100917/submission/16605683",
+    "tags": [],
+    "timestamp": "Mar/09/2016 01:30"
+  },
   "CF16606093": {
     "contest_id": 100917,
     "language": "GNU C++11",
