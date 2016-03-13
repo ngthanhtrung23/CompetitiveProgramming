@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16694699": {
+    "contest_id": 100920,
+    "language": "GNU C++",
+    "path": "codeforces/100920/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Triangle",
+    "problem_url": "https://codeforces.com/gym/100920",
+    "submission_id": "CF16694699",
+    "submission_url": "https://codeforces.com/gym/100920/submission/16694699",
+    "tags": [],
+    "timestamp": "Mar/13/2016 21:46"
+  },
   "CF16695571": {
     "contest_id": 100920,
     "language": "GNU C++11",
