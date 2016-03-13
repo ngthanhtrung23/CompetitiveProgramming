@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16697891": {
+    "contest_id": 100920,
+    "language": "GNU C++",
+    "path": "codeforces/100920/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Automorphism",
+    "problem_url": "https://codeforces.com/gym/100920",
+    "submission_id": "CF16697891",
+    "submission_url": "https://codeforces.com/gym/100920/submission/16697891",
+    "tags": [],
+    "timestamp": "Mar/13/2016 23:07"
+  },
   "CF16697940": {
     "contest_id": 100920,
     "language": "GNU C++11",
