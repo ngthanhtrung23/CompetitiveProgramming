@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16701445": {
+    "contest_id": 100920,
+    "language": "GNU C++11",
+    "path": "codeforces/100920/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Tables",
+    "problem_url": "https://codeforces.com/gym/100920",
+    "submission_id": "CF16701445",
+    "submission_url": "https://codeforces.com/gym/100920/submission/16701445",
+    "tags": [],
+    "timestamp": "Mar/14/2016 01:45"
+  },
   "CF16701458": {
     "contest_id": 100920,
     "language": "GNU C++11",
