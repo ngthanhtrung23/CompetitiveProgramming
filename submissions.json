@@ -8254,6 +8254,22 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF16689136": {
+    "contest_id": 13,
+    "language": "GNU C++11",
+    "path": "codeforces/13/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Triangles",
+    "problem_url": "https://codeforces.com/contest/13/problem/D",
+    "submission_id": "CF16689136",
+    "submission_url": "https://codeforces.com/contest/13/submission/16689136",
+    "tags": [
+      "dp",
+      "geometry",
+      "*2600"
+    ],
+    "timestamp": "Mar/13/2016 17:31"
+  },
   "CF16689563": {
     "contest_id": 13,
     "language": "GNU C++11",
