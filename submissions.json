@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16695571": {
+    "contest_id": 100920,
+    "language": "GNU C++11",
+    "path": "codeforces/100920/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Squares",
+    "problem_url": "https://codeforces.com/gym/100920",
+    "submission_id": "CF16695571",
+    "submission_url": "https://codeforces.com/gym/100920/submission/16695571",
+    "tags": [],
+    "timestamp": "Mar/13/2016 22:18"
+  },
   "CF16697891": {
     "contest_id": 100920,
     "language": "GNU C++",
