@@ -1,4 +1,6 @@
+
 #include <bits/stdc++.h>
+#define int long long
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
 #define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
@@ -8,6 +10,7 @@
 #define PR0(A,n) { cout << #A << " = "; REP(_,n) cout << A[_] << ' '; cout << endl; }
 
 #define sqr(x) ((x) * (x))
+#define ll long long
 #define SZ(x) ((int) (x).size())
 using namespace std;
 
@@ -33,62 +36,43 @@ void init() {
     }
 }
 
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp && !REACHEOF) { \
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-
+#undef int
 int main() {
+#define int long long
     ios :: sync_with_stdio(0); cin.tie(0);
-    GN(n); GN(q);
-    FOR(i,1,n) GN(a[i]);
-    init();
-    while (q--) {
-        int typ; GN(typ);
-        if (typ == 0) {
-            int u, val; GN(u); GN(val);
-            int b = blockId[u];
-            a[u] = val;
-            FORD(i,u,1) {
-                if (blockId[i] != b) break;
-                auto t = get(i);
-                lastInBlock[i] = t.first;
-                cntBlock[i] = t.second;
+    while (scanf("%lld%lld", &n, &q) == 2) {
+        FOR(i,1,n) scanf("%lld", &a[i]);
+        init();
+        while (q--) {
+            int typ; scanf("%lld", &typ);
+            if (typ == 0) {
+                int u, val; scanf("%lld%lld", &u, &val);
+                int b = blockId[u];
+                a[u] = val;
+                FORD(i,u,1) {
+                    if (blockId[i] != b) break;
+                    auto t = get(i);
+                    lastInBlock[i] = t.first;
+                    cntBlock[i] = t.second;
+                }
             }
-        }
-        else {
-            int u; GN(u);
-            int res = 0;
-            while (true) {
-                // we go to last position in u 's block
-                res += cntBlock[u];
-                u = lastInBlock[u];
+            else {
+                int u; scanf("%lld", &u);
+                int res = 0;
+                while (true) {
+                    // we go to last position in u 's block
+                    res += cntBlock[u];
+                    u = lastInBlock[u];
 
-                // from here we try to go to next block
-                int to = u + a[u];
-                ++res;
-                if (to > n) break;
+                    // from here we try to go to next block
+                    int to = u + a[u];
+                    ++res;
+                    if (to > n) break;
 
-                u = to;
+                    u = to;
+                }
+                printf("%lld %lld\n", u, res);
             }
-            printf("%d %d\n", u, res);
         }
     }
 }
