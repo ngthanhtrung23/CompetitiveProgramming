@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 #define int long long
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
@@ -58,7 +59,7 @@ int ccw(Point A, Point B, Point C) {
 const double PI = acos((double) -1.0);
 double angle(Point a, Point o, Point b) { // min of directed angle AOB & BOA
     a = a - o; b = b - o;
-    double res = acos((a * b) / sqrt(a.norm()) / sqrt(b.norm()));
+    double res = acos((a * b) / sqrt(a.norm() * b.norm()));
     while (res < -EPS) res += 2 * PI;
 
     while (res >= 2*PI) res -= 2 * PI;
