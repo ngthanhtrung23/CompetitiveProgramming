@@ -159,7 +159,7 @@ int main(){
 
     For(i, 1, n){
     	vector<int> V;
-    	For(j, 1, k) For(t, -4, 4){
+    	For(j, 1, k) For(t, -5, 5){
     		int x = a[i][j] + t;
     		if(x > 0 && x <= n){
     			V.pb(x);
