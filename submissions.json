@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16699116": {
+    "contest_id": 100920,
+    "language": "GNU C++11",
+    "path": "codeforces/100920/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Expression",
+    "problem_url": "https://codeforces.com/gym/100920",
+    "submission_id": "CF16699116",
+    "submission_url": "https://codeforces.com/gym/100920/submission/16699116",
+    "tags": [],
+    "timestamp": "Mar/13/2016 23:55"
+  },
   "CF16700571": {
     "contest_id": 100920,
     "language": "GNU C++11",
