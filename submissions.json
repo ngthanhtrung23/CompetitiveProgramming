@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16692952": {
+    "contest_id": 100920,
+    "language": "GNU C++11",
+    "path": "codeforces/100920/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Paint",
+    "problem_url": "https://codeforces.com/gym/100920",
+    "submission_id": "CF16692952",
+    "submission_url": "https://codeforces.com/gym/100920/submission/16692952",
+    "tags": [],
+    "timestamp": "Mar/13/2016 20:48"
+  },
   "CF16694699": {
     "contest_id": 100920,
     "language": "GNU C++",
