@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16714097": {
+    "contest_id": 100337,
+    "language": "GNU C++11",
+    "path": "codeforces/100337/F.cpp",
+    "problem_index": "F",
+    "problem_name": "\"Money, Money, Money\"",
+    "problem_url": "https://codeforces.com/gym/100337",
+    "submission_id": "CF16714097",
+    "submission_url": "https://codeforces.com/gym/100337/submission/16714097",
+    "tags": [],
+    "timestamp": "Mar/14/2016 20:58"
+  },
   "CF16714152": {
     "contest_id": 100337,
     "language": "GNU C++11",
