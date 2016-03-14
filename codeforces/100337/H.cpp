@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#define int long long
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
 #define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
@@ -17,23 +16,27 @@ struct R {
     int x1, y1, x2, y2;
 
     void read() {
-        scanf("%lld%lld%lld%lld", &x1, &y1, &x2, &y2);
-        if (x1 > x2) swap(x1, x2);
-        if (y1 > y2) swap(y1, y2);
-
-        x1 *= 2;
-        x2 *= 2;
-        y1 *= 2;
-        y2 *= 2;
+        cin >> x1 >> y1 >> x2 >> y2;
+        assert(x1 <= x2);
+        assert(y1 <= y2);
     }
 } a[60111];
 
-void print(int x) {
-    cout << (fixed) << setprecision(1) << (x / 2.0);
+void print(double x) {
+    cout << (fixed) << setprecision(1) << (x);
 }
 
-const int MV = 1000111;
-vector< pair<int,int> > open[MV], close[MV];
+struct Event {
+    int x, y1, y2, d;
+
+    Event() {}
+    Event(int x, int y1, int y2, int d) : x(x), y1(y1), y2(y2), d(d) {}
+};
+bool operator < (const Event& a, const Event& b) {
+    if (a.x != b.x) return a.x < b.x;
+    return a.d < b.d;
+}
+
 int savex, savey;
 
 bool intersect(pair<int,int>&a, pair<int,int>&b) {
@@ -43,29 +46,30 @@ bool intersect(pair<int,int>&a, pair<int,int>&b) {
 }
 
 bool check(int val) {
-    REP(i,MV) {
-        open[i].clear();
-        close[i].clear();
-    }
+    vector<Event> events;
     FOR(i,1,n) {
-        int x1 = a[i].x1 + val;
+        int x1 = a[i].x1;
         int x2 = a[i].x2 - val;
-        int y1 = a[i].y1 + val;
+
+        int y1 = a[i].y1;
         int y2 = a[i].y2 - val;
 
         if (x1 <= x2 && y1 <= y2) {
-            open[x1].push_back(make_pair(y1, y2));
-            close[x2].push_back(make_pair(y1, y2));
+            events.push_back(Event(x1, y1, y2, -1));
+            events.push_back(Event(x2, y1, y2, +1));
         }
     }
+    sort(events.begin(), events.end());
+
     multiset< pair<int,int> > all;
-    REP(col,MV) {
-        for(auto p : open[col]) {
-            auto it = all.lower_bound(make_pair(p.first, 0));
+    for(auto e : events) {
+        pair<int,int> p = make_pair(e.y1, e.y2);
+        if (e.d == -1) {
+            auto it = all.lower_bound(make_pair(e.y1, -1000111000));
             if (it != all.end()) {
                 auto q = *it;
                 if (intersect(p, q)) {
-                    savex = col;
+                    savex = e.x;
                     savey = min(p.second, q.second);
                     return true;
                 }
@@ -74,42 +78,28 @@ bool check(int val) {
                 --it;
                 auto q = *it;
                 if (intersect(p, q)) {
-                    savex = col;
+                    savex = e.x;
                     savey = min(p.second, q.second);
                     return true;
                 }
             }
             all.insert(p);
         }
-        for(auto p : close[col]) {
+        else {
             all.erase(all.find(p));
         }
     }
     return false;
 }
 
-#undef int
 int main() {
-#define int long long
     ios :: sync_with_stdio(0); cin.tie(0);
     freopen("polygon.in", "r", stdin);
     freopen("polygon.out", "w", stdout);
-    while (scanf("%lld", &n) == 1) {
+    while (cin >> n) {
         FOR(i,1,n) a[i].read();
-        int minx = a[1].x1;
-        int miny = a[1].y1;
-        FOR(i,2,n) {
-            minx = min(minx, a[i].x1);
-            miny = min(miny, a[i].y1);
-        }
-        FOR(i,1,n) {
-            a[i].x1 -= minx;
-            a[i].x2 -= minx;
-            a[i].y1 -= miny;
-            a[i].y2 -= miny;
-        }
 
-        int l = 0, r = 200000, res = 0;
+        int l = 0, r = 400000, res = 0;
         while (l <= r) {
             int mid = (l + r) >> 1;
             if (check(mid)) {
@@ -119,13 +109,12 @@ int main() {
             else r = mid - 1;
         }
         check(res);
+
         if (res == 0) cout << "Impossible" << endl;
         else {
-            savex += minx;
-            savey += miny;
-            print(savex); cout << ' ';
-            print(savey); cout << ' ';
-            print(res);
+            print(savex + res / 2.0); cout << ' ';
+            print(savey + res / 2.0); cout << ' ';
+            print(res / 2.0);
             cout << endl;
         }
     }
