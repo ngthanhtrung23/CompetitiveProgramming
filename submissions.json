@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16731521": {
+    "contest_id": 100431,
+    "language": "GNU C++11",
+    "path": "codeforces/100431/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Achromatic Number",
+    "problem_url": "https://codeforces.com/gym/100431",
+    "submission_id": "CF16731521",
+    "submission_url": "https://codeforces.com/gym/100431/submission/16731521",
+    "tags": [],
+    "timestamp": "Mar/16/2016 01:09"
+  },
   "CF16732069": {
     "contest_id": 100431,
     "language": "GNU C++11",
