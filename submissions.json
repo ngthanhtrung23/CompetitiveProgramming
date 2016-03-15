@@ -14200,6 +14200,18 @@
     ],
     "timestamp": "Mar/13/2016 18:06"
   },
+  "CF16727962": {
+    "contest_id": 100431,
+    "language": "GNU C++11",
+    "path": "codeforces/100431/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Permutations with Monotonic Segments",
+    "problem_url": "https://codeforces.com/gym/100431",
+    "submission_id": "CF16727962",
+    "submission_url": "https://codeforces.com/gym/100431/submission/16727962",
+    "tags": [],
+    "timestamp": "Mar/15/2016 21:36"
+  },
   "CF16728364": {
     "contest_id": 100431,
     "language": "GNU C++11",
