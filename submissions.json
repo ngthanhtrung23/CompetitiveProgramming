@@ -14236,6 +14236,18 @@
     ],
     "timestamp": "Mar/17/2016 03:06"
   },
+  "CF16770401": {
+    "contest_id": 100340,
+    "language": "GNU C++11",
+    "path": "codeforces/100340/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Hungry Queen",
+    "problem_url": "https://codeforces.com/gym/100340",
+    "submission_id": "CF16770401",
+    "submission_url": "https://codeforces.com/gym/100340/submission/16770401",
+    "tags": [],
+    "timestamp": "Mar/18/2016 03:08"
+  },
   "CF16782182": {
     "contest_id": 644,
     "language": "GNU C++11",
