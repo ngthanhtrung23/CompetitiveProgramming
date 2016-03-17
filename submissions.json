@@ -14236,6 +14236,18 @@
     ],
     "timestamp": "Mar/17/2016 03:06"
   },
+  "CF16767997": {
+    "contest_id": 100340,
+    "language": "GNU C++11",
+    "path": "codeforces/100340/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Permutation Reconstruction",
+    "problem_url": "https://codeforces.com/gym/100340",
+    "submission_id": "CF16767997",
+    "submission_url": "https://codeforces.com/gym/100340/submission/16767997",
+    "tags": [],
+    "timestamp": "Mar/18/2016 00:43"
+  },
   "CF16768128": {
     "contest_id": 100340,
     "language": "GNU C++11",

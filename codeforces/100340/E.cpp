@@ -14,7 +14,17 @@ using namespace std;
 
 const int MN = 311;
 int n;
-vector<int> a[MN], b[MN];
+vector<int> a[MN];
+ll ha[MN], hb[MN];
+
+#define hash hash___
+ll hash(const vector<int>& a) {
+    ll res = 0;
+    for(int x : a) {
+        res = res * MN + x;
+    }
+    return res;
+}
 
 int f(const vector<int>& a) {
     int sum = 0;
@@ -35,10 +45,10 @@ bool check(const vector<int>& p) {
             else cur.push_back(x);
         }
 
-        b[i] = cur;
+        hb[i] = hash(cur);
     }
-    sort(b+1, b+n+1);
-    FOR(i,1,n) if (a[i] != b[i]) return false;
+    sort(hb+1, hb+n+1);
+    FOR(i,1,n) if (ha[i] != hb[i]) return false;
     return true;
 }
 
@@ -56,7 +66,9 @@ int main() {
             sum += f(a[i]);
         }
         
-        sort(a+1, a+n+1);
+        // calculate hash --> N^2
+        FOR(i,1,n) ha[i] = hash(a[i]);
+        sort(ha+1, ha+n+1);
 
         sum /= n - 2;
 
