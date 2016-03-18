@@ -8254,6 +8254,22 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF16788362": {
+    "contest_id": 655,
+    "language": "GNU C++11",
+    "path": "codeforces/655/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Amity Assessment",
+    "problem_url": "https://codeforces.com/contest/655/problem/A",
+    "submission_id": "CF16788362",
+    "submission_url": "https://codeforces.com/contest/655/submission/16788362",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/19/2016 01:01"
+  },
   "CF16789101": {
     "contest_id": 655,
     "language": "GNU C++11",
