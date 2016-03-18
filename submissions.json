@@ -8254,6 +8254,24 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF16782182": {
+    "contest_id": 644,
+    "language": "GNU C++11",
+    "path": "codeforces/644/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Processing Queries",
+    "problem_url": "https://codeforces.com/contest/644/problem/B",
+    "submission_id": "CF16782182",
+    "submission_url": "https://codeforces.com/contest/644/submission/16782182",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "data structures",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Mar/18/2016 21:12"
+  },
   "CF16786188": {
     "contest_id": 655,
     "language": "GNU C++11",
