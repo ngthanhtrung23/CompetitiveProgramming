@@ -8254,6 +8254,23 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF16803083": {
+    "contest_id": 637,
+    "language": "GNU C++11",
+    "path": "codeforces/637/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Voting for Photos",
+    "problem_url": "https://codeforces.com/contest/637/problem/A",
+    "submission_id": "CF16803083",
+    "submission_url": "https://codeforces.com/contest/637/submission/16803083",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Mar/19/2016 14:38"
+  },
   "CF16874233": {
     "contest_id": 653,
     "language": "GNU C++11",
