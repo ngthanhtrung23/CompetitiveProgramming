@@ -8254,6 +8254,26 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF16877803": {
+    "contest_id": 128,
+    "language": "GNU C++11",
+    "path": "codeforces/128/B.cpp",
+    "problem_index": "B",
+    "problem_name": "String",
+    "problem_url": "https://codeforces.com/contest/128/problem/B",
+    "submission_id": "CF16877803",
+    "submission_url": "https://codeforces.com/contest/128/submission/16877803",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "hashing",
+      "implementation",
+      "string suffix structures",
+      "strings",
+      "*2100"
+    ],
+    "timestamp": "Mar/23/2016 04:51"
+  },
   "CF16893330": {
     "contest_id": 123,
     "language": "GNU C++11",
