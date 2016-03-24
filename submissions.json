@@ -14513,6 +14513,18 @@
     ],
     "timestamp": "Mar/24/2016 02:50"
   },
+  "CF16908872": {
+    "contest_id": 100490,
+    "language": "GNU C++11",
+    "path": "codeforces/100490/H.cpp",
+    "problem_index": "H",
+    "problem_name": "High School Duels",
+    "problem_url": "https://codeforces.com/gym/100490",
+    "submission_id": "CF16908872",
+    "submission_url": "https://codeforces.com/gym/100490/submission/16908872",
+    "tags": [],
+    "timestamp": "Mar/24/2016 23:32"
+  },
   "CF16908969": {
     "contest_id": 100490,
     "language": "GNU C++11",
