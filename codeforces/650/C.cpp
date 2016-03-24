@@ -109,5 +109,6 @@ int main() {
         }
         // fill the empty positions
         REP(i,mn) printf("%d ", res[i]);
+        puts("");
     }
 }
