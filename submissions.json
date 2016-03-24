@@ -14513,6 +14513,18 @@
     ],
     "timestamp": "Mar/24/2016 02:50"
   },
+  "CF16908969": {
+    "contest_id": 100490,
+    "language": "GNU C++11",
+    "path": "codeforces/100490/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Approximation",
+    "problem_url": "https://codeforces.com/gym/100490",
+    "submission_id": "CF16908969",
+    "submission_url": "https://codeforces.com/gym/100490/submission/16908969",
+    "tags": [],
+    "timestamp": "Mar/24/2016 23:36"
+  },
   "CF16910108": {
     "contest_id": 100490,
     "language": "GNU C++11",
