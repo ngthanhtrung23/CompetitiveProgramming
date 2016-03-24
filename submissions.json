@@ -14513,6 +14513,18 @@
     ],
     "timestamp": "Mar/24/2016 02:50"
   },
+  "CF16910108": {
+    "contest_id": 100490,
+    "language": "GNU C++11",
+    "path": "codeforces/100490/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Jackpot",
+    "problem_url": "https://codeforces.com/gym/100490",
+    "submission_id": "CF16910108",
+    "submission_url": "https://codeforces.com/gym/100490/submission/16910108",
+    "tags": [],
+    "timestamp": "Mar/25/2016 00:49"
+  },
   "CF16911342": {
     "contest_id": 100490,
     "language": "GNU C++11",
