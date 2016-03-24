@@ -14513,6 +14513,18 @@
     ],
     "timestamp": "Mar/24/2016 02:50"
   },
+  "CF16907495": {
+    "contest_id": 100490,
+    "language": "GNU C++11",
+    "path": "codeforces/100490/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Duel",
+    "problem_url": "https://codeforces.com/gym/100490",
+    "submission_id": "CF16907495",
+    "submission_url": "https://codeforces.com/gym/100490/submission/16907495",
+    "tags": [],
+    "timestamp": "Mar/24/2016 22:12"
+  },
   "CF16907598": {
     "contest_id": 100490,
     "language": "GNU C++11",
