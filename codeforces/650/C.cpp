@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#define int long long
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
 #define REP(i,a) for(int i=0,_a=(a); i < _a; ++i)
@@ -14,7 +13,7 @@
 #define SZ(x) ((int) (x).size())
 using namespace std;
 
-const int MN = 1000111;
+const int MN = 2000111;
 int m, n, mn, a[MN];
 int lab[MN];
 struct DSU {
@@ -43,13 +42,11 @@ int row[MN], col[MN];
 
 vector<int> ls[MN];
 
-#undef int
 int main() {
-#define int long long
     ios :: sync_with_stdio(0); cin.tie(0);
-    while (scanf("%lld%lld", &m, &n) == 2) {
+    while (scanf("%d%d", &m, &n) == 2) {
         mn = m * n;
-        REP(i,mn) scanf("%lld", &a[i]);
+        REP(i,mn) scanf("%d", &a[i]);
         DSU dsu; dsu.init(mn);
         // for each row, connect equal numbers
         REP(i,m) {
@@ -111,9 +108,6 @@ int main() {
             }
         }
         // fill the empty positions
-        for(int i = 0; i < mn; i += n) {
-            REP(j,n) printf("%lld ", res[i+j]);
-            puts("");
-        }
+        REP(i,mn) printf("%d ", res[i]);
     }
 }
