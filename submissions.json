@@ -8254,6 +8254,21 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF16999617": {
+    "contest_id": 657,
+    "language": "GNU C++11",
+    "path": "codeforces/657/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bear and Polynomials",
+    "problem_url": "https://codeforces.com/contest/657/problem/B",
+    "submission_id": "CF16999617",
+    "submission_url": "https://codeforces.com/contest/657/submission/16999617",
+    "tags": [
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Mar/29/2016 01:35"
+  },
   "CF17023821": {
     "contest_id": 639,
     "language": "GNU C++11",
