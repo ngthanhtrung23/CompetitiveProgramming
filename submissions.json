@@ -14852,6 +14852,18 @@
     ],
     "timestamp": "Mar/29/2016 01:35"
   },
+  "CF17021666": {
+    "contest_id": 100942,
+    "language": "GNU C++11",
+    "path": "codeforces/100942/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Synonymous Words Number System ",
+    "problem_url": "https://codeforces.com/gym/100942",
+    "submission_id": "CF17021666",
+    "submission_url": "https://codeforces.com/gym/100942/submission/17021666",
+    "tags": [],
+    "timestamp": "Mar/29/2016 23:02"
+  },
   "CF17022152": {
     "contest_id": 100942,
     "language": "GNU C++11",
