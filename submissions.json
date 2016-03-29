@@ -14852,6 +14852,18 @@
     ],
     "timestamp": "Mar/29/2016 01:35"
   },
+  "CF17022605": {
+    "contest_id": 100942,
+    "language": "GNU C++11",
+    "path": "codeforces/100942/B.cpp",
+    "problem_index": "B",
+    "problem_name": "High-Speed Pedestrian walkway 1.0",
+    "problem_url": "https://codeforces.com/gym/100942",
+    "submission_id": "CF17022605",
+    "submission_url": "https://codeforces.com/gym/100942/submission/17022605",
+    "tags": [],
+    "timestamp": "Mar/30/2016 00:10"
+  },
   "CF17023177": {
     "contest_id": 100942,
     "language": "GNU C++11",
