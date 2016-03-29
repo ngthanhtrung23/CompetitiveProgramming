@@ -14852,6 +14852,18 @@
     ],
     "timestamp": "Mar/29/2016 01:35"
   },
+  "CF17021430": {
+    "contest_id": 100942,
+    "language": "GNU C++11",
+    "path": "codeforces/100942/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Three machines ",
+    "problem_url": "https://codeforces.com/gym/100942",
+    "submission_id": "CF17021430",
+    "submission_url": "https://codeforces.com/gym/100942/submission/17021430",
+    "tags": [],
+    "timestamp": "Mar/29/2016 22:45"
+  },
   "CF17021666": {
     "contest_id": 100942,
     "language": "GNU C++11",
