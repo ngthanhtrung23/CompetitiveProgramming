@@ -14852,6 +14852,18 @@
     ],
     "timestamp": "Mar/29/2016 01:35"
   },
+  "CF17020362": {
+    "contest_id": 100942,
+    "language": "GNU C++11",
+    "path": "codeforces/100942/F.cpp",
+    "problem_index": "F",
+    "problem_name": "GCD and LCM",
+    "problem_url": "https://codeforces.com/gym/100942",
+    "submission_id": "CF17020362",
+    "submission_url": "https://codeforces.com/gym/100942/submission/17020362",
+    "tags": [],
+    "timestamp": "Mar/29/2016 21:34"
+  },
   "CF17020388": {
     "contest_id": 100942,
     "language": "GNU C++11",
