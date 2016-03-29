@@ -14852,6 +14852,18 @@
     ],
     "timestamp": "Mar/29/2016 01:35"
   },
+  "CF17020388": {
+    "contest_id": 100942,
+    "language": "GNU C++11",
+    "path": "codeforces/100942/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Pots",
+    "problem_url": "https://codeforces.com/gym/100942",
+    "submission_id": "CF17020388",
+    "submission_url": "https://codeforces.com/gym/100942/submission/17020388",
+    "tags": [],
+    "timestamp": "Mar/29/2016 21:35"
+  },
   "CF17020543": {
     "contest_id": 100942,
     "language": "GNU C++11",
