@@ -8254,6 +8254,23 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF17051514": {
+    "contest_id": 659,
+    "language": "GNU C++11",
+    "path": "codeforces/659/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Fence Divercity",
+    "problem_url": "https://codeforces.com/contest/659/problem/G",
+    "submission_id": "CF17051514",
+    "submission_url": "https://codeforces.com/contest/659/submission/17051514",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Mar/31/2016 01:27"
+  },
   "CF17059175": {
     "contest_id": 659,
     "language": "GNU C++11",
