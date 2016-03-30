@@ -8254,6 +8254,25 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF17044825": {
+    "contest_id": 659,
+    "language": "GNU C++11",
+    "path": "codeforces/659/E.cpp",
+    "problem_index": "E",
+    "problem_name": "New Reform",
+    "problem_url": "https://codeforces.com/contest/659/problem/E",
+    "submission_id": "CF17044825",
+    "submission_url": "https://codeforces.com/contest/659/submission/17044825",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Mar/31/2016 00:42"
+  },
   "CF17051514": {
     "contest_id": 659,
     "language": "GNU C++11",
