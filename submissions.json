@@ -15020,6 +15020,18 @@
     ],
     "timestamp": "Mar/31/2016 03:24"
   },
+  "CF17077930": {
+    "contest_id": 100491,
+    "language": "GNU C++11",
+    "path": "codeforces/100491/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Arbitrage",
+    "problem_url": "https://codeforces.com/gym/100491",
+    "submission_id": "CF17077930",
+    "submission_url": "https://codeforces.com/gym/100491/submission/17077930",
+    "tags": [],
+    "timestamp": "Apr/01/2016 00:38"
+  },
   "CF17079799": {
     "contest_id": 171,
     "language": "Python 2",
