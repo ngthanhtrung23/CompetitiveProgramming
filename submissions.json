@@ -8254,6 +8254,22 @@
     ],
     "timestamp": "May/06/2012 12:07"
   },
+  "CF17097279": {
+    "contest_id": 656,
+    "language": "GNU C++11",
+    "path": "codeforces/656/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Scrambled",
+    "problem_url": "https://codeforces.com/contest/656/problem/B",
+    "submission_id": "CF17097279",
+    "submission_url": "https://codeforces.com/contest/656/submission/17097279",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Apr/02/2016 00:09"
+  },
   "CF17100965": {
     "contest_id": 656,
     "language": "GNU C++11",
