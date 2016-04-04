@@ -41,6 +41,12 @@ struct Point {
 
     int sqlen() const { return x*x + y*y; }
 };
+bool operator == (const Point& a, const Point& b) {
+    return a.x == b.x && a.y == b.y;
+}
+bool operator != (const Point& a, const Point& b) {
+    return a.x != b.x || a.y != b.y;
+}
 int ccw(const Point &a, const Point &b, const Point &c) {
     int t = (b - a) % (c - a);
     if (t == 0) return 0;
@@ -80,13 +86,13 @@ int main() {
     freopen("average.in", "r", stdin);
     freopen("average.out", "w", stdout);
     while (RI(n) == 1) {
-//        DEBUG(n);
         FOR(i,1,n) a[i].read();
+
         FOR(i,2,n) if (a[i].y < a[1].y || (a[i].y == a[1].y && a[i].x < a[1].x)) swap(a[1], a[i]);
         sort(a+2, a+n+1, cmp);
 
         if (sameLine()) {
-            answer(2*n, n);
+            answer(2, 1);
             continue;
         }
 
@@ -94,7 +100,6 @@ int main() {
         while (last > 2 && ccw(a[1], a[last], a[last-1]) == 0) --last;
         reverse(a+last, a+n+1);
 
-//        FOR(i,1,n) cout << a[i].x << ' ' << a[i].y << "    "; cout << endl;
         FOR(i,n+1,n+n+n) a[i] = a[i-n];
 
         st[1] = 1;
@@ -107,7 +112,8 @@ int main() {
             st[++top] = i;
         }
         while (top >= 2 && ccw(a[st[top-1]], a[st[top]], a[1]) != RE_TRAI) --top;
-//        FOR(i,1,top) cout << a[st[i]].x << ' ' << a[st[i]].y << "    "; cout << endl;
+
+        assert(top >= 3);
 
         int res = top * (n - top);
         st[top+2] = st[2];
@@ -122,15 +128,21 @@ int main() {
             top2 = 2;
             st2[1] = st[turn-2];
             st2[2] = st[turn-1];
-            FOR(i,u,v) if (i % n != st[turn] % n) {
+            FOR(i,u,v) if (a[i] != a[st[turn]]) {
                 while (ccw(a[st2[top2-1]], a[st2[top2]], a[i]) != RE_TRAI) --top2;
+                assert(top2 >= 2);
                 st2[++top2] = i;
             }
-            while (top2 >= 3 && ccw(a[st2[top2-1]], a[st2[top2]], a[st[turn+1]]) != RE_TRAI) --top2;
+            while (top2 >= 3 && ccw(a[st2[top2-1]], a[st2[top2]], a[st[turn+1]]) != RE_TRAI)
+                --top2;
+
+            int cur = top - 1 + top2 - 2;
+            if (cur < 2) cur = 2;
 
 //            cout << "REM " << a[st[turn]].x << ' ' << a[st[turn]].y << endl;
+//            DEBUG(cur);
 
-            res += top - 1 + top2 - 2;
+            res += cur;
         }
 
         swap(a[n], a[1]); --n;
@@ -159,6 +171,6 @@ int main() {
             res += top;
         }
 
-        answer(res, n + 1);
+        answer(res, n+1);
     }
 }

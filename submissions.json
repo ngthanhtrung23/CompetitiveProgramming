@@ -15269,6 +15269,18 @@
     ],
     "timestamp": "May/25/2012 23:36"
   },
+  "CF17161257": {
+    "contest_id": 100492,
+    "language": "GNU C++11",
+    "path": "codeforces/100492/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Average Convex Hull",
+    "problem_url": "https://codeforces.com/gym/100492",
+    "submission_id": "CF17161257",
+    "submission_url": "https://codeforces.com/gym/100492/submission/17161257",
+    "tags": [],
+    "timestamp": "Apr/05/2016 01:01"
+  },
   "CF17161440": {
     "contest_id": 100492,
     "language": "GNU C++11",
