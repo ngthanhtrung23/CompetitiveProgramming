@@ -15254,6 +15254,18 @@
     ],
     "timestamp": "Apr/02/2016 02:48"
   },
+  "CF17159811": {
+    "contest_id": 100492,
+    "language": "GNU C++11",
+    "path": "codeforces/100492/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/gym/100492",
+    "submission_id": "CF17159811",
+    "submission_url": "https://codeforces.com/gym/100492/submission/17159811",
+    "tags": [],
+    "timestamp": "Apr/04/2016 23:09"
+  },
   "CF1715991": {
     "contest_id": 188,
     "language": "Roco",
