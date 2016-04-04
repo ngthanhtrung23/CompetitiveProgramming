@@ -15254,6 +15254,18 @@
     ],
     "timestamp": "Apr/02/2016 02:48"
   },
+  "CF17158583": {
+    "contest_id": 100492,
+    "language": "GNU C++11",
+    "path": "codeforces/100492/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Binary Suffix Array",
+    "problem_url": "https://codeforces.com/gym/100492",
+    "submission_id": "CF17158583",
+    "submission_url": "https://codeforces.com/gym/100492/submission/17158583",
+    "tags": [],
+    "timestamp": "Apr/04/2016 21:48"
+  },
   "CF17158658": {
     "contest_id": 100492,
     "language": "GNU C++11",
