@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17217195": {
+    "contest_id": 100941,
+    "language": "GNU C++11",
+    "path": "codeforces/100941/A.cpp",
+    "problem_index": "A",
+    "problem_name": "You're in the Army Now",
+    "problem_url": "https://codeforces.com/gym/100941",
+    "submission_id": "CF17217195",
+    "submission_url": "https://codeforces.com/gym/100941/submission/17217195",
+    "tags": [],
+    "timestamp": "Apr/08/2016 02:00"
+  },
   "CF17217530": {
     "contest_id": 100941,
     "language": "GNU C++11",
