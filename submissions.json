@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17217530": {
+    "contest_id": 100941,
+    "language": "GNU C++11",
+    "path": "codeforces/100941/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Castle",
+    "problem_url": "https://codeforces.com/gym/100941",
+    "submission_id": "CF17217530",
+    "submission_url": "https://codeforces.com/gym/100941/submission/17217530",
+    "tags": [],
+    "timestamp": "Apr/08/2016 02:32"
+  },
   "CF17253607": {
     "contest_id": 100889,
     "language": "GNU C++",
