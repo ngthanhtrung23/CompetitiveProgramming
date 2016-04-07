@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17216022": {
+    "contest_id": 100941,
+    "language": "GNU C++11",
+    "path": "codeforces/100941/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Princess",
+    "problem_url": "https://codeforces.com/gym/100941",
+    "submission_id": "CF17216022",
+    "submission_url": "https://codeforces.com/gym/100941/submission/17216022",
+    "tags": [],
+    "timestamp": "Apr/08/2016 00:27"
+  },
   "CF17217146": {
     "contest_id": 100941,
     "language": "GNU C++11",
