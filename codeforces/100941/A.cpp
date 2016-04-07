@@ -1,31 +1,39 @@
 #include <bits/stdc++.h>
 using namespace std;
+const int LEN = 5000005;
 
-struct Orc
-{
-  string name;
-  int point;
-  vector <int> priorities;
-};
+int n, m, k, a[200100], point[200200], slen;
+vector <int> id, arm[200100], priorities[200100];
+string name[200200];
+char str[LEN];
 
-int n, m, k, a[100100];
-vector <Orc> orc;
-vector <int> id, arm[100100];
+int gn(int &id) {
+  assert(id < slen);
+  while (id < slen and !isdigit(str[id])) {
+    id++;
+  }
+  int res = 0;
+  while (id < slen and isdigit(str[id])) {
+    res = res * 10 + str[id] - '0';
+    id++;
+  }
+  return res;
+}
 
 bool cmp(int u, int v)
 {
-  return orc[u].point > orc[v].point;
+  return point[u] > point[v];
 }
 
 bool cmpName(int u, int v)
 {
-  string s = orc[u].name, t = orc[v].name;
+  string s = name[u], t = name[v];
   int minLen = min(s.size(), t.size());
   for (int i = 0; i < minLen; i++)
     if (tolower(s[i]) < tolower(t[i])) return 1;
     else if (tolower(s[i]) > tolower(t[i])) return 0;
     else if (s[i] < t[i]) return 1;
-    else if (t[i] < s[i]) return 0;
+    else if (s[i] > t[i]) return 0;
   return s.size() < t.size();
 }
 
@@ -33,48 +41,36 @@ int main()
 {
   freopen("army.in", "r", stdin);
   freopen("army.out", "w", stdout);
-  ios::sync_with_stdio(0);
-  cin.tie(0);
 
-  string s;
-  int point, num, x;
-  cin >> n >> m >> k;
+  scanf("%d%d%d", &n, &m, &k);
   for (int i = 1; i <= m; i++)
-    cin >> a[i];
-  getline(cin, s);
+    scanf("%d", a + i);
+  fgets(str,LEN,stdin);
   for (int i = 0; i < n; i++)
   {
     id.push_back(i);
-    getline(cin, s);
-    for (int j = 0; j < s.size(); j++)
-      if (s[j] >= '0' && s[j] <= '9')
-      {
-        string name = s.substr(0, j);
-        while (name.size() > 1 && name.back() == ' ')
-          name.pop_back();
-        while (name.size() > 1 && name[0] == ' ')
-          name.erase(name.begin());
-        s = s.substr(j);
-        stringstream ss;
-        ss << s;
-        ss >> point;
-        ss >> num;
-        vector <int> p;
-        while (num--)
-        {
-          ss >> x;
-          p.push_back(x);
-        }
-        orc.push_back({name, point, p});
-        break;
-      }
+    fgets(str,LEN,stdin);
+    slen = strlen(str);
+    int pos = 0;
+    int lst = 0;
+    while (pos < slen and !isdigit(str[pos])) {
+      if (str[pos] != ' ') lst = pos;
+      pos++;
+    }
+    point[i] = gn(pos);
+    int num = gn(pos);
+    for (int j = 0; j < num; j++)
+      priorities[i].push_back(gn(pos));
+
+    str[lst+1] = 0;
+    name[i] = string(str);
   }
   
   sort(id.begin(), id.end(), cmp);
   for (int i = 0; i < n; i++)
   {
     int u = id[i];
-    for (auto v : orc[u].priorities)
+    for (auto v : priorities[u])
       if (arm[v].size() < a[v])
       {
         arm[v].push_back(u);
@@ -86,7 +82,7 @@ int main()
   {
     sort(arm[i].begin(), arm[i].end(), cmpName);
     for (auto u : arm[i])
-      cout << orc[u].name << '\n';
+      cout << name[u] << '\n';
     cout << '\n';
   }
 }
