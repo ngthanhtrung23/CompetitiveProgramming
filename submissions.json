@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17253982": {
+    "contest_id": 100889,
+    "language": "GNU C++11",
+    "path": "codeforces/100889/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Gift Pack",
+    "problem_url": "https://codeforces.com/gym/100889",
+    "submission_id": "CF17253982",
+    "submission_url": "https://codeforces.com/gym/100889/submission/17253982",
+    "tags": [],
+    "timestamp": "Apr/09/2016 23:08"
+  },
   "CF17254268": {
     "contest_id": 100889,
     "language": "GNU C++11",
