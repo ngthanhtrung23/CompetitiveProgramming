@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 #define int long long
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
@@ -45,18 +46,15 @@ Elem operator + (const Elem& a, const Elem& b) {
 
 struct Matrix {
     Elem x[155][155];
-} c, I, res, b2;
-
+} c, I, res;
 int n, m, k;
 
 Matrix operator * (const Matrix& a, const Matrix& b) {
     Matrix res;
     REP(i,n) REP(j,n) res.x[i][j] = Elem(INF, 0);
 
-    REP(i,n) REP(j,n) b2.x[i][j] = b.x[j][i];
-
-    REP(i,n) REP(j,n) REP(k,n)
-        res.x[i][j] = res.x[i][j] + (a.x[i][k] * b2.x[j][k]);
+    REP(i,n) REP(k,n) REP(j,n)
+        res.x[i][j] = res.x[i][j] + (a.x[i][k] * b.x[k][j]);
     return res;
 }
 
