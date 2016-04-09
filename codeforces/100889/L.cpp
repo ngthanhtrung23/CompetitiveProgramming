@@ -53,7 +53,7 @@ Matrix operator * (const Matrix& a, const Matrix& b) {
     Matrix res;
     REP(i,n) REP(j,n) res.x[i][j] = Elem(INF, 0);
 
-    REP(i,n) REP(k,n) REP(j,n)
+    REP(i,n) REP(j,n) REP(k,n)
         res.x[i][j] = res.x[i][j] + (a.x[i][k] * b.x[k][j]);
     return res;
 }
