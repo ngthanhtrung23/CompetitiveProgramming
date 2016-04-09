@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17256551": {
+    "contest_id": 100889,
+    "language": "GNU C++11",
+    "path": "codeforces/100889/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Hitting Points",
+    "problem_url": "https://codeforces.com/gym/100889",
+    "submission_id": "CF17256551",
+    "submission_url": "https://codeforces.com/gym/100889/submission/17256551",
+    "tags": [],
+    "timestamp": "Apr/10/2016 03:27"
+  },
   "CF17257099": {
     "contest_id": 660,
     "language": "GNU C++11",
