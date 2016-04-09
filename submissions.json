@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17254328": {
+    "contest_id": 100889,
+    "language": "GNU C++",
+    "path": "codeforces/100889/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Flipping Rectangles",
+    "problem_url": "https://codeforces.com/gym/100889",
+    "submission_id": "CF17254328",
+    "submission_url": "https://codeforces.com/gym/100889/submission/17254328",
+    "tags": [],
+    "timestamp": "Apr/09/2016 23:38"
+  },
   "CF17254567": {
     "contest_id": 100889,
     "language": "GNU C++11",
