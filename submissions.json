@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17253792": {
+    "contest_id": 100889,
+    "language": "GNU C++11",
+    "path": "codeforces/100889/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dicy Numbers",
+    "problem_url": "https://codeforces.com/gym/100889",
+    "submission_id": "CF17253792",
+    "submission_url": "https://codeforces.com/gym/100889/submission/17253792",
+    "tags": [],
+    "timestamp": "Apr/09/2016 22:51"
+  },
   "CF17253903": {
     "contest_id": 100889,
     "language": "GNU C++",
