@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17255425": {
+    "contest_id": 100889,
+    "language": "GNU C++11",
+    "path": "codeforces/100889/I.cpp",
+    "problem_index": "I",
+    "problem_name": "iChandu",
+    "problem_url": "https://codeforces.com/gym/100889",
+    "submission_id": "CF17255425",
+    "submission_url": "https://codeforces.com/gym/100889/submission/17255425",
+    "tags": [],
+    "timestamp": "Apr/10/2016 01:19"
+  },
   "CF17255968": {
     "contest_id": 100889,
     "language": "GNU C++11",
