@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17254581": {
+    "contest_id": 100889,
+    "language": "GNU C++11",
+    "path": "codeforces/100889/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Lazy Mayor",
+    "problem_url": "https://codeforces.com/gym/100889",
+    "submission_id": "CF17254581",
+    "submission_url": "https://codeforces.com/gym/100889/submission/17254581",
+    "tags": [],
+    "timestamp": "Apr/10/2016 00:00"
+  },
   "CF17255425": {
     "contest_id": 100889,
     "language": "GNU C++11",
