@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17254268": {
+    "contest_id": 100889,
+    "language": "GNU C++11",
+    "path": "codeforces/100889/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Chunin Exam",
+    "problem_url": "https://codeforces.com/gym/100889",
+    "submission_id": "CF17254268",
+    "submission_url": "https://codeforces.com/gym/100889/submission/17254268",
+    "tags": [],
+    "timestamp": "Apr/09/2016 23:33"
+  },
   "CF17254328": {
     "contest_id": 100889,
     "language": "GNU C++",
