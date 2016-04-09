@@ -15383,6 +15383,18 @@
     ],
     "timestamp": "May/26/2012 00:49"
   },
+  "CF17255968": {
+    "contest_id": 100889,
+    "language": "GNU C++11",
+    "path": "codeforces/100889/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Jittery Roads",
+    "problem_url": "https://codeforces.com/gym/100889",
+    "submission_id": "CF17255968",
+    "submission_url": "https://codeforces.com/gym/100889/submission/17255968",
+    "tags": [],
+    "timestamp": "Apr/10/2016 02:09"
+  },
   "CF17256551": {
     "contest_id": 100889,
     "language": "GNU C++11",
