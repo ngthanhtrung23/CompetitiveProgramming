@@ -15413,6 +15413,18 @@
     ],
     "timestamp": "May/27/2012 23:41"
   },
+  "CF17261476": {
+    "contest_id": 100962,
+    "language": "GNU C++11",
+    "path": "codeforces/100962/A.cpp",
+    "problem_index": "A",
+    "problem_name": "ABBA",
+    "problem_url": "https://codeforces.com/gym/100962",
+    "submission_id": "CF17261476",
+    "submission_url": "https://codeforces.com/gym/100962/submission/17261476",
+    "tags": [],
+    "timestamp": "Apr/10/2016 16:09"
+  },
   "CF17261983": {
     "contest_id": 100962,
     "language": "GNU C++11",
