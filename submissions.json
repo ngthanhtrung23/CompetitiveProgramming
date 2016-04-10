@@ -8398,6 +8398,21 @@
     ],
     "timestamp": "May/27/2012 23:41"
   },
+  "CF17268782": {
+    "contest_id": 661,
+    "language": "J",
+    "path": "codeforces/661/C.ijs",
+    "problem_index": "C",
+    "problem_name": "Array Sum",
+    "problem_url": "https://codeforces.com/contest/661/problem/C",
+    "submission_id": "CF17268782",
+    "submission_url": "https://codeforces.com/contest/661/submission/17268782",
+    "tags": [
+      "*special problem",
+      "*2000"
+    ],
+    "timestamp": "Apr/11/2016 01:44"
+  },
   "CF17269042": {
     "contest_id": 661,
     "language": "J",
