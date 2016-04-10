@@ -15413,6 +15413,18 @@
     ],
     "timestamp": "May/27/2012 23:41"
   },
+  "CF17262342": {
+    "contest_id": 100962,
+    "language": "GNU C++11",
+    "path": "codeforces/100962/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Elvis Presley",
+    "problem_url": "https://codeforces.com/gym/100962",
+    "submission_id": "CF17262342",
+    "submission_url": "https://codeforces.com/gym/100962/submission/17262342",
+    "tags": [],
+    "timestamp": "Apr/10/2016 17:26"
+  },
   "CF17262442": {
     "contest_id": 100962,
     "language": "GNU C++11",
