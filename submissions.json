@@ -15413,6 +15413,18 @@
     ],
     "timestamp": "May/27/2012 23:41"
   },
+  "CF17263110": {
+    "contest_id": 100962,
+    "language": "GNU C++11",
+    "path": "codeforces/100962/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Mr. Credo",
+    "problem_url": "https://codeforces.com/gym/100962",
+    "submission_id": "CF17263110",
+    "submission_url": "https://codeforces.com/gym/100962/submission/17263110",
+    "tags": [],
+    "timestamp": "Apr/10/2016 18:28"
+  },
   "CF17263159": {
     "contest_id": 100962,
     "language": "GNU C++11",
