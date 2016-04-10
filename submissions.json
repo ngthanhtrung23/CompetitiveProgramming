@@ -15413,6 +15413,18 @@
     ],
     "timestamp": "May/27/2012 23:41"
   },
+  "CF17261983": {
+    "contest_id": 100962,
+    "language": "GNU C++11",
+    "path": "codeforces/100962/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Jimi Hendrix",
+    "problem_url": "https://codeforces.com/gym/100962",
+    "submission_id": "CF17261983",
+    "submission_url": "https://codeforces.com/gym/100962/submission/17261983",
+    "tags": [],
+    "timestamp": "Apr/10/2016 16:54"
+  },
   "CF17262342": {
     "contest_id": 100962,
     "language": "GNU C++11",
