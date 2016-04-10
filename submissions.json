@@ -15413,6 +15413,18 @@
     ],
     "timestamp": "May/27/2012 23:41"
   },
+  "CF17263159": {
+    "contest_id": 100962,
+    "language": "GNU C++11",
+    "path": "codeforces/100962/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Green Day",
+    "problem_url": "https://codeforces.com/gym/100962",
+    "submission_id": "CF17263159",
+    "submission_url": "https://codeforces.com/gym/100962/submission/17263159",
+    "tags": [],
+    "timestamp": "Apr/10/2016 18:32"
+  },
   "CF17264042": {
     "contest_id": 100962,
     "language": "GNU C++11",
