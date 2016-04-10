@@ -8398,6 +8398,21 @@
     ],
     "timestamp": "May/27/2012 23:41"
   },
+  "CF17268521": {
+    "contest_id": 661,
+    "language": "J",
+    "path": "codeforces/661/B.ijs",
+    "problem_index": "B",
+    "problem_name": "Seasons",
+    "problem_url": "https://codeforces.com/contest/661/problem/B",
+    "submission_id": "CF17268521",
+    "submission_url": "https://codeforces.com/contest/661/submission/17268521",
+    "tags": [
+      "*special problem",
+      "*1900"
+    ],
+    "timestamp": "Apr/11/2016 01:31"
+  },
   "CF17268782": {
     "contest_id": 661,
     "language": "J",
