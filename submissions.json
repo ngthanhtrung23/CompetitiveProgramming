@@ -15533,6 +15533,18 @@
     ],
     "timestamp": "Apr/11/2016 02:49"
   },
+  "CF17279051": {
+    "contest_id": 100923,
+    "language": "GNU C++11",
+    "path": "codeforces/100923/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Por Costel and the Algorithm",
+    "problem_url": "https://codeforces.com/gym/100923",
+    "submission_id": "CF17279051",
+    "submission_url": "https://codeforces.com/gym/100923/submission/17279051",
+    "tags": [],
+    "timestamp": "Apr/11/2016 22:14"
+  },
   "CF17279348": {
     "contest_id": 100923,
     "language": "GNU C++11",
