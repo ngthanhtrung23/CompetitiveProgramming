@@ -15533,6 +15533,18 @@
     ],
     "timestamp": "Apr/11/2016 02:49"
   },
+  "CF17280590": {
+    "contest_id": 100923,
+    "language": "GNU C++11",
+    "path": "codeforces/100923/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Por Costel and the Censorship Committee",
+    "problem_url": "https://codeforces.com/gym/100923",
+    "submission_id": "CF17280590",
+    "submission_url": "https://codeforces.com/gym/100923/submission/17280590",
+    "tags": [],
+    "timestamp": "Apr/12/2016 00:15"
+  },
   "CF17280949": {
     "contest_id": 100923,
     "language": "GNU C++11",
