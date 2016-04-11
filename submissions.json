@@ -15533,6 +15533,18 @@
     ],
     "timestamp": "Apr/11/2016 02:49"
   },
+  "CF17280949": {
+    "contest_id": 100923,
+    "language": "GNU C++11",
+    "path": "codeforces/100923/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Por Costel and the Alien Invasion",
+    "problem_url": "https://codeforces.com/gym/100923",
+    "submission_id": "CF17280949",
+    "submission_url": "https://codeforces.com/gym/100923/submission/17280949",
+    "tags": [],
+    "timestamp": "Apr/12/2016 00:48"
+  },
   "CF17281148": {
     "contest_id": 100923,
     "language": "GNU C++11",
