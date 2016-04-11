@@ -15533,6 +15533,18 @@
     ],
     "timestamp": "Apr/11/2016 02:49"
   },
+  "CF17278755": {
+    "contest_id": 100923,
+    "language": "GNU C++11",
+    "path": "codeforces/100923/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Por Costel and the Semipalindromes",
+    "problem_url": "https://codeforces.com/gym/100923",
+    "submission_id": "CF17278755",
+    "submission_url": "https://codeforces.com/gym/100923/submission/17278755",
+    "tags": [],
+    "timestamp": "Apr/11/2016 21:52"
+  },
   "CF17278888": {
     "contest_id": 100923,
     "language": "GNU C++11",
