@@ -15533,6 +15533,18 @@
     ],
     "timestamp": "Apr/11/2016 02:49"
   },
+  "CF17281148": {
+    "contest_id": 100923,
+    "language": "GNU C++11",
+    "path": "codeforces/100923/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Por Costel and Bujor",
+    "problem_url": "https://codeforces.com/gym/100923",
+    "submission_id": "CF17281148",
+    "submission_url": "https://codeforces.com/gym/100923/submission/17281148",
+    "tags": [],
+    "timestamp": "Apr/12/2016 01:06"
+  },
   "CF17281157": {
     "contest_id": 100923,
     "language": "GNU C++11",

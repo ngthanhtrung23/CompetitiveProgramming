@@ -23,10 +23,12 @@ int main()
     for (int j = 0; j < n; j++)
     {
       int row = -1;
+      double best = EPS;
       for (int i = 0; i < n; i++)
-        if (used[i] < 0 && fabs(a[i][j]) > EPS)
+        if (used[i] < 0 && fabs(a[i][j]) > best)
         {
           row = i;
+          best = fabs(a[i][j]);
           break;
         }
 
