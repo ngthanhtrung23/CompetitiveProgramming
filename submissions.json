@@ -15533,6 +15533,18 @@
     ],
     "timestamp": "Apr/11/2016 02:49"
   },
+  "CF17280518": {
+    "contest_id": 100923,
+    "language": "GNU C++11",
+    "path": "codeforces/100923/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Por Costel and Pinball",
+    "problem_url": "https://codeforces.com/gym/100923",
+    "submission_id": "CF17280518",
+    "submission_url": "https://codeforces.com/gym/100923/submission/17280518",
+    "tags": [],
+    "timestamp": "Apr/12/2016 00:09"
+  },
   "CF17280590": {
     "contest_id": 100923,
     "language": "GNU C++11",
