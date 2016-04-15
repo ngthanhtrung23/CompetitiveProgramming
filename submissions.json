@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17328269": {
+    "contest_id": 100960,
+    "language": "GNU C++11",
+    "path": "codeforces/100960/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Garland Checking",
+    "problem_url": "https://codeforces.com/gym/100960",
+    "submission_id": "CF17328269",
+    "submission_url": "https://codeforces.com/gym/100960/submission/17328269",
+    "tags": [],
+    "timestamp": "Apr/15/2016 22:33"
+  },
   "CF17328470": {
     "contest_id": 100960,
     "language": "GNU C++11",
