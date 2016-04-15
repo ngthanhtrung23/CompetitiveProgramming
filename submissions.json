@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17330742": {
+    "contest_id": 100960,
+    "language": "GNU C++11",
+    "path": "codeforces/100960/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Cryptographic Argument",
+    "problem_url": "https://codeforces.com/gym/100960",
+    "submission_id": "CF17330742",
+    "submission_url": "https://codeforces.com/gym/100960/submission/17330742",
+    "tags": [],
+    "timestamp": "Apr/16/2016 02:36"
+  },
   "CF17330967": {
     "contest_id": 100960,
     "language": "GNU C++11",
