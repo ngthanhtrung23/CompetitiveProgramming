@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17330967": {
+    "contest_id": 100960,
+    "language": "GNU C++11",
+    "path": "codeforces/100960/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Prevent a Galactic War!",
+    "problem_url": "https://codeforces.com/gym/100960",
+    "submission_id": "CF17330967",
+    "submission_url": "https://codeforces.com/gym/100960/submission/17330967",
+    "tags": [],
+    "timestamp": "Apr/16/2016 02:55"
+  },
   "CF17340680": {
     "contest_id": 100965,
     "language": "GNU C++11",
