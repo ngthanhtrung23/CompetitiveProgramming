@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17328470": {
+    "contest_id": 100960,
+    "language": "GNU C++11",
+    "path": "codeforces/100960/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Forcefield",
+    "problem_url": "https://codeforces.com/gym/100960",
+    "submission_id": "CF17328470",
+    "submission_url": "https://codeforces.com/gym/100960/submission/17328470",
+    "tags": [],
+    "timestamp": "Apr/15/2016 22:46"
+  },
   "CF17328660": {
     "contest_id": 100960,
     "language": "GNU C++11",
