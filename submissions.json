@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17340680": {
+    "contest_id": 100965,
+    "language": "GNU C++11",
+    "path": "codeforces/100965/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Cards",
+    "problem_url": "https://codeforces.com/gym/100965",
+    "submission_id": "CF17340680",
+    "submission_url": "https://codeforces.com/gym/100965/submission/17340680",
+    "tags": [],
+    "timestamp": "Apr/16/2016 21:09"
+  },
   "CF17341703": {
     "contest_id": 100965,
     "language": "GNU C++11",
