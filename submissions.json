@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17341703": {
+    "contest_id": 100965,
+    "language": "GNU C++11",
+    "path": "codeforces/100965/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Alpinism",
+    "problem_url": "https://codeforces.com/gym/100965",
+    "submission_id": "CF17341703",
+    "submission_url": "https://codeforces.com/gym/100965/submission/17341703",
+    "tags": [],
+    "timestamp": "Apr/16/2016 22:33"
+  },
   "CF17359887": {
     "contest_id": 100971,
     "language": "GNU C++11",
