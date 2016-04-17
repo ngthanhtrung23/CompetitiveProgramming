@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17359942": {
+    "contest_id": 100971,
+    "language": "GNU C++11",
+    "path": "codeforces/100971/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Triangles",
+    "problem_url": "https://codeforces.com/gym/100971",
+    "submission_id": "CF17359942",
+    "submission_url": "https://codeforces.com/gym/100971/submission/17359942",
+    "tags": [],
+    "timestamp": "Apr/17/2016 16:14"
+  },
   "CF17360006": {
     "contest_id": 100971,
     "language": "GNU C++11",
