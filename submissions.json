@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17362266": {
+    "contest_id": 100971,
+    "language": "GNU C++11",
+    "path": "codeforces/100971/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Robots at Warehouse",
+    "problem_url": "https://codeforces.com/gym/100971",
+    "submission_id": "CF17362266",
+    "submission_url": "https://codeforces.com/gym/100971/submission/17362266",
+    "tags": [],
+    "timestamp": "Apr/17/2016 18:31"
+  },
   "CF17362732": {
     "contest_id": 100971,
     "language": "GNU C++11",
