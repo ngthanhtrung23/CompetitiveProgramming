@@ -8447,6 +8447,24 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17366870": {
+    "contest_id": 663,
+    "language": "GNU C++11",
+    "path": "codeforces/663/B.cpp",
+    "problem_index": "B",
+    "problem_name": "International Olympiad",
+    "problem_url": "https://codeforces.com/contest/663/problem/B",
+    "submission_id": "CF17366870",
+    "submission_url": "https://codeforces.com/contest/663/submission/17366870",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Apr/18/2016 00:30"
+  },
   "CF17483051": {
     "contest_id": 668,
     "language": "GNU C++11",
