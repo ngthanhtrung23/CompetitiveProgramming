@@ -13,99 +13,95 @@
 #define SZ(x) ((int) (x).size())
 using namespace std;
 
-int GI(int& x) {
-    return scanf("%d", &x);
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
 }
-
-struct Node {
-    int add, l, r;
-} nodes[20111000];
-int nNode;
-
-int createNode() {
-    ++nNode;
-    nodes[nNode].l = nodes[nNode].r = 0;
-    nodes[nNode].add = 0;
-    return nNode;
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
 }
 
 const int MN = 200111;
-int n, a[MN], b[MN];
-int ver[MN];
-
-int build(int l, int r) {
-    if (l == r) return createNode();
-
-    int mid = (l + r) >> 1;
-    int cur = createNode();
-
-    nodes[cur].l = build(l, mid);
-    nodes[cur].r = build(mid+1, r);
-}
-
-int update(int old, int l, int r, int u, int v) {
-    if (v < l || r < u) return old;
-    if (u <= l && r <= v) {
-        int res = createNode();
-        nodes[res] = nodes[old];
-        nodes[res].add++;
-        return res;
-    }
-    int mid = (l + r) >> 1;
-    int res = createNode();
-    nodes[res] = nodes[old];
-
-    nodes[res].l = update(nodes[res].l, l, mid, u, v);
-    nodes[res].r = update(nodes[res].r, mid+1, r, u, v);
-    return res;
-}
+int it[MN * 4];
 
 int get(int i, int l, int r, int u) {
-    if (l == r) return nodes[i].add;
-
+    if (l == r) return it[i];
     int mid = (l + r) >> 1;
-    int res = nodes[i].add;
+    int res = it[i];
 
-    if (u <= mid) res += get(nodes[i].l, l, mid, u);
-    else res += get(nodes[i].r, mid+1, r, u);
+    if (u <= mid) res += get(i<<1, l, mid, u);
+    else res += get(i<<1|1, mid+1, r, u);
 
     return res;
 }
+void update(int i, int l, int r, int u, int v) {
+    if (v < l || r < u) return ;
+    if (u <= l && r <= v) {
+        it[i]++;
+        return ;
+    }
+    int mid = (l + r) >> 1;
+    update(i<<1, l, mid, u, v);
+    update(i<<1|1, mid+1, r, u, v);
+}
+
+int ql[MN], qr[MN], qres[MN], qmid[MN];
+int n, a[MN], b[MN];
+
+vector<int> queriesAt[MN];
 
 int main() {
     ios :: sync_with_stdio(0); cin.tie(0);
     cout << (fixed) << setprecision(9);
-    while (GI(n) == 1) {
-        FOR(i,1,n) {
-            GI(a[i]);
-            GI(b[i]);
-        }
-        ver[0] = build(1, n);
-        FOR(i,1,n) {
-            ver[i] = update(ver[i-1], 1, n, a[i], b[i]);
-        }
+    GN(n);
+    FOR(i,1,n) {
+        GN(a[i]);
+        GN(b[i]);
 
-//        cout << "----" << endl;
-//        FOR(i,1,n) {
-//            FOR(j,1,n) cout << get(ver[i], 1, n, j) << ' ';
-//            cout << endl;
-//        }
+        ql[i] = 1, qr[i] = n; qres[i] = n+1;
+    }
+    REP(turn,20) {
+        memset(it, 0, sizeof it);
+        FOR(i,1,n) queriesAt[i].clear();
+
+        int need = 0;
+        FOR(i,1,n) {
+            if (ql[i] > qr[i]) continue;
+            need = 1;
+            qmid[i] = (ql[i] + qr[i]) / 2;
+            queriesAt[qmid[i]].push_back(i);
+        }
+        if (!need) break;
 
         FOR(i,1,n) {
-            if (get(ver[n], 1, n, i) < i) printf("-1 ");
-            else {
-                int l = 1, r = n, res = n;
-                while (l <= r) {
-                    int mid = (l + r) >> 1;
-                    if (get(ver[mid], 1, n, i) >= i) {
-                        res = mid;
-                        r = mid - 1;
-                    }
-                    else l = mid + 1;
+            update(1, 1, n, a[i], b[i]);
+            for(int x : queriesAt[i]) {
+                int t = get(1, 1, n, x);
+                if (t >= x) {
+                    qres[x] = qmid[x];
+                    qr[x] = qmid[x] - 1;
                 }
-                printf("%d ", res);
+                else {
+                    ql[x] = qmid[x] + 1;
+                }
             }
         }
-        puts("");
     }
+    FOR(i,1,n) if (qres[i] == n+1) qres[i] = -1;
+    FOR(i,1,n) printf("%d ", qres[i]);
+    puts("");
 }
