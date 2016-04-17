@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17360961": {
+    "contest_id": 100971,
+    "language": "GNU C++11",
+    "path": "codeforces/100971/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Laying Cables",
+    "problem_url": "https://codeforces.com/gym/100971",
+    "submission_id": "CF17360961",
+    "submission_url": "https://codeforces.com/gym/100971/submission/17360961",
+    "tags": [],
+    "timestamp": "Apr/17/2016 17:12"
+  },
   "CF17361584": {
     "contest_id": 100971,
     "language": "GNU C++11",
