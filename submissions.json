@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17362732": {
+    "contest_id": 100971,
+    "language": "GNU C++11",
+    "path": "codeforces/100971/M.cpp",
+    "problem_index": "M",
+    "problem_name": "Decomposition into Good Strings",
+    "problem_url": "https://codeforces.com/gym/100971",
+    "submission_id": "CF17362732",
+    "submission_url": "https://codeforces.com/gym/100971/submission/17362732",
+    "tags": [],
+    "timestamp": "Apr/17/2016 19:03"
+  },
   "CF17366002": {
     "contest_id": 664,
     "language": "Python 2",
