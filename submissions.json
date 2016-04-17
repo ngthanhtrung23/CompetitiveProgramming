@@ -8447,6 +8447,22 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17366657": {
+    "contest_id": 663,
+    "language": "GNU C++11",
+    "path": "codeforces/663/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Graph Coloring",
+    "problem_url": "https://codeforces.com/contest/663/problem/C",
+    "submission_id": "CF17366657",
+    "submission_url": "https://codeforces.com/contest/663/submission/17366657",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*2200"
+    ],
+    "timestamp": "Apr/18/2016 00:12"
+  },
   "CF17366870": {
     "contest_id": 663,
     "language": "GNU C++11",
