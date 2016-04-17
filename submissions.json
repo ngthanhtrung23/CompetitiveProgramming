@@ -15582,6 +15582,18 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17360006": {
+    "contest_id": 100971,
+    "language": "GNU C++11",
+    "path": "codeforces/100971/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Repair",
+    "problem_url": "https://codeforces.com/gym/100971",
+    "submission_id": "CF17360006",
+    "submission_url": "https://codeforces.com/gym/100971/submission/17360006",
+    "tags": [],
+    "timestamp": "Apr/17/2016 16:17"
+  },
   "CF17360112": {
     "contest_id": 100971,
     "language": "GNU C++11",
