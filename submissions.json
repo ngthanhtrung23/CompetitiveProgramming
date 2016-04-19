@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17390300": {
+    "contest_id": 100761,
+    "language": "GNU C++11",
+    "path": "codeforces/100761/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Be a Smart Raftsman",
+    "problem_url": "https://codeforces.com/gym/100761",
+    "submission_id": "CF17390300",
+    "submission_url": "https://codeforces.com/gym/100761/submission/17390300",
+    "tags": [],
+    "timestamp": "Apr/20/2016 01:07"
+  },
   "CF17390670": {
     "contest_id": 100761,
     "language": "GNU C++11",
