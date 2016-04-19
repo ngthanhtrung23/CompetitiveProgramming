@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17387500": {
+    "contest_id": 100761,
+    "language": "GNU C++11",
+    "path": "codeforces/100761/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Chocolate",
+    "problem_url": "https://codeforces.com/gym/100761",
+    "submission_id": "CF17387500",
+    "submission_url": "https://codeforces.com/gym/100761/submission/17387500",
+    "tags": [],
+    "timestamp": "Apr/19/2016 21:18"
+  },
   "CF17387529": {
     "contest_id": 100761,
     "language": "GNU C++11",
