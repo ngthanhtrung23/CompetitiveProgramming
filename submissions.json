@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17388448": {
+    "contest_id": 100761,
+    "language": "GNU C++11",
+    "path": "codeforces/100761/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Jealous Cucumber",
+    "problem_url": "https://codeforces.com/gym/100761",
+    "submission_id": "CF17388448",
+    "submission_url": "https://codeforces.com/gym/100761/submission/17388448",
+    "tags": [],
+    "timestamp": "Apr/19/2016 22:28"
+  },
   "CF17388804": {
     "contest_id": 100761,
     "language": "GNU C++11",
