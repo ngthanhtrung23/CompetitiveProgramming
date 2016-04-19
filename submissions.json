@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17387811": {
+    "contest_id": 100761,
+    "language": "GNU C++11",
+    "path": "codeforces/100761/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Excursion",
+    "problem_url": "https://codeforces.com/gym/100761",
+    "submission_id": "CF17387811",
+    "submission_url": "https://codeforces.com/gym/100761/submission/17387811",
+    "tags": [],
+    "timestamp": "Apr/19/2016 21:38"
+  },
   "CF17388248": {
     "contest_id": 100761,
     "language": "Java 8",
