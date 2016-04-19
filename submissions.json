@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17388248": {
+    "contest_id": 100761,
+    "language": "Java 8",
+    "path": "codeforces/100761/H.java",
+    "problem_index": "H",
+    "problem_name": "Hero of Our Time",
+    "problem_url": "https://codeforces.com/gym/100761",
+    "submission_id": "CF17388248",
+    "submission_url": "https://codeforces.com/gym/100761/submission/17388248",
+    "tags": [],
+    "timestamp": "Apr/19/2016 22:10"
+  },
   "CF17388287": {
     "contest_id": 100761,
     "language": "GNU C++11",
