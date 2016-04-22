@@ -52,7 +52,7 @@ bool check(int val) {
     DSU dsu;
     dsu.init(n);
 
-    FOR(u,1,min(4LL,n)) FOR(v,1,n) 
+    FOR(u,1,min(8LL,n)) FOR(v,1,n) 
         if (dist(u, v) >= val)
             dsu.merge(u, v);
 
@@ -66,11 +66,19 @@ pair<int,int> getKey(int turn, int i) {
         case 1:
             return make_pair(a[i].first + a[i].second, a[i].first);
         case 2:
-            return make_pair(a[i].first - a[i].second, a[i].first);
+            return make_pair(a[i].first + a[i].second, -a[i].first);
         case 3:
-            return make_pair(-a[i].first + a[i].second, a[i].first);
+            return make_pair(a[i].first - a[i].second, a[i].first);
         case 4:
+            return make_pair(a[i].first - a[i].second, -a[i].first);
+        case 5:
+            return make_pair(-a[i].first + a[i].second, a[i].first);
+        case 6:
+            return make_pair(-a[i].first + a[i].second, -a[i].first);
+        case 7:
             return make_pair(-a[i].first - a[i].second, a[i].first);
+        case 8:
+            return make_pair(-a[i].first - a[i].second, -a[i].first);
     }
 }
 
@@ -86,7 +94,7 @@ int main() {
         }
         random_shuffle(a+1, a+n+1);
 
-        FOR(turn,1,min(4LL,n)) {
+        FOR(turn,1,min(8LL,n)) {
             FOR(i,turn+1,n)
                 if (getKey(turn,turn) > getKey(turn,i))
                     swap(a[turn], a[i]);
