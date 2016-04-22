@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17460749": {
+    "contest_id": 100959,
+    "language": "GNU C++11",
+    "path": "codeforces/100959/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Number Cards",
+    "problem_url": "https://codeforces.com/gym/100959",
+    "submission_id": "CF17460749",
+    "submission_url": "https://codeforces.com/gym/100959/submission/17460749",
+    "tags": [],
+    "timestamp": "Apr/23/2016 01:13"
+  },
   "CF17460968": {
     "contest_id": 100959,
     "language": "GNU C++11",
