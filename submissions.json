@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17459398": {
+    "contest_id": 100959,
+    "language": "GNU C++11",
+    "path": "codeforces/100959/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Ropes",
+    "problem_url": "https://codeforces.com/gym/100959",
+    "submission_id": "CF17459398",
+    "submission_url": "https://codeforces.com/gym/100959/submission/17459398",
+    "tags": [],
+    "timestamp": "Apr/22/2016 23:32"
+  },
   "CF17460749": {
     "contest_id": 100959,
     "language": "GNU C++11",

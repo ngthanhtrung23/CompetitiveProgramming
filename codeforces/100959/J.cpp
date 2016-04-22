@@ -60,7 +60,11 @@ int main() {
             continue;
         }
 
-        int res = gt[z+z] * inv(power(2, z)) % MOD;
+        int res = gt[z+z] * inv(gt[z]) % MOD * inv(gt[z]) % MOD * inv(z+1) % MOD;
+        res = res * inv(power(2,z)) % MOD;
+
+        res = res * gt[z] % MOD;
+        res = res * gt[z+1] % MOD;
 
         FOR(i,x+z-1,x+y+z-2)
             res = res * i % MOD;
