@@ -46,13 +46,24 @@ int main() {
         FOR(i,0,n) f[i][0] = f[0][i] = 1;
 
         FOR(i,1,n) FOR(j,1,n) {
-            f[i][j] = (f[i-1][j] + f[i][j-1]) % MOD;
-            FOR(x,1,eq[i][j]) {
-                f[i][j] = ((f[i][j] - f[i-x][j-x] * (ll) g[x-1]) % MOD + MOD) % MOD;
+            if (a[i] != b[j]) {
+                f[i][j] = (f[i-1][j] + f[i][j-1]) % MOD;
+            }
+            else {
+                int u = eq[i][j];
+
+                if (i == u && j == u) 
+                    f[i][j] = f[i-u][j-u] * (ll) g[u] % MOD;
+
+                FOR(k,0,u) {
+                    if (j > u)
+                        f[i][j] = (f[i][j] + f[i-k][j-u-1] * (ll) dp[u][k]) % MOD;
+
+                    if (i > u)
+                        f[i][j] = (f[i][j] + f[i-u-1][j-k] * (ll) dp[u][k]) % MOD;
+                }
             }
         }
-//        PR(g, n);
-//        FOR(i,1,n) PR(f[i], n);
 
         cout << f[n][n] << endl;
     }
