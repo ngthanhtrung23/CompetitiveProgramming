@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17435677": {
+    "contest_id": 100959,
+    "language": "GNU C++11",
+    "path": "codeforces/100959/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Airports",
+    "problem_url": "https://codeforces.com/gym/100959",
+    "submission_id": "CF17435677",
+    "submission_url": "https://codeforces.com/gym/100959/submission/17435677",
+    "tags": [],
+    "timestamp": "Apr/22/2016 21:59"
+  },
   "CF17436336": {
     "contest_id": 100959,
     "language": "GNU C++11",
