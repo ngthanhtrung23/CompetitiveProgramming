@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17466626": {
+    "contest_id": 100030,
+    "language": "GNU C++11",
+    "path": "codeforces/100030/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Epic Battle",
+    "problem_url": "https://codeforces.com/gym/100030",
+    "submission_id": "CF17466626",
+    "submission_url": "https://codeforces.com/gym/100030/submission/17466626",
+    "tags": [],
+    "timestamp": "Apr/23/2016 16:19"
+  },
   "CF17466629": {
     "contest_id": 100030,
     "language": "GNU C++11",
