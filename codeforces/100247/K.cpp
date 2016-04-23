@@ -86,6 +86,7 @@ int main() {
 
         FORD(i,n,1) {
             fakeUpdate(a[i].b, a[i].c);
+            fakeGet(a[i].b, a[i].c);
         }
         FOR(i,1,n) {
             nodes[i].push_back(1000111000);
