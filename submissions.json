@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17468118": {
+    "contest_id": 100247,
+    "language": "GNU C++11",
+    "path": "codeforces/100247/G.cpp",
+    "problem_index": "G",
+    "problem_name": "City Square",
+    "problem_url": "https://codeforces.com/gym/100247",
+    "submission_id": "CF17468118",
+    "submission_url": "https://codeforces.com/gym/100247/submission/17468118",
+    "tags": [],
+    "timestamp": "Apr/23/2016 18:20"
+  },
   "CF17468176": {
     "contest_id": 100247,
     "language": "GNU C++11",
