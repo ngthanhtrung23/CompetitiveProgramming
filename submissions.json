@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17468502": {
+    "contest_id": 100247,
+    "language": "GNU C++11",
+    "path": "codeforces/100247/L.cpp",
+    "problem_index": "L",
+    "problem_name": "For the Honest Election",
+    "problem_url": "https://codeforces.com/gym/100247",
+    "submission_id": "CF17468502",
+    "submission_url": "https://codeforces.com/gym/100247/submission/17468502",
+    "tags": [],
+    "timestamp": "Apr/23/2016 18:52"
+  },
   "CF17468740": {
     "contest_id": 100247,
     "language": "GNU C++11",
