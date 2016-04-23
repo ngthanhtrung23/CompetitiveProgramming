@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17467765": {
+    "contest_id": 100247,
+    "language": "GNU C++11",
+    "path": "codeforces/100247/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Victor's Research",
+    "problem_url": "https://codeforces.com/gym/100247",
+    "submission_id": "CF17467765",
+    "submission_url": "https://codeforces.com/gym/100247/submission/17467765",
+    "tags": [],
+    "timestamp": "Apr/23/2016 17:47"
+  },
   "CF17467799": {
     "contest_id": 100247,
     "language": "GNU C++11",
