@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17466667": {
+    "contest_id": 100030,
+    "language": "GNU C++11",
+    "path": "codeforces/100030/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Make Your Donation Now",
+    "problem_url": "https://codeforces.com/gym/100030",
+    "submission_id": "CF17466667",
+    "submission_url": "https://codeforces.com/gym/100030/submission/17466667",
+    "tags": [],
+    "timestamp": "Apr/23/2016 16:22"
+  },
   "CF17467434": {
     "contest_id": 100247,
     "language": "GNU C++11",
