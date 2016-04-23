@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17468313": {
+    "contest_id": 100247,
+    "language": "GNU C++11",
+    "path": "codeforces/100247/J.cpp",
+    "problem_index": "J",
+    "problem_name": "The Best Statement",
+    "problem_url": "https://codeforces.com/gym/100247",
+    "submission_id": "CF17468313",
+    "submission_url": "https://codeforces.com/gym/100247/submission/17468313",
+    "tags": [],
+    "timestamp": "Apr/23/2016 18:36"
+  },
   "CF17468502": {
     "contest_id": 100247,
     "language": "GNU C++11",
