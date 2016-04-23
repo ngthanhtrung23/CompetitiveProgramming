@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17468075": {
+    "contest_id": 100247,
+    "language": "GNU C++11",
+    "path": "codeforces/100247/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Battle Fury",
+    "problem_url": "https://codeforces.com/gym/100247",
+    "submission_id": "CF17468075",
+    "submission_url": "https://codeforces.com/gym/100247/submission/17468075",
+    "tags": [],
+    "timestamp": "Apr/23/2016 18:16"
+  },
   "CF17468118": {
     "contest_id": 100247,
     "language": "GNU C++11",
