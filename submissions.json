@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17467725": {
+    "contest_id": 100247,
+    "language": "GNU C++11",
+    "path": "codeforces/100247/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Similar Strings",
+    "problem_url": "https://codeforces.com/gym/100247",
+    "submission_id": "CF17467725",
+    "submission_url": "https://codeforces.com/gym/100247/submission/17467725",
+    "tags": [],
+    "timestamp": "Apr/23/2016 17:44"
+  },
   "CF17467765": {
     "contest_id": 100247,
     "language": "GNU C++11",
