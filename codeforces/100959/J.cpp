@@ -60,7 +60,10 @@ int main() {
             continue;
         }
 
-        int res = gt[n-2] * inv(power(2, z)) % MOD;
+        int res = gt[z+z] * inv(power(2, z)) % MOD;
+
+        FOR(i,x+z-1,x+y+z-2)
+            res = res * i % MOD;
 
         cout << res << endl;
     }
