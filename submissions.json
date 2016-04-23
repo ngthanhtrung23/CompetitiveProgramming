@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17468280": {
+    "contest_id": 100247,
+    "language": "GNU C++11",
+    "path": "codeforces/100247/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Meteor Flow",
+    "problem_url": "https://codeforces.com/gym/100247",
+    "submission_id": "CF17468280",
+    "submission_url": "https://codeforces.com/gym/100247/submission/17468280",
+    "tags": [],
+    "timestamp": "Apr/23/2016 18:33"
+  },
   "CF17468313": {
     "contest_id": 100247,
     "language": "GNU C++11",
