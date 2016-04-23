@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17466225": {
+    "contest_id": 100959,
+    "language": "GNU C++11",
+    "path": "codeforces/100959/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Mirror Rice Cake",
+    "problem_url": "https://codeforces.com/gym/100959",
+    "submission_id": "CF17466225",
+    "submission_url": "https://codeforces.com/gym/100959/submission/17466225",
+    "tags": [],
+    "timestamp": "Apr/23/2016 15:37"
+  },
   "CF17466341": {
     "contest_id": 100959,
     "language": "GNU C++11",
