@@ -33,14 +33,18 @@ int n;
 vector<int> nodes[MN];
 vector<int> f[MN];
 
+void addNode(int x, int y) {
+    nodes[x].push_back(y);
+}
+
 void fakeUpdate(int u, int v) {
     for(int x = u; x <= n; x += x & -x)
-        nodes[x].push_back(v);
+        addNode(x, v);
 }
 
 void fakeGet(int u, int v) {
     for(int x = u; x > 0; x -= x & -x)
-        nodes[x].push_back(v);
+        addNode(x, v);
 }
 
 void update(int u, int v) {
