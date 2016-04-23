@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17468008": {
+    "contest_id": 100247,
+    "language": "GNU C++11",
+    "path": "codeforces/100247/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Of Groups and Rights",
+    "problem_url": "https://codeforces.com/gym/100247",
+    "submission_id": "CF17468008",
+    "submission_url": "https://codeforces.com/gym/100247/submission/17468008",
+    "tags": [],
+    "timestamp": "Apr/23/2016 18:10"
+  },
   "CF17468075": {
     "contest_id": 100247,
     "language": "GNU C++11",
