@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17466644": {
+    "contest_id": 100030,
+    "language": "GNU C++11",
+    "path": "codeforces/100030/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Magic Chains",
+    "problem_url": "https://codeforces.com/gym/100030",
+    "submission_id": "CF17466644",
+    "submission_url": "https://codeforces.com/gym/100030/submission/17466644",
+    "tags": [],
+    "timestamp": "Apr/23/2016 16:20"
+  },
   "CF17466648": {
     "contest_id": 100030,
     "language": "GNU C++11",
