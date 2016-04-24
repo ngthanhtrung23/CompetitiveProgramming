@@ -8447,6 +8447,21 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17486466": {
+    "contest_id": 668,
+    "language": "GNU C++11",
+    "path": "codeforces/668/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Little Artem and Dance",
+    "problem_url": "https://codeforces.com/contest/668/problem/B",
+    "submission_id": "CF17486466",
+    "submission_url": "https://codeforces.com/contest/668/submission/17486466",
+    "tags": [
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Apr/25/2016 00:59"
+  },
   "CF17492317": {
     "contest_id": 668,
     "language": "GNU C++11",
