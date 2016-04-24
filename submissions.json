@@ -15650,6 +15650,18 @@
     ],
     "timestamp": "Apr/18/2016 00:30"
   },
+  "CF17478797": {
+    "contest_id": 100633,
+    "language": "GNU C++11",
+    "path": "codeforces/100633/L.cpp",
+    "problem_index": "L",
+    "problem_name": "The Pool for Lucky Ones",
+    "problem_url": "https://codeforces.com/gym/100633",
+    "submission_id": "CF17478797",
+    "submission_url": "https://codeforces.com/gym/100633/submission/17478797",
+    "tags": [],
+    "timestamp": "Apr/24/2016 18:55"
+  },
   "CF17480386": {
     "contest_id": 100633,
     "language": "GNU C++11",
