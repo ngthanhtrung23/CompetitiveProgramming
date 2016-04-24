@@ -8447,6 +8447,21 @@
     ],
     "timestamp": "May/28/2012 01:22"
   },
+  "CF17483051": {
+    "contest_id": 668,
+    "language": "GNU C++11",
+    "path": "codeforces/668/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Little Artem and Matrix",
+    "problem_url": "https://codeforces.com/contest/668/problem/A",
+    "submission_id": "CF17483051",
+    "submission_url": "https://codeforces.com/contest/668/submission/17483051",
+    "tags": [
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Apr/25/2016 00:42"
+  },
   "CF17486466": {
     "contest_id": 668,
     "language": "GNU C++11",
