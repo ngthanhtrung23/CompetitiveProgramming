@@ -15711,6 +15711,18 @@
     ],
     "timestamp": "Apr/26/2016 01:02"
   },
+  "CF17524528": {
+    "contest_id": 100958,
+    "language": "GNU C++11",
+    "path": "codeforces/100958/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Substring Pairs",
+    "problem_url": "https://codeforces.com/gym/100958",
+    "submission_id": "CF17524528",
+    "submission_url": "https://codeforces.com/gym/100958/submission/17524528",
+    "tags": [],
+    "timestamp": "Apr/27/2016 00:06"
+  },
   "CF17525113": {
     "contest_id": 100958,
     "language": "GNU C++11",
