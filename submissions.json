@@ -15711,6 +15711,18 @@
     ],
     "timestamp": "Apr/26/2016 01:02"
   },
+  "CF17526312": {
+    "contest_id": 100958,
+    "language": "GNU C++11",
+    "path": "codeforces/100958/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Dictionary",
+    "problem_url": "https://codeforces.com/gym/100958",
+    "submission_id": "CF17526312",
+    "submission_url": "https://codeforces.com/gym/100958/submission/17526312",
+    "tags": [],
+    "timestamp": "Apr/27/2016 02:46"
+  },
   "CF1754397": {
     "contest_id": 193,
     "language": "GNU C++",
