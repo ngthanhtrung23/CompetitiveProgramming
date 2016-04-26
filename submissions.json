@@ -15711,6 +15711,18 @@
     ],
     "timestamp": "Apr/26/2016 01:02"
   },
+  "CF17522889": {
+    "contest_id": 100958,
+    "language": "GNU C++11",
+    "path": "codeforces/100958/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Clique Coloring",
+    "problem_url": "https://codeforces.com/gym/100958",
+    "submission_id": "CF17522889",
+    "submission_url": "https://codeforces.com/gym/100958/submission/17522889",
+    "tags": [],
+    "timestamp": "Apr/26/2016 22:07"
+  },
   "CF17523503": {
     "contest_id": 100958,
     "language": "GNU C++11",
