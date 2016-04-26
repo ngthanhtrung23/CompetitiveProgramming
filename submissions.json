@@ -15711,6 +15711,18 @@
     ],
     "timestamp": "Apr/26/2016 01:02"
   },
+  "CF17522189": {
+    "contest_id": 100958,
+    "language": "GNU C++",
+    "path": "codeforces/100958/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Manhattan",
+    "problem_url": "https://codeforces.com/gym/100958",
+    "submission_id": "CF17522189",
+    "submission_url": "https://codeforces.com/gym/100958/submission/17522189",
+    "tags": [],
+    "timestamp": "Apr/26/2016 21:28"
+  },
   "CF17522889": {
     "contest_id": 100958,
     "language": "GNU C++11",
