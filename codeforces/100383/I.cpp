@@ -74,5 +74,6 @@ int main() {
             cur = father;
         }
         printf("%lld\n", sumh);
+        break;
     }
 }
