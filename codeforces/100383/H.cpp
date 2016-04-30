@@ -1,19 +1,3 @@
-// Algo: Dynamic Suffix array with Hash
-// For some string S, let:
-// - SA[i] = suffix i --> |S|
-// - LCP[i] = lcp(SA[i], SA[i+1])
-// --> number of distinct substring = sum(|SA[i]| - LCP[i])
-//
-// In the given problem, notice that we only add/remove character at the end
-// --> If we construct suffix array of reverse string at each step, then we only need
-//     to add/remove some suffix. After doing so, we update LCP and calculate result
-//     accordingly.
-// --> Need to maintain dynamic suffix array
-// This can be done using set<Hash>
-// In this set, we maintain index of the suffix array. We can compare 2 indices
-// by using Hash. Note that since we construct suffix array of reverse string, the order
-// of the suffixes are not affected when we add a new character
-
 #include <bits/stdc++.h>
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
 #define FORD(i,a,b) for(int i=(a),_b=(b); i>=_b; --i)
