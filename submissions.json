@@ -15728,6 +15728,18 @@
     ],
     "timestamp": "Jun/03/2012 23:39"
   },
+  "CF17598530": {
+    "contest_id": 100383,
+    "language": "GNU C++11",
+    "path": "codeforces/100383/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Equilateral Polygon",
+    "problem_url": "https://codeforces.com/gym/100383",
+    "submission_id": "CF17598530",
+    "submission_url": "https://codeforces.com/gym/100383/submission/17598530",
+    "tags": [],
+    "timestamp": "May/01/2016 01:22"
+  },
   "CF17598659": {
     "contest_id": 100383,
     "language": "GNU C++",
