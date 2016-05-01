@@ -15760,6 +15760,18 @@
     ],
     "timestamp": "May/01/2016 15:07"
   },
+  "CF17605727": {
+    "contest_id": 100956,
+    "language": "GNU C++11",
+    "path": "codeforces/100956/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Set Intersection",
+    "problem_url": "https://codeforces.com/gym/100956",
+    "submission_id": "CF17605727",
+    "submission_url": "https://codeforces.com/gym/100956/submission/17605727",
+    "tags": [],
+    "timestamp": "May/01/2016 17:15"
+  },
   "CF17605893": {
     "contest_id": 100956,
     "language": "GNU C++11",
