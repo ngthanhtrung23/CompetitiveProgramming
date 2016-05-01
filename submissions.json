@@ -15760,6 +15760,18 @@
     ],
     "timestamp": "May/01/2016 15:07"
   },
+  "CF17607128": {
+    "contest_id": 100956,
+    "language": "GNU C++11",
+    "path": "codeforces/100956/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lines",
+    "problem_url": "https://codeforces.com/gym/100956",
+    "submission_id": "CF17607128",
+    "submission_url": "https://codeforces.com/gym/100956/submission/17607128",
+    "tags": [],
+    "timestamp": "May/01/2016 19:14"
+  },
   "CF17607376": {
     "contest_id": 100956,
     "language": "GNU C++11",
