@@ -15760,6 +15760,18 @@
     ],
     "timestamp": "May/01/2016 15:07"
   },
+  "CF17604674": {
+    "contest_id": 100956,
+    "language": "GNU C++11",
+    "path": "codeforces/100956/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Greedy Game",
+    "problem_url": "https://codeforces.com/gym/100956",
+    "submission_id": "CF17604674",
+    "submission_url": "https://codeforces.com/gym/100956/submission/17604674",
+    "tags": [],
+    "timestamp": "May/01/2016 15:53"
+  },
   "CF17605000": {
     "contest_id": 100956,
     "language": "GNU C++11",
