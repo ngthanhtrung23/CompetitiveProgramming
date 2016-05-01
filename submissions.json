@@ -15760,6 +15760,18 @@
     ],
     "timestamp": "May/01/2016 15:07"
   },
+  "CF17607376": {
+    "contest_id": 100956,
+    "language": "GNU C++11",
+    "path": "codeforces/100956/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Points",
+    "problem_url": "https://codeforces.com/gym/100956",
+    "submission_id": "CF17607376",
+    "submission_url": "https://codeforces.com/gym/100956/submission/17607376",
+    "tags": [],
+    "timestamp": "May/01/2016 19:40"
+  },
   "CF1763424": {
     "contest_id": 193,
     "language": "GNU C++",
