@@ -15778,6 +15778,18 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17722896": {
+    "contest_id": 100876,
+    "language": "GNU C++11",
+    "path": "codeforces/100876/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Farmer's happiness",
+    "problem_url": "https://codeforces.com/gym/100876",
+    "submission_id": "CF17722896",
+    "submission_url": "https://codeforces.com/gym/100876/submission/17722896",
+    "tags": [],
+    "timestamp": "May/06/2016 00:15"
+  },
   "CF17741038": {
     "contest_id": 100876,
     "language": "GNU C++11",
