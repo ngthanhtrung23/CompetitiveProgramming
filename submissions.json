@@ -15778,6 +15778,18 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17720367": {
+    "contest_id": 100876,
+    "language": "GNU C++11",
+    "path": "codeforces/100876/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Data Coding",
+    "problem_url": "https://codeforces.com/gym/100876",
+    "submission_id": "CF17720367",
+    "submission_url": "https://codeforces.com/gym/100876/submission/17720367",
+    "tags": [],
+    "timestamp": "May/05/2016 23:55"
+  },
   "CF17722896": {
     "contest_id": 100876,
     "language": "GNU C++11",
