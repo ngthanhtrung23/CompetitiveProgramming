@@ -15778,6 +15778,18 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17719705": {
+    "contest_id": 100876,
+    "language": "GNU C++11",
+    "path": "codeforces/100876/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Generalized Fibonacci Numbers",
+    "problem_url": "https://codeforces.com/gym/100876",
+    "submission_id": "CF17719705",
+    "submission_url": "https://codeforces.com/gym/100876/submission/17719705",
+    "tags": [],
+    "timestamp": "May/05/2016 22:52"
+  },
   "CF17720092": {
     "contest_id": 100876,
     "language": "GNU C++11",
