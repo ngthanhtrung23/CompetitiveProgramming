@@ -8497,6 +8497,21 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17764154": {
+    "contest_id": 670,
+    "language": "GNU C++11",
+    "path": "codeforces/670/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Game of Robots",
+    "problem_url": "https://codeforces.com/contest/670/problem/B",
+    "submission_id": "CF17764154",
+    "submission_url": "https://codeforces.com/contest/670/submission/17764154",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "May/06/2016 23:19"
+  },
   "CF17766767": {
     "contest_id": 670,
     "language": "GNU C++11",
