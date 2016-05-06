@@ -8497,6 +8497,22 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17766901": {
+    "contest_id": 670,
+    "language": "GNU C++11",
+    "path": "codeforces/670/D2.cpp",
+    "problem_index": "D2",
+    "problem_name": "Magic Powder - 2",
+    "problem_url": "https://codeforces.com/contest/670/problem/D2",
+    "submission_id": "CF17766901",
+    "submission_url": "https://codeforces.com/contest/670/submission/17766901",
+    "tags": [
+      "binary search",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "May/07/2016 03:32"
+  },
   "CF17767010": {
     "contest_id": 670,
     "language": "GNU C++11",
