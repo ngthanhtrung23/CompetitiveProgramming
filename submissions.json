@@ -8497,6 +8497,22 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17788550": {
+    "contest_id": 674,
+    "language": "GNU C++11",
+    "path": "codeforces/674/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Levels and Regions",
+    "problem_url": "https://codeforces.com/contest/674/problem/C",
+    "submission_id": "CF17788550",
+    "submission_url": "https://codeforces.com/contest/674/submission/17788550",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "May/07/2016 23:55"
+  },
   "CF17793850": {
     "contest_id": 674,
     "language": "GNU C++11",
