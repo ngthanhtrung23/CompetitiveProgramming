@@ -15877,6 +15877,18 @@
     ],
     "timestamp": "May/07/2016 03:43"
   },
+  "CF17773941": {
+    "contest_id": 100975,
+    "language": "GNU C++11",
+    "path": "codeforces/100975/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Ellipse and the Line",
+    "problem_url": "https://codeforces.com/gym/100975",
+    "submission_id": "CF17773941",
+    "submission_url": "https://codeforces.com/gym/100975/submission/17773941",
+    "tags": [],
+    "timestamp": "May/07/2016 16:09"
+  },
   "CF17774116": {
     "contest_id": 100975,
     "language": "GNU C++11",
