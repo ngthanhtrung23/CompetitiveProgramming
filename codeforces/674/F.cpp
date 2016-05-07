@@ -454,7 +454,7 @@ int main() {
             ll pi = 1;
             FOR(j,0,min(p,n-1)) {
                 sum = (sum + c[j]*pi) % p32;
-                pi = pi * i % p32;
+                pi = mulMod(pi, i, p32);
             }
             ll x = sum * i % p32;
 
