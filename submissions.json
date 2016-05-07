@@ -8497,6 +8497,23 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17780294": {
+    "contest_id": 674,
+    "language": "GNU C++11",
+    "path": "codeforces/674/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bear and Colors",
+    "problem_url": "https://codeforces.com/contest/674/problem/A",
+    "submission_id": "CF17780294",
+    "submission_url": "https://codeforces.com/contest/674/submission/17780294",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "May/07/2016 23:09"
+  },
   "CF17787141": {
     "contest_id": 674,
     "language": "GNU C++11",
