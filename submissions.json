@@ -15877,6 +15877,18 @@
     ],
     "timestamp": "May/07/2016 03:43"
   },
+  "CF17772878": {
+    "contest_id": 100975,
+    "language": "Python 2",
+    "path": "codeforces/100975/D.py",
+    "problem_index": "D",
+    "problem_name": "Strange Things",
+    "problem_url": "https://codeforces.com/gym/100975",
+    "submission_id": "CF17772878",
+    "submission_url": "https://codeforces.com/gym/100975/submission/17772878",
+    "tags": [],
+    "timestamp": "May/07/2016 15:13"
+  },
   "CF17773033": {
     "contest_id": 100975,
     "language": "GNU C++11",
