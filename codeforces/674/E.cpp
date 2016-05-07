@@ -21,13 +21,18 @@ int GI(ll& x) {
 }
 
 const int MN = 500111;
-const int MAX = 40;
+const int MAX = 36;
 double f[MN][MAX + 5], newf[MN][MAX+5];
 int father[MN];
 
 int main() {
     ios :: sync_with_stdio(0); cin.tie(0);
     cout << (fixed) << setprecision(3);
+//    double res = 0.0;
+//    FOR(i,40,500000) {
+//        res += (i - 1) * pow((double) 0.5, i-1);
+//    }
+//    DEBUG(res);
 
     int q;
     while (scanf("%d", &q) == 1) {
@@ -49,7 +54,7 @@ int main() {
                 v = n; u = father[n];
                 // calculate newf
                 REP(up,MAX) {
-                    FOR(h,up,MAX) {
+                    REP(h,MAX) {
                         newf[u][h] = f[u][h];
                         if (v == n) {
                             if (h == 0) newf[u][h] *= 0.5;
