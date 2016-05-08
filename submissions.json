@@ -24027,6 +24027,18 @@
     "tags": [],
     "timestamp": "May/08/2016 18:20"
   },
+  "CF17808837": {
+    "contest_id": 100952,
+    "language": "GNU C++11",
+    "path": "codeforces/100952/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Time to go back",
+    "problem_url": "https://codeforces.com/gym/100952",
+    "submission_id": "CF17808837",
+    "submission_url": "https://codeforces.com/gym/100952/submission/17808837",
+    "tags": [],
+    "timestamp": "May/08/2016 22:11"
+  },
   "CF17808908": {
     "contest_id": 100952,
     "language": "GNU C++11",
