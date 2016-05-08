@@ -24027,6 +24027,18 @@
     "tags": [],
     "timestamp": "May/08/2016 18:20"
   },
+  "CF17809004": {
+    "contest_id": 100952,
+    "language": "GNU C++11",
+    "path": "codeforces/100952/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Contestants Ranking",
+    "problem_url": "https://codeforces.com/gym/100952",
+    "submission_id": "CF17809004",
+    "submission_url": "https://codeforces.com/gym/100952/submission/17809004",
+    "tags": [],
+    "timestamp": "May/08/2016 22:25"
+  },
   "CF17809050": {
     "contest_id": 100952,
     "language": "GNU C++11",
