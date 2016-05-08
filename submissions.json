@@ -24027,6 +24027,18 @@
     "tags": [],
     "timestamp": "May/08/2016 18:20"
   },
+  "CF17808908": {
+    "contest_id": 100952,
+    "language": "GNU C++11",
+    "path": "codeforces/100952/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Special Palindrome",
+    "problem_url": "https://codeforces.com/gym/100952",
+    "submission_id": "CF17808908",
+    "submission_url": "https://codeforces.com/gym/100952/submission/17808908",
+    "tags": [],
+    "timestamp": "May/08/2016 22:16"
+  },
   "CF17809004": {
     "contest_id": 100952,
     "language": "GNU C++11",
