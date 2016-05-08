@@ -24027,6 +24027,18 @@
     "tags": [],
     "timestamp": "May/08/2016 18:20"
   },
+  "CF17809264": {
+    "contest_id": 100952,
+    "language": "GNU C++11",
+    "path": "codeforces/100952/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Arrange Teams",
+    "problem_url": "https://codeforces.com/gym/100952",
+    "submission_id": "CF17809264",
+    "submission_url": "https://codeforces.com/gym/100952/submission/17809264",
+    "tags": [],
+    "timestamp": "May/08/2016 22:49"
+  },
   "CF17809571": {
     "contest_id": 100952,
     "language": "GNU C++11",
