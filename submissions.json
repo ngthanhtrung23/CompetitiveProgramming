@@ -8497,6 +8497,21 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17803518": {
+    "contest_id": 673,
+    "language": "GNU C++11",
+    "path": "codeforces/673/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bear and Game",
+    "problem_url": "https://codeforces.com/contest/673/problem/A",
+    "submission_id": "CF17803518",
+    "submission_url": "https://codeforces.com/contest/673/submission/17803518",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/08/2016 14:45"
+  },
   "CF17803675": {
     "contest_id": 673,
     "language": "GNU C++11",
