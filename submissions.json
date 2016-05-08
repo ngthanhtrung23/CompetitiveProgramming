@@ -16023,6 +16023,18 @@
     ],
     "timestamp": "May/08/2016 14:55"
   },
+  "CF17805108": {
+    "contest_id": 100866,
+    "language": "GNU C++11",
+    "path": "codeforces/100866/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Battery Upgrade",
+    "problem_url": "https://codeforces.com/gym/100866",
+    "submission_id": "CF17805108",
+    "submission_url": "https://codeforces.com/gym/100866/submission/17805108",
+    "tags": [],
+    "timestamp": "May/08/2016 16:50"
+  },
   "CF17805426": {
     "contest_id": 100866,
     "language": "GNU C++11",
