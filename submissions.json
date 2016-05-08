@@ -16023,6 +16023,18 @@
     ],
     "timestamp": "May/08/2016 14:55"
   },
+  "CF17804887": {
+    "contest_id": 100866,
+    "language": "GNU C++11",
+    "path": "codeforces/100866/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Jack pot",
+    "problem_url": "https://codeforces.com/gym/100866",
+    "submission_id": "CF17804887",
+    "submission_url": "https://codeforces.com/gym/100866/submission/17804887",
+    "tags": [],
+    "timestamp": "May/08/2016 16:33"
+  },
   "CF17805108": {
     "contest_id": 100866,
     "language": "GNU C++11",
