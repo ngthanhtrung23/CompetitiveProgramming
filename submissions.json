@@ -16023,6 +16023,18 @@
     ],
     "timestamp": "May/08/2016 14:55"
   },
+  "CF17804214": {
+    "contest_id": 100866,
+    "language": "GNU C++11",
+    "path": "codeforces/100866/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Fractions",
+    "problem_url": "https://codeforces.com/gym/100866",
+    "submission_id": "CF17804214",
+    "submission_url": "https://codeforces.com/gym/100866/submission/17804214",
+    "tags": [],
+    "timestamp": "May/08/2016 15:38"
+  },
   "CF17804561": {
     "contest_id": 100866,
     "language": "GNU C++11",
