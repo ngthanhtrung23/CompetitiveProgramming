@@ -24027,6 +24027,18 @@
     "tags": [],
     "timestamp": "May/08/2016 18:20"
   },
+  "CF17809571": {
+    "contest_id": 100952,
+    "language": "GNU C++11",
+    "path": "codeforces/100952/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Mancala",
+    "problem_url": "https://codeforces.com/gym/100952",
+    "submission_id": "CF17809571",
+    "submission_url": "https://codeforces.com/gym/100952/submission/17809571",
+    "tags": [],
+    "timestamp": "May/08/2016 23:14"
+  },
   "CF17822704": {
     "contest_id": 100947,
     "language": "GNU C++11",
