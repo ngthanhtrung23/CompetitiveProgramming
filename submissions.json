@@ -8497,6 +8497,22 @@
     ],
     "timestamp": "Jun/04/2012 17:45"
   },
+  "CF17803675": {
+    "contest_id": 673,
+    "language": "GNU C++11",
+    "path": "codeforces/673/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Problems for Round",
+    "problem_url": "https://codeforces.com/contest/673/problem/B",
+    "submission_id": "CF17803675",
+    "submission_url": "https://codeforces.com/contest/673/submission/17803675",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/08/2016 14:55"
+  },
   "CF1783005": {
     "contest_id": 195,
     "language": "GNU C++",
