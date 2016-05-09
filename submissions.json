@@ -16023,6 +16023,18 @@
     ],
     "timestamp": "May/08/2016 14:55"
   },
+  "CF17822741": {
+    "contest_id": 100947,
+    "language": "GNU C++11",
+    "path": "codeforces/100947/F.cpp",
+    "problem_index": "F",
+    "problem_name": "black-white",
+    "problem_url": "https://codeforces.com/gym/100947",
+    "submission_id": "CF17822741",
+    "submission_url": "https://codeforces.com/gym/100947/submission/17822741",
+    "tags": [],
+    "timestamp": "May/10/2016 00:12"
+  },
   "CF17822908": {
     "contest_id": 100947,
     "language": "GNU C++11",
