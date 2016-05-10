@@ -16107,6 +16107,18 @@
     ],
     "timestamp": "Jun/11/2012 17:26"
   },
+  "CF17833691": {
+    "contest_id": 100927,
+    "language": "GNU C++11",
+    "path": "codeforces/100927/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Pareto's Domination",
+    "problem_url": "https://codeforces.com/gym/100927",
+    "submission_id": "CF17833691",
+    "submission_url": "https://codeforces.com/gym/100927/submission/17833691",
+    "tags": [],
+    "timestamp": "May/10/2016 23:18"
+  },
   "CF17833987": {
     "contest_id": 100927,
     "language": "GNU C++11",
