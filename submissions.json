@@ -8581,6 +8581,23 @@
     ],
     "timestamp": "Jun/11/2012 17:26"
   },
+  "CF17865130": {
+    "contest_id": 672,
+    "language": "GNU C++11",
+    "path": "codeforces/672/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Different is Good",
+    "problem_url": "https://codeforces.com/contest/672/problem/B",
+    "submission_id": "CF17865130",
+    "submission_url": "https://codeforces.com/contest/672/submission/17865130",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "May/12/2016 03:51"
+  },
   "CF1787944": {
     "contest_id": 196,
     "language": "GNU C++",
