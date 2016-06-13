@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 #define int long long
 #define FOR(i,a,b) for(int i=(a),_b=(b); i<=_b; ++i)
@@ -12,7 +13,6 @@
 #define ll long long
 #define __builtin_popcount __builtin_popcountll
 #define SZ(x) ((int) (x).size())
-#define double long double
 using namespace std;
 
 double safe_sqrt(double x) {
@@ -41,12 +41,6 @@ struct Hull {
         b.clear();
     }
 
-    void remove() {
-        a.pop_back();
-        b.pop_back();
-        x.pop_back();
-    }
-
     void insert(Line l) {
         if (a.empty()) {
             x.push_back(-INF);
@@ -60,11 +54,11 @@ struct Hull {
                     b.back() = max(b.back(), l.b);
                     return;
                 }
-                assert(l.a > a.back());
-
                 xNew = 1.0 * (b.back() - l.b) / (l.a - a.back());
                 if (xNew < x.back()) {
-                    remove();
+                    a.pop_back();
+                    b.pop_back();
+                    x.pop_back();
                 }
                 else break;
             }
