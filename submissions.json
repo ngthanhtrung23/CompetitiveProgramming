@@ -8963,6 +8963,21 @@
     ],
     "timestamp": "Nov/06/2010 23:58"
   },
+  "CF18477483": {
+    "contest_id": 681,
+    "language": "GNU C++11",
+    "path": "codeforces/681/A.cpp",
+    "problem_index": "A",
+    "problem_name": "A Good Contest",
+    "problem_url": "https://codeforces.com/contest/681/problem/A",
+    "submission_id": "CF18477483",
+    "submission_url": "https://codeforces.com/contest/681/submission/18477483",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/15/2016 03:23"
+  },
   "CF18478093": {
     "contest_id": 681,
     "language": "GNU C++11",
