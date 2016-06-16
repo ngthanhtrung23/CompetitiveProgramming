@@ -8963,6 +8963,21 @@
     ],
     "timestamp": "Nov/06/2010 23:58"
   },
+  "CF18524981": {
+    "contest_id": 683,
+    "language": "Kotlin",
+    "path": "codeforces/683/C.kt",
+    "problem_index": "C",
+    "problem_name": "Symmetric Difference",
+    "problem_url": "https://codeforces.com/contest/683/problem/C",
+    "submission_id": "CF18524981",
+    "submission_url": "https://codeforces.com/contest/683/submission/18524981",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "Jun/17/2016 00:22"
+  },
   "CF18525140": {
     "contest_id": 683,
     "language": "Kotlin",
