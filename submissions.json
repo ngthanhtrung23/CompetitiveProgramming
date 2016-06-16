@@ -8963,6 +8963,21 @@
     ],
     "timestamp": "Nov/06/2010 23:58"
   },
+  "CF18524685": {
+    "contest_id": 683,
+    "language": "Kotlin",
+    "path": "codeforces/683/B.kt",
+    "problem_index": "B",
+    "problem_name": "The Teacher of Physical Education",
+    "problem_url": "https://codeforces.com/contest/683/problem/B",
+    "submission_id": "CF18524685",
+    "submission_url": "https://codeforces.com/contest/683/submission/18524685",
+    "tags": [
+      "*special problem",
+      "*1600"
+    ],
+    "timestamp": "Jun/17/2016 00:14"
+  },
   "CF18524981": {
     "contest_id": 683,
     "language": "Kotlin",
