@@ -1,4 +1,19 @@
 {
+  "CF18526117": {
+    "contest_id": 683,
+    "language": "Kotlin",
+    "path": "codeforces/683/F.kt",
+    "problem_index": "F",
+    "problem_name": "Reformat the String",
+    "problem_url": "https://codeforces.com/contest/683/problem/F",
+    "submission_id": "CF18526117",
+    "submission_url": "https://codeforces.com/contest/683/submission/18526117",
+    "tags": [
+      "*special problem",
+      "*1800"
+    ],
+    "timestamp": "Jun/17/2016 00:50"
+  },
   "CF18526851": {
     "contest_id": 683,
     "language": "Kotlin",
