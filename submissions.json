@@ -1,4 +1,19 @@
 {
+  "CF18528684": {
+    "contest_id": 683,
+    "language": "Kotlin",
+    "path": "codeforces/683/I.kt",
+    "problem_index": "I",
+    "problem_name": "Loader",
+    "problem_url": "https://codeforces.com/contest/683/problem/I",
+    "submission_id": "CF18528684",
+    "submission_url": "https://codeforces.com/contest/683/submission/18528684",
+    "tags": [
+      "*special problem",
+      "*2500"
+    ],
+    "timestamp": "Jun/17/2016 02:11"
+  },
   "CF18552165": {
     "contest_id": 682,
     "language": "GNU C++11",
