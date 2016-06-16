@@ -8963,6 +8963,22 @@
     ],
     "timestamp": "Nov/06/2010 23:58"
   },
+  "CF18524113": {
+    "contest_id": 683,
+    "language": "Kotlin",
+    "path": "codeforces/683/A.kt",
+    "problem_index": "A",
+    "problem_name": "The Check of the Point",
+    "problem_url": "https://codeforces.com/contest/683/problem/A",
+    "submission_id": "CF18524113",
+    "submission_url": "https://codeforces.com/contest/683/submission/18524113",
+    "tags": [
+      "*special problem",
+      "geometry",
+      "*1200"
+    ],
+    "timestamp": "Jun/17/2016 00:02"
+  },
   "CF18524685": {
     "contest_id": 683,
     "language": "Kotlin",
