@@ -1,4 +1,19 @@
 {
+  "CF18526851": {
+    "contest_id": 683,
+    "language": "Kotlin",
+    "path": "codeforces/683/H.kt",
+    "problem_index": "H",
+    "problem_name": "Exchange of Books",
+    "problem_url": "https://codeforces.com/contest/683/problem/H",
+    "submission_id": "CF18526851",
+    "submission_url": "https://codeforces.com/contest/683/submission/18526851",
+    "tags": [
+      "*special problem",
+      "*1900"
+    ],
+    "timestamp": "Jun/17/2016 01:11"
+  },
   "CF18527351": {
     "contest_id": 683,
     "language": "Kotlin",
