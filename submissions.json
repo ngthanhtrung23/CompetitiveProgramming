@@ -8963,6 +8963,22 @@
     ],
     "timestamp": "Nov/06/2010 23:58"
   },
+  "CF18525140": {
+    "contest_id": 683,
+    "language": "Kotlin",
+    "path": "codeforces/683/D.kt",
+    "problem_index": "D",
+    "problem_name": "Chocolate Bar",
+    "problem_url": "https://codeforces.com/contest/683/problem/D",
+    "submission_id": "CF18525140",
+    "submission_url": "https://codeforces.com/contest/683/submission/18525140",
+    "tags": [
+      "*special problem",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jun/17/2016 00:25"
+  },
   "CF18525520": {
     "contest_id": 683,
     "language": "Kotlin",
