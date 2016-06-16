@@ -8963,6 +8963,21 @@
     ],
     "timestamp": "Nov/06/2010 23:58"
   },
+  "CF18525520": {
+    "contest_id": 683,
+    "language": "Kotlin",
+    "path": "codeforces/683/E.kt",
+    "problem_index": "E",
+    "problem_name": "Hammer throwing",
+    "problem_url": "https://codeforces.com/contest/683/problem/E",
+    "submission_id": "CF18525520",
+    "submission_url": "https://codeforces.com/contest/683/submission/18525520",
+    "tags": [
+      "*special problem",
+      "*1800"
+    ],
+    "timestamp": "Jun/17/2016 00:34"
+  },
   "CF18526117": {
     "contest_id": 683,
     "language": "Kotlin",
