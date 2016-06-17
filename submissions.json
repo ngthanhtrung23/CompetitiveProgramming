@@ -1,4 +1,22 @@
 {
+  "CF18558908": {
+    "contest_id": 682,
+    "language": "GNU C++11",
+    "path": "codeforces/682/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Alyona and the Tree",
+    "problem_url": "https://codeforces.com/contest/682/problem/C",
+    "submission_id": "CF18558908",
+    "submission_url": "https://codeforces.com/contest/682/submission/18558908",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Jun/18/2016 01:43"
+  },
   "CF18672205": {
     "contest_id": 685,
     "language": "GNU C++11",
