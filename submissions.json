@@ -1,4 +1,20 @@
 {
+  "CF18555622": {
+    "contest_id": 682,
+    "language": "GNU C++11",
+    "path": "codeforces/682/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Alyona and Triangles",
+    "problem_url": "https://codeforces.com/contest/682/problem/E",
+    "submission_id": "CF18555622",
+    "submission_url": "https://codeforces.com/contest/682/submission/18555622",
+    "tags": [
+      "geometry",
+      "two pointers",
+      "*2600"
+    ],
+    "timestamp": "Jun/18/2016 01:18"
+  },
   "CF18556948": {
     "contest_id": 682,
     "language": "GNU C++11",
