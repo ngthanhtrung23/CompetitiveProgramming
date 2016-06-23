@@ -1,4 +1,22 @@
 {
+  "CF18672205": {
+    "contest_id": 685,
+    "language": "GNU C++11",
+    "path": "codeforces/685/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Robbers' watch",
+    "problem_url": "https://codeforces.com/contest/685/problem/A",
+    "submission_id": "CF18672205",
+    "submission_url": "https://codeforces.com/contest/685/submission/18672205",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Jun/24/2016 00:51"
+  },
   "CF18674596": {
     "contest_id": 685,
     "language": "GNU C++11",
