@@ -1,4 +1,18 @@
 {
+  "CF19005446": {
+    "contest_id": 690,
+    "language": "GNU C++11",
+    "path": "codeforces/690/B3.cpp",
+    "problem_index": "B3",
+    "problem_name": "Recover Polygon (hard)",
+    "problem_url": "https://codeforces.com/contest/690/problem/B3",
+    "submission_id": "CF19005446",
+    "submission_url": "https://codeforces.com/contest/690/submission/19005446",
+    "tags": [
+      "*2600"
+    ],
+    "timestamp": "Jul/10/2016 18:35"
+  },
   "CF19332965": {
     "contest_id": 700,
     "language": "GNU C++11",
