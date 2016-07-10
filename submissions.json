@@ -1,4 +1,18 @@
 {
+  "CF18999307": {
+    "contest_id": 690,
+    "language": "GNU C++11",
+    "path": "codeforces/690/D3.cpp",
+    "problem_index": "D3",
+    "problem_name": "The Wall (hard)",
+    "problem_url": "https://codeforces.com/contest/690/problem/D3",
+    "submission_id": "CF18999307",
+    "submission_url": "https://codeforces.com/contest/690/submission/18999307",
+    "tags": [
+      "*2100"
+    ],
+    "timestamp": "Jul/10/2016 16:23"
+  },
   "CF18999452": {
     "contest_id": 690,
     "language": "GNU C++11",
