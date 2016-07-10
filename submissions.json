@@ -1,4 +1,21 @@
 {
+  "CF18999985": {
+    "contest_id": 690,
+    "language": "GNU C++11",
+    "path": "codeforces/690/C2.cpp",
+    "problem_index": "C2",
+    "problem_name": "Brain Network (medium)",
+    "problem_url": "https://codeforces.com/contest/690/problem/C2",
+    "submission_id": "CF18999985",
+    "submission_url": "https://codeforces.com/contest/690/submission/18999985",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*1500"
+    ],
+    "timestamp": "Jul/10/2016 16:33"
+  },
   "CF19000247": {
     "contest_id": 690,
     "language": "GNU C++11",
