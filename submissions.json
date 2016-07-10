@@ -1,4 +1,18 @@
 {
+  "CF18999452": {
+    "contest_id": 690,
+    "language": "GNU C++11",
+    "path": "codeforces/690/C1.cpp",
+    "problem_index": "C1",
+    "problem_name": "Brain Network (easy)",
+    "problem_url": "https://codeforces.com/contest/690/problem/C1",
+    "submission_id": "CF18999452",
+    "submission_url": "https://codeforces.com/contest/690/submission/18999452",
+    "tags": [
+      "*1300"
+    ],
+    "timestamp": "Jul/10/2016 16:25"
+  },
   "CF18999985": {
     "contest_id": 690,
     "language": "GNU C++11",
