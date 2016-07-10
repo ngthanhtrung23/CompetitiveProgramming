@@ -1,4 +1,19 @@
 {
+  "CF19004645": {
+    "contest_id": 690,
+    "language": "GNU C++11",
+    "path": "codeforces/690/B2.cpp",
+    "problem_index": "B2",
+    "problem_name": "Recover Polygon (medium)",
+    "problem_url": "https://codeforces.com/contest/690/problem/B2",
+    "submission_id": "CF19004645",
+    "submission_url": "https://codeforces.com/contest/690/submission/19004645",
+    "tags": [
+      "geometry",
+      "*2600"
+    ],
+    "timestamp": "Jul/10/2016 18:12"
+  },
   "CF19005446": {
     "contest_id": 690,
     "language": "GNU C++11",
