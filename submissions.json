@@ -1,4 +1,18 @@
 {
+  "CF18998002": {
+    "contest_id": 690,
+    "language": "GNU C++",
+    "path": "codeforces/690/A1.cpp",
+    "problem_index": "A1",
+    "problem_name": "Collective Mindsets (easy)",
+    "problem_url": "https://codeforces.com/contest/690/problem/A1",
+    "submission_id": "CF18998002",
+    "submission_url": "https://codeforces.com/contest/690/submission/18998002",
+    "tags": [
+      "*1100"
+    ],
+    "timestamp": "Jul/10/2016 16:06"
+  },
   "CF18998174": {
     "contest_id": 690,
     "language": "GNU C++11",
