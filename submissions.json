@@ -1,4 +1,19 @@
 {
+  "CF18998568": {
+    "contest_id": 690,
+    "language": "GNU C++11",
+    "path": "codeforces/690/D2.cpp",
+    "problem_index": "D2",
+    "problem_name": "The Wall (medium)",
+    "problem_url": "https://codeforces.com/contest/690/problem/D2",
+    "submission_id": "CF18998568",
+    "submission_url": "https://codeforces.com/contest/690/submission/18998568",
+    "tags": [
+      "combinatorics",
+      "*1800"
+    ],
+    "timestamp": "Jul/10/2016 16:14"
+  },
   "CF18999039": {
     "contest_id": 690,
     "language": "GNU C++11",
