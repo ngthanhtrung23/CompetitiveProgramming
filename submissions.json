@@ -1,4 +1,20 @@
 {
+  "CF19347840": {
+    "contest_id": 700,
+    "language": "GNU C++11",
+    "path": "codeforces/700/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Break Up",
+    "problem_url": "https://codeforces.com/contest/700/problem/C",
+    "submission_id": "CF19347840",
+    "submission_url": "https://codeforces.com/contest/700/submission/19347840",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*2600"
+    ],
+    "timestamp": "Jul/23/2016 03:16"
+  },
   "CF19752288": {
     "contest_id": 380,
     "language": "GNU C++11",
