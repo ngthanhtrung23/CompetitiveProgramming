@@ -1,4 +1,20 @@
 {
+  "CF19332965": {
+    "contest_id": 700,
+    "language": "GNU C++11",
+    "path": "codeforces/700/A.cpp",
+    "problem_index": "A",
+    "problem_name": "As Fast As Possible",
+    "problem_url": "https://codeforces.com/contest/700/problem/A",
+    "submission_id": "CF19332965",
+    "submission_url": "https://codeforces.com/contest/700/submission/19332965",
+    "tags": [
+      "binary search",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Jul/23/2016 00:56"
+  },
   "CF19338310": {
     "contest_id": 700,
     "language": "GNU C++11",
