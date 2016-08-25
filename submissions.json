@@ -1,4 +1,20 @@
 {
+  "CF20142938": {
+    "contest_id": 709,
+    "language": "GNU C++11",
+    "path": "codeforces/709/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Recover the String",
+    "problem_url": "https://codeforces.com/contest/709/problem/D",
+    "submission_id": "CF20142938",
+    "submission_url": "https://codeforces.com/contest/709/submission/20142938",
+    "tags": [
+      "greedy",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Aug/25/2016 12:10"
+  },
   "CF20150954": {
     "contest_id": 708,
     "language": "GNU C++11",
