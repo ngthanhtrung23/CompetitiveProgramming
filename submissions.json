@@ -1,4 +1,22 @@
 {
+  "CF20150954": {
+    "contest_id": 708,
+    "language": "GNU C++11",
+    "path": "codeforces/708/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Letters Cyclic Shift",
+    "problem_url": "https://codeforces.com/contest/708/problem/A",
+    "submission_id": "CF20150954",
+    "submission_url": "https://codeforces.com/contest/708/submission/20150954",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Aug/25/2016 18:16"
+  },
   "CF20150962": {
     "contest_id": 708,
     "language": "GNU C++11",
