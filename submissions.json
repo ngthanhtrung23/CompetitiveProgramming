@@ -19364,6 +19364,18 @@
     ],
     "timestamp": "Sep/11/2012 00:41"
   },
+  "CF21210009": {
+    "contest_id": 101116,
+    "language": "GNU C++",
+    "path": "codeforces/101116/J.cpp",
+    "problem_index": "J",
+    "problem_name": "Jurisdiction Disenchantment",
+    "problem_url": "https://codeforces.com/gym/101116",
+    "submission_id": "CF21210009",
+    "submission_url": "https://codeforces.com/gym/101116/submission/21210009",
+    "tags": [],
+    "timestamp": "Oct/05/2016 21:45"
+  },
   "CF21210031": {
     "contest_id": 101116,
     "language": "GNU C++11",
