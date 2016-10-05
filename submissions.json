@@ -19364,6 +19364,18 @@
     ],
     "timestamp": "Sep/11/2012 00:41"
   },
+  "CF21212033": {
+    "contest_id": 101116,
+    "language": "GNU C++",
+    "path": "codeforces/101116/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Sympathetic Tables",
+    "problem_url": "https://codeforces.com/gym/101116",
+    "submission_id": "CF21212033",
+    "submission_url": "https://codeforces.com/gym/101116/submission/21212033",
+    "tags": [],
+    "timestamp": "Oct/05/2016 22:53"
+  },
   "CF21213774": {
     "contest_id": 101116,
     "language": "GNU C++11",
