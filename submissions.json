@@ -19364,6 +19364,18 @@
     ],
     "timestamp": "Sep/11/2012 00:41"
   },
+  "CF21209625": {
+    "contest_id": 101116,
+    "language": "GNU C++11",
+    "path": "codeforces/101116/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Ingenious Lottery Tickets",
+    "problem_url": "https://codeforces.com/gym/101116",
+    "submission_id": "CF21209625",
+    "submission_url": "https://codeforces.com/gym/101116/submission/21209625",
+    "tags": [],
+    "timestamp": "Oct/05/2016 21:33"
+  },
   "CF21209634": {
     "contest_id": 101116,
     "language": "GNU C++",
