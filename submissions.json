@@ -19364,6 +19364,18 @@
     ],
     "timestamp": "Sep/11/2012 00:41"
   },
+  "CF21213774": {
+    "contest_id": 101116,
+    "language": "GNU C++11",
+    "path": "codeforces/101116/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Double Elimination",
+    "problem_url": "https://codeforces.com/gym/101116",
+    "submission_id": "CF21213774",
+    "submission_url": "https://codeforces.com/gym/101116/submission/21213774",
+    "tags": [],
+    "timestamp": "Oct/05/2016 23:49"
+  },
   "CF21217537": {
     "contest_id": 101116,
     "language": "GNU C++",
