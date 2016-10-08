@@ -1,4 +1,22 @@
 {
+  "CF21281544": {
+    "contest_id": 724,
+    "language": "GNU C++11",
+    "path": "codeforces/724/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Batch Sort",
+    "problem_url": "https://codeforces.com/contest/724/problem/B",
+    "submission_id": "CF21281544",
+    "submission_url": "https://codeforces.com/contest/724/submission/21281544",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Oct/08/2016 20:26"
+  },
   "CF21287228": {
     "contest_id": 724,
     "language": "GNU C++11",
