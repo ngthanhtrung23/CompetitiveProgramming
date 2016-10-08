@@ -1,4 +1,21 @@
 {
+  "CF21287228": {
+    "contest_id": 724,
+    "language": "GNU C++11",
+    "path": "codeforces/724/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dense Subsequence",
+    "problem_url": "https://codeforces.com/contest/724/problem/D",
+    "submission_id": "CF21287228",
+    "submission_url": "https://codeforces.com/contest/724/submission/21287228",
+    "tags": [
+      "data structures",
+      "greedy",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Oct/08/2016 21:10"
+  },
   "CF21289424": {
     "contest_id": 724,
     "language": "GNU C++11",
