@@ -19434,6 +19434,18 @@
     ],
     "timestamp": "Oct/08/2016 21:34"
   },
+  "CF21383038": {
+    "contest_id": 101124,
+    "language": "GNU C++11",
+    "path": "codeforces/101124/K.cpp",
+    "problem_index": "K",
+    "problem_name": "Average Speed",
+    "problem_url": "https://codeforces.com/gym/101124",
+    "submission_id": "CF21383038",
+    "submission_url": "https://codeforces.com/gym/101124/submission/21383038",
+    "tags": [],
+    "timestamp": "Oct/12/2016 21:44"
+  },
   "CF21383453": {
     "contest_id": 101124,
     "language": "GNU C++11",
