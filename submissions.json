@@ -19434,6 +19434,18 @@
     ],
     "timestamp": "Oct/08/2016 21:34"
   },
+  "CF21384414": {
+    "contest_id": 101124,
+    "language": "GNU C++11",
+    "path": "codeforces/101124/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Checkmate with Bishop and Knight",
+    "problem_url": "https://codeforces.com/gym/101124",
+    "submission_id": "CF21384414",
+    "submission_url": "https://codeforces.com/gym/101124/submission/21384414",
+    "tags": [],
+    "timestamp": "Oct/12/2016 22:40"
+  },
   "CF21385378": {
     "contest_id": 101124,
     "language": "GNU C++11",
