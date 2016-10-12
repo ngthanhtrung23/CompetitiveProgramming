@@ -19434,6 +19434,18 @@
     ],
     "timestamp": "Oct/08/2016 21:34"
   },
+  "CF21382740": {
+    "contest_id": 101124,
+    "language": "GNU C++",
+    "path": "codeforces/101124/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Subway",
+    "problem_url": "https://codeforces.com/gym/101124",
+    "submission_id": "CF21382740",
+    "submission_url": "https://codeforces.com/gym/101124/submission/21382740",
+    "tags": [],
+    "timestamp": "Oct/12/2016 21:33"
+  },
   "CF21383038": {
     "contest_id": 101124,
     "language": "GNU C++11",
