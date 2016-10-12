@@ -19434,6 +19434,18 @@
     ],
     "timestamp": "Oct/08/2016 21:34"
   },
+  "CF21382433": {
+    "contest_id": 101124,
+    "language": "GNU C++",
+    "path": "codeforces/101124/M.cpp",
+    "problem_index": "M",
+    "problem_name": "A multiplication game",
+    "problem_url": "https://codeforces.com/gym/101124",
+    "submission_id": "CF21382433",
+    "submission_url": "https://codeforces.com/gym/101124/submission/21382433",
+    "tags": [],
+    "timestamp": "Oct/12/2016 21:21"
+  },
   "CF21382578": {
     "contest_id": 101124,
     "language": "GNU C++11",
