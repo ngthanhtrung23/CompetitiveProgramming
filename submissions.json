@@ -19434,6 +19434,18 @@
     ],
     "timestamp": "Oct/08/2016 21:34"
   },
+  "CF21385378": {
+    "contest_id": 101124,
+    "language": "GNU C++11",
+    "path": "codeforces/101124/A.cpp",
+    "problem_index": "A",
+    "problem_name": "The Baguette Master",
+    "problem_url": "https://codeforces.com/gym/101124",
+    "submission_id": "CF21385378",
+    "submission_url": "https://codeforces.com/gym/101124/submission/21385378",
+    "tags": [],
+    "timestamp": "Oct/12/2016 23:22"
+  },
   "CF21387204": {
     "contest_id": 101124,
     "language": "GNU C++",
