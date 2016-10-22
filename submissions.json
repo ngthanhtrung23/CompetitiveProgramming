@@ -1,4 +1,20 @@
 {
+  "CF21672940": {
+    "contest_id": 725,
+    "language": "Python 2",
+    "path": "codeforces/725/B.py",
+    "problem_index": "B",
+    "problem_name": "Food on the Plane",
+    "problem_url": "https://codeforces.com/contest/725/problem/B",
+    "submission_id": "CF21672940",
+    "submission_url": "https://codeforces.com/contest/725/submission/21672940",
+    "tags": [
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Oct/22/2016 23:18"
+  },
   "CF21676940": {
     "contest_id": 725,
     "language": "GNU C++11",
