@@ -1,4 +1,19 @@
 {
+  "CF21671041": {
+    "contest_id": 725,
+    "language": "GNU C++14",
+    "path": "codeforces/725/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Jumping Ball",
+    "problem_url": "https://codeforces.com/contest/725/problem/A",
+    "submission_id": "CF21671041",
+    "submission_url": "https://codeforces.com/contest/725/submission/21671041",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Oct/22/2016 23:10"
+  },
   "CF21672940": {
     "contest_id": 725,
     "language": "Python 2",
