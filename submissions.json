@@ -1,4 +1,22 @@
 {
+  "CF21676940": {
+    "contest_id": 725,
+    "language": "GNU C++11",
+    "path": "codeforces/725/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Hidden Word",
+    "problem_url": "https://codeforces.com/contest/725/problem/C",
+    "submission_id": "CF21676940",
+    "submission_url": "https://codeforces.com/contest/725/submission/21676940",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Oct/22/2016 23:44"
+  },
   "CF21684287": {
     "contest_id": 725,
     "language": "GNU C++11",
