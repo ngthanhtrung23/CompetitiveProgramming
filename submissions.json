@@ -1,4 +1,20 @@
 {
+  "CF21704289": {
+    "contest_id": 730,
+    "language": "GNU C++",
+    "path": "codeforces/730/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Award Ceremony",
+    "problem_url": "https://codeforces.com/contest/730/problem/E",
+    "submission_id": "CF21704289",
+    "submission_url": "https://codeforces.com/contest/730/submission/21704289",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*2200"
+    ],
+    "timestamp": "Oct/23/2016 17:11"
+  },
   "CF21704590": {
     "contest_id": 730,
     "language": "GNU C++11",
