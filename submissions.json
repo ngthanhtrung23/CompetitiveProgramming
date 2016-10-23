@@ -1,4 +1,20 @@
 {
+  "CF21704590": {
+    "contest_id": 730,
+    "language": "GNU C++11",
+    "path": "codeforces/730/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Bulmart",
+    "problem_url": "https://codeforces.com/contest/730/problem/C",
+    "submission_id": "CF21704590",
+    "submission_url": "https://codeforces.com/contest/730/submission/21704590",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "*2100"
+    ],
+    "timestamp": "Oct/23/2016 17:17"
+  },
   "CF21710093": {
     "contest_id": 730,
     "language": "GNU C++11",
