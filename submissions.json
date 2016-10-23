@@ -1,4 +1,20 @@
 {
+  "CF21702527": {
+    "contest_id": 730,
+    "language": "GNU C++11",
+    "path": "codeforces/730/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Delete Them",
+    "problem_url": "https://codeforces.com/contest/730/problem/H",
+    "submission_id": "CF21702527",
+    "submission_url": "https://codeforces.com/contest/730/submission/21702527",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Oct/23/2016 16:36"
+  },
   "CF21702726": {
     "contest_id": 730,
     "language": "GNU C++",
