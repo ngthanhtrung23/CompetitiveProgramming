@@ -1,4 +1,20 @@
 {
+  "CF21702061": {
+    "contest_id": 730,
+    "language": "GNU C++11",
+    "path": "codeforces/730/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Minimum and Maximum",
+    "problem_url": "https://codeforces.com/contest/730/problem/B",
+    "submission_id": "CF21702061",
+    "submission_url": "https://codeforces.com/contest/730/submission/21702061",
+    "tags": [
+      "constructive algorithms",
+      "interactive",
+      "*1800"
+    ],
+    "timestamp": "Oct/23/2016 16:25"
+  },
   "CF21702527": {
     "contest_id": 730,
     "language": "GNU C++11",
