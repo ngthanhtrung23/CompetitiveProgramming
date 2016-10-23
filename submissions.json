@@ -1,4 +1,19 @@
 {
+  "CF21701693": {
+    "contest_id": 730,
+    "language": "GNU C++11",
+    "path": "codeforces/730/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Car Repair Shop",
+    "problem_url": "https://codeforces.com/contest/730/problem/G",
+    "submission_id": "CF21701693",
+    "submission_url": "https://codeforces.com/contest/730/submission/21701693",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Oct/23/2016 16:13"
+  },
   "CF21701993": {
     "contest_id": 730,
     "language": "GNU C++",
