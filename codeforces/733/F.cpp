@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 #define int long long
 #define FOR(i, a, b) for (int i = (a), _b = (b); i <= _b; ++i)
@@ -30,14 +31,6 @@ int GI(ll& x) { return scanf("%lld", &x); }
 
 const int MN = 200111;
 
-struct Edge {
-  int u, v;
-  int w, c;
-  int id;
-} e[MN];
-
-bool operator<(const Edge& a, const Edge& b) { return a.w < b.w; }
-
 int lab[MN];
 struct DSU {
   void init(int n) { REP(i, n + 1) lab[i] = -1; }
@@ -57,37 +50,42 @@ struct DSU {
     return true;
   }
 };
+DSU dsu;
 
-int inMst[MN];
 int n, m;
+struct Edge {
+  int u, v;
+  int c, w;
+  int id;
+} edges[MN];
+bool operator<(const Edge& a, const Edge& b) { return a.w < b.w; }
+
 vector<pair<int, int> > ke[MN];
-int h[MN];
-
-int father[20][MN];
-pair<int, int> ln[20][MN];
-
 void addEdge(int u, int v, int id) {
   ke[u].emplace_back(v, id);
   ke[v].emplace_back(u, id);
 }
 
+int h[MN];
+int father[18][MN];
+pair<int, int> ln[18][MN];
+
 void dfs(int u, int fu) {
   for (auto p : ke[u]) {
     int v = p.first;
     if (v == fu) continue;
+    int id = p.second;
 
     h[v] = h[u] + 1;
     father[0][v] = u;
-
-    int i = p.second;
-    ln[0][v] = make_pair(e[i].w, i);
+    ln[0][v] = make_pair(edges[id].w, id);
 
     dfs(v, u);
   }
 }
 
 void initLCA() {
-  FOR(t, 1, 19) {
+  FOR(t, 1, 17) {
     FOR(u, 1, n) {
       int v = father[t - 1][u];
       father[t][u] = father[t - 1][v];
@@ -96,35 +94,38 @@ void initLCA() {
   }
 }
 
-pair<int, int> getMax(int u, int v) {
-  pair<int, int> res = make_pair(-1, 0);
+pair<int, int> lca(int u, int v) {
+  assert(u != v);
   if (h[u] < h[v]) swap(u, v);
-
+  pair<int, int> res = make_pair(-1, 0);
   if (h[u] > h[v]) {
-    FORD(t, 19, 0) {
+    FORD(t, 17, 0) {
       int x = father[t][u];
       if (h[x] >= h[v]) {
         res = max(res, ln[t][u]);
-        u = father[t][u];
+        u = x;
       }
     }
   }
+  assert(h[u] == h[v]);
   if (u == v) return res;
 
-  FORD(t, 19, 0) {
+  FORD(t, 17, 0) {
     if (father[t][u] != father[t][v]) {
       res = max(res, ln[t][u]);
       res = max(res, ln[t][v]);
+
       u = father[t][u];
       v = father[t][v];
     }
   }
-
+  assert(father[0][u] == father[0][v]);
   res = max(res, ln[0][u]);
   res = max(res, ln[0][v]);
-
   return res;
 }
+
+int inMst[MN];
 
 #undef int
 int main() {
@@ -134,78 +135,71 @@ int main() {
   cout << (fixed) << setprecision(9);
   while (GI(n) == 1 && GI(m) == 1) {
     FOR(i, 1, n) ke[i].clear();
-    FOR(i, 1, m) GI(e[i].w);
-    FOR(i, 1, m) GI(e[i].c);
+    FOR(i, 1, m) GI(edges[i].w);
+    FOR(i, 1, m) GI(edges[i].c);
     FOR(i, 1, m) {
-      GI(e[i].u);
-      GI(e[i].v);
-      e[i].id = i;
+      GI(edges[i].u);
+      GI(edges[i].v);
+      edges[i].id = i;
     }
     int S;
     GI(S);
+    sort(edges + 1, edges + m + 1);
 
     // find MST
-    sort(e + 1, e + m + 1);
-    DSU dsu;
-    dsu.init(n + 1);
+    dsu.init(n);
     int sumw = 0;
     int minc = 1000111000;
     memset(inMst, 0, sizeof inMst);
     FOR(i, 1, m) {
-      int u = dsu.getRoot(e[i].u);
-      int v = dsu.getRoot(e[i].v);
-      if (u != v) {
-        dsu.merge(u, v);
-        minc = min(minc, e[i].c);
-        sumw += e[i].w;
-        inMst[i] = 1;
+      int u = dsu.getRoot(edges[i].u);
+      int v = dsu.getRoot(edges[i].v);
 
-        addEdge(e[i].u, e[i].v, i);
+      if (u != v) {
+        inMst[i] = 1;
+        dsu.merge(u, v);
+        sumw += edges[i].w;
+        minc = min(minc, edges[i].c);
+        addEdge(edges[i].u, edges[i].v, i);
       }
     }
-    int res = sumw - (S / minc);
-    int removeEdge = -1;
-    int addedEdge = -1;
-    int minEdge = -1;
+    int res = sumw - S / minc;
 
     // init LCA
     h[1] = 1;
-    memset(father, 0, sizeof father);
     dfs(1, -1);
     initLCA();
 
-    // we try to add 1 edge & remove 1 edge
-    FOR(i, 1, m) if (!inMst[i] && e[i].c < minc) {
-      int u = e[i].u, v = e[i].v;
-      auto rem = getMax(u, v);
+    // swap 1 edge
+    int add = -1, rem = -1;
+    FOR(i, 1, m) if (!inMst[i] && edges[i].c < minc) {
+      int u = edges[i].u, v = edges[i].v;
+      auto t = lca(u, v);
 
-      int cur = sumw - rem.first + e[i].w;
-      cur -= S / e[i].c;
-
+      int cur = sumw - t.first + edges[i].w - S / edges[i].c;
       if (cur < res) {
         res = cur;
-        addedEdge = i;
-        removeEdge = rem.second;
+        add = i;
+        rem = t.second;
       }
+    }
+    if (add >= 0) {
+      inMst[add] = 1;
+      inMst[rem] = 0;
+      minc = edges[add].c;
     }
 
-    // find which edge is minEdge
-    FOR(i, 1, m) {
-      if (i == addedEdge || (inMst[i] && !(removeEdge == i))) {
-        if (minEdge < 0 || e[i].c < e[minEdge].c) {
-          minEdge = i;
-        }
-      }
-    }
     printf("%lld\n", res);
-    FOR(i, 1, m) {
-      if (i == addedEdge || (inMst[i] && !(removeEdge == i))) {
-        printf("%lld ", e[i].id);
-        if (i == minEdge) {
-          e[i].w -= S / e[i].c;
-        }
-        printf("%lld\n", e[i].w);
-      }
+    int saveMin = -1;
+    FOR(i, 1, m) if (inMst[i]) {
+      if (saveMin < 0 || edges[i].c < edges[saveMin].c) saveMin = i;
+    }
+
+    FOR(i, 1, m) if (inMst[i]) {
+      printf("%lld ", edges[i].id);
+      int w = edges[i].w;
+      if (i == saveMin) w -= S / minc;
+      printf("%lld\n", w);
     }
   }
 }
