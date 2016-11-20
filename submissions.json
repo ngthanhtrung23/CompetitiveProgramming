@@ -1,4 +1,22 @@
 {
+  "CF22348356": {
+    "contest_id": 737,
+    "language": "GNU C++14",
+    "path": "codeforces/737/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sea Battle",
+    "problem_url": "https://codeforces.com/contest/737/problem/B",
+    "submission_id": "CF22348356",
+    "submission_url": "https://codeforces.com/contest/737/submission/22348356",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Nov/20/2016 17:36"
+  },
   "CF22351330": {
     "contest_id": 737,
     "language": "GNU C++14",
