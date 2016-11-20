@@ -1,4 +1,20 @@
 {
+  "CF22351330": {
+    "contest_id": 737,
+    "language": "GNU C++14",
+    "path": "codeforces/737/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Subordinates",
+    "problem_url": "https://codeforces.com/contest/737/problem/C",
+    "submission_id": "CF22351330",
+    "submission_url": "https://codeforces.com/contest/737/submission/22351330",
+    "tags": [
+      "graphs",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Nov/20/2016 17:55"
+  },
   "CF22532058": {
     "contest_id": 736,
     "language": "GNU C++14",
