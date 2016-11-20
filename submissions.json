@@ -1,4 +1,19 @@
 {
+  "CF22346062": {
+    "contest_id": 737,
+    "language": "GNU C++14",
+    "path": "codeforces/737/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Road to Cinema",
+    "problem_url": "https://codeforces.com/contest/737/problem/A",
+    "submission_id": "CF22346062",
+    "submission_url": "https://codeforces.com/contest/737/submission/22346062",
+    "tags": [
+      "binary search",
+      "*1700"
+    ],
+    "timestamp": "Nov/20/2016 17:23"
+  },
   "CF22348356": {
     "contest_id": 737,
     "language": "GNU C++14",
