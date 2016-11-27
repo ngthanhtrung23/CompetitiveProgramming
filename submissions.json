@@ -1,4 +1,20 @@
 {
+  "CF22545260": {
+    "contest_id": 736,
+    "language": "GNU C++14",
+    "path": "codeforces/736/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Ostap and Tree",
+    "problem_url": "https://codeforces.com/contest/736/problem/C",
+    "submission_id": "CF22545260",
+    "submission_url": "https://codeforces.com/contest/736/submission/22545260",
+    "tags": [
+      "dp",
+      "trees",
+      "*2500"
+    ],
+    "timestamp": "Nov/28/2016 01:34"
+  },
   "CF22557308": {
     "contest_id": 736,
     "language": "GNU C++14",
