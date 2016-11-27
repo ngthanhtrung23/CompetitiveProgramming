@@ -1,4 +1,23 @@
 {
+  "CF22532058": {
+    "contest_id": 736,
+    "language": "GNU C++14",
+    "path": "codeforces/736/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Tennis Championship",
+    "problem_url": "https://codeforces.com/contest/736/problem/A",
+    "submission_id": "CF22532058",
+    "submission_url": "https://codeforces.com/contest/736/submission/22532058",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Nov/28/2016 00:43"
+  },
   "CF22534027": {
     "contest_id": 736,
     "language": "GNU C++14",
