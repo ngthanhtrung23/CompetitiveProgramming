@@ -40,11 +40,17 @@ vector<int> pos[MN];
 set< pair<int,int> > ln;
 int n;
 
-int get(const set<int>& bad) {
+int getSmall(const set<int>& bad) {
     for(auto it = ln.begin(); it != ln.end(); ++it) {
         if (!bad.count(it->second)) return it->second;
     }
     return 0;
+}
+
+int getBig(const set<int>& bad) {
+    int res = n;
+    while (bad.count(a[res])) --res;
+    return a[res];
 }
 
 int main() {
@@ -72,11 +78,19 @@ int main() {
                 int u; GI(u); bad.insert(u);
             }
 
-            int res = get(bad);
-            if (res) {
-                bad.insert(res);
+            int res, res2;
+            if (k <= BIG) {
+                res = getSmall(bad);
+                if (res) {
+                    bad.insert(res);
+                }
+                res2 = getSmall(bad);
             }
-            int res2 = get(bad);
+            else {
+                res = getBig(bad);
+                if (res) bad.insert(res);
+                res2 = getBig(bad);
+            }
             int x = *lower_bound(pos[res].begin(), pos[res].end(), pos[res2].back());
             printf("%d %d\n", a[x], b[x]);
         }
