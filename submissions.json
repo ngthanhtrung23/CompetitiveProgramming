@@ -1,4 +1,22 @@
 {
+  "CF23769025": {
+    "contest_id": 757,
+    "language": "GNU C++14",
+    "path": "codeforces/757/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Bash Plays with Functions",
+    "problem_url": "https://codeforces.com/contest/757/problem/E",
+    "submission_id": "CF23769025",
+    "submission_url": "https://codeforces.com/contest/757/submission/23769025",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "number theory",
+      "*2500"
+    ],
+    "timestamp": "Jan/13/2017 03:50"
+  },
   "CF23769127": {
     "contest_id": 757,
     "language": "GNU C++14",
