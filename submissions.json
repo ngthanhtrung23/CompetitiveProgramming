@@ -1,4 +1,22 @@
 {
+  "CF23769127": {
+    "contest_id": 757,
+    "language": "GNU C++14",
+    "path": "codeforces/757/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Felicity is Coming!",
+    "problem_url": "https://codeforces.com/contest/757/problem/C",
+    "submission_id": "CF23769127",
+    "submission_url": "https://codeforces.com/contest/757/submission/23769127",
+    "tags": [
+      "data structures",
+      "hashing",
+      "sortings",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Jan/13/2017 03:51"
+  },
   "CF23846746": {
     "contest_id": 755,
     "language": "GNU C++14",
