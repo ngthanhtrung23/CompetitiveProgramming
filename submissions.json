@@ -1,4 +1,24 @@
 {
+  "CF23848211": {
+    "contest_id": 755,
+    "language": "GNU C++14",
+    "path": "codeforces/755/B.cpp",
+    "problem_index": "B",
+    "problem_name": "PolandBall and Game",
+    "problem_url": "https://codeforces.com/contest/755/problem/B",
+    "submission_id": "CF23848211",
+    "submission_url": "https://codeforces.com/contest/755/submission/23848211",
+    "tags": [
+      "binary search",
+      "data structures",
+      "games",
+      "greedy",
+      "sortings",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Jan/16/2017 01:11"
+  },
   "CF23850579": {
     "contest_id": 755,
     "language": "GNU C++14",
