@@ -1,4 +1,21 @@
 {
+  "CF23859990": {
+    "contest_id": 755,
+    "language": "GNU C++14",
+    "path": "codeforces/755/E.cpp",
+    "problem_index": "E",
+    "problem_name": "PolandBall and White-Red graph",
+    "problem_url": "https://codeforces.com/contest/755/problem/E",
+    "submission_id": "CF23859990",
+    "submission_url": "https://codeforces.com/contest/755/submission/23859990",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "shortest paths",
+      "*2400"
+    ],
+    "timestamp": "Jan/16/2017 02:12"
+  },
   "CF23866022": {
     "contest_id": 755,
     "language": "GNU C++14",
