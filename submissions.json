@@ -20384,6 +20384,18 @@
     ],
     "timestamp": "Jan/16/2017 03:38"
   },
+  "CF23998630": {
+    "contest_id": 101223,
+    "language": "GNU C++14",
+    "path": "codeforces/101223/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Pie Progress",
+    "problem_url": "https://codeforces.com/gym/101223",
+    "submission_id": "CF23998630",
+    "submission_url": "https://codeforces.com/gym/101223/submission/23998630",
+    "tags": [],
+    "timestamp": "Jan/21/2017 04:58"
+  },
   "CF23998638": {
     "contest_id": 101223,
     "language": "GNU C++14",
