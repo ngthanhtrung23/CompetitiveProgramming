@@ -82,10 +82,10 @@ int main() {
 #define int long long
     ios::sync_with_stdio(0);
     cin.tie(0);
+    cout << (fixed) << setprecision(6);
     init();
 
     int ntest; cin >> ntest;
-    if (ntest == 5) cout << (fixed) << setprecision(6); else cout << (fixed) << setprecision(9);
     FOR(test,1,ntest) {
         double res = 0.0;
         int H, n; cin >> H >> n;
