@@ -20384,6 +20384,18 @@
     ],
     "timestamp": "Jan/16/2017 03:38"
   },
+  "CF23998597": {
+    "contest_id": 101222,
+    "language": "GNU C++14",
+    "path": "codeforces/101222/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Fighting the Zombie",
+    "problem_url": "https://codeforces.com/gym/101222",
+    "submission_id": "CF23998597",
+    "submission_url": "https://codeforces.com/gym/101222/submission/23998597",
+    "tags": [],
+    "timestamp": "Jan/21/2017 04:56"
+  },
   "CF23998630": {
     "contest_id": 101223,
     "language": "GNU C++14",
