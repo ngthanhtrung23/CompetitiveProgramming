@@ -82,7 +82,7 @@ int main() {
 #define int long long
     ios::sync_with_stdio(0);
     cin.tie(0);
-    cout << (fixed) << setprecision(6);
+    cout << (fixed) << setprecision(9);
     init();
 
     int ntest; cin >> ntest;
