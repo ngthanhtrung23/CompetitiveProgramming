@@ -1,4 +1,19 @@
 {
+  "CF24042899": {
+    "contest_id": 756,
+    "language": "GNU C++14",
+    "path": "codeforces/756/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Nikita and stack",
+    "problem_url": "https://codeforces.com/contest/756/problem/C",
+    "submission_id": "CF24042899",
+    "submission_url": "https://codeforces.com/contest/756/submission/24042899",
+    "tags": [
+      "data structures",
+      "*2200"
+    ],
+    "timestamp": "Jan/23/2017 02:54"
+  },
   "CF24047566": {
     "contest_id": 756,
     "language": "GNU C++14",
