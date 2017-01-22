@@ -1,4 +1,22 @@
 {
+  "CF24047566": {
+    "contest_id": 756,
+    "language": "GNU C++14",
+    "path": "codeforces/756/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Bacterial Melee",
+    "problem_url": "https://codeforces.com/contest/756/problem/D",
+    "submission_id": "CF24047566",
+    "submission_url": "https://codeforces.com/contest/756/submission/24047566",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "string suffix structures",
+      "*2400"
+    ],
+    "timestamp": "Jan/23/2017 03:30"
+  },
   "CF24187755": {
     "contest_id": 762,
     "language": "GNU C++14",
