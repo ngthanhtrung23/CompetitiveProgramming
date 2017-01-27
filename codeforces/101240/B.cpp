@@ -147,7 +147,7 @@ void addTri(const Tri& a) {
 int32_t main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    cout << (fixed) << setprecision(2);
+    cout << (fixed) << setprecision(3);
     int ntest; cin >> ntest;
     FOR(test,1,ntest) {
         cin >> n;
