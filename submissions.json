@@ -20465,6 +20465,18 @@
     ],
     "timestamp": "Jan/27/2017 21:20"
   },
+  "CF24199914": {
+    "contest_id": 101240,
+    "language": "GNU C++14",
+    "path": "codeforces/101240/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Subtle Sabotage",
+    "problem_url": "https://codeforces.com/gym/101240",
+    "submission_id": "CF24199914",
+    "submission_url": "https://codeforces.com/gym/101240/submission/24199914",
+    "tags": [],
+    "timestamp": "Jan/28/2017 03:35"
+  },
   "CF24199945": {
     "contest_id": 101240,
     "language": "GNU C++14",
