@@ -20465,6 +20465,18 @@
     ],
     "timestamp": "Jan/27/2017 21:20"
   },
+  "CF24195647": {
+    "contest_id": 101234,
+    "language": "GNU C++14",
+    "path": "codeforces/101234/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Hacker Cups and Balls",
+    "problem_url": "https://codeforces.com/gym/101234",
+    "submission_id": "CF24195647",
+    "submission_url": "https://codeforces.com/gym/101234/submission/24195647",
+    "tags": [],
+    "timestamp": "Jan/28/2017 01:45"
+  },
   "CF24199914": {
     "contest_id": 101240,
     "language": "GNU C++14",
