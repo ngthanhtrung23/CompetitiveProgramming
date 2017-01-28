@@ -20465,6 +20465,18 @@
     ],
     "timestamp": "Jan/27/2017 21:20"
   },
+  "CF24217024": {
+    "contest_id": 100372,
+    "language": "GNU C++14",
+    "path": "codeforces/100372/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Sergey and sequence",
+    "problem_url": "https://codeforces.com/gym/100372",
+    "submission_id": "CF24217024",
+    "submission_url": "https://codeforces.com/gym/100372/submission/24217024",
+    "tags": [],
+    "timestamp": "Jan/28/2017 16:22"
+  },
   "CF24217358": {
     "contest_id": 100372,
     "language": "GNU C++14",
