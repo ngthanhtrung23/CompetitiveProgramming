@@ -20465,6 +20465,18 @@
     ],
     "timestamp": "Jan/27/2017 21:20"
   },
+  "CF24216880": {
+    "contest_id": 100372,
+    "language": "GNU C++14",
+    "path": "codeforces/100372/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Sergey\u2019s columns",
+    "problem_url": "https://codeforces.com/gym/100372",
+    "submission_id": "CF24216880",
+    "submission_url": "https://codeforces.com/gym/100372/submission/24216880",
+    "tags": [],
+    "timestamp": "Jan/28/2017 16:13"
+  },
   "CF24217024": {
     "contest_id": 100372,
     "language": "GNU C++14",
