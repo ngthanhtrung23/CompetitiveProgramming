@@ -20465,6 +20465,18 @@
     ],
     "timestamp": "Jan/27/2017 21:20"
   },
+  "CF24216693": {
+    "contest_id": 100372,
+    "language": "GNU C++14",
+    "path": "codeforces/100372/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Sergey and reduction (Junior)",
+    "problem_url": "https://codeforces.com/gym/100372",
+    "submission_id": "CF24216693",
+    "submission_url": "https://codeforces.com/gym/100372/submission/24216693",
+    "tags": [],
+    "timestamp": "Jan/28/2017 15:57"
+  },
   "CF24216880": {
     "contest_id": 100372,
     "language": "GNU C++14",
