@@ -1,4 +1,21 @@
 {
+  "CF24840138": {
+    "contest_id": 768,
+    "language": "GNU C++14",
+    "path": "codeforces/768/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Game of Stones",
+    "problem_url": "https://codeforces.com/contest/768/problem/E",
+    "submission_id": "CF24840138",
+    "submission_url": "https://codeforces.com/contest/768/submission/24840138",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "games",
+      "*2100"
+    ],
+    "timestamp": "Feb/21/2017 01:09"
+  },
   "CF24847247": {
     "contest_id": 768,
     "language": "GNU C++14",
