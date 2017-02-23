@@ -1,4 +1,21 @@
 {
+  "CF24945929": {
+    "contest_id": 776,
+    "language": "GNU C++14",
+    "path": "codeforces/776/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Sherlock and the Encrypted Data",
+    "problem_url": "https://codeforces.com/contest/776/problem/G",
+    "submission_id": "CF24945929",
+    "submission_url": "https://codeforces.com/contest/776/submission/24945929",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "*2900"
+    ],
+    "timestamp": "Feb/24/2017 02:54"
+  },
   "CF24959890": {
     "contest_id": 776,
     "language": "GNU C++14",
