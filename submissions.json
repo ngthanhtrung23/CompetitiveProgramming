@@ -1,4 +1,20 @@
 {
+  "CF24936102": {
+    "contest_id": 776,
+    "language": "GNU C++14",
+    "path": "codeforces/776/E.cpp",
+    "problem_index": "E",
+    "problem_name": "The Holmes Children",
+    "problem_url": "https://codeforces.com/contest/776/problem/E",
+    "submission_id": "CF24936102",
+    "submission_url": "https://codeforces.com/contest/776/submission/24936102",
+    "tags": [
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Feb/24/2017 00:14"
+  },
   "CF24943390": {
     "contest_id": 776,
     "language": "GNU C++14",
