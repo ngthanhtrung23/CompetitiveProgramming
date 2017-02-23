@@ -1,4 +1,23 @@
 {
+  "CF24922640": {
+    "contest_id": 776,
+    "language": "GNU C++14",
+    "path": "codeforces/776/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Molly's Chemicals",
+    "problem_url": "https://codeforces.com/contest/776/problem/C",
+    "submission_id": "CF24922640",
+    "submission_url": "https://codeforces.com/contest/776/submission/24922640",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Feb/23/2017 23:01"
+  },
   "CF24936102": {
     "contest_id": 776,
     "language": "GNU C++14",
