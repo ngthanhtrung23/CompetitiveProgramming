@@ -16,7 +16,6 @@
 #include <bitset>
 using namespace std;
 
-#define int long long
 #define FOR(i, a, b) for (int i = (a), _b = (b); i <= _b; ++i)
 #define FORD(i, a, b) for (int i = (a), _b = (b); i >= _b; --i)
 #define REP(i, a) for (int i = 0, _a = (a); i < _a; ++i)
@@ -48,11 +47,11 @@ int hexDec(char c) {
 }
 
 vector<char> digits;
-int f[20][2][2];
+ll f[20][2][2];
 int bit[66];
 
 void expand(string s) {
-    int x = 0;
+    ll x = 0;
     for(char c : s)
         x = x*16 + hexDec(c);
 
@@ -62,8 +61,8 @@ void expand(string s) {
 
 int cache_bit[22][22][66];
 
-int get(string s, bool needLower) {
-    int res = 0;
+ll get(string s, bool needLower) {
+    ll res = 0;
     while (SZ(s) < 15) s = '0' + s;
 
     expand(s);
@@ -75,7 +74,7 @@ int get(string s, bool needLower) {
         f[0][0][0] = 1;
 
         REP(i,15) REP(lower,2) REP(has,2) {
-            int cur = f[i][lower][has];
+            ll cur = f[i][lower][has];
             if (!cur) continue;
 
             REP(value,ln+1) {
@@ -122,7 +121,7 @@ int32_t main() {
         while (q--) {
             string a, b;
             cin >> a >> b;
-            int res = get(b, false);
+            ll res = get(b, false);
 
             res -= get(a, true);
             cout << res << '\n';
