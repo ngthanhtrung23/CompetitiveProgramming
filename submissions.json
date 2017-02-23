@@ -1,4 +1,20 @@
 {
+  "CF24918792": {
+    "contest_id": 776,
+    "language": "GNU C++14",
+    "path": "codeforces/776/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sherlock and his girlfriend",
+    "problem_url": "https://codeforces.com/contest/776/problem/B",
+    "submission_id": "CF24918792",
+    "submission_url": "https://codeforces.com/contest/776/submission/24918792",
+    "tags": [
+      "constructive algorithms",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Feb/23/2017 22:51"
+  },
   "CF24922640": {
     "contest_id": 776,
     "language": "GNU C++14",
