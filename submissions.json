@@ -1,4 +1,22 @@
 {
+  "CF24943390": {
+    "contest_id": 776,
+    "language": "GNU C++14",
+    "path": "codeforces/776/D.cpp",
+    "problem_index": "D",
+    "problem_name": "The Door Problem",
+    "problem_url": "https://codeforces.com/contest/776/problem/D",
+    "submission_id": "CF24943390",
+    "submission_url": "https://codeforces.com/contest/776/submission/24943390",
+    "tags": [
+      "2-sat",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2000"
+    ],
+    "timestamp": "Feb/24/2017 01:55"
+  },
   "CF24945914": {
     "contest_id": 776,
     "language": "GNU C++14",
