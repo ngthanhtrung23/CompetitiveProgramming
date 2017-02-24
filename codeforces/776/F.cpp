@@ -96,8 +96,10 @@ struct PolygonRegion {  // everything is 0-based index
             REP(j,SZ(cur)-1) {  // consider all edges except (s, t)
                 if (cur[j+1] - cur[j] > 1) {
                     int low = lower_bound(diagonals.begin(), diagonals.end(), make_pair(cur[j+1] - cur[j], cur[j])) - diagonals.begin();
-                    ke[low].push_back(idiag);
-                    ke[idiag].push_back(low);
+                    if (low < SZ(diagonals)) {
+                        ke[low].push_back(idiag);
+                        ke[idiag].push_back(low);
+                    }
                 }
             }
 
