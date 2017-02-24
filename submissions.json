@@ -1,4 +1,25 @@
 {
+  "CF24959897": {
+    "contest_id": 776,
+    "language": "GNU C++14",
+    "path": "codeforces/776/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Sherlock's bet to Moriarty",
+    "problem_url": "https://codeforces.com/contest/776/problem/F",
+    "submission_id": "CF24959897",
+    "submission_url": "https://codeforces.com/contest/776/submission/24959897",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "divide and conquer",
+      "geometry",
+      "graphs",
+      "implementation",
+      "trees",
+      "*2800"
+    ],
+    "timestamp": "Feb/24/2017 17:22"
+  },
   "CF25032024": {
     "contest_id": 778,
     "language": "GNU C++14",
