@@ -1,4 +1,3 @@
-
 #include <sstream>
 #include <cassert>
 #include <cstdio>
@@ -52,19 +51,24 @@ vector< pair<int,int> > res;
 void apply(int i, int j) {
     res.emplace_back(i, j);
     if (a[i][j] == 'U') {
-        a[i][j] = 'L';
-        a[i][j+1] = 'R';
+        assert(a[i+1][j] == 'D');
+        assert(a[i][j+1] == 'U');
+        assert(a[i+1][j+1] == 'D');
 
-        a[i+1][j] = 'L';
-        a[i+1][j+1] = 'R';
+        a[i][j] = 'L'; a[i][j+1] = 'R';
+        a[i+1][j] = 'L'; a[i+1][j+1] = 'R';
     }
     else if (a[i][j] == 'L') {
+        assert(a[i][j+1] == 'R');
+        assert(a[i+1][j] == 'L'); assert(a[i+1][j+1] == 'R');
+
         a[i][j] = 'U';
         a[i+1][j] = 'D';
 
         a[i][j+1] = 'U';
         a[i+1][j+1] = 'D';
     }
+    else assert(0);
 }
 
 void toVer(int i, int j);
@@ -76,7 +80,7 @@ void toVer(int i, int j) {
     }
 
     if (a[i][j] == 'U') {
-        if (a[i][j+1] == 'L' || a[i+1][j+1] == 'L') {
+        if (a[i][j+1] == 'L' || a[i+1][j] == 'L') {
             toHor(i, j+1);
             apply(i, j+1);
         }
@@ -142,6 +146,11 @@ void toHor(int i, int j) {
     }
 }
 
+bool equal() {
+    FOR(i,1,m) FOR(j,1,n) if (a[i][j] != b[i][j]) return false;
+    return true;
+}
+
 int32_t main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
@@ -157,14 +166,17 @@ int32_t main() {
         }
         res.clear();
 
-        FOR(i,1,m) FOR(j,1,n) if (a[i][j] != b[i][j]) {
-            if (a[i][j] == 'L' && b[i][j] == 'U') {
-                toHor(i, j);
-                apply(i, j);
-            }
-            else if (a[i][j] == 'U' && b[i][j] == 'L') {
-                toVer(i, j);
-                apply(i, j);
+        while (!equal()) {
+            FOR(i,1,m) FOR(j,1,n) if (a[i][j] != b[i][j]) {
+                if (a[i][j] == 'L' && b[i][j] == 'U') {
+                    toHor(i, j);
+                    apply(i, j);
+                }
+                else if (a[i][j] == 'U' && b[i][j] == 'L') {
+                    toVer(i, j);
+                    apply(i, j);
+                }
+                else assert(0);
             }
         }
 
