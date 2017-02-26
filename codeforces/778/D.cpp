@@ -1,3 +1,4 @@
+
 #include <sstream>
 #include <cassert>
 #include <cstdio>
@@ -80,7 +81,7 @@ void toVer(int i, int j) {
     }
 
     if (a[i][j] == 'U') {
-        if (a[i][j+1] == 'L' || a[i+1][j] == 'L') {
+        if (a[i][j+1] == 'L' || a[i+1][j+1] == 'L') {
             toHor(i, j+1);
             apply(i, j+1);
         }

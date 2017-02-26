@@ -1,4 +1,19 @@
 {
+  "CF25045068": {
+    "contest_id": 778,
+    "language": "GNU C++14",
+    "path": "codeforces/778/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Parquet Re-laying",
+    "problem_url": "https://codeforces.com/contest/778/problem/D",
+    "submission_id": "CF25045068",
+    "submission_url": "https://codeforces.com/contest/778/submission/25045068",
+    "tags": [
+      "constructive algorithms",
+      "*2700"
+    ],
+    "timestamp": "Feb/26/2017 17:30"
+  },
   "CF25049737": {
     "contest_id": 778,
     "language": "GNU C++14",
