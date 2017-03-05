@@ -58,7 +58,7 @@ ll solve() {
     FORD(p2,59,0) {
         set<int> newStart;
         FOR(u,1,n) FOR(v,1,n) if (can[need][p2][u][v]) {
-            if ((start.empty() && u == 1) || start.count(u)) {
+            if (start.empty() || start.count(u)) {
                 newStart.insert(v);
             }
         }

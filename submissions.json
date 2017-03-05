@@ -1,4 +1,23 @@
 {
+  "CF25265752": {
+    "contest_id": 781,
+    "language": "GNU C++14",
+    "path": "codeforces/781/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Axel and Marston in Bitland",
+    "problem_url": "https://codeforces.com/contest/781/problem/D",
+    "submission_id": "CF25265752",
+    "submission_url": "https://codeforces.com/contest/781/submission/25265752",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "graphs",
+      "matrices",
+      "*2400"
+    ],
+    "timestamp": "Mar/05/2017 23:30"
+  },
   "CF25266259": {
     "contest_id": 781,
     "language": "GNU C++14",
