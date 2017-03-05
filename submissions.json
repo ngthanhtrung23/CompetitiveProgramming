@@ -1,4 +1,26 @@
 {
+  "CF25251613": {
+    "contest_id": 781,
+    "language": "GNU C++14",
+    "path": "codeforces/781/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Innokenty and a Football League",
+    "problem_url": "https://codeforces.com/contest/781/problem/B",
+    "submission_id": "CF25251613",
+    "submission_url": "https://codeforces.com/contest/781/submission/25251613",
+    "tags": [
+      "2-sat",
+      "brute force",
+      "graph matchings",
+      "graphs",
+      "greedy",
+      "implementation",
+      "shortest paths",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Mar/05/2017 21:28"
+  },
   "CF25253936": {
     "contest_id": 781,
     "language": "GNU C++14",

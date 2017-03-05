@@ -1,3 +1,4 @@
+
 #include <sstream>
 #include <fstream>
 #include <cassert>
@@ -61,12 +62,11 @@ int32_t main() {
             b[i] = u.substr(0, 2) + v.substr(0, 1);
         }
 
-        // forced option 2.
         FOR(i,1,n) FOR(j,i+1,n) if (a[i] == a[j]) {
             res[i] = b[i];
             res[j] = b[j];
         }
-        set<string> all;   // what names are used?
+        set<string> all;
         FOR(i,1,n) if (res[i] != "") all.insert(res[i]);
 
         while (true) {
