@@ -1,4 +1,19 @@
 {
+  "CF25258208": {
+    "contest_id": 781,
+    "language": "GNU C++14",
+    "path": "codeforces/781/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Andryusha and Nervous Barriers",
+    "problem_url": "https://codeforces.com/contest/781/problem/E",
+    "submission_id": "CF25258208",
+    "submission_url": "https://codeforces.com/contest/781/submission/25258208",
+    "tags": [
+      "data structures",
+      "*2700"
+    ],
+    "timestamp": "Mar/05/2017 22:16"
+  },
   "CF25265752": {
     "contest_id": 781,
     "language": "GNU C++14",
