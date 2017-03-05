@@ -1,4 +1,23 @@
 {
+  "CF25253936": {
+    "contest_id": 781,
+    "language": "GNU C++14",
+    "path": "codeforces/781/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Underground Lab",
+    "problem_url": "https://codeforces.com/contest/781/problem/C",
+    "submission_id": "CF25253936",
+    "submission_url": "https://codeforces.com/contest/781/submission/25253936",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Mar/05/2017 21:43"
+  },
   "CF25258208": {
     "contest_id": 781,
     "language": "GNU C++14",
