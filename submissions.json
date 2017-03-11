@@ -21062,6 +21062,18 @@
     ],
     "timestamp": "Mar/06/2017 14:56"
   },
+  "CF25400301": {
+    "contest_id": 101263,
+    "language": "GNU C++14",
+    "path": "codeforces/101263/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Salient Strings",
+    "problem_url": "https://codeforces.com/gym/101263",
+    "submission_id": "CF25400301",
+    "submission_url": "https://codeforces.com/gym/101263/submission/25400301",
+    "tags": [],
+    "timestamp": "Mar/11/2017 17:30"
+  },
   "CF25400316": {
     "contest_id": 101263,
     "language": "GNU C++14",
