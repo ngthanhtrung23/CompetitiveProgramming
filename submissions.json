@@ -1,4 +1,19 @@
 {
+  "CF25621409": {
+    "contest_id": 790,
+    "language": "GNU C++14",
+    "path": "codeforces/790/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Bear and Company",
+    "problem_url": "https://codeforces.com/contest/790/problem/C",
+    "submission_id": "CF25621409",
+    "submission_url": "https://codeforces.com/contest/790/submission/25621409",
+    "tags": [
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Mar/19/2017 01:07"
+  },
   "CF25738013": {
     "contest_id": 786,
     "language": "GNU C++14",
