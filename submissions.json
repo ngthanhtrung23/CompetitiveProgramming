@@ -1,4 +1,20 @@
 {
+  "CF25609788": {
+    "contest_id": 790,
+    "language": "GNU C++14",
+    "path": "codeforces/790/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Bear and Different Names",
+    "problem_url": "https://codeforces.com/contest/790/problem/A",
+    "submission_id": "CF25609788",
+    "submission_url": "https://codeforces.com/contest/790/submission/25609788",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Mar/18/2017 23:51"
+  },
   "CF25613870": {
     "contest_id": 790,
     "language": "GNU C++14",
