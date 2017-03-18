@@ -1,4 +1,22 @@
 {
+  "CF25613870": {
+    "contest_id": 790,
+    "language": "GNU C++14",
+    "path": "codeforces/790/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bear and Tree Jumps",
+    "problem_url": "https://codeforces.com/contest/790/problem/B",
+    "submission_id": "CF25613870",
+    "submission_url": "https://codeforces.com/contest/790/submission/25613870",
+    "tags": [
+      "dfs and similar",
+      "divide and conquer",
+      "dp",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Mar/19/2017 00:12"
+  },
   "CF25621409": {
     "contest_id": 790,
     "language": "GNU C++14",
