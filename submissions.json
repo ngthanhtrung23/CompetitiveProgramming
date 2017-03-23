@@ -1,4 +1,21 @@
 {
+  "CF25756706": {
+    "contest_id": 787,
+    "language": "GNU C++14",
+    "path": "codeforces/787/A.cpp",
+    "problem_index": "A",
+    "problem_name": "The Monster",
+    "problem_url": "https://codeforces.com/contest/787/problem/A",
+    "submission_id": "CF25756706",
+    "submission_url": "https://codeforces.com/contest/787/submission/25756706",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Mar/24/2017 03:28"
+  },
   "CF25756767": {
     "contest_id": 787,
     "language": "GNU C++14",
