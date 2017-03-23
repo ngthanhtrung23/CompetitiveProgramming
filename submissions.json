@@ -1,4 +1,21 @@
 {
+  "CF25756767": {
+    "contest_id": 787,
+    "language": "GNU C++14",
+    "path": "codeforces/787/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Not Afraid",
+    "problem_url": "https://codeforces.com/contest/787/problem/B",
+    "submission_id": "CF25756767",
+    "submission_url": "https://codeforces.com/contest/787/submission/25756767",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/24/2017 03:31"
+  },
   "CF25902663": {
     "contest_id": 788,
     "language": "GNU C++14",
