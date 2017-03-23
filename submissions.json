@@ -1,4 +1,20 @@
 {
+  "CF25756429": {
+    "contest_id": 786,
+    "language": "GNU C++14",
+    "path": "codeforces/786/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Till I Collapse",
+    "problem_url": "https://codeforces.com/contest/786/problem/C",
+    "submission_id": "CF25756429",
+    "submission_url": "https://codeforces.com/contest/786/submission/25756429",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "*2400"
+    ],
+    "timestamp": "Mar/24/2017 03:15"
+  },
   "CF25756706": {
     "contest_id": 787,
     "language": "GNU C++14",
