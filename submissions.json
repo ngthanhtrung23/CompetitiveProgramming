@@ -1,4 +1,21 @@
 {
+  "CF25912573": {
+    "contest_id": 788,
+    "language": "GNU C++14",
+    "path": "codeforces/788/C.cpp",
+    "problem_index": "C",
+    "problem_name": "The Great Mixing",
+    "problem_url": "https://codeforces.com/contest/788/problem/C",
+    "submission_id": "CF25912573",
+    "submission_url": "https://codeforces.com/contest/788/submission/25912573",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "*2300"
+    ],
+    "timestamp": "Mar/30/2017 00:56"
+  },
   "CF25926318": {
     "contest_id": 788,
     "language": "GNU C++14",
