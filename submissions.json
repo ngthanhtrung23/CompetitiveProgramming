@@ -1,4 +1,20 @@
 {
+  "CF25902663": {
+    "contest_id": 788,
+    "language": "GNU C++14",
+    "path": "codeforces/788/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Functions again",
+    "problem_url": "https://codeforces.com/contest/788/problem/A",
+    "submission_id": "CF25902663",
+    "submission_url": "https://codeforces.com/contest/788/submission/25902663",
+    "tags": [
+      "dp",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Mar/30/2017 00:19"
+  },
   "CF25912573": {
     "contest_id": 788,
     "language": "GNU C++14",
