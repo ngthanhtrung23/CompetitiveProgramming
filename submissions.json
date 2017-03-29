@@ -1,4 +1,23 @@
 {
+  "CF25926318": {
+    "contest_id": 788,
+    "language": "GNU C++14",
+    "path": "codeforces/788/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Weird journey",
+    "problem_url": "https://codeforces.com/contest/788/problem/B",
+    "submission_id": "CF25926318",
+    "submission_url": "https://codeforces.com/contest/788/submission/25926318",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2100"
+    ],
+    "timestamp": "Mar/30/2017 01:55"
+  },
   "CF25945655": {
     "contest_id": 788,
     "language": "GNU C++14",
