@@ -1,4 +1,19 @@
 {
+  "CF25945655": {
+    "contest_id": 788,
+    "language": "GNU C++14",
+    "path": "codeforces/788/E.cpp",
+    "problem_index": "E",
+    "problem_name": "New task",
+    "problem_url": "https://codeforces.com/contest/788/problem/E",
+    "submission_id": "CF25945655",
+    "submission_url": "https://codeforces.com/contest/788/submission/25945655",
+    "tags": [
+      "data structures",
+      "*2900"
+    ],
+    "timestamp": "Mar/30/2017 16:38"
+  },
   "CF25998278": {
     "contest_id": 784,
     "language": "Python 2",
