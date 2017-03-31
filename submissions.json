@@ -1,4 +1,20 @@
 {
+  "CF26034344": {
+    "contest_id": 784,
+    "language": "GNU C++14",
+    "path": "codeforces/784/C.cpp",
+    "problem_index": "C",
+    "problem_name": "INTERCALC",
+    "problem_url": "https://codeforces.com/contest/784/problem/C",
+    "submission_id": "CF26034344",
+    "submission_url": "https://codeforces.com/contest/784/submission/26034344",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Apr/01/2017 03:45"
+  },
   "CF26034347": {
     "contest_id": 784,
     "language": "GNU C++14",
