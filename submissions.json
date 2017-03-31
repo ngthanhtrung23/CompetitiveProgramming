@@ -1,4 +1,19 @@
 {
+  "CF26034339": {
+    "contest_id": 784,
+    "language": "Java 8",
+    "path": "codeforces/784/B.java",
+    "problem_index": "B",
+    "problem_name": "Kids' Riddle",
+    "problem_url": "https://codeforces.com/contest/784/problem/B",
+    "submission_id": "CF26034339",
+    "submission_url": "https://codeforces.com/contest/784/submission/26034339",
+    "tags": [
+      "*special problem",
+      "*2000"
+    ],
+    "timestamp": "Apr/01/2017 03:45"
+  },
   "CF26034344": {
     "contest_id": 784,
     "language": "GNU C++14",
