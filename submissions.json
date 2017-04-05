@@ -1,4 +1,21 @@
 {
+  "CF26154795": {
+    "contest_id": 795,
+    "language": "Java 8",
+    "path": "codeforces/795/L.java",
+    "problem_index": "L",
+    "problem_name": "Bars",
+    "problem_url": "https://codeforces.com/contest/795/problem/L",
+    "submission_id": "CF26154795",
+    "submission_url": "https://codeforces.com/contest/795/submission/26154795",
+    "tags": [
+      "*special problem",
+      "binary search",
+      "greedy",
+      "*2000"
+    ],
+    "timestamp": "Apr/06/2017 01:26"
+  },
   "CF26176570": {
     "contest_id": 795,
     "language": "Go",
