@@ -1,4 +1,21 @@
 {
+  "CF26152465": {
+    "contest_id": 795,
+    "language": "GNU C",
+    "path": "codeforces/795/E.c",
+    "problem_index": "E",
+    "problem_name": "Big Number and Remainder",
+    "problem_url": "https://codeforces.com/contest/795/problem/E",
+    "submission_id": "CF26152465",
+    "submission_url": "https://codeforces.com/contest/795/submission/26152465",
+    "tags": [
+      "*special problem",
+      "brute force",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Apr/06/2017 00:51"
+  },
   "CF26153391": {
     "contest_id": 795,
     "language": "Python 2",
