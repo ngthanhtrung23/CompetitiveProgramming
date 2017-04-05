@@ -1,4 +1,21 @@
 {
+  "CF26148781": {
+    "contest_id": 795,
+    "language": "JavaScript",
+    "path": "codeforces/795/C.js",
+    "problem_index": "C",
+    "problem_name": "Maximum Number",
+    "problem_url": "https://codeforces.com/contest/795/problem/C",
+    "submission_id": "CF26148781",
+    "submission_url": "https://codeforces.com/contest/795/submission/26148781",
+    "tags": [
+      "*special problem",
+      "constructive algorithms",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Apr/06/2017 00:06"
+  },
   "CF26150981": {
     "contest_id": 795,
     "language": "FPC",
