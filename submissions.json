@@ -1,4 +1,22 @@
 {
+  "CF26148001": {
+    "contest_id": 795,
+    "language": "GNU C++14",
+    "path": "codeforces/795/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Significant Cups",
+    "problem_url": "https://codeforces.com/contest/795/problem/B",
+    "submission_id": "CF26148001",
+    "submission_url": "https://codeforces.com/contest/795/submission/26148001",
+    "tags": [
+      "*special problem",
+      "binary search",
+      "sortings",
+      "two pointers",
+      "*2100"
+    ],
+    "timestamp": "Apr/05/2017 23:57"
+  },
   "CF26148781": {
     "contest_id": 795,
     "language": "JavaScript",
