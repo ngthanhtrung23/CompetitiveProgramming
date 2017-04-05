@@ -1,4 +1,21 @@
 {
+  "CF26147118": {
+    "contest_id": 795,
+    "language": "Ruby",
+    "path": "codeforces/795/A.rb",
+    "problem_index": "A",
+    "problem_name": "Amusement Park",
+    "problem_url": "https://codeforces.com/contest/795/problem/A",
+    "submission_id": "CF26147118",
+    "submission_url": "https://codeforces.com/contest/795/submission/26147118",
+    "tags": [
+      "*special problem",
+      "brute force",
+      "ternary search",
+      "*2100"
+    ],
+    "timestamp": "Apr/05/2017 23:44"
+  },
   "CF26148001": {
     "contest_id": 795,
     "language": "GNU C++14",
