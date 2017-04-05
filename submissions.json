@@ -1,4 +1,21 @@
 {
+  "CF26150981": {
+    "contest_id": 795,
+    "language": "FPC",
+    "path": "codeforces/795/K.pas",
+    "problem_index": "K",
+    "problem_name": "Stepan and Vowels",
+    "problem_url": "https://codeforces.com/contest/795/problem/K",
+    "submission_id": "CF26150981",
+    "submission_url": "https://codeforces.com/contest/795/submission/26150981",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Apr/06/2017 00:32"
+  },
   "CF26152465": {
     "contest_id": 795,
     "language": "GNU C",
