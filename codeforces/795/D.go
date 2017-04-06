@@ -2,7 +2,6 @@ package main
 
 import (
     "fmt"
-    "sort"
     "bufio"
     "os"
 )
@@ -30,16 +29,14 @@ func main() {
         fmt.Fscan(in, &b[i])
     }
 
-    a2 := make([]int, r - l + 1)
-    b2 := make([]int, r - l + 1)
+    a2 := make([]int, 100111)
+    b2 := make([]int, 100111)
 
-    var cur int = 0
     var ok bool = true
     for i := 0; i < n; i++ {
         if l <= i && i <= r {
-            a2[cur] = a[i]
-            b2[cur] = b[i]
-            cur += 1
+            a2[a[i]] += 1
+            b2[b[i]] += 1
         } else {
             if (a[i] != b[i]) {
                 ok = false
@@ -47,10 +44,7 @@ func main() {
         }
     }
 
-    sort.Ints(a2)
-    sort.Ints(b2)
-
-    for i := 0; i < len(a2); i++ {
+    for i := 0; i < 100111; i++ {
         if a2[i] != b2[i] {
             ok = false
         }

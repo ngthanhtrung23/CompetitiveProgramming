@@ -1,4 +1,21 @@
 {
+  "CF26176570": {
+    "contest_id": 795,
+    "language": "Go",
+    "path": "codeforces/795/D.go",
+    "problem_index": "D",
+    "problem_name": "Lie or Truth",
+    "problem_url": "https://codeforces.com/contest/795/problem/D",
+    "submission_id": "CF26176570",
+    "submission_url": "https://codeforces.com/contest/795/submission/26176570",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Apr/07/2017 01:52"
+  },
   "CF26176631": {
     "contest_id": 795,
     "language": "Go",
