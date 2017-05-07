@@ -1,4 +1,20 @@
 {
+  "CF26930667": {
+    "contest_id": 806,
+    "language": "GNU C++11",
+    "path": "codeforces/806/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Success Rate",
+    "problem_url": "https://codeforces.com/contest/806/problem/A",
+    "submission_id": "CF26930667",
+    "submission_url": "https://codeforces.com/contest/806/submission/26930667",
+    "tags": [
+      "binary search",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "May/08/2017 00:12"
+  },
   "CF26936591": {
     "contest_id": 806,
     "language": "GNU C++11",
