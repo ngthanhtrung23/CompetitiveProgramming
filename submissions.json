@@ -1,4 +1,19 @@
 {
+  "CF27403952": {
+    "contest_id": 802,
+    "language": "GNU C++14",
+    "path": "codeforces/802/I.cpp",
+    "problem_index": "I",
+    "problem_name": "Fake News (hard)",
+    "problem_url": "https://codeforces.com/contest/802/problem/I",
+    "submission_id": "CF27403952",
+    "submission_url": "https://codeforces.com/contest/802/submission/27403952",
+    "tags": [
+      "string suffix structures",
+      "*2300"
+    ],
+    "timestamp": "May/28/2017 16:20"
+  },
   "CF27404131": {
     "contest_id": 802,
     "language": "GNU C++11",
