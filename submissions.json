@@ -1,4 +1,20 @@
 {
+  "CF27405751": {
+    "contest_id": 802,
+    "language": "GNU C++",
+    "path": "codeforces/802/H.cpp",
+    "problem_index": "H",
+    "problem_name": "Fake News (medium)",
+    "problem_url": "https://codeforces.com/contest/802/problem/H",
+    "submission_id": "CF27405751",
+    "submission_url": "https://codeforces.com/contest/802/submission/27405751",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*2200"
+    ],
+    "timestamp": "May/28/2017 16:54"
+  },
   "CF27406929": {
     "contest_id": 802,
     "language": "GNU C++",
