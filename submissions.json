@@ -1,4 +1,20 @@
 {
+  "CF27403362": {
+    "contest_id": 802,
+    "language": "GNU C++",
+    "path": "codeforces/802/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Fake News (easy)",
+    "problem_url": "https://codeforces.com/contest/802/problem/G",
+    "submission_id": "CF27403362",
+    "submission_url": "https://codeforces.com/contest/802/submission/27403362",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/28/2017 16:08"
+  },
   "CF27403912": {
     "contest_id": 802,
     "language": "GNU C++11",
