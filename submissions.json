@@ -1,4 +1,20 @@
 {
+  "CF27403917": {
+    "contest_id": 802,
+    "language": "GNU C++11",
+    "path": "codeforces/802/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Heidi and Library (medium)",
+    "problem_url": "https://codeforces.com/contest/802/problem/B",
+    "submission_id": "CF27403917",
+    "submission_url": "https://codeforces.com/contest/802/submission/27403917",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "May/28/2017 16:19"
+  },
   "CF27403952": {
     "contest_id": 802,
     "language": "GNU C++14",
