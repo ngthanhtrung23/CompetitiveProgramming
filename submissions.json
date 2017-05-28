@@ -1,4 +1,20 @@
 {
+  "CF27404131": {
+    "contest_id": 802,
+    "language": "GNU C++11",
+    "path": "codeforces/802/M.cpp",
+    "problem_index": "M",
+    "problem_name": "April Fools' Problem (easy)",
+    "problem_url": "https://codeforces.com/contest/802/problem/M",
+    "submission_id": "CF27404131",
+    "submission_url": "https://codeforces.com/contest/802/submission/27404131",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "May/28/2017 16:23"
+  },
   "CF27404506": {
     "contest_id": 802,
     "language": "GNU C++14",
