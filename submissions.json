@@ -1,4 +1,22 @@
 {
+  "CF27411443": {
+    "contest_id": 802,
+    "language": "GNU C++",
+    "path": "codeforces/802/L.cpp",
+    "problem_index": "L",
+    "problem_name": "Send the Fool Further! (hard)",
+    "problem_url": "https://codeforces.com/contest/802/problem/L",
+    "submission_id": "CF27411443",
+    "submission_url": "https://codeforces.com/contest/802/submission/27411443",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "May/28/2017 19:45"
+  },
   "CF32823156": {
     "contest_id": 833,
     "language": "GNU C++11",
