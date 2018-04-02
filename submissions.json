@@ -1,4 +1,19 @@
 {
+  "CF36865607": {
+    "contest_id": 952,
+    "language": "GNU C++11",
+    "path": "codeforces/952/D.cpp",
+    "problem_index": "D",
+    "problem_name": "I'm Feeling Lucky!",
+    "problem_url": "https://codeforces.com/contest/952/problem/D",
+    "submission_id": "CF36865607",
+    "submission_url": "https://codeforces.com/contest/952/submission/36865607",
+    "tags": [
+      "probabilities",
+      "*1800"
+    ],
+    "timestamp": "Apr/02/2018 08:07"
+  },
   "CF36865658": {
     "contest_id": 952,
     "language": "GNU C++11",
