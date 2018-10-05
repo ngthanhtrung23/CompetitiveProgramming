@@ -1,4 +1,22 @@
 {
+  "CF43816790": {
+    "contest_id": 269,
+    "language": "GNU C++17",
+    "path": "codeforces/269/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Flawed Flow",
+    "problem_url": "https://codeforces.com/contest/269/problem/C",
+    "submission_id": "CF43816790",
+    "submission_url": "https://codeforces.com/contest/269/submission/43816790",
+    "tags": [
+      "constructive algorithms",
+      "flows",
+      "graphs",
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Oct/05/2018 13:52"
+  },
   "CF43817797": {
     "contest_id": 269,
     "language": "GNU C++17",
