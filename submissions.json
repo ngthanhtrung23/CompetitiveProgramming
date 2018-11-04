@@ -1,4 +1,20 @@
 {
+  "CF45286432": {
+    "contest_id": 869,
+    "language": "PyPy 2",
+    "path": "codeforces/869/A.py",
+    "problem_index": "A",
+    "problem_name": "The Artful Expedient",
+    "problem_url": "https://codeforces.com/contest/869/problem/A",
+    "submission_id": "CF45286432",
+    "submission_url": "https://codeforces.com/contest/869/submission/45286432",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Nov/05/2018 00:59"
+  },
   "CF45309656": {
     "contest_id": 869,
     "language": "Java 8",
