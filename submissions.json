@@ -1,4 +1,20 @@
 {
+  "CF45309656": {
+    "contest_id": 869,
+    "language": "Java 8",
+    "path": "codeforces/869/E.java",
+    "problem_index": "E",
+    "problem_name": "The Untended Antiquity",
+    "problem_url": "https://codeforces.com/contest/869/problem/E",
+    "submission_id": "CF45309656",
+    "submission_url": "https://codeforces.com/contest/869/submission/45309656",
+    "tags": [
+      "data structures",
+      "hashing",
+      "*2400"
+    ],
+    "timestamp": "Nov/05/2018 10:28"
+  },
   "CF52161058": {
     "contest_id": 1145,
     "language": "GNU C++17",
