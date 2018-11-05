@@ -27985,6 +27985,18 @@
     ],
     "timestamp": "Nov/05/2018 10:28"
   },
+  "CF45334502": {
+    "contest_id": 100009,
+    "language": "GNU C++17",
+    "path": "codeforces/100009/A.cpp",
+    "problem_index": "A",
+    "problem_name": "A",
+    "problem_url": "https://codeforces.com/gym/100009",
+    "submission_id": "CF45334502",
+    "submission_url": "https://codeforces.com/gym/100009/submission/45334502",
+    "tags": [],
+    "timestamp": "Nov/06/2018 00:56"
+  },
   "CF4583965": {
     "contest_id": 348,
     "language": "GNU C++",
