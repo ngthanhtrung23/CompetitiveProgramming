@@ -1,4 +1,18 @@
 {
+  "CF52167789": {
+    "contest_id": 1145,
+    "language": "GNU C++17",
+    "path": "codeforces/1145/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Pigeon d'Or",
+    "problem_url": "https://codeforces.com/contest/1145/problem/D",
+    "submission_id": "CF52167789",
+    "submission_url": "https://codeforces.com/contest/1145/submission/52167789",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Apr/01/2019 23:31"
+  },
   "CF52172145": {
     "contest_id": 1145,
     "language": "GNU C++17",
