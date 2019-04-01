@@ -1,4 +1,16 @@
 {
+  "CF52206756": {
+    "contest_id": 1145,
+    "language": "GNU C++17",
+    "path": "codeforces/1145/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Fourier Doodles",
+    "problem_url": "https://codeforces.com/contest/1145/problem/E",
+    "submission_id": "CF52206756",
+    "submission_url": "https://codeforces.com/contest/1145/submission/52206756",
+    "tags": [],
+    "timestamp": "Apr/02/2019 01:41"
+  },
   "CF56193631": {
     "contest_id": 1186,
     "language": "GNU C++17",
