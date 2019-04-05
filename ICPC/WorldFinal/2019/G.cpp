@@ -2,7 +2,7 @@
 Problem:
 - Given a trie
 - Given N queries, each query is a string.
-- For each query, count how many words in trie has that query as prefix.
+- For each query, count how many words in trie has that query as suffix.
 
 Solution:
 - Build AhoCorasick on reverse of queries.
