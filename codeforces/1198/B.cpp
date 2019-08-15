@@ -5,44 +5,47 @@
 #include "bits/stdc++.h"
  
 using namespace std;
- 
-inline int ReadInt()
-{
-    char c;
-    while (c = getchar(), c < '0' || c > '9');
-    int x = c - '0';
-    while (c = getchar(), c >= '0' && c <= '9')
-        x = x * 10 + c - '0';
-    return x;
+
+int INP,AM,REACHEOF;
+#define BUFSIZE (1<<12)
+char BUF[BUFSIZE+1], *inp=BUF;
+#define GETCHAR(INP) { \
+    if(!*inp && !REACHEOF) { \
+        memset(BUF,0,sizeof BUF);\
+        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
+        if (inpzzz != BUFSIZE) REACHEOF = true;\
+        inp=BUF; \
+    } \
+    INP=*inp++; \
 }
- 
-inline void WriteInt(int x)
-{
-    int p = 1;
-    for (int temp = x / 10; temp > 0; temp /= 10)
-        p *= 10;
-    for (; p > 0; x %= p, p /= 10)
-        putchar(x / p + '0');
+#define DIG(a) (((a)>='0')&&((a)<='9'))
+#define GN(j) { \
+    AM=0;\
+    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
+    if (INP=='-') {AM=1;GETCHAR(INP);} \
+    j=INP-'0'; GETCHAR(INP); \
+    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
+    if (AM) j=-j;\
 }
- 
+
 int main() {
-  int n = ReadInt();
+  int n; GN(n);
   vector<int> a(n);
   for (int i = 0; i < n; i++) {
-      a[i] = ReadInt();
+      GN(a[i]);
   }
-  int tt = ReadInt();
+  int tt; GN(tt);
   vector<int> op(tt);
   vector<int> who(tt);
   vector<int> val(tt);
   for (int i = 0; i < tt; i++) {
-      op[i] = ReadInt();
+      GN(op[i]);
     if (op[i] == 1) {
-        who[i] = ReadInt();
-        val[i] = ReadInt();
+        GN(who[i]);
+        GN(val[i]);
       --who[i];
     } else {
-        val[i] = ReadInt();
+        GN(val[i]);
     }
   }
   vector<int> res(n, -1);
@@ -63,10 +66,10 @@ int main() {
   }
   for (int i = 0; i < n; i++) {
     if (i > 0) {
-        cout << ' ';
+        putchar(' ');
     }
-    cout << res[i];
+    printf("%d", res[i]);
   }
-  cout << '\n';
+  putchar('\n');
   return 0;
 }
