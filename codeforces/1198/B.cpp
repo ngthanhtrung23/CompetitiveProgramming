@@ -2,28 +2,31 @@
  *    author:  tourist
  *    created: 30.07.2019 17:49:26       
 **/
-#include "bits/stdc++.h"
+#include <bits/stdc++.h>
  
 using namespace std;
-
+ 
 int main() {
-  int n; scanf("%d", &n);
+  ios::sync_with_stdio(false);
+  cin.tie(0);
+  int n;
+  cin >> n;
   vector<int> a(n);
   for (int i = 0; i < n; i++) {
-      scanf("%d", &a[i]);
+    cin >> a[i];
   }
-  int tt; scanf("%d", &tt);
+  int tt;
+  cin >> tt;
   vector<int> op(tt);
   vector<int> who(tt);
   vector<int> val(tt);
   for (int i = 0; i < tt; i++) {
-      scanf("%d", &op[i]);
+    cin >> op[i];
     if (op[i] == 1) {
-        scanf("%d", &who[i]);
-        scanf("%d", &val[i]);
+      cin >> who[i] >> val[i];
       --who[i];
     } else {
-        scanf("%d", &val[i]);
+      cin >> val[i];
     }
   }
   vector<int> res(n, -1);
@@ -44,10 +47,10 @@ int main() {
   }
   for (int i = 0; i < n; i++) {
     if (i > 0) {
-        putchar(' ');
+      cout << " ";
     }
-    printf("%d", res[i]);
+    cout << res[i];
   }
-  putchar('\n');
+  cout << '\n';
   return 0;
 }
