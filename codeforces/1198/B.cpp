@@ -6,24 +6,43 @@
  
 using namespace std;
  
+inline int ReadInt()
+{
+    char c;
+    while (c = getchar(), c < '0' || c > '9');
+    int x = c - '0';
+    while (c = getchar(), c >= '0' && c <= '9')
+        x = x * 10 + c - '0';
+    return x;
+}
+ 
+inline void WriteInt(int x)
+{
+    int p = 1;
+    for (int temp = x / 10; temp > 0; temp /= 10)
+        p *= 10;
+    for (; p > 0; x %= p, p /= 10)
+        putchar(x / p + '0');
+}
+ 
 int main() {
-  int n; scanf("%d", &n);
+  int n = ReadInt();
   vector<int> a(n);
   for (int i = 0; i < n; i++) {
-      scanf("%d", &a[i]);
+      a[i] = ReadInt();
   }
-  int tt; scanf("%d", &tt);
+  int tt = ReadInt();
   vector<int> op(tt);
   vector<int> who(tt);
   vector<int> val(tt);
   for (int i = 0; i < tt; i++) {
-      scanf("%d", &op[i]);
+      op[i] = ReadInt();
     if (op[i] == 1) {
-        scanf("%d", &who[i]);
-        scanf("%d", &val[i]);
+        who[i] = ReadInt();
+        val[i] = ReadInt();
       --who[i];
     } else {
-        scanf("%d", &val[i]);
+        val[i] = ReadInt();
     }
   }
   vector<int> res(n, -1);
