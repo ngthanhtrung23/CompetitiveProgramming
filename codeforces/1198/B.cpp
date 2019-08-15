@@ -6,46 +6,24 @@
  
 using namespace std;
 
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp && !REACHEOF) { \
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-
 int main() {
-  int n; GN(n);
+  int n; scanf("%d", &n);
   vector<int> a(n);
   for (int i = 0; i < n; i++) {
-      GN(a[i]);
+      scanf("%d", &a[i]);
   }
-  int tt; GN(tt);
+  int tt; scanf("%d", &tt);
   vector<int> op(tt);
   vector<int> who(tt);
   vector<int> val(tt);
   for (int i = 0; i < tt; i++) {
-      GN(op[i]);
+      scanf("%d", &op[i]);
     if (op[i] == 1) {
-        GN(who[i]);
-        GN(val[i]);
+        scanf("%d", &who[i]);
+        scanf("%d", &val[i]);
       --who[i];
     } else {
-        GN(val[i]);
+        scanf("%d", &val[i]);
     }
   }
   vector<int> res(n, -1);
