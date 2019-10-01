@@ -1,7 +1,3 @@
-// Note: this solution is actually wrong (though AC on Kattis).
-// It doesn't handle the test case in SlidingBlocks.in.
-//
-// See SlidingBlocks_correct.cpp for the correct one.
 #include <algorithm>
 #include <cstdio>
 #include <cstdlib>
@@ -193,6 +189,40 @@ bool noCycle() {
     return cnt == nPos;
 }
 
+set< pair<int,int> > points;
+set< pair<int,int> > actual;
+set<int> actual_rows[MN], actual_cols[MN];
+
+bool verify() {
+    for (auto u : all) {
+        if (u == 1) {
+            continue;
+        }
+        int r, c;
+        if (how[u].first == '<') {
+            r = how[u].second;
+            if (actual_rows[r].empty()) return false;
+            c = *actual_rows[r].rbegin(); ++c;
+        } else if (how[u].first == '>') {
+            r = how[u].second;
+            if (actual_rows[r].empty()) return false;
+            c = *actual_rows[r].begin(); --c;
+        } else if (how[u].first == '^') {
+            c = how[u].second;
+            if (actual_cols[c].empty()) return false;
+            r = *actual_cols[c].rbegin(); ++r;
+        } else if (how[u].first == 'v') {
+            c = how[u].second;
+            if (actual_cols[c].empty()) return false;
+            r = *actual_cols[c].begin(); --r;
+        }
+        actual.insert({r, c});
+        actual_rows[r].insert(c);
+        actual_cols[c].insert(r);
+    }
+    return actual == points;
+}
+
 int32_t main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
@@ -200,6 +230,11 @@ int32_t main() {
     while (cin >> nRow >> nCol >> nPos) {
         init();
         int startRow = -1, startCol = -1;
+        points.clear();
+        actual.clear();
+        FOR(i,1,nRow) actual_rows[i].clear();
+        FOR(j,1,nCol) actual_cols[j].clear();
+
         FOR(i,1,nPos) {
             int r, c; cin >> r >> c;
             if (i == 1) {
@@ -213,12 +248,19 @@ int32_t main() {
             posId[p] = i;
             rows[r].insert(c);
             cols[c].insert(r);
+
+            points.insert({r, c});
+            if (i == 1) {
+                actual.insert({r, c});
+                actual_rows[r].insert(c);
+                actual_cols[c].insert(r);
+            }
         }
         memset(visited, 0, sizeof visited);
         dfs1(startRow, startCol, -1);
 
         all.clear();
-        if (!noCycle()) {
+        if (!noCycle() || !verify()) {
             cout << "impossible" << endl;
         } else {
             cout << "possible" << endl;
