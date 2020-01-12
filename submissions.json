@@ -1,4 +1,19 @@
 {
+  "CF68667285": {
+    "contest_id": 1285,
+    "language": "Rust",
+    "path": "codeforces/1285/A.rs",
+    "problem_index": "A",
+    "problem_name": "Mezo Playing Zoma",
+    "problem_url": "https://codeforces.com/contest/1285/problem/A",
+    "submission_id": "CF68667285",
+    "submission_url": "https://codeforces.com/contest/1285/submission/68667285",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/12/2020 23:35"
+  },
   "CF68669286": {
     "contest_id": 1285,
     "language": "Rust",
