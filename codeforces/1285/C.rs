@@ -31,10 +31,11 @@ impl Scanner {
 /// gcd(0, x) = x
 fn gcd(mut m: i64, mut n: i64) -> i64 {
 	while n != 0 {
-		m %= n;
-		std::mem::swap(&mut m, &mut n);
+		let t = m % n;
+		m = n;
+		n = t;
 	}
-	return m.abs();
+	return m;
 }
 
 /// Returns lcm(m, n).

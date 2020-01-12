@@ -1,4 +1,16 @@
 {
+  "CF68670871": {
+    "contest_id": 1285,
+    "language": "Rust",
+    "path": "codeforces/1285/C.rs",
+    "problem_index": "C",
+    "problem_name": "Fadi and LCM",
+    "problem_url": "https://codeforces.com/contest/1285/problem/C",
+    "submission_id": "CF68670871",
+    "submission_url": "https://codeforces.com/contest/1285/submission/68670871",
+    "tags": [],
+    "timestamp": "Jan/13/2020 00:48"
+  },
   "CF68672205": {
     "contest_id": 1285,
     "language": "Rust",
