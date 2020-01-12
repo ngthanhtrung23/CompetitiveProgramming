@@ -1,4 +1,16 @@
 {
+  "CF68669286": {
+    "contest_id": 1285,
+    "language": "Rust",
+    "path": "codeforces/1285/B.rs",
+    "problem_index": "B",
+    "problem_name": "Just Eat It!",
+    "problem_url": "https://codeforces.com/contest/1285/problem/B",
+    "submission_id": "CF68669286",
+    "submission_url": "https://codeforces.com/contest/1285/submission/68669286",
+    "tags": [],
+    "timestamp": "Jan/13/2020 00:17"
+  },
   "CF68669538": {
     "contest_id": 1285,
     "language": "Rust",

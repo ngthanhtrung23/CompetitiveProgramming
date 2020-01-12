@@ -34,7 +34,7 @@ fn main() {
 		let a: Vec<i64> = (0..n).map(|_| scanner.next()).collect();
 
 		let sum_all = a.iter().sum();
-		let prefix_sum = a.iter().scan(0, |sum, &x| { *sum += x; Some(*sum) }).collect::<Vec<_>>();
+		let prefix_sum:Vec<i64> = a.iter().scan(0, |sum, &x| { *sum += x; Some(*sum) }).collect::<Vec<_>>();
 
 		let mut max_subarr_sum:i64 = a[0];
 		let mut min_prefix_sum:i64 = 0;
