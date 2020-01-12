@@ -1,4 +1,21 @@
 {
+  "CF68672205": {
+    "contest_id": 1285,
+    "language": "Rust",
+    "path": "codeforces/1285/C.rs",
+    "problem_index": "C",
+    "problem_name": "Fadi and LCM",
+    "problem_url": "https://codeforces.com/contest/1285/problem/C",
+    "submission_id": "CF68672205",
+    "submission_url": "https://codeforces.com/contest/1285/submission/68672205",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jan/13/2020 01:14"
+  },
   "CF68673789": {
     "contest_id": 1285,
     "language": "Rust",
