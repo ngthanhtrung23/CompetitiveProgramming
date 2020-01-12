@@ -34,8 +34,8 @@ fn solve(bit: i32, a: Vec<i32>) -> i32 {
 		return 0;
 	}
 
-	let on_bit:Vec<i32> = a.iter().filter(|&&x| get_bit(x, bit) == 1).map(|x| *x).collect();
-	let off_bit:Vec<i32> = a.iter().filter(|&&x| get_bit(x, bit) == 0).map(|x| *x).collect();
+	let on_bit:Vec<i32> = a.iter().clone().filter(|&&x| get_bit(x, bit) == 1).map(|x| *x).collect();
+	let off_bit:Vec<i32> = a.iter().clone().filter(|&&x| get_bit(x, bit) == 0).map(|x| *x).collect();
 	if on_bit.is_empty() {
 		return solve(bit - 1, off_bit);
 	}
