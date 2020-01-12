@@ -1,4 +1,19 @@
 {
+  "CF68666925": {
+    "contest_id": 1118,
+    "language": "Rust",
+    "path": "codeforces/1118/A.rs",
+    "problem_index": "A",
+    "problem_name": "Water Buying",
+    "problem_url": "https://codeforces.com/contest/1118/problem/A",
+    "submission_id": "CF68666925",
+    "submission_url": "https://codeforces.com/contest/1118/submission/68666925",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/12/2020 23:28"
+  },
   "CF68667285": {
     "contest_id": 1285,
     "language": "Rust",
