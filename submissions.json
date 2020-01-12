@@ -1,4 +1,19 @@
 {
+  "CF68666596": {
+    "contest_id": 977,
+    "language": "Rust",
+    "path": "codeforces/977/A.rs",
+    "problem_index": "A",
+    "problem_name": "Wrong Subtraction",
+    "problem_url": "https://codeforces.com/contest/977/problem/A",
+    "submission_id": "CF68666596",
+    "submission_url": "https://codeforces.com/contest/977/submission/68666596",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/12/2020 23:21"
+  },
   "CF68666925": {
     "contest_id": 1118,
     "language": "Rust",
