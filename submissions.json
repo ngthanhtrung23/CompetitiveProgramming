@@ -1,4 +1,26 @@
 {
+  "CF68687306": {
+    "contest_id": 1285,
+    "language": "Rust",
+    "path": "codeforces/1285/D.rs",
+    "problem_index": "D",
+    "problem_name": "Dr. Evil Underscores",
+    "problem_url": "https://codeforces.com/contest/1285/problem/D",
+    "submission_id": "CF68687306",
+    "submission_url": "https://codeforces.com/contest/1285/submission/68687306",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dfs and similar",
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "strings",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Jan/13/2020 12:15"
+  },
   "CF69877495": {
     "contest_id": 1295,
     "language": "Rust",
