@@ -1,4 +1,19 @@
 {
+  "CF69877495": {
+    "contest_id": 1295,
+    "language": "Rust",
+    "path": "codeforces/1295/A.rs",
+    "problem_index": "A",
+    "problem_name": "Display The Number",
+    "problem_url": "https://codeforces.com/contest/1295/problem/A",
+    "submission_id": "CF69877495",
+    "submission_url": "https://codeforces.com/contest/1295/submission/69877495",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Jan/31/2020 12:51"
+  },
   "CF70571460": {
     "contest_id": 1294,
     "language": "GNU C++17",
