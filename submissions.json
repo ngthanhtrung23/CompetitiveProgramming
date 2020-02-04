@@ -29040,6 +29040,18 @@
     ],
     "timestamp": "Sep/15/2011 23:52"
   },
+  "CF70209517": {
+    "contest_id": 1302,
+    "language": "GNU C++17",
+    "path": "codeforces/1302/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Nash equilibrium",
+    "problem_url": "https://codeforces.com/contest/1302/problem/A",
+    "submission_id": "CF70209517",
+    "submission_url": "https://codeforces.com/contest/1302/submission/70209517",
+    "tags": [],
+    "timestamp": "Feb/04/2020 15:43"
+  },
   "CF70210203": {
     "contest_id": 1302,
     "language": "GNU C++17",
