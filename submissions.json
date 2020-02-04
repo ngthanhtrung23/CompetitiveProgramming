@@ -29040,6 +29040,20 @@
     ],
     "timestamp": "Sep/15/2011 23:52"
   },
+  "CF70210203": {
+    "contest_id": 1302,
+    "language": "GNU C++17",
+    "path": "codeforces/1302/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Segment tree or Fenwick?",
+    "problem_url": "https://codeforces.com/contest/1302/problem/C",
+    "submission_id": "CF70210203",
+    "submission_url": "https://codeforces.com/contest/1302/submission/70210203",
+    "tags": [
+      "data structures"
+    ],
+    "timestamp": "Feb/04/2020 15:57"
+  },
   "CF70214320": {
     "contest_id": 1302,
     "language": "GNU C++17",
