@@ -29040,6 +29040,18 @@
     ],
     "timestamp": "Sep/15/2011 23:52"
   },
+  "CF70372379": {
+    "contest_id": 1302,
+    "language": "GNU C++17",
+    "path": "codeforces/1302/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dijkstra",
+    "problem_url": "https://codeforces.com/contest/1302/problem/D",
+    "submission_id": "CF70372379",
+    "submission_url": "https://codeforces.com/contest/1302/submission/70372379",
+    "tags": [],
+    "timestamp": "Feb/05/2020 23:33"
+  },
   "CF70372532": {
     "contest_id": 1302,
     "language": "GNU C++17",

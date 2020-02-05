@@ -1,3 +1,6 @@
+#ifndef ONLINE_JUDGE
+#define _GLIBCXX_DEBUG 1
+#endif
 #include<bits/stdc++.h>
 #define DEBUG(X) { auto _X = (X); std::cerr << "L" << __LINE__ << ": " << #X << " = " << (_X) << std::endl; }
 #define PR0(A, n) { std::cerr << "L" << __LINE__ << ": " << #A << " = "; for(size_t i = 0, _n = n; i < _n; i++) std::cerr << A[i] << ' '; std::cerr << std::endl; }
@@ -28,17 +31,16 @@ int main() {
         addEdge(v, u, cost);
     }
 
-    std::set<std::pair<int64_t, int>> all;
+    std::priority_queue<std::pair<int64_t, int>> all;
     const long long INF = 1000111000111000LL;
     std::vector<int64_t> f(nVertex, INF);
     f[0] = 0;
-    all.insert({0, 0});
+    all.push({0, 0});
     std::vector<bool> finalized(nVertex, false);
 
     while (!all.empty()) {
-        auto it = prev(all.end());
-        auto u = it->second;
-        all.erase(it);
+        size_t u = all.top().second;
+        all.pop();
 
         if (finalized[u]) continue;
         finalized[u] = true;
@@ -46,7 +48,7 @@ int main() {
         for (auto e : g[u]) {
             if (f[e.to] > f[u] + e.cost) {
                 f[e.to] = f[u] + e.cost;
-                all.insert({f[e.to], e.to});
+                all.push({f[e.to], e.to});
             }
         }
     }
