@@ -29116,6 +29116,18 @@
     "tags": [],
     "timestamp": "Feb/05/2020 23:41"
   },
+  "CF70483467": {
+    "contest_id": 101383,
+    "language": "GNU C++17",
+    "path": "codeforces/101383/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Mega Nim",
+    "problem_url": "https://codeforces.com/gym/101383",
+    "submission_id": "CF70483467",
+    "submission_url": "https://codeforces.com/gym/101383/submission/70483467",
+    "tags": [],
+    "timestamp": "Feb/07/2020 14:42"
+  },
   "CF70484101": {
     "contest_id": 101383,
     "language": "GNU C++17",

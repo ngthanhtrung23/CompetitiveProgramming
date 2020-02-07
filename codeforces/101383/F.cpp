@@ -58,10 +58,6 @@ std::ostream& operator << (std::ostream& cout, const modular& m) {
     cout << m.x;
     return cout;
 }
-std::istream& operator << (std::istream& cin, modular& m) {
-    cin >> m.x;
-    return cin;
-}
 
 int main() {
     freopen("meganim.in", "r", stdin);
@@ -94,8 +90,6 @@ int main() {
     }
 
     std::vector<std::vector<modular>> f(NBIT, std::vector<modular> (n + 1, 0));
-    // f[i][j] = how many ways to make the sum xor of first i bits equal to 0
-    //           j = how many number less than `limit`.
     f[0][0] = 1;
     for (int pos = 0; pos < NBIT-1; pos++) {
         for (int less = 0; less <= n; less++) {
