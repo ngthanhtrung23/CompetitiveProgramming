@@ -29116,6 +29116,18 @@
     "tags": [],
     "timestamp": "Feb/05/2020 23:41"
   },
+  "CF70489106": {
+    "contest_id": 101383,
+    "language": "GNU C++17",
+    "path": "codeforces/101383/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Floyd",
+    "problem_url": "https://codeforces.com/gym/101383",
+    "submission_id": "CF70489106",
+    "submission_url": "https://codeforces.com/gym/101383/submission/70489106",
+    "tags": [],
+    "timestamp": "Feb/07/2020 16:24"
+  },
   "CF70489272": {
     "contest_id": 101383,
     "language": "GNU C++17",

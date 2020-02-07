@@ -9,6 +9,10 @@
 
 #define REP(i, a) for (int i = 0; i < a; ++i)
 
+const int MN = 2011;
+// are array faster than vector?
+int d[MN][MN];
+
 struct DirectedDfs {
     int V;
     std::vector<int> num, low, current, S;
@@ -47,6 +51,13 @@ struct DirectedDfs {
     }
 };
 
+int c[MN][MN];
+int compId[MN], nComp;
+
+void updMin(int& f, int val) {
+    if (val < f) f = val;
+}
+
 int main() {
     freopen("floyd.in", "r", stdin);
     freopen("floyd.out", "w", stdout);
@@ -54,8 +65,6 @@ int main() {
     int n; std::cin >> n;
     long long s; std::cin >> s;
     DirectedDfs graph(n);
-
-    std::vector< std::vector<int> > d(n, std::vector<int> (n));
     REP(i,n) {
         REP(j,n) {
             if (i == j) continue;
@@ -71,7 +80,6 @@ int main() {
 
     // map vertex to component ID.
     graph.construct();
-    std::vector<int> compId(n);
     int nComp = graph.scc.size();
     REP(c, nComp) {
         auto& scc = graph.scc[c];
@@ -80,11 +88,7 @@ int main() {
         }
     }
 
-    std::vector<std::vector<int> > c(nComp, std::vector<int> (nComp, 1011));
-
-    auto updMin = [] (int&f , int val) {
-        if (val < f) f = val;
-    };
+    memset(c, 0x3f, sizeof c);
     REP(i,n) REP(j,n) {
         int ci = compId[i];
         int cj = compId[j];
