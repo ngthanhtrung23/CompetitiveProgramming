@@ -1,8 +1,8 @@
 use std::cmp::min;
+use std::borrow::BorrowMut;
 use std::io;
 use std::str;
 use io::Write;
-use std::borrow::BorrowMut;
 
 #[derive(Default)]
 pub struct Scanner<R> {
@@ -55,19 +55,18 @@ impl Graph {
 	pub fn new(v: usize) -> Self {
 		Self {
 			n_vertex: v,
-			adjs: vec![vec![]; v],
+			adjs: vec![vec![]; v]
 		}
 	}
 
-	pub fn add_directed_edge(&mut self, u: usize, v: usize) {
+	pub fn add_directed_edge(&mut self, u: usize, v:usize) {
 		self.adjs[u].push(v);
 	}
 }
 
 // Build strongly connected components.
 struct StronglyConnectedComponents {
-	sccs: Vec<Vec<usize>>,
-	// The strongly connected components.
+	sccs: Vec<Vec<usize>>,  // The strongly connected components.
 	num: Vec<i32>,
 	low: Vec<i32>,
 	current: Vec<bool>,
@@ -144,7 +143,7 @@ fn main() {
 	for i in 0..n {
 		for j in 0..n {
 			if i == j {
-				continue;
+				continue
 			}
 
 			d[i][j] = (s % 1000) as i32;
@@ -180,10 +179,7 @@ fn main() {
 	for k in 0..n_comp {
 		for i in 0..n_comp {
 			for j in 0..n_comp {
-				unsafe {
-					c[i][j] = min(*c.get_unchecked(i).get_unchecked(j),
-								  c.get_unchecked(i).get_unchecked(k) + c.get_unchecked(k).get_unchecked(j));
-				}
+				c[i][j] = min(c[i][j], c[i][k] + c[k][j]);
 			}
 		}
 	}
