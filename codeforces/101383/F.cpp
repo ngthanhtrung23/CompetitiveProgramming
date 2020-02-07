@@ -25,9 +25,11 @@ template<int MOD>
 struct ModInt {
 	unsigned x;
  
+    explicit constexpr operator int() const { return x; }
+ 
 	constexpr ModInt() : x(0) { }
-    constexpr ModInt(signed sig) { int sigt = sig % MOD; if (sigt < 0) sigt += MOD; x = sigt; }
-    constexpr ModInt(signed long long sig) { int sigt = sig % MOD; if (sigt < 0) sigt += MOD; x = sigt; }
+	constexpr ModInt(signed sig) : x(sig % MOD) { if (x < 0) x += MOD; }
+    constexpr ModInt(signed long long sig) : x(sig % MOD) { if (x < 0) x += MOD; }
  
 #define COMPAREOP(OP) bool constexpr operator OP(ModInt b) const { return x OP b.x; }
     COMPAREOP(==) COMPAREOP(!=) COMPAREOP(<) COMPAREOP(>) COMPAREOP(<=) COMPAREOP(>=)
@@ -53,15 +55,10 @@ struct ModInt {
 };
 const int MOD = 1e9 + 7;
 using modular = ModInt<MOD>;
-
+ 
 std::ostream& operator << (std::ostream& cout, const modular& m) {
     cout << m.x;
     return cout;
-}
-
-std::istream& operator << (std::istream& cin, modular& m) {
-    cin >> m.x;
-    return cin;
 }
  
 int32_t main() {
