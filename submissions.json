@@ -29116,6 +29116,18 @@
     "tags": [],
     "timestamp": "Feb/05/2020 23:41"
   },
+  "CF70500498": {
+    "contest_id": 101383,
+    "language": "Rust",
+    "path": "codeforces/101383/C.rs",
+    "problem_index": "C",
+    "problem_name": "Floyd",
+    "problem_url": "https://codeforces.com/gym/101383",
+    "submission_id": "CF70500498",
+    "submission_url": "https://codeforces.com/gym/101383/submission/70500498",
+    "tags": [],
+    "timestamp": "Feb/07/2020 19:58"
+  },
   "CF70504831": {
     "contest_id": 101383,
     "language": "Rust",
