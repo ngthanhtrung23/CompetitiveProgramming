@@ -1,5 +1,10 @@
-#include "bits/stdc++.h"
-using namespace std;
+#ifndef ONLINE_JUDGE
+#define _GLIBCXX_DEBUG
+#endif
+#include<bits/stdc++.h>
+#define DEBUG(X) { auto _X = (X); std::cerr << "L" << __LINE__ << ": " << #X << " = " << (_X) << std::endl; }
+#define REP(i, a) for (int i = 0, _##i = (a); i < _##i; ++i)
+#define PR0(A, n) { std::cerr << "L" << __LINE__ << ": " << #A << " = "; REP(_, n) std::cerr << A[_] << ' '; std::cerr << std::endl; }
  
 inline void fasterLLDivMod(unsigned long long x, unsigned y, unsigned &out_d, unsigned &out_m) {
 	unsigned xh = (unsigned)(x >> 32), xl = (unsigned)x, d, m;
@@ -23,22 +28,15 @@ inline void fasterLLDivMod(unsigned long long x, unsigned y, unsigned &out_d, un
  
 template<int MOD>
 struct ModInt {
+	static const int Mod = MOD;
 	unsigned x;
+	ModInt() : x(0) { }
+	ModInt(signed sig) { int sigt = sig % MOD; if (sigt < 0) sigt += MOD; x = sigt; }
+	ModInt(signed long long sig) { int sigt = sig % MOD; if (sigt < 0) sigt += MOD; x = sigt; }
+	int get() const { return (int)x; }
  
-    explicit constexpr operator int() const { return x; }
- 
-	constexpr ModInt() : x(0) { }
-	constexpr ModInt(signed sig) : x(sig % MOD) { if (x < 0) x += MOD; }
-    constexpr ModInt(signed long long sig) : x(sig % MOD) { if (x < 0) x += MOD; }
- 
-#define COMPAREOP(OP) bool constexpr operator OP(ModInt b) const { return x OP b.x; }
-    COMPAREOP(==) COMPAREOP(!=) COMPAREOP(<) COMPAREOP(>) COMPAREOP(<=) COMPAREOP(>=)
-#undef COMPAREOP
- 
-    ModInt operator-() const { return ModInt(x ? MOD - x : 0); }
- 
-	ModInt constexpr& operator+=(ModInt that) { if ((x += that.x) >= MOD) x -= MOD; return *this; }
-	ModInt constexpr& operator-=(ModInt that) { if ((x += MOD - that.x) >= MOD) x -= MOD; return *this; }
+	ModInt &operator+=(ModInt that) { if ((x += that.x) >= MOD) x -= MOD; return *this; }
+	ModInt &operator-=(ModInt that) { if ((x += MOD - that.x) >= MOD) x -= MOD; return *this; }
 	ModInt &operator*=(ModInt that) {
 		unsigned dummy;
 		fasterLLDivMod((unsigned long long)x * that.x, MOD, dummy, x);
@@ -60,12 +58,12 @@ std::ostream& operator << (std::ostream& cout, const modular& m) {
     cout << m.x;
     return cout;
 }
+std::istream& operator << (std::istream& cin, modular& m) {
+    cin >> m.x;
+    return cin;
+}
  
-int32_t main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout << (fixed) << setprecision(9) << boolalpha;
- 
+int main() {
     freopen("meganim.in", "r", stdin);
     freopen("meganim.out", "w", stdout);
  
@@ -116,5 +114,4 @@ int32_t main() {
     }
  
     std::cout << f[NBIT-1][n] << std::endl;
-    return 0;
 }
