@@ -90,7 +90,7 @@ int main() {
     g[0][0] = 1;
     for (int i = 1; i <= n; i++) {
         g[i][0] = g[i-1][0] + g[i-1][1];
-        g[i][1] = g[i][0];
+        g[i][1] = g[i-1][0] + g[i-1][1];
     }
 
     std::vector<std::vector<modular>> f(NBIT, std::vector<modular> (n + 1, 0));
