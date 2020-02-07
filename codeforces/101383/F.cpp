@@ -1,11 +1,55 @@
-#ifndef ONLINE_JUDGE
-#define _GLIBCXX_DEBUG
+
+/*
+#pragma GCC optimize("O3")
+#ifdef ONLINE_JUDGE
+#pragma GCC target("avx,avx2,fma,popcount")
 #endif
-#include<bits/stdc++.h>
-#define DEBUG(X) { auto _X = (X); std::cerr << "L" << __LINE__ << ": " << #X << " = " << (_X) << std::endl; }
+#pragma GCC optimize("unroll-loops")
+*/
+#include "bits/stdc++.h"
+using namespace std;
+
+#define int long long
+#define FOR(i, a, b) for (int i = (a), _##i = (b); i <= _##i; ++i)
+#define FORD(i, a, b) for (int i = (a), _##i = (b); i >= _##i; --i)
 #define REP(i, a) for (int i = 0, _##i = (a); i < _##i; ++i)
-#define PR0(A, n) { std::cerr << "L" << __LINE__ << ": " << #A << " = "; REP(_, n) std::cerr << A[_] << ' '; std::cerr << std::endl; }
- 
+#define REPD(i,n) for(int i = (n)-1; i >= 0; --i)
+
+#define DEBUG(X) { auto _X = (X); cerr << "L" << __LINE__ << ": " << #X << " = " << (_X) << endl; }
+#define PR(A, n) { cerr << "L" << __LINE__ << ": " << #A << " = "; FOR(_, 1, n) cerr << A[_] << ' '; cerr << endl; }
+#define PR0(A, n) { cerr << "L" << __LINE__ << ": " << #A << " = "; REP(_, n) cerr << A[_] << ' '; cerr << endl; }
+
+#define sqr(x) ((x) * (x))
+#define ll long long
+// On CF, GNU C++ seems to have some precision issues with long double?
+// #define double long double
+typedef pair<int, int> II;
+#define __builtin_popcount __builtin_popcountll
+#define SZ(x) ((int)(x).size())
+#define ALL(a) (a).begin(), (a).end()
+#define MS(a,x) memset(a, x, sizeof(a))
+#define stat akjcjalsjcjalscj
+#define hash ajkscjlsjclajsc
+#define next ackjalscjaowjico
+#define prev ajcsoua0wucckjsl
+#define y1 alkscj9u20cjeijc
+#define left lajcljascjljl
+#define right aucouasocjolkjl
+#define y0 u9cqu3jioajc
+
+#define TWO(X) (1LL<<(X))
+#define CONTAIN(S,X) (((S) >> (X)) & 1)
+
+long long rand16() {
+    return rand() & (TWO(16) - 1);
+}
+long long my_rand() {
+    return rand16() << 32 | rand16() << 16 | rand16();
+}
+
+double safe_sqrt(double x) { return sqrt(max((double)0.0, x)); }
+int GI(long long& x) { return scanf("%lld", &x); }
+
 inline void fasterLLDivMod(unsigned long long x, unsigned y, unsigned &out_d, unsigned &out_m) {
 	unsigned xh = (unsigned)(x >> 32), xl = (unsigned)x, d, m;
 #ifdef __GNUC__
@@ -25,18 +69,25 @@ inline void fasterLLDivMod(unsigned long long x, unsigned y, unsigned &out_d, un
 #endif
 	out_d = d; out_m = m;
 }
- 
+
 template<int MOD>
 struct ModInt {
-	static const int Mod = MOD;
 	unsigned x;
-	ModInt() : x(0) { }
+
+    explicit constexpr operator int() const { return x; }
+
+	constexpr ModInt() : x(0) { }
 	ModInt(signed sig) { int sigt = sig % MOD; if (sigt < 0) sigt += MOD; x = sigt; }
 	ModInt(signed long long sig) { int sigt = sig % MOD; if (sigt < 0) sigt += MOD; x = sigt; }
-	int get() const { return (int)x; }
- 
-	ModInt &operator+=(ModInt that) { if ((x += that.x) >= MOD) x -= MOD; return *this; }
-	ModInt &operator-=(ModInt that) { if ((x += MOD - that.x) >= MOD) x -= MOD; return *this; }
+
+#define COMPAREOP(OP) bool constexpr operator OP(ModInt b) const { return x OP b.x; }
+    COMPAREOP(==) COMPAREOP(!=) COMPAREOP(<) COMPAREOP(>) COMPAREOP(<=) COMPAREOP(>=)
+#undef COMPAREOP
+
+    ModInt operator-() const { return ModInt(x ? MOD - x : 0); }
+
+	ModInt constexpr& operator+=(ModInt that) { if ((x += that.x) >= MOD) x -= MOD; return *this; }
+	ModInt constexpr& operator-=(ModInt that) { if ((x += MOD - that.x) >= MOD) x -= MOD; return *this; }
 	ModInt &operator*=(ModInt that) {
 		unsigned dummy;
 		fasterLLDivMod((unsigned long long)x * that.x, MOD, dummy, x);
@@ -53,17 +104,13 @@ struct ModInt {
 };
 const int MOD = 1e9 + 7;
 using modular = ModInt<MOD>;
- 
+
 std::ostream& operator << (std::ostream& cout, const modular& m) {
     cout << m.x;
     return cout;
 }
-std::istream& operator << (std::istream& cin, modular& m) {
-    cin >> m.x;
-    return cin;
-}
- 
-int main() {
+
+int32_t main() {
     freopen("meganim.in", "r", stdin);
     freopen("meganim.out", "w", stdout);
  
@@ -114,4 +161,5 @@ int main() {
     }
  
     std::cout << f[NBIT-1][n] << std::endl;
+    return 0;
 }
