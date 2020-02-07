@@ -150,10 +150,8 @@ fn main() {
 			d[i][j] = (s % 1000) as i32;
 			s = s * 16807 % 2147483647;
 
-			unsafe {
-				if *d.get_unchecked(i).get_unchecked(j) == 0 {
-					graph.add_directed_edge(i, j);
-				}
+			if d[i][j] == 0 {
+				graph.add_directed_edge(i, j);
 			}
 		}
 	}
@@ -171,13 +169,10 @@ fn main() {
 	let mut c = vec![vec![1011; n_comp]; n_comp];
 	for i in 0..n {
 		for j in 0..n {
-			unsafe {
-				let ci = *comp_id.get_unchecked(i);
-				let cj = *comp_id.get_unchecked(j);
+			let ci = comp_id[i];
+			let cj = comp_id[j];
 
-				c[ci][cj] = min(*c.get_unchecked(ci).get_unchecked(cj),
-								*d.get_unchecked(i).get_unchecked(j));
-			}
+			c[ci][cj] = min(c[ci][cj], d[i][j]);
 		}
 	}
 
@@ -187,7 +182,7 @@ fn main() {
 			for j in 0..n_comp {
 				unsafe {
 					c[i][j] = min(*c.get_unchecked(i).get_unchecked(j),
-								  *c.get_unchecked(i).get_unchecked(k) + *c.get_unchecked(k).get_unchecked(j));
+								  c.get_unchecked(i).get_unchecked(k) + c.get_unchecked(k).get_unchecked(j));
 				}
 			}
 		}
@@ -197,11 +192,9 @@ fn main() {
 	let mut r: i64 = 0;
 	for i in 0..n {
 		for j in 0..n {
-			unsafe {
-				let ci = *comp_id.get_unchecked(i);
-				let cj = *comp_id.get_unchecked(j);
-				r = (r * 16807 + *c.get_unchecked(ci).get_unchecked(cj) as i64) % 2147483647;
-			}
+			let ci = comp_id[i];
+			let cj = comp_id[j];
+			r = (r * 16807 + c[ci][cj] as i64) % 2147483647;
 		}
 	}
 	writeln!(writer, "{}", r).ok();
