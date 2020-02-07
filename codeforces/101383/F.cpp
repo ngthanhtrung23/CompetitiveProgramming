@@ -77,8 +77,8 @@ struct ModInt {
     explicit constexpr operator int() const { return x; }
 
 	constexpr ModInt() : x(0) { }
-	ModInt(signed sig) { int sigt = sig % MOD; if (sigt < 0) sigt += MOD; x = sigt; }
-	ModInt(signed long long sig) { int sigt = sig % MOD; if (sigt < 0) sigt += MOD; x = sigt; }
+	constexpr ModInt(signed sig) : x(sig % MOD) { if (x < 0) x += MOD; }
+    constexpr ModInt(signed long long sig) : x(sig % MOD) { if (x < 0) x += MOD; }
 
 #define COMPAREOP(OP) bool constexpr operator OP(ModInt b) const { return x OP b.x; }
     COMPAREOP(==) COMPAREOP(!=) COMPAREOP(<) COMPAREOP(>) COMPAREOP(<=) COMPAREOP(>=)
@@ -111,6 +111,10 @@ std::ostream& operator << (std::ostream& cout, const modular& m) {
 }
 
 int32_t main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout << (fixed) << setprecision(9) << boolalpha;
+
     freopen("meganim.in", "r", stdin);
     freopen("meganim.out", "w", stdout);
  
