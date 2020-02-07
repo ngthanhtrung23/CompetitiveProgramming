@@ -1,9 +1,9 @@
 // Idea: there should be many 0-edges
 
+#ifndef ONLINE_JUDGE
+#define _GLIBCXX_DEBUG
+#endif
 #include<bits/stdc++.h>
-#pragma GCC optimize("O3")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
-#pragma GCC optimize("unroll-loops")
 #define DEBUG(X) { auto _X = (X); std::cerr << "L" << __LINE__ << ": " << #X << " = " << (_X) << std::endl; }
 #define PR0(A, n) { std::cerr << "L" << __LINE__ << ": " << #A << " = "; REP(_, n) std::cerr << A[_] << ' '; std::cerr << std::endl; }
 
@@ -82,18 +82,15 @@ int main() {
 
     std::vector<std::vector<int> > c(nComp, std::vector<int> (nComp, 1011));
 
-    auto updMin = [] (int&f , int val) {
-        if (val < f) f = val;
-    };
     REP(i,n) REP(j,n) {
         int ci = compId[i];
         int cj = compId[j];
-        updMin(c[ci][cj], d[i][j]);
+        c[ci][cj] = std::min(c[ci][cj], d[i][j]);
     }
 
     // Floyd on new graph
     REP(k,nComp) REP(i,nComp) REP(j,nComp) {
-        updMin(c[i][j], c[i][k] + c[k][j]);
+        c[i][j] = std::min(c[i][j], c[i][k] + c[k][j]);
     }
 
     long long r = 0;
