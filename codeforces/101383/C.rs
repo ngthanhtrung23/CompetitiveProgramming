@@ -69,7 +69,7 @@ struct StronglyConnectedComponents {
 	sccs: Vec<Vec<usize>>,  // The strongly connected components.
 	num: Vec<i32>,
 	low: Vec<i32>,
-	current: Vec<bool>,
+	current: Vec<usize>,
 	st: Vec<usize>,
 	counter: i32,
 }
@@ -81,7 +81,7 @@ impl StronglyConnectedComponents {
 			sccs: vec![],
 			num: vec![-1; v],
 			low: vec![0; v],
-			current: vec![false; v],
+			current: vec![0; v],
 			st: vec![],
 			counter: 0,
 		}
@@ -105,13 +105,13 @@ impl Graph {
 		result.counter += 1;
 
 		result.st.push(u);
-		result.current[u] = true;
+		result.current[u] = 1;
 
 		for &v in self.adjs[u].iter() {
 			if result.num[v] == -1 {
 				self.dfs(v, result);
 			}
-			if result.current[v] {
+			if result.current[v] != 0 {
 				result.low[u] = min(result.low[u], result.low[v]);
 			}
 		}
@@ -119,7 +119,7 @@ impl Graph {
 		if result.low[u] == result.num[u] {
 			let mut scc = vec![];
 			while let Some(v) = result.st.pop() {
-				result.current[v] = false;
+				result.current[v] = 0;
 				scc.push(v);
 				if u == v {
 					break;
@@ -138,7 +138,6 @@ fn main() {
 	let mut s = scanner.next::<i64>();
 	let mut graph = Graph::new(n);
 
-	// Build original graph.
 	let mut d = vec![vec![0; n]; n];
 	for i in 0..n {
 		for j in 0..n {
