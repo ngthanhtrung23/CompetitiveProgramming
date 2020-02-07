@@ -82,15 +82,18 @@ int main() {
 
     std::vector<std::vector<int> > c(nComp, std::vector<int> (nComp, 1011));
 
+    auto updMin = [] (int&f , int val) {
+        if (val < f) f = val;
+    };
     REP(i,n) REP(j,n) {
         int ci = compId[i];
         int cj = compId[j];
-        c[ci][cj] = std::min(c[ci][cj], d[i][j]);
+        updMin(c[ci][cj], d[i][j]);
     }
 
     // Floyd on new graph
     REP(k,nComp) REP(i,nComp) REP(j,nComp) {
-        c[i][j] = std::min(c[i][j], c[i][k] + c[k][j]);
+        updMin(c[i][j], c[i][k] + c[k][j]);
     }
 
     long long r = 0;
