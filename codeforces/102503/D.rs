@@ -41,10 +41,11 @@ fn main() {
 	let mut all: HashSet<i32> = HashSet::new();
 	loop {
 		let query = scanner.next::<String>();
+		if query.starts_with("END") {
+			break;
+		}
+
 		match query.as_str() {
-			"END" => {
-				break;
-			}
 			"+" => {
 				let q1 = scanner.next::<String>();
 				let q2 = scanner.next::<String>();
