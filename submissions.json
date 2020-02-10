@@ -29150,6 +29150,18 @@
     ],
     "timestamp": "Feb/08/2020 22:37"
   },
+  "CF70705040": {
+    "contest_id": 102503,
+    "language": "GNU C++17",
+    "path": "codeforces/102503/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Bogart Gets Disqualified",
+    "problem_url": "https://codeforces.com/gym/102503",
+    "submission_id": "CF70705040",
+    "submission_url": "https://codeforces.com/gym/102503/submission/70705040",
+    "tags": [],
+    "timestamp": "Feb/10/2020 12:49"
+  },
   "CF70705270": {
     "contest_id": 102503,
     "language": "GNU C++17",
