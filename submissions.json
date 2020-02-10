@@ -29150,6 +29150,18 @@
     ],
     "timestamp": "Feb/08/2020 22:37"
   },
+  "CF70711878": {
+    "contest_id": 102503,
+    "language": "Rust",
+    "path": "codeforces/102503/D.rs",
+    "problem_index": "D",
+    "problem_name": "Union Found",
+    "problem_url": "https://codeforces.com/gym/102503",
+    "submission_id": "CF70711878",
+    "submission_url": "https://codeforces.com/gym/102503/submission/70711878",
+    "tags": [],
+    "timestamp": "Feb/10/2020 15:14"
+  },
   "CF714521": {
     "contest_id": 117,
     "language": "GNU C++",
