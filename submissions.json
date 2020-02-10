@@ -29150,6 +29150,18 @@
     ],
     "timestamp": "Feb/08/2020 22:37"
   },
+  "CF70705270": {
+    "contest_id": 102503,
+    "language": "GNU C++17",
+    "path": "codeforces/102503/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Partial Reduplication",
+    "problem_url": "https://codeforces.com/gym/102503",
+    "submission_id": "CF70705270",
+    "submission_url": "https://codeforces.com/gym/102503/submission/70705270",
+    "tags": [],
+    "timestamp": "Feb/10/2020 12:56"
+  },
   "CF70706231": {
     "contest_id": 102503,
     "language": "GNU C++17",
