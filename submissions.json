@@ -29150,6 +29150,18 @@
     ],
     "timestamp": "Feb/08/2020 22:37"
   },
+  "CF70704772": {
+    "contest_id": 102503,
+    "language": "GNU C++17",
+    "path": "codeforces/102503/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Vincent Adultman",
+    "problem_url": "https://codeforces.com/gym/102503",
+    "submission_id": "CF70704772",
+    "submission_url": "https://codeforces.com/gym/102503/submission/70704772",
+    "tags": [],
+    "timestamp": "Feb/10/2020 12:41"
+  },
   "CF70705040": {
     "contest_id": 102503,
     "language": "GNU C++17",
