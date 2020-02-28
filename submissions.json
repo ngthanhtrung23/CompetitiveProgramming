@@ -1,4 +1,21 @@
 {
+  "CF72046033": {
+    "contest_id": 978,
+    "language": "GNU C++17",
+    "path": "codeforces/978/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Mentors",
+    "problem_url": "https://codeforces.com/contest/978/problem/F",
+    "submission_id": "CF72046033",
+    "submission_url": "https://codeforces.com/contest/978/submission/72046033",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Feb/28/2020 23:29"
+  },
   "CF72046588": {
     "contest_id": 924,
     "language": "GNU C++17",
