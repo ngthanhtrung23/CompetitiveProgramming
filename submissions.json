@@ -1,4 +1,20 @@
 {
+  "CF72050354": {
+    "contest_id": 691,
+    "language": "Python 3",
+    "path": "codeforces/691/B.py",
+    "problem_index": "B",
+    "problem_name": "s-palindrome",
+    "problem_url": "https://codeforces.com/contest/691/problem/B",
+    "submission_id": "CF72050354",
+    "submission_url": "https://codeforces.com/contest/691/submission/72050354",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Feb/29/2020 00:42"
+  },
   "CF72051389": {
     "contest_id": 1268,
     "language": "GNU C++17",
