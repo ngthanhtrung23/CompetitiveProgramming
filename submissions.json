@@ -1,4 +1,20 @@
 {
+  "CF72044268": {
+    "contest_id": 883,
+    "language": "GNU C++17",
+    "path": "codeforces/883/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Field of Wonders",
+    "problem_url": "https://codeforces.com/contest/883/problem/E",
+    "submission_id": "CF72044268",
+    "submission_url": "https://codeforces.com/contest/883/submission/72044268",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Feb/28/2020 22:58"
+  },
   "CF72044966": {
     "contest_id": 1223,
     "language": "GNU C++17",
