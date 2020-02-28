@@ -1,4 +1,21 @@
 {
+  "CF72045500": {
+    "contest_id": 353,
+    "language": "GNU C++17",
+    "path": "codeforces/353/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Find Maximum",
+    "problem_url": "https://codeforces.com/contest/353/problem/C",
+    "submission_id": "CF72045500",
+    "submission_url": "https://codeforces.com/contest/353/submission/72045500",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Feb/28/2020 23:20"
+  },
   "CF72046033": {
     "contest_id": 978,
     "language": "GNU C++17",
