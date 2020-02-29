@@ -1,4 +1,20 @@
 {
+  "CF72077509": {
+    "contest_id": 319,
+    "language": "GNU C++17",
+    "path": "codeforces/319/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Malek Dance Club",
+    "problem_url": "https://codeforces.com/contest/319/problem/A",
+    "submission_id": "CF72077509",
+    "submission_url": "https://codeforces.com/contest/319/submission/72077509",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Feb/29/2020 14:09"
+  },
   "CF75251768": {
     "contest_id": 1331,
     "language": "Python 2",
