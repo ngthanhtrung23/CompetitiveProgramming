@@ -1,4 +1,16 @@
 {
+  "CF75251768": {
+    "contest_id": 1331,
+    "language": "Python 2",
+    "path": "codeforces/1331/A.py",
+    "problem_index": "A",
+    "problem_name": "Is it rated?",
+    "problem_url": "https://codeforces.com/contest/1331/problem/A",
+    "submission_id": "CF75251768",
+    "submission_url": "https://codeforces.com/contest/1331/submission/75251768",
+    "tags": [],
+    "timestamp": "Apr/02/2020 22:31"
+  },
   "CF75252412": {
     "contest_id": 1331,
     "language": "Python 3",
