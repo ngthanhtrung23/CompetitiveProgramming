@@ -1,4 +1,19 @@
 {
+  "CF75252412": {
+    "contest_id": 1331,
+    "language": "Python 3",
+    "path": "codeforces/1331/B.py",
+    "problem_index": "B",
+    "problem_name": "Limericks",
+    "problem_url": "https://codeforces.com/contest/1331/problem/B",
+    "submission_id": "CF75252412",
+    "submission_url": "https://codeforces.com/contest/1331/submission/75252412",
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Apr/02/2020 22:37"
+  },
   "CF75253292": {
     "contest_id": 1331,
     "language": "Python 3",
