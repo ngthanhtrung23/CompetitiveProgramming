@@ -1,4 +1,18 @@
 {
+  "CF75253292": {
+    "contest_id": 1331,
+    "language": "Python 3",
+    "path": "codeforces/1331/D.py",
+    "problem_index": "D",
+    "problem_name": "Again?",
+    "problem_url": "https://codeforces.com/contest/1331/problem/D",
+    "submission_id": "CF75253292",
+    "submission_url": "https://codeforces.com/contest/1331/submission/75253292",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Apr/02/2020 22:45"
+  },
   "CF91657521": {
     "contest_id": 1396,
     "language": "GNU C++17",
