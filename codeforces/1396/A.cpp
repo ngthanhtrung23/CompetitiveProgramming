@@ -10,22 +10,30 @@ int32_t main() {
     vector<int> a(n);
     for (int& x : a) cin >> x;
 
-    const auto f = [&a](int l, int r, int mult) {
-        cout << l << ' ' << r << '\n';
-        for (int i = l; i <= r; i++) {
-            cout << a[i-1] * mult << ' ';
-        }
-        cout << '\n';
-    };
-
     if (n == 1) {
-        f(1, 1, -1);
-        f(1, 1, 0);
-        f(1, 1, 0);
+        cout << 1 << ' ' << 1 << endl;
+        cout << -a[n-1] << endl;
+
+        cout << 1 << ' ' << 1 << endl;
+        cout << 0 << endl;
+
+        cout << 1 << ' ' << 1 << endl;
+        cout << 0 << endl;
         return 0;
     }
 
-    f(1, n-1, n-1);
-    f(n, n, n-1);
-    f(1, n, -n);
+    cout << 1 << ' ' << n-1 << endl;
+    for (int i = 0; i < n-1; i++) {
+        cout << a[i] * (n-1) << ' ';
+    }
+    cout << endl;
+
+    cout << n << ' ' << n << endl;
+    cout << a[n-1] * -1 << endl;
+
+    cout << 1 << ' ' << n << endl;
+    for (int i = 0; i < n; i++) {
+        if (i == n-1) cout << 0 << endl;
+        else cout << -a[i] * n << ' ';
+    }
 }
