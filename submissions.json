@@ -1,4 +1,20 @@
 {
+  "CF92411238": {
+    "contest_id": 1407,
+    "language": "PyPy 3",
+    "path": "codeforces/1407/A.py",
+    "problem_index": "A",
+    "problem_name": "Ahahahahahahahaha",
+    "problem_url": "https://codeforces.com/contest/1407/problem/A",
+    "submission_id": "CF92411238",
+    "submission_url": "https://codeforces.com/contest/1407/submission/92411238",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/10/2020 16:50"
+  },
   "CF97153503": {
     "contest_id": 1437,
     "language": "GNU C++17",
