@@ -1,14 +1,13 @@
-Submissions
+My Competitive Programming code
 ======================
-> *Auto-generated with ❤ using [Harwest](https://github.com/nileshsah/harwest-tool)*
 
-## Introduction
+## ICPC
 
-A repository to keep track of problem solving practise, containing solutions from platforms:
-* Codeforces
-> Codeforces is a website which hosts competitive programming contests: [http://codeforces.com](http://codeforces.com)
+I am one of the problem setters of Vietnam ICPC since 2016. Added my reference solutions for some problems here.
 
-## Contents
+## Codeforces
+
+Codeforces submissions are auto-generated with [Harwest](https://github.com/nileshsah/harwest-tool).
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
