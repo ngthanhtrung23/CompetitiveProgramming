@@ -11,7 +11,7 @@ Codeforces submissions are auto-generated with [Harwest](https://github.com/nile
 
 Only Accepted submissions are included.
 
-All submissions from gyms and virtual contests are here. So also includes submissions from teammates in virtual contests.
+All submissions from gyms and virtual contests are here.
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
