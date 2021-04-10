@@ -1,3 +1,8 @@
+/**
+ * Let s1 and s2 be the 2 answer strings.
+ * Answer is one of (s1, s2, !s1, !s2). Why?
+ */
+
 #include "bits/stdc++.h"
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")

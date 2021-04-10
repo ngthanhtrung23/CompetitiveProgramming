@@ -1,3 +1,7 @@
+# Algo: greedy
+# - For each number, make it the smallest number which is greater than
+#   previous number
+
 ntest = int(raw_input())
 
 def canSame(val, lb, ret):

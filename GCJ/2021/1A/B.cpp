@@ -1,3 +1,11 @@
+/**
+ * sum(group A) = prod(group B)
+ * --> group B has at most 60 numbers
+ * --> sum(group B) does not exceed 30k
+ * --> sum(group A) in [sum_all_numbers - 30k, sum_all_numbers]
+ * --> brute force sum(group A)
+ */
+
 #include "bits/stdc++.h"
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
