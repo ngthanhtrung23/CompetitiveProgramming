@@ -5,6 +5,14 @@ My Competitive Programming code
 
 I am one of the problem setters of Vietnam ICPC since 2016. Added my reference solutions for some problems here.
 
+Also added some solutions from upsolving other regionals / WFs.
+
+## VNOJ
+
+Code for [VNOI Online Judge](https://oj.vnoi.info/) - official OJ in Vietnam.
+
+I livestream solving these problems (in Vietnamese) at [my FB page](https://www.facebook.com/code.cung.rr)
+
 ## Codeforces
 
 Codeforces submissions are auto-generated with [Harwest](https://github.com/nileshsah/harwest-tool).
