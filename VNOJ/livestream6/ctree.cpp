@@ -6,12 +6,13 @@ using namespace std;
 #define SZ(x) ((int)(x).size())
 
 const int MN = 10111;
+const int MAX_COLOR = 10;
 vector<int> ke[MN];
-int f[MN][4];
+int f[MN][MAX_COLOR + 1];
 int color[MN];
 
 void dfs(int u, int fu) {
-    for (int c = 1; c <= 3; c++) {
+    for (int c = 1; c <= MAX_COLOR; c++) {
         f[u][c] = c;
     }
 
@@ -20,9 +21,9 @@ void dfs(int u, int fu) {
 
         dfs(v, u);
 
-        for (int c = 1; c <= 3; c++) {
+        for (int c = 1; c <= MAX_COLOR; c++) {
             int min_fv = 1000111000;
-            for (int c2 = 1; c2 <= 3; c2++) {
+            for (int c2 = 1; c2 <= MAX_COLOR; c2++) {
                 if (c != c2) {
                     min_fv = min(min_fv, f[v][c2]);
                 }
@@ -40,7 +41,7 @@ void trace(int u, int fu, int color_u) {
         if (v == fu) continue;
 
         pair<int,int> min_fv = {1000111000, -1};
-        for (int c = 1; c <= 3; c++) {
+        for (int c = 1; c <= MAX_COLOR; c++) {
             if (c == color_u) continue;
 
             min_fv = min(min_fv, make_pair(f[v][c], c));
@@ -64,7 +65,7 @@ int32_t main() {
 
         dfs(1, -1);
         pair<int,int> res = {1000111000, -1};
-        for (int c = 1; c <= 3; c++) {
+        for (int c = 1; c <= MAX_COLOR; c++) {
             res = min(res, make_pair(f[1][c], c));
         }
 
@@ -77,4 +78,5 @@ int32_t main() {
     }
     return 0;
 }
+
 
