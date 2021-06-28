@@ -105,8 +105,11 @@ int32_t main() {
     while (ntest--) {
         int k, m;
         cin >> k >> m;
+        int MAX_K = 1e9;
+        assert(1 <= k && k <= MAX_K);
+        assert(1 <= m && m <= MAX_K);
 
-        const int INF = 1e12;
+        const int INF = 1e18;
         int left = k, right = INF, res = right;
         while (left <= right) {
             int mid = (left + right) / 2;
@@ -118,12 +121,8 @@ int32_t main() {
             }
         }
         if (res == INF) res = 0;
+        else if (get(res + 1, k) != m - 1) res = 0;
         cout << res << endl;
     }
     return 0;
 }
-
-// k = n
-// res = k = n
-// count(1, n-1), thu tu tu dien < k = k - 1
-
