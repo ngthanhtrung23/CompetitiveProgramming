@@ -31,6 +31,7 @@
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
 using namespace std;
 
+#define int long long
 #define FOR(i, a, b) for (int i = (a), _##i = (b); i <= _##i; ++i)
 #define FORD(i, a, b) for (int i = (a), _##i = (b); i >= _##i; --i)
 #define REP(i, a) for (int i = 0, _##i = (a); i < _##i; ++i)
@@ -74,29 +75,7 @@ mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 // use shuffle instead of random_shuffle
 #define random_shuffle askcjaljc
 
-int INP,AM,REACHEOF;
-#define BUFSIZE (1<<12)
-char BUF[BUFSIZE+1], *inp=BUF;
-#define GETCHAR(INP) { \
-    if(!*inp && !REACHEOF) { \
-        memset(BUF,0,sizeof BUF);\
-        int inpzzz = fread(BUF,1,BUFSIZE,stdin);\
-        if (inpzzz != BUFSIZE) REACHEOF = true;\
-        inp=BUF; \
-    } \
-    INP=*inp++; \
-}
-#define DIG(a) (((a)>='0')&&((a)<='9'))
-#define GN(j) { \
-    AM=0;\
-    GETCHAR(INP); while(!DIG(INP) && INP!='-') GETCHAR(INP);\
-    if (INP=='-') {AM=1;GETCHAR(INP);} \
-    j=INP-'0'; GETCHAR(INP); \
-    while(DIG(INP)){j=10*j+(INP-'0');GETCHAR(INP);} \
-    if (AM) j=-j;\
-}
-
-char s[1000111];
+string s;
 int n, q;
 
 int nn[4000111], lazy[4000111];
@@ -111,10 +90,7 @@ void init(int i, int l, int r) {
     init(i*2, l, mid);
     init(i*2+1, mid+1, r);
 
-    nn[i] = nn[i*2];
-    if (nn[i*2+1] < nn[i]) {
-        nn[i] = nn[i*2+1];
-    }
+    nn[i] = min(nn[i*2], nn[i*2+1]);
 }
 
 void down(int i) {
@@ -142,10 +118,7 @@ void update(int i, int l, int r, int u, int v, int val) {
     update(i*2, l, mid, u, v, val);
     update(i*2+1, mid+1, r, u, v, val);
 
-    nn[i] = nn[i*2];
-    if (nn[i*2+1] < nn[i]) {
-        nn[i] = nn[i*2+1];
-    }
+    nn[i] = min(nn[i*2], nn[i*2+1]);
 }
 
 int get(int i, int l, int r) {
@@ -164,9 +137,9 @@ int get(int i, int l, int r) {
     if (nn[i*2+1] < 2) {
         return get(i*2+1, mid+1, r);
     } else {
-        int leftChild = get(i*2, l, mid);
-        if (leftChild == n+1) return mid+1;
-        else return leftChild;
+        return min(
+                mid + 1,
+                get(i*2, l, mid));
     }
 }
 
@@ -174,7 +147,7 @@ struct DS {
     DS() {
         FOR(i,1,n) {
             if (s[i] == ')') {
-                close.push(i);
+                close.insert(i);
             }
         }
 
@@ -191,42 +164,35 @@ struct DS {
         s[x] = '(' + ')' - s[x];
         if (s[x] == ')') {
             // ( -> )
-            close.push(x);
+            close.insert(x);
             update(1, 1, n, x, n, -2);
         } else {
             // ) -> (
-            // close.erase(x);  // priority queue cannot erase
+            close.erase(x);
             update(1, 1, n, x, n, +2);
         }
     }
 
     int findFirstClose() {
-        while (true) {
-            int x = close.top();
-            if (s[x] == '(') close.pop();
-            else return x;
-        }
+        return *close.begin();
     }
 
     int findFirstOpen() {
         return get(1, 1, n);
     }
 
-    priority_queue<int, std::vector<int>, std::greater<int>> close;
+    set<int> close;
 };
 
 int32_t main() {
-    GN(n); GN(q);
-    FOR(i,1,n) {
-        while (s[i] != '(' && s[i] != ')') {
-            GETCHAR(s[i]);
-        }
-        assert(s[i] == '(' || s[i] == ')');
-    }
+    ios::sync_with_stdio(0); cin.tie(0);
+    cin >> n >> q;
+    cin >> s;
+    s = " " + s + " ";
     DS ds;
 
     while (q--) {
-        int p; GN(p);
+        int p; cin >> p;
 
         // flip p
         ds.flip(p);
@@ -246,8 +212,8 @@ int32_t main() {
         // flip a
         ds.flip(res);
 
-        printf("%d ", res);
+        cout << res << ' ';
     }
-    puts("");
+    cout << endl;
     return 0;
 }
