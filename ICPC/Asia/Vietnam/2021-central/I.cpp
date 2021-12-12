@@ -95,7 +95,6 @@ int32_t main() {
     // u -> v: addEdge(u, v)
     REP(ri,2) REP(i,nRect) REP(rj,2) REP(j,nRect) if (i != j) {
         if (intersect(rects[ri][i], rects[rj][j])) {
-            // add edge (ri, i) -> !(rj, j)
             addEdge(2*i + ri, 2*j + 1-rj);
         }
     }

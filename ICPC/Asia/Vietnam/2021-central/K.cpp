@@ -235,7 +235,6 @@ int32_t main() {
         if (board[r][c] == '#') return -1LL;
         return r * nCol + c;
     };
-
     REP(i,nRow) cin >> board[i];
 
     int n = nRow * nCol;

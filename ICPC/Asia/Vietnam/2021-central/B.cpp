@@ -22,9 +22,10 @@ int main() {
     vector<long long> a(n);
     for (auto& x : a) cin >> x;
 
-    // find largest prod
+    // find largest produdct
     pair<Number, int> res {Number{-1, -1e100}, -1};
-    for (int i = -1; i < n; i++) {  // element to remove; -1 -> remove nothing
+    // loop through all elements to remove; -1 <=> remove nothing
+    for (int i = -1; i < n; i++) {
         Number prod{1, 0.0};
         for (int j = 0; j < n; j++) {
             if (j == i) continue;

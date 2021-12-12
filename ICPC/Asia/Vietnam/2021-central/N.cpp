@@ -34,6 +34,10 @@ int32_t main() {
             need[c - 'a']++;
         }
 
+        // check if it's possible to construct remaining of output if:
+        // - we are currently at position 'start' in S
+        // - we still need nChar more characters
+        // - cur[c] = how many times we need to use character 'c'
         auto can = [ls](int start, int nChar, int _cur[26]) {
             int cur[26];
             REP(i,26) cur[i] = _cur[i];

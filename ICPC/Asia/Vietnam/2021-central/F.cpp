@@ -23,7 +23,9 @@ int32_t main() {
             for (int j = 0; j < (int) pos[i].size(); j++) {
                 int x = j == 0 ? 0 : pos[i][j-1] + 1;
                 int y = pos[i][j];
-                int z = (j+1 == (int) pos[i].size()) ? s.size() - 1 : pos[i][j+1] - 1;
+                int z = (j+1 == (int) pos[i].size()) 
+                    ? s.size() - 1
+                    : pos[i][j+1] - 1;
 
                 res += (y - x + 1) * (z - y + 1);
             }
