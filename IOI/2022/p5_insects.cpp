@@ -8,42 +8,6 @@ using namespace std;
 #define DEBUG(X)
 #endif
 
-/*
-int min_cardinality(int n) {
-    int res = n + 1;  // final result
-
-    // used(i) = true if we already counted species of i
-    std::vector<bool> used(n, false);
-    for (int i = 0; i < n; ++i) {
-        if (!used[i]) {
-            // set containing all insects of this species
-            std::set<int> same_species {i};
-            move_inside(i);
-
-            for (int j = i + 1; j < n; ++j) {
-                if (!used[j]) {
-                    move_inside(j);
-                    if (press_button() == 1 + SZ(same_species)) {
-                        same_species.insert(j);
-                    } else {
-                        move_outside(j);
-                    }
-                }
-            }
-
-            res = std::min(res, SZ(same_species));
-
-            // remove all insects from machine
-            for (int j : same_species) {
-                move_outside(j);
-                used[j] = true;
-            }
-        }
-    }
-    return res;
-}
-*/
-
 int min_cardinality(int n) {
     std::set<int> insides;  // set of insects inside machine
     // lambda functions {{{
