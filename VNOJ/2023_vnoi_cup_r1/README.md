@@ -1,0 +1,3 @@
+- [Problems](https://oj.vnoi.info/contest/vnoicup23_r1)
+- [Solutions for F](https://www.facebook.com/code.cung.rr/posts/pfbid02T3eUzknU6RRBoDR2VxVNNmajNUF3jrKvVcB9RpEbtfvyyRGSo9Pk9Ezavzvxed8il)
+- Solutions of other problems can be viewed from [Problems page](https://oj.vnoi.info/contest/vnoicup23_r1)
