@@ -1,3 +1,4 @@
+// Idea: https://www.facebook.com/code.cung.rr/posts/pfbid036U954o9VFu2Yv9oUov85XQnT3nRBmho2VFyGWtQuTypnrb3BB6mxYtX1kcUemU4fl
 #include "closing.h"
 #include <bits/stdc++.h>
 using namespace std;
